@@ -1,0 +1,158 @@
+In Italy, ##OTHER
+as in most of western Europe, ##OTHER
+medical cannabis is legal. ##GENERIC SENTENCE (STATIC)
+What sets the country apart is that cultivation of the plant is a de facto army monopoly. ##GENERIC SENTENCE (STATIC)
+The only place ##OTHER
+cannabis can be legally grown here ##COERCED STATE (GENERIC)
+is at a heavily guarded military facility in Florence ##BASIC STATE
+where, ##OTHER
+this year, ##OTHER
+two greenhouses produced a yield of about 220 pounds. ##BOUNDED EVENT (SPECIFIC)
+"We do everything in-house," ##GENERALIZING SENTENCE (DYNAMIC)
+said the facility's director, ##BOUNDED EVENT (SPECIFIC)
+Col. Antonio Medica. ##OTHER
+"We grow the plants, ##GENERALIZING SENTENCE (DYNAMIC)
+harvest them, ##GENERALIZING SENTENCE (DYNAMIC)
+dry and grind the leaves, ##GENERALIZING SENTENCE (DYNAMIC)
+sanitize the final product with gamma rays, ##GENERALIZING SENTENCE (DYNAMIC)
+then ship it to pharmacies and hospitals." ##GENERALIZING SENTENCE (DYNAMIC)
+Now the army's involvement in the therapeutic marijuana business is set to expand. ##BASIC STATE
+Under a new budget law ##OTHER
+moving through Parliament, ##UNBOUNDED EVENT (SPECIFIC)
+the cannabis program at the Military Chemical Pharmaceutical Plant is to receive an additional $2 billion in public funding. ##COERCED STATE (SPECIFIC)
+If the bill ##OTHER
+is approved ##COERCED STATE (SPECIFIC)
+as anticipated, ##GENERIC SENTENCE (STATIC)
+military officials say, ##GENERIC SENTENCE (STATIC)
+they expect production to triple within a year. ##GENERIC SENTENCE (STATIC)
+The bill will also make medical cannabis free for all patients, ##COERCED STATE (SPECIFIC)
+with the cost ##OTHER
+covered by the government. ##UNBOUNDED EVENT (SPECIFIC)
+Until now, ##OTHER
+local governments have covered the cost in just 11 of Italy's 21 provinces. ##PERFECT COERCED STATE (GENERIC)
+Not everyone is happy with the army's role, ##GENERIC SENTENCE (STATIC)
+however. ##OTHER
+Some say ##GENERIC SENTENCE (STATIC)
+they believe ##GENERIC SENTENCE (STATIC)
+that even with the new funding, ##OTHER
+the quantity and the quality of Italian-grown cannabis will fall short. ##COERCED STATE (GENERIC)
+To understand ##UNBOUNDED EVENT (GENERIC)
+how the army ##OTHER
+ended up growing pot, ##BOUNDED EVENT (SPECIFIC)
+one has to understand the country's health policy and the way ##COERCED STATE (GENERIC)
+its implementation has, ##OTHER
+at times, ##OTHER
+been delegated to the military. ##PERFECT COERCED STATE (GENERIC)
+Italy legalized cannabis for medical use in 2007, ##BOUNDED EVENT (SPECIFIC)
+with many caveats. ##OTHER
+To grow the plant legally requires special authorization from the Health Ministry's narcotics office, ##GENERIC SENTENCE (HABITUAL)
+which means dealing with the country's infamous bureaucracy. ##GENERIC SENTENCE (HABITUAL)
+As a result, ##OTHER
+no private entrepreneur managed to set up a business, ##COERCED STATE (GENERIC)
+and the drug had to be imported from abroad, ##COERCED STATE (GENERIC)
+making it prohibitively expensive. ##UNBOUNDED EVENT (GENERIC)
+Ten new greenhouses for cannabis cultivation, ##OTHER
+pictured above in May, ##BASIC STATE
+are to be added to the two ##COERCED STATE (SPECIFIC)
+currently used at the armys Florence facility. ##UNBOUNDED EVENT (SPECIFIC)
+The plant hopes to triple its production of medical cannabis to meet the demand of Italian patients ##BASIC STATE
+and to end the need to import from abroad. ##UNBOUNDED EVENT (SPECIFIC) //2
+Since access to medical care here is considered a constitutional right, ##GENERIC SENTENCE (STATIC)
+in 2014 the government assigned the task ##BOUNDED EVENT (GENERIC)
+of growing medical-grade cannabis to the military. ##UNBOUNDED EVENT (GENERIC)
+The army was already responsible for the production of "orphan drugs," ##BASIC STATE
+medications ##OTHER
+that cure rare diseases ##GENERIC SENTENCE (DYNAMIC)
+and are not produced in the market economy. ##COERCED STATE (GENERIC)
+"Producing medicines is a standard part of what the Defense Industries Agency does, ##GENERIC SENTENCE (STATIC)
+because health is a matter of national security," ##GENERIC SENTENCE (STATIC)
+Medica said. ##BOUNDED EVENT (SPECIFIC)
+Problems with the decision soon became apparent, ##BOUNDED EVENT (SPECIFIC)
+according to critics. ##GENERIC SENTENCE (STATIC)
+One difficulty is that the army ##BASIC STATE
+makes only one strain of cannabis, ##GENERALIZING SENTENCE (DYNAMIC)
+called FM2, ##BASIC STATE //4
+which is low in THC, ##BASIC STATE //4
+one of marijuana's main active substances, ##OTHER
+when compared to imported strains. ##GENERALIZING SENTENCE (DYNAMIC) //4
+Andrea Trisciuglio, ##OTHER
+a 39-year-old multiple sclerosis patient from Foggia in southern Italy, ##OTHER
+said ##BOUNDED EVENT (SPECIFIC)
+he has been using medical marijuana for the past 10 years ##PERFECT COERCED STATE (SPECIFIC)
+to mitigate his symptoms ##UNBOUNDED EVENT (SPECIFIC)
+but has found the local supply ineffective. ##PERFECT COERCED STATE (SPECIFIC)
+"The FM2 just doesn't work for patients like me," ##COERCED STATE (SPECIFIC)
+he said. ##BOUNDED EVENT (SPECIFIC)
+"I have to use Bedrocan" ##COERCED STATE (SPECIFIC)
+a variety of cannabis with about 22 percent THC, ##OTHER
+compared to FM2's 8 percent. ##OTHER //2
+Trisciuglio said ##BOUNDED EVENT (SPECIFIC)
+that his local hospital imports Bedrocan from the Netherlands ##GENERALIZING SENTENCE (DYNAMIC)
+but that he sometimes he has to wait as long as a month for it. ##COERCED STATE (SPECIFIC)*
+The trouble with importing cannabis from the Netherlands is that it "is expensive, ##GENERIC SENTENCE (HABITUAL) //3
+which also makes it slow," ##GENERIC SENTENCE (DYNAMIC)
+said Carlo Valente, ##BOUNDED EVENT (SPECIFIC)
+a lawyer in the southern city of Lecce ##OTHER
+who is representing Trisciuglio and other patients. ##UNBOUNDED EVENT (SPECIFIC)
+Dutch medicines, ##OTHER
+he said, ##BOUNDED EVENT (SPECIFIC)
+reach Italy through intermediary agencies, ##GENERIC SENTENCE (DYNAMIC)
+which raises their price. ##GENERIC SENTENCE (DYNAMIC)
+"This is making doctors, ##UNBOUNDED EVENT (GENERIC)
+who already struggle with the social taboo ##GENERIC SENTENCE (DYNAMIC)
+associated with cannabis, ##GENERIC SENTENCE (HABITUAL)
+even more reluctant to prescribe it ##UNBOUNDED EVENT (GENERIC) //2
+and hospital pharmacies less cooperative," ##OTHER
+he said. ##BOUNDED EVENT (SPECIFIC)
+According to an investigation by the magazine Internazionale, ##BASIC STATE
+imported cannabis can cost up to $84 a gram. ##COERCED STATE (GENERIC)
+By contrast, the army-produced cannabis costs $7 a gram, ##GENERIC SENTENCE (DYNAMIC)
+Medica said. ##BOUNDED EVENT (SPECIFIC)
+"We are a nonprofit." ##BASIC STATE
+The medical-grade cannabis ##OTHER
+produced by the Italian army is the strain ##GENERIC SENTENCE (DYNAMIC)
+known as FM2, ##BASIC STATE
+which ##OTHER
+some patients ##OTHER
+say ##GENERIC SENTENCE (STATIC)
+is not as effective as imported varieties. ##BASIC STATE
+But to critics of the system, ##OTHER
+affordability does not cancel out the homegrown product's other shortcomings. ##COERCED STATE (GENERIC)
+In addition to quality issues, ##OTHER
+they say, ##GENERIC SENTENCE (STATIC)
+the army ##OTHER
+lacks the capability to produce all the therapeutic cannabis ##BASIC STATE
+that Italy needs. ##BASIC STATE
+National consumption of the drug is between 880 and 1,000 pounds a year, ##GENERIC SENTENCE (HABITUAL)
+according to military estimates. ##BASIC STATE
+This means ##BASIC STATE
+that even if the military succeeds in tripling its annual production to the anticipated 660 pounds, ##COERCED STATE (SPECIFIC)
+it will not meet the country's need, ##COERCED STATE (SPECIFIC)
+and imports from the Netherlands will still be necessary. ##GENERIC SENTENCE (STATIC)
+To Trisciuglio, ##OTHER
+the army monopoly ##OTHER
+is not in patients' best interest. ##BASIC STATE
+"The army alone is just not enough," ##BASIC STATE
+he said. ##BOUNDED EVENT (SPECIFIC)
+"We need to make it easier ##COERCED STATE (GENERIC)
+for others to grow medical cannabis." ##COERCED STATE (GENERIC)
+In 2012, ##OTHER
+Trisciuglio and other patients petitioned the local government for authorization to grow their own marijuana, ##BOUNDED EVENT (SPECIFIC)
+under supervision, ##OTHER
+but never received a green light. ##COERCED STATE (SPECIFIC)
+Medica, ##OTHER
+however, ##OTHER
+is confident ##BASIC STATE
+that the army ##OTHER
+can meet ##COERCED STATE (SPECIFIC)
+and keep up with the demand, ##COERCED STATE (SPECIFIC)
+perhaps even to the point of sending its own cannabis abroad. ##COERCED STATE (SPECIFIC)
+"We are working around the clock ##UNBOUNDED EVENT (SPECIFIC)
+to increase the production ##UNBOUNDED EVENT (SPECIFIC)
+and are experimenting with a new variant, ##UNBOUNDED EVENT (SPECIFIC)
+for patients ##OTHER
+who are not satisfied with FM2," ##GENERIC SENTENCE (STATIC)
+he said. ##BOUNDED EVENT (SPECIFIC)
+"In the near future, ##OTHER
+we hope to export to San Marino and the Vatican." ##BASIC STATE
+***0 5 5 0 0 0 0 0 YES ML YES 0 0 0 0 HUMAN

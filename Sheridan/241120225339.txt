@@ -1,0 +1,25 @@
+The prosecutor in Willie Nelson's marijuana possession case said ##BOUNDED EVENT (SPECIFIC)
+the country music legend could get off with just a fine ##COERCED STATE (SPECIFIC)
+if he agrees to sing one of his songs in court, ##COERCED STATE (SPECIFIC)
+TMZ reported Monday. ##BOUNDED EVENT (SPECIFIC)
+Nelson, ##OTHER (same as BOUNDED EVENT (SPECIFIC))
+77, ##OTHER
+was busted at a border patrol checkpoint in Sierra Blanca, ##BOUNDED EVENT (SPECIFIC)
+Texas, ##OTHER
+en route to Austin on November 25 last year. ##UNBOUNDED EVENT (SPECIFIC)
+He was arrested but released ##BOUNDED EVENT (SPECIFIC)
+when he posted $2,500 bond at Hudspeth County Jail. ##BOUNDED EVENT (SPECIFIC)
+The prosecutor in the case said ##BOUNDED EVENT (SPECIFIC)
+he was willing to let Nelson off with a $100 fine ##BASIC STATE
+if Nelson performed his song "Blue Eyes Smiling in the Rain" in the courtroom, ##COERCED STATE (SPECIFIC)
+TMZ said. ##BOUNDED EVENT (SPECIFIC)
+The prosecutor reportedly said ##BOUNDED EVENT (SPECIFIC)
+the song would count as Nelson's community service. ##COERCED STATE (SPECIFIC)
+If Nelson chooses not to accept the prosecutor's offer, ##COERCED STATE (SPECIFIC)
+he could face a maximum of 180 days in jail and a $2,000 fine ##COERCED STATE (SPECIFIC)
+if ##OTHER
+convicted ##BOUNDED EVENT (SPECIFIC)
+when he appears in court, ##UNBOUNDED EVENT (SPECIFIC)
+at a date ##OTHER
+yet to be decided. ##COERCED STATE (SPECIFIC)
+***0 5 5 0 0 0 0 0 NO NA YES 0 0 0 0 HUMAN

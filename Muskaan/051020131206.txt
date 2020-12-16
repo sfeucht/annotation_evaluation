@@ -1,0 +1,81 @@
+This is not a reality ##GENERIC SENTENCE (STATIC)
+ nor is it a fiction , ##GENERIC SENTENCE (STATIC)
+ it is in the eternal struggle of Americans . ##GENERIC SENTENCE (STATIC)
+There was the election of Trump , ##BASIC STATE //3
+ there was the rise of Trumpism , ##UNBOUNDED EVENT
+ there was the marginalization of conservatives in the senate , ##UNBOUNDED EVENT
+ and there was a conservative minority in Congress . ##BASIC STATE
+The victorious Trump was the elected embodiment of this strange dichotomy , ##BASIC STATE
+ here in America , ##OTHER
+ we have some large , small , liberal states ##BASIC STATE
+ using anti-bureaucratic muscle and their unrealistic , empty dreams of national power and greater government . ##GENERALIZING SENTENCE (DYNAMIC)
+On paper we have all the answers , ##GENERIC SENTENCE (STATIC)
+but then not in what is a complex and complicated system of governance , the bureaucracy , the political structures , democracy , and the partisanship ##BASIC STATE
+ that governs politics , legislatures , and oversight . ##GENERALIZING SENTENCE (DYNAMIC)
+Politicians , they should have been established many years ago with different virtues , different values , different ideologies , ##COERCED STATE (GENERIC)
+ varying set of parameters and assumptions and language ##OTHER
+ and they started out with one goal : ##GENERIC SENTENCE (STATIC)
+ to screw , demagogue , ruin , ##GENERIC SENTENCE (DYNAMIC)
+ and overthrow the working class . ##UNBOUNDED EVENT
+The one goal of the non-trivialized Communist Party , the baddy ##OTHER
+ who conspired with communists ##UNBOUNDED EVENT
+ to orchestrate the downfall of the United States and then the Communist League , ##UNBOUNDED EVENT
+ is the overthrow of the corrupt and corrupt elites , governments , power centers , civil liberties and basic security . ##BASIC STATE
+So the first political experiment in modern American society is the systematic overthrow of the system of local government ##BASIC STATE
+and the marginalization of powerful control over the product and liberties on all levels , ##OTHER
+ including the public goods , ##BASIC STATE
+ including the services . ##BASIC STATE
+Here is how you make it happen : ##GENERIC SENTENCE (STATIC)
+ elected officials are controlled by local communities , legislatures , governors mansions , and senatorial representatives . ##GENERIC SENTENCE (DYNAMIC)
+The federal government is therefore subordinate to local governments and the local control of their official interests . ##GENERALIZING SENTENCE (STATIVE)
+On the surface we know all the centralized control in our society , ##GENERIC SENTENCE (STATIC)
+ but our model still requires redistribution , redistribution of wealth , redistribution of revenues , and redistribution of opportunity . ##GENERIC SENTENCE (STATIC)
+Take love thy neighbor as an example : ##IMPERATIVE
+ new universal health care system must be passed , ##GENERIC SENTENCE (STATIC)
+ constitutional amendments ##OTHER
+ requiring all individuals to have insurance ##GENERIC SENTENCE (STATIC)
+ are written and adopted to discourage the practice ##UNBOUNDED EVENT
+ of syphoning down benefits . ##GENERIC SENTENCE (DYNAMIC)
+These want to give in to the public demands of people desperate to see ##GENERIC SENTENCE (STATIC)
+ if they can get a shot at a new life , ##GENERIC SENTENCE (STATIC)
+ because they cant afford the basic basic necessities ##GENERIC SENTENCE (DYNAMIC)
+ that it was not for them . ##GENERIC SENTENCE (STATIC)
+On the surface , yes but ##OTHER
+ if you cut back the government power ##UNBOUNDED EVENT
+ you will end up diminishing the aggregate power of one unelected small group of people ##COERCED STATE (GENERIC)
+ who purport to be democrats . ##GENERIC SENTENCE (DYNAMIC)
+The reach of this system , this world of government , is deeply fragmented and often ludicrous , a little like a small non-civilized family ##GENERIC SENTENCE (HABITUAL)
+ looking at the dynamic of various political factions , ##GENERIC SENTENCE (DYNAMIC)
+ drawing the outline of a less organized family . ##GENERIC SENTENCE (DYNAMIC)
+We need thoughtful monitoring ##BASIC STATE
+ of how the political norms can be more and more diverse , ##GENERIC SENTENCE (HABITUAL) //4
+ also changing the model of governance , ##GENERIC SENTENCE (DYNAMIC)
+ even recognizing ##GENERIC SENTENCE (DYNAMIC)
+ that while one unitary system will have no actual power , ##COERCED STATE (GENERIC)
+ the definition of separate and unable states may differ based on member number , demographic characteristics , hierarchy and interests . ##BASIC STATE
+We need a federation of states ##GENERIC SENTENCE (STATIC)
+ which coordinates our society . ##GENERALIZING SENTENCE (DYNAMIC)
+There are state governments ##GENERIC SENTENCE (STATIC)
+ that are both conglomerates and supra-royal and quite the cool polytechnic kind of group . ##GENERIC SENTENCE (STATIC)
+There are state and state-specific elections and a constitution ##GENERIC SENTENCE (STATIC)
+ that reflects their individual communities and international alliances . ##BASIC STATE
+You will find too many such councils to really have a role in making a well-rounded state , ##GENERIC SENTENCE (STATIC)
+ but there are two possibilities ##BASIC STATE
+ that may emerge , one ##COERCED STATE (SPECIFIC)
+ being pragmatic states like Utah and Vermont ##GENERIC SENTENCE (STATIC)
+ that start out producing the goods ##GENERIC SENTENCE (DYNAMIC)
+ that everyone needs , ##BASIC STATE //2
+ that also have direct influence over the results of local races . ##GENERIC SENTENCE (STATIC)
+Each one , however , should be mindful of the differences among its population groups , 
+ and that also allows state-level branches of politics . ##COERCED STATE (SPECIFIC)
+I could go on and on but my preference is to conserve as much power as possible , ##BASIC STATE
+ limit the right of anyone on any level of government ##GENERIC SENTENCE (DYNAMIC)
+ to control every aspect of our society ##GENERALIZING SENTENCE (DYNAMIC)
+ to subsidize the legislators of our elected representatives , ##GENERIC SENTENCE (DYNAMIC)
+ to set the terms of basic liberty in a sound and rational way , ##GENERALIZING SENTENCE (DYNAMIC)
+ to ensure ##GENERALIZING SENTENCE (DYNAMIC)
+ that the state never has too much influence on everything but the economic interests of the state , ##GENERIC SENTENCE (HABITUAL)
+ to not default to the status quo , ##GENERIC SENTENCE (HABITUAL)
+ or to independence . ##OTHER
+
+***0 5 5 1 4 3 4 3 YES UC YES 2 2 4 5 HUMAN

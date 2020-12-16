@@ -1,0 +1,189 @@
+When you and your buds get the munchies on April 20, ##BOUNDED EVENT (GENERIC)
+the high holiday for marijuana users, ##OTHER
+a small army of marketing professionals ##OTHER
+is working to ensure ##UNBOUNDED EVENT (GENERIC)
+that in your haze, ##OTHER
+you'll reach for their brand of blazed, er, glazed doughnuts. ##COERCED STATE (GENERIC)
+Or Totino's Pizza Rolls. ##OTHER
+Or Burger King. ##OTHER
+Or any other brand of junk food even from a wholesome, ##OTHER
+family-friendly company that suspects ##GENERIC SENTENCE (STATIC)
+its biggest fans may be spending the day more flame-broiled than a Whopper. ##COERCED STATE (GENERIC)
+4/20, ##OTHER
+as the holiday is known, ##BASIC STATE
+is when brands ##BASIC STATE
+want you to get baked (goods). ##GENERIC SENTENCE (HABITUAL)
+They want you to have a huge (ice cream) bowl or a (burrito) roll. ##GENERIC SENTENCE (HABITUAL)
+In other words, ##OTHER
+it's the day ##BASIC STATE
+when corporate-sanctioned pot puns fly high on Twitter. ##GENERIC SENTENCE (DYNAMIC)
+It's no surprise ##BASIC STATE
+that Ben & Jerry's, ##OTHER
+the tie-dyed Vermont ice cream maker ##OTHER
+that has named ice creams "Half Baked" and "Phish Food" and "Dave Matthews Band Magic Brownies," would capitalize on the spirit of 4/20. ##PERFECT COERCED STATE (SPECIFIC)
+"Jerry and Ben started the company in 1978, ##BOUNDED EVENT (SPECIFIC)
+and they were definitely two hippies ##BASIC STATE
+that were enjoying life, ##UNBOUNDED EVENT (SPECIFIC)
+if you will," ##OTHER //1
+said spokeswoman Lindsay Bumps. ##BOUNDED EVENT (SPECIFIC)
+Two years ago, ##OTHER
+on 4/20, ##OTHER
+the brand's scoop shops debuted the Brrr-ito, ##BOUNDED EVENT (SPECIFIC)
+an ice-cream filled burrito ##OTHER
+that definitely seems like a late-night stoner innovation. ##BASIC STATE
+This year. ##OTHER
+they're introducing another new menu item: ##UNBOUNDED EVENT (SPECIFIC)
+The Chill-aco, ##OTHER
+a waffle-cone taco with two scoops of ice cream and fudge drizzle, ##OTHER
+"which gives it that ooey-gooey component," ##UNBOUNDED EVENT (SPECIFIC) //4
+Bumps said. ##BOUNDED EVENT (SPECIFIC)
+"I think ##BASIC STATE
+a lot of brands aim to stand out on that day." ##GENERIC SENTENCE (STATIC)
+The same goes for Lagunitas. ##BASIC STATE
+The northern California brewery, ##OTHER
+owned in part by Heineken, ##BASIC STATE
+is bringing back its Waldos' Ale, ##UNBOUNDED EVENT (SPECIFIC)
+a beer ##OTHER
+that Washington Post beer columnist Fritz Hahn called "the stickiest of the icky." ##BOUNDED EVENT (SPECIFIC)
+The Waldos were a group of students ##BASIC STATE
+who are said to have coined the term 420 in the 1970s ##GENERIC SENTENCE (DYNAMIC)
+and who worked with the brewery ##BOUNDED EVENT (SPECIFIC)
+to develop the beer's dank flavor. ##UNBOUNDED EVENT (SPECIFIC)
+It's "one of our best selling beers," ##BASIC STATE
+said spokeswoman Karen Hamilton. ##BOUNDED EVENT (SPECIFIC)
+Alluding to marijuana in names for beer is "just something ##GENERIC SENTENCE (STATIC)
+that we've always done, ##PERFECT COERCED STATE (SPECIFIC) //3
+and it's not only on April 20." ##BASIC STATE
+But it's not just companies from the liberal enclaves of California and Vermont ##GENERIC SENTENCE (STATIC)
+who are partaking in 4/20 marketing campaigns. ##UNBOUNDED EVENT (GENERIC)
+It's also big, ##GENERIC SENTENCE (STATIC)
+mainstream brands, ##OTHER
+such as Pepsi, Chipotle, Burger King and Denny's, ##OTHER
+all of whom have alluded to 4/20 on social media in previous years. ##PERFECT COERCED STATE (GENERIC)
+If you make food ##COERCED STATE (GENERIC)
+that's baked, ##GENERIC SENTENCE (STATIC)
+or comes in a bowl, ##GENERIC SENTENCE (DYNAMIC)
+well, ##OTHER
+the ad copy writes itself. ##UNBOUNDED EVENT (GENERIC)
+Denny's tweeted its favorite, ##BOUNDED EVENT (SPECIFIC)
+allegedly culinary words: ##OTHER
+"Baked, cooked, fried, stewed, toasted." ##OTHER
+Chipotle's photo of a burrito bowl came with the caption, ##BOUNDED EVENT (SPECIFIC)
+"Sometimes you need a huge bowl ##GENERIC SENTENCE (DYNAMIC)
+to get you through the day." ##GENERIC SENTENCE (DYNAMIC)
+Why are they so coy about it though? ##QUESTION
+Even as more states legalize marijuana, ##UNBOUNDED EVENT (GENERIC) //4
+acknowledging 4/20 can still be a tricky business move. ##GENERIC SENTENCE (STATIC)
+So brands ##OTHER
+do it with a wink and a nudge for consumers ##GENERIC SENTENCE (DYNAMIC)
+who know ##GENERIC SENTENCE (STATIC)
+that "fried" doesn't exactly refer to chicken, ##COERCED STATE (SPECIFIC)
+but they stop just short of spelling it out in fear of pushing away their other customers. ##GENERIC SENTENCE (DYNAMIC)
+Case in point: ##OTHER
+Ask any one of these brands ##COERCED STATE (GENERIC) //3
+what it is, ##QUESTION
+exactly, ##OTHER
+that people ##OTHER
+are celebrating on 4/20, ##GENERIC SENTENCE (DYNAMIC)
+and you'll make tricky work ##COERCED STATE (GENERIC)
+for its spokesmen, ##OTHER
+who have to acknowledge the "holiday," ##COERCED STATE (GENERIC)
+but don't want to cross a line for their corporation ##GENERIC SENTENCE (STATIC)
+by actually, ##OTHER
+you know, ##GENERIC SENTENCE (STATIC) 
+acknowledging the holiday. ##UNBOUNDED EVENT (GENERIC)
+Which leads to clinically worded, ##GENERIC SENTENCE (DYNAMIC) 
+coded emails like this one, ##OTHER
+from Totino's Pizza Rolls spokesman Mike Siemienas: ##OTHER
+"Totino's does some regional promotions ##GENERALIZING SENTENCE (DYNAMIC)
+focused on current events in specific markets," ##GENERIC SENTENCE (STATIC)
+he said. ##BOUNDED EVENT (SPECIFIC)
+"We are running a similar campaign this year ##BOUNDED EVENT (SPECIFIC) //4
+by celebrating our fans ##UNBOUNDED EVENT (SPECIFIC)
+who love pizza rolls." ##GENERIC SENTENCE (STATIC)
+But pizza isn't the only thing ##GENERIC SENTENCE (STATIC)
+that's going to be rolling on Thursday right, Mike? ##COERCED STATE (GENERIC)
+Ever the professional, ##OTHER
+he will not budge. ##COERCED STATE (SPECIFIC)
+"This current event is relevant to our pizza roll fans in Colorado ##BASIC STATE
+so that makes it important to us," ##UNBOUNDED EVENT (SPECIFIC)
+Siemienas said in a subsequent email, ##BOUNDED EVENT (SPECIFIC)
+studiously avoiding the words ##UNBOUNDED EVENT (SPECIFIC)
+"marijuana" and "4/20." ##OTHER
+It's pretty clear that the brand knows ##BASIC STATE
+its audience isn't just time-strapped moms and hungry kids. ##GENERIC SENTENCE (STATIC)
+Some of the taglines ##OTHER
+that Totino's will be using in its advertising this week ##COERCED STATE (SPECIFIC)
+will include: ##COERCED STATE (SPECIFIC) //3
+"Remember before you forget," ##IMPERATIVE
+"It's high time for some Pizza Rolls," ##BASIC STATE
+and the very Keanu Reeves-esque, ##OTHER
+"It's pizza. ##BASIC STATE
+In a roll. ##OTHER
+Whoa." ##OTHER
+They've also filmed a riff on "A Christmas Carol," except when Scrooge wakes up in the morning ##PERFECT COERCED STATE (SPECIFIC)
+and looks out the window, ##UNBOUNDED EVENT (SPECIFIC)
+astonished that he hasn't missed the big day 4/20, ##BASIC STATE
+of course he inquires not about the prize turkey in the window, ##COERCED STATE (SPECIFIC)
+but about the availability of pizza rolls. ##OTHER
+It ends with the hashtag #betterwhenbaked. ##BASIC STATE
+Other brands practice flat-out denial. ##GENERIC SENTENCE (DYNAMIC)
+"We're really known for our tongue-in-cheek humor ##BASIC STATE
+but it's pretty coincidental ##BASIC STATE
+that it's coming out on the 20th," ##BOUNDED EVENT (SPECIFIC)
+said Bumps, ##BOUNDED EVENT (SPECIFIC)
+the Ben & Jerry's spokeswoman. ##OTHER
+"That's the official line." ##BASIC STATE
+But professionals in the cannabis industry don't love the pile-on from junk-food brands, ##GENERIC SENTENCE (STATIC)
+which they say ##UNBOUNDED EVENT (GENERIC)
+promotes negative stereotypes about the lifestyle. ##GENERIC SENTENCE (DYNAMIC) 
+Cannabis "is becoming a wellness product. ##UNBOUNDED EVENT (GENERIC)
+We do not want people to believe ##GENERIC SENTENCE (STATIC)
+that you just get munchies, ##GENERIC SENTENCE (DYNAMIC)
+and you're just reaching for junk food. ##GENERIC SENTENCE (DYNAMIC)
+It's part of a healthy lifestyle," ##GENERIC SENTENCE (STATIC)
+said Olivia Mannix, ##BOUNDED EVENT (SPECIFIC)
+chief executive of Cannabrand, ##OTHER
+a marketing agency for cannabis companies. ##OTHER
+The branding pile-on is also, ##GENERIC SENTENCE (STATIC)
+for cannabis connoisseurs, ##OTHER
+a sign ##OTHER
+that their holiday is becoming as commercialized as Christmas or Valentine's Day. ##UNBOUNDED EVENT (SPECIFIC)
+"It's just another holiday for brands to jump on the bandwagon ##BASIC STATE
+to market themselves," ##GENERIC SENTENCE (DYNAMIC)
+said Mannix, ##BOUNDED EVENT (SPECIFIC)
+and already, ##OTHER
+the big brands' pot jokes are played-out cliches." ##GENERIC SENTENCE (STATIC)
+It's going to take a lot ##COERCED STATE (GENERIC)
+to be clever. ##GENERIC SENTENCE (STATIC)
+A lot of the things ##OTHER
+have been said ##PERFECT COERCED STATE (GENERIC)
+and done." ##OTHER
+College kids might get a chuckle out of that burrito ##COERCED STATE (GENERIC)
+that looks like a joint, ##BASIC STATE
+but cannabis consumers are more ##GENERIC SENTENCE (STATIC)
+than just the "Harold and Kumar Go to White Castle" crowd, ##OTHER
+said J.J. Walker, ##BOUNDED EVENT (SPECIFIC)
+the founder of My420Tours, ##OTHER
+a travel company ##OTHER
+that's hosting World Cannabis Week in Colorado April 19 through 23. ##BOUNDED EVENT (SPECIFIC)
+"The bottom line is, ##GENERIC SENTENCE (STATIC) 
+this is a really good spending demographic" ##GENERIC SENTENCE (STATIC)
+that encompasses "everything from your 21-year-old stoner, to CEOs, to your grandma," ##GENERIC SENTENCE (STATIC)
+Walker said. ##BOUNDED EVENT (SPECIFIC)
+"Once these brands get over themselves ##COERCED STATE (GENERIC) //4
+and realize ##BOUNDED EVENT (GENERIC) //4
+what cannabis can do, ##COERCED STATE (GENERIC)
+I think ##BASIC STATE
+you're going to see a lot of brands coming on board." ##COERCED STATE (GENERIC)
+In the meantime, ##OTHER
+don't expect the digital marketing teams behind your favorite brands to be, well, blunt. ##IMPERATIVE
+Bumps says ##UNBOUNDED EVENT (SPECIFIC)
+that even though Ben & Jerry's has a good sense of humor on Twitter. ##BASIC STATE
+they have to be careful not to go too far. ##BASIC STATE
+"We try to get almost to that line, ##GENERALIZING SENTENCE (DYNAMIC)
+but we never really cross that line," ##COERCED STATE (SPECIFIC)
+Bumps said. ##BOUNDED EVENT (SPECIFIC)
+Though she will acknowledge, ##COERCED STATE (SPECIFIC)
+"Our numbers in store do quite well on that day." ##GENERALIZING SENTENCE (DYNAMIC)
+***0 5 3 0 0 0 0 0 YES ML YES UNCLEAR(4) 0 0 0 HUMAN

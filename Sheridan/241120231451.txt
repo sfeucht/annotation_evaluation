@@ -1,0 +1,41 @@
+Willie Nelson was arrested in Sierra Blanca, Texas on Friday for possession of six ounces of pot. ##BOUNDED EVENT (SPECIFIC)
+As a result, ##OTHER
+the country music legend faces as many as two years behind bars. ##UNBOUNDED EVENT (SPECIFIC)
+If the Texas prosecutors do not reduce the charges, ##COERCED STATE (GENERIC)
+and the marijuana's weight is indeed six ounces, ##BASIC STATE
+then he is dealing with felony and a potential minimum of 180 days in a county jail ##UNBOUNDED EVENT (SPECIFIC)
+and a maximum of two years, ##OTHER
+with a $10,000 fine, ##OTHER
+explained former California-based prosecutor, ##BOUNDED EVENT (SPECIFIC)
+Robin Sax. ##OTHER
+The arrest came ##BOUNDED EVENT (SPECIFIC)
+after a border patrol officer smelled the substance on Nelsons tour bus at a checkpoint. ##BOUNDED EVENT (SPECIFIC)
+After the marijuana was discovered, ##BOUNDED EVENT (SPECIFIC)
+the braided country music legend and two others were arrested. ##BOUNDED EVENT (SPECIFIC) 
+Nelson was was held briefly on a $2,500 bond before being released. ##BOUNDED EVENT (SPECIFIC)
+Sax said ##BOUNDED EVENT (SPECIFIC)
+that Nelsons history ##OTHER
+of arrests is likely to work against him in the eyes of the law, ##COERCED STATE (SPECIFIC)
+and, ##OTHER (same as GENERIC SENTENCE (STATIC))
+unlike if his arrest occurred in California, ##COERCED STATE (SPECIFIC)
+jail time is probable. ##GENERIC SENTENCE (STATIC)
+Nelson, ##OTHER (same as BOUNDED EVENT (SPECIFIC))
+77, ##OTHER
+was arrested with one-and-a-half pounds of marijuana and three ounces of hallucinogenic mushrooms on his tour bus in 2006, ##BOUNDED EVENT (SPECIFIC)
+and nine years before that, ##OTHER
+police in Waco, Texas spotted a joint in his cars ash tray, ##BOUNDED EVENT (SPECIFIC)
+prompting another arrest. ##UNBOUNDED EVENT (SPECIFIC)
+Texas is more stringent than California so he could face time. ##GENERIC SENTENCE (HABITUAL)
+One of the issues ##OTHER
+that the court and prosecutors will look at is his prior record ##COERCED STATE (SPECIFIC)
+and given the fact ##UNBOUNDED EVENT (SPECIFIC) //3
+that he has several arrests, ##BASIC STATE
+even recent ones, ##OTHER
+for pot related crimes, ##OTHER
+"Sax said. ##BOUNDED EVENT (SPECIFIC)
+"I would not be surprised ##BASIC STATE
+if Texas decided to stick it to him." ##COERCED STATE (GENERIC)
+Nelson has won multiple Grammys, CMAs, AMAs- ##PERFECT COERCED STATE (SPECIFIC)
+you name it, ##IMPERATIVE
+and is best known for songs like "Crazy" and "On the Road Again." ##BASIC STATE
+***0 5 5 1 5 5 5 1 YES ML YES 0 0 0 0 HUMAN

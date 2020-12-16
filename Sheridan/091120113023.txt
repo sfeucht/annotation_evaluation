@@ -1,0 +1,56 @@
+Whether you think ##GENERIC SENTENCE (STATIC)
+Romney received the skateboard bag or that bushy-browed Forties white guy right here, ##BOUNDED EVENT (SPECIFIC)
+theres no dispute about something: ##GENERIC SENTENCE (STATIC)
+Mitt Romney deserves to be a champion for a cure to medical marijuana use. ##BASIC STATE
+And I mean really, ##BASIC STATE
+for what its worth. ##OTHER
+In yesterdays televised debates, ##OTHER
+Romney defended the policies of the Tax Foundation, ##BOUNDED EVENT (SPECIFIC)
+a group ##OTHER
+founded by George W. Bushs son George W. Bush Sr. and his family, ##BOUNDED EVENT (SPECIFIC)
+which runs a drug policy think tank ##UNBOUNDED EVENT (SPECIFIC)
+called the Tax Foundation. ##BASIC STATE
+Of course, ##OTHER
+Romney completely rejected the Tax Foundations approach, ##BOUNDED EVENT (SPECIFIC)
+calling it an effort to curry favor with Democrats ##UNBOUNDED EVENT (SPECIFIC)
+by promoting the skateboard bag philosophy, ##UNBOUNDED EVENT (GENERIC)
+and stating ##UNBOUNDED EVENT (SPECIFIC)
+that Romney personally recommended it. ##UNBOUNDED EVENT (SPECIFIC)
+Romney himself also questioned Tax Foundation research, ##BOUNDED EVENT (SPECIFIC)
+saying ##UNBOUNDED EVENT (SPECIFIC)
+that Romney himself didnt ##OTHER
+believe ##BASIC STATE
+the only way to succeed is through regulation or oversight. ##GENERIC SENTENCE (STATIC)
+It didnt stop with the tax Foundation. ##COERCED STATE (GENERIC)
+Romney actually called it an effort to foster access to illegal drugs, ##BOUNDED EVENT (SPECIFIC)
+and argued ##UNBOUNDED EVENT (SPECIFIC)
+that regulating the drug industry would serve as an environmental safeguard. ##UNBOUNDED EVENT (GENERIC) //3
+Regardless, ##OTHER
+Romney, ##OTHER
+who wears a skaters bag, ##GENERALIZING SENTENCE (DYNAMIC)
+had about the most interesting laugh about the Tax Foundations commercial for Romney Nutrition. ##BOUNDED EVENT (SPECIFIC) //4
+"Let me tell you, ##IMPERATIVE
+I can't imagine not running for president any longer, ##COERCED STATE (SPECIFIC)
+Romney said to the applause of the crowd. ##BOUNDED EVENT (SPECIFIC)
+He went on to say ##BOUNDED EVENT (SPECIFIC)
+that the current regulations are irrelevant. ##GENERIC SENTENCE (STATIC)
+But the reality is that if Romney wants to be president, ##BASIC STATE
+he can still get the people with a medical marijuana card. ##COERCED STATE (SPECIFIC)
+Founded by George W. Bush and his family in the 1970s, ##BOUNDED EVENT (SPECIFIC)
+the Tax Foundation operates like a lobbying organization, ##GENERALIZING SENTENCE (DYNAMIC)
+but focused on the environment, ##BASIC STATE //4
+and Romney said ##BOUNDED EVENT (SPECIFIC)
+that ##OTHER
+he believes ##BASIC STATE
+that regulation is actually less harmful than the removal of burdens on businesses. ##GENERIC SENTENCE (STATIC)
+There are certain things ##GENERIC SENTENCE (STATIC)
+that are better than nothing, ##GENERIC SENTENCE (STATIC)
+Romney said. ##BOUNDED EVENT (SPECIFIC)
+But the Bid Budgets thats right now in effect arethey are not appropriate, ##BASIC STATE*
+Romney said. ##BOUNDED EVENT (SPECIFIC)
+Except, ##OTHER
+of course, ##OTHER
+for the Tax Foundations stance. ##OTHER
+And yes, ##OTHER
+the Tax Foundation is interested in a cure. ##BASIC STATE
+***0 5 1 0 0 0 0 0 YES ML YES UNCLEAR 3 1 2 ALGORITHM 

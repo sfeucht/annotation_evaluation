@@ -1,0 +1,59 @@
+I'm so sick ##BASIC STATE
+of people saying ##GENERIC SENTENCE (DYNAMIC)
+it's should be legal to smoke weed, ##GENERIC SENTENCE (STATIC)
+weed is bad! ##GENERIC SENTENCE (STATIC)
+it's not fucking healthy ##GENERIC SENTENCE (STATIC)
+in anyway, ##OTHER
+the research ##OTHER
+that shows ##GENERIC SENTENCE (STATIC) //4
+it doesn't do much bad to you ##COERCED STATE (GENERIC)
+is done on people well into adulthood, ##GENERIC SENTENCE (STATIC)
+and those people generally are not tested for very long, ##GENERIC SENTENCE (DYNAMIC)
+and their brains are developed, ##GENERIC SENTENCE (STATIC)
+so those research of course don't show many negative results ##GENERIC SENTENCE (HABITUAL)
+because weed does damage to your brain ##UNBOUNDED EVENT (GENERIC) //4
+that isn't as bad ##GENERIC SENTENCE (STATIC)
+as when you use heroin ##COERCED STATE (GENERIC) //4
+that fucks you badly up instantly, ##GENERIC SENTENCE (DYNAMIC) //4
+now on the other hand, ##OTHER
+research on young people is the one ##GENERIC SENTENCE (STATIC)
+that is showing the bad results, ##GENERIC SENTENCE (STATIC)
+that are true i.e possibility ##GENERIC SENTENCE (STATIC)
+of hindering or disrupting cognitive function and plenty of other bad stuff, ##UNBOUNDED EVENT (GENERIC)
+basically if you're an adult ##GENERIC SENTENCE (STATIC)
+it doesn't do that much bad to you ##COERCED STATE (GENERIC)
+but still can do bad stuff to you, ##COERCED STATE (GENERIC)
+it's very dangerous to young kid's brains and their development. ##GENERIC SENTENCE (STATIC)
+Look weed should be allowed for dying cancer patient and other people ##COERCED STATE (GENERIC)
+who feel ##GENERIC SENTENCE (STATIC)
+awful and just want to enjoy their last living moments peacefully, ##GENERIC SENTENCE (STATIC)
+but how can you possibly justify legalizing weed ##QUESTION
+when it has already shown ##PERFECT COERCED STATE (GENERIC)
+that it does horrible damage to young peoples brains ##GENERIC SENTENCE (DYNAMIC)
+and i'm not talking about teens, ##COERCED STATE (SPECIFIC)
+peoples brains aren't fully developed until 25! ##COERCED STATE (GENERIC) //3
+and has bad effects on adults too? ##GENERIC SENTENCE (STATIC)
+And to those ##OTHER
+who use alcohol death rates as a comparison, ##UNBOUNDED EVENT (GENERIC)
+that doesn't make any fucking sense either!? ##BASIC STATE //4
+alcohol is literal poison, ##GENERIC SENTENCE (STATIC)
+it kills far more yes ##GENERIC SENTENCE (DYNAMIC)
+but that's because the effects of marijuana do not show as prominent as alcohol ##COERCED STATE (GENERIC) //2
+but it still does damage to your body ##GENERIC SENTENCE (DYNAMIC)
+and why try to justify that with the rates of poison ##QUESTION
+that's only legal because of it's history ##GENERIC SENTENCE (STATIC)
+and it's just common in todays culture. ##GENERIC SENTENCE (STATIC)
+I know ##BASIC STATE 
+this was all over the place, ##BASIC STATE
+but what I'm trying to get ##UNBOUNDED EVENT (SPECIFIC)
+across is that weed is bad for you ##GENERIC SENTENCE (STATIC)
+and statistics don't tell you the whole story ##COERCED STATE (GENERIC)
+because of the age range ##OTHER
+those researches ##OTHER
+are made on, ##GENERIC SENTENCE (STATIC)
+but I sure ##OTHER
+as hell wouldn't want my future kids to be in a world ##BASIC STATE
+where weed is easily reachable, ##GENERIC SENTENCE (STATIC)
+but of course ##OTHER
+terminally ill people should have the chance to enjoy their last few living moments happy. ##GENERIC SENTENCE (STATIC)
+***0 5 0 0 0 0 0 0 YES ML YES 1 3 5 3 5 HUMAN

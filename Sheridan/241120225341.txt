@@ -1,0 +1,57 @@
+One the biggest stars in the world, ##OTHER
+Brad Pitt has been nominated for Oscars ##PERFECT COERCED STATE (SPECIFIC)
+and has a gorgeous partner and six kids. ##BASIC STATE
+But in the '90s, ##OTHER
+he nearly puffed away all his good fortune. ##BOUNDED EVENT (SPECIFIC) //4
+"I got really sick of myself at the end of the 1990s: ##BOUNDED EVENT (SPECIFIC)
+I was hiding out from the celebrity thing; ##UNBOUNDED EVENT (SPECIFIC)
+I was smoking way too much dope; ##UNBOUNDED EVENT (SPECIFIC)
+I was sitting on the couch ##UNBOUNDED EVENT (SPECIFIC)
+and just turning into a doughnut; ##UNBOUNDED EVENT (SPECIFIC)
+and I really got irritated with myself," ##BOUNDED EVENT (SPECIFIC)
+the 48-year-old actor tells The Hollywood Reporter. ##UNBOUNDED EVENT (SPECIFIC)
+"I got to: ##BOUNDED EVENT (SPECIFIC)
+'What's the point? ##QUESTION
+I know better than this.'" ##BASIC STATE
+After a life-changing trip to Casablanca, ##OTHER
+Morocco, ##OTHER
+"where I saw poverty to an extreme ##BOUNDED EVENT (SPECIFIC)
+I had never witnessed before," ##COERCED STATE (SPECIFIC)
+Pitt quit smoking weed. ##BOUNDED EVENT (SPECIFIC)
+"I just quit. ##BOUNDED EVENT (SPECIFIC)
+I stopped grass then ##BOUNDED EVENT (SPECIFIC)
+--I mean, ##BASIC STATE
+pretty much-- ##OTHER
+and decided to get off the couch," ##BOUNDED EVENT (SPECIFIC)
+he tells the magazine. ##UNBOUNDED EVENT (SPECIFIC)
+Today, ##OTHER
+the father of six is happily committed to his partner of seven years, ##BASIC STATE
+Angelina Jolie, ##OTHER
+and ##OTHER
+--stop the presses-- ##IMPERATIVE
+he may even marry her. ##COERCED STATE (SPECIFIC)
+"It seems to mean more and more to our kids. ##BASIC STATE
+We made this declaration some time ago ##BOUNDED EVENT (SPECIFIC)
+that we weren't going to do it ##COERCED STATE (SPECIFIC)
+till everyone can. ##COERCED STATE (GENERIC) //2
+But I don't think ##BASIC STATE
+we'll be able to hold out. ##COERCED STATE (SPECIFIC)
+It means so much to my kids, ##BASIC STATE
+and they ask a lot. ##GENERALIZING SENTENCE (DYNAMIC)
+And it means something to me, ##BASIC STATE
+too, ##OTHER
+to make that kind of commitment." ##UNBOUNDED EVENT (SPECIFIC)
+"We haven't closed the book on it. ##COERCED STATE (SPECIFIC)
+There's a really nice balance in the house right now, ##BASIC STATE
+but if we see the need ##COERCED STATE (SPECIFIC)
+and get that lightning bolt ##COERCED STATE (SPECIFIC)
+that says, ##BASIC STATE
+'We can help this person; ##COERCED STATE (SPECIFIC)
+we could do something here,' ##COERCED STATE (SPECIFIC)
+then absolutely," ##OTHER
+he says. ##BASIC STATE
+Pitt may be clean and sober now, ##BASIC STATE
+but his stoner past got us wondering: ##BOUNDED EVENT (SPECIFIC)
+From Pitt to Courtney Love to Winona Ryder, ##OTHER
+which '90s star came out on top and who burned out? ##QUESTION
+***0 5 3 2 5 5 4 2 YES SSM YES 4 0 0 0 HUMAN

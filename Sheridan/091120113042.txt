@@ -1,0 +1,114 @@
+Domestic marijuana growers are harvesting a record $8.2 billion crop of homegrown pot this year, ##BOUNDED EVENT (GENERIC)
+the National Association for the Reform of Marijuana Laws has estimated. ##BOUNDED EVENT (SPECIFIC)
+The 1981 marijuana crop is twice as big as last year's, ##BASIC STATE
+making the illegal herb the nation's fourth most valuable farm product, ##BASIC STATE
+after corn, soybeans and wheat, ##OTHER
+the pro-pot lobbying group claimed. ##BOUNDED EVENT (SPECIFIC)
+A spokesman for the Drug Enforcement Administration called the $8 billion figure "far-fetched" ##BOUNDED EVENT (SPECIFIC)
+but said ##BOUNDED EVENT (SPECIFIC)
+federal authorities recognize ##UNBOUNDED EVENT (GENERIC) //3
+domestic marijuana production is increasing. ##UNBOUNDED EVENT (GENERIC)
+DEA estimated ##BOUNDED EVENT (SPECIFIC)
+the 1979 U.S. pot crop was worth $1 billion to $1.5 billion ##BASIC STATE
+and supplied ##BOUNDED EVENT (SPECIFIC)
+about 10 percent of the marijuana smoked in America that year. ##GENERIC SENTENCE (DYNAMIC)
+"We have no numbers for the 198l crop yet," ##BASIC STATE
+said DEA press officer David Hoover. ##BOUNDED EVENT (SPECIFIC)
+"But based on the tonnage and the total market, ##OTHER //3
+I don't see ##BASIC STATE
+how the domestic marijuana market could be $8.2 billion." ##GENERIC SENTENCE (STATIC)
+George Farnham, ##OTHER
+political director for NORML, ##OTHER
+said ##BOUNDED EVENT (SPECIFIC)
+the organization's estimates are based on law enforcement statistics, newspaper accounts and figures ##BASIC STATE
+supplied by growers. ##BOUNDED EVENT (GENERIC)
+Like law enforcement authorities, ##OTHER
+NORML values marijuana ##GENERALIZING SENTENCE (DYNAMIC)
+based on the price ##GENERIC SENTENCE (STATIC)
+it would bring ##COERCED STATE (GENERIC)
+if sold in small quantities, ##COERCED STATE (GENERIC)
+Farnham said. ##BOUNDED EVENT (SPECIFIC)
+Depending on quality, ##GENERIC SENTENCE (STATIC) //2
+homegrown pot sells for $10 to $150 an ounce, ##GENERIC SENTENCE (DYNAMIC)
+he added. ##BOUNDED EVENT (SPECIFIC) 
+Much of the marijuana ##OTHER
+grown in the United States ##GENERIC SENTENCE (DYNAMIC)
+is smoked by the grower or friends ##GENERIC SENTENCE (DYNAMIC)
+rather than sold, ##COERCED STATE (GENERIC)
+so sales of domestic marijuana are smaller ##GENERIC SENTENCE (STATIC)
+than the $8 billion crop value indicated, ##BASIC STATE //3
+he conceded. ##BOUNDED EVENT (SPECIFIC)
+NORML estimates between 1 million and 2 million Americans grew pot for personal use this year, ##BASIC STATE //4
+but only one-tenth that many grew it commercially. ##BOUNDED EVENT (GENERIC)
+Though several states have removed criminal penalties for possession of small quantities of marijuana, ##PERFECT COERCED STATE (GENERIC)
+growing pot is illegal in every state except Alaska, ##GENERIC SENTENCE (STATIC)
+which permits cultivation for personal consumption. ##UNBOUNDED EVENT (SPECIFIC)
+The total number of marijuana arrests last year was about the same as the year before ##GENERIC SENTENCE (STATIC)
+-- 342,000 -- ##OTHER
+but arrests for cultivation and sale jumped more than 25 percent, ##BOUNDED EVENT (GENERIC)
+from 49,700 to 63,300, ##OTHER
+according to the National Commission on Marijuana and Drug Abuse. ##BASIC STATE
+Marijuana cultivation has spread all over the country from Hawaii and California, ##PERFECT COERCED STATE (GENERIC)
+and 29 states produced crops worth more than $100 million this year, ##BOUNDED EVENT (SPECIFIC)
+Farnham claimed. ##BOUNDED EVENT (SPECIFIC)
+With a crop ##OTHER
+valued at more than $1.5 billion, ##GENERIC SENTENCE (HABITUAL)
+California is the leading marijuana producer, ##BASIC STATE
+NORML says, ##BASIC STATE
+followed by Hawaii at $750 million and Oregon at $400 million. ##BASIC STATE //3
+NORML estimates ##BASIC STATE
+Virginia grew $200 million worth of marijuana this year ##BOUNDED EVENT (SPECIFIC)
+and Maryland produced another $100 million worth. ##BOUNDED EVENT (SPECIFIC)
+Virginia Beach police arrested 180 people one day last August ##BOUNDED EVENT (SPECIFIC)
+for growing pot around apartment complexes, ##UNBOUNDED EVENT (SPECIFIC)
+NORML noted, ##BOUNDED EVENT (SPECIFIC)
+and Scott County authorities found a field with an estimated 15,000 marijuana plants. ##BOUNDED EVENT (SPECIFIC)
+Farnham said ##BOUNDED EVENT (SPECIFIC)
+the growth of domestic pot production has been encouraged by the Reagan administration's decision to cut the budget of DEA ##PERFECT COERCED STATE (SPECIFIC)
+and curtail federal aid to local law enforcement authorities. ##UNBOUNDED EVENT (SPECIFIC)
+The administration recommended cutting the DEA budget 12 percent, ##BOUNDED EVENT (SPECIFIC)
+from $228.5 million to $201 million for fiscal 1982. ##OTHER
+The House and Senate versions of the DEA budget call for appropriations of about $231 million. ##UNBOUNDED EVENT (SPECIFIC)
+NORML officials say ##BASIC STATE
+the government's decision to spray the herbicide paraquat on Mexican marijuana fields ##UNBOUNDED EVENT (SPECIFIC)
+led to widespread cultivation of marijuana in the United States. ##BOUNDED EVENT (SPECIFIC)
+Rather than risk paraquat poisoning, ##COERCED STATE (GENERIC)
+potsmokers decided to grow their own, ##BOUNDED EVENT (GENERIC)
+Farnham explained. ##BOUNDED EVENT (SPECIFIC)
+Homegrown marijuana was once regarded as inferior to that ##GENERIC SENTENCE (STATIC)
+grown in Mexico, Colombia or Jamaica, ##GENERIC SENTENCE (DYNAMIC)
+but that's no longer the case. ##GENERIC SENTENCE (STATIC)
+Native American marijuana is a plant variety ##GENERIC SENTENCE (STATIC)
+called cannabis sativa, ##GENERIC SENTENCE (STATIC)
+the same hemp plant ##OTHER
+cultivated since colonial times for the fibers ##GENERIC SENTENCE (DYNAMIC)
+used to make rope. ##GENERIC SENTENCE (DYNAMIC)
+Now growers are cultivating cannabis indica, ##UNBOUNDED EVENT (GENERIC)
+a Far Eastern variety ##OTHER
+that is richer in the intoxicating chemical tetrahydrocannabinol (THC). ##GENERIC SENTENCE (STATIC)
+While cannabis sativa is a skinny plant ##GENERIC SENTENCE (STATIC)
+that can grow 15 feet tall, ##COERCED STATE (GENERIC)
+the more potent indica strain grows like a bushy Christmas tree ##GENERIC SENTENCE (DYNAMIC)
+and can yield as much as two pounds of dried and ready-to-smoke marijuana. ##COERCED STATE (GENERIC)
+To make the smoke more potent, ##UNBOUNDED EVENT (GENERIC) //3
+Farnham explained, ##BOUNDED EVENT (SPECIFIC)
+growers have learned to weed out the male marijuana plants ##PERFECT COERCED STATE (GENERIC)
+and cultivate a sterile, ##UNBOUNDED EVENT (GENERIC)
+seedless female plant ##OTHER
+known as sinsemilla, ##GENERIC SENTENCE (STATIC)
+the Spanish word for seedless. ##OTHER
+Unable to reproduce, ##COERCED STATE (GENERIC)
+the frustrated female plants pour all their energy into producing THC resin. ##GENERIC SENTENCE (DYNAMIC)
+It is this high-powered homegrown pot ##GENERIC SENTENCE (STATIC)
+that sells for up to $150 an ounce, ##GENERIC SENTENCE (DYNAMIC)
+inflating the value of the domestic crop, ##UNBOUNDED EVENT (GENERIC)
+NORML officials say. ##BASIC STATE
+The organization says ##BASIC STATE
+wild animals and poachers are greater threats to marijuana patches ##GENERIC SENTENCE (STATIC)
+than are law enforcement authorities. ##GENERIC SENTENCE (STATIC)
+To avoid being caught with the crop in their yard, ##UNBOUNDED EVENT (GENERIC) 
+growers have taken to planting their patches on public land. ##PERFECT COERCED STATE (GENERIC)
+The U.S. Department of Agriculture reported earlier this year ##BOUNDED EVENT (SPECIFIC)
+it has found marijuana ##PERFECT COERCED STATE (SPECIFIC)
+being cultivated in most of the national forests. ##UNBOUNDED EVENT (GENERIC)
+***0 5 5 0 0 0 0 0 YES ML YES 0 0 0 0 HUMAN

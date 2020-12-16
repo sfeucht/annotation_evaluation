@@ -1,0 +1,80 @@
+The race in South Carolinas 18th congressional district is a toss-up for newly-minted Republican Senator Sam Brownback , ##BASIC STATE
+ according to a Fox News Channel analysis of state-by-state polling ##BASIC STATE
+ on which the race is tied . ##BASIC STATE
+Fifty-one percent of independent voters said ##BOUNDED EVENT (GENERIC)
+ they would support Brownback , ##COERCED STATE (GENERIC)
+ though 40 percent would only support him ##COERCED STATE (GENERIC)
+ if he secured a majority of 50 percent of the votes , ##COERCED STATE (SPECIFIC)
+ Fox reported . ##BOUNDED EVENT (SPECIFIC)
+That split could allow another outside-party favorite ##COERCED STATE (GENERIC)
+ to win the countys 22-year history ####COERCED STATE (GENERIC)
+ of politics : ##OTHER
+ Sen. Kay Hagan . ##OTHER
+We are running a toss-up in this , ##UNBOUNDED EVENT (SPECIFIC)
+ said Cains campaign manager , Julian Fantino . ##BOUNDED EVENT (SPECIFIC)
+The facts change , so far , ##GENERIC SENTENCE (DYNAMIC)
+ and we are focused on doing well . ##GENERALIZING SENTENCE (DYNAMIC)
+A full list of the surveys questions is available below . ##BASIC STATE
+How would the economy affect business in the S.C. Congressional district ? ##QUESTION
+Twenty-one percent said ##BOUNDED EVENT (GENERIC)
+ that it affects business in the Southeast , ##GENERIC SENTENCE (DYNAMIC)
+ while 23 percent said ##BOUNDED EVENT (GENERIC)
+ it affects manufacturing and the city . ##GENERIC SENTENCE (DYNAMIC)
+And more than two-thirds ##OTHER
+ ( 66 percent ) said ##BOUNDED EVENT (GENERIC)
+ that it would also hurt government agencies , ##COERCED STATE (GENERIC)
+ the S.C. Office of Economic Opportunity said . ##BOUNDED EVENT (SPECIFIC)
+Manufacturing and tourism , meanwhile , account for 32 percent and 24 percent , respectively . ##GENERIC SENTENCE (STATIC)
+Manufacturing and tourism have been intertwined over the years , ##PERFECT COERCED STATE (GENERIC)
+ with nearly 60 percent expecting the economy to rise ##GENERIC SENTENCE (STATIC)
+ and 50 percent expecting it to remain so . ##GENERIC SENTENCE (STATIC)
+Governor Row Johnsons lead from last years ##OTHER
+ state election is still widening , 46-38 . ##UNBOUNDED EVENT (SPECIFIC)
+Only one Democratic candidate scored more than 50 percent in Mays poll , ##BOUNDED EVENT (SPECIFIC)
+ and the gap has narrowed , too . ##PERFECT COERCED STATE (SPECIFIC)
+Forty-three percent of independents , up 3 points from last year , said ##BOUNDED EVENT (GENERIC)
+ they would vote for Johnson . ##COERCED STATE (GENERIC)
+Twenty-five percent of Republican voters said ##BOUNDED EVENT (GENERIC)
+ they would vote for Johnson . ##COERCED STATE (GENERIC)
+A tight race in South Carolinas 18th Congressional District is starting to emerge , ##UNBOUNDED EVENT (SPECIFIC)
+ but analysts expect an early runoff soon . ##GENERIC SENTENCE (STATIC)
+As lieutenant governor , ##OTHER
+ Haley has struggled ##GENERALIZING SENTENCE (DYNAMIC)
+ to pull down the line , ##GENERALIZING SENTENCE (DYNAMIC)
+ particularly as a result of a mass exodus of GOP delegates and assembly members from the partys 5th Congressional District , ##GENERIC SENTENCE (STATIC) //2
+ which provides the GOPs entire 20th state delegate in Washington . ##GENERALIZING SENTENCE (DYNAMIC)
+A race for New Jersey House Speaker Jon Ashers seat seems to be in trouble now , ##BASIC STATE
+ in part because he may have lost the Democratic primary battle with another GOP candidate , businessman Richard Tallent , in the process . ##COERCED STATE (SPECIFIC)*
+The race for House Minority Leader is rated as extremely competitive by NBC News , ##BASIC STATE
+ with the average score of the national poll ##OTHER
+ suggesting ##BASIC STATE
+ that even Justly or not , ##OTHER
+ the GOP has wide support from Democrats , ##GENERIC SENTENCE (STATIC)
+ among whom only 35 percent say ##GENERIC SENTENCE (DYNAMIC)
+ they support a strong conservative ideology . ##GENERIC SENTENCE (DYNAMIC)
+Political analysts say ##GENERIC SENTENCE (DYNAMIC)
+ it could become more challenging to figure out a way ##COERCED STATE (GENERIC)
+ to close the gap ##COERCED STATE (GENERIC)
+ as conservative voters exit the GOP-dominated district . ##UNBOUNDED EVENT (GENERIC)
+The 25-year-old Asher lost 50 percent of his vote to former Bayard Rustin and former State House Majority Leader Dick Armey in 2004 , ##BOUNDED EVENT (SPECIFIC)
+ while those two switched parties nearly two decades later , ##BOUNDED EVENT (SPECIFIC)
+ showing a lack of support for most Republicans in the 18th District . ##GENERIC SENTENCE (STATIC)
+And Asher has not been able to fully win over voters on Beacon Hill ##COERCED STATE (SPECIFIC)
+ as the GOP holds most conservative seats across South Carolina . ##BASIC STATE
+The front-runner for the Republican nomination in the regional Southern race is former House Majority Leader Jim Clyburn , a moderate from Blaine ##BASIC STATE
+ who has largely ignored the states ##GENERALIZING SENTENCE (DYNAMIC)
+ divided political culture . ##OTHER
+But a slight majority of his districts Republicans say ##GENERIC SENTENCE (DYNAMIC)
+ they support him , ##GENERIC SENTENCE (DYNAMIC)
+ and 87 percent say ##GENERIC SENTENCE (DYNAMIC)
+ they will back his opponent , former Gov. Mark Sanford . ##COERCED STATE (GENERIC)
+Im not surprised ##BASIC STATE
+ when they say high risk ##GENERIC SENTENCE (DYNAMIC)
+ after that controversial decision , ##OTHER
+ says one Republican strategist , ##BOUNDED EVENT (SPECIFIC)
+ who wished to remain anonymous . ##BASIC STATE
+Theyre really interested in saying Timbuktu things ##BASIC STATE
+ that are all too commonplace in South Carolina . ##GENERIC SENTENCE (STATIC)
+
+
+***0 5 5 0 0 0 0 0 NO NA NO 0 0 0 ALGORITHM

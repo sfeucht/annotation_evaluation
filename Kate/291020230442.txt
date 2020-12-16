@@ -1,0 +1,60 @@
+New high in support for legalizing marijuana  ##GENERIC SENTENCE (STATIC)
+Fully 50 percent of Americans say  ##GENERIC SENTENCE (STATIC) 
+ the use of marijuana should be legal according to a Gallup poll ##COERCED STATE (GENERIC) 
+ released Tuesday , ##BOUNDED EVENT (SPECIFIC) 
+ the highest in polls since 1969 ,  ##GENERIC SENTENCE (STATIC) 
+ when just 12 percent favored legalization . ##GENERIC SENTENCE (STATIC) 
+Almost as many ,  ##OTHER
+ 46 percent say  ##GENERIC SENTENCE (STATIC)
+ marijuana should remain against the law , ##COERCED STATE (GENERIC) 
+ but that number has softened over the past decade , ##PERFECT COERCED STATE (GENERIC) 
+down from more than seven in 10 in the mid-1990s . ##GENERIC SENTENCE (STATIC) 
+Liberals and those under age 30 are the strongest supporters of legalizing marijuana ,  ##GENERIC SENTENCE (STATIC) 
+ while support is lowest among conservatives and those over age 65 . ##GENERIC SENTENCE (STATIC) 
+Cain , Romney close in South Carolina and Florida Presidential candidates  ##BASIC STATE 
+Herman Cain and Mitt Romney are in a close fight for support in Republican primaries in South Carolina and Florida , ##BASIC STATE 
+ according to two new NBC / Marist polls . ##BASIC STATE 
+Cain stands at 31 percent to Romneys 28 in South Carolina among likely GOP voters  ##BASIC STATE 
+ ( the difference is not statistically significant ) . ##BASIC SENTENCE
+In Florida ,  ##OTHER 
+Cain and Romney stand at 32 and 33 percent , ##BASIC STATE 
+respectively ##OTHER 
+ ( including those ##OTHER 
+ who lean toward a candidate ) . ##OTHER 
+Texas Gov. Rick Perry places a distant third in both states with about 10 percent support ; ##BASIC STATE 
+ other candidates are in single digits . ##GENERIC SENTENCE (SATIC) 
+Blame government or Wall Street for economy ? ##OTHER 
+The Occupy Wall Street movement has heightened scrutiny of the role banks and financial institutions played in the financial crisis ,  ##PERFECT COERCED STAE (GENERIC) 
+ but a new Gallup poll finds  ##BASIC STATE 
+ that when forced to pick a bogeyman for the nations economic problems ,  ##COERCED STATE (GENERIC) 
+ the public blames government over Wall Street by more than 2 to 1  ##UNBOUNDED EVENT (GENERIC) 
+ ( 64 percent to 30 percent ) . ##OTHER 
+Even among supporters of the new movement ,  ##OTHER 
+the blame splits 54 percent for Wall Street and 44 percent for government . ##GENERIC SENTENCE (STATIC) 
+Tea party supporters are less divided ;  ##GENERIC SENTENCE (STATIC) 
+ 82 percent say  ##GENERIC SENTENCE (STATIC) 
+ the federal government deserves the most blame . ##BASIC STATE 
+Wall Street still earns plenty of blame from the public . ##COERCED STATE (SPECIFIC) 
+In separate questions ,  ##OTHER 
+78 percent of adults say  ##GENERIC SENTENCE (STATIC) 
+ financial institutions on Wall Street deserve at least a fair amount of blame for the nations economic woes . ##GENERIC SENTENCE (STATIC) 
+Somewhat more ,  ##OTHER 
+87 percent ,  ##OTHER 
+say  ##ITGER 
+ the federal government deserved substantial blame . ##GENERIC SENTENCE (STATIC) 
+Republicans see Romney as most electable  ##GENERIC SENTENCE (STATIC) 
+ More than four in 10 Republicans and GOP leaning independents say ##BASIC STATE 
+ Mitt Romney has the best chance  ##PERFECT COERCED STATE (GENERIC) 
+ of defeating President Obama in 2012 ,  ##UNBOUNDED EVENT (SPECIFIC) 
+ according to a CNN poll  ##BASIC STATE 
+ released Tuesday . ##BOUNDED EVENT (SPECIFIC) 
+Fewer ,  ##OTHER 
+24 percent ,  ##OTHER 
+choose the fast rising Herman Cain ,  ##BOUNDED EVENT (SPECIFIC) 
+ 12 percent choose Perry  ##BOUNDED EVENT (SPECIFIC) 
+ and all other candidates are in single digits . ##GENERIC SENTENCE (STATIC) 
+Cain ,  ##OTHER
+however , ##OTHER 
+is seen as the most likable candidate and the person  ##BASIC STATE 
+ who is most likely to get the economy moving . ##BASIC STATE 
+***4 2 5 0 0 0 0 0 YES ML YES 0 0 0 0 HUMAN

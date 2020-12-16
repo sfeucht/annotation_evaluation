@@ -1,0 +1,42 @@
+0 0 1 5 elab
+2 2 1 1 elab
+3 3 2 2 elab
+4 4 3 3 elab
+5 5 4 4 examp
+
+6 7 3 5 elab
+7 7 6 6 elab
+
+8 9 6 7 elab
+8 8 9 9 elab
+10 10 9 9 elab
+
+11 16 9 10 contr
+11 11 12 16 elab
+13 16 12 12 elab
+13 13 14 16 sim //3
+15 15 14 14 elab
+14 15 16 16 cond
+
+17 19 11 16 elab
+17 17 18 19 elab
+19 19 18 18 elab
+
+20 24 17 19 elab
+20 20 21 24 elab
+21 21 22 22 elab
+23 23 22 22 elab
+24 24 23 23 elab
+
+25 26 6 7 elab
+26 26 25 25 elab
+
+27 29 25 26 elab
+28 28 27 27 elab
+29 29 28 28 elab
+
+30 33 27 29 elab
+31 33 30 30 elab
+32 33 31 31 elab
+33 33 32 32 elab
+

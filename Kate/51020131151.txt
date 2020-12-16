@@ -1,0 +1,103 @@
+Have we missed anything here on health , ##QUESTION
+ or having a fatty might that ? ##NONSENSE 
+So what if we in fact are currently boasting ##GENERIC SENTENCE (STATIC) 
+ that recreational weed will affect the waistline ? ##GENERIC SENTENCE (STATIC) 
+Or are our deeper concerns about food ##GENERIC SENTENCE (STATIC) 
+ being too much , ##GENERIC SENTENCE (STATIC) 
+or not enough ,  ##OTHER 
+ to be worthy of the title of modern-day WHO ? ##GENERIC SENTENCE (STATIC) 
+Surely it 's obvious that the internet is far more active than usual ##BASIC STATE 
+ and often features big names on its front page , ##GENERIC SENTENCE (STATIC) 
+ and a few of them are n't getting any coverage on their website .##GENERIC SENTENCE (STATIC) 
+But the much more so public debate ##OTHER 
+ surrounding the matter will not be over here . ##GENERIC SENTENCE (STATIC)
+Many people will see the argument for and against the cannabis industry as unlikely , ##GENERIC SENTENCE (STATIC) 
+and only ##OTHER 
+ because they just do n't have a track record ##GENERIC SENTENCE (STATIC) 
+ of having created such a fertile ground for the findings .##COERCED STATE (GENERIC) 
+Will we be happy to pick up on any anecdotes like the one around the middle of this week ##QUESTION 
+ that are just plain plain untrue ? ##GENERIC SENTENCE (STATIC) 
+It 's coming : ##BASIC STATE 
+ the headlines like this : ##OTHER
+ Golden Cup & Nicera # 100 leaf , only cannabis was legal in San Francisco . ##GENERIC SENTENCE (STATIC) 
+Good news for cannabis advocates ! ##OTHER 
+Restaurants fear legalisation of # cannabis due to surge in cannabis sales . ##UNBOUNDED EVENT (GENERIC) 
+Legalisation is on the horizon , ##BASIC STATE 
+ Deal keeps New Yorkers out of city , ##UNBOUNDED EVENT (GENERIC) 
+ and so on . ##OTHER 
+And therein lies the rub . ##BASIC STATE 
+This is not just the widespread fear for the industry and the general national picture . ##GENERIC SENTENCE (STATIC) 
+Some of the authors seem to have moved on from previous work , ##COERCED STATE (GENERIC) 
+ and are quickly retreating again .##COERCED STATE (GENERIC) 
+All of them seem to have moved on to work . ##COERCED STATE (GENERIC) 
+Is there anything more distressing , ##QUESTION 
+ and perhaps more damaging , ##OTHER
+in the way ##OTHER 
+ that the folk  ##OTHER 
+ that contribute to it ##UNBOUNDED EVENT (GENERIC) 
+ are supposed to present themselves in the way ##GENERIC SENTENCE (STATIC) 
+ they present themselves ##GENERIC SENTENCE (STATIC) 
+ and what they say ? ##UNBOUNDED EVENT (GENERIC) 
+Is that how a bunch of light-hearted exponents of a healthy lifestyle feel ? ##QUESTION 
+Does anyone really believe them anymore ? ##QUESTION 
+If they 're indeed the peddlers ##GENERIC SENTENCE (STATIC) 
+ who believe ##GENERIC SENTENCE (STATIC) 
+ that they 're the problem here , ##GENERIC SENTENCE (STATIC) 
+ do n't they feel ##GENERIC SENTENCE (STATIC) 
+ they should stop selling ,  ##COERCED STATE (GENERIC) 
+ and just accept ? ##UNBOUNDED EVENT (GENERIC) 
+Once again , ##OTHER 
+the argument takes a back seat to that of cannabis and health . ##GENERIC SENTENCE (STATIC) 
+Or , ##OTHER 
+ to put it like this , ##GENERIC SENTENCE (STATIC) 
+ marijuana is rarely widely used , ##GENERIC SENTENCE (STATIC) 
+ but there is a debate about whether a growing number of independent dispensaries have a right ##GENERIC SENTENCE (STATIC) 
+ to market their products like wine , beer and mayonnaise .##UNBOUNDED EVENT (GENERIC) 
+In fact , ##OTHER 
+ the impact on health of the synthetic cannabis industry is immeasurable . ##BASIC STATE 
+So how would the arguments over these challenges in state legislatures work ? ##QUESTION 
+The answer is very complicated . ##BASIC STATE 
+According to the U.S. Centers for Disease Control and Prevention , ##BASIC STATE 
+ 0.4 percent of the population has marijuana . ##GENERIC SENTENCE (STATIC) 
+Today it 's 2.7 percent . ##GENERIC SENTENCE (STATIC) 
+Several states have passed laws ##GENERIC SENTENCE (STATIC) 
+ that protect these users against legal dangers for marijuana use . ##GENERIC SENTENCE (STATIC) 
+There is none for recreational use . ##GENERIC SENTENCE (STATIC) 
+And those in favor of medical marijuana generally like the idea ##COERCED STATE (GENERIC) 
+ of supporting the industry , ##UNBOUNDED EVENT (GENERIC) 
+ rather than stigmatising it . ##UNBOUNDED EVENT (GENERIC) 
+But may the argument be a little hard to win over ? ##QUESTION
+Who cares about convictions , discretion , and occasional joy-filled moments ? ##QUESTION 
+So far ,  ##OTHER 
+most states have pursued new laws  ##COERCED STATE (GENERIC) 
+ to protect patients from pot and marijuana from cannabis .##UNBOUNDED EVENT (GENERIC0 
+But there is significant opposition to this law , ##GENERIC SENTENCE (STATIC) 
+ which involves the presumption ##GENERIC SENTENCE (STATIC) 
+ that people on medical / non-medical grounds and whoever 's in the position ##GENERIC SENTENCE (STATIC) 
+ to sign up to it ##UNBOUNDED EVENT (GENERIC) 
+ must be careful to avoid being too much in the wrong ,  ##COERCED STATE (GENERIC) 
+ nor having ulterior motives . ##PERFECT COERCED STATE 
+But the evidence on popularity and policy ##OTHER 
+ has proved very poorly ##COERCED STATE (GENERIC) 
+ and is simply not compelling . ##GENERIC SENTENCE (STATIC) 
+This newspaper points out ##UNBOUNDED EVENT (SPECIFIC) 
+ that while the documentary film clip about the Marihuana Marketplace in Boston was quite widely circulated , ##BASIC STATE 
+ only 36 people of that population tested positive for marijuana .##GENERIC SENTENCE (DYNAMIC) 
+Ultimately , ##OTHER 
+it takes the very best arguments on both sides ##GENERIC SENTENCE (STATIC) 
+ to win ##UNBOUNDED EVENT (GENERIC) 
+ and to see the arguments re-emerge . ##UNBOUNDED EVENT (GENERIC) 
+And it 's very difficult to get away from such pitting . ##GENERIC SENTENCE (STATIC)
+I understand ##BASIC STATE 
+ that some " obey-up " rumours can be over the line , ##GNERIC SENTENCE (STATIC) 
+ but I do n't like being woken up at 7am by dizzying science surveys ##BASIC STATE 
+ and convinced ##UNBOUNDED EVENT (GENERIC) 
+ I can no longer rely on any of them for information . ##BASIC STATE 
+And those were only the movies ##GENERIC SENTENCE (STATIC) 
+ in which the argument over coffee careered off into the sticky pot . ##UNBOUNDED EVENT (GENERIC) 
+There may be more good news than worse . ##GENERIC SENTENCE (STATIC) 
+But we have a long way ##COERCED STATE (GENERIC) 
+ to go ##UNBOUNDED EVENT 
+ before we can say anymore . ##COERCED STATE (GENERIC) 
+Share this : Tweet ##OTHER 
+*** 0 4 0 0 NA NA NA NA YES ML YES 0 0 NA NA ALGORITHM

@@ -1,0 +1,53 @@
+ The image of a court with a man ##OTHER
+ with his teeth ##OTHER
+ pinned behind him ##BASIC STATE
+ should ##COERCED STATE (SPECIFIC)
+ have been famous in the 1920s . ##COERCED STATE (SPECIFIC)
+But life is different now in Portugal ##GENERIC SENTENCE (STATIC)
+ ( for it 's legal to make synthetic cannabis ) , ##BASIC STATE
+ which is why it has n't come up for a licensing drive this year . ##PERFECT COERCED STATE (SPECIFIC)*
+Portugal The country is currently decriminalizing possession of cannabis for medicinal use , ##UNBOUNDED EVENT (SPECIFIC)
+ as seen in the cities of Lisbon and Castilla . ##BASIC STATE
+The reform is also drawing criticism , ##UNBOUNDED EVENT (SPECIFIC)
+ with some claims ##OTHER
+ it could lead to the introduction of legal hemp products , ##COERCED STATE (SPECIFIC)
+ which are less ready to be grown than when harvested from the ground . ##GENERIC SENTENCE (HABITUAL)
+But there 's a word for those fears . ##GENERIC SENTENCE (STATIC)*
+Interestingly , a Portuguese Medicine Association report , ##OTHER
+ including a link between the reports , ##BASIC STATE
+ says ##BASIC STATE
+ marijuana is also safer for humans than cocaine , a mixture of sexting , addictive gambling and criminal activity . ##BASIC STATE
+Another reason might be that our beliefs about the link between them ##GENERIC SENTENCE (STATIC)
+ ( kinesis , sexting , drugs ) ##OTHER
+ are based on outdated assumptions . ##GENERIC SENTENCE (STATIC)
+" I do n't understand ##BASIC STATE
+ how you could simply try and measure interest in marijuana from an economic point of view , ##COERCED STATE (SPECIFIC)
+ " Professor Ben Woeller , a physician at Befrein is quoted as saying in the report . ##BASIC STATE
+Worse still , we used to tell people ##GENERIC SENTENCE (DYNAMIC)
+ to come ##GENERIC SENTENCE (DYNAMIC)
+ and medicate for other things , ##GENERIC SENTENCE (DYNAMIC)
+ which makes us ##GENERIC SENTENCE (DYNAMIC)
+ hypocrites " ##OTHER
+ There are many reasons for cannabis , ##GENERIC SENTENCE (STATIC)
+ and although it is safe , ##BASIC STATE
+ it is unclear what the actual effects would be on humans . ##GENERIC SENTENCE (STATIC)
+And the decision ##OTHER
+ to medicate is perhaps more scientifically oriented , ##COERCED STATE (SPECIFIC)
+ because the brains of some patients ##OTHER
+ have the same problems ##GENERIC SENTENCE (STATIC)
+ as the brains of other populations , ##OTHER
+ " is concluded . ##UNBOUNDED EVENT (SPECIFIC) //2
+What 's interesting , however , ##BASIC STATE
+ is that over 40 % of these studies were published in the press , not in the mainstream media , ##UNBOUNDED EVENT (SPECIFIC)
+ nor did they show ##NBOUNDED EVENT (SPECIFIC)
+ how well people actually feel about both drugs . ##GENERIC SENTENCE (HABITUAL)
+And generally , ##OTHER
+ we do learn something new . ##UNBOUNDED EVENT (GENERIC)
+" Perhaps that explains ##COERCED STATE (SPECIFIC) //3 
+ why there are still 20 years of coverage of marijuana as the subject of science fiction , ##BASIC STATE
+ yet " exceptional " to the media . ##NONSENSE
+But none of the doltis in drugs control ever says ##GENERIC SENTENCE (DYNAMIC)
+ " We just made them safe " , ##UNBOUNDED EVENT (GENERIC)
+ it 's enough to feel woefully blind . " ##GENERIC SENTENCE (STATIC)
+
+***0 3 3 0 0 0 0 0 YES ML YES 4 0 0 ALGORITHM

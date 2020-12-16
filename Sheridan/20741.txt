@@ -1,0 +1,43 @@
+That doesn't answer anything ##COERCED STATE (SPECIFIC)
+the poster said ##BOUNDED EVENT (SPECIFIC)
+It offers an evidenced theory as to why cannabis has a medical effect on the human body ##BASIC STATE 
+and isn't simply an excuse to get stoned. ##BASIC STATE
+See the answer to the third question below. ##IMPERATIVE
+The endocannabinoid system processes chemicals ##GENERIC SENTENCE (DYNAMIC)
+secreted by the human body. ##GENERIC SENTENCE (DYNAMIC)
+It functions ##GENERIC SENTENCE (DYNAMIC)
+and is useful even in somebody ##GENERIC SENTENCE (HABITUAL)
+who doesn't use cannabis at all. ##GENERIC SENTENCE (DYNAMIC)
+Exactly. ##OTHER
+Medicine is used ##GENERIC SENTENCE (DYNAMIC) 
+because something is wrong ##GENERIC SENTENCE (STATIC)
+and a symptom needs to be addressed. ##COERCED STATE (GENERIC)
+Claiming that the existence of chemicals in nature ##UNBOUNDED EVENT (GENERIC)* //4
+that our body can process does not mean our bodies developed in symbiosis with those chemicals. ##GENERIC SENTENCE (STATIC)*
+Which is why theories are explored ##GENERIC SENTENCE (DYNAMIC) 
+and supported or discarded. ##GENERIC SENTENCE (DYNAMIC)
+Plant cannabinoids interact with humans in specific ways within the endocannabinoid system. ##GENERIC SENTENCE (DYNAMIC)
+So the symbiosis is simply an established fact. ##GENERIC SENTENCE (STATIC)
+This symbiosis has known medical applications. ##GENERIC SENTENCE (STATIC)
+Humans are just another mammal on a space rock ##GENERIC SENTENCE (STATIC)
+who happened to have evolved an endocannabinoid system ##PERFECT COERCED STATE (GENERIC)
+to regulate certain mammal body functions. ##GENERIC SENTENCE (DYNAMIC)
+Humans can also process external plant-derived cannabinoids to known therapeutic effects. ##COERCED STATE (GENERIC)
+On this human-inhabited space rock grows ##GENERIC SENTENCE (DYNAMIC) 
+a cannabinoid plant ##OTHER
+which may be one of the first human domesticated plants ##GENERIC SENTENCE (STATIC)
+stretching back into our unknown prehistory. ##UNBOUNDED EVENT (GENERIC) //3
+I may be using the term "evolve" a little loosely, ##COERCED STATE (SPECIFIC)
+but the connection between the plant, the mammal and these specific chemicals ##OTHER
+occurred on a small space rock over a long period of time. ##BOUNDED EVENT (GENERIC)
+You're making the same mistake ##UNBOUNDED EVENT (SPECIFIC)
+as those Intelligent Design folks. ##OTHER
+No need to be snarky, ##OTHER
+but you do raise a hilarious point. ##UNBOUNDED EVENT (SPECIFIC)
+If one is to assume a cosmic watchmaker, ##COERCED STATE (GENERIC)
+then she designed da weed for a reason. ##BOUNDED EVENT (GENERIC)
+Christians should be the biggest pot heads. ##GENERIC SENTENCE (STATIC)
+God made grass after all. ##BOUNDED EVENT (SPECIFIC)
+Or is that the infamous tree of the knowledge of good & evil ##QUESTION
+that pisses god off so much? ##GENERALIZING SENTENCE (DYNAMIC)
+***0 5 0 0 0 0 0 0 YES ML YES 5 3 2 3 2 HUMAN

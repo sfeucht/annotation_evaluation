@@ -1,0 +1,32 @@
+0 0 1 3 attr
+2 2 1 1 elab
+3 3 1 1 elab
+
+4 5 0 3 elabx //3
+4 4 5 5 attr
+
+5 5 6 6 ve
+7 11 6 6 elabx
+7 7 9 9 same
+8 8 7 9 cond
+9 9 10 11 contr
+11 11 10 10 elabx
+
+12 12 0 3 elab //2
+13 18 7 11 elab
+13 13 16 16 same
+14 15 13 13 elab
+15 15 14 14 elabx
+17 18 13 16 ce
+13 17 18 18 attr
+
+19 20 13 16 elab
+20 20 19 19 elabx
+
+21 21 0 2 elabx
+
+22 22 0 2 elab
+23 25 13 18 elab
+23 23 24 25 attr
+24 24 25 25 elab
+

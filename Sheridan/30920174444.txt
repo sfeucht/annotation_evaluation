@@ -1,0 +1,109 @@
+You lived your life in The Wokingshire Sessions (mainstreet) ##BOUNDED EVENT (GENERIC) //2
+and a visit to the Hospice Hospice service can be telling, ##GENERIC SENTENCE (STATIC)
+with a prescribed sleeping pill in particular ##OTHER
+to keep you from harming yourself. ##GENERIC SENTENCE (DYNAMIC) //4
+But my parents, ##OTHER
+devout Catholics, ##OTHER
+disapproved, ##BASIC STATE 
+and by the time ##OTHER
+the cancer had spread from my upper colon ##PERFECT COERCED STATE (SPECIFIC)
+I had gone through a rocky period ##PERFECT COERCED STATE (SPECIFIC)
+where I didn't realise ##COERCED STATE (SPECIFIC)
+how bad it was, ##BASIC STATE //2
+that smoking cannabis in the presence of a pharmacist ##GENERALIZING SENTENCE (DYNAMIC)
+was getting me high. ##GENERALIZING SENTENCE (DYNAMIC)
+It was my job ##BASIC STATE
+to check in on them, ##GENERALIZING SENTENCE (DYNAMIC) //4
+I confessed to one elderly couple, ##BOUNDED EVENT (SPECIFIC)
+who had met me through a hospital simulation ##PERFECT COERCED STATE (SPECIFIC)
+but cannot speak, ##COERCED STATE (SPECIFIC)
+not yet aware of any recent incidents ##BASIC STATE
+in which I had smoked, ##PERFECT COERCED STATE (SPECIFIC)
+or even cannabis. ##OTHER
+I looked up with astonishment. ##BOUNDED EVENT (SPECIFIC)
+Yes, ##OTHER
+drugs had their run-ins with the law. ##GENERIC SENTENCE (HABITUAL)
+But no: ##OTHER
+in a bizarre world, ##OTHER
+thoughtless behaviour, ##OTHER
+a lot of people were helped by a person ##BOUNDED EVENT (SPECIFIC) //4
+who could understand ##COERCED STATE (GENERIC) //4
+how dangerous drugs could become in this world, ##COERCED STATE (GENERIC)
+that person was not even supposed to be there. ##BASIC STATE //4
+Related article ##OTHER
+Smoking becomes a stigmatised attitude ##GENERIC SENTENCE (DYNAMIC)
+and people start by fear, ##GENERIC SENTENCE (DYNAMIC)
+then they stop talking about it ##GENERIC SENTENCE (DYNAMIC)
+but love. ##GENERIC SENTENCE (DYNAMIC)*
+But hope makes small change ##GENERIC SENTENCE (DYNAMIC)
+and people change. ##GENERIC SENTENCE (DYNAMIC)
+The cancer diagnosis of my parents and I came out of my one-man treatment site, ##BOUNDED EVENT (SPECIFIC)
+God-driven. ##OTHER
+My mother, ##OTHER
+also heavily sedated, ##BASIC STATE //4
+was prescribed a palliative medicine from the gastroenterologist ##BOUNDED EVENT (SPECIFIC)
+who did all the exercise and research ##BOUNDED EVENT (SPECIFIC)
+she could to see ##UNBOUNDED EVENT (SPECIFIC)
+if there was any value in pot. ##GENERIC SENTENCE (STATIC)
+I had no particular medical reason to keep smoking. ##BASIC STATE
+I used to smoke deeply, ##GENERALIZING SENTENCE (DYNAMIC)
+but when I was 12, ##BASIC STATE
+my parents nannied me in a setting to which I'd forgotten my family's history. ##BOUNDED EVENT (SPECIFIC)*
+They were slowly starting to form small families, ##BOUNDED EVENT (SPECIFIC)
+growing apart, ##BOUNDED EVENT (SPECIFIC) //3
+knowing that my mother could have gone there. ##BASIC STATE //4
+But when she got cancer, ##BOUNDED EVENT (SPECIFIC)
+neither of us had come home. ##COERCED STATE (SPECIFIC)
+I think ##BASIC STATE
+smoking was the obvious way to start the process ##GENERIC SENTENCE (STATIC)
+of welcoming her away. ##BOUNDED EVENT (SPECIFIC)*
+But if you find ##COERCED STATE (GENERIC)
+your parents were related to someone ##BASIC STATE
+who smoked heavily, ##GENERIC SENTENCE (DYNAMIC)
+it's hard to see the pattern going down, ##GENERIC SENTENCE (STATIC)
+being undermined and threatened. ##UNBOUNDED EVENT (GENERIC)
+This brings your imagination a new lease of life; ##GENERIC SENTENCE (DYNAMIC)
+and drugs made me even more frightened of them. ##BOUNDED EVENT (GENERIC)
+Now, ##OTHER
+having found the support ##PERFECT COERCED STATE (SPECIFIC)
+that helped me through, ##BOUNDED EVENT (SPECIFIC)
+I don't think ##BASIC STATE
+my family will ever know the truth about the drug scourge. ##BASIC STATE //4
+But to them, ##OTHER
+the experience was not a pleasure. ##BASIC STATE 
+To them, ##OTHER
+it had the potential to make them paranoid and distrustful. ##BASIC STATE
+"If you've got something in your system, ##GENERIC SENTENCE (STATIC)
+you shouldn't keep it," ##COERCED STATE (GENERIC)
+my parents must have said. ##COERCED STATE (SPECIFIC)
+Or perhaps more likely it was me, ##BASIC STATE
+taking them lightly. ##UNBOUNDED EVENT (SPECIFIC)
+After all, ##OTHER
+I had never smoked, ##COERCED STATE (SPECIFIC)
+and the cancer had made it too hard to live with. ##PERFECT COERCED STATE (SPECIFIC)
+The reason was the addictive nature of the drug. ##BASIC STATE //4
+While I knew ##BASIC STATE
+how dangerous it could become, ##COERCED STATE (GENERIC)
+it was not even a dark memory ##GENERIC SENTENCE (STATIC)
+I had hoped to erase. ##PERFECT COERCED STATE (SPECIFIC) //3
+Back at The Wokingshire Sessions, ##OTHER
+a woman named Barbara found a weekly health checkup in the appointment room ##BOUNDED EVENT (SPECIFIC)
+which the pharmacist said ##BOUNDED EVENT (SPECIFIC)
+was "all for you". ##BASIC STATE
+She came back in, ##BOUNDED EVENT (SPECIFIC)
+giving me a large warm hug. ##UNBOUNDED EVENT (SPECIFIC)
+I have watched her struggle with the chemo to which she had not been given the same biopsy ##PERFECT COERCED STATE (SPECIFIC)
+a month after I was diagnosed. ##OTHER
+My parents backed me out of the therapy ##BOUNDED EVENT (SPECIFIC)
+and said ##BOUNDED EVENT (SPECIFIC)
+I had to get better ##COERCED STATE (SPECIFIC)
+and understand ##BASIC STATE //3
+why others had done it. ##PERFECT COERCED STATE (GENERIC)
+They have passed away suddenly. ##PERFECT COERCED STATE (SPECIFIC)
+What happened is just part of the problem. ##BASIC STATE
+But I felt the same way about them. ##BASIC STATE
+I took it ##BOUNDED EVENT (SPECIFIC)
+for granted, ##OTHER
+and I didn't celebrate anything ##COERCED STATE (SPECIFIC)
+as it was happening. ##UNBOUNDED EVENT (GENERIC)
+***0 3 0 4 1 1 1 3 NO NA NO UNCLEAR 0 0 0 0 ALGORITHM

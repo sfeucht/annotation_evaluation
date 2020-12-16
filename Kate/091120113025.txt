@@ -1,0 +1,70 @@
+The Republican primary for Virginias 5th Congressional District is drawing new attention to a controversial lawmakers position on the subject . ##UNBOUNDED EVENT (SPECIFIC) 
+Rep. Charlie Rangel , ##OTHER 
+ chairman of the House Ways and Means Committee , ##BASIC STATE 
+ has signed onto a bill  ##PERFECT COERCED STATE (SPECIFIC) 
+ aimed at treating patients with a drug  ##BASIC STATE 
+ known as marijuana . ##OTHER 
+Rangels bill ,  ##OTHER 
+ which was approved by a vote of 71-39 ,  ##BOUNDED EVENT (SPECIFIC) 
+ would allow the FDA and others to research marijuana  ##COERCED STATE (GENERIC) 
+ affecting human health and medical need ##GENERIC SENTENCE (DYNAMIC) 
+ by presenting studies  ##UNBOUNDED EVENT (GENERIC) 
+ that suggest  ##BASIC STATE 
+ the drug reduces symptoms of Alzheimers and Parkinsons disease ,  ##GENERIC SENTENCE (STATIC) 
+ even though it has not been shown to improve patients quality of life . ##PERFECT COERCED STATE (GENERIC) 
+In 2008 ,  ##OTHER 
+ Rangel was elected to the 9th Congressional Districts 4th Congressional District by a massive 33,680 votes , ##BOUNDED EVENT (SPECIFIC) 
+ most of them votes  ##OTHER 
+ he claims  ##BASIC STATE 
+ hes won . ##BOUNDED EVENT (SPECIFIC) 
+If he becomes a full-time Democrat ,  ##BASIC STATE 
+ Rangels bill will need to win 60 votes  ##COERCED STATE (SPECIFIC) 
+ to pass ,  ##OTHER 
+ but hes close to passing the marijuana legislation . ##BASIC STATE 
+Only two states Hawaii and Maryland have legalized medical marijuana . ##PERFECT COERCED STATE (SPECIFIC) 
+The estimated $30 million  ##OTHER 
+ that is needed ##GENERIC SENTENCE (STATIC) 
+ to bring some semblance of a health care reform bill  ##GENERIC SENTENCE (DYNAMIC) 
+ to the floor  ##OTHER 
+ is not enough  ##GENERIC SENTENCE (STATIC) 
+ to restore some of the support  ##UNBOUNDED EVENT (GENERIC) 
+ Rangel put in place . ##BOUNDED EVENT (SPECIFIC) 
+His efforts  ##OTHER 
+ to get his legislation passed  ##OTHER
+ will , ##OTHER 
+ however ,  ##OTHER 
+ require  ##OTHER 
+ that a majority of members support his bill . ##GENERIC SENTENCE (STATIC) 
+If the bills rules allow lawmakers to change the rules ,  ##BASIC STATE 
+ it would then need a two-thirds majority  ##COERCED STATE (GENERIC) 
+ to pass . ##OTHER 
+I believe theres more than enough votes in the House ##BASIC STATE 
+ to pass this bill , ##UNBOUNDED EVENT (GENERIC) 
+ Rangel told WCPO . ##BOUNDED EVENT (GENERIC) 
+But we need 60 votes  ##GENERIC SENTENCE (STATIC) 
+ to pass it . ##UNBOUNDED EVENT (GENERIC) 
+I dont see  ##BASIC STATE 
+ how a minority can get 55 on a bill . ##COERCED STATE (GENERIC) 
+Rangel said  ##BASIC STATE 
+ he was concerned  ##BASIC STATE 
+ that legislation   ##OTHER 
+ introduced in Congress  ##GENERIC SENTENCE (DYNAMIC) 
+ would make it difficult  ##COERCED STATE (GENERIC)
+ for patients to get medical marijuana . ##UNBOUNDED EVENT (GENERIC) 
+I know  ##BASIC STATE 
+ some people are concerned about all of that ,  ##GENERIC SENTENCE (STATIC) 
+ Rangel said . ##BASIC STATE 
+For some people ,  ##OTHER 
+as a practitioner   ##OTHER 
+ they are not feeling the effects of any of those [ existing medical conditions ] . ##GENERIC SENTENCE (STATIC) 
+The primary race between Rangel and Libertarian candidate Aaron Pimbleton drew a lot of scrutiny  ##BASIC STATE 
+ because both candidates carried a relatively small amount of women in their field of potential voters . ##BOUNDED EVENT (SPECIFIC) 
+Rangel is no easy thrower ;  ##BASIC STATE 
+ Pimbleton is a former military man  ##BASIC STATE 
+ who served in Afghanistan . ##BOUNDED EVENT (SPECIFIC) 
+He is a former Chelsea Beach fire fighter and foster child , ##BASIC STATE 
+ who graduated from Washington University in St. Louis , Va. ,  ##BOUNDED EVENT (SPECIFIC) 
+ in the last decade . ##OTHER 
+And he is a Republican  ##BASIC STATE 
+ who ran against Democratic state Rep. Ron Sanchez a few years ago . ##BOUNDED EVENT (SPECIFIC) 
+*** 0 5 5 1 5 5 5 1 YES ML YES 0 0 NA NA HUMAN 

@@ -1,0 +1,108 @@
+1 1 0 0 elab
+2 2 4 4 elab
+3 3 4 4 elab
+4 4 1 1 elabx
+5 8 1 1 elabx
+6 8 5 5 cex
+6 6 7 8 elab
+7 7 8 8 attr
+9 11 5 5 elab
+10 11 9 9 elab
+11 11 10 10 elab
+12 15 9 11 elab
+13 13 12 12 elab
+14 15 13 13 elab
+15 15 14 14 elabx
+
+17 17 16 16 elab
+18 18 16 17 sim
+
+20 21 22 23 cond
+21 21 20 20 sim //3
+23 23 22 22 elab
+
+24 24 25 28 elab
+26 27 25 25 elabx
+27 27 26 26 elab
+28 28 25 25 elabx
+
+30 30 29 29 elab
+31 31 30 30 elab
+
+32 35 29 31 contr //4
+33 33 32 32 elab
+32 32 34 35 condx
+34 34 35 35 sim
+
+37 37 39 39 same
+38 38 37 37 elab
+40 42 39 39 elab
+41 41 40 40 elab
+42 42 41 41 elab
+
+43 43 44 50 elab
+44 44 45 45 elab
+40 42 43 50 contrx
+44 44 46 50 attrm
+47 47 46 46 elab
+48 48 46 46 elab
+49 49 48 48 sim
+50 50 49 49 elab
+
+52 52 53 53 elab
+54 57 53 53 elab
+54 54 55 57 elab
+55 55 56 57 sim
+57 57 56 56 elab
+58 58 55 57 elab
+59 60 57 57 elabx
+59 59 60 60 elab
+
+61 64 59 60 elabx
+61 61 62 63 elab
+62 62 63 63 elab
+61 63 64 64 ce
+
+65 65 66 66 ce
+
+67 69 66 66 elabx
+67 67 68 69 elab
+68 68 69 69 simx
+
+70 72 65 66 elab
+71 71 70 70 elab
+72 72 71 71 examp
+73 73 71 71 elab
+74 79 73 73 elab
+75 79 74 74 elab
+76 76 75 75 attr
+77 79 75 76 elab
+77 77 78 79 elab
+78 78 79 79 attr
+
+80 84 73 73 elabx
+81 81 80 80 elabx
+82 82 81 81 elabx
+83 84 82 82 cex
+84 84 83 83 elab
+
+85 90 73 73 elabx
+86 86 87 87 cex
+88 90 86 87 elab
+88 88 89 89 vex
+90 90 89 89 elab
+
+91 93 73 73 elabx
+92 93 91 91 elab
+92 92 93 93 cex
+
+94 103 73 73 elabx
+95 95 96 96 elab
+97 100 95 96 contrx
+98 100 94 94 elab
+98 98 97 97 elab
+99 99 100 10 elab
+99 100 98 98 elab
+101 103 100 100 contr
+101 102 103 103 cond
+

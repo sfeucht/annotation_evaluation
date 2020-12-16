@@ -1,0 +1,73 @@
+Former NFL player Marvin Washington is one of five plaintiffs ##BASIC STATE
+ who are suing Attorney General Jeff Sessions , ##UNBOUNDED EVENT (SPECIFIC) 
+the Department of Justice and the Drug Enforcement Administration in federal court ##OTHER 
+ to legalize marijuana ,  ##OTHER 
+ the New York Post ##OTHER 
+ reported Monday night . ##BASIC STATE 
+Washington , ##OTHER 
+a defensive lineman ##OTHER 
+ known mostly for his time with the New York Jets over his 11-year NFL career , ##BASIC STATE 
+ is the co-founder of a company ##BASIC STATE 
+ that sells hemp-based sports performance products ##UNBOUNDED EVENT (GENERIC) 
+ that do not contain THC , ##OTHER 
+ the component of cannabis ##OTHER 
+ that causes a high in marijuana users . ##GENERIC SENTENCE (STATIC) 
+In the lawsuit , ##OTHER 
+ he claims ##BASIC STATE 
+ that the federal government 's classification of marijuana as a Schedule ##OTHER 
+ I drug in other words , ##OTHER 
+ a substance ##OTHER 
+ that has a high potential for abuse and one ##GENERIC SENTENCE (STATIC) 
+ that has no accepted medical use ##GENERIC SENTENCE (STATIC) 
+ prevents him ##BASIC STATE 
+ from receiving federal grants ##UNBOUNDED EVENT (GENERIC) 
+ to open a business ##OTHER 
+ that " would allow pro football players to use medical marijuana for pain management in lieu of more addictive opioids ,  ##GENERIC SENTENCE (STATIC) 
+ " the Post reports . ##BASIC STATE 
+NFL players " are fed opiates and pharmaceuticals throughout the week , ##GENERIC SENTENCE (STATIC) 
+ from training camp until the end of season . ##OTHER 
+That can be June to January . ##GENERIC SENTENCE (STATIC) 
+It 's not normal ,  ##GENERIC SENTENCE (STATIC) 
+ " Washington told the New York Daily News in June . ##BOUNDED EVENT (SPECIFIC) 
+" I think  ##BASIC STATE 
+ the Players Association should demand ##COERCED STATE (GENERIC) 
+ that [ players ] have an alternative to opiates . ##COERCED STATE (GENERIC) 
+This is scientific-based . ##GENERIC SENTENCE (STATIC) 
+This is not hocus pocus . ##GENERIC SENTENCE (STATIC) 
+That 's where I want to see this in the very near future ,  ##GENERIC SENTENCE (STATIC) 
+ players that have an alternative to opiates . " ##COERCED STATE (GENERIC) 
+As delineated by the Controlled Substances Act of 1970 ##OTHER
+ ( CSA ) , ##OTHER 
+ substances such as marijuana , heroin and LSD are considered Schedule  ##GENERIC SENTENCE (STATIC) 
+ I drugs, ##OTHER 
+but drugs such as cocaine and methamphetamine are considered less dangerous Schedule II drugs  ##GENERIC SENTENCE (STATIC) 
+ because , ##OTHER 
+ while also addictive and subject to abuse ,  ##GENERIC SENTENCE (STATIC) 
+ they have accepted medical uses in the eyes of the federal government . ##COERCED STATE (GENERIC) 
+" The record makes clear  ##GENERIC SENTENCE (STATIC) 
+ that the CSA does n't make any rational sense  ##GENERIC SENTENCE (STATIC) 
+ and the federal government knows it ,  ##GENERIC SENTENCE (STATIC) 
+ " attorney Michael Hiller , ##OTEHR
+ who represents Washington and the other plaintiffs in the lawsuit ,  ##BASIC STATE 
+ told the New York Post . ##BOUNDED EVENT (SPECIFIC) 
+Joining Washington as plaintiffs in the lawsuit ##OTHER 
+ are Alexis Bortell , ##BASIC STATE 
+ an 11-year-old girl ##BASIC STATE 
+ who needs medical marijuana ##BASIC STATE 
+ to treat her epilepsy , ##OTHER 
+ and Jose Belen , ##OTHER 
+a disabled military veteran ##BASIC STATE 
+ who uses marijuana  ##BASIC STATE 
+ to treat his post traumatic stress syndrome . ##OTHER 
+More on the NFL :  ##OTEHR 
+Police clear Lucky Whitehead after false accusation  ##BOUNDED EVENT (SPECIFIC) 
+ and arrest warrant 
+The latest brain study examined 111 former NFL players . ##GENERIC SENTENCE (STATIC) 
+Only one did n't have CTE . ##BASIC STATE 
+Robert Griffin III set to work out for Chargers ##BASIC STATE 
+After spending the first 17 years of his Post career writing and editing ,  ##UNBOUNDED EVENT (GENERIC) 
+Matt and the printed paper ##OTHER 
+ had an amicable divorce in 2014 . ##PERFECT COERCED STATE 
+He 's now blogging and editing for the Early Lead and The Post 's other Web-based products . ##UNBOUNDED EVENT (GENERIC) 
+***0 5 5 4 5 5 5 4 YES ML YES 0 0 0 0 HUMAN
+

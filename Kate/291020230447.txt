@@ -1,0 +1,67 @@
+Federal prosecutors have launched a new anti-drug initiative ##PERFECT COERCED STATE 
+ this week called the Stop and Frisk program in five Washington , D.C. cities : ##BASIC STATE  
+ cities with no zoning limits for outdoor recreational activities , the District , Yorktown , Matadors , and Kasold . ##OTHER 
+The district plans to use stop-and-frisk tactics ##BASIC STATE 
+ to curb youth drug crimes ,  ##OTHER
+ but it has focused efforts in other cities ##BASIC STATE 
+ since 2011 . ##OTHER 
+After the decline of heroin and prescription drug abuse , ##OTHER 
+ efforts in cities ##OTHER 
+ dealing with drug offenses ##UNBOUNDED EVENT (GENERIC) //2
+ have started to improve ,  ##PERFECT COERCED STATE 
+ said spokesman Tad Waite in an email .##BASIC STATE 
+Nine new districts have been chosen to participate in the new initiative , ##PERFECT COERCED STATE 
+ including Washington . ##OTHER
+The district includes Arlington , Northern District , and Stuyvesant Town ,  ##BASIC STATE 
+ while all 10 cities will be joined by all others . ##COERCED STATE (GENERIC) 
+Its kind of a coordinated effort ##GENERIC SENTENCE (STATIC) 
+ that ##OTHER 
+ mirrors ##OTHER 
+ what cities have done in other regions ,  ##PERFECT COERCED STATE
+ said Sarah Bajarin , ##BASIC STATE 
+ a spokeswoman for the Districts Attorney Generals Office . ##OTHER 
+The objective of the Stop and Frisk program is to disrupt violent drug offenses in the District . ##BASIC STATE 
+The District also made the decision  ##BOUNDED EVENT (SPECIFIC) 
+ to hire civilians in various agencies to run the program ,  ##UNBOUNDED EVENT (GENERIC) 
+ such as the Law Enforcement Preparedness Center and the Sexual Assault Task Force . ##OTHER
+The program will be started by hiring civilians ,  ##COERCED STATE (GENERIC) 
+ including the more experienced investigators and supporting staff . ##GENERIC SENTENCE (STATIC) 
+Unlike in other cities ##GENERIC SENTENCE (STATIC)  
+ where cops only recruit civilians , ##GENERIC SENTENCE (STATIC)  
+ we were not interested in coaching and training them , ##GENERIC SENTENCE (STATIC) 
+ so we simply recruited civilians  ##BOUNDED EVENT (GENERIC) 
+ that did not have the experience ,  ##PERFECT COERCED STATE 
+ Bajarin said . ##BASIC STATE 
+Ultimately , ##OTHER 
+this is a collective effort among law enforcement agencies  ##BASIC STATE 
+to improve the quality of life for our citizens . ##UNBOUNDED EVENT (GENERIC) 
+The program was designed and coordinated by the Police Protective League of Americas Stop and Frisk Task Force , ##BOUNDED EVENT (STATIC) 
+ a collaborative-organization group of D.C. police officers , law enforcement public safety officials , and young people  ##OTHER 
+ involved in police operations across the United States . ##GENERIC SENTENCE (STATIC)
+The police and other community organizations have worked together for years ##PERFECT COERCED STATE 
+ to fight drug-related crime , ##UNBOUNDED EVENT (GENERIC) 
+ and for years hosted community presentations on the subject . ##BOUNDED EVENT (GENERIC) 
+Dave Babcock ,  ##OTHER 
+founder of the D.C. Police Protective League and a former police administrator ,  ##BASIC STATE 
+ said ##OTHER 
+ he believes ##BASIC STATE 
+ a lot of work has gone into policing upstate and in D.C. compared to state legislatures in Alabama , Connecticut , Michigan , Illinois , and Vermont ,  ##PERFECT COERCED STATE
+ where the overwhelming majority of arrests involve youth , ##GENERIC SENTENCE (STATIC) 
+ including young boys and girls . ##GENERIC SENTENCE (STATIC) 
+Babcock believes in a cant live without this approach . ##BASIC STATE 
+Its a ( no-loops )  ##BASIC STATE 
+ strategy to disrupt drug activity , ##BASIC STATE 
+ he said . ##BASIC STATE 
+It is not the beginning of the end . ##BASIC STATE 
+In the meantime , ##OTHER 
+ local governments are working together ##UNBOUNDED EVENT (GENERIC) 
+ to hold  ##UNBOUNDED EVENT (GENERIC)
+ and commission random drug sweeps across the country .  ##UNBOUNDED EVENT (GENERIC) 
+On July 1 , ##OTHER 
+Kentucky Deputy Chief of Police Richard Kannt took his Stop and Frisk campaign to Ohio . ##BOUNDED EVENT (SPECIFIC) 
+Early tracking showed a 55 percent increase in people  ##GENERIC SENTENCE (STATIC) 
+ reporting to police  ##UNBOUNDED EVENT (GENERIC) 
+ that they were arrested for domestic violence ##BOUNDED EVENT (GENERIC) 
+ and forced to stay inside their homes ,  ##BOUNDED EVENT (GENERIC) 
+ according to the FBI . ##BASIC STATE 
+***0 5 5 1 5 4 5 5 YES UC YES 2 2 4 4 HUMAN

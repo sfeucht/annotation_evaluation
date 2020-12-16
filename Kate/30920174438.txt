@@ -1,0 +1,92 @@
+Right now , ##OTHER
+the US Navy ##OTHER
+ ( USN ) ##OTHER
+ is helping authorities down the coast of Greenland ##UNBOUNDED EVENT (SPECIFIC) 
+ to clear 4,300 tonnes of coal ash from rivers in one of Europe 's harshest environmental impacts . ##UNBOUNDED EVENT (SPECIFIC) 
+Britain has also signed an international deal ##BASIC STATE 
+ to cut its own carbon emissions .##UNBOUNDED EVENT (GENERIC) 
+If we ca n't act to reduce global warming , ##GENERIC SENTENCE (STATIC) 
+ European countries have no choice ##GENERIC SENTENCE (STATIC) 
+ but to adopt a tougher definition of climate change .##COERCED STATE (GENERIC) 
+It 's like children ##OTHER
+ jumping out of a mow .##UNBOUNDED EVENT (GENERIC) 
+But in truth , ##OTHER 
+the answer is not to persuade the UK ##BASIC STATE 
+ to take action on the issue ##UNBOUNDED EVENT (GENERIC) 
+ ( I 'm sure ##BASIC STATE 
+ the PM has the skills ##BASIC STATE 
+ to do that by himself ) .##UNBOUNDED EVENT (SPECIFIC)  
+Only to persuade their leaders ##OTHER
+ to allow us to think ##OTHER
+ they can answer the climate change question ##GENERIC SENTENCE (STATIC)  
+ if they simply want to stop being hypocrites themselves .##GENERIC SENTENCE (STATIC) 
+If they ca n't , ##GNERIC SENTENCE (STATIC) 
+ their efforts ##OTHER 
+ to convince others to do likewise are well-deserved . ##UNBOUNDED EVENT (GENERIC) 
+When you get personal with their choice of words , ##COERCED STATE (GENERIC) 
+ I sometimes get in a bit of a draw .##BASIC STATE 
+GETTY Their public rejection of climate change means ##GENERIC SENTENCE (STATIC) 
+ they wo n't have the freedom ##GENERIC SENTENCE (STATIC) 
+ to fight dirty tactics ##OTHER 
+ when they want to .##OTHER
+The reason is simple .##BASIC STATE 
+In the post-WWII era , ##BASIC STATE 
+ humans are responsible for over 30 % of the earth 's heating and about 7.6 % of the heat ##GENERIC SENTENCE (STATIC) 
+ the planet 's surface generates .##GENERIC SENTENCE (STATIC) 
+When people in factories shut their doors ##UNBOUNDED EVENT (GENERIC) 
+ and factories moved to newer locations such as Asia or Switzerland , ##UNBOUNDED EVENT (GENERIC) 
+ people suddenly became scared of human beings .##GENERIC SENTENCE (STATIC) 
+On one level , ##OTHER
+ this is a scary thing ##GENERIC SENTENCE (STATIC) 
+ because the fundamental assumption seems to be that humans account for about 40 % of carbon emissions , ##GENERIC SENTENCE (STATIC) 
+ which would clearly be absurd ##GENERIC SENTENCE (STATIC) 
+ if the government had not threatened to attack European companies ##PERFECT COERCED STATE (GENERIC) 
+ if they attacked us ##UNBOUNDED EVENT (GENERIC) 
+ or threatened to threaten other nations . ##UNBOUNDED EVENT (GENERIC) 
+But ##OTHER 
+ when you get personal with their choice of words , ##COERCED STATE (GENERIC) 
+ I sometimes get in a bit of a draw .##BASIC STATE 
+Although the public were rather appalled and horrified by Britain 's decision  ##GENERIC SENTENCE (STATIC) 
+ to cut our carbon emissions from power stations at its very heart , ##UNBOUNDED EVENT (GENERIC) 
+ the government is not really paying the price for the nonsense .##GENERIC SENTENCE (STATIC) 
+At heart , ##OTHER 
+ the government is insisting ##GENERIC SENTENCE (STATIC) 
+ that it have to deal with climate change in the way ##COERCED STATE (GENERIC) 
+ other countries are after oil and gas companies are after gas . ##GENERIC SENTENCE (STATIC) 
+British coal polluters pollute climate with fossil fuels , ##GENERIC SENTENCE (DYNAMIC) 
+ so may they blame us ? ##QUESTION 
+PRICE DISSECTED : ##OTHER 
+ The UK currently has the highest average global oil prices at $40 per barrel , ##GENERIC SENTENCE (STATIC) 
+ compared to countries ##OTHER 
+ with cheaper gas or other sources ##GENERIC SENTENCE (STATIC)  
+As fossil fuels are threatened , ##GENERIC SENTENCE (STATIC) 
+ the country ##OTHER 
+ being considered in the latest emission reduction scenarios is certainly by now being considered among the most sensitive in the world right now . ##NONSENSE
+The scientists ##OTHER
+ who report the latest carbon emissions numbers are not wild prediction folks .##GENERIC SENTENCE (STATIC) 
+They give no reason  ##GENERIC SENTENCE (STATIC) 
+ for such a massive search .##OTHER 
+Meanwhile , ##OTHER 
+ if we look at the number of countries ##UNBOUNDED EVENT (GENERIC) 
+ that do take action , ##GENERIC SENTENCE (DYNAMIC) 
+ they are a distant second to Paris and Russia among the nations concerned , ##GENERIC SENTENCE (STATIC) 
+ only behind the UK .##GENERIC SENTENCE (STATIC)  
+But those countries say ##GENERIC SENTENCE (DYNAMIC) 
+ they will not increase their emissions ##UNBOUNDED EVENT (GENERIC) 
+ unless they are on their own , ##GENERIC SENTENCE (STATIC) 
+ I suspect , ##BASIC STATE 
+ having found ##UNBOUNDED EVENT (GENERIC) 
+ that some countries have anti-active or anti-pollution policies . ##GENERIC SENTENCE (STATIC) 
+If the international community is going to ignore the threat ##COERCED STATE (GENERIC) 
+ posed by climate change , ##OTHER 
+ it wo n't just be people in the United States , ##GENERIC SENTENCE (STATIC) 
+or almost everyone else , ##OTHER 
+ or any of the rest of the developed world . ##OTHER 
+We should , ##GENERIC SENTENCE (DYNAMIC)  
+sooner or later , ##OTHER 
+ start meeting the political and technical commitments ##GENERIC SENTENCE (DYNAMIC)  
+ we need to make . ##UNBOUNDED EVENT (GENERIC)  
+If we take action , ##UNBOUNDED EVENT (GENERIC) 
+ we 'll have to justify ##UNBOUNDED EVENT (GENERIC) 
+ why we should be following this lead .##GENERIC SENTENCE (STATIC) 
+***0 5 0 0 0 0 0 NO NA NA NA 1 0 0 UC

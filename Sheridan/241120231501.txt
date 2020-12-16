@@ -1,0 +1,36 @@
+Its apparently a high-flying party in the USA ##GENERIC SENTENCE (HABITUAL)
+whenever Miley Cyrus is around! ##BASIC STATE
+Cyrus stunned well-wishers at her 19th-birthday party, ##BOUNDED EVENT (SPECIFIC)
+happily telling ##UNBOUNDED EVENT (SPECIFIC)
+them shes a pot-loving stoner. ##BASIC STATE
+You know youre a stoner ##GENERIC SENTENCE (HABITUAL)
+when your friends make you a Bob Marley cake, ##GENERIC SENTENCE (DYNAMIC)
+said the Hannah Montana star during her the bash last week at Hollywoods Roosevelt Hotel. ##BOUNDED EVENT (SPECIFIC)
+You know ##GENERIC SENTENCE (STATIC)
+you smoke way too much f--king weed! ##GENERIC SENTENCE (DYNAMIC) 
+she exclaims on footage from the birthday bash ##UNBOUNDED EVENT (SPECIFIC)
+obtained ##BOUNDED EVENT (SPECIFIC)
+and first aired yesterday ##BOUNDED EVENT (SPECIFIC)
+by the iPad newspaper The Daily. ##OTHER
+But her rep insisted "It's all been taken out of context." ##BOUNDED EVENT (SPECIFIC)
+In an interview with Us Weekly, ##OTHER
+her rep said ##BOUNDED EVENT (SPECIFIC)
+"The cake was a joke ##BASIC STATE
+and Miley's response was intended to be sarcastic." ##BASIC STATE
+Cyrus, ##OTHER (same as BOUNDED EVENT (SPECIFIC))
+who turned 19 Wednesday, ##BOUNDED EVENT (SPECIFIC)
+caught heat last year ##BOUNDED EVENT (SPECIFIC)
+when video emerged of her ##BOUNDED EVENT (SPECIFIC)
+using a bong ##UNBOUNDED EVENT (SPECIFIC)
+to inhale ##UNBOUNDED EVENT (SPECIFIC)
+what she claimed ##BOUNDED EVENT (SPECIFIC)
+was salvia, ##BASIC STATE
+the controversial but legal hallucinogenic herb. ##OTHER
+The singers pal and party host, ##OTHER (same as UNBOUNDED EVENT (SPECIFIC))
+Kelly Osbourne, ##OTHER
+was standing next to the birthday gal ##UNBOUNDED EVENT (SPECIFIC)
+when she made her unexpected pot proclamation. ##BOUNDED EVENT (SPECIFIC)
+Osbourne laughed and chirped: ##BOUNDED EVENT (SPECIFIC)
+I thought ##BASIC STATE
+salvia was your problem! ##GENERIC SENTENCE (STATIC)
+***0 5 3 0 0 0 0 0 YES ML YES 0 0 0 0 HUMAN

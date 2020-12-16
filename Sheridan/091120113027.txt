@@ -1,0 +1,30 @@
+A Lancaster County dispensary and several similar businesses filed with the District for approval Wednesday, ##BOUNDED EVENT (SPECIFIC)
+after the U.S. Food and Drug Administration voted unanimously for the dispensaries ##BOUNDED EVENT (SPECIFIC)
+and never said ##COERCED STATE (SPECIFIC)
+what it called the results. ##BASIC STATE
+Jokery Co-owner Dean Talley was one of three pharmacists ##BASIC STATE
+working for the dispensary, ##UNBOUNDED EVENT (SPECIFIC)
+making a lump sum payment from a $4.5 million tax-free pot, ##UNBOUNDED EVENT (SPECIFIC)
+and hes excited. ##BASIC STATE
+But the partnership hes working with expires in 2014. ##COERCED STATE (SPECIFIC)
+He said ##BOUNDED EVENT (SPECIFIC)
+this is the first time the three dispensaries ##BASIC STATE
+he works ##GENERALIZING SENTENCE (DYNAMIC) //3
+for have met the same standards, ##PERFECT COERCED STATE (SPECIFIC)
+and its not the first time theyve met. ##BASIC STATE
+Its very disappointing, ##BASIC STATE //4
+he said. ##BOUNDED EVENT (SPECIFIC)
+Its going to hurt the medical profession. ##COERCED STATE (SPECIFIC) //4
+If you get approved, ##COERCED STATE (GENERIC)
+youre about to lose our job. ##COERCED STATE (GENERIC)*
+Still, ##OTHER
+Talley isnt exactly scared. ##BASIC STATE
+Were operating out of a small hotel, ##UNBOUNDED EVENT (SPECIFIC)
+and its affordable. ##BASIC STATE
+And thats the reason were hopeful ##BASIC STATE 
+that well get the approval, ##COERCED STATE (SPECIFIC)
+he said. ##BOUNDED EVENT (SPECIFIC)
+Its frustrating not to have anything in front of me. ##GENERIC SENTENCE (STATIC)
+Im ready to run ##BASIC STATE
+if they approve it. ##COERCED STATE (SPECIFIC)
+***0 5 5 0 0 0 0 0 YES ML YES 0 0 0 0 UC

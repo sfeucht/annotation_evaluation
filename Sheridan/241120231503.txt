@@ -1,0 +1,10 @@
+According to reports, ##BASIC STATE
+Mexican-American rapper Baby Bash was busted in TX for pot possession along with fellow rapper Paul Wall. ##BOUNDED EVENT (SPECIFIC)
+TMZ reports that the Suga Suga singer ##BASIC STATE
+(whose real name is Ronald Ray Bryant) ##BASIC STATE
+was released from El Paso County Jail on Sunday ##BOUNDED EVENT (SPECIFIC)
+after posting a $300 bond. ##BOUNDED EVENT (SPECIFIC)
+Wall made it a point on his Twitter account ##BOUNDED EVENT (SPECIFIC)
+that he and Bryant were held in the same tank ##BOUNDED EVENT (SPECIFIC)
+they held Willie Nelson/Johnny Cash. ##BOUNDED EVENT (SPECIFIC) //4
+***0 5 5 0 0 0 0 0 YES ML YES 0 0 0 0 HUMAN

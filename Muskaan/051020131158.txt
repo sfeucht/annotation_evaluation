@@ -1,0 +1,103 @@
+It 's a bit complicated , ##GENERIC SENTENCE (STATIC)
+ with the FOGN ##OTHER
+ known to include things like hallucinogenic cannabis and LSD in the models of Saturday Night Live . ##GENERALIZING SENTENCE (STATIVE)
+What about marijuana or drugs ##QUESTION
+ related to sex ? ##GENERIC SENTENCE (STATIC)
+It depends on how you define it ##BASIC STATE
+ and who decides to use it . ##GENERIC SENTENCE (DYNAMIC)
+So here is one of the more obvious thoughts ##BASIC STATE
+ I read in this piece , ##UNBOUNDED EVENT (SPECIFIC)
+ and ##OTHER
+ I feel ##BASIC STATE
+ it applies to all sorts of drugs : ##BASIC STATE
+ this is commonly thought of as people ##GENERIC SENTENCE (HABITUAL)
+ who dream up easy-to-use drugs , ##GENERIC SENTENCE (DYNAMIC)
+ say drinking tea over gay porn , ##GENERIC SENTENCE (DYNAMIC)
+ and making pizza with nachos in the morning . ##GENERIC SENTENCE (DYNAMIC)
+Of course , ##OTHER
+ this is a whole lot different , ##GENERIC SENTENCE (STATIC)
+ and it makes me wonder ##GENERALIZING SENTENCE (DYNAMIC)
+ what role ##OTHER
+ the Federal Drug Administration , ##OTHER
+ which is the central FDA regulatory agency , ##BASIC STATE
+ is taking in all of this : ##GENERALIZING SENTENCE (DYNAMIC)
+ FDA policy-makers have no authority ##GENERALIZING SENTENCE (STATIVE)
+ to review and modify drug design , development or safety . ##GENERALIZING SENTENCE (DYNAMIC)
+Only regulations ##OTHER
+ developed to address drug development , clinical development , safety , compliance , organizational reviews and licensing procedures are appropriate . ##GENERALIZING SENTENCE (DYNAMIC)
+Of course , FDA policy-makers do not have the power ##GENERALIZING SENTENCE (STATIVE)
+ to reinstate prohibitions against drug development ##GENERALIZING SENTENCE (STATIVE)
+ based on clinical test results . ##GENERIC SENTENCE (STATIC)
+Interestingly , I never asked ##UNBOUNDED EVENT (SPECIFIC)
+ what in the FOGN word legal about recreational marijuana ##NONSENSE
+ use especially at this time of year , ##NONSENSE
+ when the whole cabinet of people likes to say ##GENERALIZING SENTENCE (DYNAMIC)
+ it 's a terrible idea , ##BASIC STATE
+ and when we collectively welcome medicinal marijuana in addition to recreational . ##GENERIC SENTENCE (DYNAMIC)
+You know , ##OTHER
+ you save money by doing pot ##GENERIC SENTENCE (DYNAMIC)
+ and it makes everyone more money . ##GENERIC SENTENCE (DYNAMIC)
+But they do n't give much away : ##GENERIC SENTENCE (DYNAMIC)
+ there 's no unlimited line items ##GENERIC SENTENCE (STATIC)
+ so the FTC has no power ##BASIC STATE
+ to release its medicated records of cannabis use . ##UNBOUNDED EVENT (SPECIFIC)
+And the government 's reach is limited : ##BASIC STATE
+ there are no guidelines for these labs or that block list of drugs ##BASIC STATE
+ on which you can buy medications in a federal marketplace , ##GENERIC SENTENCE (DYNAMIC)
+ which meant ##UNBOUNDED EVENT
+ that they have no one ##BASIC STATE
+ to base their own conclusions on in public hearings . ##GENERIC SENTENCE (DYNAMIC)
+Today , ##OTHER
+ I 've heard far less from politicians ##COERCED STATE (SPECIFIC)
+ than I have from people ##COERCED STATE (SPECIFIC)
+ who do n't have any fun at all from explaining the various ways ##GENERIC SENTENCE (DYNAMIC)
+ in which regulators can regulate drugs . ##GENERALIZING SENTENCE (DYNAMIC)
+But what about the Congress , and what about ICE , ##QUESTION
+ just in case ##OTHER
+ you read this by mistake ? ##UNBOUNDED EVENT (SPECIFIC)*
+If you were ever stopped by ICE officers ##COERCED STATE (GENERIC)
+ and your name was Solange , ##COERCED STATE (GENERIC)
+ and people are finding out ##COERCED STATE (GENERIC)
+ your name was Solange Rannoff , ##COERCED STATE (GENERIC)
+ imagine the outcry ##IMPERATIVE
+ if ICE arrests you without any of these other identifiers , ##COERCED STATE (SPECIFIC)
+ and reports ####COERCED STATE (SPECIFIC)
+ that you were involved in sexual assault ? ##COERCED STATE (SPECIFIC)
+Imagine that . ##IMPERATIVE
+Would the Federal Bureau of Investigation have a small mission in all those people ? ##QUESTION
+Would ICE deny that applicant a visa ? ##QUESTION
+Think back to its workforce in Tennessee ##IMPERATIVE
+ and only six of the Top 100 employees remained . ##BASIC STATE
+Or let 's just say ##IMPERATIVE
+ they were never smart enough ##BASIC STATE
+ to care about our job security . ##GENERALIZING SENTENCE (STATIVE)
+Hey , government is n't supposed to be a resource for free ideas . ##GENERIC SENTENCE (STATIC)
+The Federal Drug Administration is supposed to be a tool ##BASIC STATE
+ for people 's very best and most important goal . ##OTHER
+It has a power ##GENERALIZING SENTENCE (STATIVE)
+ to give people access to drugs and drug information in a way ##GENERALIZING SENTENCE (DYNAMIC)
+ that 's seemingly free . ##COERCED STATE (SPECIFIC)
+But it does n't give anyone power ##GENERALIZING SENTENCE (DYNAMIC)
+ to do it , ##GENERALIZING SENTENCE (DYNAMIC)
+ especially when it 's happening on a terrible day . ##COERCED STATE (GENERIC)*
+So it 's best to play it safe , ##GENERIC SENTENCE (STATIC)
+ not so much that we 'll be ruined with any new drugs or cops on the streets , ##COERCED STATE (GENERIC)
+ but that we become more informed and curious about which drugs ##COERCED STATE (GENERIC) //2
+ we 'll hit in the street in the future . ##COERCED STATE (GENERIC)
+Here 's the last thing ##BASIC STATE
+ I want to say about marijuana : ##BASIC STATE
+ it 's a great idea , ##BASIC STATE
+ and the Democrats will never be able to force marijuana to be legal again , ##COERCED STATE (SPECIFIC)
+ because they wo n't support you , ##COERCED STATE (SPECIFIC)
+ so there 's a good chance ##BASIC STATE
+ in one way or another ##OTHER
+ we 'll have to either be careful with it ##COERCED STATE (SPECIFIC)
+ or open up marijuana . ##COERCED STATE (SPECIFIC)
+And all of us ##OTHER
+ who would consider making marijuana a reality or a default in drug regulation ##COERCED STATE (GENERIC)
+ should ##COERCED STATE (GENERIC)
+ rest in peace for a while , ##GENERIC SENTENCE (DYNAMIC)
+ that we 'll be blowing our hands out of our heads ##NONSENSE
+ and going crazy all the time . ##GENERIC SENTENCE (DYNAMIC)
+
+***0 5 0 0 0 0 0 0 YES ML YES 4 3 2 3 ALGORITHM

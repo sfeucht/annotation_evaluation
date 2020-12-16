@@ -1,0 +1,102 @@
+Nurse gets wind of man ##BOUNDED EVENT (SPECIFIC) 
+ going 'off road' with daughter ... ##UNBOUNDED EVENT (SPECIFIC) 
+ and does n't leave rehab for the evening.##BOUNDED EVENT (SPECIFIC) 
+ As a guest a pay-what-you-want ward at the Department of Veterans Affairs hospital in Cambridge , ##NONSENSE 
+UK , ##OTHER 
+ the nurse practising on a bench in a busy area on the I-91 in front of a topless Indian woman in a chartered bus .##UNBOUNDED EVENT (SPECIFIC) 
+Minutes earlier , ##OTHER
+40 , ##OTHER 
+beautiful Cate Quinn ##BASIC STATE 
+ born with a brain haemorrhage ##BASIC STATE 
+ was flown to the city , ##BOUNDED EVENT (SPECIFIC) 
+ which has now became one of the city 's hottest cities , ##PERFECT COERCED STATE (GENERIC) 
+all because she was sneaking ##UNBOUNDED EVENT (SPECIFIC) 
+ in a packet of I was in full view of tourists . ##NONSENSE 
+Viral is the event ##BASIC STATE 
+ during which Natasha Portman ( L ) ##OTHER
+ and Nick Englander ( C ) ##OTHER 
+ ( r )  are seen photoshopping the cop with their glassy faces . ##UNBOUNDED EVENT (SPECIFIC) 
+It is their third session in three years at the hospital only the other time ##BASIC STATE 
+ that one went unallotted . ##COERCED STATE (SPECIFIC) 
+As the Daily Telegraph reported yesterday , ##BOUNDED EVENT (SPECIFIC) 
+ Miss Portman and Ms Englander both 28 stood in the pouring rain ##BASIC STATE 
+ to greet the man ##OTHER
+ before pointing out her face ##UNBOUNDED EVENT (SPECIFIC) 
+ as he washed her hands .##BOUNDED EVENT (SPECIFIC) 
+She found it difficult to open her eyes during the clip ##BOUNDED EVENT (SPECIFIC) 
+ and told the two of them , ##BOUNDED EVENT (SPECIFIC)
+" I am coming back to work . " ##UNBOUNDED EVENT (SPECIFIC) 
+Miss Englander next waved her arms towards the man .##BOUNDED EVENT (SPECIFIC) 
+The five other women are now standing in the crowded corridors , ##BOUNDED EVENT (SPECIFIC)
+ but it appears ##OTHER 
+ their colleagues are held off ##BASIC STATE 
+ tiptoeing their feet by brave police officers ##UNBOUNDED EVENT (SPECIFIC)  
+ to park cars in front of them on the parking lot .##UNBOUNDED EVENT (SPECIFIC) 
+When Miss Portman arrived there , ##BOUNDED EVENT (SPECIFIC_ 
+ she quickly realised ##BASIC STATE 
+ that someone else was charging at her seat for weed . ##UNBOUNDED EVENT (SPECIFIC) 
+The police surrounded the station with dogs and horses in search of an intruder ##BOUNDED EVENT (SPECIFIC) 
+ and Ms Englander was told to cuddle her in her seat ##COERCED STATE (SPECIFIC) 
+ as they searched for a man ##BOUNDED EVENT (SPECIFIC) 
+ standing on a chair down the aisles .##BOUNDED EVENT (SPECIFIC) 
+The wild man travelled back on his bicycle to the house .##BOUNDED EVENT (SPECIFIC) 
+Miss Englander then takes the operator out of the car . ##BOUNDED EVENT (SPECIFIC) 
+She must have got two metres too far ##BASIC STATE 
+ before the man ##OTHER 
+ plunged to the ground ##BOUNDED EVENT (SPECIFIC) 
+ on the footpath above where she parked his car .##BASIC STATE 
+Miss Englander went to a nearby medical unit on the footpath ##BOUNDED EVENT (SPECIFIC) 
+ to check on her ankles and knees . ##UNBOUNDED EVENT (SPECIFIC) 
+After he was transferred to the psychiatric ward , ##BOUNDED EVENT (SPECIFIC) 
+ she yelled at her waitress for a towel ##BOUNDED EVENT (SPECIFIC)
+ to be taken away . ##BASIC STATE 
+Four staff members then blocked the whole way at the footpath below the ambulance . ##BOUNDED EVENT (SPECIFIC) 
+Doctors consulted , ##BOUNDED EVENT (SPECIFIC) 
+ but Ms Englander refused to have her legs taken away . ##BOUNDED EVENT (SPECIFIC) 
+She said : ##BOUNDED EVENT (SPECIFIC) 
+ " The police were extremely careful and tactful .##BASIC STATE 
+I was traumatised as well . "##BASIC STATE 
+She took a tranquiliser around her left thigh in the morning ##BOUNDED EVENT (SPECIFIC) 
+ and did what she was told to do . ##BOUNDED EVENT (SPECIFIC) 
+One of her medics later explained to a reporter ##BOUNDED EVENT (SPECIFIC) 
+ that he had never seen a man ##BASIC STATE 
+ so reckless in his own skin .##BASIC STATE 
+The incident did not inspire any policy changes on the bed , ##COERCED STATE 
+ or the police .##OTHER 
+Instead , ##OTHER 
+ officers kicked off each piece of luggage .##BOUNDED EVENT (SPECIFIC) 
+He was convicted of drug possession ##BASIC STATE 
+ and sentenced to two years ' supervised release with credit for 2 months and two weeks ' of home detention . ##BASIC STATE 
+The man ##OTHER 
+ who put Ms Portman through the ordeal back in 2014 was eventually jailed for nine months ##BOUNDED EVENT (SPECIFIC) 
+ after he was found to have sold women ##BOUNDED EVENT (SPECIFIC) 
+ to extract drugs ##UNBOUNDED EVENT (SPECIFIC) 
+ by ordering them under his own name from a store . ##UNBOUNDED EVENT (SPECIFIC) 
+The East London address involved an address ##BASIC STATE 
+ that had been open for years .##BASIC STATE 
+The name of the place is that of the FBI 's Manhattan office ##BASIC STATE 
+ and the location is in Cambridge at the foot of Waterloo Street .##BASIC STATE 
+The man ##OTEHR 
+ who got away was arrested at the door of a public toilet ##BOUNDED EVENT (SPECIFIC) 
+ while a policeman spoke to him on the phone .##UNBOUNDED EVENT (SPECIFIC) 
+Once a counter-terrorism officer arrived to listen to the woman , ##BOUNDED EVENT (SPECIFIC) 
+ and the police officer entered the house , ##BOUNDED EVENT (SPECIFIC) 
+ the man refused to hand over the prescribed medication ##BOUNDED EVENT (SPECIFIC) 
+ but took off his jacket ##BOUNDED EVENT (SPECIFIC)
+ and pointed to his bag .##BOUNDED EVENT (SPECIFIC) 
+An officer returned ##BOUNDED EVENT (SPECIFIC)
+ and handed him over ##BOUNDED EVENT (SPECIFIC)
+ to those present .##OTHER
+In a report , ##BASIC STATE 
+Sgt Nazir Ahmad said : ##BOUNDED EVENT (SPECIFIC) 
+ " As she was given two packs of cigarettes , ##BOUNDED EVENT (SPECIFIC)
+the man ##OTHER 
+ crouched in front of the door .##BASIC STATE 
+He later asked to move the cigarette out of his bag ##BOUNDED EVENT (SPECIFIC)
+ and thrown it against the wall . ##UNBOUNDED EVENT (SPECIFIC) 
+This young man clearly had a mental condition similar to that of someone ##BASIC STATE 
+ who stands behind a desk for a long time . "UNBOUNDED EVENT (SPECIFIC)
+One police officer said : ##BOUNDED EVENT (SPECIFIC)
+ "  As the man walked away ##BOUNDED EVENT (SPECIFIC)
+ he went off to the powder room . " ##BOUNDED EVENT (SPECIFIC)
+***0 0 5 3 1 2 4 YES ML YES 0 0 0 0 ALGORITHM 

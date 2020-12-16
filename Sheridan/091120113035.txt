@@ -1,0 +1,27 @@
+The Maryland Department of Health said ##BOUNDED EVENT (SPECIFIC)
+it will allocate $4 million ##COERCED STATE (SPECIFIC)
+to study the impact of more than 25,000 marijuana smokers, ##UNBOUNDED EVENT (GENERIC)
+even with the current expansion of the law. ##OTHER
+Marijuana smoker Frederick F. McPherson said ##BOUNDED EVENT (SPECIFIC)
+he preferred the two-way street scenario than a combined pot prohibition. ##BASIC STATE
+But he can see the problem: ##BASIC STATE
+The proposal, ##OTHER
+if approved, ##COERCED STATE (SPECIFIC)
+would give wide-ranging consideration to the rural states with higher prevalence of marijuana use, ##COERCED STATE (SPECIFIC)
+unlike Maryland, ##OTHER
+which is fighting its prohibition entirely on marijuana. ##UNBOUNDED EVENT (SPECIFIC)
+An existing statewide definition of marijuana for all illnesses would have to be softened to include other strains. ##COERCED STATE (GENERIC)
+McPherson, ##OTHER
+a delegate from the East Coast ##OTHER
+who has sent pro-McPherson letters, ##PERFECT COERCED STATE (SPECIFIC)
+supports the proposal, ##BASIC STATE
+saying ##UNBOUNDED EVENT (SPECIFIC)
+it will open the door to legal recreational use for addicts. ##COERCED STATE (SPECIFIC)
+And he supports HB 4170, ##BASIC STATE
+which would increase the number of addicts to 72. ##COERCED STATE (SPECIFIC)
+Fifty-six percent of high-risk people in Maryland would be aided by this treatment. ##COERCED STATE (GENERIC)
+The study will look at how the State treats marijuana use across the Board of Medical Marijuana and other medical marijuana-related recreational alternatives and issues. ##COERCED STATE (SPECIFIC)
+And McPherson said ##BOUNDED EVENT (SPECIFIC)
+he thinks ##BASIC STATE
+it will provide a positive focus on improving treatment for black users. ##COERCED STATE (SPECIFIC)
+***0 5 5 0 0 0 0 0 YES ML YES 0 0 0 0 ALGORITHM 

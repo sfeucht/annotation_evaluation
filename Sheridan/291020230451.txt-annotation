@@ -1,0 +1,27 @@
+1 1 0 0 elab
+2 2 0 1 ce
+
+3 8 2 2 elab
+3 3 5 5 same
+4 4 3 3 elab
+3 5 6 8 attr
+7 8 6 6 elab
+8 8 7 7 elab
+
+9 13 6 6 elab
+9 9 12 12 same
+10 11 9 9 elab
+10 10 11 11 attr
+13 13 12 12 elab
+
+14 20 0 2 elab
+14 14 19 19 same
+15 18 14 14 elab
+15 16 17 18 sim
+16 16 15 15 elab
+18 18 17 17 elab
+19 19 19 20 attr
+20 20 19 19 elab
+
+21 22 0 0 elab
+21 21 22 22 sim

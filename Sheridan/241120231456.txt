@@ -1,0 +1,34 @@
+A Minnie Marley named ##BASIC STATE //3
+Bob Marley's daughter has pleaded guilty to a misdemeanor charge of growing marijuana in her home. ##PERFECT COERCED STATE (SPECIFIC)
+David Marley pleaded guilty to drug possession ##BOUNDED EVENT (SPECIFIC)
+and was ordered to serve a year in jail ##BOUNDED EVENT (SPECIFIC)
+and pay a $600 fine. ##UNBOUNDED EVENT (SPECIFIC) //2
+The plea came ##BOUNDED EVENT (SPECIFIC)
+three days after Bob Marley's cousin, ##OTHER
+Angela Keith, ##OTHER
+pleaded guilty to charges of misdemeanor marijuana possession, ##BOUNDED EVENT (SPECIFIC)
+according to court documents. ##GENERIC SENTENCE (STATIC)
+Keith also was charged with felony possession of an illegal chemical ##BOUNDED EVENT (SPECIFIC)
+by a minor, ##OTHER
+according to the documents. ##BASIC STATE
+The charges stem from the alleged drug fight between the two women ##BASIC STATE
+who live in the Bel Air section of Baltimore. ##UNBOUNDED EVENT (SPECIFIC)
+According to court documents, ##BASIC STATE
+four adults watched ##UNBOUNDED EVENT (SPECIFIC)
+as someone picked up a joint with Marley's oldest son, ##BOUNDED EVENT (SPECIFIC)
+Shawn, ##OTHER
+and threw a paint gun. ##BOUNDED EVENT (SPECIFIC)
+Keith could face up to 15 years in prison ##COERCED STATE (SPECIFIC)
+if convicted of second-degree marijuana possession. ##COERCED STATE (SPECIFIC)
+Marley, ##OTHER (same as BASIC STATE)
+who was born Eliza Irvine McNerney, ##BOUNDED EVENT (SPECIFIC) //3
+was a well-known artist and artist during his massive career as a singer and musician. ##BASIC STATE
+He became well-known as a tireless advocate for the rights of the poor. ##UNBOUNDED EVENT (SPECIFIC) //4
+In 1995, ##OTHER
+Bob Marley spent 25 days in jail for beating his older son for a marijuana possession arrest, ##BOUNDED EVENT (SPECIFIC)
+according to the Bel Air Times. ##BASIC STATE
+He was jailed on $50,000 bail. ##UNBOUNDED EVENT (SPECIFIC)
+Marley was also incarcerated for his involvement in a drug dispute in Ohio earlier this year. ##BOUNDED EVENT (SPECIFIC)
+Last month, ##OTHER
+the former president of the United Nations, Laureate of a Women's Diploma and Mediator issued a public apology to Marley for his drug use in the future. ##BOUNDED EVENT (SPECIFIC)
+***0 5 5 0 0 0 0 0 YES ML YES 0 0 0 0 UC

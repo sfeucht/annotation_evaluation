@@ -1,0 +1,118 @@
+BBC watch Manu Paigana talk about the case. ##IMPERATIVE
+Nevermind the fact ##IMPERATIVE
+it's another offence that, ##BASIC STATE
+while legal, ##BASIC STATE
+still means you can't be transported to heaven. ##GENERALIZING SENTENCE (STATIVE)
+You are caught in a central location, ##BASIC STATE //3
+falling from one side of a sheer wall. ##UNBOUNDED EVENT (SPECIFIC) //3
+They only say ##GENERIC SENTENCE (DYNAMIC)
+that you are on special privileges ##GENERIC SENTENCE (STATIC)
+because you're such a damn thing, ##GENERIC SENTENCE (STATIC)
+but someone else apparently does not have the same privilege ##GENERIC SENTENCE (STATIC)
+when it comes to this matter. ##GENERIC SENTENCE (DYNAMIC)
+To be perfectly honest the situation at hand is rather great. ##BASIC STATE
+I've done plenty of treatment, ##PERFECT COERCED STATE (SPECIFIC)
+taken drugs, ##PERFECT COERCED STATE (SPECIFIC)
+I've gotten pretty high in all seriousness. ##PERFECT COERCED STATE (SPECIFIC)
+You can write a useful article to you from a pharmacy, ##COERCED STATE (GENERIC)
+but then I feel ##BASIC STATE
+like I'm a bargain now. ##BASIC STATE
+The problem is, ##BASIC STATE
+I don't feel like offering over the counter advice and guidance even remotely worth the effort. ##BASIC STATE*
+It sounds like the media must be partially to blame. ##GENERIC SENTENCE (STATIC) //4
+At the very least, ##OTHER
+we don't need a police force ##GENERIC SENTENCE (STATIC)
+that will always point out ##COERCED STATE (GENERIC)
+and probably waffle about what happened ##COERCED STATE (GENERIC)
+but still waiting for all the proper rules. ##UNBOUNDED EVENT (GENERIC)*
+My husband is unhappy ##BASIC STATE
+he should be having sex ##COERCED STATE (SPECIFIC)*
+while his husband is still with him ##BASIC STATE
+but continues having sex ##GENERALIZING SENTENCE (DYNAMIC)
+when his wife is still with him. ##BASIC STATE
+While that would be annoying to both women, ##BASIC STATE //4
+I think ##BASIC STATE
+it might be beneficial for you both. ##BASIC STATE
+Fuckingly, ##OTHER
+it really wouldn't be sexually enjoyable. ##BASIC STATE
+Also, the answer to the question ##OTHER
+" WHICH YOU SHOULD CHANGE TO?" ##QUESTION
+needs to be answered with some filter ##BASIC STATE //4
+before it can start leaking out. ##COERCED STATE (SPECIFIC)
+If you do choose to talk about how you could better serve the country ##COERCED STATE (GENERIC)
+you love ##BASIC STATE
+and get married ##UNBOUNDED EVENT (GENERIC)
+when you are still an adult, ##GENERIC SENTENCE (STATIC)*
+by all means ##OTHER
+do it, ##IMPERATIVE
+but accept ##IMPERATIVE
+that it may not be a good thing for you ##GENERIC SENTENCE (STATIC)
+or for the country at large. ##OTHER
+If you can give a reasonable answer, ##COERCED STATE (SPECIFIC) //4
+don't go back in time. ##IMPERATIVE
+Get the message. ##IMPERATIVE
+Be able to give a reasonable answer ##IMPERATIVE*
+just because you know ##GENERIC SENTENCE (STATIC)
+it's actually a good idea in the first place. ##GENERIC SENTENCE (STATIC)
+And if it's a good idea then it's a bad idea. ##GENERIC SENTENCE (STATIC)*
+I think ##BASIC STATE
+I know better than you. ##BASIC STATE
+I have written to many people on this matter, ##PERFECT COERCED STATE (SPECIFIC)
+including some politicians. ##OTHER //3
+I have seen ##PERFECT COERCED STATE (SPECIFIC) //4
+just how easy the process is for a politician to start climbing the mountain without knowing it. ##GENERIC SENTENCE (STATIC)
+Their argument usually depends on their credibility, their skills, or their habit, ##GENERIC SENTENCE (HABITUAL)
+but only if you are a kindly old old liberal ##GENERIC SENTENCE (STATIC)
+that you take seriously ##GENERIC SENTENCE (HABITUAL)* //3
+your duty to help the country ##OTHER
+you love. ##GENERIC SENTENCE (STATIC)
+And by that I mean ##BASIC STATE
+that honesty happens to everyone. ##GENERIC SENTENCE (DYNAMIC)*
+Everyone is on the other side of it, ##GENERIC SENTENCE (STATIC)
+and if one person's opinion is not trusted enough to admit ##GENERIC SENTENCE (STATIC)*
+they are wrong. ##GENERIC SENTENCE (STATIC)
+My family and I are on the other side of this ##BASIC STATE
+because we live with the addiction, ##UNBOUNDED EVENT (SPECIFIC)
+as in, ##OTHER
+in our privacy. ##OTHER
+We try to stay off booze and drugs at this point. ##GENERALIZING SENTENCE (DYNAMIC)
+In my opinion, ##OTHER
+the only reason ##OTHER
+more people should do this ##COERCED STATE (GENERIC)
+is that the addiction to these drugs like drug play are exactly the same as abuse, ##GENERIC SENTENCE (STATIC)
+except instead of drunkenness and drugs are "going down" the wrong road, ##GENERIC SENTENCE (STATIC)*
+alcohol is helping the addict ##GENERIC SENTENCE (DYNAMIC)
+and addicts are far more honest and less trusting. ##GENERIC SENTENCE (HABITUAL)
+Definitely make sure ##IMPERATIVE
+you drink no more than five or six ounces of alcohol a night. ##GENERIC SENTENCE (DYNAMIC) //1
+Never strip naked ##IMPERATIVE
+before your spouse leaves you ##UNBOUNDED EVENT (GENERIC) //3
+and that ##OTHER*
+before you walk away. ##UNBOUNDED EVENT (GENERIC) //3
+Having a baby is not a crime, ##GENERIC SENTENCE (STATIC)
+even though, ##OTHER
+uh, ##OTHER
+I have been accused of it already ##PERFECT COERCED STATE (SPECIFIC)
+and I told you ##BOUNDED EVENT
+how well I should have known it ##BASIC STATE* //2
+when I was pregnant. ##BASIC STATE
+Yeah, ##OTHER
+a few times. ##OTHER
+So, ##OTHER
+who knows ##QUESTION
+how long I'll keep doing this, ##COERCED STATE (SPECIFIC)
+anyway. ##OTHER
+Keep it simple ##IMPERATIVE
+and let the social side of things do the talking. ##IMPERATIVE*
+If you're wondering ##UNBOUNDED EVENT (GENERIC)
+why the social point of ##QUESTION* //1
+"don't strip naked ##IMPERATIVE
+before your spouse gets ready for baby", ##BOUNDED EVENT (GENERIC)* //2
+I don't know why. ##BASIC STATE
+What I do know is, ##BASIC STATE
+you probably don't want to be naked during the winter ##GENERIC SENTENCE (STATIC)
+unless you could control your husband, ##COERCED STATE (GENERIC)
+and you need that protection. ##GENERIC SENTENCE (STATIC)
+Whatever you want to do with your possessions, ##GENERIC SENTENCE (STATIC) //3
+people have been devious in getting you to do that. ##GENERIC SENTENCE (STATIC)
+***0 4 0 0 YES UC NO UNCLEAR 1 1 1 1 ALGORITHM 

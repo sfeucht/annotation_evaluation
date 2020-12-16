@@ -1,0 +1,105 @@
+This article is over 2 years old. ##BASIC STATE 
+ Panel says ##BASIC STATE 
+ arrests and jail term could be used as a tool ##COERCED STATE (GENERIC) 
+ to prosecute citizens for issues of political , policy , or cultural grievance ##UNBOUNDED EVENT (GENERIC) 
+ Self-proclaimed hippies in India have come together ##COERCED STATE (GENERIC) 
+ and got arrested for planning the 1962 holocaust in the forests of Bodhinagar , ##BOUNDED EVENT (GENERIC)  
+the capital city of the Bodh Gaya district . ##OTHER 
+At a press conference at the state intelligence headquarters , ##OTHER 
+ IOSD for Democracy visited multiple cities ##OTHER 
+ that were staging demonstrations against the war and black militant groups as well as Aligarh , Tamils , Guruns , and farm labourers ##BOUNDED EVENT (GENERIC)
+ belonging to some of Indias largest Hindu groups . ##GENERIC SENTENCE (STATIC) 
+The site was provided to us by Lucknow KMO for political rallies , ##BOUNDED EVENT (GENERIC) 
+ and we felt betrayed and arrested . ##GENERIC SENTENCE (STATIC) 
+We appealed the Delhi police ##BOUNDED EVENT (GENERIC) 
+ to take our case against us to court . ##UNBOUNDED EVENT (GENERIC) 
+You can see ##BASIC STATE 
+ how Indian politics have changed since then : ##COERCED STATE (GENERIC) 
+ A revolutionary idea was espoused by a young person-turned-politician , ##BASIC STATE  
+ and then by an outsider ##OTHER 
+ who founded India in 1970 , ##BOUNDED EVENT (SPECIFIC) 
+Andrew Weisz . ##OTHER
+Weisz founded The communist Stalinist Youth . ##BOUNDED EVENT (SPECIFIC) 
+Stalinism is not a politically correct term , ##BASIC STATE 
+ but a very radical concept .##BASIC STATE 
+We are not opposed to a well-managed , safe , healthy , and adequate society ,  ##GENERIC SENTENCE (STATIC) 
+ but our actions [ ##OTHER 
+ we are ] on the wrong side of history .##GENERIC SENTENCE (STATIC) 
+2 October was brutal . ##GENERIC SENTENCE (STATIC) 
+We can understand any rational response ##GENERIC SENTENCE (STATIC) 
+ that anger the people . ##OTHER 
+We knew ##GENERIC SENTENCE (STATIC) 
+ we couldn't make it illegal to be either against the war or black , ##GENERIC SENTENCE (STATIC) 
+ but by getting the public to associate the hippies with marijuana and blacks with heroin , ##UNBOUNDED EVENT (STATIC) //2
+ and then criminalizing them , ##UNBOUNDED EVENT (GENERIC) 
+ said Vishnej , ##BOUNDED EVENT (SPECIFIC) 
+coordinator of the campaign Weisz ##BASIC STATE 
+ built for the campaign in November . ##BASIC STATE 
+Weisz said ##BOUNDED EVENT (SPECIFIC) 
+ while the campaign did not just last six months , ##BASIC STATE 
+ it lasted multiple years . ##BASIC STATE 
+While the campaign featured many celebrities , ##BASIC STATE 
+ it did not do enough for each individual . ##BASIC STATE 
+Despite a problem of race relations in India , ##OTHER 
+ we saw ##BOUNDED EVENT (GENERIC) 
+ that many people were sick of their conditions ##GENERIC SENTENCE (STATIC) 
+ and have really tried to ask for change not just get things done , ##COERCED STATE (GENERIC) 
+ but get things done . ##IMPERATIVE 
+It does not seem so surprising  ##GENERIC SENTENCE (STATIC) 
+ to us ##OTHER 
+ that when you build a media outlet , ##UNBOUNDED EVENT (GENERIC) 
+ thats in .##OTHER
+Before we had these adversarial networks , ##PERFECT COERCED STATE 
+ there were the media news lanes ##GENERIC SENTENCE (STATIC) 
+ and that kind of funding was constant .##GENERIC SENTENCE (STATIC) 
+We created a network of television and radio stations and the internet , ##BOUNDED EVENT (SPECIFIC) 
+ said IOSD for Democracy specialising in communications and human rights .##BOUNDED EVENT (SPECIFIC) 
+Weiszs ideology is this : ##BASIC STATE 
+ the democratically elected leader of the Communist Peoples Union ##BOUNDED EVENT (SPECIFIC) 
+ ( CPU ) ##OTHER 
+ must tell the world ##IMPERATIVE 
+ that India is in trouble . ##BASIC STATE 
+This sounds a bit contradictory , ##BASIC STATE 
+ but Weisz does not say outright ##UNBOUNDED EVENT (SPECIFIC) 
+ that his plans do not include black extremist groups .##BASIC STATE 
+You can see ##BASIC STATE 
+ how Indian politics have changed since then : ##COERCED STATE (GENERIC) 
+ A revolutionary idea was espoused by a young person-turned-politician , ##BASIC STATE 
+ and then by an outsider ##OTHER 
+ who founded India in 1970 , ##BOUNDED EVENT (SPECIFIC) 
+Andrew Weisz . ##OTHER 
+Weisz founded The communist Stalinist Youth . ##BOUNDED EVENT (SPECIFIC) 
+Stalinism is not a politically correct term , ##BASIC STATE 
+but a very radical concept . ##BASIC STATE 
+That ideology is just one part of the equation . ##BASIC STATE 
+With the exception of most of the interviewees ##OTHER  
+ I have seen , ##COERCED STATE (GENERIC) 
+ many of the protests ##OTHER 
+ that were happening on anything from harassing farmers ##BOUNDED EVENT (GENERIC) 
+ or shooting at police ##OTHER 
+ were ##OTHER //2 
+ confined to local roads ##GENERIC SENTENCE (STATIC) 
+ and were largely peaceful . ##GENERIC SENTENCE (STATIC) 
+Young people are the majority . ##GENERIC SENTENCE (STATIC) 
+Any progressive organization will not fight against the wrongs done , ##UNBOUNDED EVENT (GENERIC)  
+ it takes initiatives in addition to thinking ##GENERIC SENTENCE (STATIC) 
+ like some people think ##GENERIC SENTENCE (STATIC) 
+ is the message . ##GENERIC SENTENCE (STATIC) 
+Weisz knows this so well that he always lets people know , ##BASIC STATE 
+ before he makes a case , ##UNBOUNDED EVENT (GENERIC) 
+ what he knows . ##BASIC STATE 
+He could say things like : ##COERCED STATE (GENERIC) 
+ Let us , ##OTHER 
+ I must not stand and protest . ##COERCED STATE (GENERIC) 
+If India is a big country , ##BASIC STATE 
+ we want to come here ##GENERIC SENTENCE (STATIC) 
+ and observe with the citizens . ##GENERIC SENTENCE (STATIC) 
+Its hard ##BASIC STATE 
+ to imagine anyone ##UNBOUNDED EVENT (GENERIC) 
+ telling the people ##UNBOUNDED EVENT (GENERIC) 
+to leave the party scary enough , ##UNBOUNDED EVENT (GENERIC)
+ but still maintaining that weve ##UNBOUNDED EVENT (GENERIC) 
+ got a way ##OTHER 
+ to help everyone . ##UNBOUNDED EVENT 
+Vishnej is an intern at the Gashwad forum ##BASIC STATE 
+*** 0 4 0 3 4 2 3 4 YES UC YES 0 0 NA NA ALGORITHM

@@ -1,0 +1,113 @@
+Colorados largest marijuana market has exploded in recent months . ##COERCED STATE (GENERIC) 
+Sales of marijuana rose 16 percent in 2012 from a low base of $6 million a year ago , ##GENERIC SENTENCE (STATIC)  
+ according to The Greeley Tribune . ##OTHER
+Residents of the Aurora Cannabis and Cannabidiol operations started sprouting buds and buds again in their communities April 5 .##BOUNDED EVENT (GENERIC) 
+Now the quality of cannabis ##OTHER 
+ grown on farms and recreational use on legal marijuana sites ##OTHER
+ is booming . ##GENERIC SENTENCE (STATIC) 
+Denvers public air is nearly full , ##BASIC STATE
+ and about 100,000 pounds of weed was harvested from the marijuana ##BOUNDED EVENT (GENERIC) 
+ grow site a day later . ##OTHER 
+Its huge ,  ##GENERIC SENTENCE (STATIC) 
+a federal prosecutor said . ##BASIC STATE 
+Farmers and their clients like Silva Rodriguez a dispensary owner from Denver ##OTHER 
+ have long viewed Colorados growing cannabis industry as the next frontier for their industry . ##COERCED STATE (GENERIC) 
+Rodriguez , ##OTHER 
+ who has run mules ##COERCED STATE (SPECIFIC) 
+ since he purchased Qangrobamadox , ##BOUNDED EVENT (SPECIFIC) 
+ said ##OTHER 
+ his wholesale distributors have had an easy way ##COERCED STATE (GENERIC) 
+ to apply the growing necessity of marijuana , ##UNBOUNDED EVENT (GENERIC) 
+ which is plentiful and cheaper ##BASIC STATE 
+ than the publics need to use small medical units and $30 marijuana lighters ##GENERIC SENTENCE (STATIC) 
+ to grow a leaf crop . ##UNBOUNDED EVENT (GENERIC) 
+That his growers and growers here are mostly college students ,  ##GENERIC SENTENCE (STATIC) 
+ with a herd of older college graduates in their early 20s ,  ##OTHER 
+ has kept him coming back . ##COERCED STATE (GENERIC) 
+Its a perfect example of growing an industry ,  ##BASIC STATE 
+ he said . ##BASIC STATE 
+Patrick Kaleta ,  ##OTHER 
+president of Aurora Cannabis , ##OTHER  
+said ##OTHER 
+ he expects legal marijuana sales to reach $4 billion by 2019 , ##BASIC STATE 
+ a 9 percent increase from 2012 . ##OTHER 
+Colorado is going to be the biggest grower . ##GENERIC SENTENCE (STATIC) 
+And that's going to drive the entire state market ,  ##GENERIC SENTENCE (STATIC) 
+ he said . ##BASIC STATE 
+Natalie Brooks , ##OTHER
+vice president of health in Boulder , Colorado ,  ##OTHER
+said  ##OTHER 
+ that the amount of up-to-date state and federal laws has led to the sale of more cigarettes for people ##COERCED STATE (GENERIC) 
+ who like to smoke . ##OTHER 
+MedSurg Industries , ##OTHER 
+ a local supplier of industrial pot and low-in-the-middle pot , ##OTHER 
+saw about 20 percent of its sales a year ago . ##BOUNDED EVENT (SPECIFIC) 
+That made it one of the fastest growing companies nationwide , ##GENERIC SENTENCE (STATIC) 
+ he said . ##BASIC STATE 
+MedSurg has 30 employees and products ,  ##PERFECT COERCED STATE
+ from flushes to edibles . ##OTHER 
+Dr. Thomas Brunick ,  ##OTHER 
+a past president of Colorados Healthcare Association and an expert on so-called regulatory issues ,  ##OTHER 
+said ##OTHER 
+ federal laws ##OTHER 
+ called For You Americans , ##OTHER //2
+ which have started a campaign against health marijuana companies , ##COERCED STATE (GENERIC) 
+ have pushed marijuana out of medical use . ##COERCED STATE (GENERIC) 
+This ,  ##OTHER 
+ he said , ##BASIC STATE 
+ led to a decline in medical use by many people but not patients . ##GENERIC SENTENCE (STATIC)  
+As a medical patient in the state ,  ##OTHER 
+we're concerned with our own interest and sometimes fight ,  ##GENERIC SENTENCE (STATIC) 
+ he said . ##BASIC SETATE 
+The industry has even entered the business of recreational marijuana ,  ##COERCED STATE (GENERIC) 
+ reporting big returns for annual sales last year ,  ##UNBOUNDED EVENT (GENERIC)
+ according to a newly released study . ##GENERIC SENTENCE (STATIC) 
+Nearly half of the marijuana growth came from Colorado dispensaries ,  ##GENERIC SENTENCE (STATIC) 
+ compared with just 13 percent nationwide . ##OTHER 
+Falling medical prices have helped encourage more people ##COERCED STATE (GENERIC)  
+ to use marijuana  ##UNBOUNDED EVENT (GENERIC) 
+ and boost supply . ##OTHER
+Meanwhile ,  ##OTHER 
+estimates say ##GENERIC SENTENCE (STATIC) 
+ adults are doing so at a healthier rate than in the past . ##GENERIC SENTENCE (STATIC) 
+Experts estimate  ##GENERIC SENTENCE (STATIC) 
+ there are 382,000 marijuana users in Colorado now , ##GENERIC SENTENCE (STATIC) 
+ mostly teenagers and medical marijuana users . ##OTHER 
+Adams Countys MedSurg was the epicenter for growth . ##GENERIC SENTENCE (STATIC) 
+Almost 80 percent of its cannabis grows came from local growers , ##GENERIC SENTENCE (STATIC) 
+ Mark Slubecki , ##OTHER 
+vice president , ##OTHER 
+said . ##OTHER
+He recalled winning an after-school lottery for the towns oldest daughter .##BOUNDED EVENT (SPECIFIC) 
+We're fast-growing , ##GENERIC SENTENCE (STATIC) 
+ he said . ##BASIC STATE 
+Collaboration is a key .##GENERIC SENTENCE (STATIC) 
+The biggest group of marijuana growers ##OTHER 
+ ( in Colorado ) ##OTHER
+ is the junior members , ##GENERIC SENTENCE (STATIC) 
+ said Hooman Saong , ##BASIC STATE 
+a drug law attorney in Denver . ##OTHER 
+They understand ##GENERIC SENTENCE (STATIC) 
+ that we're one of the largest . ##GENERIC SENTENCE (STATIC) 
+Related Coverage 20 Years Ago : ##OTHER 
+A Look Back at the Growing History of Colorados Marijuana industry ##OTHER 
+ Other Denver-area companies are thriving . ##GENERIC SENTENCE (STATIC) 
+We have this amazing opportunity , ##PERFECT COERCED STATE 
+ said Niango Bell , ##BASIC STATE 
+ a subsidiary of Denver-based MidTower Inc . ##OTHER 
+But many feel a duty to shoulder more responsibility for marijuana production and distribution . ##GENERIC SENTENCE (STATIC) 
+Its about a business  ##GENERIC SENTENCE (STATIC) 
+ that allows a business to grow and get the cultivation and distribution  ##GENERIC SENTENCE (STATIC) 
+ done right , ##OTHER 
+ de Haas , ##OTHER 
+founder of Rural Cannabis Partners , ##OTHER
+said . ##OTHER 
+Growing a marijuana plant requires customers to take a paid-up birth certificate , ##GENERIC SENTENCE (STATIC) 
+ self-report their medical conditions , ##UNBOUNDED EVENT (GENERIC) 
+ maintain a full license ##UNBOUNDED EVENT (GENERIC) 
+ to produce and grow , ##UNBOUNDED EVENT (GENERIC) 
+ and pass a grievance process ##UNBOUNDED EVENT (GENERIC) 
+ with the state . ##OTHER 
+There are so many regulations in place ,  ##GENERIC SENTENCE (STATIC) 
+ Niango Bell said . ##BASIC STATE 
+*** 0 5 5 2 5 5 5 5 YES ML YES 0 0 HUMAN

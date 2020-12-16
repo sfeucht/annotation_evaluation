@@ -1,0 +1,85 @@
+Two Arizona lawmakers ##OTHER
+who are leading an effort to legalize marijuana are at odds over the issue, ##UNBOUNDED EVENT (SPECIFIC)
+and the death of a two-year-old boy in New Mexico. ##OTHER
+Two legislators Cathy Procopio and Bruce Logan of the House Judiciary Committee wrote to Attorney General Ken Paxton ##BOUNDED EVENT (SPECIFIC)
+asking him ##UNBOUNDED EVENT (SPECIFIC)
+to remove an ordinance in New Mexico ##IMPERATIVE
+that requires all Arizona residents to smoke pot in public. ##UNBOUNDED EVENT (SPECIFIC)
+As they say, ##BASIC STATE
+California and Maine have already passed marijuana laws, ##PERFECT COERCED STATE (SPECIFIC)
+and officials say ##GENERIC SENTENCE (STATIC)
+the decision to legalize marijuana affects California and Maine. ##UNBOUNDED EVENT (SPECIFIC)
+"I have decided to write to Attorney General Paxton ##PERFECT COERCED STATE (SPECIFIC)
+to revoke its provisions to create the right of all Arizona residents to the sale of marijuana ##UNBOUNDED EVENT (SPECIFIC)
+in public," ##OTHER
+said an outraged Rep. Diane Vetter, ##BOUNDED EVENT (SPECIFIC)
+R-Chincoteague. ##OTHER
+"This is an affront to the laws of this state and to the Constitution. ##BASIC STATE
+In our country, ##OTHER
+we don't support persons having private cells not known to be unprivileged." ##GENERIC SENTENCE (HABITUAL)
+Paxton defended the measure, ##BOUNDED EVENT (SPECIFIC)
+saying ##UNBOUNDED EVENT (SPECIFIC)
+he believes ##BASIC STATE
+it's appropriate for the U.S. government to give people "the ability to grow their own marijuana in private laboratories, ##GENERIC SENTENCE (STATIC)
+on public property." ##OTHER
+Rep. Procopio said ##BOUNDED EVENT (SPECIFIC)
+she was speaking out ##UNBOUNDED EVENT (SPECIFIC)
+because her opinion represents the view of many in Arizona ##UNBOUNDED EVENT (SPECIFIC)
+who long support the legalization of marijuana. ##BASIC STATE
+"In those relationships ##OTHER
+we are focused on public health, ##GENERIC SENTENCE (HABITUAL)
+not on public safety," ##OTHER
+she said. ##BOUNDED EVENT (SPECIFIC)
+When asked ##BOUNDED EVENT (SPECIFIC)
+whether she would support legislation to legalize pot, ##COERCED STATE (SPECIFIC)
+Procopio told XXX ##BOUNDED EVENT (SPECIFIC)
+that the movement is working with the Washington state attorney general ##UNBOUNDED EVENT (SPECIFIC)
+to move to ban marijuana sales to minors. ##UNBOUNDED EVENT (SPECIFIC)
+"I believe ##BASIC STATE
+it's inappropriate ##GENERIC SENTENCE (STATIC)
+for us to fight for anything ##UNBOUNDED EVENT (SPECIFIC)
+that does not exist," ##GENERIC SENTENCE (STATIC)
+said Rep. Procopio. ##BOUNDED EVENT (SPECIFIC)
+"In my opinion, ##OTHER
+we shouldn't have to fight for this ##COERCED STATE (SPECIFIC)
+because of where we stand," ##OTHER
+said Rep. Procopio. ##BOUNDED EVENT (SPECIFIC)
+Petersen, ##OTHER (same as UNBOUNDED EVENT (SPECIFIC))
+also of the House Judiciary Committee, ##OTHER
+is hoping to help develop ##UNBOUNDED EVENT (SPECIFIC)
+what he said ##BOUNDED EVENT (SPECIFIC)
+will be a legal pot shop. ##BASIC STATE
+When asked ##BOUNDED EVENT (GENERIC)
+whether he would file a bill ##COERCED STATE (SPECIFIC)
+with the Republican-controlled Senate ##OTHER
+to create a legal pot shop, ##UNBOUNDED EVENT (SPECIFIC)
+Petersen said ##BOUNDED EVENT (SPECIFIC)
+he has already heard about the spirit of Congress to "thwart the wheel." ##PERFECT COERCED STATE (SPECIFIC)
+"I do think it's something ##BASIC STATE
+that we should be trying to deal with," ##COERCED STATE (SPECIFIC)
+said Petersen. ##BOUNDED EVENT (SPECIFIC)
+"But I also know ##BASIC STATE
+what I'll be bringing to the Senate floor as well as the House." ##COERCED STATE (SPECIFIC)
+His partner in California is Patrick DeMarco, ##BASIC STATE
+who heads the Marijuana Legalization Group. ##UNBOUNDED EVENT (SPECIFIC)
+When asked about the issue, ##BOUNDED EVENT (GENERIC)
+DeMarco said ##BOUNDED EVENT (SPECIFIC)
+he doesn't know, ##BASIC STATE
+and is not thrilled by any lawmaker's involvement with the issue. ##BASIC STATE
+"I think ##BASIC STATE
+[Schneiderman] is the better person to stand up for what we believe in, ##BASIC STATE
+and everybody I've talked to is happy ##GENERIC SENTENCE (STATIC)
+that he does," ##GENERALIZING SENTENCE (DYNAMIC)*
+DeMarco said. ##BOUNDED EVENT (SPECIFIC)
+The Death of a Two-Year-Old ##OTHER
+A two-year-old boy was found dead on Tuesday in New Mexico. ##BOUNDED EVENT (SPECIFIC)
+Two days after his parents agreed to give him marijuana possession, ##BOUNDED EVENT (SPECIFIC)
+his head was discovered in some items inside his yard. ##BOUNDED EVENT (SPECIFIC)
+He is now reported to be in critical condition. ##BASIC STATE
+What Is a Dispensary at the Festival of Faith or Canopy? ##QUESTION
+Medical Marijuana? ##QUESTION
+Healthy Utah versus Cannabis or Public Mandate? ##QUESTION
+Earlier This Week: ##OTHER
+Marijuana Use Arizona Attorney General Jeff Flake Says ##BASIC STATE
+Governor Will Try to Allow Sedition Case Dancing With Obama and Chris Christie at Sunshine State Summit Holly Harms Pot in Arizona Lobbying for Marijuana Rights? ##COERCED STATE (SPECIFIC)*
+***0 5 5 1 1 3 1 4 YES ML YES 0 0 0 0 ALGORITHM

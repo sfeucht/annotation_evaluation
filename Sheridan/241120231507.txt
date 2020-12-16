@@ -1,0 +1,70 @@
+She couldn't resist. ##COERCED STATE (SPECIFIC)
+Singer Miley Cyrus smoked a joint on stage ##BOUNDED EVENT (SPECIFIC)
+and twerked with a dwarf during the MTV EMAs on Sunday. ##BOUNDED EVENT (SPECIFIC)
+The 20-year old pop star also took home the Best Video award for her hit song ##BOUNDED EVENT (SPECIFIC)
+"Wrecking Ball" ##OTHER
+during a show with a strong lineup of other performers ##OTHER //3
+including Eminem and Katy Perry. ##BASIC STATE
+Cyrus opened the space-themed show ##BOUNDED EVENT (SPECIFIC)
+singing the song ##UNBOUNDED EVENT (SPECIFIC)
+"We Can't Stop," ##COERCED STATE (GENERIC)
+while wearing a silver spandex suit ##UNBOUNDED EVENT (SPECIFIC)
+and gyrating her buttocks in the move ##UNBOUNDED EVENT (SPECIFIC)
+known as twerking in the general direction of her smaller female dance partner. ##GENERIC SENTENCE (HABITUAL) //3
+To the delight of the crowd in Amsterdam's Ziggo Dome, ##OTHER
+Cyrus finished the number ##BOUNDED EVENT (SPECIFIC)
+by sticking out her tongue, ##UNBOUNDED EVENT (SPECIFIC)
+the same expression ##OTHER
+she flashed repeatedly during her eyebrow-raising appearance at MTV's Video Music Awards in New York in August. ##GENERALIZING SENTENCE (DYNAMIC)
+After winning the top award at the end of the show, ##BOUNDED EVENT (SPECIFIC)
+she celebrated by demonstratively lighting up a large spliff ##BOUNDED EVENT (SPECIFIC)
+and quickly taking a puff. ##BOUNDED EVENT (SPECIFIC) //4
+Marijuana is not legal in the Netherlands, ##GENERIC SENTENCE (STATIC)
+but smokers can't be prosecuted for possessing small amounts ##COERCED STATE (GENERIC)
+and it is sold openly in cafes ##GENERIC SENTENCE (DYNAMIC)
+known euphemistically as "coffee shops." ##GENERIC SENTENCE (HABITUAL)
+However, ##OTHER
+that didn't stop MTV from editing the incident out of the telecast ##COERCED STATE (GENERIC)
+that aired in America later Sunday evening. ##BOUNDED EVENT (SPECIFIC)
+Cyrus, ##OTHER (same as COERCED STATE (SPECIFIC))
+who long ago shed her image of innocence as the child star of "Hannah Montana," ##BOUNDED EVENT (SPECIFIC)
+has made no secret ##COERCED STATE (SPECIFIC)
+of her appreciation of Amsterdam's attractions, ##GENERALIZING SENTENCE (STATIVE) //3
+arriving the Friday before the show ##BOUNDED EVENT (SPECIFIC)
+and hanging out at the Greenhouse coffee shop ##UNBOUNDED EVENT (SPECIFIC)
+downtown with several other stars. ##OTHER
+She also wore marijuana leaf emblems in her earphones during a live rendition of ##UNBOUNDED EVENT (SPECIFIC)
+"Wrecking Ball" against the backdrop of a giant video screen of herself crying. ##OTHER
+The EMAs traditionally focus on global, ##GENERALIZING SENTENCE (STATIVE)
+rather than U.S. pop music acts, ##OTHER
+though there's a lot of overlap: ##GENERIC SENTENCE (HABITUAL)
+winners included Bruno Mars, ##BASIC STATE
+who grabbed Best Song for ##BOUNDED EVENT (SPECIFIC)
+"Locked Out of Heaven," ##OTHER //3
+and Eminem both in the Best Hip Hop and Global Icon category. ##BASIC STATE
+The "intergalactic" - ##OTHER (same as COERCED STATE (SPECIFIC))
+themed show is scheduled to be rebroadcast in the U.S. later Sunday. ##COERCED STATE (SPECIFIC)
+Another notable winner was Katy Perry for Best Female Artist. ##BASIC STATE
+Perry, ##OTHER (same as BOUNDED EVENT (SPECIFIC))
+apparently caught by surprise at her win, ##COERCED STATE (SPECIFIC) //4
+spit out a sip of champagne ##BOUNDED EVENT (SPECIFIC)
+and took the stage ##BOUNDED EVENT (SPECIFIC)
+to thank her fans. ##UNBOUNDED EVENT (SPECIFIC)
+During Perry's performance earlier, ##OTHER
+she hung suspended by wires ##BOUNDED EVENT (SPECIFIC) //4
+as green lasers ##OTHER
+reflected off her ##UNBOUNDED EVENT (SPECIFIC)
+mirrored outfit during a rendition of "Unconditional." ##OTHER
+Eminem, ##OTHER (same as BASIC STATE)
+who has just released his first album in several years, ##PERFECT COERCED STATE (SPECIFIC)
+appeared to have lost none of his rapping skill ##BASIC STATE
+as he performed "Rap God," ##UNBOUNDED EVENT (SPECIFIC)
+spitting out words at a blistering pace. ##UNBOUNDED EVENT (SPECIFIC)
+He was handed his Global Icon honor ##BOUNDED EVENT (SPECIFIC)
+by "Anchorman" character "Ron Burgundy" ##OTHER
+(actor Will Ferrell), ##OTHER
+who informed him ##BOUNDED EVENT (SPECIFIC)
+that Dutch DJ Afrojack had been insulting him behind his back. ##PERFECT COERCED STATE (SPECIFIC)
+"Who?" ##QUESTION
+Eminem deadpanned. ##BOUNDED EVENT (SPECIFIC)
+***0 5 3 0 0 0 0 0 YES ML YES 0 0 0 0 HUMAN

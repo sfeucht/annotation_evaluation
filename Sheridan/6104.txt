@@ -1,0 +1,63 @@
+That's interesting. ##BASIC STATE
+Just to give you some (perhaps overly personal) background, ##UNBOUNDED EVENT (SPECIFIC)
+about half the males in my family have a single psychotic episode around the time ##GENERALIZING SENTENCE (STATIVE)
+they turn twenty with no clear environmental cause. ##GENERALIZING SENTENCE (DYNAMIC) //2
+When I had mine, ##BASIC STATE
+despite knowing my family history ##BASIC STATE
+and having a negative drug test for everything but marijuana, ##BASIC STATE
+the psych hospital told my parents ##BOUNDED EVENT (SPECIFIC)
+I had "almost definitely" smoked weed ##PERFECT COERCED STATE (SPECIFIC)
+laced with PCP, ##BASIC STATE //3
+which was "the problem with dangerous street drugs". ##BASIC STATE
+That's all just to say ##BASIC STATE
+that I'm super-sensitive about saying ##BASIC STATE
+someone caused their own mental health problems, ##BOUNDED EVENT (GENERIC)
+because, ##OTHER
+even from family members ##OTHER
+who had experienced the same condition, ##PERFECT COERCED STATE (SPECIFIC)
+I had to listen to them ##COERCED STATE (SPECIFIC) //3
+tell me ##BOUNDED EVENT (SPECIFIC) //4, bounded because timeframe mentioned in whole sentence
+it was my fault for the months ##BASIC STATE
+it took me to recover my normal patterns of thought. ##UNBOUNDED EVENT (SPECIFIC) 
+That article certainly makes more of a case ##UNBOUNDED EVENT (SPECIFIC)
+than I've seen elsewhere, ##PERFECT COERCED STATE (SPECIFIC)
+but I'm not sure ##BASIC STATE
+I find it convincing. ##BASIC STATE
+Here's the paragraph ##BASIC STATE
+where they differentiate correlation/causation: ##UNBOUNDED EVENT (SPECIFIC)
+Of course, ##OTHER
+association does not prove causation. ##GENERIC SENTENCE (DYNAMIC)
+However, ##OTHER
+one by one, ##OTHER
+alternative explanations have gradually been disproved. ##PERFECT COERCED STATE (GENERIC)
+4 Patients do not start using cannabis ##COERCED STATE (GENERIC)
+to self-medicate their psychotic or prodromal symptoms or side-effects of drugs, ##GENERIC SENTENCE (DYNAMIC) //4
+but rather use it for the same reasons as the rest of the population, ##GENERIC SENTENCE (DYNAMIC)
+principally for its ‘high’. ##OTHER
+The risk of psychosis remains after controlling for personality disorder and use of other psychotogenic drugs. ##GENERIC SENTENCE (STATIC)
+Some overlap between genes ##OTHER
+carrying susceptibility to schizophrenia and to drug use ##UNBOUNDED EVENT (SPECIFIC) //4
+has been reported but insufficient to explain more ##PERFECT COERCED STATE (GENERIC) //3
+than a fraction of the relationship. ##OTHER
+4This argument seems to based on self-reported motivations, ##BASIC STATE
+controlling for diagnosed personality disorders, ##UNBOUNDED EVENT (SPECIFIC)
+and controlling for other drug use. ##UNBOUNDED EVENT (SPECIFIC)
+I'm not sure ##BASIC STATE
+the fact ##OTHER
+that people express the desire to get high ##GENERIC SENTENCE (DYNAMIC)
+says much about why they're taking a substance, ##GENERIC SENTENCE (DYNAMIC)
+and I think ##BASIC STATE 
+there's a much broader range of "sub-optimal" mental states ##GENERIC SENTENCE (STATIC)
+(that might lead one to self-medicate) ##COERCED STATE (GENERIC)
+than are regularly diagnosed. ##GENERIC SENTENCE (DYNAMIC)
+If they wanted to claim ##BASIC STATE //3
+we knew ##GENERIC SENTENCE (STATIC)
+there was still a correlation after controlling for, ##GENERIC SENTENCE (STATIC) 
+e.g., ##OTHER
+Borderline Personality Disorder ##OTHER
+that'd be one thing, ##BASIC STATE //4
+but it seems like a stretch to say ruling ##BASIC STATE //4
+that sort of thing out proves causation. ##UNBOUNDED EVENT (GENERIC) //3
+edit: ##OTHER
+extraneous comma ##OTHER
+***0 5 0 2 5 5 5 2 YES ML YES UNCLEAR 3 5 5 5 HUMAN 

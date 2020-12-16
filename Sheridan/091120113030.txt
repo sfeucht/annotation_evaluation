@@ -1,0 +1,68 @@
+Alcoholic beverage sales fell by 15 percent ##BOUNDED EVENT (GENERIC)
+following the introduction of medical marijuana laws in a number of states, ##OTHER
+according to a new working paper by researchers at the University of Connecticut and Georgia State University. ##BASIC STATE
+The study adds to a growing body of evidence ##UNBOUNDED EVENT (SPECIFIC)
+showing ##UNBOUNDED EVENT (GENERIC) //3
+that marijuana availability can reduce alcohol consumption. ##COERCED STATE (GENERIC)
+Because experts generally agree ##GENERIC SENTENCE (HABITUAL)
+that, ##OTHER
+on balance, ##OTHER
+alcohol use is more harmful to individuals and society than marijuana use, ##GENERIC SENTENCE (HABITUAL)
+this would represent a significant public health benefit of marijuana legalization. ##BASIC STATE
+For the study, ##OTHER
+researchers examined alcohol sales data ##BOUNDED EVENT (SPECIFIC)
+included in Nielsen's Retail Scanner database, ##BASIC STATE
+which includes product-level sales data from 90 retail chains ##BASIC STATE
+across the United States. ##OTHER
+The researchers say ##BASIC STATE
+this represents an improvement over other ways ##BASIC STATE
+of measuring alcohol consumption ##UNBOUNDED EVENT (GENERIC)
+survey respondents, ##OTHER
+for instance, ##OTHER
+are known to severely lowball their alcohol consumption ##GENERIC SENTENCE (DYNAMIC)
+when asked about it by interviewers. ##GENERIC SENTENCE (DYNAMIC)
+The researchers compared alcohol sales between states ##BOUNDED EVENT (SPECIFIC)
+that implemented medical marijuana laws ##BOUNDED EVENT (GENERIC) 
+and those ##OTHER
+that didn't, ##COERCED STATE (GENERIC)
+before and after the change in marijuana laws. ##OTHER
+They also corrected for a number of economic and demographic variables ##BOUNDED EVENT (SPECIFIC)
+known to affect alcohol use, ##BASIC STATE
+such as age, race and income. ##OTHER
+We find ##UNBOUNDED EVENT (SPECIFIC)
+that marijuana and alcohol are strong substitutes for each other, ##GENERIC SENTENCE (STATIC)
+the study concludes. ##UNBOUNDED EVENT (SPECIFIC) //3
+Counties ##OTHER
+located in [medical marijuana] states reduced monthly alcohol sales by 15 percent after the introduction of medical marijuana laws. ##BOUNDED EVENT (GENERIC)
+If these findings are correct, ##BASIC STATE
+it's likely that they understate the effect ##GENERALIZING SENTENCE (HABITUAL)
+of full marijuana legalization on alcohol use. ##OTHER
+Under medical marijuana laws, ##OTHER
+only a small handful of people are legally able to access the drug patients wishing to use ##COERCED STATE (GENERIC)
+it must typically obtain a recommendation from a doctor, ##GENERIC SENTENCE (DYNAMIC)
+and in most states only certain conditions are eligible for treatment with marijuana. ##GENERIC SENTENCE (STATIC)
+Full recreational legalization, ##OTHER
+as is the case now in Colorado and seven other states, ##GENERIC SENTENCE (STATIC)
+means ##GENERIC SENTENCE (STATIC)
+that any individual can purchase pot on demand. ##COERCED STATE (GENERIC)
+While not all of the existing research agrees ##GENERIC SENTENCE (HABITUAL)
+that marijuana availability decreases alcohol use, ##GENERIC SENTENCE (DYNAMIC)
+a solid body of evidence points to that conclusion. ##GENERIC SENTENCE (STATIC)
+An analysis last year of 39 reports on the subject found ##BOUNDED EVENT (SPECIFIC)
+that 16 supported the idea ##BASIC STATE
+that people substitute marijuana use for alcohol, ##GENERIC SENTENCE (DYNAMIC)
+while 10 studies suggested ##UNBOUNDED EVENT (SPECIFIC)
+that ##OTHER
+marijuana availability actually increased alcohol use. ##BOUNDED EVENT (GENERIC)
+Twelve additional studies supported neither conclusion. ##BASIC STATE
+Unlike alcohol, ##OTHER
+marijuana has no known fatal dose ##GENERIC SENTENCE (STATIC)
+people don't die of marijuana poisoning. ##GENERIC SENTENCE (DYNAMIC)
+Relative to marijuana, ##OTHER
+alcohol is more addictive, ##GENERIC SENTENCE (STATIC)
+far more likely to cause vehicle accidents, ##GENERIC SENTENCE (DYNAMIC)
+and much more closely linked to violent and aggressive behavior. ##GENERIC SENTENCE (STATIC)
+In the United States, ##OTHER
+excessive alcohol use kills nearly 90,000 people each year, ##GENERIC SENTENCE (DYNAMIC)
+according to the Centers for Disease Control and Prevention. ##BASIC STATE
+***0 5 5 0 0 0 0 0 YES ML YES 4 2 4 5 HUMAN

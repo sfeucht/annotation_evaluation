@@ -1,0 +1,42 @@
+A California judge wants to stop a marijuana campaign in California and Hawaii for relaxation and recreational marijuana use, ##BASIC STATE
+the Huffington Post reported. ##BOUNDED EVENT (SPECIFIC)
+Los Angeles Superior Court Judge Sharon Kleinberg held a public hearing on the attorney-client privilege issue ##BOUNDED EVENT (SPECIFIC)
+during which she reviewed Culpos current medical marijuana plan to benefit from a friendly regulatory system. ##BOUNDED EVENT (SPECIFIC)
+Kleinberg also told Culpo ##BOUNDED EVENT (SPECIFIC)
+that her marijuana-advocacy organization would file a public comments contest. ##COERCED STATE (SPECIFIC)
+The attorney-client privilege allows the counsel to discuss matters ##GENERIC SENENCE (HABITUAL)
+that are critical to its legal goals and interests. ##GENERIC SENTENCE (STATIC)
+It takes people years ##GENERIC SENTENCE (DYNAMIC)
+to be brought together ##UNBOUNDED EVENT (SPECIFIC)
+and you dont just say, ##COERCED STATE (GENERIC)
+OK, ##OTHER
+the attorneys ##OTHER
+going to be representing, ##COERCED STATE (GENERIC)
+Kleinberg said. ##BOUNDED EVENT (SPECIFIC)
+Culpo, ##OTHER (same as BASIC STATE)
+who said ##BOUNDED EVENT (SPECIFIC)
+she is well-versed in ethics, ##BASIC STATE
+worries ##UNBOUNDED EVENT (SPECIFIC)
+that cannabis control could alienate people from her employer, ##COERCED STATE (GENERIC)
+NBC reported. ##BOUNDED EVENT (SPECIFIC)
+A doctor in California told CNBC on Thursday, ##BOUNDED EVENT (SPECIFIC)
+however, ##OTHER
+that even Trumps recent campaign against Congress proposed ban on the federal governments use of medical marijuana could affect childrens mental health. ##COERCED STATE (SPECIFIC)
+Pot pot is a solution to the problem ##GENERIC SENTENCE (STATIC)*
+that we have, ##GENERIC SENTENCE (STATIC) //3
+Los Angeles City Councilman Bernard Parks told NBC. ##BOUNDED EVENT (SPECIFIC)
+I dont know of any thing ##BASIC STATE
+thats going to make me happier about how it addresses mental health problems in the childrens health. ##COERCED STATE (GENERIC)*
+The head of the pot-producing business community has said ##PERFECT COERCED STATE (SPECIFIC)
+the prospect of marijuana legalization would make Chicago new hip city ##COERCED STATE (GENERIC)
+and create new jobs for residents. ##COERCED STATE (GENERIC)
+Chicago has a bevy of healthcare providers, ##BASIC STATE
+a bunch of utilities ##OTHER
+and large companies in the city, ##OTHER
+said Kirk Jowers, ##BOUNDED EVENT (SPECIFIC)
+CEO of the Chicago Treatment Centers. ##OTHER
+They are huge in everything ##GENERIC SENTENCE (STATIC)
+we do. ##GENERIC SENTENCE (DYNAMIC)
+Culpos proposed amendment would allow medical marijuana use by minors. ##COERCED STATE (SPECIFIC)
+Chances are that Culpos plan wont pass the California Assembly. ##COERCED STATE (SPECIFIC)
+***0 5 5 0 0 0 0 0 YES ML YES 0 0 0 0 ALGORITHM 

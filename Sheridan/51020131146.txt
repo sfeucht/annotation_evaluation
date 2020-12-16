@@ -1,0 +1,35 @@
+So reading the first quarter of so of Scalia's piece and the blog, ##UNBOUNDED EVENT (SPECIFIC)
+it seems their (the majority's) ##GENERIC SENTENCE (STATIC) //3
+main rationale hinges on that they believe ##BASIC STATE*
+that California's marijuana market ##OTHER
+(in this case) interferes with federal regulations of interstate commerce ##GENERIC SENTENCE (DYNAMIC)
+(illegal drug trade). ##OTHER
+The question to me is whether this interference is really substantial enough ##BASIC STATE
+to warrant such a potential expansion of powers of the Commerce Clause. ##GENERIC SENTENCE (STATIC)
+I think ##BASIC STATE
+the reality is that creating a legal medical marijuana market * does * have an impact on the marijuana supply in other states as well. ##GENERIC SENTENCE (STATIC)
+It creates a legal market for a previously illegal good within California. ##GENERIC SENTENCE (DYNAMIC)
+However, ##OTHER
+this good is easily transferable to out of state ##GENERIC SENTENCE (STATIC)
+(it's not like marijuana expires; ##GENERIC SENTENCE (DYNAMIC) //4
+and if a medical marijuana license was as easy to obtain ##GENERIC SENTENCE (STATIC)
+as it is today, ##GENERIC SENTENCE (STATIC)
+then the restrictions wouldn't prevent out of staters from getting a license). ##COERCED STATE (GENERIC)
+As such, ##OTHER
+to me it seems understandable at face value ##GENERIC SENTENCE (STATIC)
+that SCOTUS would be concerned about an over extension of a state's ability to impact out of state markets through such a legalization. ##BASIC STATE
+Furthermore, ##OTHER
+since the time of the ruling, ##OTHER
+what qualifies as interstate commerce has only become more complicated with the advances in technology ##PERFECT COERCED STATE (GENERIC)
+which have taken place ##PERFECT COERCED STATE (GENERIC)
+which make it even easier to order goods from out of state. ##UNBOUNDED EVENT (GENERIC)
+Does the ruling ##QUESTION
+open a potential pandora's box of extending federal government power over the commerce clause? ##UNBOUNDED EVENT (SPECIFIC)
+The way ##OTHER
+that the majority opinions seem to state it, ##GENERIC SENTENCE (STATIC)
+it doesn't necessarily. ##COERCED STATE (SPECIFIC)
+They leave it rather vague, ##GENERIC SENTENCE (STATIC)
+and seem to only validate such a ruling ##GENERIC SENTENCE (STATIC)
+for a case ##OTHER
+dealing with specific markets such as illegal substances. ##UNBOUNDED EVENT (GENERIC)
+***0 5 0 0 0 0 0 0 YES ML YES 4 0 0 0 0 HUMAN 

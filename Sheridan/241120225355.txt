@@ -1,0 +1,129 @@
+Six states ##OTHER
+that allow marijuana use ##UNBOUNDED EVENT (SPECIFIC)
+have legal tests ##BASIC STATE
+to determine driving ##UNBOUNDED EVENT (GENERIC)
+while impaired by the drug ##UNBOUNDED EVENT (GENERIC)
+that have no scientific basis, ##GENERIC SENTENCE (STATIC)
+according to a study ##BASIC STATE
+by the nation's largest automobile club ##OTHER
+that calls for scrapping those laws. ##UNBOUNDED EVENT (SPECIFIC)
+The study ##OTHER
+commissioned by AAA's safety foundation ##BOUNDED EVENT (SPECIFIC)
+said ##BOUNDED EVENT (SPECIFIC)
+it's not possible to set a blood-test threshold for THC, ##COERCED STATE (GENERIC)
+the chemical in marijuana ##OTHER
+that makes people high, ##GENERIC SENTENCE (DYNAMIC)
+that can reliably determine impairment. ##COERCED STATE (GENERIC)
+Yet the laws in five of the six states automatically presume a driver guilty ##GENERALIZING SENTENCE (STATIVE)
+if that person tests higher than the limit, ##COERCED STATE (GENERIC)
+and not guilty ##OTHER
+if it's lower. ##COERCED STATE (SPECIFIC)
+As a result, ##OTHER
+drivers ##OTHER
+who are unsafe may be going free ##GENERIC SENTENCE (STATIC)
+while others may be wrongly convicted, ##COERCED STATE (GENERIC)
+the foundation said. ##BOUNDED EVENT (SPECIFIC)
+The foundation recommends replacing the laws with ones ##UNBOUNDED EVENT (SPECIFIC)
+that rely on specially trained police officers ##GENERIC SENTENCE (STATIC)
+to determine ##UNBOUNDED EVENT (GENERIC)
+if a driver is impaired, ##GENERIC SENTENCE (STATIC)
+backed up by a test for the presence of THC rather than a specific threshold. ##GENERIC SENTENCE (STATIC)
+The officers are supposed to screen for dozens of indicators of drug use, ##GENERIC SENTENCE (STATIC)
+from pupil dilation and tongue color to behavior. ##OTHER
+The foundation's recommendation to scrap the laws in Colorado, Montana, Nevada, Ohio, Pennsylvania and Washington comes ##UNBOUNDED EVENT (SPECIFIC)
+as legislatures in several more states ##OTHER
+consider adopting similar laws. ##UNBOUNDED EVENT (GENERIC)
+At least three states, ##OTHER
+and possibly as many as eleven, ##OTHER
+will also vote this fall on ballot measures to legalize marijuana for either recreational or medicinal use, ##COERCED STATE (GENERIC)
+or both. ##OTHER
+Several legislatures are also considering legalization bills. ##UNBOUNDED EVENT (SPECIFIC)
+"There is understandably a strong desire by both lawmakers and the public to create legal limits ##GENERIC SENTENCE (STATIC)
+for marijuana impairment in the same manner ##OTHER
+we do alcohol," ##UNBOUNDED EVENT (GENERIC)
+said Marshall Doney, ##BOUNDED EVENT (SPECIFIC)
+AAA's president and CEO. ##OTHER
+"In the case of marijuana, ##OTHER
+this approach is flawed ##GENERIC SENTENCE (STATIC)
+and not supported by scientific research." ##GENERIC SENTENCE (STATIC)
+Determining ##UNBOUNDED EVENT (SPECIFIC)
+whether someone is impaired by marijuana, ##GENERIC SENTENCE (STATIC)
+as opposed to having merely used the drug at some time, ##PERFECT COERCED STATE (GENERIC)
+is far more complex than the simple and reliable tests ##GENERIC SENTENCE (STATIC)
+that have been developed for alcohol impairment. ##PERFECT COERCED STATE (GENERIC)
+There's no science ##GENERIC SENTENCE (STATIC)
+that shows drivers become impaired at a specific level of THC in the blood. ##GENERIC SENTENCE (STATIC)
+A lot depends upon the individual. ##GENERIC SENTENCE (HABITUAL)
+Drivers with relatively high levels of THC in their systems might not be impaired, ##GENERIC SENTENCE (HABITUAL)
+especially if they are regular users, ##GENERIC SENTENCE (STATIC)
+while others with relatively low levels may be unsafe behind the wheel. ##GENERIC SENTENCE (HABITUAL) //4
+Some drivers may be impaired ##GENERIC SENTENCE (HABITUAL) //4
+when they are stopped by police, ##GENERIC SENTENCE (DYNAMIC)
+but by the time their blood is tested ##GENERIC SENTENCE (DYNAMIC)
+they have fallen below the legal threshold ##PERFECT COERCED STATE (GENERIC)
+because active THC dissipates rapidly. ##GENERIC SENTENCE (DYNAMIC)
+The average time to collect blood from a suspected driver ##GENERIC SENTENCE (DYNAMIC)
+is often more than two hours ##GENERIC SENTENCE (HABITUAL)
+because taking a blood sample typically requires a warrant ##GENERIC SENTENCE (HABITUAL) 
+and transport to a police station or hospital, ##OTHER
+the foundation said. ##BOUNDED EVENT (SPECIFIC)
+In addition, ##OTHER
+frequent marijuana users can exhibit persistent levels of the drug long after use, ##COERCED STATE (GENERIC)
+while THC levels can decline more rapidly among occasional users. ##COERCED STATE (GENERIC)
+Nine states, ##OTHER (same as PERFECT COERCED STATE (SPECIFIC))
+including some ##UNBOUNDED EVENT (SPECIFIC)
+that have legalized marijuana for medicinal use, ##PERFECT COERCED STATE (SPECIFIC)
+have zero-tolerance laws for driving and marijuana ##GENERIC SENTENCE (STATIC)
+that make not only the presence of THC in a driver's blood illegal, ##UNBOUNDED EVENT (GENERIC)
+but also the presence of its metabolites, ##OTHER
+which can linger for weeks after use. ##COERCED STATE (GENERIC)
+That makes no sense, ##COERCED STATE (GENERIC)
+said Mark A. R. Kleiman, ##BOUNDED EVENT (SPECIFIC)
+a New York University professor ##OTHER
+specializing in issues ##UNBOUNDED EVENT (SPECIFIC)
+involving drugs and criminal policy. ##UNBOUNDED EVENT (SPECIFIC)
+"A law against driving with THC in your bloodstream ##OTHER
+is not a law ##GENERIC SENTENCE (STATIC)
+you can know ##GENERIC SENTENCE (STATIC)
+you are obeying except by never smoking marijuana ##UNBOUNDED EVENT (GENERIC)
+or never driving," ##COERCED STATE (GENERIC)
+he said. ##BOUNDED EVENT (SPECIFIC)
+He said ##BOUNDED EVENT (SPECIFIC)
+rather than switching to a new kind of law ##UNBOUNDED EVENT (SPECIFIC)
+as AAA recommends, ##BASIC STATE
+states should consider simply making it a traffic violation. ##COERCED STATE (GENERIC)
+Studies show ##GENERIC SENTENCE (HABITUAL)
+that using marijuana ##UNBOUNDED EVENT (GENERIC)
+and driving roughly doubles the risk of a crash, ##GENERIC SENTENCE (DYNAMIC) 
+Kleiman said. ##BOUNDED EVENT (SPECIFIC)
+By comparison, ##OTHER
+talking on a hands-free cellphone ##UNBOUNDED EVENT (SPECIFIC)
+while driving legal in all states quadruples crash risk, ##GENERIC SENTENCE (DYNAMIC)
+he said. ##BOUNDED EVENT (SPECIFIC)
+A blood alcohol content of .12, ##OTHER
+which is about the median amount in drunken driving cases, ##GENERIC SENTENCE (STATIC)
+increases crash risk ##GENERIC SENTENCE (DYNAMIC)
+by about 15 times, ##OTHER
+he said. ##BOUNDED EVENT (SPECIFIC)
+Driving with "a noisy child in the back of the car" ##UNBOUNDED EVENT (GENERIC)
+is about as dangerous as using marijuana and driving, ##GENERIC SENTENCE (HABITUAL)
+Kleiman said. ##BOUNDED EVENT (SPECIFIC)
+The exception is when a driver has both been using marijuana ##GENERIC SENTENCE (STATIC)
+and drinking alcohol ##UNBOUNDED EVENT (GENERIC)
+because the two substances together greatly heighten impairment, ##GENERIC SENTENCE (DYNAMIC)
+he said. ##BOUNDED EVENT (SPECIFIC)
+The foundation also released a second study ##BOUNDED EVENT (SPECIFIC)
+that found the share of drivers in fatal crashes ##BOUNDED EVENT (SPECIFIC)
+who had recently used marijuana ##PERFECT COERCED STATE (SPECIFIC)
+doubled in Washington ##BOUNDED EVENT (SPECIFIC)
+after the state legalized it for recreational use in December 2012. ##BOUNDED EVENT (SPECIFIC)
+From 2013 to 2014, ##OTHER
+the share of drivers ##OTHER
+who had recently used marijuana ##PERFECT COERCED STATE (GENERIC)
+rose from 8 percent to 17 percent. ##BOUNDED EVENT (GENERIC)
+While it stopped short ##BOUNDED EVENT (SPECIFIC)
+of blaming the crashes on that increase, ##UNBOUNDED EVENT (SPECIFIC)
+AAA traffic safety director Jake Nelson said ##BOUNDED EVENT (SPECIFIC)
+traffic fatalities went up 6 percent in Washington during that same period ##BOUNDED EVENT (GENERIC)
+while the fatalities nationally declined. ##BOUNDED EVENT (GENERIC)
+***0 5 5 0 0 0 0 0 YES ML YES 0 3 5 5 HUMAN

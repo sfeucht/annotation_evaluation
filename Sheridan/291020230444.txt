@@ -1,0 +1,58 @@
+A Feb. 10, 2012 photo shows Matthew Huron, ##BASIC STATE
+owner of two medical marijuana dispensaries and an edible marijuana company in Denver, ##OTHER
+examining a marijuana plant in his grow house. ##UNBOUNDED EVENT (SPECIFIC)
+Medical marijuana is legal in 17 states, ##GENERIC SENTENCE (STATIC)
+but the industry has a decidedly black-market aspect its mostly cash-only. ##GENERIC SENTENCE (STATIC)
+Thats because banks wont touch pot money. ##COERCED STATE (GENERIC)
+Theyre scrambling for space to grow marijuana in Denver. ##UNBOUNDED EVENT (GENERIC)
+The demand is so great ##GENERIC SENTENCE (STATIC)
+that warehouse space is renting for four times the price ##UNBOUNDED EVENT (GENERIC)
+it fetched ##GENERIC SENTENCE (DYNAMIC)
+before marijuana sales began in Colorado, ##BOUNDED EVENT (SPECIFIC)
+the Denver Post reports. ##BASIC STATE
+Commercial real estate tracker Xceligent Inc. estimates ##BASIC STATE
+that marijuana cultivation and manufacturing facilities in the city occupy about 4.5 million square feet the equivalent of 78 football fields. ##GENERIC SENTENCE (STATIC)
+"This industry has come on so fast that initially I was uneasy ##PERFECT COERCED STATE (GENERIC)
+it seemed like a fad," ##GENERIC SENTENCE (STATIC)
+said Brad Calbert, ##BOUNDED EVENT (SPECIFIC)
+president of the Colliers International brokerage in Denver. ##OTHER
+But whats ##OTHER
+making it sustainable is supply, demand and capital. ##UNBOUNDED EVENT (GENERIC) 
+Supply is deficient, ##GENERIC SENTENCE (STATIC)
+demand is excessive, ##GENERIC SENTENCE (STATIC)
+and capital is abundant. ##GENERIC SENTENCE (STATIC)
+But recreational marijuana sales brought in only $2 million in tax revenue in January, ##BOUNDED EVENT (GENERIC)
+according the figures from the states Department of Revenue. ##BASIC STATE*
+That represents about $14 million worth of pot, ##BASIC STATE
+sold from about 59 businesses. ##BOUNDED EVENT (SPECIFIC) //3
+According to the Washington Posts Niraj Chokshi: ##BASIC STATE
+When compared to expectations for the first six months of the year, ##COERCED STATE (GENERIC) //4
+January sales appear discouraging. ##GENERIC SENTENCE (STATIC)
+If they hold for the remainder of the fiscal year, ##COERCED STATE (GENERIC)
+the state will see about $21 million in revenue. ##COERCED STATE (GENERIC) //4
+A mid-2013 fiscal analysis of the proposal ##OTHER
+that became the law, ##BOUNDED EVENT (SPECIFIC)
+however, ##OTHER
+foresaw an additional $33.5 million in revenue ##BOUNDED EVENT (SPECIFIC)
+generated in the first six months of the year. ##BOUNDED EVENT (GENERIC)
+An estimate last month from Gov. John Hickenloopers (D) budget office predicted revenues of about $35.2 million. ##BOUNDED EVENT (SPECIFIC)
+The new tax figures are the first official accounting of pot sales ##BASIC STATE
+since they began on Jan. 1 under a new Colorado law ##BOUNDED EVENT (GENERIC)
+enacted in 2012. ##BOUNDED EVENT (SPECIFIC)
+The state of Washington has also legalized marijuana sales ##PERFECT COERCED STATE (SPECIFIC)
+but legal retailing hasnt started up there yet. ##COERCED STATE (GENERIC)
+There are numerous reports ##GENERIC SENTENCE (STATIC)
+of pot ##OTHER
+being sold via Craigslist and other sites, ##UNBOUNDED EVENT (GENERIC)
+however, ##OTHER
+with customers ordering it up ##GENERIC SENTENCE (DYNAMIC)
+as if it were pizza. ##GENERIC SENTENCE (STATIC)
+Washington issued its first legal marijuana ##BOUNDED EVENT (SPECIFIC)
+growing and processing license last week, ##OTHER
+according to the Associated Press. ##BASIC STATE
+It was issued to Sean Green, ##BOUNDED EVENT (SPECIFIC)
+who has previously operated medical marijuana dispensaries in Spokane as well as the Seattle suburb of Shoreline. ##PERFECT COERCED STATE (SPECIFIC)
+Green is the chief executive of Spokanes Kouchlock Productions. ##BASIC STATE
+The state is set to issue retail licenses later this spring, ##BASIC STATE
+with sales expected to begin in June or July. ##BASIC STATE //4
+***0 5 5 0 0 0 0 0 YES ML YES 0 0 0 0 HUMAN

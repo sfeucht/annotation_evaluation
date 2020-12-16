@@ -1,0 +1,49 @@
+Mike Tyson is on the verge of becoming a heavyweight in Californias burgeoning marijuana industry. ##BASIC STATE
+The former boxer and some business partners have broken ground on a 40-acre ranch in the state ##PERFECT COERCED STATE (SPECIFIC)
+that they envision as a destination for growers and consumers of newly legal weed. ##BASIC STATE
+California, ##OTHER
+which had allowed licensed medical marijuana use, ##PERFECT COERCED STATE (SPECIFIC) //4
+legalized recreational pot Jan. 1, ##BOUNDED EVENT (SPECIFIC) //4
+and Tyson is looking to capitalize in a big way. ##BASIC STATE
+The Blast reported Monday ##BOUNDED EVENT (SPECIFIC)
+that the 51-year-old former heavyweight champion broke ground last month on a cannabis resort to be located in California City, ##BOUNDED EVENT (SPECIFIC)
+a town in the Mojave Desert about a 110-mile drive north from Los Angeles. ##OTHER
+The location is also a much shorter drive north from Edwards Air Force Base, ##BASIC STATE
+and according to The Blast, ##BASIC STATE
+taking care of men and women ##UNBOUNDED EVENT (SPECIFIC)
+who have served in the armed forces ##PERFECT COERCED STATE (GENERIC)
+is a top priority for Tyson ##GENERIC SENTENCE (STATIC)
+Holistic, ##OTHER
+the company ##OTHER
+that will operate the resort, ##COERCED STATE (SPECIFIC)
+to be called Tyson Ranch. ##BASIC STATE //4
+The Blast noted ##BOUNDED EVENT (SPECIFIC)
+that cannabidiol, ##OTHER
+a marijuana extract ##OTHER
+that does not provide the high famously ##COERCED STATE (GENERIC)
+associated with tetrahydrocannabinol, ##GENERIC SENTENCE (HABITUAL)
+has been used by some veterans ##COERCED STATE (GENERIC)
+to treat cases of post-traumatic stress disorder, ##GENERIC SENTENCE (DYNAMIC)
+and it is touted by advocates as having other therapeutic properties as well. ##GENERIC SENTENCE (DYNAMIC)
+Tyson Ranch will reportedly set aside 20 acres for the cultivation of marijuana by master growers, ##COERCED STATE (SPECIFIC)
+while the property will also feature facilities ##BASIC STATE
+to help the growers and those ##UNBOUNDED EVENT (GENERIC)
+interested in becoming one. ##GENERIC SENTENCE (STATIC)
+In addition, ##OTHER
+the ranch will offer an edibles factory, an amphitheater and areas for glamping. ##COERCED STATE (SPECIFIC)
+The groundbreaking ceremony included two of Tysons business partners, ##BASIC STATE
+Robert Hickman and Jay Strommen, ##OTHER
+and California City Mayor Jennifer Wood. ##OTHER
+She said ##BOUNDED EVENT (SPECIFIC)
+the ranch would help engineer a rebirth for her town, ##COERCED STATE (SPECIFIC)
+a planned city ##OTHER
+that never flourished in the way ##COERCED STATE (SPECIFIC)
+its 1950s developers envisioned. ##BASIC STATE //3
+Hickman told The Blast ##BOUNDED EVENT (SPECIFIC)
+that the undeveloped lands in California City are primed to be cultivated. ##GENERIC SENTENCE (STATIC)
+The city has sought to boost its economy in recent years by attracting marijuana-related businesses. ##PERFECT COERCED STATE (SPECIFIC)
+Tyson has spoken in the past about using marijuana extensively during his boxing career, ##PERFECT COERCED STATE (SPECIFIC)
+as well as having been addicted at times to cocaine. ##BASIC STATE //4
+His October 2000 win by technical knockout over Andrew Golota was subsequently changed to no contest ##BOUNDED EVENT (SPECIFIC)
+after Tyson tested positive for marijuana. ##BOUNDED EVENT (SPECIFIC)
+***0 5 5 1 5 5 5 1 YES ML YES 0 0 0 0 HUMAN

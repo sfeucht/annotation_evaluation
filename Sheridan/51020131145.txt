@@ -1,0 +1,99 @@
+There are undeniable evidence ##GENERIC SENTENCE (STATIC)
+cannabis is effective for patients ##GENERIC SENTENCE (STATIC)
+suffering from anxiety and pain. ##GENERIC SENTENCE (DYNAMIC)
+Marijuana use in all but one form of pain relievers and other medicines ##OTHER
+is largely unreliable ##GENERIC SENTENCE (STATIC)
+and in the midst ##OTHER
+of extended, unpredictable times the two saw or mentioned the future of that argument. ##BOUNDED EVENT (SPECIFIC)*
+(The UK's version of euthanasia has reported ##PERFECT COERCED STATE (SPECIFIC)*
+that 34% of its patients as a group still would be entitled to terminally ill diagnoses and euthanasia, ##BASIC STATE
+regardless of whether or not they choose to live.) ##OTHER //3
+Other research shows ##GENERIC SENTENCE (DYNAMIC)
+cannabis products ##OTHER
+produced as part of industry in Canada include a range of THC-based, THC-based, THC-based, or CBD products. #GENERIC SENTENCE (STATIC)*
+Using CBD, ##UNBOUNDED EVENT (GENERIC) //2
+it is found in marijuana plants ##GENERIC SENTENCE (DYNAMIC)
+that are naturally a plant, ##GENERIC SENTENCE (STATIC)*
+infused with a CBD compound. ##GENERIC SENTENCE (STATIC)
+Cannabis is a completely different animal ##GENERIC SENTENCE (STATIC)
+but produces full CBD, ##GENERIC SENTENCE (DYNAMIC)
+and it was human brain's potential to diagnose and treat pain ##GENERIC SENTENCE (STATIC)*
+that allowed research into CBD products to be done. ##UNBOUNDED EVENT (GENERIC) //4
+After making some serious, detailed hay in this road taking pursuit, ##BOUNDED EVENT (GENERIC)*
+cannabis is now being sold by some companies ##UNBOUNDED EVENT (SPECIFIC) //4
+that are on the cutting edge of neuroscience-based clinical studies. ##BASIC STATE //4
+In addition to cannabis and the opioid issue and ecstasy, ##OTHER
+some of the most popular products include a range of medicines ##GENERIC SENTENCE (STATIC)
+that aim to make people more resilient to dealing with pain and far more sophisticated solutions ##GENERIC SENTENCE (HABITUAL)
+that actually help with issues as complicated as illness and mental illness. ##GENERIC SENTENCE (HABITUAL)
+It seems the real power of cannabis and the poverty of people with chronic pain ##OTHER
+this has long been revealed to be about health and its treatment impacts. ##PERFECT COERCED STATE (GENERIC)*
+Thanks for your scientific interest. ##OTHER
+Holiness Treat Your Pain ##NONSENSE
+Holiness are things ##GENERIC SENTENCE (STATIC)*
+that experts recommend much of the time ##GENERIC SENTENCE (HABITUAL)
+but on the other hand you won't probably talk about so I'm going to deal with this anyway, ##COERCED STATE (SPECIFIC)
+talking about it really difficult ##GENERIC SENTENCE (STATIC)*
+(unless you're on medication) ##GENERIC SENTENCE (STATIC)
+and speaking about it more in the past it may seem like "to me medicinal cannabis" the fact ##NONSENSE
+that I'm making this person argue ##UNBOUNDED EVENT (SPECIFIC)
+that the subjects of my work, ##OTHER*
+should be released on medical marijuana, ##COERCED STATE (SPECIFIC)
+it isn't. ##GENERIC SENTENCE (STATIC)*
+Granted ##OTHER
+I can't mention it ##COERCED STATE (SPECIFIC)
+I'm writing this, ##UNBOUNDED EVENT (SPECIFIC)
+but as someone ##BASIC STATE
+who uses my work to stop methadone and other forms ##GENERALIZING SENTENCE (DYNAMIC)
+of prescription medication ##OTHER
+I can agree ##COERCED STATE (SPECIFIC)
+there is tremendous health damage done to a person ##GENERIC SENTENCE (STATIC)
+given a choice. ##UNBOUNDED EVENT (GENERIC)* //2
+I'll be there to help anybody, ##BASIC STATE
+I just don't know ##BASIC STATE
+how to properly praise the scientific work ##UNBOUNDED EVENT (SPECIFIC) //2
+done so far, ##BOUNDED EVENT (GENERIC)
+so I'm not going to end up acknowledging it ##COERCED STATE (SPECIFIC)
+but it does have to do with adverse health outcomes. ##GENERIC SENTENCE (STATIC)
+It's not going to help them to get treatment, ##COERCED STATE (GENERIC)
+it's not going to help them get the necessary time and effort in people ##COERCED STATE (GENERIC) 
+who use it to get off that medication, ##GENERIC SENTENCE (HABITUAL)
+and it will definitely be harmful. ##GENERIC SENTENCE (STATIC)
+As I've said before, ##COERCED STATE (SPECIFIC)
+another reason to move forward with a medical study like the one ##UNBOUNDED EVENT (SPECIFIC) //3
+that's going on here ##UNBOUNDED EVENT (SPECIFIC)
+is not so much getting knowledgeable about the legalization of cannabis ##GENERIC SENTENCE (STATIC)
+not actually, ##OTHER
+but in terms of paying for a study ##UNBOUNDED EVENT (GENERIC)
+like the one ##GENERIC SENTENCE (STATIC)
+done in England, ##BOUNDED EVENT (SPECIFIC)
+so that it's backed up by true and documented science ##GENERIC SENTENCE (STATIC) //4
+it should be necessary ##GENERIC SENTENCE (STATIC)
+if they want a study ##GENERIC SENTENCE (STATIC)
+like the one ##GENERIC SENTENCE (STATIC)
+you're referring to so they don't want to come up with money to fund such studies. ##UNBOUNDED EVENT (SPECIFIC)
+Obviously in my experience the two areas of research done in the United States on cannabis impacts harm less far and far. ##GENERIC SENTENCE (HABITUAL)*
+Not that I'm personally mad ##BASIC STATE
+because I don't believe ##BASIC STATE
+each of these studies is valid at all. ##GENERIC SENTENCE (STATIC)
+In addition I'm in the wrong area of research ##BASIC STATE
+and think science isn't comprehensive. ##BASIC STATE
+I'm fascinated by how well these things come together. ##BASIC STATE
+It could be that well being concerned about this would help stem some of the other illnesses ##COERCED STATE (GENERIC)*
+that it potentially could also treat, ##COERCED STATE (GENERIC)
+including insomnia, mood problems, prostate cancer, anxiety and a number of other diseases, ##OTHER
+so this study is really interesting. ##BASIC STATE
+People in developing countries with some form of epilepsy, ##GENERIC SENTENCE (STATIC)
+for example, ##OTHER
+will come forward to provide medical data, ##COERCED STATE (GENERIC)
+so I would put it off as a viewpoint. ##COERCED STATE (SPECIFIC)
+They may not like it; ##GENERIC SENTENCE (STATIC)
+they just have more studies to do ##GENERIC SENTENCE (STATIC)
+and they'll pay for one more ##COERCED STATE (GENERIC)
+where they won't have this benefit ##GENERIC SENTENCE (STATIC)
+until they do that. ##COERCED STATE (GENERIC) //3
+I can't make those numbers call me a expert, ##COERCED STATE (SPECIFIC)*
+but I can certainly see them saying ##BASIC STATE
+that this is as positive ##BASIC STATE //4
+as the medical studies are capable of making it. ##GENERIC SENTENCE (STATIC) //4
+***0 2 0 0 0 0 0 0 YES ML NO 424 2 1 1 3 ALGORITHM 

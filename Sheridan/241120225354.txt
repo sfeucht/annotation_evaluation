@@ -1,0 +1,43 @@
+Young white men like Carlos Santana ##OTHER
+are adopting marijuana as a legal weed. ##UNBOUNDED EVENT (GENERIC)
+The singer has been on the "Dirtball" front ##BASIC STATE
+that is, ##BASIC STATE
+a country-music banger ##OTHER 
+they generally remember their childhoods in for the past year ##GENERIC SENTENCE (DYNAMIC)*
+to help President Obama. ##UNBOUNDED EVENT (SPECIFIC)
+Saturday, ##OTHER
+Santana will appear at the 2011 Art Walk for Change, ##COERCED STATE (SPECIFIC)
+a S.F. townwide community event ##OTHER
+that aims to broaden understanding of legalizing marijuana. ##GENERALIZING SENTENCE (DYNAMIC)
+"I'm going to talk about me as a life-long weed smoker ##COERCED STATE (SPECIFIC)
+and how I use marijuana ##GENERALIZING SENTENCE (DYNAMIC)
+to make a living," ##UNBOUNDED EVENT (SPECIFIC)
+Santana said via GQ. ##BOUNDED EVENT (SPECIFIC)
+"I grew up in California and smoking weed in a pool." ##BOUNDED EVENT (SPECIFIC)
+Santana drew heavy attention in 2011, ##BOUNDED EVENT (SPECIFIC)
+when he became the one of the city's 10 most talked about figures ##BOUNDED EVENT (SPECIFIC)
+when he was arrested for driving under the influence in New York City. ##BOUNDED EVENT (SPECIFIC)
+Santana now rests in legal limbo, ##UNBOUNDED EVENT (SPECIFIC)
+according to TMZ.com. ##BASIC STATE
+The site has obtained his travel documents ##PERFECT COERCED STATE (SPECIFIC)
+and is leaning toward certifying his presence as a citizen of the United States. ##UNBOUNDED EVENT (SPECIFIC)
+The singer said ##BOUNDED EVENT (SPECIFIC)
+he wasn't involved in the police sting ##BASIC STATE
+that produced the indictment. ##BOUNDED EVENT (SPECIFIC)
+But the problem now is that once Santana passes his driving test, ##COERCED STATE (SPECIFIC)
+he'll have to wait to be reinstated as a U.S. citizen. ##COERCED STATE (SPECIFIC)
+This puts him in a bind, ##UNBOUNDED EVENT (SPECIFIC)
+as it allows him to choose a lawyer ##UNBOUNDED EVENT (SPECIFIC)
+rather than actually run with it. ##UNBOUNDED EVENT (SPECIFIC) //3
+As for the band, ##OTHER
+Santana is on stage this Saturday alongside rocker Ghostface Killah, Stray Cat, Mariah Carey, and even a narrator, Mark Hamill. ##BASIC STATE
+Unlike Davis and Hoodie Rock, ##OTHER
+who are responsible for big-name artists like Jim James, ##BASIC STATE
+Santana sees the same dichotomy between politics and music ##BASIC STATE
+as he sees in science. ##BASIC STATE
+"It's a different planet," ##GENERIC SENTENCE (STATIC)
+he said. ##BOUNDED EVENT (SPECIFIC)
+"I love the idea of humanity ##BASIC STATE
+continuing to move forward ##UNBOUNDED EVENT (GENERIC)
+and hope for the best." ##BASIC STATE
+***0 5 3 0 0 0 0 0 YES ML YES 0 0 0 0 ALGORITHM

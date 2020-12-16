@@ -1,0 +1,40 @@
+> Not all drugs are addictive . ##GENERIC SENTENCE (STATIC) 
+Marijuana , LSD , and psilocybin for instance have no addictive effects> ##PERFECT COERCED STATE 
+I did n't say ##BASIC STATE 
+ that all were addictive ##GENERIC SENTENCE (STATIC) 
+ but there are negative effects , ##GENERIC SENTENCE (STATIC) 
+ being in an altered state makes you fundamentally less productive and for children ##GENERIC SENTENCE (STATIC) 
+ who are still developing ##GENERIC SENTENCE (STATIC) 
+ these can have negative effects .##GENERIC SENTENCE (STATIC)
+Hallucinogens have some potential for therapy in small amounts ##PERFECT COERCED STATE 
+ but people can also have very bad experiences from them  ##COERCED STATE (GENERIC) 
+ and get PTSD ##GENERIC SENTENCE (DYNAMIC) 
+ when using them on their own. ##UNBOUNDED EVENT (GENERIC) 
+> Who are you to tell people  ##QUESTION
+ what they can put in their own body .> ##GENERIC SENTENCE (STATIC) 
+Who am I to tell people ##QUESTION
+ they ca n't murder each other , ##GENERIC SENTENCE (STATIC)
+ or steal , ##OTHER 
+ I 'm just trying to look out for the best interests of people ##UNBOUNDED EVENT (GENERIC) 
+ and our laws should be too. ##COERCED STATE (GENERIC) 
+> Prohibition of alcohol ##OTHER 
+ and the tens of thousands ##OTHER 
+ who have been murdered due to the drug wars  ##COERCED STATE (GENERIC) 
+ have proven ##COERCED STATE (GENERIC) 
+ prohibition does n't work ##GENERIC SENTENCE (STATIC) 
+ and is ineffective .> ##GENERIC SENTENCE (STATIC)
+I did n't advocate for that , ##BASIC STATE
+ I said ##BASIC STATE 
+ I supported decriminalization , ##UNBOUNDED EVENT (GENERIC)  
+ but I still think ##BASIC STATE 
+ that there should be mandatory rehabilitation ##COERCED STATE (GENERIC) 
+ and that there are ways ##GENERIC SENTENCE (STATIC) 
+ you can try ##UNBOUNDED EVENT (GENERIC) 
+ and cut off supplies. ##UNBOUNDED EVENT (GENERIC) 
+> Tell me this , ##IMPERATIVE 
+ if the government ca n't prevent drugs from entering and circulating maximum security prisons  ##COERCED STATE (GENERIC)
+ how do you propose ##QUESTION
+ they do it out here ?> ##GENERIC SENTENCE (STATIC) //2 
+Obviously they ca n't prevent that 100 % but they can still prevent it somewhere . ##COERCED STATE (GENERIC) 
+Jesus christ you libertarians are stupid . ##GENERIC SENTENCE (STATIC) 
+*** 0 4 0 0 NA NA NA NA YES ML YES UNCLEAR(2)5 3 4 4 HUMAN

@@ -1,0 +1,94 @@
+national This was not the 1960s , ##BASIC STATE
+ but more recent pop culture trends have made it more palatable The Los Angeles Times has put the influence of punk rock in modern pop music on a pop history chronicle , ##COERCED STATE (GENERIC)
+ helping bring us the end of hippieism , the peak of hippie media ##UNBOUNDED EVENT //3
+ until it shut down the whole music scene and its agency . ##UNBOUNDED EVENT
+This is the best of the legacy ##GENERIC SENTENCE (STATIC)
+ left by an uninspired vision ##GENERIC SENTENCE (STATIC)
+ of what would be the legacy of hippie pop culture . ##COERCED STATE (SPECIFIC)
+According to the American Civil Liberties Union , more than 50 percent of American adults believe ##BASIC STATE
+ the people ##OTHER
+ around them should not be incarcerated or charged with crimes , ##COERCED STATE (GENERIC)
+ with the highest rate in the US partly due to the federal prison system . ##GENERIC SENTENCE (STATIC)
+Thus , sabotage , ##OTHER
+ said the ACLU , ##UNBOUNDED EVENT
+ is more than just a criminal offense . ##GENERIC SENTENCE (STATIC)
+These two main problems of the hippie movement are political and civic and they cannot be resolved without the public , ##GENERIC SENTENCE (STATIC)
+ and therefore , the drug drugs . ##NONSENSE
+This brings us to the story of Felony Narcotics ##BASIC STATE
+ ( Picture ##OTHER
+ recorded by Billie Holiday ) ##NONSENSE
+ it is clear that the internet helped to create this civilian revolution . ##UNBOUNDED EVENT
+The United States had a monopoly on the criminal justice system during the countrys expansion , ##BASIC STATE
+ and it must be acknowledged ##COERCED STATE (GENERIC)
+ that with the closure of the criminal justice system , ##OTHER
+ many of these personal matters could become politically explosive ##COERCED STATE (GENERIC)
+ and go against the broader political agenda . ##GENERIC SENTENCE (STATIC)
+Just to keep in mind ##GENERIC SENTENCE (STATIC)
+ that it will be a while ##COERCED STATE (GENERIC)
+ before all those behind the Pablo Escobar case get to plead guilty , ##UNBOUNDED EVENT
+ but this current thought process ##OTHER
+ regarding the not winning of the war against drugs ##GENERIC SENTENCE (STATIC)
+ is having a detrimental effect . ##BASIC STATE
+We recently saw about 25 activists , mostly in the US , ##BOUNDED EVENT
+ go to jail ##BOUNDED EVENT
+ after an anti-war group successfully argued an appeal of their conviction , ##BOUNDED EVENT
+ resulting in punitive sanctions against the organizers . ##BOUNDED EVENT
+The protestors ##OTHER
+ were jailed ##BOUNDED EVENT
+ before their appeal was heard , ##BOUNDED EVENT
+ yet all proceeds from this appeal were going toward social service and public aid programs . ##GENERALIZING SENTENCE (DYNAMIC)
+There are also many times ##GENERIC SENTENCE (STATIC)
+ where the incarceration of innocent people over drugs is a way ##BASIC STATE
+ to take away talent ##GENERIC SENTENCE (DYNAMIC)
+ and develop contacts and infrastructure ##GENERIC SENTENCE (DYNAMIC)
+ to make even minor actions , ##GENERIC SENTENCE (DYNAMIC)
+ some of which have been legal . ##GENERIC SENTENCE (DYNAMIC)
+Many officials of the US Border Patrol have been overcompensated with incarceration . ##COERCED STATE (SPECIFIC)
+A recent example is it was implemented in Pakistan ##UNBOUNDED EVENT (SPECIFIC)*
+ to prevent searches of immigrants ##GENERIC SENTENCE (DYNAMIC)
+ ( although domestic immigrant crime has far surpassed any drug crime in the US ) . ##COERCED STATE (SPECIFIC)
+The Trump administration is also aware of this ##BASIC STATE
+ and was constantly threatening the deportation of innocent people . ##GENERALIZING SENTENCE (DYNAMIC)
+One example is the suspect in the alleged murder of a US citizen . ##BASIC STATE
+This case is very different from those ##BASIC STATE
+ we witness as adults , ##GENERIC SENTENCE (DYNAMIC)
+ when in the last few years people are in detention due to being young and by reason of a moral or political decision ##GENERIC SENTENCE (STATIC)*
+ not to be aggressive about their arrest . ##GENERALIZING SENTENCE (DYNAMIC)
+It is not only the drug users ##BASIC STATE
+ who say this , yet another group ##GENERALIZING SENTENCE (DYNAMIC)
+ that is trying to disrupt these important civil rights issues . ##GENERALIZING SENTENCE (DYNAMIC)
+This is why there are many regular media reports ##GENERIC SENTENCE (STATIC)
+ blaming the rioters of Latin America ##GENERIC SENTENCE (STATIC)
+ that when they try to stop them from being trapped in the DEA , ##NONSENSE
+ to avoid facing the gangster punishment ##GENERIC SENTENCE (STATIC)
+ imposed on the group by the Obama administration . ##GENERALIZING SENTENCE (STATIVE)
+The policy behind these revelations is callous and premeditated . ##BASIC STATE
+This was not the 1960s , ##BASIC STATE
+ but more recent pop culture trends have made it more palatable . ##BASIC STATE
+These discussions have mostly focused on issues like mass incarceration . ##GENERIC SENTENCE (STATIC)
+It is not evident why , ##BASIC STATE
+ but I will concede ##COERCED STATE (SPECIFIC) //4
+ that other debates , ##OTHER
+ such as the mysterious sexism ##OTHER
+ that has infiltrated our media , ##COERCED STATE (SPECIFIC)
+ may lead to something more profound ##BASIC STATE
+ than just the monologue of a talk show host , Sexism is a Stupid Thing and even the use of drones or celebrities as examples ##BASIC STATE*
+ to further disturb and delay justice . ##GENERALIZING SENTENCE (DYNAMIC)*
+If people understand ##GENERIC SENTENCE (STATIC)
+ that society is about substance abuse , environmental degradation , gender inequality , and gay marriage issues , ##BASIC STATE*
+ this may facilitate a profound change of attitude . ##GENERALIZING SENTENCE (DYNAMIC)
+There is also the sense ##BASIC STATE
+ that if we ever really say , ##GENERIC SENTENCE (DYNAMIC)
+ its my responsibility to stop this illegal trend , ##BASIC STATE
+ and if the mass incarceration of criminalized people is somehow the cause , ##BASIC STATE
+ it should invite other civil rights issues . ##COERCED STATE (GENERIC)*
+It is essential for us ##GENERIC SENTENCE (STATIC)
+ as Americans to support the enforcement of justice , ##GENERIC SENTENCE (DYNAMIC) //4
+ be more considerate of the rights of others , ##GENERIC SENTENCE (DYNAMIC) //4
+ and act responsibly . ##GENERIC SENTENCE (DYNAMIC) //4
+I am very grateful for this new legacy of our youth and for the passion in our communities ##BASIC STATE
+ to fight against criminalization . ##GENERALIZING SENTENCE (DYNAMIC)
+That moral and legal recognition should invite more discussions about the terrible effects of mass incarceration and its negative effect on the communities of color . ##COERCED STATE (SPECIFIC)
+Twitter / MikeGLeitner ##OTHER
+
+***0 5 0 0 0 0 0 0 YES UC YES 1 2 3 2 ALGORITHM 

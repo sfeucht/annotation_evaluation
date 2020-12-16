@@ -1,0 +1,101 @@
+Reader James Frey on the courage of his defiant "not guilty" quip, ##OTHER
+"Being a human is one of the great things ##GENERIC SENTENCE (STATIC)
+that we live in America. ##GENERIC SENTENCE (DYNAMIC)
+We have that freedom to own our own thoughts and our own language and our own values, ##GENERIC SENTENCE (STATIC)
+at least some of which we hold with a lot of courage." ##GENERIC SENTENCE (HABITUAL)
+But is smoking pot a good thing? ##QUESTION
+"Folks began waxing poetic over the words, ##BOUNDED EVENT (GENERIC)*
+holding up a hefty stream of instant nicotine patches and machine-burned cigarettes in their mouths. ##UNBOUNDED EVENT (GENERIC)
+Each smug expression provoked a follow-up on my brain, ##BOUNDED EVENT (GENERIC)
+What the hell is that? ##QUESTION
+The real challenge is what it takes to battle addiction, ##GENERIC SENTENCE (STATIC)
+said one bearded man in an effort to transform his anxiety into a realization ##BOUNDED EVENT (SPECIFIC)
+that despite fending off media warnings ##UNBOUNDED EVENT (SPECIFIC)
+and just getting the bins cleaned, ##UNBOUNDED EVENT (SPECIFIC)
+he's still out there using snow spray and imaginary tablets. ##UNBOUNDED EVENT (SPECIFIC)
+The good old boy world thats ##OTHER
+taken away so much of his human rights ##BOUNDED EVENT (SPECIFIC)
+is coming back. ##UNBOUNDED EVENT (SPECIFIC)
+Hes winning the gilt wars, ##UNBOUNDED EVENT (SPECIFIC)
+said the breathlessly bearded father of six, ##BOUNDED EVENT (SPECIFIC)
+who wasnt wearing a professional cap or blazer. ##COERCED STATE (SPECIFIC)
+But I believe were that far away, ##BASIC STATE
+the man continued. ##UNBOUNDED EVENT (SPECIFIC)
+Because with so many warnings and so much criticism, ##OTHER
+were going to the wrong people with our lives." ##GENERIC SENTENCE (DYNAMIC)
+Lying with a red-blooded American heart again, ##UNBOUNDED EVENT (SPECIFIC)
+his macabre irony added fuel to a heated debate ##UNBOUNDED EVENT (SPECIFIC)
+raging on internet screens all over the US. ##UNBOUNDED EVENT (GENERIC)
+A month after the post, ##OTHER
+Sam Wyly filed papers in a New York County Superior Court ##BOUNDED EVENT (SPECIFIC)
+declaring his suicide on Monday and two months ##BOUNDED EVENT (SPECIFIC)
+after his 23rd birthday had finally ended. ##PERFECT COERCED STATE (SPECIFIC)
+His parents were initially expected to oppose the divorce proceedings, ##BASIC STATE
+believing ##BASIC STATE
+the two would not be legally married, ##COERCED STATE (SPECIFIC)
+and he claimed ##UNBOUNDED EVENT (SPECIFIC)
+God forbid ##IMPERATIVE //1
+it gets ugly. ##COERCED STATE (GENERIC) //1
+Switching course, ##UNBOUNDED EVENT (SPECIFIC) //3
+a friend of his met his demise at age 17 ##BOUNDED EVENT (SPECIFIC)
+after talking him out of it. ##BOUNDED EVENT (SPECIFIC)
+But in the span of a week last Thursday, ##OTHER*
+he left for the other side an improbable quest, ##BOUNDED EVENT (SPECIFIC)
+he said, ##BOUNDED EVENT (SPECIFIC)
+for love, survival and weapons ##OTHER
+that forever change the world ##GENERIC SENTENCE (DYNAMIC)
+after a day of trembling. ##UNBOUNDED EVENT (GENERIC) //3
+I'll never forget the day ##COERCED STATE (SPECIFIC)
+when I finally found my Savior. ##BOUNDED EVENT (SPECIFIC)
+My friend, ##OTHER
+God just knocked me out, ##BOUNDED EVENT (SPECIFIC)
+James told me. ##BOUNDED EVENT (SPECIFIC)
+For I don't know ##BASIC STATE
+who that man is yet. ##BASIC STATE
+Thank God. ##IMPERATIVE
+I'm sort of living for this moment, ##UNBOUNDED EVENT (SPECIFIC)
+he continued. ##UNBOUNDED EVENT (SPECIFIC)
+But I've got a few hard times ahead. ##BASIC STATE
+Eventually he confided to the conspiratorial crew of a web of sycophants in the family ##BOUNDED EVENT (SPECIFIC)
+that last November held up bills from his bankruptcy via the blame the victim internet or through the Hanks Unplugged web doc. ##UNBOUNDED EVENT (SPECIFIC)*
+He stole from the business at least half his a day and in their act of deception, ##BOUNDED EVENT (SPECIFIC)
+he finally showed up for the high school reunion on March 10. ##BOUNDED EVENT (SPECIFIC)
+He was reportedly terminated by a waitress ##BOUNDED EVENT (SPECIFIC)
+just as he walked in the door. ##UNBOUNDED EVENT (SPECIFIC)
+But his access to his living room was compromised by recurring items all the stuff, all the stuff, all the stuff. ##BASIC STATE* 
+It was so shameful. ##BASIC STATE
+A family friend appeared at last week's medical board meeting for the final weeks of 2008, ##BOUNDED EVENT (SPECIFIC)
+and James heard a clinical doctors report, ##BOUNDED EVENT (SPECIFIC)
+from a nephrologist with medical credentials as an HIV expert, ##OTHER
+that he had faced his human rights brush with death. ##PERFECT COERCED STATE (SPECIFIC)
+It might have been wise to defer to the blind spot ##BASIC STATE
+more widely known as the death brush. ##GENERIC SENTENCE (HABITUAL)
+James tells me ##BASIC STATE
+that his goal now is to have his memories no longer be taboo. ##BASIC STATE
+On the spot, ##OTHER
+his Texas-based lawyer, ##OTHER (same as BASIC STATE)
+Irving Immonen, ##OTHER
+says: ##BASIC STATE
+Here's what happened: ##BASIC STATE
+James Frey survived a delusional episode to the point ##UNBOUNDED EVENT (SPECIFIC)
+that he suffers now. ##UNBOUNDED EVENT (SPECIFIC)
+And that is no longer a bad thing. ##BASIC STATE
+"He's dealing with illness today," ##BOUNDED EVENT (SPECIFIC)
+Immonen told me. ##BOUNDED EVENT (SPECIFIC)
+"The diseases are more prevalent today. ##GENERIC SENTENCE (STATIC)
+This dark and stressful battle ##OTHER
+(many also know James from e-mailing me), ##GENERIC SENTENCE (STATIC)
+needs saving. ##BASIC STATE //4
+On Friday, ##OTHER
+he'll pay two lawyers $400 per day ##COERCED STATE (SPECIFIC)
+in order to fight a wrongful termination suit against his former employer, ##UNBOUNDED EVENT (SPECIFIC)
+Rockville, Md.-based RCA Inc. ##OTHER
+And once again: ##OTHER
+a pair of hammers on the same day. ##OTHER
+Damon Dash is the author of the new book, ##BASIC STATE
+Five Keys to Kill Yourself, ##OTHER //2
+My Making of Your Life and the 2003 memoir, ##OTHER //2
+The Ultimate Relativity. ##OTHER
+His previous works have been published in The American and The Atlantic. ##PERFECT COERCED STATE (SPECIFIC)
+He is currently a Breaking Point contributor ##BASIC STATE
+***0 3 3 0 0 0 0 0 NO NA YES 0 0 0 0 ALGORITHM

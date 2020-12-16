@@ -1,0 +1,6 @@
+11/4/2020
+{'Sheridan': 16, 'Muskaan': 2, 'Kate': 19}
+11/11/2020
+{'Sheridan': 23, 'Muskaan': 10, 'Kate': 22}
+11/18/2020
+{'Sheridan': 36, 'Muskaan': 18, 'Kate': 26}

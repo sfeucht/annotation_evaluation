@@ -1,0 +1,37 @@
+I 'm not saying ##UNBOUNDED EVENT (SPECIFIC)
+ that marijuana businesses wo n't succeed . ##COERCED STATE (SPECIFIC)
+I said ##BOUNDED EVENT (SPECIFIC)
+ that the economy wo n't tremendously improve ##COERCED STATE (SPECIFIC)
+ once it becomes illegal . ##COERCED STATE (SPECIFIC)
+There 's a fine difference between those two statements . ##BASIC STATE
+Breweries do n't just hand out beer to their employees . ##GENERIC SENTENCE (DYNAMIC)
+That 's a no brainer . ##BASIC STATE
+They 're selling that product for a profit , ##GENERIC SENTENCE (DYNAMIC)
+ and employees also know ##GENERIC SENTENCE (HABITUAL)
+ that drinking on the job ##GENERIC SENTENCE (DYNAMIC)
+ at a vast majority of places would get them fired . ##COERCED STATE (GENERIC)
+And marijuana businesses do n't operate just fine . ##GENERIC SENTENCE (DYNAMIC)
+Just like every other work place there are a lot of bad things ##GENERIC SENTENCE (HABITUAL)
+ going on behind the scenes . ##GENERIC SENTENCE (DYNAMIC)
+Your local news can tell you more about that . ##GENERIC SENTENCE (STATIC)
+Also , are you trying to suggest ##QUESTION
+ that marijuana alone is the determining factor of crime rates ? ##BASIC STATE
+That 's a straw man argument and an incredibly narrow minded statement . ##BASIC STATE
+There are far more factors ##GENERIC SENTENCE (STATIC)
+ than a single substance ##OTHER
+ that can determine that . ##GENERIC SENTENCE (HABITUAL)
+Also , [ Washington 's marijuana related crime rates are unchanged ] ##BASIC STATE
+( ) despite how they legalized it . ##BOUNDED EVENT (SPECIFIC)
+Once again , a simple news lookup can tell you that . ##GENERIC SENTENCE (STATIC)
+And ##OTHER
+ if you actually continued to read the entire site , ##COERCED STATE (SPECIFIC)
+ there are clear long term effects ##BASIC STATE
+ listed as well . ##BASIC STATE
+How can I expect to have a logical and sound argument with you ##QUESTION
+ when you cherry pick your evidences ##GENERALIZING SENTENCE (DYNAMIC)
+ and twist your opponent 's evidences and words . ##GENERALIZING SENTENCE (DYNAMIC)
+Until you change this , ##COERCED STATE (SPECIFIC)
+ I refuse to continue debating with you . ##UNBOUNDED EVENT (SPECIFIC)
+Goodbye . ##OTHER
+
+***0 5 0 0 0 0 0 0 YES ML 5 3 5 5 HUMAN

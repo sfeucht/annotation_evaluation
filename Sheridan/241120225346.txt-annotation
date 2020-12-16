@@ -1,0 +1,102 @@
+1 1 0 0 elab
+2 2 1 1 elabx
+
+3 6 0 2 elab
+4 4 5 6 attr
+3 3 4 4 elab
+6 6 5 5 elab
+
+7 10 3 6 elab
+7 7 8 8 elab
+8 8 9 10 sim
+9 9 10 10 attr
+
+11 18 7 10 elab
+14 14 11 13 attr
+12 12 11 11 elabx
+13 13 12 12 elab
+15 15 14 14 elab
+
+14 14 16 18 attr
+17 18 16 16 elab
+17 17 18 18 elab
+
+
+19 23 16 18 contr
+20 23 19 19 elab
+20 20 21 23 attrm
+22 23 21 21 elab
+23 23 22 22 deg
+
+24 27 11 15 elabx
+24 24 25 27 attr
+26 27 25 25 ce
+27 27 26 26 elab
+
+28 31 24 27 elabx
+31 31 28 30 attr
+28 28 29 29 elab
+30 30 29 29 contr
+
+32 36 24 27 elab
+32 33 34 36 elabx
+32 32 33 33 attr
+34 34 35 36 attr
+36 36 35 35 elab
+
+37 41 34 36 elabx
+38 40 37 37 elab
+41 41 37 40 attr
+39 39 38 38 elab
+40 40 39 39 elab
+
+42 45 37 41 elabx
+42 42 43 44 elab
+45 45 42 44 attr
+44 44 43 43 ce
+
+46 50 3 6 elabx
+46 46 48 48 same
+47 47 46 46 elab
+49 50 48 48 elab
+49 49 50 50 attr
+
+51 56 46 50 elab
+51 51 52 54 attr
+53 53 52 52 elab
+54 54 52 53 elab
+51 54 55 56 temp
+55 55 56 56 attrm
+
+57 59 55 56 elabx
+59 59 57 58 attr
+58 58 57 57 elab
+
+59 59 60 61 attr
+61 61 60 60 elab
+
+62 63 57 59 elab
+63 63 62 62 elab
+
+64 67 62 63 elab
+64 64 65 67 elab
+65 65 66 67 attr
+66 66 67 67 sim
+
+68 72 64 67 elabx
+68 68 69 69 elab
+70 71 69 69 elab
+72 72 68 71 attr
+71 71 70 70 elab
+
+73 76 0 2 elab
+74 74 73 73 elab
+75 76 74 74 elab
+75 75 76 76 temp
+77 77 76 76 deg
+78 80 0 2 elab
+79 79 78 78 sim
+80 80 79 79 sim
+81 83 0 2 elab
+81 81 82 83 elab
+82 82 83 83 attrx

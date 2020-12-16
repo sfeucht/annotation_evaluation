@@ -1,0 +1,88 @@
+In 2014 - ##OTHER
+the year the US passed a law ##UNBOUNDED EVENT (SPECIFIC) 
+ that allows states to let doctors prescribe marijuana for certain conditions , ##BASIC STATE 
+ including cancer , drowsiness and erectile dysfunction . ##OTHER 
+After four weeks , ##OTHER 
+ you had a problem . ##PERFECT COERCED STATE 
+The result : ##OTHER 
+ a $10 million fine . ##OTHER 
+In 2014 , ##OTHER 
+the year of legalization , ##OTHER 
+is one ##BASIC STATE 
+ that has almost triggered a gigantic production surge in small , artisanal craftshops , ##COERCED STATE (SPECIFIC) 
+ and not one . ##OTHER
+Agribusiness , ##OTHER 
+the third sector of the economy - ##OTHER
+ which includes everything from wood products to carpenters - ##GENERIC SENTENCE (STATIC) 
+ was the biggest winner of the legalization period . ##GENERIC SENTENCE (STATIC) 
+It sparked a new wave of artisanal craft startups all over the world , ##COERCED STATE (GENERIC) 
+ as it means ##OTHER 
+ that practically no one else had anything ##PERFECT COERCED STATE 
+ to do with it .##OTHER 
+Now , ##OTHER 
+a new batch of companies is ready to go along with some of the deals : ##GENERIC SENTENCE (STATIC) 
+ small businesses ##OTHER 
+ born out of desperation ##UNBOUNDED EVENT (GENERIC) 
+ have the right ##PERFECT COERCED STATE 
+ to try to cash in on the drug , ##UNBOUNDED EVENT (GENERIC)
+ just like anywhere else : ##OTHER 
+ as small businesses compete to maintain the integrity of the land , ##UNBOUNDED EVENT (GENERIC)
+ particularly before the six-month testing period expired . ##GENERIC SENTENCE (DYNAMIC) 
+Those artisanal businesses will create the shape of a New York ##UNBOUNDED EVENT (GENERIC) 
+ with the economy intact , ##OTHER
+ producing goods ##UNBOUNDED EVENT (GENERIC) 
+ that could be sold back , ##GENERIC SENTENCE (STATIC)
+but not for long , ##OTHER 
+amid the shifting political landscape of the US and why he has traditionally been a star performer . ##GENERIC SENTENCE (STATIC)
+There 's a small circle of entrepreneurs , ##GENERIC SENTENCE (STATIC) 
+ which is not easily integrated into most businesses , ##GENERIC SENTENCE (STATIC)
+ who often just want to make an extra buck and a friend from work .
+That 's good . ##BASIC STATE 
+It 's a noble business objective , ##BASIC STATE 
+ perhaps one ##OTHER 
+ that should never be overlooked ##COERCED STATE
+ when it comes to valuing workers and their livelihoods . ##OTHER 
+The mega-regulatory certainty , ##OTHER 
+thanks to the rapid expansion of state medical marijuana regulations , ##GENERIC SENTENCE (STATIC) //2
+has once again made that route  -  ##PERFECT COERCED STATE 
+ which had previously served as a roadblock for smaller artisanal crafts - possible . ##COERCED STATE (GENERIC) 
+But why was my reputation so high ? ##QUESTION 
+Was n't it an opportunity ##QUESTION 
+ to become one of the giants of the craft business ? ##GENERIC SENTENCE (STATIC) 
+For one thing , ##OTHER 
+ small businesses do n't have the same insider networks as the corporate class , ##PERFECT COERCED STATE 
+ which tends to favor big names like Apple , Microsoft , Google and Facebook . ##GENERIC SENTENCE (HABITUAL) 
+While little is being built ##GENERIC SENTENCE (STATIC) 
+- or changed - ##UNBOUNDED EVENT (GENERIC) 
+these do belong to the elite . ##GENERIC SENTENCE (STATIC) 
+While large , well-known names like Amazon or Starbucks or IBM might face legal scrutiny , ##COERCED STATE (GENERIC) 
+ small-time artists like myself always start or close to the likes of Amazon and Wells Fargo , ##GENERIC STATE (STATIC) 
+ which usually have our passports . ##COERCED STATE (GENERIC) 
+Globally , ##OTHER 
+ entrepreneurial jobs are actually disappearing . ##GENERIC SENTENCE (STATIC) 
+The bottom line here is that the middle class is n't valued as much ##BASIC STATE 
+ as they once were . ##GENERIC SENTENCE (STATIC)
+And many more are unable to make a living ##GENERIC SENTENCE (STATIC) 
+ by manufacturing the things ##UNBOUNDED EVENT (GENERIC) 
+ they invented or learned ##BOUNDED EVENT (GENERIC) 
+ to make with a certain skill . ##UNBOUNDED EVENT (GENERIC) 
+Nobody , ##OTHER 
+ including me , ##BASIC STATE 
+speaks up about the economic and social factors in that position . ##GENERIC SENTENCE (STATIC) 
+They just say , ##UNBOUNDED EVENT (GENERIC) 
+ " I 'm not saying ##UNBOUNDED EVENT (SPECIFIC) 
+ we won't develop all the innovative craft ##UNBOUNDED EVENT (GENERIC) 
+ that we knew ##GENERIC SENTENCE (STATIC) 
+ we could create . " ##COERCED STATE (GENERIC) 
+The best way ##OTHER 
+ to find out is to check your payroll records ,  ##GENERIC SENTENCE (STATIC) 
+ and don't have to . ##PERFECT COERCED STATE 
+They just don't have a sales team . ##PERFECT COERCED STATE 
+And while this might sound preposterous , ##COERCED STATE (GENERIC) 
+ the only way ##OTHER 
+ we can get a piece of this noise ##UNBOUNDED EVENT (GENERIC) 
+ is to be overconfident in our predictions ##GENERIC SENTENCE (STATIC)
+ of what the new law might do and the mass acceptance ##COERCED STATE (STATIC) 
+ that will come from small businesses . ##GENERIC SENTENCE (STATIC) 
+*** 0 1 0 0 NA NA NA NA YES ML YES 0 0 NA NA ALGORITHM 
+

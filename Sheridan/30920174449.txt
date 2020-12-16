@@ -1,0 +1,51 @@
+This article is over 10 years old ##BASIC STATE
+The human flu had 20-year remission this year, ##BASIC STATE //4
+according to the National Institute for Health and Care Excellence ##BASIC STATE
+(Nice) ##OTHER
+The White House reports ##BASIC STATE //4
+that it has tightened restrictions around pot ##PERFECT COERCED STATE (SPECIFIC)
+to give victims more protection from the spread of it. ##GENERIC SENTENCE (DYNAMIC)
+The 2016 case of Brittany Mendez, ##OTHER
+a New Zealand-born US resident, ##BASIC STATE 
+gave test results for a lethal strain of the fatal cannabis strain Bolly James ##BOUNDED EVENT (SPECIFIC)
+that came from a supplier to the US. ##BASIC STATE
+Her body had been to the US for regular check-ups ##PERFECT COERCED STATE (SPECIFIC)
+when she first arrived, ##BOUNDED EVENT (SPECIFIC)
+but the drugs caused lesions on her ribs, liver and kidney. ##UNBOUNDED EVENT (SPECIFIC)
+In the UK, ##OTHER
+where pot possession is illegal ##GENERIC SENTENCE (STATIC)
+and cannabis is still a prohibited drug, ##GENERIC SENTENCE (STATIC)
+the Monitor reports ##BASIC STATE //4
+that there is still little research into cannabis-resistant bacteria on earth. ##GENERIC SENTENCE (STATIC)
+Not everyone agrees with that, ##COERCED STATE (GENERIC) 
+however. ##OTHER
+Marijuana to the brain ##OTHER
+shows 30% reduction in impairment of cell function ##GENERIC SENTENCE (DYNAMIC)
+Dawn Gutnick, ##OTHER
+a science editor at The Inbox, ##BASIC STATE 
+which has been running a campaign with readers about how governments can make cannabis safer, ##UNBOUNDED EVENT (SPECIFIC)
+says: ##BASIC STATE
+It is said in Western Europe ##GENERIC SENTENCE (DYNAMIC)
+that marijuana is liberated by ownership, ##GENERIC SENTENCE (STATIC)
+with many professionals ##OTHER
+trying to determine ##UNBOUNDED EVENT (GENERIC)
+how its effects would be accommodated. ##COERCED STATE (GENERIC)
+For good measure, ##OTHER
+the movement to include cannabis in the defence of British troops in Afghanistan can be a landmine to our morality. ##BASIC STATE
+Cannabis is generally considered a safer form of cannabis than alcohol and tobacco, #GENERIC SENTENCE (STATIC)*
+according to leading medical researchers. ##GENERIC SENTENCE (STATIC)
+Smarts have no harmful properties ##GENERIC SENTENCE (STATIC)
+and are much easier to swallow, ##GENERIC SENTENCE (HABITUAL)
+whereas other forms are more difficult to detect. ##GENERIC SENTENCE (STATIC)
+They also lack the added protection of allowing users to buy a joint, ##GENERIC SENTENCE (STATIC)
+which seems necessary ##GENERIC SENTENCE (STATIC)
+given their relative ease of use. ##OTHER
+Another claim comes from Professor Kerry Goh of Renecourt College in France, ##BASIC STATE
+who claims ##BASIC STATE //4
+the use of cannabis is hazardous to a persons health and nervous system. ##GENERIC SENTENCE (STATIC)
+However, ##OTHER
+his findings have previously sparked concern. ##PERFECT COERCED STATE (SPECIFIC)
+One study ##OTHER
+published in the international journal Psychosomatic Medicine found ##BOUNDED EVENT (SPECIFIC)
+use of cannabis almost doubled over one-and-a-half years after diagnosis. ##BOUNDED EVENT (GENERIC)
+***0 5 2 0 0 0 0 0 YES ML YES 0 0 0 0 0 ALGORITHM 

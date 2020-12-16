@@ -1,0 +1,40 @@
+1 1 0 0 elab 
+2 2 1 1 elab 
+3 6 0 2 elab 
+4 4 3 3 elab 
+4 4 5 5 sim 
+6 6 5 5 elab 
+7 10 3 6 elab 
+7 7 8 8 sim 
+9 9 8 8 elab 
+10 10 9 9 elab 
+7 10 11 13 temp 
+12 12 11 11 elab 
+12 12 13 13 sim 
+14 14 11 11 elab 
+14 14 15 15 ce 
+16 16 11 11 elab 
+17 17 16 16 elab 
+16 17 18 18 sim 
+19 19 11 11 elab 
+20 20 19 19 elab
+20 20 21 21 ce 
+22 22 21 21 elab 
+22 22 23 23 sim 
+26 28 11 24 ce
+26 26 25 25 elab
+27 27 26 26 elab 
+28 28 27 27 elab 
+25 28 29 31 examp
+30 31 29 29 elab 
+30 30 31 31 cond
+32 34 35 35 sim 
+33 33 32 32 elab 
+34 34 33 33 elab 
+37 37 36 36 elab 
+38 38 37 37 elab
+
+
+
+
+ 

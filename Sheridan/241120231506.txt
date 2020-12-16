@@ -1,0 +1,46 @@
+Mike Foust's gamble with celebrities at New Year's Eve celebrations proved ##BOUNDED EVENT (SPECIFIC)
+the tawdry news made ##BASIC STATE
+when reporters burst into the room ##BOUNDED EVENT (GENERIC) 
+without taking off their masks ##COERCED STATE (GENERIC)
+to report on the lighter colors of light bulbs ##UNBOUNDED EVENT (GENERIC)
+and how low the country was on marijuana. ##GENERIC SENTENCE (STATIC)
+Foust read with XXX staffer John Tortorella ##BOUNDED EVENT (SPECIFIC)*
+that CNN was on the clock with a story about the news ##BASIC STATE
+making its way in the room in Denver. ##UNBOUNDED EVENT (GENERIC)*
+"Yeah, ##OTHER
+I'm a big pot smoker, ##BASIC STATE
+so I figured ##BASIC STATE
+this was like drinking a white wine on New Year's Eve," ##GENERIC SENTENCE (STATIC) //3
+one of the reporters ##OTHER
+told Foust. ##BOUNDED EVENT (SPECIFIC)
+Another correspondent read the story of the empty room ##BOUNDED EVENT (SPECIFIC)
+where the commercial Super Bowl Light Bulb from NBC ##OTHER
+filled with fog ##BASIC STATE //4
+had erupted into smoke. ##PERFECT COERCED STATE (SPECIFIC)
+CNN tackled the issue of marijuana ##BOUNDED EVENT (SPECIFIC) //3
+using LED light bulbs ##UNBOUNDED EVENT (SPECIFIC)
+and have led with that story for years, ##PERFECT COERCED STATE (SPECIFIC)
+sometimes with the effect ##OTHER
+of lighting up the TV night in anticipation of New Year's Day festivities. ##UNBOUNDED EVENT (SPECIFIC)
+An NBC spokesperson told XXX ##BOUNDED EVENT (SPECIFIC)
+the shift in the focus of the network came about ##BOUNDED EVENT (SPECIFIC)
+because the audience would automatically be put off thinking of the next possible use of marijuana. ##GENERIC SENTENCE (HABITUAL)
+As always, ##OTHER
+the bluish tint on many areas of lighting lights last a lot longer ##GENERIC SENTENCE (HABITUAL)*
+than what we see in Denver, ##GENERIC SENTENCE (HABITUAL)
+which is the next big U.S. city ##BASIC STATE
+with its smoking ban. ##OTHER
+Cannabis is illegal in the U.S. -- ##GENERIC SENTENCE (STATIC)
+it's legal in only 19 states, ##GENERIC SENTENCE (STATIC)
+plus the District of Columbia, ##OTHER
+which technically has it -- ##BASIC STATE
+but 571 companies, ##OTHER (same as BASIC STATE)
+including five within the Denver metro area, ##BASIC STATE
+own the drug. ##BASIC STATE
+In the Colorado cities of Lafayette, Mont., Sedgwick, Anderson, Socorro, Visalia, Vail and Aurora, an indoor light bulb emits light. ##GENERIC SENTENCE (DYNAMIC)
+While pot is illegal in the states, ##GENERIC SENTENCE (STATIC)
+legalization has been a powerful tool ##GENERIC SENTENCE (HABITUAL)
+for pot's legalization ##OTHER
+and expanding in numerous states ##UNBOUNDED EVENT (SPECIFIC)
+where pot is considered less damaging to people than alcohol. ##GENERIC SENTENCE (HABITUAL)
+***0 5 5 0 0 0 0 0 YES ML YES 0 0 0 0 ALGORITHM

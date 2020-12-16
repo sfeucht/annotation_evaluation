@@ -1,0 +1,50 @@
+On Saturday, ##OTHER
+a flight from jail to Los Angeles was canceled in his San Diego hotel room. ##BOUNDED EVENT (SPECIFIC)
+When he became a fugitive on Monday, ##BOUNDED EVENT (SPECIFIC)
+Amanda Bynes rented a room on the roof of a four-story building in South Los Angeles. ##BOUNDED EVENT (SPECIFIC)
+After a lengthy stint behind bars, ##OTHER
+the former Nickelodeon star, ##OTHER
+28, ##OTHER
+was released from custody. ##BOUNDED EVENT (SPECIFIC)
+In a statement, ##OTHER
+TMZ News reported on Monday ##BOUNDED EVENT (SPECIFIC)
+that a sneak attack led to Bynes ##BOUNDED EVENT (SPECIFIC)
+leaving the city at approximately 3:30 a.m. ##BOUNDED EVENT (SPECIFIC)
+Bynes, ##OTHER (same as BOUNDED EVENT (SPECIFIC))
+who was busted on charges of assault and resisting arrest, ##BOUNDED EVENT (SPECIFIC)
+was released ##BOUNDED EVENT (SPECIFIC) 
+after posting $5,000 bail in the parking lot of the Los Angeles Airport, ##UNBOUNDED EVENT (SPECIFIC) //4
+a spokeswoman ##OTHER
+told the Los Angeles Times. ##BOUNDED EVENT (SPECIFIC)
+Shortly after Byness escape, ##OTHER
+Los Angeles County officials sent an alert to the public. ##BOUNDED EVENT (GENERIC)
+In the notification, ##OTHER
+SLC advised residents of San Diego ##UNBOUNDED EVENT (SPECIFIC)
+to look forward to landing safely tonight. ##IMPERATIVE 
+He also advised residents of your apartment lots ##BOUNDED EVENT (SPECIFIC)
+to keep following directions. ##IMPERATIVE
+Hours later, ##OTHER
+a police report was lodged in a burglary at Byness home. ##BOUNDED EVENT (SPECIFIC)
+It contained a woman, ##BASIC STATE
+claiming ##UNBOUNDED EVENT (SPECIFIC)
+she was trying to bring clothes from her collection to Byness apartment, ##UNBOUNDED EVENT (SPECIFIC)
+according to the 911 tape ##BASIC STATE
+released by NBC. ##BOUNDED EVENT (SPECIFIC)
+Another suspect, ##OTHER
+21-year-old Sunny Vercirov, ##OTHER
+also asked for some clothes ##UNBOUNDED EVENT (SPECIFIC)
+to help Bynes get a clean house, ##UNBOUNDED EVENT (SPECIFIC) 
+according to the arrest report. ##BASIC STATE
+An L.A. Transit Police officer approached Bynes ##BOUNDED EVENT (SPECIFIC)
+and alleged ##UNBOUNDED EVENT (SPECIFIC)
+that she failed to show up for work at the Santa Monica Pier Mall. ##BOUNDED EVENT (SPECIFIC)
+Shes charged with simple battery. ##BASIC STATE //4
+In late February, ##OTHER
+Bynes was arrested in Santa Barbara. ##BOUNDED EVENT (SPECIFIC)
+The actress was initially turned over to the Santa Monica Police Department, ##BOUNDED EVENT (SPECIFIC)
+but the charges later were dropped. ##BOUNDED EVENT (SPECIFIC)
+See Britney Spears' nude selfie Google Hangouts. ##IMPERATIVE //3
+A Motorola iPhone photo shoot ##OTHER
+where Britney Spears steps in ##UNBOUNDED EVENT (SPECIFIC)
+to greet guests. ##UNBOUNDED EVENT (SPECIFIC) //3
+***0 5 2 0 0 0 0 0 NO NA YES 0 0 0 0 ALGORITHM 

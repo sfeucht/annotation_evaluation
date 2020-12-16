@@ -1,0 +1,60 @@
+CNN put the J in journalism Sunday night, ##BOUNDED EVENT (SPECIFIC)
+with a marijuana-themed New Years Eve show ##OTHER
+many viewers found downright doobie-ous. ##BOUNDED EVENT (GENERIC)
+During the beleaguered cable news networks year-end show from Times Square, ##OTHER
+reporter Randi Kaye did several, ##BOUNDED EVENT (SPECIFIC)
+um, ##OTHER
+hits from Denver, ##OTHER
+where marijuana is legal. ##GENERIC SENTENCE (STATIC)
+At various points, ##OTHER
+she held a joint, ##UNBOUNDED EVENT (SPECIFIC)
+lit a bong, ##BOUNDED EVENT (SPECIFIC)
+marveled over a special gas mask ##UNBOUNDED EVENT (SPECIFIC)
+used by stoners ##GENERIC SENTENCE (DYNAMIC)
+and wondered ##UNBOUNDED EVENT (SPECIFIC)
+where she was. ##OTHER
+This is for you, ##BASIC STATE
+Andy! ##OTHER
+Kaye said at one point, ##BOUNDED EVENT (SPECIFIC)
+addressing CNN host Andy Cohen ##UNBOUNDED EVENT (SPECIFIC)
+and holding a lit marijuana cigarette out to the camera. ##UNBOUNDED EVENT (SPECIFIC)
+Cohen, ##OTHER (same as UNBOUNDED EVENT (SPECIFIC))
+the Bravo star and executive producer of the Real Housewives franchise, ##OTHER
+was hosting with CNN stalwart Anderson Cooper. ##UNBOUNDED EVENT (SPECIFIC)
+Kathy Griffin was previously Coopers New Year's Eve partner, ##BASIC STATE
+but the network dumped her ##BOUNDED EVENT (SPECIFIC)
+after she made fun of President Trump ##BOUNDED EVENT (SPECIFIC)
+by holding his mock severed head in a photo shoot. ##UNBOUNDED EVENT (SPECIFIC)
+Im trying to remember ##UNBOUNDED EVENT (SPECIFIC)
+where we are. ##OTHER
+Where am I? ##QUESTION
+CNN reporter Randi Kaye Cohen enthusiastically praised Kayes report, ##BOUNDED EVENT (SPECIFIC)
+while a smiling Cooper reminded viewers ##BOUNDED EVENT (SPECIFIC)
+that Kayes high-jinx was all above board, ##BASIC STATE
+even if a bit unseemly. ##BASIC STATE
+I just want to point out ##COERCED STATE (SPECIFIC)
+that this is all legal in Colorado, ##GENERIC SENTENCE (STATIC)
+Cooper said, ##BOUNDED EVENT (SPECIFIC)
+smiling. ##UNBOUNDED EVENT (SPECIFIC)
+Kaye, ##OTHER (same as COERCED STATE (SPECIFIC))
+who announced ##BOUNDED EVENT (SPECIFIC)
+she was witnessing New Years Eve, ##UNBOUNDED EVENT (SPECIFIC)
+Denver-style! ##OTHER
+did not appear to partake herself, ##COERCED STATE (SPECIFIC)
+and would not be breaking the law ##COERCED STATE (SPECIFIC)
+if she had. ##COERCED STATE (SPECIFIC)
+But she did seem disoriented at one point. ##BASIC STATE
+Were at a dispensary ##BASIC STATE
+called the Medicine Man! ##BASIC STATE
+Kaye, ##OTHER (same as BOUNDED EVENT (SPECIFIC))
+who sported dangling marijuana leaf earrings, ##BOUNDED EVENT (SPECIFIC)
+said. ##BOUNDED EVENT (SPECIFIC)
+Im trying to remember ##UNBOUNDED EVENT (SPECIFIC)
+where we are. ##UNBOUNDED EVENT (SPECIFIC)
+Where am I? ##OTHER
+Kayes pot-themed reportage was done from a puff, pass and paint party, ##BASIC STATE
+whatever that is. ##GENERIC SENTENCE (STATIC)
+Viewers seemed split on social media: ##GENERIC SENTENCE (STATIC)
+Some were appalled by the open embrace of marijuana, ##GENERIC SENTENCE (STATIC)
+while others were dismayed by the networks decision to replace Griffin with Cohen. ##GENERIC SENTENCE (STATIC)
+***0 5 5 0 0 0 0 0 YES ML YES UNCLEAR(2) 0 0 0 HUMAN

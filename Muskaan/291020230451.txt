@@ -1,0 +1,29 @@
+Vermont Gov. Peter Shumlin vowed Monday ##BOUNDED EVENT (SPECIFIC)
+ to veto a marijuana ban proposal ##BOUNDED EVENT (SPECIFIC)
+ that the state had been debating for months , ##COERCED STATE (SPECIFIC)
+ saying ##COERCED STATE (SPECIFIC)
+ it violated state law . ##COERCED STATE (SPECIFIC)
+Shumlin , ##OTHER
+ who also opposed the bill in January , ##BOUNDED EVENT (SPECIFIC)
+ said in a statement ##BOUNDED EVENT (SPECIFIC)
+ that the bill would violate state law ##COERCED STATE (SPECIFIC)
+ by legalizing ##COERCED STATE (SPECIFIC)
+ what he considered a dangerous transaction . ##UNBOUNDED EVENT (SPECIFIC)
+The bill , ##OTHER
+ which ##OTHER
+ Shumlin says ##GENERALIZING SENTENCE (DYNAMIC)
+ was wrongly codified as a bad law for Vermont , ##BASIC STATE
+ makes it illegal to possess , distribute or buy the recreational marijuana and other drugs ##GENERALIZING SENTENCE (DYNAMIC)
+ commonly used in the state . ##GENERALIZING SENTENCE (DYNAMIC)
+Vermont lawmakers , ##OTHER
+ who are still deciding ##GENERIC SENTENCE (STATIC)
+ whether to legalize marijuana ##COERCED STATE (GENERIC)
+ and see ##COERCED STATE (GENERIC)
+ if Shumlin would veto the ban , ##COERCED STATE (SPECIFIC)
+ said ##BOUNDED EVENT (GENERIC)
+ they have spent much of the past week ##COERCED STATE (GENERIC)
+ studying the plan . ##UNBOUNDED EVENT (GENERIC)
+Shumlin could veto the bill ##COERCED STATE (SPECIFIC)
+ and the governor could recommend a later veto . ##COERCED STATE (SPECIFIC)
+
+***0 5 5 4 5 5 5 2 YES ML NO 0 0 UC

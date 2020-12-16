@@ -1,0 +1,57 @@
+A new report says ##BASIC STATE
+smoke can kill your lungs ##COERCED STATE (GENERIC)
+if you are under the influence ##GENERIC SENTENCE (STATIC)
+A new report by Parks and Recreation said ##BOUNDED EVENT (SPECIFIC)
+it would be legal for people to smoke weed across the country ##GENERIC SENTENCE (STATIC)
+if they were feeling "humiliated" by the comments ##GENERIC SENTENCE (STATIC)
+they've been making. ##PERFECT COERCED STATE (GENERIC)
+The 17-hour anti-smoking propaganda group Dark Stars said ##BOUNDED EVENT (SPECIFIC)
+the use of weed was "unable to be viewed as harmless" ##GENERIC SENTENCE (STATIC)
+and that many Californians "simply avoid the substance". ##GENERIC SENTENCE (DYNAMIC)
+In a survey of 1,000 state residents, ##OTHER
+20 percent of them reported having smoked weed for at least a week. ##BOUNDED EVENT (SPECIFIC)
+But over half of those ##OTHER
+surveyed say ##BASIC STATE //3
+they smoked just about anything, ##GENERALIZING SENTENCE (DYNAMIC) //4
+including marijuana. ##GENERALIZING SENTENCE (DYNAMIC) //4
+The study also found ##BOUNDED EVENT (SPECIFIC) 
+more than half of those ##OTHER
+surveyed said ##BOUNDED EVENT (SPECIFIC)
+they had smoked cigarettes in their lives a trend ##PERFECT COERCED STATE (SPECIFIC)
+that appears to be affecting users ##UNBOUNDED EVENT (GENERIC)
+who are smoking more. ##UNBOUNDED EVENT (GENERIC) 
+Dark Stars president Mark Ellis, ##OTHER
+who co-founded the anti-smoking group in 1993, ##BOUNDED EVENT (SPECIFIC)
+told the Guardian: ##BOUNDED EVENT (SPECIFIC)
+"We're urging people to believe ##UNBOUNDED EVENT (SPECIFIC)
+there are no medical benefits to smoke weed. ##GENERIC SENTENCE (STATIC)
+"We do feel ##BASIC STATE 
+there are still people ##GENERIC SENTENCE (STATIC)
+who are saying ##UNBOUNDED EVENT (GENERIC)
+'Oh, I'll just put up with it, ##COERCED STATE (SPECIFIC)
+I'll just not go there', ##COERCED STATE (SPECIFIC)
+but I think ##BASIC STATE
+that would have a chilling effect ##GENERIC SENTENCE (STATIC)
+if they were to have to do it." ##COERCED STATE (GENERIC)
+He added: ##BOUNDED EVENT (SPECIFIC)
+"The people ##OTHER
+who engage in it are better off for it." ##GENERIC SENTENCE (DYNAMIC) //3
+The study is the latest to come out of the fallout ##BASIC STATE 
+from the Portland, Oregon city councilman's decision to allow cannabis businesses to be established outside city limits. ##UNBOUNDED EVENT (SPECIFIC) //4
+Other cities have already ruled ##PERFECT COERCED STATE (SPECIFIC)
+that any two plants ##OTHER
+can remain legal, ##COERCED STATE (GENERIC)
+including the city of Los Angeles. ##BASIC STATE //4
+Other cities say ##GENERIC SENTENCE (STATIC)
+they have no reason to fear the addition of cannabis businesses. ##GENERIC SENTENCE (STATIC)
+Announcing on Facebook ##UNBOUNDED EVENT (SPECIFIC)
+that she was withdrawing her support for the ban, ##UNBOUNDED EVENT (SPECIFIC)
+Portland mayor Eric Garcetti last month hit back at the public outcry from her own community, ##BOUNDED EVENT (SPECIFIC)
+saying the ban was "staggering backwards and irresponsible" ##BASIC STATE
+and that he would not have made the decision to approve cannabis companies ##COERCED STATE (SPECIFIC) 
+if it had been his responsibility. ##BASIC STATE
+The next time ##OTHER
+you're travelling, ##UNBOUNDED EVENT (GENERIC)
+don't smoke weed like a toad. ##IMPERATIVE
+Read more about lobbying and organizing against the ban in the report below: ##IMPERATIVE
+***0 4 2 0 YES ML NO UNCLEAR 2 3 3 2 ALGORITHM

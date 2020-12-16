@@ -1,0 +1,279 @@
+When California 's Mendicino County publishes it annual farm production census this spring ,  ##BOUNDED EVENT (SPECIFIC) 
+ agricultural Commissioner Ted Erickson will dutifully report  ##COERCED STATE (SPECIFIC) 
+ that wine grapes are the county 's No. 1 crop . ##GENERIC SENTENCE (STATIC) 
+That 's not true ,  ##BASIC STATE 
+ and Eriksen knows it . ##BASIC STATE 
+But the Mendicino Board of Supervisors and California state officials have ordered him not to report on the county 's most lucrative farm crop  ##PERFECT COERCED STATE (SPECIFIC) 
+ -- marijuana . ##OTHER 
+Marijuana growing is a $100-million-a-year business in Mendicino ,  ##GENERIC SENTENCE (STATIC) 
+ Eriksen estimates ,  ##BASIC STATE 
+ so big ##OTHER 
+ it makes the county 's $20 million worth of grapes look like small potatoes . ##BASIC STATE 
+After years of ignoring illegal marijuana farming , ##UNBOUNDED EVENT (GENERIC) 
+Eriksen finally included the crop in his annual report last year . ##BOUNDED EVENT (SPECIFIC) 
+He might as well have lit a joint in the courthouse . ##PERFECT COERCED STATE (SPECIFIC) 
+There was such a flap  ##GENERIC SENTENCE (STATIC)  
+ that Eriksen had to tear the marijuana page out of every issue of his annual report  ##PERFECT COERCED STATE (SPECIFIC) 
+ and promise never to report on pot again . ##PERFECT COERCED STATE (SPECIFIC) 
+" A lot of people feel  ##GENERIC SENTENCE (STATIC) 
+ that if you do n't mention it ,  ##UNBOUNDED EVENT (GENERIC) 
+ it 'll go away ,  ##BASIC STATE 
+ " says Eriksen . ##BASIC STATE 
+" The fact  ##OTHER 
+ is that this is an illegal crop ,  ##GENERIC SENTENCE (STATIC) 
+ but it has tremendous impact on the economy of Mendocino County . " ##PERFECT COERCED STATE (GENERIC) 
+Mendocino is one of 17 northern California counties  ##GENERIC SENTENCE (STATIC) 
+ in which Marijuana farming has reached such a scale  ##PERFECT COERCED STATE (GENERIC) 
+ that federal agents have been sent in to try and stop it . ##PERFECT COERCED STATE (SPECIFIC) 
+Until recently the marijuana business was dominated by imports ,  ##GENERIC SENTENCE (STATIC) 
+ primarily from Columbia . ##OTHER
+But ##OTHER 
+ while U.S. steel and automakers are pleading for protection from imports  ##UNBOUNDED EVENT (GENERIC) 
+ and the nation 's producers of shoes and television sets are struggling to survive against foreign competition ,  ##UNBOUNDED EVENT (GENERIC) 
+ the domestic pot industry is proving  ##UNBOUNDED EVENT (GENERIC) 
+ it can beat the imports . ##COERCED STATE (GENERIC) 
+American Marijuana growers harvested a record crop last year ,  ##BOUNDED EVENT (SPECIFIC) 
+well over 1,000 metric tons of the illegal herb ,  ##OTHER 
+ federal authorities and private marijuana specialists estimate . ##GENERIC SENTENCE (DYNAMIC) 
+Federal Drug Enforcement Administration statistics released a few days ago  ##BOUNDED EVENT (SPECIFIC) 
+ show U.S. marijuana production growing at a rate  ##BASIC STATE 
+ of better than 20 percent a year , ##GENERIC SENTENCE (STATIC) 
+ while marijuana imports are up only about 13 percent . ##GENERIC SENTENCE (STATIC) 
+The agency estimates ##BASIC STATE 
+ Americans smoked  ##BOUNDED EVENT (GENERIC) 
+ marijuana worth between $15.5 billion and $21.9 billion in 1979.Perhaps $2 billion to $3 billion worth was grown in the United States . ##GENERIC SENTENCE (STATIC) 
+By comparison ,  ##OTHER 
+ U.S. tobacco production was worth $17 billion that year . ##GENERIC SENTENCE (STATIC) 
+Once considered a youthful indulgence , ##BOUNDED EVENT (GENERIC) 
+ marijuana has gained increasing acceptance among adults ,  ##PERFECT COERCED STATE (GENERIC) 
+ the DEA said . ##BASIC STATE 
+Use of the drug by youths 12 to 17 is " leveling off " the agency reported ,  ##GENERIC SENTENCE (STATIC) 
+ but " there was an unexpected persistence in marijuana use between 1977 and 1979 among older adults  ##GENERIC SENTENCE (STATIC) 
+ ( over 26 )  ##OTHER 
+ who used Marijuana in their youth . " ##BOUNDED EVENT (GENERIC) 
+The rapid growth of marijuana cultivation has for the first time forced the DEA to switch some of its law enforcement effort  ##PERFECT COERCED STATE (SPECIFIC)
+ from trying to stop smuggling  ##UNBOUNDED EVENT (GENERIC) 
+ and to concentrating on catching domestic producers . ##UNBOUNDED EVENT (GENERIC) 
+Commercial marijuana growing began in the United States only about five years ago ,  ##BOUNDED EVENT (GENERIC) 
+ and already homegrown pot accounts for an estimated 7 percent to 10 percent of the 14,000 to 15,000 tons  ##GENERIC SENTENCE (STATIC) 
+ smoked each year . ##BOUNDED EVENT (GENERIC) 
+Measured in dollars ,  ##GENERIC SENTENCE (STATIC) 
+ the domestic pot growers have captured an even bigger share of the market ,  ##PERFECT COERCED STATE (SPECIFIC) 
+ because their product sells for two to 10 times as much as imported marijuana .  ##GENERIC SENTENCE (STATIC) 
+As if they had taken a percentage lesson from Madison Avenue ,  ##PERFECT COERCED STATE (SPECIFIC)
+ U.S. marijuana farmers are cashing in by concentrating on the luxury market ##UNBOUNDED EVENT (GENERIC) 
+ -- producing ##UNBOUNDED EVENT (GENERIC) 
+ what even the DEA admits  ##BASIC STATE 
+ if the best marijuana available  ##OTHER 
+ and charging premium prices for it . ##UNBOUNDED EVENT (GENERIC) 
+Domestic growers have used designer genitics  ##PERFECT COERCED STATE (GENERIC) 
+ to produce pot many times more potent than garden-variety grass . ##UNBOUNDED EVENT (GENERIC) 
+They 've even given it  ##PERFECT COERCED STATE (GENERIC) 
+ what amounts to a brand name  ##BASIC STATE 
+ -- " sinsemilla . " ##OTHER 
+The word is an amalgam of the two Spanish words  ##BASIC STATE 
+ meaning " seedless "  ##BASIC STATE 
+ but has come to imply champagne-quality homegrown marijuana . ##PERFECT COERCED STATE (GENERIC) 
+U.S. growers are getting $100 to to $200 an ounce for their sinsemilla , ##UNBOUNDED EVENT (GENERIC) 
+ while Columbian grass sells for $40 or less . ##GENERIC SENTENCE (STATIC) 
+And  ##OTHER 
+ because the channels of distribution are much shorter for American marijuana  ##GENERIC SENTENCE (STATIC) 
+ -- much of it is sold directly by the growers --  ##GENERIC SENTENCE (STATIC) 
+ the domestic producers are making far greater profit . ##GENERIC SENTENCE (STATIC) 
+On an investment of $3,000 or less ,  ##OTHE R
+a grower can easily produce a marijuana crop worth $100,000 , ##GENERIC SENTENCE (STATIC)  
+ says David Schickedanz ,  ##BASIC STATE 
+coordinator of the first federal effort  ##OTHER 
+ to try to eradicate the infant industry ##UNBOUNDED EVENT (GENERIC) 
+ before it gets any bigger . ##UNBOUNDED EVENT (GENERIC) 
+Between June and October of last year , ##OTHER 
+ local , state and federal agents  ##OTHER 
+ participating in the DEA 's " Operation Sinsemilla " raided 740 pot plots , ##UNBOUNDED EVENT (GENERIC) 
+ arrested 527 persons ##BOUNDED EVENT (SPECIFIC) 
+ and seized 129,329 marijuana plants ##BOUNDED EVENT (SPECIFIC) 
+ weighing more than a total of 220,000 pounds . ##GENERIC SENTENCE (STATIC) 
+Counting another ton of processed pot ##UNBOUNDED EVENT (SPECIFIC) 
+ that was seized , ##BOUNDED EVENT (SPECIFIC) 
+ the operation netted an estimated $131.5 million worth of marijuana . ##BASIC STATE 
+All the seizures and arrests were made in 17 norther California counties ##GENERIC SENTENCE (STATIC) 
+ ( including Mendocino ) ##OTHER 
+ where serious marijuana growing apparently got its start ##GENERIC SENTENCE (STATIC) 
+ and is the most prevalent . ##GENERIC SENTENCE (STATIC) 
+California and Hawaii are the leading marijuana growing states ,  ##GENERIC SENTENCE (STATIC) 
+ reports the DEA . ##BASIC STATE 
+" We 're not saying ##UNBOUNDED EVENT (SPECIFIC) 
+ it 's just Claifornia and Hawaii ,  ##GENERIC SENTENCE (STATIC) 
+ " stressed Schickedanz . ##BASIC STATE 
+" You 'll find it in every state  ##COERCED STATE (GENERIC) 
+ that has a growing season long enough for vegetables . ##PERFECT COERCED STATE (GENERIC) 
+Anybody  ##OTHER 
+ who can grow a tomato  ##GENERIC SENTENCE (STATIC) 
+ can grow marijuana . ##GENERIC SENTENCE (STATIC) 
+When the DEA began cracking down in northern California , ##BOUNDED EVENT (SPECIFIC) 
+ growers moved over the border into Oregon . ##BOUNDED EVENT (GENERIC)
+Arkansas is rapidly building a reputation ##BASIC STATE 
+ as California 's rival , ##OTHER 
+ say officials of the national Organization for Reform of Marijuana Laws  ##BASIC STATE 
+ ( NORML ) . ##OTHER 
+They contend  ##BASIC STATE 
+ marijuana is grown in every state and the District of Columbia , ##GENERIC SENTENCE (STATIC) 
+ where much of it is cultivated indoors . ##GENERIC SENTENCE (STATIC) 
+Campaigning for the right ##UNBOUNDED EVENT (GENERIC) 
+ to grow grass for personal consumption  ##UNBOUNDED EVENT (GENERIC) 
+ is the latest move for the group , ##GENERIC SENTENCE (STATIC) 
+ which until now has stressed efforts  ##BOUNDED EVENT (GENERIC) 
+ to ease or erase criminal penalties for possession of small amounts . ##UNBOUNDED EVENT (GENERIC) 
+Only Alaska now permits people ##GENERIC SENTENCE (STATIC) 
+ to grow their own grass , ##UNBOUNDED EVENT (GENERIC) 
+ said George Farnham , ##BASIC STATE 
+the young lawyer  ##OTHER
+ who serves as a political director of NORMAL . ##BASIC STATE 
+In most states , ##OTHER 
+growing marijuana is a far more serious crime than getting caught with an ounce or less . ##GENERIC SENTENCE (STATIC) 
+Many state laws treat cultivation of even a single marijuana plant with the same severity as selling drugs , ##GENERIC SENTENCE (DYNAMIC)
+ imposing mandatory prison sentences . ##GENERIC SENTENCE (DYNAMIC) 
+Farnhan says U.S. grass growers " benefit the U.S. economy ##BASIC STATE 
+ by keeping the money in the country  ##UNBOUNDED EVENT (GENERIC) 
+ instead of giving it to Columbia . ##UNBOUNDED EVENT (GENERIC) 
+It helps our balance of payments . " ##BASIC STATE
+Buying marijuana from a " hippie farmer in Arkansas " is better than getting it from a multinational smuggling ring ,  ##GENERIC SENTENCE (STATIC)
+ he argues . ##BASIC STATE 
+Government efforts  ##OTHER 
+ to halt foreign marijuana production and smuggling ,  ##UNBOUNDED EVENT (GENERIC)
+especially the spraying of the poison paraquat on marijuana fields , ##UNBOUNDED EVENT (GENERIC)
+ lead pot smokers to start growing their own , ##UNBOUNDED EVENT (GENERIC) 
+ the NORML lawyer suggested . ##BASIC STATE 
+Fear of paraquat and the Mexican government 's success in curtailing marijuana cultivation ##OTHER
+ have cut imports of the Mexican variety ##PERFECT COERCED STATE (SPECIFIC) 
+ sharply ,  ##OTHER 
+ the DEA says . ##BASIC STATE 
+From 2,200 tons in 1978 ,  ##OTHER 
+Mexico 's supply to the U.S. fell to at most 1,500 tons in 1979 . ##BOUNDED EVENT (SPECIFIC) 
+Imports of Jamaican " ganga " doubled ,  ##BOUNDED EVENT (SPECIFIC) 
+however , ##OTHER 
+ as troubles in the economy of that island nation lead more Jamaicans  ##GENERIC SENTENCE (DYNAMIC) 
+ to turn to growing and smuggling . ##UNBOUNDED EVENT (GENERIC) 
+Colombia remains the main supplier ,  ##BASIC STATE 
+ exporting an estimated 10,100 tons of marijuana to the United States in 1979 . ##UNBOUNDED EVENT (SPECIFIC) 
+Smuggling has grown to such an organized level  ##PERFECT COERCED STATE (GENERIC) 
+ that twice in 1979 U.S. drug agents intercepted shipments of 50 tons of marijuana ##BOUNDED EVENT (SPECIFIC) 
+ -- an entire shipload . ##OTHER 
+Marijuana weed , ##OTHER 
+ also known as the hemp plant ,  ##GENERIC SENTENCE (STATIC) 
+ was cultivated for rope in midwestern states during World War II  ##BOUNDED EVENT (GENERIC) 
+ and still grows wild in much of the country . ##UNBOUNDED EVENT (GENERIC) 
+But marijuana smokers learned long ago  ##BOUNDED EVENT (GENERIC) 
+ that wild weeds do n't have the desired impact . ##PERFECT COERCED STATE (GENERIC) 
+The plants are very low  ##GENERIC SENTENCE (STATIC) 
+ in cannabis resin and in tetrahydrocannabinol  ##OTHER 
+ ( Thc ) , the ingredient  ##OTHER 
+ that makes users " high . " ##GENERIC SENTENCE (DYNAMIC) //2
+" People used to look down their noses at homegrown , ##COERCED STATE (GENERIC) 
+ " Farnham says ,  ##BASIC STATE 
+ " but now when you 're talking homegrown ,  ##UNBOUNDED EVENT (GENERIC) 
+ you 're talking about the best marijuana in the world . " ##UNBOUNDED EVENT (GENERIC) 
+American marijuana is considered more desirable ,  ##GENERIC SENTENCE (STATIC) 
+ he explained ,  ##BASIC STATE 
+ because growers have learned ##COERCED STATE (GENERIC) 
+ how to increase the THC content  ##OTHER
+ and grow a crop many times more potent than the imported variety . ##UNBOUNDED EVENT (GENERIC)
+The most potent California marijuana contains as much as 6 percent pure THC ,  ##GENERIC SENTENCE (STATIC) 
+ agreed DEA agent Schickedanz ,  ##BASIC STATE 
+ while ordinary grass has as little as 0.05 percent of the psychoactive chemical . ##PERFECT COERCED STATE (GENERIC) 
+To make their stuff stronger ,  ##UNBOUNDED EVENT (GENERIC) 
+ pot farmers plant a different variety . ##GENERIC SENTENCE (STATIC) 
+The marijuana  ##OTHER 
+ grown in Mexico , Colombia and Jamaica and the wild weed in the United States is a plant  ##GENERIC SENTENCE (STATIC) 
+ called cannabis satavia . ##BASIC STATE 
+Another variety grows in Asia ,  ##GENERIC SENTENCE (STATIC) 
+ cannabis indicia ,  ##OTHER 
+ containing much more resin . ##GENERIC SENTENCE (DYNAMIC) 
+Americans in Vietnam developed a taste for the Eastern variety ##BOUNDED EVENT (GENERIC) 
+ and brought the seeds home with them . ##BOUNDED EVENT (GENERIC) 
+But the secret of sinsemilla is in the growing . ##GENERIC SENTENCE (STATIC) 
+The cultivators emasculate their marijuana patches , ##GENERIC SENTENCE (DYNAMIC) 
+ culling out the male plants as soon  ##UNBOUNDED EVENT (GENERIC) 
+ as their sex can be determined . ##GENERIC SENTENCE (STATIC)
+Struggling futiley  ##UNBOUNDED EVENT (GENERIC) 
+ to reproduce without males ,  ##UNBOUNDED EVENT (GENERIC) 
+ the frustrated females pour all their energy into producing THC ,  ##UNBOUNDED EVENT (GENERIC) 
+ because the sticky chemical helps trap pollen . ##GENERIC SENTENCE (STATIC) 
+The result is a monster marijuana plant  ##GENERIC SENTENCE (STATIC) 
+ -- 10 to 20 feet tall ,  ##OTHER 
+ vivid green ,  ##OTHER 
+ bushy as a Christmas tree ##OTHER  
+ and literally dripping with THC . ##GENERIC SENTENCE (DYNAMIC) 
+DEA officials estimate  ##BASIC STATE 
+ that each sinsemilla plant will yield an average of a pound of pot , ##COERCED STATE (GENERIC) 
+ and some will produce two or even three pounds . ##COERCED STATE (GENERIC) 
+Both DEA and NORML representatives agree ##BASIC STATE 
+ that $1,000 a pound is the going price for sinsemilla in that quantity. ##BASIC STATE 
+The smoker ##OTHER 
+ who buys ##OTHER 
+ an ounce will probably pay $100 to $200 for it , ##COERCED STATE (SPECIFIC) 
+ pushing the value of a pound to $2,000 or $3,000 . ##GENERIC SENTENCE (DYNAMIC) 
+Government drug officials in the past have been accused of inflating the value of drugs ##PERFECT COERCED STATE (GENERIC) 
+ to exaggerate their danger . ##UNBOUNDED EVENT (GENERIC) 
+But DEA estimates of sinsemilla output  ##BASIC STATE 
+ are based on the one-pound-to-the-plant ,  ##GENERIC SENTENCE (STATIC) 
+$1,000-a-pound rule ,  ##OTHER 
+ and NORML officials say  ##BASIC STATE 
+ the government numbers are ,  ##GENERIC SENTENCE (STATIC)  
+if anything , ##OTHER 
+on the low side . ##OTHER 
+But the pro - and antimarijuana forces disagree on other aspects of marijuana growing . ##BASIC STATE 
+The people  ##OTHER 
+ who want to legalize pot describe a cottage industry right out of " The Greening of America " with friendly folks  ##BASIC STATE  
+ who , ##OTHER 
+ as Farnham puts it , ##UNBOUNDED EVENT (GENERIC) 
+ " grow a little grass for themselves and their friends . " ##UNBOUNDED EVENT (GENERIC) 
+DEA talks of marijuana millionaires , pot plantations and staggering profits . ##UNBOUNDED EVENT (GENERIC) 
+A single sensimilla plant will yield 1,500 hand-rolled joints of marijuana too potent for most smokers to consume by themselves . ##COERCED STATE (GENERIC) 
+" One plant is enough  ##GENERIC SENTENCE (STATIC) 
+ to keep somebody stoned out of their mind for a year , ##UNBOUNDED EVENT (GENERIC) 
+ " said Schickedanz . ##BASIC STATE 
+Each plant requires a plot about three feet in diameter , ##GENERIC SENTENCE (STATIC) 
+ so a moderate-sized garden will produce 100 plants  ##COERCED STATE (GENERIC) 
+ yielding $100,000 worth of sinsemilla ,  ##GENERIC SENTENCE (DYNAMIC) 
+ the DEA agent noted . ##BASIC STATE 
+The biggest grower  ##OTHER 
+ busted by the DEA in its California raids had 7,200 plants , ##BOUNDED EVENT (SPECIFIC) 
+worth at least $7 million . ##OTHER 
+With a crop that valuable ,  ##OTHER 
+ the growers do n't just throw their seeds in the ground  ##UNBOUNDED EVENT (GENERIC) 
+ and wait for the harvest ,  ##UNBOUNDED EVENT (GENERIC) 
+ Schickendanz said . ##BASIC STATE 
+About this time of year  ##OTHER 
+ they start the seeds in individual planting pots ,  ##UNBOUNDED EVENT (GENERIC) 
+ just like tomatoes or cabbages . ##OTHER 
+In the spring ,  ##OTHER 
+the seedlings are transplanted outside . ##UNBOUNDED EVENT (GENERIC) 
+( Urban growers often produce pot in a closet ,  ##GENERIC SENTENCE (STATIC)  
+ using fancy lighting systems  ##UNBOUNDED EVENT (GENERIC)  
+ that produce the wavelengths  ##GENERIC SENTENCE (STATIC0 
+ the plants prefer . ) ##GENERIC SENTENCE (STATIC) //2
+Deer , rabbits and other garden pests love the leafy marijuana plants ,  ##GENERIC SENTENCE (STATIC) 
+ so most of the serious growers fence their plots with chicken wire or woven wire fencing . ##UNBOUNDED EVENT (GENERIC) 
+To keep out burrowing creatures ,  ##UNBOUNDED EVENT (GENERIC) //2
+ they extend the wire underground ,  ##UNBOUNDED EVENT (GENERIC) 
+ and to keep out poachers ,  ##UNBOUNDED EVENT (GENERIC) //2
+ more than a few plots have burglar alarms . ##PERFECT COERCED STATE (GENERIC) 
+Schickedanz said  ##BASIC STATE 
+ one of the California growers  ##OTHER 
+ his group caught last year had installed two above-ground swimming pools ##NONSENSE 
+ to hold water and liquid fertilizer for his marijuana garden . ##GENERIC SENTENCE (STATIC0 
+" He 'd hooked up a couple of pumps . ##BOUNDED EVENT (GENERIC) 
+All  ##OTHER 
+ he had to do was step out of his cabin  ##PERFECT COERCED STATE (SPECIFIC) 
+ and hit a switch ,  ##UNBOUNDED EVENT (SPECIFIC) 
+the first pump would run  ##COERCED STATE (SPECIFIC) 
+ until the plants got their water ,  ##UNBOUNDED EVENT (GENERIC) 
+ then shut off automatically . ##OTHER
+Then a second pump would give them the fertilizer . " ##COERCED STATE (SPECIFIC) 
+The DEA agent estimates ##BASIC STATE 
+ " Operation Sinsemilla " wiped out 20 percent to 40 percent of the marijuana crop in northern California last year . ##BOUNDED EVENT (SPECIFIC) 
+But ,  ##OTHER  
+ he admitted reluctantly ,  ##BASIC STATE 
+ " I personally do n't think  ##BASIC STATE 
+ we 'll ever stop it . " ##UNBOUNDED EVENT (GENERIC) 
+***0 5 5 2 5 5 5 5 YES ML YES 0 0 0 0 UNCLEAR

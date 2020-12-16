@@ -1,0 +1,33 @@
+Drugs being illegal holds back research ##GENERIC SENTENCE (DYNAMIC)
+that could be done on them. ##COERCED STATE (GENERIC)
+How do you think most street drugs started? ##QUESTION
+A lot, ##OTHER
+maybe all, ##OTHER
+of street drugs started out as medical application drugs ##BOUNDED EVENT (GENERIC) 
+but were taken out of use ##BOUNDED EVENT (GENERIC)
+because they were too addictive and/or harmful. ##GENERIC SENTENCE (STATIC)
+No research needs to be done on them. ##COERCED STATE (GENERIC)
+We know them well. ##GENERIC SENTENCE (STATIC)
+The reason ##OTHER
+why street drugs have a reputation for unpredictability is because cheap-ass drug manufacturers cut random shit into their product. ##GENERIC SENTENCE (STATIC)
+Drugs being legal would make it easy ##COERCED STATE (GENERIC)
+for drug addicts to seek medical help ##UNBOUNDED EVENT (GENERIC) //4
+without fear of arrest. ##GENERIC SENTENCE (STATIC)
+There are already ways ##GENERIC SENTENCE (STATIC)
+for addicts to seek treatment without criminal charges. ##UNBOUNDED EVENT (GENERIC) //4
+The government actually * wants * to help you get off drugs. ##BASIC STATE //4
+he/she is going to use the more dangerous drug because of an inability to access the safer one ##COERCED STATE (GENERIC)
+I think ##BASIC STATE
+that would happen regardless of whether someones usual drug is legal or not. ##COERCED STATE (GENERIC)
+Your point is a valid one and commonly discussed. ##BASIC STATE
+Weed is being legalized in a few places ##UNBOUNDED EVENT (SPECIFIC) //4
+(I don't live in one ##COERCED STATE (SPECIFIC)
+and it may take a while to see the effects). ##COERCED STATE (GENERIC)
+Personally I think ##BASIC STATE
+the only advantage to legalizing illicit drugs is to get revenue ##GENERIC SENTENCE (STATIC)
+by taxing them. ##UNBOUNDED EVENT (GENERIC)
+That's what they do with cigarettes, ##GENERIC SENTENCE (DYNAMIC) //4
+which is shit ##GENERIC SENTENCE (STATIC)
+because cigarettes are so bad for peoples health. ##GENERIC SENTENCE (STATIC)
+edit: spelling ##OTHER
+***0 5 0 0 0 0 0 0 YES ML YES 2 2 4 4 5 HUMAN

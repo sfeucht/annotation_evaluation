@@ -1,0 +1,51 @@
+When one thinks of California, ##GENERIC SENTENCE (DYNAMIC)
+images of gunfire, booby traps and deadly cartels dont usually come to mind. ##COERCED STATE (GENERIC)
+However, ##OTHER
+the Discovery Channel is aiming to expose the states dark side in the new series Pot Cops, ##UNBOUNDED EVENT (SPECIFIC)
+which follows a drug enforcement unit in Humboldt County, Calif. ##UNBOUNDED EVENT (SPECIFIC)
+who work to bring down both cartels and the average Joe growers ##GENERALIZING SENTENCE (DYNAMIC)
+operating in the area. ##UNBOUNDED EVENT (SPECIFIC)
+And thats no easy task. ##GENERIC SENTENCE (HABITUAL)
+The drug trafficking organizations ##OTHER
+that generally come from Mexico will sometimes put booby traps ##GENERIC SENTENCE (DYNAMIC)
+coming [ for ] people ##UNBOUNDED EVENT (GENERIC) //3
+that are trying to steal or for law enforcement ##GENERIC SENTENCE (DYNAMIC)
+trying to eradicate their crops. ##GENERIC SENTENCE (DYNAMIC) //4
+A drug cartel is a serious criminal organization, ##GENERIC SENTENCE (STATIC)
+theres a lot of money to be made ##GENERIC SENTENCE (STATIC)
+and when theres a lot of money to be made, ##GENERIC SENTENCE (HABITUAL)
+there is a higher potential for violence, ##GENERIC SENTENCE (STATIC)
+SWAT team member, ##OTHER
+Deputy Greg Musson ##OTHER
+who stars in the show ##UNBOUNDED EVENT (SPECIFIC)
+told XXXs Pop Tarts column. ##BOUNDED EVENT (SPECIFIC)
+Obviously there is a level of the unknown ##GENERIC SENTENCE (HABITUAL)
+One of the guys on the team ##OTHER
+and on the show has been involved in a shooting during a marijuana crackdown. ##PERFECT COERCED STATE (SPECIFIC)
+Pot Cops will give audiences an unprecedented look ##COERCED STATE (SPECIFIC)
+at what it takes to conquer growers ##GENERALIZING SENTENCE (DYNAMIC)
+who are running a large weed farm in the Redwoods ##UNBOUNDED EVENT (SPECIFIC)
+and shooting at local children on a reservation, ##GENERALIZING SENTENCE (DYNAMIC)
+as well as a bizarre, ##OTHER
+slow-speed chase of a stoned grower and investigations into parents ##OTHER
+who may be putting their own children at risk ##COERCED STATE (SPECIFIC)
+while hiding a huge grow somewhere in the surrounding hills. ##UNBOUNDED EVENT (SPECIFIC)
+But what Musson anticipates ##BASIC STATE
+viewers will be most surprised to learn more about ##GENERIC SENTENCE (STATIC)
+is the heavily-debated medical marijuana issue, ##GENERIC SENTENCE (DYNAMIC)
+and he claims ##UNBOUNDED EVENT (SPECIFIC)
+that in his decade-long career as a law enforcement officer, ##OTHER
+he can count on one hand the amount of legal growers ##COERCED STATE (SPECIFIC)
+he has encountered. ##PERFECT COERCED STATE (SPECIFIC)
+We are not interested in interfering with people ##GENERIC SENTENCE (STATIC)
+who have a legitimate marijuana license for their own personal use, ##GENERIC SENTENCE (STATIC)
+and contrary to popular belief, ##OTHER
+it is not legal to grow marijuana for profit. ##GENERIC SENTENCE (STATIC)
+It is illegal even with the license, ##GENERIC SENTENCE (STATIC)
+Musson insisted. ##BOUNDED EVENT (SPECIFIC)
+It is also illegal to give it away, ##GENERIC SENTENCE (STATIC)
+just as it is to sell it. ##GENERIC SENTENCE (STATIC)
+Even if you have a medical need. ##GENERIC SENTENCE (STATIC)
+Thats the main thing ##GENERIC SENTENCE (STATIC)
+we would like to get out there to people. ##COERCED STATE (SPECIFIC)
+***0 5 5 0 0 0 0 0 YES ML YES UNCLEAR(2) 1 5 3 HUMAN

@@ -1,0 +1,44 @@
+I'm sorry but your post seems very... ##BASIC STATE
+Inaccurate I guess. ##OTHER
+Barely anybody wants ##GENERIC SENTENCE (STATIC)
+it legalized for the sole purpose of being a cure. ##GENERIC SENTENCE (STATIC) //3
+Yes, ##OTHER
+it is one of the reasons ##GENERIC SENTENCE (STATIC)
+that people want it legal, ##GENERIC SENTENCE (STATIC)
+but you can't say people ##COERCED STATE (GENERIC)
+who want it legal ##GENERIC SENTENCE (STATIC)
+are short minded. ##GENERIC SENTENCE (STATIC)
+There are other reasons to legalization, ##GENERIC SENTENCE (STATIC)
+such as how it *is* fairly safe. ##GENERIC SENTENCE (STATIC)
+Better than alcohol, ##GENERIC SENTENCE (STATIC)
+and that is legal. ##GENERIC SENTENCE (STATIC)
+Also, ##OTHER
+we are wasting tax dollars and labour for the imprisonment of people ##UNBOUNDED EVENT (GENERIC)
+who were using marijuana. ##BOUNDED EVENT (GENERIC)
+Do you think ##QUESTION
+it is right to ruin a person's life ##GENERIC SENTENCE (STATIC)
+because of smoking a plant ##UNBOUNDED EVENT (GENERIC)
+that makes the happy? ##UNBOUNDED EVENT (GENERIC)
+We can also generate alot of money for us ##COERCED STATE (GENERIC)
+if it is sold in stores and taxed. ##COERCED STATE (GENERIC)
+Also, ##OTHER
+one of the reasons ##OTHER
+why tobacco was assumed safe is ##BOUNDED EVENT (GENERIC)
+because we didn't have all the technology to analyze it ##GENERIC SENTENCE (STATIC)
+that we do today. ##GENERIC SENTENCE (STATIC)
+When we got this tech, ##COERCED STATE (GENERIC) //3
+we realized ##BOUNDED EVENT (GENERIC)
+that it was bad. ##GENERIC SENTENCE (STATIC)
+Now with pot, ##OTHER
+he have analyzed it ##PERFECT COERCED STATE (GENERIC)
+and it is shown ##PERFECT COERCED STATE (GENERIC)*
+that it is not so bad. ##GENERIC SENTENCE (STATIC)
+TL;DR ##OTHER
+being a cure is not the only reason ##GENERIC SENTENCE (STATIC) //4
+people want ##GENERIC SENTENCE (STATIC)
+it legalized, ##BOUNDED EVENT (GENERIC) //1
+saying that people ##UNBOUNDED EVENT (SPECIFIC) //4
+who want it legal ##GENERIC SENTENCE (STATIC)
+are short minded is infactual ##GENERIC SENTENCE (STATIC)
+and just doesn't make sense. ##BASIC STATE //4
+***0 5 0 0 0 0 0 0 YES ML YES 5 3 5 3 5 HUMAN

@@ -1,0 +1,63 @@
+President Obama got an endorsement from a medical marijuana group. ##BOUNDED EVENT (SPECIFIC)
+Even more surprised? ##QUESTION
+Mainstream marijuana activists, ##OTHER
+many of whom have never heard of the organization or its founder, ##COERCED STATE (GENERIC)
+Tom Leto. ##OTHER
+The major lobbying and advocacy groups have so far held off on endorsing a presidential candidate ##COERCED STATE (GENERIC) //3
+they say ##GENERIC SENTENCE (STATIC)
+Obama hasnt lived up to a vow ##COERCED STATE (SPECIFIC)
+to back off raids. ##UNBOUNDED EVENT (SPECIFIC)
+Our whole community was asking ##UNBOUNDED EVENT (GENERIC)
+who is this clown? ##QUESTION
+says Aaron Houston, ##BASIC STATE 
+executive director of the Students for Sensible Drug Policy. ##OTHER
+And conspiracy theories, ##OTHER
+unsurprisingly, ##OTHER
+bloomed. ##UNBOUNDED EVENT (GENERIC)
+The U.S. Medical Marijuana Chamber of Commerces press release ##OTHER
+endorsing Obama claimed ##BOUNDED EVENT (SPECIFIC)
+it has 10,000 members in chapters across the country, ##BASIC STATE
+and its Web site lists a box-office address on a swank stretch of Pennsylvania Ave. ##BASIC STATE
+The group does not appear to be incorporated, ##BASIC STATE
+nor is it listed in nonprofit records or in Dun & Bradstreet. ##BASIC STATE
+A lone press clip from a 2010 event in New Jersey is the only mention to be found. ##BASIC STATE
+We reached Leto, ##BOUNDED EVENT (SPECIFIC)
+who said the fact ##BOUNDED EVENT (SPECIFIC)
+that no one had heard of him ##PERFECT COERCED STATE (GENERIC)
+meant ##GENERIC SENTENCE (STATIC) //4
+he has more work to do. ##BASIC STATE
+As for the lack of a paper trail, ##OTHER
+he says its in the works. ##BASIC STATE
+Ive got attorneys ##BASIC STATE
+working on all that, ##UNBOUNDED EVENT (GENERIC)
+he says. ##BASIC STATE
+Its a process, ##GENERIC SENTENCE (STATIC)
+you know? ##QUESTION
+We will be ... ##BASIC STATE
+I dont know ##BASIC STATE
+how to say it, ##UNBOUNDED EVENT (SPECIFIC) //2
+but lock, stock, and barrel in about two weeks. ##OTHER
+Leto says hes ##BASIC STATE
+not naming his members to protect them. ##UNBOUNDED EVENT (SPECIFIC)
+People arent ready to be out there, ##GENERIC SENTENCE (STATIC)
+he explains. ##UNBOUNDED EVENT (SPECIFIC)
+but Im out there and Im in it ##BASIC STATE
+to win it. ##UNBOUNDED EVENT (SPECIFIC) //2
+Leto, ##OTHER
+a California-based promoter of hydroponic equipment, ##OTHER
+explained the genesis of the company, ##BOUNDED EVENT (SPECIFIC)
+a story ##OTHER
+that only adds a bit of mystery: ##UNBOUNDED EVENT (SPECIFIC)
+he was working with the New York PR firm Todd Shapiro Associates ##BOUNDED EVENT (SPECIFIC)
+to help market his hydroponics business ##UNBOUNDED EVENT (SPECIFIC)
+when the concept snowballed into a nationwide organization ##BOUNDED EVENT (SPECIFIC)
+advocating federal legalization of medical marijuana. ##UNBOUNDED EVENT (SPECIFIC)
+Shapiro referred our questions to his office, ##BOUNDED EVENT (SPECIFIC)
+but the person ##OTHER
+we spoke to there said ##BOUNDED EVENT (SPECIFIC)
+she wasnt authorized to speak on the record. ##BASIC STATE
+Still, pot advocates are wary. ##GENERIC SENTENCE (STATIC)
+Paranoid, ##OTHER
+even. ##OTHER
+But then again ... ##OTHER
+***0 5 3 1 5 3 5 2 YES ML YES 0 0 0 0 HUMAN

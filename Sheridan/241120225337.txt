@@ -1,0 +1,40 @@
+Seth Rogen may play a mall cop in his new movie, ##UNBOUNDED EVENT (SPECIFIC)
+but malls weren't his primary hang-out ##BASIC STATE
+when he was a kid. ##BASIC STATE
+"I was more of a smoking weed behind the 7-Eleven guy," ##BASIC STATE 
+Rogen told Tuesday at the premiere of "Observe and Report." ##BOUNDED EVENT (SPECIFIC)
+"So yeah, ##OTHER
+didnt go to the mall much." ##COERCED STATE (SPECIFIC)
+Rogen's very glad he chose acting over a career in mall security. ##BASIC STATE
+"[Being a mall cop] is not the greatest job in the world ##GENERIC SENTENCE (STATIC)
+I think," ##BASIC STATE
+he said. ##BOUNDED EVENT (SPECIFIC)
+"They get a lot of disrespect." ##GENERIC SENTENCE (DYNAMIC)
+Co-star Ana Faris concurred. ##BOUNDED EVENT (SPECIFIC)
+"They just dont have enough power," ##GENERIC SENTENCE (STATIC)
+she said. ##BOUNDED EVENT (SPECIFIC)
+"I was a patrol crossing guard in elementary school, ##BASIC STATE
+man. ##OTHER
+I loved it. ##BASIC STATE
+I loved the power." ##BASIC STATE
+Faris, ##OTHER (same as BASIC STATE)
+who plays a makeup counter girl in the movie, ##UNBOUNDED EVENT (SPECIFIC)
+the object of Rogen's affection, ##OTHER
+has fond memories of mall life. ##BASIC STATE
+"Ahhhh, Orange Julius," ##OTHER
+she opined. ##BOUNDED EVENT (SPECIFIC)
+"We also had Glamour Shots. ##GENERIC SENTENCE (STATIC)
+I could never afford to go get my glamour shots done. ##COERCED STATE (SPECIFIC)
+But we would always walk past it, ##GENERALIZING SENTENCE (DYNAMIC)
+my girlfriends and I, ##OTHER
+just dreaming [about getting] ##UNBOUNDED EVENT (SPECIFIC) 
+our glamour shots done one day." ##OTHER
+Co-star Ray Liotta's mall memories were not so rosy. ##BASIC STATE
+"I was driving my moms car. ##UNBOUNDED EVENT (SPECIFIC)
+I was on vacation from college. ##BASIC STATE
+I took it to a mall. ##BOUNDED EVENT (SPECIFIC)
+I came out, ##BOUNDED EVENT (SPECIFIC)
+and it was gone. ##BASIC STATE
+Someone stole it. ##BOUNDED EVENT (SPECIFIC)
+Thats my mall story." ##BASIC STATE
+***0 5 3 1 5 5 5 2 NO NA YES 0 0 0 0 HUMAN

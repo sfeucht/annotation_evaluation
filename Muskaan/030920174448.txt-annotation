@@ -1,0 +1,32 @@
+0 0 ? ? attr
+1 1 0 0 elab
+3 3 2 2 elabx
+4 4 2 2 elabx
+5 10 2 4 elabx
+8 10 7 7 elab
+11 12 6 10 elab
+13 14 7 10 exampx
+17 21 15 16 elabx
+22 26 15 21 elab
+24 24 23 23 elab
+25 26 24 24 elabx
+28 31 27 27 elab
+33 33 32 32 elab
+33 33 34 34 ce
+32 37 28 31 elabx
+36 36 37 37 vex
+38 38 39 39 ve
+38 39 27 31 elab
+40 40 41 41 vex
+43 43 42 42 examp
+44 45 42 42 elabx
+47 49 46 46 elabx
+50 50 47 49 simx
+51 51 50 50 contrx
+52 53 50 51 elab
+52 52 53 54 ve
+56 56 55 55 elabx
+57 57 53 56 elab
+57 57 58 59 ve
+
+

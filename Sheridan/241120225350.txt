@@ -1,0 +1,81 @@
+No one wears a helmet more effectively than a Porsche. ##COERCED STATE (GENERIC)*
+The sports car giant admitted in a joint investigation with several states ##BOUNDED EVENT (SPECIFIC)
+that its headlights wont filter water, ##COERCED STATE (GENERIC)*
+make faulty signals, ##COERCED STATE (GENERIC)
+or even teach the cars their mind. ##COERCED STATE (GENERIC)*
+Porsches testing and enforcement of its program ##OTHER
+led to some of the biggest social media campaigns, ##BOUNDED EVENT (GENERIC)
+including an NBCNews.com story ##OTHER
+that revealed cars ##BOUNDED EVENT (SPECIFIC)
+that were pilfered to grow ##BOUNDED EVENT (GENERIC)
+pot were being used ##UNBOUNDED EVENT (SPECIFIC)
+to pay to evade detection. ##UNBOUNDED EVENT (GENERIC)
+The use of the headlights is the most common pain on such vehicles, ##GENERIC SENTENCE (HABITUAL)
+their title being swag and accessories. ##GENERIC SENTENCE (STATIC)
+I know ##BASIC STATE
+we use both colors for headlights, ##GENERIC SENTENCE (DYNAMIC)
+for headlights, ##OTHER
+General Motors spokesman Jimmy Lee told The Huffington Post. ##BOUNDED EVENT (SPECIFIC)
+When we make a brand new car, ##GENERIC SENTENCE (DYNAMIC)
+it has a "mint" and another symbol or shape depending on how to signal the vehicle. ##GENERIC SENTENCE (HABITUAL)
+So we used that in some vehicles for them. ##BOUNDED EVENT (GENERIC)
+Even GE, ##OTHER (same as BOUNDED EVENT (SPECIFIC))
+who has a partnership with Porsche, ##BASIC STATE
+admitted it violated terms of the accelerator ##BOUNDED EVENT (SPECIFIC)
+and brake disengage control system ##OTHER
+used by the Prius as well as like-minded cars in 13 states ##GENERIC SENTENCE (DYNAMIC)
+as part of its testing. ##OTHER
+Porsche banned its headlights on vehicles with U.S. licenses ##BOUNDED EVENT (SPECIFIC)
+and required them to be pilfered by distributors, ##UNBOUNDED EVENT (SPECIFIC)
+according to a report by MarketWatch. ##BASIC STATE
+However, ##OTHER
+the gear lever ##OTHER
+that guards paint black, ##GENERIC SENTENCE (DYNAMIC)*
+while the spokes ##OTHER
+that warns the tank of gas was not integral to the system. ##GENERIC SENTENCE (STATIC)*
+Speaking directly to reporters, ##UNBOUNDED EVENT (SPECIFIC)
+Porsche chief executive Mary Barra acknowledged ##BOUNDED EVENT (SPECIFIC)
+that it is a problem thats worse than when she was a child. ##GENERIC SENTENCE (STATIC)
+"You don't just have headlights but homes!" ##GENERIC SENTENCE (STATIC)*
+she said. ##BOUNDED EVENT (SPECIFIC)
+"I know. ##BASIC STATE
+I look back in my eyes ##UNBOUNDED EVENT (SPECIFIC) 
+and say, ##UNBOUNDED EVENT (SPECIFIC)
+'Is ##OTHER
+that the right thing to do? ##QUESTION
+I think ##BASIC STATE
+that's more important to make this a safer choice. ##GENERIC SENTENCE (STATIC)
+It's more important to do what you love in life ##GENERIC SENTENCE (HABITUAL)
+rather than being something ##UNBOUNDED EVENT (GENERIC) 
+that you don't care about much." ##GENERIC SENTENCE (STATIC)
+The complaints have given reason ##PERFECT COERCED STATE (GENERIC)
+for the government to pay attention, ##UNBOUNDED EVENT (SPECIFIC)
+which highlights the dangers of the exhaust - fumes, ##UNBOUNDED EVENT (GENERIC)
+which are still in relatively bad condition. ##GENERIC SENTENCE (STATIC)
+According to Moodys, ##BASIC STATE
+emergency vehicles has reached a horrific 441 mph, ##PERFECT COERCED STATE (GENERIC)*
+which is probably a record; ##GENERIC SENTENCE (STATIC)
+Honda saw a 118 mph toll on its vehicle. ##BOUNDED EVENT (SPECIFIC)
+Past research indicates ##GENERIC SENTENCE (STATIC)
+these cars can, ##OTHER
+instead, ##OTHER
+be "icy" through the heart. ##COERCED STATE (GENERIC)
+What could prevent a jump in accidents? ##QUESTION
+"Fuel economy is the single biggest factor. ##GENERIC SENTENCE (STATIC)
+I think ##BASIC STATE
+a typical cars fuel economy is 90 to 95, ##GENERIC SENTENCE (HABITUAL)
+depending on if you're driving a full-size SUV or a sports car," ##COERCED STATE (GENERIC)
+says Robert Silverman, ##BASIC STATE
+managing director of the International Automobile Association. ##OTHER
+Torque says ##BASIC STATE
+the most commonly used indicators for miles traveled ##GENERIC SENTENCE (DYNAMIC)
+are byzantine. ##GENERIC SENTENCE (STATIC)
+In any case, ##OTHER
+Porsche made an excellent choice. ##BOUNDED EVENT (SPECIFIC)
+The Big R is a four-door hatchback with a four-seat layout on the outside ##BASIC STATE //3
+and a five-door sedan thats the first luxury car ##BASIC STATE //3
+that has been driven to notoriety ##PERFECT COERCED STATE (SPECIFIC)
+after being tested for safety in six countries since its launch. ##BOUNDED EVENT (SPECIFIC)
+Now thats the channel ##GENERIC SENTENCE (STATIC) //4
+on which all your roads talk. ##GENERIC SENTENCE (DYNAMIC)*
+***0 4 5 0 0 0 0 0 NO NA YES 0 0 0 0 ALGORITHM

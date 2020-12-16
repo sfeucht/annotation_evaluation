@@ -1,0 +1,67 @@
+Adult Coloradans consume roughly 121 metric tons of marijuana a year, ##GENERIC SENTENCE (DYNAMIC)
+according to a new Colorado Department of Revenue study ##BASIC STATE
+that estimates demand at 31 percent more than a recent projection ##BASIC STATE //4
+and virtually double some outside estimates. ##BASIC STATE //3
+The study, ##OTHER
+released this week, ##BOUNDED EVENT (SPECIFIC)
+sought to ascertain how often and how much pot is consumed by the states adult residents and visitors. ##UNBOUNDED EVENT (SPECIFIC)
+What they found ##UNBOUNDED EVENT (SPECIFIC) //4
+was that there are 485,000 regular adult users of marijuana, ##GENERIC SENTENCE (STATIC)
+a group ##OTHER
+that accounts ##UNBOUNDED EVENT (GENERIC)
+for roughly 9 percent of the states forecast 2014 population. ##OTHER
+Toss in adult residents ##UNBOUNDED EVENT (GENERIC)
+who have used the drug in the past year and estimates of those under 21 years old ##PERFECT COERCED STATE (GENERIC)
+who have used in the past year ##PERFECT COERCED STATE (GENERIC)
+and that share rises to more than 15 percent of the population. ##GENERIC SENTENCE (DYNAMIC) //2
+The study is unique in that, ##BASIC STATE
+according to the authors, ##BASIC STATE
+its the first to look at both demand and supply. ##BASIC STATE
+Measuring supply is convenient ##GENERIC SENTENCE (STATIC)
+because sales data is recorded, ##GENERIC SENTENCE (STATIC)
+but it leaves out the significant role of black market, home-grown and imported marijuana. ##UNBOUNDED EVENT (GENERIC)
+Measuring demand gives a better sense of how much of the drug is in use. ##GENERIC SENTENCE (DYNAMIC)
+While the amount of underground and illegal production ##OTHER
+is expected to decline significantly, ##GENERIC SENTENCE (STATIC)
+some level is believed to exist to date, ##GENERIC SENTENCE (STATIC) 
+the authors write. ##UNBOUNDED EVENT (SPECIFIC) //3
+Therefore, ##OTHER
+in order to determine the total market for licensed and unlicensed marijuana, ##UNBOUNDED EVENT (GENERIC)
+a demand approach is more practical. ##GENERIC SENTENCE (STATIC)
+To measure demand, ##UNBOUNDED EVENT (SPECIFIC)
+the researchers first estimated the number of users and then the amount ##BOUNDED EVENT (SPECIFIC)
+consumed by each over a given period of time. ##GENERIC SENTENCE (DYNAMIC)
+But that just gives an estimate of how often people are using, ##UNBOUNDED EVENT (GENERIC)
+not how much. ##OTHER
+To measure demand, ##UNBOUNDED EVENT (SPECIFIC)
+they relied on surveys. ##UNBOUNDED EVENT (SPECIFIC)
+And because there are myriad ways to consume pot, ##GENERIC SENTENCE (STATIC)
+each with varying potency, ##OTHER
+they measured by dried flower weight. ##UNBOUNDED EVENT (SPECIFIC)
+Heres a tour ##BASIC STATE
+of some of the reports conclusions ##OTHER
+about marijuana use in Colorado, ##OTHER
+seven months ##OTHER
+after legal sales began there: ##BOUNDED EVENT (GENERIC)
+About 9 percent of adults are projected to use marijuana ##GENERIC SENTENCE (STATIC) 
+at least once a month ##OTHER
+The state predicts ##UNBOUNDED EVENT (GENERIC) //4
+that 485,000 adults consume the drug at least once a month, ##GENERIC SENTENCE (DYNAMIC)
+translating to about 9 percent of the forecast population for the year. ##UNBOUNDED EVENT (GENERIC) //3
+Another 201,000 reported using it in the past year, ##UNBOUNDED EVENT (GENERIC) //2
+roughly 3.8 percent of the population. ##OTHER
+And while the report focuses on adult use, ##UNBOUNDED EVENT (SPECIFIC)
+the report did mention an estimated 184,000 residents under 21 years old ##BOUNDED EVENT (SPECIFIC)
+who have used the drug within the past year. ##PERFECT COERCED STATE (GENERIC)
+Frequency of pot use is concentrated at the extremes ##GENERIC SENTENCE (STATIC)
+Adult residents either smoke pot (relatively) ##GENERIC SENTENCE (DYNAMIC)
+few times a month or ##OTHER
+nearly every day ##OTHER
+there are few in the middle. ##GENERIC SENTENCE (STATIC)
+More than half of all adult resident users consume the drug in some form fewer than six times a month. ##GENERIC SENTENCE (DYNAMIC)
+(More than 1 in 4 consume less than once a month.) ##GENERIC SENTENCE (DYNAMIC)
+At the same time, about 1 in 5 users are near or at daily consumption. ##GENERIC SENTENCE (STATIC)
+Frequent users consume the vast majority of marijuana ##GENERIC SENTENCE (DYNAMIC)
+While those roughly daily users account for just a fifth of the user population, ##UNBOUNDED EVENT (GENERIC)
+they consume fully two thirds of the product. ##GENERIC SENTENCE (DYNAMIC)
+***0 5 5 0 0 0 0 0 YES ML YES 0 0 0 0 0 HUMAN

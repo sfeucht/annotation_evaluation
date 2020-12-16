@@ -1,0 +1,147 @@
+1 116 0 0 elabx
+1 1 2 4 elab
+4 4 2 2 elabx
+3 3 2 2 elab
+
+5 6 4 4 elabx
+6 6 5 5 elab
+
+7 11 1 6 elabx
+7 7 8 8 attr
+9 9 8 8 cex
+10 11 8 9 contr
+11 11 10 10 elab
+
+12 12 0 0 elab
+13 15 12 12 elabx
+14 14 13 13 elab
+15 15 13 13 elab
+16 16 17 18 contrx //3
+16 18 13 15 elabx
+18 18 17 17 elab
+
+19 20 16 18 elabx
+19 19 20 20 elab
+21 21 19 20 elabx
+22 26 21 21 elabx
+22 22 23 26 elab
+24 24 23 23 elab
+25 25 24 24 sim
+26 26 25 25 contrx
+
+27 31 22 26 deg
+28 28 27 27 elab
+29 29 28 28 elab
+27 29 30 31 vex
+31 31 30 30 elab
+32 34 27 31 elab
+32 32 33 34 contrx
+33 33 34 34 elab
+35 36 32 34 elabx
+35 35 36 36 elabx
+
+37 40 22 26 elabx
+38 38 37 37 elab
+39 40 37 37 elabx
+40 40 39 39 elab
+
+41 49 37 40 elabx
+41 44 45 46 cond
+42 42 41 41 elab
+43 44 41 42 elabx
+44 44 43 43 elab
+
+45 45 46 46 elab
+
+47 49 45 46 elab
+48 49 47 47 elab
+49 49 48 48 elab
+
+50 56 41 49 elabx
+50 50 51 51 condx
+52 52 51 51 elabx
+53 55 52 52 elabx
+54 55 53 53 cex
+55 55 54 54 elab
+56 56 55 55 elab
+
+57 58 16 17 elabx //2
+57 57 58 58 elab
+59 60 57 58 elab
+60 60 59 59 elab
+61 62 59 60 elab
+61 61 62 62 elab
+63 67 61 62 elab
+64 67 63 63 condx
+65 65 64 64 elabx
+66 66 65 65 elabx
+67 67 66 66 elab
+68 69 63 67 elabx
+69 69 68 68 elabx
+
+70 72 68 69 elab
+71 72 70 70 elabx
+71 71 72 72 condx
+
+73 76 70 70 elab
+74 74 73 73 ce
+75 76 74 74 elab
+76 76 75 75 elab
+
+77 77 73 76 elab
+
+78 84 77 77 elab
+78 78 79 84 elab
+80 80 79 79 elab
+81 81 79 80 elab
+82 84 81 81 elabx
+83 83 82 82 elabx
+84 84 83 83 elab
+
+85 86 77 77 elab
+86 86 85 85 elab
+
+87 90 85 86 deg
+88 88 87 87 elab
+89 90 87 88 deg
+90 90 89 89 elab
+
+91 97 87 90 deg
+92 94 91 91 elab
+93 93 92 92 elab
+94 94 92 92 elab
+95 97 94 94 elab
+96 97 95 95 elabx
+97 97 96 96 elab
+
+98 99 95 99 elab
+98 98 99 99 elab
+
+100 103 98 99 deg
+100 100 101 103 elab
+101 101 102 102 elab
+103 103 101 102 elab
+
+104 105 100 103 elabx
+104 104 105 105 sim
+
+106 110 87 90 elabx
+107 109 106 106 elab
+110 110 106 106 elab
+
+111 111 110 110 contr
+111 111 112 114 elab
+113 113 112 112 elabx
+114 114 113 113 elabx
+
+115 116 111 114 deg
+116 116 115 115 elabx
+
+
+
+
+
+
+
+
+

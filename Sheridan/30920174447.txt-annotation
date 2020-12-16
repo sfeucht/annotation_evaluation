@@ -1,0 +1,61 @@
+0 0 1 2 attr
+2 2 1 1 cond
+3 6 0 2 elabx
+3 3 4 6 attr
+5 6 4 4 cond
+6 6 5 5 elab
+7 9 3 6 elab
+7 7 8 9 attrm
+8 8 9 9 sim
+10 15 7 9 elabx
+10 10 11 11 elab
+12 15 10 11 contr
+12 13 14 15 attr
+12 12 13 13 elab
+15 15 14 14 elab
+16 21 7 9 elab
+16 16 17 19 elab
+17 17 18 18 elab
+17 18 19 19 attr
+20 21 17 19 elab
+21 21 20 20 elab
+
+22 34 7 9 elab
+23 23 22 22 elab
+22 22 24 24 same
+22 24 25 34 attr
+25 25 26 26 elab
+27 31 25 26 elab
+27 27 28 31 elab
+29 29 28 28 elab
+28 29 30 31 attr
+31 31 30 30 elab
+32 34 27 21 contr
+32 32 33 34 elab
+34 34 33 33 cond
+35 35 36 37 attr
+37 37 36 36 elab
+35 37 22 34 elabx
+
+38 39 7 9 elab
+39 39 38 38 elab
+40 43 39 39 elab
+40 40 41 42 elab
+41 41 42 42 elab
+43 43 40 40 elab
+44 45 39 39 elab
+44 44 45 45 attr
+
+46 51 39 39 elabx
+47 47 46 46 elab
+46 47 48 51 elabx
+48 48 49 49 attrm
+49 49 50 51 simx
+48 48 50 51 attr
+51 51 50 50 cond
+
+52 54 38 45 genx
+52 53 54 54 elab
+53 53 52 52 elab
+
+55 55 39 39 elab

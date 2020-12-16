@@ -1,0 +1,37 @@
+Snoop Dogg flirted with using marijuana during a performance on Monday at BMI's ##BOUNDED EVENT (SPECIFIC)
+after party for the BMI artists awards at Cali nightclub. ##OTHER
+As part of the BMI awards for songwriting, ##BASIC STATE
+the hip-hop star ##OTHER
+dedicated a song, ##BOUNDED EVENT (SPECIFIC)
+"Do It For Me" ##IMPERATIVE
+by his brother Chance the Rapper, ##OTHER
+to his mother's late mother, ##OTHER
+Patsy, ##OTHER
+who died in 2009. ##BOUNDED EVENT (SPECIFIC)
+The rapper said ##BOUNDED EVENT (SPECIFIC)
+he considered marijuana "for the sake of my mom. ##BOUNDED EVENT (SPECIFIC)
+It doesn't matter ##BASIC STATE
+what her needs are." ##BASIC STATE
+The BMI awards are the largest representation of New York music designers, songwriters and record companies. ##BASIC STATE
+Rapper Pitbull accepted the artists' award for songwriter of the year with his manager, ##BOUNDED EVENT (SPECIFIC)
+Ricky Ricketts. ##OTHER
+Pitbull walked away with six awards. ##BOUNDED EVENT (SPECIFIC)
+STORY: ##OTHER
+Bruno Mars' Pop-Up N.O.A. Receives Special Merit ##UNBOUNDED EVENT (SPECIFIC)
+at BMI Kevin James performed ##BOUNDED EVENT (SPECIFIC)
+"Run-DMC" and Calvin Harris thanked his former company, ##BOUNDED EVENT (SPECIFIC)
+Xscape, ##OTHER
+for handing out the awards. ##UNBOUNDED EVENT (SPECIFIC)
+Nicki Minaj thanked her manager, ##BOUNDED EVENT (SPECIFIC)
+Alberto Elizondo, ##OTHER
+for supporting her career. ##UNBOUNDED EVENT (SPECIFIC)
+Kanye West ended the ceremony with the title ##BOUNDED EVENT (SPECIFIC)
+"Only," ##OTHER
+then Jay-Z joined former bandmate Jay Z in his hip-hop verse for a "Best Boy" performance. ##BOUNDED EVENT (SPECIFIC)
+Kelly Rowland and her husband, ##OTHER (same as BOUNDED EVENT (SPECIFIC))
+Nicki Minaj, ##OTHER
+accepted awards for the first time. ##BOUNDED EVENT (SPECIFIC)
+Their family, ##OTHER (same as BOUNDED EVENT (SPECIFIC))
+represented by Rockstar, ##UNBOUNDED EVENT (SPECIFIC)
+was presented with the BMI Icon Award for songwriter of the year. ##BOUNDED EVENT (SPECIFIC)
+***0 5 3 4 1 2 1 3 NO NA YES 0 0 0 0 ALGORITHM

@@ -1,0 +1,106 @@
+Scientists ##OTHER
+who conducted a rare study of marijuana in California say ##BOUNDED EVENT (SPECIFIC)
+it will affect ##COERCED STATE (GENERIC)
+how people think about marijuana and drive. ##GENERIC SENTENCE (DYNAMIC)
+Scientists from the University of California, Santa Cruz said Tuesday ##BOUNDED EVENT (SPECIFIC)
+that marijuana is good for you, ##GENERIC SENTENCE (STATIC)
+that its psychoactive compounds might have been proven by their use among people ##COERCED STATE (GENERIC)
+who have been diagnosed with certain type of epilepsy ##PERFECT COERCED STATE (GENERIC)
+and also studies ##OTHER*
+whether drivers can lower their risk of a heart attack or stroke. ##COERCED STATE (GENERIC)
+Under California law, ##OTHER
+marijuana can be used ##COERCED STATE (GENERIC)
+to protect against risks such as that of developing a heart attack or stroke ##UNBOUNDED EVENT (GENERIC)
+or to prevent unwanted overdoses. ##UNBOUNDED EVENT (GENERIC)
+If marijuana-induced liver and kidney damage results in death, ##COERCED STATE (GENERIC)
+the person can be prosecuted. ##COERCED STATE (GENERIC)
+This is a potential driver ##GENERIC SENTENCE (STATIC)
+its scary, ##GENERIC SENTENCE (STATIC)
+UC Santa Cruz professor Kenneth Pereira said in a statement. ##BOUNDED EVENT (SPECIFIC)
+The opposite of where this ban should be should be it be allowed. ##COERCED STATE (GENERIC)*
+Like it or not, ##GENERIC SENTENCE (STATIC)
+people in this country should be concerned about regulating the purchase and use of marijuana. ##GENERIC SENTENCE (STATIC)
+The researchers tested a single molecule in marijuana ##BOUNDED EVENT (SPECIFIC)
+and found ##BOUNDED EVENT (SPECIFIC)
+that specific molecules ##OTHER
+called f-14, ##GENERIC SENTENCE (STATIC)
+a precursor ingredient in marijuana, ##OTHER
+had helped prove the safety of marijuana ##PERFECT COERCED STATE (GENERIC)
+using cannabinoids and its sugar. ##UNBOUNDED EVENT (GENERIC)
+Pereira said ##BOUNDED EVENT (SPECIFIC)
+that other researchers found ##BOUNDED EVENT (SPECIFIC)
+that THC, ##OTHER
+or the active ingredient in marijuana, ##OTHER
+may have a calming effect on people. ##GENERIC SENTENCE (HABITUAL)
+The most positive drug side effects are when their patients are happy ##GENERIC SENTENCE (HABITUAL)
+and dont need additional medications, ##GENERIC SENTENCE (HABITUAL)
+he said. ##BOUNDED EVENT (SPECIFIC)
+Pereira said ##BOUNDED EVENT (SPECIFIC)
+he had been surprised by some research ##PERFECT COERCED STATE (SPECIFIC)
+that seeks to ban marijuana. ##UNBOUNDED EVENT (GENERIC)
+In one study, ##OTHER
+researchers said ##BOUNDED EVENT (GENERIC)
+people ##OTHER
+whose parents provide marijuana were much more likely to smoke it ##GENERIC SENTENCE (DYNAMIC)
+and cause disruptions in sleep, ##GENERIC SENTENCE (DYNAMIC)
+causing the sniffles and increased anxiety. ##UNBOUNDED EVENT (GENERIC)
+Another study of 32 people randomly selected found ##BOUNDED EVENT (SPECIFIC)
+the effects of marijuana was more than three times more likely to change the quality of an individuals sleep ##COERCED STATE (GENERIC)
+than did the prevalence of normal hallucinations or seizures. ##OTHER
+This is really one of those things ##GENERIC SENTENCE (STATIC)
+that if this is in the mainstream, ##GENERIC SENTENCE (STATIC)
+it will never be banned. ##COERCED STATE (GENERIC)
+Just because its so restrictive doesnt mean ##GENERIC SENTENCE (STATIC)
+we wont have some to talk about, ##COERCED STATE (GENERIC)*
+Pereira said. ##BOUNDED EVENT (SPECIFIC)
+This is just another example of that, ##GENERIC SENTENCE (STATIC)
+you know. ##GENERIC SENTENCE (STATIC)
+You could argue ##COERCED STATE (GENERIC)
+that if you look at the evidence, ##COERCED STATE (GENERIC)
+its just low quality cannabis, ##GENERIC SENTENCE (HABITUAL)
+but this really disturbs me ##UNBOUNDED EVENT (GENERIC)
+because it reminds me of some other issues. ##UNBOUNDED EVENT (GENERIC)
+Jeff Brown of the Australian National University said ##BOUNDED EVENT (SPECIFIC)
+he is not convinced ##BASIC STATE
+the use of marijuana has made any difference for behavior, ##PERFECT COERCED STATE (GENERIC)
+nor are its negative effects due to it being made into a poor product. ##UNBOUNDED EVENT (GENERIC) //4
+The impact is purely on the pockets, ##GENERIC SENTENCE (STATIC)
+its not making the marketplace available, ##COERCED STATE (GENERIC)
+he said. ##BOUNDED EVENT (SPECIFIC)
+In many cases, ##OTHER
+theres a diversion. ##GENERIC SENTENCE (HABITUAL)
+There are a million types of people ##GENERIC SENTENCE (STATIC)
+who want to smoke marijuana. ##GENERIC SENTENCE (STATIC)
+Is it safe? ##QUESTION
+Totally safe? ##QUESTION
+Absolutely not. ##GENERIC SENTENCE (STATIC)
+So the question is: ##BASIC STATE
+If its good for you, ##GENERIC SENTENCE (STATIC)
+shouldnt ##OTHER
+it be OK? ##QUESTION
+If its not, ##GENERIC SENTENCE (STATIC)
+arent we doing this in the wrong kind of an area? ##QUESTION
+The Senate voted to ban marijuana ##BOUNDED EVENT (SPECIFIC)
+and take steps ##UNBOUNDED EVENT (SPECIFIC)
+to increase penalties, ##UNBOUNDED EVENT (SPECIFIC)
+but that didnt happen. ##COERCED STATE (SPECIFIC)
+Facebook representative Patrick Emmons said ##BOUNDED EVENT (SPECIFIC)
+he doesnt think ##BASIC STATE
+banning the drug is necessary. ##GENERIC SENTENCE (STATIC)
+"If you look at whether or not [ marijuana ] meets the federal legal requirements, ##COERCED STATE (GENERIC)
+thats ##GENERIC SENTENCE (STATIC)
+where the potential ##OTHER
+for misuse and harm outweighs the benefits," ##GENERIC SENTENCE (STATIC)
+Emmons said in a statement. ##BOUNDED EVENT (SPECIFIC)
+"Its about time ##BASIC STATE
+that there were more protections in place ##GENERIC SENTENCE (STATIC)
+to protect public health. ##UNBOUNDED EVENT (GENERIC)
+A statement on California law's impact from Berkeley University's Rebecca FitzGerald said ##BOUNDED EVENT (SPECIFIC)
+the scientists have chosen to study marijuana in California ##PERFECT COERCED STATE (GENERIC)
+not because it has been used, ##PERFECT COERCED STATE (GENERIC)
+but because changes within its structure and quality are likely to be felt and tweaked in the context of government regulation. ##COERCED STATE (GENERIC)
+More On This ... ##OTHER
+CA crack-makers drug, ##OTHER (same as OTHER)
+Xanax, ##OTHER
+the most powerful cannabinoid in the body ##OTHER
+***0 3 5 0 0 0 0 0 YES ML YES UNCLEAR 2 1 1 ALGORITHM

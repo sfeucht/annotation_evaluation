@@ -1,0 +1,143 @@
+Americans who worship at the altar of marijuana had better not ##OTHER
+look to the First Amendment's guarantee of religious freedom ##COERCED STATE (GENERIC)
+to keep them out of jail, ##GENERIC SENTENCE (DYNAMIC)
+suggests one recent case. ##BASIC STATE
+That message was sent by the Florida Supreme Court to the Ethiopian Zion Coptic Church, ##BOUNDED EVENT (SPECIFIC)
+a Miami sect ##OTHER
+that uses marijuana as an integral part of its worship service. ##GENERALIZING SENTENCE (DYNAMIC)
+The U.S. Supreme Court has shown no inclination to send a different message ##COERCED STATE (SPECIFIC)
+since it refused even to consider the issue. ##BOUNDED EVENT (SPECIFIC)
+Florida and U.S. officials have mounted a pincer attack against the Coptics. ##PERFECT COERCED STATE (GENERIC)
+State authorities obtained an injunction against a church member ##BOUNDED EVENT (SPECIFIC) //4
+barring her ##UNBOUNDED EVENT (SPECIFIC)
+from using her home as a church, ##GENERALIZING SENTENCE (DYNAMIC) //3
+in violation of zoning regulations. ##OTHER
+It also prhibits the use of marijuana there. ##BASIC STATE
+vThe Florida Supreme Court upheld the injunction. ##BOUNDED EVENT (SPECIFIC) //3
+The other half of the attack is being played out in a federal district court in Miami, ##UNBOUNDED EVENT (SPECIFIC)
+where other church members are being prosecuted on charges of violating federal drug prohibitions. ##UNBOUNDED EVENT (SPECIFIC)
+The trials were scheduled to get under way this month, ##BASIC STATE
+although legal maneuvering has caused postponement until at least February. ##PERFECT COERCED STATE (GENERIC)
+The Ethiopian Zion Coptic Church is not the first religious group in U.S. history to encounter difficulties ##BASIC STATE
+in its attempts to find religious freedom. ##UNBOUNDED EVENT (GENERIC)
+Many of the early colonies, ##OTHER
+though populated by settlers ##GENERIC SENTENCE (DYNAMIC)
+fleeing religious persecution in Europe, ##UNBOUNDED EVENT (GENERIC)
+were not safe havens for groups ##GENERIC SENTENCE (STATIC)
+who came with rites and rituals different than those ##GENERIC SENTENCE (STATIC)
+already established. ##BOUNDED EVENT (GENERIC)
+In an attempt to end intolerance in the New World, ##UNBOUNDED EVENT (GENERIC) //2
+the guarantee of freedom of religion received star billing in the First Amendment of the Bill of Rights ##UNBOUNDED EVENT (SPECIFIC)
+-- prohibiting Congress and later individual states as well, ##UNBOUNDED EVENT (SPECIFIC)
+from interfering with the free exercise of religion. ##COERCED STATE (GENERIC) //3
+Nurtured by the protection of the First Amendment, ##UNBOUNDED EVENT (SPECIFIC)
+various cults and religions sprang up. ##UNBOUNDED EVENT (GENERIC)
+Snake handlers, poison drinkers and mystics of all kinds flourished in some of the atypical sects. ##UNBOUNDED EVENT (GENERIC)
+The mix of drugs and religion is familiar to the region, ##GENERIC SENTENCE (STATIC)
+dating back to ancient Indian rites. ##GENERIC SENTENCE (STATIC)
+The flower children of the '60s incorporated marijuana and hallucinogens into their forms of worship. ##BOUNDED EVENT (GENERIC)
+The Ethiopian Zion Coptic Church comes closer to the Indian experience than to the religions ##GENERALIZING SENTENCE (DYNAMIC)
+that sprang up a decade or so ago. ##BOUNDED EVENT (GENERIC)
+While the Constitution clearly allows legal authorities to prosecute persons ##UNBOUNDED EVENT (SPECIFIC)
+who claim religious beliefs solely as a cover ##UNBOUNDED EVENT (GENERIC)
+to engage in illegal activities, ##GENERIC SENTENCE (HABITUAL)
+the constitutionality is not so apparent ##GENERIC SENTENCE (STATIC)
+where the illegal activity is an integral part of the worship service of a group ##GENERIC SENTENCE (STATIC)
+that meets existing legal standards as a religion. ##GENERIC SENTENCE (STATIC)
+And while marijuana is an important part of the rite of the Coptic Church, ##GENERIC SENTENCE (STATIC)
+its doctrine extends to other matters. ##BASIC STATE
+Even the Florida Supreme Court found the Ethiopian Zion Coptic Church to be authentic religion as with regard to the First Amendment to the Constitution. ##BOUNDED EVENT (SPECIFIC)
+The Miami-based Coptic group claims links with the 6,000 year-old Coptic Church, ##UNBOUNDED EVENT (SPECIFIC)
+but its more recent origins can be traced to the Rastafarians of Marcus Garvey's movement ##COERCED STATE (SPECIFIC)
+urging American blacks to look to Africa as a holy land. ##UNBOUNDED EVENT (SPECIFIC)
+Rastafarianism called itself after Ethiopian Emperor Haile Selassie's name as a commoner. ##BOUNDED EVENT (GENERIC)* //3
+Selassie's crowning ##OTHER
+as emperor was seen as the fulfillment of Garvey's prophecy to ##GENERALIZING SENTENCE (STATIVE)
+"Look to Africa ##IMPERATIVE 
+when a black king shall be crowned, ##COERCED STATE (GENERIC)
+for the day of deliverance is near." ##BASIC STATE
+Restafarians established settlements in Jamaica ##BOUNDED EVENT (GENERIC)
+where believers lived together ##UNBOUNDED EVENT (GENERIC)
+and convened to worship together. ##GENERIC SENTENCE (HABITUAL)
+One of these missions became known as the Ethiopian Zion Coptic Church, ##BOUNDED EVENT (SPECIFIC)
+whose doctrine feature is a process ##BASIC STATE
+called "reasoning," ##GENERALIZING SENTENCE (DYNAMIC) //4
+which involves a philosophical and theological dialogue ##GENERALIZING SENTENCE (DYNAMIC)
+accompanied by the smoking of marijuana. ##UNBOUNDED EVENT (GENERIC)
+Marijuana is the sacrament of the church, ##GENERIC SENTENCE (STATIC)
+replacing wine as the symbolic spirit of Christ. ##UNBOUNDED EVENT (GENERIC)
+Deemed the spiritual power ##GENERIC SENTENCE (HABITUAL)
+which unites men in one spirit, ##UNBOUNDED EVENT (GENERIC)
+marijuana is smoked by church members three times a day, ##GENERIC SENTENCE (HABITUAL)
+during morning, afternoon and evening worship services. ##OTHER
+Ethiopian Zion Coptic Church members contend ##GENERIC SENTENCE (STATIC)
+that through marijuana or "ganja," ##OTHER
+its Jamaican name, ##OTHER
+man is able to look at God by looking within himself, ##COERCED STATE (GENERIC)
+the embodiment of God on earth. ##OTHER
+Attorney Milton M. Ferrell, Jr., ##OTHER
+who represents the Coptics in their legal battles, ##BASIC STATE
+contended in a telephone interview ##BOUNDED EVENT (SPECIFIC)
+that church members adhere to such strict doctrines and dietary laws ##UNBOUNDED EVENT (GENERIC)
+that others are hardly likely to adopt the Coptic's way ##COERCED STATE (GENERIC)
+of life ##OTHER
+just to smoke marijuana. ##GENERIC SENTENCE (DYNAMIC)
+Having qualified as a legitimate church, ##PERFECT COERCED STATE (SPECIFIC)
+the Coptics cleared their first legal hurdle ##BOUNDED EVENT (SPECIFIC)
+but there remained one indisputable point: ##BASIC STATE
+Governmental interference ##OTHER
+with religious practice is permissable ##GENERIC SENTENCE (STATIC)
+if the state can "demonstrate a compelling interest" ##COERCED STATE (GENERIC)
+superceding the constitutional protection. ##UNBOUNDED EVENT (GENERIC)
+To establish such a compelling interest, ##UNBOUNDED EVENT (GENERIC)
+a state cannot offer just any reasonable justification. ##COERCED STATE (GENERIC)
+It must be one ##GENERIC SENTENCE (STATIC)
+that is sufficient to overcome the strong policy in favor of not interfering with religious practices. ##GENERIC SENTENCE (STATIC)
+For instance, ##OTHER
+constitutional protection of the freedom of religion clause takes a back seat ##GENERIC SENTENCE (DYNAMIC)
+when life is at stake ##GENERIC SENTENCE (STATIC)
+or when a substantial health emergency threatens a community. ##UNBOUNDED EVENT (GENERIC)
+Ordering medical care for an endangered child ##OTHER
+despite religious objections by the parents ##OTHER
+is an example of this kind of compelling interest. ##GENERIC SENTENCE (STATIC)
+Other infringements ##OTHER
+that have passed constitutional muster are the compulsion ##PERFECT COERCED STATE (GENERIC)
+that an individual be vaccinated despite objections ##UNBOUNDED EVENT (GENERIC)
+based on religious handling of poisonous snakes. ##GENERIC SENTENCE (STATIC)
+The Florida Supreme Court found the legislature's determination ##BOUNDED EVENT (SPECIFIC)
+that cannabis is a dangerous drug sufficiently compelling to negate the church members' constitutional rights. ##GENERIC SENTENCE (STATIC)
+This is not the type of strict scrutiny to which government attempts to regulate ##BASIC STATE
+First Amendment rights are usually subjected, ##GENERIC SENTENCE (DYNAMIC)
+especially in light of the many medical experts ##OTHER
+that the church had rounded up ##PERFECT COERCED STATE (SPECIFIC)
+to contest the finding of "dangerousness." ##UNBOUNDED EVENT (SPECIFIC)
+The ill effects of marijuana remain a debatable issue. ##GENERIC SENTENCE (STATIC)
+While states may freely ban its common use, ##COERCED STATE (GENERIC)
+interference with it in a religious context should require more convincing proof. ##COERCED STATE (GENERIC)
+Florida courts undoubtedly were influenced against the church by the claim ##UNBOUNDED EVENT (SPECIFIC)
+that the Coptics freely distributed marijuana to "children and adults, members and nonmembers." ##GENERALIZING SENTENCE (DYNAMIC)
+The Florida Supreme Court was thus able to distinguish the Coptics' claim from an earlier case ##COERCED STATE (SPECIFIC)
+where the California Supreme Court prohibited the state from interfering with the use of peyote by adult Navajo Indians ##BOUNDED EVENT (SPECIFIC)
+as part of their religion. ##OTHER
+Attoney Farrell charged ##BOUNDED EVENT (SPECIFIC)
+that the finding of casual distribution was based upon only one instance ##BASIC STATE
+when a nonmember juvenile smoked marijuana at a church service, ##BOUNDED EVENT (SPECIFIC)
+a youth ##OTHER
+who had gained entry ##PERFECT COERCED STATE (SPECIFIC)
+by lying to guards ##UNBOUNDED EVENT (SPECIFIC)
+posted by the Coptics, ##BOUNDED EVENT (SPECIFIC)
+he said. ##BOUNDED EVENT (SPECIFIC)
+While most of us are unlikely to take the cause of the Coptics seriously, ##COERCED STATE (GENERIC)
+the guarantee of religious freedom is not reserved for those religions to which the majority of us subscribe. ##GENERIC SENTENCE (STATIC)
+In fact, ##OTHER
+the real worth of any constitutional protection may be determined ##COERCED STATE (GENERIC)
+by how well it guarantees the rights of people on the fringe. ##GENERIC SENTENCE (HABITUAL) //4
+When the criminal trials begin in Miami, ##BOUNDED EVENT (SPECIFIC)
+at stake will be the freedom of church members as well ##BASIC STATE
+as the religious liberty of the Coptics. ##BASIC STATE 
+tPerhaps ##OTHER
+the possibility ##OTHER
+of prison sentences ##OTHER
+being meted out ##GENERIC SENTENCE (DYNAMIC)
+will result in the application of the more serious First Amendment test to the Coptics' claim. ##COERCED STATE (GENERIC)
+***0 5 5 0 0 0 0 0 YES ML YES 0 1 4 5 HUMAN

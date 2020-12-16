@@ -1,0 +1,36 @@
+2 2 0 1 elab
+1 1 0 0 contr
+3 6 1 2 examp
+5 6 7 7 ce
+8 8 7 7 elab
+10 10 9 9 elab
+12 12 11 11 contr
+13 13 12 12 elab
+16 18 14 15 contr
+17 18 16 16 elab
+19 22 14 18 contr
+23 24 14 22 elab
+25 26 23 24 elab
+26 26 25 25 sim
+28 28 27 27 elab
+28 28 29 29 ce
+30 31 29 29 elab
+32 32 31 31 examp
+33 37 32 32 elab
+40 41 38 39 ce
+42 45 38 41 elab
+43 43 44 45 cond
+46 48 42 44 elab
+49 54 46 48 elab
+53 53 54 54 ve
+55 56 49 54 elab
+57 58 55 56 examp
+59 60 57 58 sim
+61 67 57 60 elab
+64 67 59 62 examp
+65 67 64 64 elab
+68 69 61 67 elab
+71 74 70 70 elab
+75 78 74 74 elab
+
+

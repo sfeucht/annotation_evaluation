@@ -1,0 +1,37 @@
+Efforts to legalize marijuana for recreational use ##OTHER
+are gaining momentum in Washington state and Colorado. ##UNBOUNDED EVENT (GENERIC)
+We dont expect the teetotaling former Massachusetts governor, ##BASIC STATE
+who has said ##PERFECT COERCED STATE (SPECIFIC)
+he supports the federal ban, ##BASIC STATE
+to take the leafy bait ##UNBOUNDED EVENT (SPECIFIC)
+but there are a few reasons ##GENERIC SENTENCE (STATIC)
+it might not be such a wacky idea, ##GENERIC SENTENCE (STATIC)
+once the GOP field has shaken out ##PERFECT COERCED STATE (GENERIC)
+and hes the last man standing. ##BASIC STATE
+First, ##OTHER
+Pauls supporters could be quite valuable to the eventual GOP nominee. ##GENERIC SENTENCE (STATIC)
+While theyve been dismissed as the partys fringe element, ##PERFECT COERCED STATE (GENERIC)
+theyre young and enthusiastic two characteristics ##GENERIC SENTENCE (STATIC)
+the GOP badly needs in a general election. ##BASIC STATE
+(After all, ##OTHER
+Romneys managed to tick off Hispanics, ##UNBOUNDED EVENT (SPECIFIC) //4
+so hes in need of any constituency ##BASIC STATE
+he can get his hands on.) ##COERCED STATE (SPECIFIC)
+And then theres Colorado. ##BASIC STATE
+With medical marijuana shops on nearly every corner and a libertarian-leaning electorate not to mention its status as a swing state ##OTHER
+the Centennial State could tempt Romney to take a seemingly radical turn on drugs. ##COERCED STATE (SPECIFIC)
+Pot legalizers note ##GENERIC SENTENCE (STATIC)
+that he could couch his support in terms of a 10th amendment argument ##COERCED STATE (SPECIFIC)
+essentially saying ##UNBOUNDED EVENT (SPECIFIC)
+it should simply be up to states to decide for themselves. ##GENERIC SENTENCE (STATIC)
+That would allow him to maintain his own opposition to legalization ##COERCED STATE (GENERIC)
+while also giving a shout-out to social conservatives, ##UNBOUNDED EVENT (SPECIFIC)
+who love a good nod to states rights. ##GENERIC SENTENCE (STATIC)
+Theres evidence ##GENERIC SENTENCE (STATIC)
+that the idea ##OTHER
+of pot-legalization is going mainstream even among Republicans. ##UNBOUNDED EVENT (GENERIC)
+After all, ##OTHER
+Pat Robertson endorsed the idea, ##BOUNDED EVENT (SPECIFIC)
+and approval among voters in recent polls is surprisingly ... well, ##GENERIC SENTENCE (STATIC)
+high. ##OTHER
+***0 4 3 0 0 0 0 0 YES ML YES 0 3 5 5 HUMAN

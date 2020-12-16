@@ -1,0 +1,49 @@
+Some porn is ok , ##GENERIC SENTENCE (STATIC) 
+ but there ’ s some abuse porn , stretching , fisting , spitting , peeing , pooping , etc . ##BASIC STATE 
+Remember the 2 girls 1 cup . ##COERCED STATE (SPECIFIC) 
+Would you want a 16 yr old masturbating to that thinking ##UNBOUNDED EVENT (SPECIFIC)//3 
+ it ’ s normal ? ##GENERIC SENTENCE (STATIC) 
+This is where my last line in the actual bit of the argument ##BASIC STATE 
+ comes in about parents making sure ##COERCED STATE (GENERIC) 
+ their child is safe and informed .##BASIC STATE 
+I agree ##BASIC STATE 
+ there are genres of porn ##GENERIC SENTENCE (STATIC) 
+ that you can stumble upon that promote unsafe ideas ##COERCED STATE (GENERIC) 
+ i.e. abuse , rape , etc. ##OTHER 
+ but generally you need to include those sorts of things as search terms ##GENERIC SENTENCE (STATIC) 
+ in order to actually find them . ##UNBOUNDED EVENT (GENERIC) 
+Children should be taught ##GENERIC SENTENCE (STATIC)
+ this sort of thing is wrong ##GENERIC SENTENCE (STATIC) 
+ and that consent and a condom are the golden two for any encounter ##GENERIC SENTENCE (STATIC) 
+ they may have in the future . ##GENERIC SENTENCE (STATIC) 
+I also believe ##BASIC STATE 
+ children are smart enough ##GENERIC SENTENCE (STATIC) 
+ to realise things ##COERCED STATE (GENERIC) 
+ like 2 girls 1 cup are n't exactly the norm . ##BASIC STATE 
+There are always going to be ways ##GENERIC SENTENCE (STATIC) 
+ for pre adults to view pornography , ##GENERIC SENTENCE (DYNAMIC) 
+ whether there is a law ##BASIC STATE 
+ in place ##OTHER
+ or not. ##OTHER 
+Which is why instead of stigmatising it  ##UNBOUNDED EVENT (GENERIC)
+ and discouraging conversation , ##UNBOUNDED EVENT (GENERIC) 
+ we should promote safe and secure ways ##UNBOUNDED EVENT (GENERIC) 
+ people can use pornography . ##BASIC STATE 
+In the UK , ##OTHER 
+marijuana is an illegal drug ##BASIC STATE 
+ to distribute despite it being relatively safe ##BASIC STATE 
+ compared to many other drugs ##OTHER 
+ ( including alcohol and tobacco ) .##OTHER 
+However , ##OTHER 
+ classifying it as similar to cocaine or meth ##COERCED STATE (SPECIFIC) 
+ has restricted the conversation on it ##COERCED STATE (GENERIC) 
+ and causes people to become misinformed about the effects of the drug ##GENERIC SENTENCE (STATIC) 
+ and stigmatises those ##COERCED STATE 
+ who use / sell it .##OTHER
+Despite the law , ##OTHER 
+ people will still consume marijauna . ##GENERIC SENTENCE (STATIC)
+However , ##OTHER 
+the law has caused misinformation ##BASIC STATE 
+ regarding it 's consumption ##OTHER 
+ which has lead to worse circumstances than the act itself . ##COERCED STATE (GENERIC) 
+*** 0 4 0 0 0 0 0 0 YES UC YES 0 3 4 4 4 HUMAN

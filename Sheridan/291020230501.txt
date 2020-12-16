@@ -1,0 +1,97 @@
+Voters are tired of Sessions, ##GENERIC SENTENCE (STATIC)
+the conservative former Attorney General ##OTHER
+who sided with President Donald Trump in his Supreme Court crusade against the Catholic Church. ##BOUNDED EVENT (SPECIFIC) //4
+They want the senator to step aside ##GENERIC SENTENCE (STATIC)
+and pave the way ##UNBOUNDED EVENT (SPECIFIC)
+for his judicial nomination and other conflicts of interest. ##OTHER
+Thats the right strategy, ##BASIC STATE
+but maybe Sessions gets it. ##BASIC STATE
+Sessions and his allies seized upon Trumps acceptance of his nomination earlier this month ##BOUNDED EVENT (SPECIFIC)
+to use his new position as FBI Director ##UNBOUNDED EVENT (SPECIFIC)
+to gain an arsenal of legal and legal powers against the Department of Justice, ##BOUNDED EVENT (SPECIFIC)*
+which Trump said ##BOUNDED EVENT (SPECIFIC)
+is trying to kill his health care law. ##UNBOUNDED EVENT (SPECIFIC)
+That came ##BOUNDED EVENT (SPECIFIC)
+as the Trump administration scolded a New York judge for holding a hearing ##BOUNDED EVENT (SPECIFIC)
+to address President Barack Obamas new order ##UNBOUNDED EVENT (SPECIFIC)
+mandating sanctuary cities around the country to keep criminals from reporting to immigration enforcement. ##UNBOUNDED EVENT (SPECIFIC)
+They accused Sessions of deliberately staying out of a criminal case ##BOUNDED EVENT (SPECIFIC)
+in which the Court ultimately sided with two lying scolds, ##BOUNDED EVENT (SPECIFIC)
+Eric Holder and Robert Mueller. ##OTHER
+The lawyers delivered the statements in the closing argument in a 10-day hearing, ##BOUNDED EVENT (SPECIFIC)
+in which the Justice Department defended Sessions as deferential to the Bureau of Justice Statistics on immigration, ##BOUNDED EVENT (SPECIFIC)
+arguing that it has no authority to function in the manner ##UNBOUNDED EVENT (SPECIFIC)
+Sessions intended. ##BASIC STATE
+After Sessionss attorney general issued an email, ##BOUNDED EVENT (SPECIFIC)
+arguing that the DJS is not working, ##UNBOUNDED EVENT (SPECIFIC)
+Justice Department acting Chief Counsel David Boies defended the agency in a Thursday tweet of his own: ##BOUNDED EVENT (SPECIFIC)
+The DJS has eight cases at the Administrative Office of the U.S. Courts and no recusal from cases. ##BASIC STATE
+The Justice Department takes no position on any of the Courts decisions. ##COERCED STATE (SPECIFIC)
+That didnt stop Twitter users from wondering ##COERCED STATE (SPECIFIC)
+where Sessions stood on the central issue thats ##BASIC STATE
+bedeviling the political realm now. ##UNBOUNDED EVENT (GENERIC)
+As the conservative people at the Justice Department have tweeted, ##PERFECT COERCED STATE (SPECIFIC)
+Sessionss motives arent to save Obamacare, ##BASIC STATE
+much less to get rid of it ##UNBOUNDED EVENT (SPECIFIC) //3
+or get rid of the SCOTUS itself. ##UNBOUNDED EVENT (SPECIFIC) //3
+His post-op counterparts have been using that foreign policy argument ##PERFECT COERCED STATE (SPECIFIC)
+to tamp down on the Obamacare litigation the focus of any Trump nominee with a history ##UNBOUNDED EVENT (SPECIFIC)
+of being an inveterate con man. ##GENERIC SENTENCE (STATIC)
+If Sessions were serious about getting rid of Obamacare and other Republican health care bills, ##BASIC STATE
+he would announce early this fall ##COERCED STATE (SPECIFIC)
+that the White House is out to kill the replacement. ##BASIC STATE //4
+Mocking that ##UNBOUNDED EVENT (SPECIFIC)
+by appearing out of touch with his viewers on Twitter, ##BASIC STATE
+Sessions told a group of Texas local news reporters and reporters ##BOUNDED EVENT (SPECIFIC)
+that the House health bill fails to cut costs ##COERCED STATE (SPECIFIC)
+and even that a majority of its provisions do not roll back employer mandates and other reforms. ##COERCED STATE (SPECIFIC)
+Sessionss decision to avoid being asked to explain ##GENERALIZING SENTENCE (DYNAMIC) //4
+how Congress can repeal ##COERCED STATE (GENERIC) //4
+Obamacare will help to keep federal prosecutors from trying protesters in a federal courthouse, ##COERCED STATE (SPECIFIC)
+and to put pressure on the Justice Department to oppose the health law ##UNBOUNDED EVENT (SPECIFIC)
+before Sessions nominates his nominee for attorney general, ##BOUNDED EVENT (SPECIFIC)
+which Trumps pick, ##OTHER
+Robert Mueller, ##OTHER
+would be. ##BASIC STATE
+Its not likely to happen: ##BASIC STATE 
+Sessionss attorney general would take some heat for his actions, ##COERCED STATE (SPECIFIC)
+including lashing out at the Democratic leaderships obstruction of justice ##UNBOUNDED EVENT (SPECIFIC)
+by saying ##UNBOUNDED EVENT (SPECIFIC)
+that the Justice Departments chief counsel had revoked federal warrant warrants, ##PERFECT COERCED STATE (SPECIFIC)
+a move ##OTHER
+that would seem like the most direct entry into how Trump thinks ##GENERIC SENTENCE (STATIC) //4
+the U.S. government will execute federal warrants ##COERCED STATE (GENERIC)
+issued in his and other White House agencies. ##BOUNDED EVENT (SPECIFIC)
+If his bench scowls come to be predictable, ##COERCED STATE (SPECIFIC)
+conservative folks will probably be pissed as hell. ##GENERIC SENTENCE (STATIC)
+In one sense, ##OTHER
+people have spent decades ##PERFECT COERCED STATE (GENERIC)
+banging and kicking Sessions over Justice Department shenanigans. ##GENERIC SENTENCE (DYNAMIC)
+The Randian logic says its now lawful to provide information to the FBI under law, ##GENERIC SENTENCE (STATIC)
+and the FBI chief gets to refuse access to such information, ##BASIC STATE
+too. ##OTHER
+Its worth noting ##BASIC STATE
+that Sessions and Justice Department lawyers indicated ##BOUNDED EVENT (SPECIFIC)
+they would begin their defense of Sessions ##COERCED STATE (GENERIC)
+by threatening to take him to the Supreme Court ##UNBOUNDED EVENT (GENERIC)
+if Trump doesnt give the nominee a seat on the high court. ##COERCED STATE (SPECIFIC)
+But then the publication of that letter suggests ##UNBOUNDED EVENT (SPECIFIC)
+that Sessions is overly concerned about losing a job. ##BASIC STATE
+He is, ##BASIC STATE
+after all, ##OTHER
+a conservative icon with empathy for the poor and uninsured a skill ##OTHER
+that Sessions has relished along the way. ##PERFECT COERCED STATE (SPECIFIC)
+Sessions has said ##PERFECT COERCED STATE (SPECIFIC)
+he believes in the liberty of individual rights, ##BASIC STATE
+but he has also said ##PERFECT COERCED STATE (SPECIFIC)
+that any restrictions on how religious facilities are licensed in the United States ##GENERIC SENTENCE (DYNAMIC)
+are unconstitutional. ##GENERIC SENTENCE (STATIC)
+Hes a conservative hardliner ##BASIC STATE
+and occasionally exceeds that hard line. ##GENERALIZING SENTENCE (DYNAMIC) 
+Its just interesting how they keep bending over backwards ##GENERIC SENTENCE (STATIC)
+to try to pile pressure on him. ##UNBOUNDED EVENT (GENERIC)
+People have been saying ##PERFECT COERCED STATE (GENERIC)
+Sessions is trying to get rid of Obamacare for years ##UNBOUNDED EVENT (SPECIFIC)
+although he hasnt even tried it himself. ##COERCED STATE (SPECIFIC)
+Maybe people just dont buy Sessions 'logic.' ##COERCED STATE (GENERIC)
+***0 4 3 0 0 0 0 0 IM YES 0 0 0 0 ALGORITHM 

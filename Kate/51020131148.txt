@@ -1,0 +1,42 @@
+Of course not , ##OTHER 
+scrub . ##OTHER 
+The Cartels would do as the Mafia did : ##GENERIC SENTENCE (STATIC) 
+ use their money , power and influence  ##GENERIC SENTENCE (STATIC) 
+ to reestablish themselves as legitimate business operations . ##GENERIC SENTENCE (DYNAMIC) 
+And no , ##OTHER
+scrub . ##OTHER 
+No. ##OTHER 
+ They can not " compete " with legal drugs by simply introducing new legal drugs . ##GENERIC SENTENCE (STATIC) 
+That is not how chemistry works . ##GENERIC SENTENCE (STATIC) 
+There is no " new and improved " version of heroin , ##GENERIC SENTENCE (STATIC) 
+for example .##OTHER 
+There is only more milligrams of the molecule or less milligrams of the heroin molecule ... ##GENERIC SENTENCE (STATIC) 
+Or krokodil , ##OTHER 
+ which provides a similar high at the cost ##GENERIC SENTENCE (STATIC) 
+ of melting your skin off ...  ##UNBOUNDED EVENT (GENERIC) 
+ but people will make krokodil ##COERCED STATE (GENERIC) 
+ and will buy krokodil * ##COERCED STATE (GENERIC) 
+ because it 's legal * ##GENERIC SENTENCE (STATIC) 
+ and they ca n't get heroin . ##GENERIC SENTENCE (STATIC) 
+So, ##OTHER
+ironically , ##OTHER
+ prohibition is what gives rise to your so-called " new drugs " , ##GENERIC SENTENCE (STATIC) 
+ because " new drugs " are means ##GENERIC SENTENCE (STATIC) 
+ to circumvent detection through cheap , dangerous , experimental knock-offs . ##GENERIC SENTENCE (DYNAMIC) 
+" Spice " , ##OTHER 
+for example , ##OTHER 
+ is billed as a * legal alternative * ##GENERIC SENTENCE (STATIC) 
+to marijuana . ##OTHER 
+And bath salts , ##OTHER 
+for example , ##OTHER 
+ are billed as a * legal alternative  * ##GENERIC SENTENCE (STATIC) 
+ to cocaine and amphetamines . ##OTHER 
+And how do I know all of this ? ##QUESTION 
+Because of Portugal . ##OTHER 
+Portugal decriminalized all drugs in 2001 .
+And now they proudly report the fewest users of these " new drugs " ##GENERIC SENTENCE (STATIC) 
+  among all countries with data ##OTHER 
+ tracking " new drug " users . ##GENERIC SENTENCE (DYNAMIC)  
+Krokodil , Spice and Bath Salts are n't a big problem in Portugal ,  ##GENERIC SENTENCE (STATIC) 
+ because Portuguese people can more safely use heroin , cannabis and cocaine . ##COERCED STATE (GENERIC)
+*** 0 5 0 0 NA NA NA NA YES ML 0 0 NA NA HUMAN

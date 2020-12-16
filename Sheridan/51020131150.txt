@@ -1,0 +1,44 @@
+Hmm, ##OTHER
+the sugar argument ##OTHER
+I find pretty persuasive. ##UNBOUNDED EVENT (SPECIFIC)
+While its tempting to say ##GENERIC SENTENCE (STATIC)
+we can just ban sugar, ##COERCED STATE (GENERIC)
+or go back to my position ##UNBOUNDED EVENT (SPECIFIC)
+on cigarettes/alcohol, ##OTHER
+I suppose the only decent justification for the continuing legality of sugar is its relative proximity to being neccesary or unharmed up in our society. ##GENERIC SENTENCE (STATIC)*
+It could be possible (though heavily unlikely) that cheap, sugary foods are the only way ##GENERIC SENTENCE (STATIC)
+some impoverished Alaskan people survive. ##GENERIC SENTENCE (DYNAMIC)
+I dont think ##BASIC STATE
+such a fringe case is easily attributable to recreational marijuana. ##GENERIC SENTENCE (STATIC)
+It could be fairly argued ##COERCED STATE (GENERIC)
+that the main issue ##OTHER
+regarding sugar is the fast food industry, ##GENERIC SENTENCE (STATIC)
+but even if such an argument could be made, ##COERCED STATE (GENERIC)
+it would be pretty diluted at best. ##GENERIC SENTENCE (STATIC)
+Your point for #4, ##OTHER
+on the other hand, ##OTHER
+I feel is contradictory with the sugar argument. ##BASIC STATE
+If marijuana were to be legalized, ##COERCED STATE (GENERIC)
+you say, ##BASIC STATE
+the average quality of marijuana ##OTHER
+sold would go up. ##COERCED STATE (GENERIC)
+But clearly, ##OTHER
+fast food companies are not selling high quality foods ##COERCED STATE (GENERIC)
+that include sugar. ##UNBOUNDED EVENT (SPECIFIC)
+Similarly, ##OTHER
+the explosion in demand for marijuana after its legalization would likely cause a few shifty producers to make marijuana as cheap as possible. ##COERCED STATE (GENERIC)
+This kind of leads into #5, ##UNBOUNDED EVENT (SPECIFIC)
+where a sudden increase in opportunity leads to shady practices. ##GENERIC SENTENCE (DYNAMIC)
+Im not defending McDs or coke ##COERCED STATE (SPECIFIC)
+as good companies, ##OTHER
+just that two wrongs dont make a right, ##COERCED STATE (GENERIC)
+and limiting the amount of invasive corporation is probably a good thing. ##GENERIC SENTENCE (STATIC)
+Im convinced ##BASIC STATE
+at least that it wouldnt be that bad, ##GENERIC SENTENCE (STATIC)
+or at least not as bad ##GENERIC SENTENCE (STATIC)
+as sugar is already, ##GENERIC SENTENCE (STATIC)
+but Im not 100 percent on the justification ##BASIC STATE
+that we do bad things already, ##GENERIC SENTENCE (DYNAMIC)
+so why not do more, ##QUESTION
+not as bad things? ##GENERIC SENTENCE (STATIC)
+***0 5 0 0 0 0 0 0 YES ML YES 2 2 4 3 4 HUMAN

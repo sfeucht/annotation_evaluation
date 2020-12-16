@@ -1,0 +1,50 @@
+The problem as I see it ##BASIC STATE 
+is that some drugs do constitute a danger to society in and of themselves. ##GENERIC SENTENCE (HABITUAL)
+Methamphetamine can cause you to completely lose your mind. ##COERCED STATE (GENERIC)
+You will act in ways ##COERCED STATE (GENERIC)
+that you never would sober, ##COERCED STATE (GENERIC)
+and a nonviolent person can become violent as a result. ##COERCED STATE (GENERIC) 
+I'm speaking from my own personal experience. ##UNBOUNDED EVENT (SPECIFIC)
+I used to be a meth addict ##BASIC STATE
+and I became totally different from the person ##BOUNDED EVENT (SPECIFIC)
+I was before over a period of less than six months. ##BASIC STATE
+I never had a problem with money ##BASIC STATE
+and I was always able to buy it without any problem. ##BASIC STATE 
+But I became paranoid and dangerous. ##UNBOUNDED EVENT (SPECIFIC)
+I became almost exceedingly violent ##UNBOUNDED EVENT (SPECIFIC)
+and would go off at the drop of a hat. ##COERCED STATE (SPECIFIC)
+I once threw someone over my second story balcony ##BOUNDED EVENT (SPECIFIC)
+because they said ##BOUNDED EVENT (SPECIFIC)
+"fuck" ##OTHER
+after I told them ##BOUNDED EVENT (SPECIFIC)
+not to. ##OTHER
+I don't remember ##COERCED STATE (SPECIFIC)
+why I told them not too, ##BOUNDED EVENT (SPECIFIC)
+and I'm not sure ##BASIC STATE
+it mattered. ##UNBOUNDED EVENT (SPECIFIC)
+At the time I had absolutely no compunction about doing it, ##BASIC STATE
+and I was totally unconcerned about whether or not the fall would hurt ##BASIC STATE
+or kill them. ##COERCED STATE (SPECIFIC)
+Luckily the guy was fine other than some scrapes and bruises, ##BASIC STATE
+but to be perfectly honest ##BASIC STATE //3
+it wouldn't have mattered ##BASIC STATE 
+if I had been living on the 5th or 10th floor. ##COERCED STATE (SPECIFIC)
+Since I have cleaned up ##PERFECT COERCED STATE (SPECIFIC)
+I have never been violent with anyone ##BASIC STATE
+or been in any trouble of any kind, ##BASIC STATE
+and it's been more than 17 years. ##BASIC STATE
+Some drugs turn some otherwise normal people into monsters. ##GENERIC SENTENCE (DYNAMIC)
+At the very least those drugs should be illegal. ##GENERIC SENTENCE (STATIC)
+Smoke all the pot ##IMPERATIVE
+you want, ##GENERIC SENTENCE (STATIC)
+but there are some drugs ##GENERIC SENTENCE (STATIC)
+that should not be in widespread use. ##GENERIC SENTENCE (STATIC)
+There will always be gangs and shitty people ##GENERIC SENTENCE (STATIC)
+doing shitty things to make money, ##GENERIC SENTENCE (DYNAMIC)
+and I'll agree ##BASIC STATE
+that some drugs should be legalized and regulated in order to take that revenue source away from the black market ##COERCED STATE (GENERIC)
+and to keep people from being needlessly imprisoned, ##UNBOUNDED EVENT (GENERIC)
+but by no means ##OTHER
+should it be all of them. ##GENERIC SENTENCE (STATIC)
+Some drugs really do create crime in and of themselves. ##GENERIC SENTENCE (DYNAMIC)
+***0 5 0 3 5 5 5 1 YES ML YES 4 3 4 5 5 HUMAN

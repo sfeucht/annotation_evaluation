@@ -1,0 +1,46 @@
+I have to agree about the constant slew of studies ##BASIC STATE
+ that come up with new health benefits . ##GENERIC SENTENCE (DYNAMIC)
+Seems a bit fishy to me . ##GENERIC SENTENCE (STATIC)
+Groups that fund studies usually have an agenda , ##GENERIC SENTENCE (HABITUAL)
+ and that alone is enough ##BASIC STATE
+ to skew studies towards finding results ##GENERALIZING SENTENCE (STATIVE)
+ they deem desirable . ##GENERIC SENTENCE (DYNAMIC)
+It goes either way , ##GENERIC SENTENCE (HABITUAL)
+ a pro marijuana organization is n't going to pay for clinical trials ##COERCED STATE (GENERIC)
+ that they think ##GENERIC SENTENCE (STATIC)
+ will show harmful benefits of cannabis consumption . ##COERCED STATE (GENERIC)
+It does have proven health benefits though , ##BASIC STATE
+ It 's nausea , pain , and anxiety ##OTHER
+ reducing ##GENERALIZING SENTENCE (DYNAMIC)
+ qualities alone are enough for most ##GENERALIZING SENTENCE (STATIVE)
+ to consider it medically valuable . ##GENERIC SENTENCE (HABITUAL)
+With the rate ##OTHER
+ that opiates and other dangerous drugs are getting doled out to people ##GENERIC SENTENCE (DYNAMIC)
+ I do n't see anyway ##BASIC STATE
+ you can consider that okay ##GENERIC SENTENCE (HABITUAL)
+ but scoff at marijuana being medicine ##GENERIC SENTENCE (DYNAMIC)
+ That said , ##BASIC STATE
+ I think as far as drugs go ##GENERIC SENTENCE (STATIC)
+ marijuana is the lesser of all evils . ##BASIC STATE
+Alcohol and tobacco have a long track record ##BASIC STATE
+ of being more harmful in terms of health and domestic violence , ##GENERALIZING SENTENCE (STATIVE)
+ alcohol especially seems like something ##BASIC STATE
+ society could do without . ##COERCED STATE (SPECIFIC)
+If somebody out there smokes a joint and watches TV ##COERCED STATE (GENERIC)
+ instead of drinking a fifth ##COERCED STATE (GENERIC)
+ and starting a fight ##COERCED STATE (GENERIC)
+ I would consider that a good thing . ##COERCED STATE (GENERIC)
+People are always going to want to get high ##COERCED STATE (GENERIC)
+ and alter their consciousness ##GENERIC SENTENCE (DYNAMIC)
+ and weed seems to be the safest way ##BASIC STATE
+ to do that at this point in time . ##GENERALIZING SENTENCE (DYNAMIC)
+Legalizing it just takes money from the cartels ##COERCED STATE (SPECIFIC)
+ and back to the people , in the form of taxes and small business . ##OTHER
+Marijuana ##OTHER
+ being illegal did n't really stop people from smoking , ##GENERALIZING SENTENCE (DYNAMIC)
+ just like prohibition did n't stop alcohol consumption . ##UNBOUNDED EVENT (SPECIFIC)
+Allowing the government to regulate the industry makes sure ##GENERALIZING SENTENCE (DYNAMIC)
+ you know ##GENERIC SENTENCE (STATIC)
+ what you are smoking , as well . ##GENERIC SENTENCE (DYNAMIC)
+
+***0 5 0 0 0 0 0 0 YES ML YES 5 2 5 5 HUMAN

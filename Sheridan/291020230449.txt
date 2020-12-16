@@ -1,0 +1,101 @@
+If Colorados 2012 legalization of medical marijuana can beat a federal mandate ##COERCED STATE (SPECIFIC)
+set for an initial 44-day grind, ##BASIC STATE
+as expected, ##OTHER
+it could mean a sharp increase in U.S. demand for marijuana over the next five years. ##COERCED STATE (SPECIFIC)
+According to a Federal Drug Administration report, ##BASIC STATE
+the number of U.S. residents ##OTHER
+seeking marijuana ##GENERIC SENTENCE (DYNAMIC)
+could rise to 1.1 million by 2017, ##COERCED STATE (GENERIC)
+up from just one hundred thousand residents today, ##OTHER
+with eight states ##OTHER
+passing marijuana laws this year. ##BOUNDED EVENT (SPECIFIC)
+The Wall Street Journal reported ##BOUNDED EVENT (SPECIFIC)
+the study is for researchers ##BASIC STATE
+looking at studies on the impact of legalization on the nations health-care system, ##GENERIC SENTENCE (DYNAMIC) //4
+but its difficult to figure out ##GENERIC SENTENCE (STATIC)
+how much of the new demand ##OTHER
+will be people ##GENERIC SENTENCE (STATIC)
+who use marijuana ##GENERIC SENTENCE (DYNAMIC) 
+only to pay for medical marijuana. ##GENERIC SENTENCE (DYNAMIC)
+The District of Columbia is taking its lead, ##UNBOUNDED EVENT (SPECIFIC)
+and White House spokesman Josh Earnest has dismissed the federal estimates. ##PERFECT COERCED STATE (SPECIFIC)
+The numbers keep coming, ##GENERIC SENTENCE (DYNAMIC)
+Earnest said in an interview Monday. ##BOUNDED EVENT (SPECIFIC)
+If those estimates are true for individuals in the District, ##BASIC STATE
+it will be very interesting to see ##GENERIC SENTENCE (STATIC)
+if the numbers from that study are correct for urban areas. ##BASIC STATE
+The federal government currently spends about $600 million a year ##GENERALIZING SENTENCE (DYNAMIC)
+to support medical marijuana programs in Colorado and Washington. ##GENERALIZING SENTENCE (DYNAMIC)
+The states getting ready to legalize weed ##UNBOUNDED EVENT (GENERIC)
+Colorado became the first U.S. state to allow the sale of pot in July. ##BOUNDED EVENT (SPECIFIC)
+The city of Denver also has proposed laws ##PERFECT COERCED STATE (SPECIFIC)
+that would allow weed sales, ##UNBOUNDED EVENT (GENERIC)
+despite Gov. John Hickenloopers opposition to the move. ##OTHER
+"The requirements of medical marijuana are clearly designed ##GENERIC SENTENCE (STATIC)
+to make medical marijuana available to patients ##UNBOUNDED EVENT (GENERIC)
+who need access to it," ##GENERIC SENTENCE (STATIC)
+Colorado Gov. John Hickenlooper said at the time. ##BOUNDED EVENT (SPECIFIC)
+"The question ##OTHER
+we all have is how long the process for medicinal cannabis in Colorado will take." ##GENERIC SENTENCE (STATIC) //4
+Some experts consider Colorado the first state in the country ##GENERIC SENTENCE (STATIC)
+to consider the status of medical marijuana. ##UNBOUNDED EVENT (SPECIFIC)
+That stance is designed ##BASIC STATE
+to stall a federal legal weed market ##UNBOUNDED EVENT (SPECIFIC) //3
+the state has been wrestling with for years. ##PERFECT COERCED STATE (SPECIFIC) //2
+So far, ##OTHER
+states in the nation ##OTHER
+where medical marijuana has legalized have shown a jump in demand. ##PERFECT COERCED STATE (GENERIC)*
+Most legal states have legalized marijuana for recreational use ##PERFECT COERCED STATE (GENERIC)
+and two states, ##OTHER
+Utah and Washington, ##OTHER
+are now legalizing medical marijuana. ##UNBOUNDED EVENT (SPECIFIC)
+In Washington, ##OTHER
+which licenses dispensaries for medical-marijuana purposes, ##GENERALIZING SENTENCE (DYNAMIC)
+the expansion of medical marijuana dispensaries is slated to bring tens of thousands of patients over to the Washington State dispensary scene, ##GENERIC SENTENCE (STATIC)
+according to the Washington Post. ##BASIC STATE
+"Colorado has been recognized as a real victory in this debate over constitutional amendments and medical marijuana with recent polls ##PERFECT COERCED STATE (GENERIC)
+showing that two-thirds of Americans believe ##GENERIC SENTENCE (STATIC)
+medical marijuana is a medical treatment ##GENERIC SENTENCE (STATIC)
+that can help treat all of our conditions," ##COERCED STATE (GENERIC)
+Obama advisor Christina Romer said Monday. ##BOUNDED EVENT (SPECIFIC)
+White House spokesperson Josh Earnest said ##BOUNDED EVENT (SPECIFIC)
+that border control deals ##OTHER
+forged President Obamas ##BOUNDED EVENT (GENERIC)
+push to improve safety along the U.S.-Mexico border went down a road ##BOUNDED EVENT (GENERIC)*
+not unlike that of marijuana laws ##OTHER //3
+his administration used to resolve the ongoing immigration enforcement crisis there. ##BOUNDED EVENT (GENERIC)
+In recent weeks, ##OTHER
+the president, ##OTHER
+speaking Monday in Indiana, ##BOUNDED EVENT (SPECIFIC)
+put that defeat in context: ##BOUNDED EVENT (SPECIFIC)
+"What it does say ##BASIC STATE
+is that the federal government has demonstrated ##PERFECT COERCED STATE (SPECIFIC)
+as I said before ##BOUNDED EVENT (SPECIFIC)
+that it has a responsibility to protect the American people in terms of border security. ##BASIC STATE
+I know ##BASIC STATE
+the Texas border is an issue, ##BASIC STATE
+but this drug is far from the most border area ##GENERIC SENTENCE (STATIC)*
+that you want to put together. ##GENERIC SENTENCE (STATIC)*
+The fact is, ##BASIC STATE
+Im not aware of a single border ##BASIC STATE
+that is rated as ##GENERIC SENTENCE (STATIC)
+or has ever been rated higher than 800,000 acres of marijuana. ##COERCED STATE (GENERIC)
+So the border alone is not a problem ##BASIC STATE
+because there is no moral right to be there. ##GENERIC SENTENCE (STATIC)
+I see the problem for the American people, ##BASIC STATE
+and I see the level of urgency thats necessary to stop this train of thought ##BASIC STATE
+that have been going on at the border and across the country. ##UNBOUNDED EVENT (GENERIC)*
+Colleagues and those in Washington say ##GENERIC SENTENCE (STATIC)
+the switch over to medical marijuana is more difficult ##GENERIC SENTENCE (STATIC)
+than some proponents had hoped. ##PERFECT COERCED STATE (GENERIC)
+Its not something that was designed for a national model, ##GENERIC SENTENCE (STATIC)
+James Carville, ##OTHER
+the former Democratic National Committee chairman, ##OTHER
+told NBC News last summer. ##BOUNDED EVENT (SPECIFIC)
+You know, ##GENERIC SENTENCE (STATIC)
+it can have multiple needs, ##GENERIC SENTENCE (STATIC)
+it can be three different needs, ##GENERIC SENTENCE (STATIC)
+it can be hundreds, thousands of things in different states, ##GENERIC SENTENCE (STATIC)
+and theyre all ##GENERIC SENTENCE (STATIC)
+tied to a particular policy idea. ##GENERIC SENTENCE (STATIC) //4
+***0 3 2 0 0 0 0 0 YES ML YES 0 0 0 0 ALGORITHM 

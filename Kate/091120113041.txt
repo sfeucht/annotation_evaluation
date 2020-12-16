@@ -1,0 +1,95 @@
+The Russians often use drug traffickers for legitimate purposes , ##GENERIC SENTENCE (HABITUAL)  
+ but in the case of Italian pharmacy Molly Pena ,  ##OTHER 
+ seeing an individual  ##UNBOUNDED EVENT (GENERIC) 
+ using medicine from a nonprofit for medical marijuana use  ##UNBOUNDED EVENT (GENERIC) 
+ came as a bit of a shock . ##UNBOUNDED EVNET (GENERIC) 
+Her community supplies a demand of POT + 3 ,  ##GENERIC SENTENCE (DYNAMIC) 
+a pharmaceutical company and owner of a clinic in the Eastern European city of Naples whos also a doctor . ##OTHER 
+People say no to drugs , ##GENERIC SENTENCE (STATIC) 
+ says the owner of the clinic ,  ##BASIC STATE 
+ who couldnt provide further details . ##COERCED STATE (SPECIFIC) 
+But what if a persons just using a used drug  ##QUESTION 
+ for a medical treatment ? ##OTHER 
+A special doctor recently delivered 25 controlled doses of the drug as well as a pain pill  ##BOUNDED EVENT (SPECIFIC) 
+ called forganza at Molly Penas clinic ,  ##BASIC STATE 
+ reportedly to treat a serious ,  ##UNBOUNDED EVENT (GENERIC) 
+diabetic outpatient for the treatment of pain in his legs . ##OTHER 
+Thats important because consumers spend billions of dollars on opiate prescriptions ,  ##GENERIC SENTENCE (STATIC) 
+ on which the FDA says a medical marijuana dose could  ##BASIC STATE 
+ last nearly a year . ##OTHER 
+Problems have been brewing in Italy for months ,  ##PERFECT COERCED STATE (GENERIC) 
+ and both Tatu Benasina of the Mediclinic Institute  ##OTHER 
+ ( the Bank of Italy )  ##OTHER 
+ and Pierina Sestini , ##OTHER 
+ vice president for the Italian division of Healthcan ,  ##OTHER 
+ have found  ##PERFECT COERCED STATE (SPECIFIC) 
+ that medical marijuana causes patients anxiety and disorientation ,  ##GENERIC SENTENCE (STATIC) 
+too . ##OTHER 
+Molly Pena  ##OTHER 
+ ( pictured )  ##OTHER 
+ was diagnosed with a life-threatening seizure disorder ;  ##BOUNDED EVENT (SPECIFIC) 
+ a month later ,  ##OTHER 
+doctors say  ##GENERIC SENTENCE (STATIC) 
+ the drug ##OTHER 
+ for nearly half a year increased her blood pressure in her right leg ;  ##BOUNDED EVENT (SPECIFIC0 
+ she has been prescribed pain meds for headaches and other debilitating conditions . ##PERFECT COERCED STATE (SPECIFIC) 
+The other patients  ##OTHER 
+ she treats are under similar treatment ,  ##GENERIC SENTENCE (STATIC) 
+ and both are afraid to tell their doctors . ##GENERIC SENTENCE (STATIC) 
+Due to anti-psychotic medications  ##OTHER 
+ taking up ever more space of their bodies ,  ##UNBOUNDED EVENT (GENERIC) 
+ some are passing themselves off as medicinal . ##UNBOUNDED EVENT (GENERIC) 
+If you cant pass myself off as medicinal ,  ##COERCED STATE (GENERIC) 
+ its a matter of when ,  ##GENERIC SENTENCE (STATIC) 
+says the doctor . ##BASIC STATE 
+He and his co-worker choose medication ,  ##BOUNDED EVENT (SPECIFIC) 
+ give a presentation ,  ##BOUNDED EVENT (SPECIFIC) 
+ and eventually sign for the individual  ##BOUNDED EVENT (SPECIFIC) 
+ when he needs it . ##OTHER 
+The patients say  ##GENERIC SENTENCE (STATIC) 
+ it makes sense  ##BASIC STATE 
+ to prescribe medication ,  ##UNBOUNDED EVENT (GENERIC) 
+ so you have a person  ##PERFECT COERCED STATE (GENERIC) 
+ who is able to pass off a pain ,  ##GENERIC SENTENCE (STATIC) 
+ said Benasina . ##BASIC STATE 
+Benasina says  ##BASIC STATE 
+ hes saved hundreds of euros over the years ,  ##BOUNDED EVENT (SPECIFIC) 
+ but ,  ##OTHER 
+ while he thinks giving people  ##BASIC STATE 
+ the option of taking less pain medication could cut down on symptoms  ##COERCED STATE (GENERIC) 
+ that can keep them hooked ,  ##COERCED STATE (GENERIC) 
+ it has certainly helped some . ##PERFECT COERCED STATE (GENERIC) 
+When theres abuse ,  ##GENERIC SENTENCE (STATIC) 
+ theres a stigma ,  ##GENERIC SENTENCE (STATIC) 
+ he says . ##BASIC STATE 
+Its very harmful . ##BASIC STATE 
+It has happened in Brazil ,  ##PERFECT COERCED STATE (GENERIC) 
+ and those countries  ##OTHER 
+ which dont have drugs like France have drug control problems . ##PERFECT COERCED STATE (GENERIC) 
+Opium extract is not legal in Italy ,  ##GENERIC SENTENCE (STATIC)  
+ and doesnt generally make it through medical treatment . ##GENERIC SENTENCE (STATIC) 
+But the case of Pedro Alan is another case . ##BASIC STATE 
+Alan had numerous mood disorders , ##PERFECT COERCED STATE (SPECIFIC) 
+ and his friends  ##OTHER 
+ who were customers of the Oglivenano pharmacy  ##GENERIC SENTENCE (STATIC) 
+ began calling him  ##UNBOUNDED EVENT (SPECIFIC) 
+ and requesting advice  ##UNBOUNDED EVENT (SPECIFIC) 
+ on possible alternative drug therapy . ##OTHER 
+The pharmacys specialist ,  ##OTHER 
+Dr. Jervis Lipeni , ##OTHER 
+ suggested  ##BASIC STATE 
+ he see a doctor ,  ##UNBOUNDED EVENT (SPECIFIC) 
+ who then came to him with ideas on administering medication . ##BOUNDED EVENT (SPECIFIC) 
+When we spoke ,  ##BOUNDED EVENT (SPECIFIC) 
+ the pharmacys complaints had stayed the same since 2001 : ##PERFECT COERCED STATE (GENERIC) 
+ It couldnt find a physician for a daily dose ;  ##COERCED STATE (GENERIC)
+ now , ##OTHER 
+the pharmacies are far more crowded with staff . ##GENERIC SENTENCE (STATIC) 
+The oil of choice :  ##OTHER 
+ Eganza for men  ##OTHER
+ ( 16 mg for men over 26 ) . ##OTHER 
+Molly Pena  ##OTHER 
+ ( 140 mg for men over 25 ) . ##OTHER 
+Eganza for women  ##OTHER 
+ ( 15 mg for men over 26 ) . ##OTHER 
+*** 0 4 0 3 4 2 4 YES ML YES UNCLEAR(2) 0 NA NA ALGORITHM

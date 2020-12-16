@@ -1,0 +1,99 @@
+If a sex abuse lawsuit is one way ##GENERIC SENTENCE (STATIC) 
+ the First Amendment prevents employers from granting religious aid to workers or their families ,  ##GENERIC SENTENCE (STATIC) 
+ guess what ? ##QUESTION 
+That violates other federal laws ,  ##GENERIC SENTENCE (STATIC) 
+too . ##OTHER 
+What 's happened to religious freedom ? ##QUESTION 
+Same old ,  ##OTHER
+same old . ##OTHER 
+Last week ,  ##OTHER 
+New York judge Ann Levine threw out a lawsuit ##BOUNDED EVENT (SPECIFIC) 
+ brought by two religious people ##BASIC STATE 
+ claiming ##BASICE STATE
+ that at least some members of the church group  ##OTHER 
+ that founded the sect did not deserve church assistance in its investigation of whether the sect inappropriately obtained confessions ##GENERIC SENTENCE (STATIC) 
+ by having sex with underage boys . ##UNBOUNDED EVENT (GENERIC) 
+Last year , ##OTHER 
+Levine set aside a $40,000 fine  ##BOUNDED EVENT (SPECIFIC) 
+ imposed by the city  ##GENERIC SENTENCE (DYNAMIC) 
+ to fight the case , ##UNBOUNDED EVENT (GENERIC) 
+ which the Justice Department dismissed as baseless . ##BOUNDED EVENT (SPECIFIC) 
+In a brief judgment , ##OTHER 
+ Levine ruled  ##BOUNDED EVENT (SPECIFIC) 
+ that at least two leaders of the church group , ##OTHER 
+Craig Block and Hall Williams ,  ##OTHER 
+know  ##OTHER 
+ that they have the right ##PERFECT COERCED STATE (GENERIC) 
+ to access church funds . ##UNBOUNDED EVENT (GENERIC) 
+Levine said ##BASIC STATE 
+ neither Block nor Williams are in violation of the federal restriction on church income . ##BASIC STATE 
+Block , ##OTHER
+a Bush appointee , ##OTHER 
+has applied his First Amendment rights  ##PERFECT COERCED STATE (GENERIC) 
+ to obtain special housing for eight of his 14 teenage children .UNBOUNDED EVENT (SPECIFIC) 
+Williams ,  ##OTHER 
+a mortgage salesman ,  ##OTHER  
+has not . ##PERFECT COERCED STATE (GENERIC) 
+So what about the thousands of church people ##QUESTION  
+ who have adopted the belief  ##PERECT COERCED STATE (GENERIC) 
+ that church leaders had coerced at least one underage child  ##PERFECT COERCED STATE (GENERIC) 
+ into having sex with adults other than their own ? ##PERFECT COERCED STATE (GENERIC) 
+A recent Associated Press article concluded  ##BASIC STATE 
+ that " [ t ] he sort of squatty church has just the opposite of immunity for what it did . " ##PERFECT COERCED STATE (GENERIC) 
+Three years ago ,  ##OTHER 
+ when California lawmakers removed marijuana and booze from prescription medicines ##BOUNDED EVENT (SPECIFIC) 
+ and allowed most pharmacists to prescribe them ,  ##BOUNDED EVENT (SPECIFIC) 
+ 99 of the state 's 89 doctors accepted leniency on the part of cannabis and alcohol-withdrawal doctors . ##BOUNDED EVENT (SPECIFIC) 
+Under federal law , ##OTHER 
+ courts have the power  ##PERFECT COERCED STATE (GENERIC) 
+ to make nondiscrimination accommodations to defendants for allegations of church abuse . ##UNBOUNDED EVENT (GENERIC) 
+But the judiciary argues  ##BASIC STATE 
+ that both the federal and state governments should equally act to try to assure ##COERCED STATE (GENERIC) 
+ the religious exemption is denied to either church or nondiscrimination victims . ##BASIC STATE 
+Well ,  ##OTHER 
+in other words , ##OTHER 
+ with the exception of having arrestees present in court , ##PERFECT COERCED STATE (GENERIC) 
+ the courts have the power  ##PERFECT COERCED STATE (GENERIC) 
+ to deny state agencies access to court records ,  ##UNBOUNDED EVENT (GENERIC) 
+ they say . ##GENERIC SENTENCE (STATIC) 
+United Methodist Church leaders believe  ##GENERIC SENTENCE (STATIC) 
+ that the church has a right  ##PERFECT COERCED STATE (GENERIC) 
+ to strip hospitals and the nation 's only public health agency of its impartiality . ##UNBOUNDED EVENT (GENERIC) 
+Their claims ,  ##GENERIC SENTENCE (STATIC) 
+ which originally were denied at the state level ,  ##BOUNDED EVENT (SPECIFIC) 
+ have been at the forefront of national debate ,  ##PERFECT COERCED STATE (SPECIFIC) 
+ with more than 4,000 members of the Church of Jesus Christ of Latter-day Saints doing so  ##UNBOUNDED EVENT (GENERIC) 
+ over the past 20 years . ##OTHER 
+In a letter recently to the Washington Post , ##BASIC STATE 
+ led by lawyer Paul A. Sutton of Sol E. Sutton & Co. ,  ##UNBOUNDED EVENT (SPECIFIC) 
+ the decision in Levine 's 2-week trial found ##BASIC STATE 
+ that the government had no remedy  ##PERFECT COERCED STATE (GENERIC) 
+ to keep patients off the pill or off marijuana ,  ##UNBOUNDED EVENT (GENERIC) 
+ including three state hospitals  ##OTHER 
+ that do not maintain psychiatric wards . ##GENERIC SENTENCE (STATIC) 
+" No case has ever been made  ##PERFECT COERCED STATE (GENERIC) 
+ that the court has any discretion at all  ##PERFECT COERCED STATE (GENERIC) 
+ to impose any injunctions or sanctions on a private enterprise as to the rights and wrongs of that business ,  ##UNBOUNDED EVENT (GENERIC) 
+ " Sutton wrote . ##BASIC STATE 
+What kind of protection do the courts have to a religion ? ##QUESTION 
+They 're coming up with their own . ##GENERIC SENTENCE (DYNAMIC) 
+Judge Levine seems to agree . ##BASIC STATE 
+A few weeks ago , ##OTHER 
+Levine ruled ##BOUNDED EVENT (SPECIFIC) 
+ that nobody should be discriminated against for speaking out in the legal fight against religious discrimination . ##GENERIC SENTENCE (STATIC) 
+Then ,  ##OTHER 
+last fall ,  ##OTHER 
+ she admitted  ##BOUNDED EVENT (SPECIFIC) 
+ that the nation 's chief government agency had contemptuously allowed the resignation of its next chief executive . ##PERFECT COERCED STATE (GENERIC) 
+If Judge Levine were to roll over for the federal government , ##BASIC STATE 
+ " it would appear to me  ##BASIC STATE 
+ that the war on religion was totally on the mind of the federal government ,  ##GENERIC SENTENCE (STATIC) 
+ " says Alan Morissette ,  ##BASIC STATE 
+a professor of constitutional law at George Washington University . ##BASIC STATE 
+Morissette makes the same argument about the government 's ability  ##BASIC STATE 
+ to muzzle religious freedom . ##UNBOUNDED EVENT (GENERIC) 
+" There is no justification  ##GENERIC SENTENCE (STATIC) 
+ for for the federal government to even have an interest in attacking a publicly funded organization ,  ##PERFECT COERCED STATE (GENERIC) 
+ " he says . ##BASIC STATE 
+" Nobody at the federal level in government will care about that . " ##COERCED STATE (GENERIC) 
+***0 4 2 4 4 2 3 4 YES UC YES 0 0 0 0 ALGORITHM

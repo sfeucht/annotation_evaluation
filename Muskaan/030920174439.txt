@@ -1,0 +1,91 @@
+But it 's a case of the government planning to put taxes on someone 's innocence in return for finding the right people ##GENERALIZING SENTENCE (DYNAMIC)
+ to work on it . ##GENERIC SENTENCE (DYNAMIC)
+The money ##OTHER
+ that the government is spending on making even a small dent in the crime of growing and dispensing cannabis ##GENERALIZING SENTENCE (DYNAMIC)
+ legally ##OTHER
+ is going to be spent on arresting people ##COERCED STATE
+ who , like the other developmentally disabled , cannot afford to buy drugs ##GENERIC SENTENCE (STATIC)
+ and keep their criminal records open . ##GENERIC SENTENCE (HABITUAL)
+Goaltender Jesse Frizzell , ##OTHER
+ who was jailed for seven years ##BOUNDED EVENT
+ after clearing the prison yard ##UNBOUNDED EVENT
+ he was a part of , ##BASIC STATE
+ and was therefore guaranteed a reduced sentence for his business because of an offer ##UNBOUNDED EVENT
+ made to make him a tip jar , ##NONSENSE
+ says ##UNBOUNDED EVENT
+ that it was his community services workers ##BASIC STATE
+ who stood between him and incarceration for making the money . ##NONSENSE
+I was charging somewhere between 11 and 12 a day ##GENERALIZING SENTENCE (DYNAMIC)
+ and turning my green card in , ##GENERALIZING SENTENCE (DYNAMIC)
+ he says . ##UNBOUNDED EVENT
+I was the only person ##BASIC STATE
+ who didnt know ##BASIC STATE
+ I was using cannabis , ##GENERALIZING SENTENCE (DYNAMIC)
+ and they were so glad ##GENERIC SENTENCE (STATIC)
+ I was going to jail . ##UNBOUNDED EVENT
+Theyre only sad Im not in here , ##GENERIC SENTENCE (STATIC)
+ because Im going to miss one day . ##COERCED STATE
+To make other people feel safer , ##GENERIC SENTENCE (STATIC)
+ to make them feel much less afraid , ##GENERIC SENTENCE (STATIC)
+ because I didnt know ##BASIC STATE
+ who did what , ##UNBOUNDED EVENT
+ you know , ##OTHER
+ you aint a hypocrite . ##BASIC STATE
+Im good with that , its just a fact ##GENERIC SENTENCE (STATIC)
+ that the truth has to come out . ##COERCED STATE
+Its not good for this country and its not good for the world . ##GENERIC SENTENCE (STATIC)
+He says ##UNBOUNDED EVENT
+ that more work needs to be done on cannabis ##GENERIC SENTENCE (DYNAMIC)
+ to benefit all people . ##GENERIC SENTENCE (DYNAMIC)
+A deputy assistant and member of the local cabinet think of creating or increasing government sanctions for people ##GENERALIZING SENTENCE (DYNAMIC)
+ using , ##GENERALIZING SENTENCE (DYNAMIC)
+ or buying , ##GENERALIZING SENTENCE (DYNAMIC)
+ cannabis to commit crimes . ##GENERALIZING SENTENCE (DYNAMIC)
+This practice has now caught on ##GENERALIZING SENTENCE (STATIVE)
+ and people are coming out saying , ##GENERIC SENTENCE (DYNAMIC)
+ dont do it this way , ##IMPERATIVE
+ he says . ##UNBOUNDED EVENT
+This will come from elsewhere . ##COERCED STATE
+We have to help people out , ##GENERIC SENTENCE (DYNAMIC)
+ thats the last thing ##GENERIC SENTENCE (STATIC)
+ we need at this time . ##GENERIC SENTENCE (STATIC)
+So we have to start by cracking down now on this . ##GENERIC SENTENCE (DYNAMIC)
+Theres nothing more we could do . ##GENERIC SENTENCE (STATIC)
+Weve done little or nothing at the minute . ##COERCED STATE
+Exeter Becardo , a member of the Parliamentary Childrens Advisory Group on Public Safety , ##OTHER
+ says ##UNBOUNDED EVENT
+ that it will be up to the government ##COERCED STATE
+ to make a bid for a sentence above the maximum . ##GENERIC SENTENCE (DYNAMIC)
+Theres been a big suggestion ##COERCED STATE
+ that they consider ##GENERIC SENTENCE (DYNAMIC)
+ who had a criminal record ##GENERIC SENTENCE (STATIC)
+ so it would be disproportionate to the sentence ##COERCED STATE
+ they put in . ##GENERIC SENTENCE (DYNAMIC)
+It has to be in the public interest ##GENERIC SENTENCE (HABITUAL)
+ for people to not use cannabis . ##GENERIC SENTENCE (DYNAMIC)
+Its so dehumanising , ##GENERIC SENTENCE (STATIC)
+ as someone uses it ##GENERIC SENTENCE (DYNAMIC)
+ and as they enter prison . ##GENERIC SENTENCE (DYNAMIC)
+I wonder ##GENERALIZING SENTENCE (DYNAMIC)
+ how many people see that as bad , absolutely terrible , ##GENERIC SENTENCE (STATIC)
+ and say , ##GENERIC SENTENCE (HABITUAL)
+ We thought ##GENERIC SENTENCE (STATIC)
+ this was a small expense , ##GENERIC SENTENCE (STATIC)
+ this just makes ##GENERIC SENTENCE (DYNAMIC)
+ us go on with our lives , ##GENERIC SENTENCE (DYNAMIC)
+ or I wonder ##GENERALIZING SENTENCE (DYNAMIC)
+ how many people see it as being pretty good , overpaid ##GENERIC SENTENCE (STATIC)
+ for , ##OTHER
+ or any amount ##OTHER
+ to cope . ##GENERIC SENTENCE (DYNAMIC)
+Going green on cannabis ? ##QUESTION
+Do n't know ##BASIC STATE
+ where to start DON'T KNOW ##BASIC STATE
+ WHERE TO START Sign up to Never Say Never ##IMPERATIVE
+ to Do More with Your Family , Your Friends , Your Manners and Your Social Good Movement Use Legal Internet ##IMPERATIVE
+ to FIND a Yes No attitude to cannabis Measure on Any Anyarijuana ##GENERIC SENTENCE (DYNAMIC)
+ to Make You Sick See Alternatives to Legal Marijuana Invest in the College of Fine Arts , ##NONSENSE
+ With a view ##OTHER
+ to fostering a future of work in the fields of chemicals and agronomy Access to Cannabis , Forage , forage , forage , and mushrooms ##GENERIC SENTENCE (DYNAMIC)
+
+***0 2 0 1 0 0 0 4 YES ML YES 4 3 0 0 1 ALGORITHM

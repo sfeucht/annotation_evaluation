@@ -1,0 +1,47 @@
+With a week to go until Christmas, ##OTHER
+we have picked up the pace nicely. ##PERFECT COERCED STATE (SPECIFIC)
+Our annual fund-raising campaign on behalf of Children's Hospital is homing in on $100,000, ##UNBOUNDED EVENT (SPECIFIC)
+a cheery sum indeed. ##OTHER
+But around the paper-strewn slum ##OTHER
+they call my office, ##GENERIC SENTENCE (HABITUAL)
+we think of that 100 thou as the first of its kind. ##BASIC STATE
+We are hoping for three more just like it, ##BASIC STATE
+which would make the 1982-83 campaign the largest ever by a considerable margin. ##COERCED STATE (SPECIFIC)
+However, ##OTHER
+we aren't going to be fruitful ##COERCED STATE (SPECIFIC)
+and multiply our "take" without help from you readers ##COERCED STATE (SPECIFIC)
+-- lots of you, ##OTHER
+as many of you as possible. ##OTHER
+We hope ##BASIC STATE
+that you'll take a moment ##COERCED STATE (GENERIC) //3
+and send a check or money order today. ##BOUNDED EVENT (GENERIC)
+As I have said, ##PERFECT COERCED STATE (SPECIFIC)
+even $5 will help. ##COERCED STATE (GENERIC)
+And you probably won't miss it. ##COERCED STATE (GENERIC)
+After all, ##OTHER
+five bucks is about what a movie or a half-hour in a video games arcade costs these days. ##GENERIC SENTENCE (DYNAMIC)
+When you think of it that way, ##COERCED STATE (GENERIC) //4
+it doesn't sound like an awful lot. ##GENERIC SENTENCE (STATIC)
+Here are the totals ##BASIC STATE
+as they stand this morning: ##BOUNDED EVENT (SPECIFIC) //3
+Grand total to date: $62,568.12. ##OTHER
+Total ##OTHER
+given this week: ##BOUNDED EVENT (SPECIFIC)
+$26,186.60. ##OTHER 
+Individual donors to date: ##OTHER
+1,280. ##OTHER
+Group donors to date: ##OTHER
+111. ##OTHER
+For those of you ##OTHER
+keeping score, ##UNBOUNDED EVENT (SPECIFIC)
+the grand total after three weeks of the 1981-82 campaign stood at $29,019.28, ##BASIC STATE
+far less than what we have raised in the same period this year. ##PERFECT COERCED STATE (SPECIFIC)
+But this is no time for overconfidence, or resting on laurels. ##BASIC STATE
+While the Christmas spirit is upon you, ##GENERIC SENTENCE (STATIC)
+why not share a little of it with a sick child at Children's? ##QUESTION
+You will make his holiday a little brighter in the process, ##COERCED STATE (GENERIC)
+and you will help make possible the care and the research ##COERCED STATE (GENERIC)
+that will get him well, ##COERCED STATE (GENERIC)
+and get him home, ##COERCED STATE (GENERIC)
+a little faster. ##OTHER
+***0 5 0 0 0 0 0 0 NO NA YES 0 3 5 4 HUMAN

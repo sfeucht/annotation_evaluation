@@ -1,0 +1,30 @@
+On the second day of her reign Miss Universe Olivia Culpo has weighed in on a controversial topic, ##PERFECT COERCED STATE (SPECIFIC)
+coming down squarely against the legalization of marijuana. ##UNBOUNDED EVENT (SPECIFIC)
+The newly crowned 20-year-old opened up to XXX about her thoughts on the drug, ##BOUNDED EVENT (SPECIFIC)
+saying ##UNBOUNDED EVENT (SPECIFIC)
+she is against pot becoming legal. ##BASIC STATE
+"I think ##BASIC STATE
+that for medical purposes it is OK," ##GENERIC SENTENCE (STATIC)
+she said. ##BOUNDED EVENT (SPECIFIC)
+I dont think its good for recreational purposes. ##BASIC STATE
+There are just too many bad habits ##GENERIC SENTENCE (STATIC)
+that go with the drug." ##GENERIC SENTENCE (DYNAMIC)
+Culpo also took the opportunity to comment a report ##BOUNDED EVENT (SPECIFIC)*
+from the New York Daily News ##OTHER
+that she is looking for a dinner date. ##UNBOUNDED EVENT (SPECIFIC)
+She said ##BOUNDED EVENT (SPECIFIC)
+the report was not true, ##BASIC STATE
+and she is not interested in finding a boyfriend right now. ##BASIC STATE
+This job is enough, ##BASIC STATE
+she said. ##BOUNDED EVENT (SPECIFIC)
+Culpo told XXX ##BOUNDED EVENT (SPECIFIC)
+her life has changed drastically ##PERFECT COERCED STATE (SPECIFIC)
+since she was crowned last month. ##BOUNDED EVENT (SPECIFIC)
+Fifteen months ago was my first pageant ever, ##BASIC STATE
+she told XXX. ##BOUNDED EVENT (SPECIFIC)
+Now, ##OTHER
+she plans to spend the next year ##COERCED STATE (SPECIFIC)
+traveling as a spokesperson for HIV awareness. ##UNBOUNDED EVENT (SPECIFIC)
+Culpo is the first ##BASIC STATE
+Miss USA to win Miss Universe in more than a decade. ##BOUNDED EVENT (SPECIFIC) //3
+***0 5 3 0 0 0 0 0 YES ML YES 0 3 2 2 HUMAN

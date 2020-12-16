@@ -1,0 +1,106 @@
+Controversial marijuana legislation moves a step ##UNBOUNDED EVENT (GENERIC)
+closer to becoming law in the U.S. ##UNBOUNDED EVENT (GENERIC)
+While marijuana legalization might be legal in three states ##GENERIC SENTENCE (STATIC)
+but not in Georgia, ##GENERIC SENTENCE (STATIC)
+substance-abuse awareness and growing cannabis leads to an increase in the number of victims, ##GENERIC SENTENCE (DYNAMIC)
+according to a report ##BASIC STATE
+that focuses on young victims of sexual assault. ##UNBOUNDED EVENT (SPECIFIC)
+Critics of the legalization of marijuana are generally opposed to the notion ##GENERIC SENTENCE (HABITUAL)
+of legalizing it, ##UNBOUNDED EVENT (GENERIC)
+but they stand with the medical marijuana activists ##GENERIC SENTENCE (HABITUAL)
+who advocate for medical marijuana. ##GENERIC SENTENCE (DYNAMIC)
+The first step for legalization is the elimination of the prohibition against recreational use, ##GENERIC SENTENCE (STATIC)
+Sarah Laster-Peterson, ##OTHER (same as BOUNDED EVENT (SPECIFIC))
+vice president of the Fayetteville Health System and former president of the Fayetteville Chapter of the National Organization for the Reform of Marijuana Laws, ##OTHER
+told XXX. ##BOUNDED EVENT (SPECIFIC)
+If the president moves too fast, ##COERCED STATE (SPECIFIC)
+if he becomes law, ##COERCED STATE (SPECIFIC)*
+but finds he doesnt want to, ##COERCED STATE (SPECIFIC)
+you know, ##BASIC STATE
+legalize a prescription drug ##UNBOUNDED EVENT (GENERIC)
+for which he cant thats a big possibility. ##NONSENSE
+The reason is simple, ##BASIC STATE
+Laster-Peterson believes: ##BASIC STATE
+a self-regulating regulatory system. ##GENERIC SENTENCE (DYNAMIC)
+Marijuana is illegal, ##GENERIC SENTENCE (STATIC)
+but other drugs like cocaine and heroin can be sold on the street. ##COERCED STATE (GENERIC)
+Anyone ##OTHER
+that does not recognize and appreciate marijuana ##COERCED STATE (GENERIC)
+and is aware of its widespread use and abuse in the United States would no doubt feel particularly bad, ##GENERIC SENTENCE (STATIC)
+she said. ##BOUNDED EVENT (SPECIFIC)
+One issue ##OTHER
+that carries a positive impact is the use of marijuana in a host of ways. ##GENERIC SENTENCE (DYNAMIC)
+Some consider it a medical product. ##GENERIC SENTENCE (STATIC)
+Peoples attitudes toward marijuana as an experimental drug, ##OTHER
+do not completely align themselves with the views of most people, ##GENERIC SENTENCE (HABITUAL)*
+Rami Elman, ##OTHER (same as BOUNDED EVENT (SPECIFIC))
+director of the Center for Illicit Drug Addicts and Research at the Henry Ford Clinic in Detroit, ##OTHER
+told XXX. ##BOUNDED EVENT (SPECIFIC)
+I know ##BASIC STATE
+that most people dont like it but to a certain extent, ##GENERIC SENTENCE (STATIC)
+its a response to whats ##GENERIC SENTENCE (STATIC)
+happening with growing cannabis plants. ##UNBOUNDED EVENT (SPECIFIC)
+Its the same reason ##GENERIC SENTENCE (STATIC)
+they like marijuana. ##GENERIC SENTENCE (STATIC)
+Marijuana is a gateway drug to so many other substances ##GENERIC SENTENCE (STATIC)
+that are no longer considered to be legal because of increased availability of those substances. ##GENERIC SENTENCE (STATIC)
+MORE: ##OTHER
+THC, PETN legal from Georgia ##OTHER
+MORE: Kentucky Resident Reportedly Receives Dangerous Note From Marijuana Seller ##UNBOUNDED EVENT (SPECIFIC)
+The article by Scott Paige and Derek Klein of Green Beret ##OTHER
+seeks to draw attention to the prevalent debate and the growing influence of medical marijuana on young Americans. ##UNBOUNDED EVENT (SPECIFIC)
+The two doctors ##OTHER
+who wrote the article appeared to indicate ##BOUNDED EVENT (SPECIFIC)
+that increased alcohol use among teens is leading to increases in sexual assault cases. ##UNBOUNDED EVENT (GENERIC)
+The article also discusses other topics, ##UNBOUNDED EVENT (SPECIFIC)
+such as mental health and addiction. ##OTHER
+We are, ##OTHER (same as BASIC STATE)
+however, ##OTHER
+concerned ##BASIC STATE
+that with an increase in the number of sexual assaults ##OTHER
+involving marijuana, ##UNBOUNDED EVENT (GENERIC)
+young men and women ##OTHER
+who smoke the drug may be able to lead similar behaviors ##GENERIC SENTENCE (DYNAMIC)
+that may prompt them to report it to their families and the authorities, ##COERCED STATE (GENERIC)
+the authors said. ##BOUNDED EVENT (SPECIFIC)
+According to USGS information, ##BASIC STATE
+the majority of people ##OTHER
+who consider themselves to be marijuana users ##GENERIC SENTENCE (STATIC)
+are ages 16 to 24. ##GENERIC SENTENCE (STATIC)
+The highest rate of marijuana use among these age groups is found among teenagers. ##GENERIC SENTENCE (STATIC)
+A Boston University study found ##BOUNDED EVENT (SPECIFIC)
+that those ##OTHER
+who smoke marijuana ##GENERIC SENTENCE (DYNAMIC)
+associated with a higher risk of suicide. ##GENERIC SENTENCE (HABITUAL)
+Researchers worry ##UNBOUNDED EVENT (GENERIC) //4
+that marijuana will be disrupted, ##COERCED STATE (GENERIC)
+because in the short term, ##OTHER
+there is an increased risk of developing a cannabis-induced psychosis ##GENERIC SENTENCE (STATIC)
+by inducing these symptoms. ##UNBOUNDED EVENT (GENERIC)
+American College of Physicians president David Begala, ##OTHER (same as BASIC STATE)
+who penned the article, ##BOUNDED EVENT (SPECIFIC)
+says ##BASIC STATE
+this should not be the first time ##BASIC STATE
+that marijuana has appeared in an op-ed in the media. ##PERFECT COERCED STATE (SPECIFIC)
+The issue is that there are so many more people with the same symptoms, ##GENERIC SENTENCE (STATIC)
+Begala told XXX ##BOUNDED EVENT (SPECIFIC)
+There is some indication ##GENERIC SENTENCE (STATIC)
+that a buildup of psychosis ##OTHER
+that occurs is made with large quantities of marijuana. ##GENERIC SENTENCE (DYNAMIC)
+For the study, ##OTHER
+the researchers made a number of modifications to cannabis ##BOUNDED EVENT (SPECIFIC)
+while doing physical examination, ##UNBOUNDED EVENT (SPECIFIC)
+according to the article. ##BASIC STATE
+They examined 80 marijuana plants on the ground ##BOUNDED EVENT (SPECIFIC)
+and took measurements for their presence at the ground surface. ##BOUNDED EVENT (SPECIFIC)
+Theres a lot of science ##GENERIC SENTENCE (HABITUAL)
+involved in putting that evidence together, ##UNBOUNDED EVENT (SPECIFIC)
+Begala explained. ##BOUNDED EVENT (SPECIFIC)
+If you were to put the data together on a company with a franchise drug ##COERCED STATE (GENERIC)
+such as Novartis, ##OTHER
+youd say ##COERCED STATE (GENERIC)
+it would take a little over two years ##COERCED STATE (GENERIC)
+to get that kind of detail. ##COERCED STATE (GENERIC)
+For more tips on getting over addiction, ##UNBOUNDED EVENT (GENERIC)
+call the National Institute on Drug Abuse at 1-800-799-SAFE (7233). ##IMPERATIVE
+***0 5 5 0 0 0 0 0 YES ML YES UNCLEAR(2) 2 2 2 ALGORITHM

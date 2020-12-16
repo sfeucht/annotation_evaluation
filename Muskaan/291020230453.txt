@@ -1,0 +1,60 @@
+We know ##GENERIC SENTENCE (STATIC)
+ that Jeff Sessions is finally breaking the Sessions the Righteous , ##UNBOUNDED EVENT (SPECIFIC)
+ but in the meantime , the Washington Post reveals ##BOUNDED EVENT (SPECIFIC)
+ that one of Sessions former employees , a former Jacksonville Jaguars player , wants a piece of the attorney generals offices decision on the marijuana policy . ##BASIC STATE
+Attorneys for Laura Bassett are fighting for the right ##UNBOUNDED EVENT (SPECIFIC)
+ to include marijuana in a proposed policy ##COERCED STATE (SPECIFIC) //3
+ that could affect federal drug enforcement . ##COERCED STATE (SPECIFIC)
+The former football player is collecting money for his alleged crime ##UNBOUNDED EVENT (SPECIFIC)
+ to get more marijuana . ##COERCED STATE (SPECIFIC)*
+In May , Sessions abruptly rescinded an Obama-era order ##BOUNDED EVENT (SPECIFIC)
+ banning federal aid ##BASIC STATE
+ to states ##OTHER
+ that have legalized the recreational use of marijuana . ##COERCED STATE (GENERIC)
+Another former attorney is moving to challenge the outcome of the dispute . ##UNBOUNDED EVENT (SPECIFIC)
+Laura Bassett had been pursuing potential employment with an interstate cannabis facility in Jacksonville ##PERFECT COERCED STATE (SPECIFIC)
+ under the name Lets Move for about eight months . ##OTHER
+Her attorneys in that case are said to be concerned about how an alleged traffic violation wont harm some legal immigrant ##BASIC STATE
+ currently residing in the United States . ##GENERIC SENTENCE (STATIC)
+( Not everyone has the same concerns in the courthouse . ) ##GENERIC SENTENCE (STATIC)
+But she has another way out . ##BASIC STATE
+As president of the National Congress of American Indians , ##OTHER
+ she has asked her own team ##PERFECT COERCED STATE (SPECIFIC)
+ to defend the violation as a violation of her constitutional rights . ##COERCED STATE (SPECIFIC)
+Bassett is expected to meet with Sessions on Monday morning . ##BASIC STATE
+Unless Sessions complies with the House of Representatives request for the Utah election results , ##COERCED STATE (SPECIFIC)
+ I will withdraw my support for Rep. Mike Honda of California ##COERCED STATE (SPECIFIC)
+ and guarantee ##COERCED STATE (SPECIFIC)
+ it will not be subject to any possible electoral fraud , ##COERCED STATE (SPECIFIC)
+ Bassett said in a release from her attorneys . ##BOUNDED EVENT (SPECIFIC)
+Bassett also took a final shot at his Steve Bannon-like responses to the scandal ##BOUNDED EVENT (SPECIFIC)
+ surrounding his supposed relationship with Trump . ##BASIC STATE
+A Bozeman , Montana woman named ##BASIC STATE
+ Lisa Patel asked Sessions on Monday ##BOUNDED EVENT (SPECIFIC)
+ to withdraw her request ##COERCED STATE (SPECIFIC)
+ to represent her in Utah , ##COERCED STATE (SPECIFIC)
+ citing national and state law . ##BOUNDED EVENT (SPECIFIC)
+I said , ##BOUNDED EVENT (SPECIFIC)
+ Im not going to use the verb [ ##COERCED STATE (SPECIFIC)
+ to persuade Sessions of my place of work ] ##COERCED STATE (SPECIFIC)
+ and I want to retain my best interest ##BASIC STATE
+ when I get involved in these federal issues , ##COERCED STATE (SPECIFIC)
+ she told a local reporter on Monday afternoon . ##BOUNDED EVENT (SPECIFIC)
+But on this issue Im concerned about the consequences ##BASIC STATE
+ that Steve Bannon-type attorneys go through at the federal level , ##GENERIC SENTENCE (DYNAMIC)
+ who confront them in a number of capacities . ##GENERIC SENTENCE (DYNAMIC)
+Patel said ##BOUNDED EVENT (SPECIFIC)
+ that she has already given her name to Sessions lawyers on Friday ##PERFECT COERCED STATE (SPECIFIC)
+ to let them know ##COERCED STATE (SPECIFIC)
+ what she wants to do to stop Bannon from interfering with law enforcement at the state level , ##BASIC STATE
+ says her release . ##BASIC STATE
+Bassett is of Indian descent . ##BASIC STATE
+After receiving the Blueberry Regional Literacy Award last month from the Minnesota School of Public Affairs , ##BOUNDED EVENT (SPECIFIC)
+ she was among the first ##BASIC STATE
+ to put her name to Sessions . ##BOUNDED EVENT (GENERIC)
+She tells Northwest Media ##BOUNDED EVENT (SPECIFIC)
+ that shes pleased ##BASIC STATE
+ she has a chance ##BASIC STATE
+ to voice her opinion in a televised debate with an Indigenous lawmaker from California . ##COERCED STATE (SPECIFIC)
+
+***0 3 5 2 3 2 1 5 YES ML NO 0 0 ALGORITHM

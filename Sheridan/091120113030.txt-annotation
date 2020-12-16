@@ -1,0 +1,84 @@
+1 1 0 0 elab
+2 2 0 1 attr
+
+3 5 2 2 elab
+4 5 3 3 elab
+5 5 4 4 elab
+
+6 10 5 5 elab
+6 9 10 10 ce
+6 6 7 9 attr
+8 9 7 7 elab
+8 8 9 9 elab
+
+11 15 0 2 elab
+11 11 12 13 elab
+14 15 13 13 elab
+13 13 12 12 elab
+15 15 14 14 elab
+
+16 22 11 15 elab
+16 16 17 22 attr
+19 22 17 18 ce
+18 18 17 17 elab
+19 19 21 21 same
+20 20 19 22 examp
+22 22 21 21 elab
+
+23 27 11 15 elab
+24 24 23 23 elab
+24 24 25 26 contr
+26 26 25 25 elab
+27 27 23 26 elab
+
+28 30 23 27 elab
+29 29 28 28 elab
+30 30 28 29 examp
+
+31 33 23 27 elab
+32 32 31 31 elab
+33 33 31 32 attr
+
+34 35 31 33 elab
+35 35 34 34 elab
+
+36 38 31 33 elab
+36 36 37 38 cond
+38 38 37 37 elab
+
+39 46 36 38 elab
+39 39 40 41 elab
+41 41 40 40 elab //3
+
+42 42 40 41 elab
+
+43 46 39 42 contr
+44 44 43 43 elab
+43 43 45 45 same
+46 46 45 45 elab
+
+47 49 31 33 gen
+48 48 47 47 elab
+47 48 49 49 ve
+
+50 55 47 49 elab
+51 51 50 50 elab
+52 52 51 51 elab
+51 52 53 55 contr
+54 54 53 53 elab
+55 55 53 54 elab
+
+56 56 51 55 contr
+
+57 59 6 10 elab
+57 57 58 59 contr
+59 59 58 58 elab
+60 63 57 59 elab
+60 60 61 63 contr
+62 62 61 61 elab
+63 63 62 62 elab
+
+64 66 60 63 elab
+64 64 65 65 elab
+66 66 64 65 attr
+

@@ -1,0 +1,67 @@
+That said, ##BOUNDED EVENT (SPECIFIC)
+it appears ##BASIC STATE 
+Scalia wasn't the first prominent figure to take a position in the court ##BASIC STATE
+that lends clerestory possible grounds for expansion of powers of the Commerce Clause by clamping down on the availability of intoxicants ##UNBOUNDED EVENT (SPECIFIC)
+at a point of medicinal abuse. ##OTHER
+Here's a sampling of quotes from them ##BASIC STATE
+A guy ##OTHER
+who thinks ##GENERIC SENTENCE (DYNAMIC)
+he can only pick up something ##COERCED STATE (GENERIC)
+that doesn't violate ##COERCED STATE (GENERIC)
+his drug policy could be considered a federal criminal. ##GENERIC SENTENCE (STATIC)
+That's the prevailing thinking from many in the political right. ##GENERIC SENTENCE (STATIC)
+There are people in this court thinking ##GENERIC SENTENCE (STATIC)
+(that should apply to myself, too) that the gentry ##COERCED STATE (SPECIFIC)
+(control-grabbing surly) ##GENERIC SENTENCE (DYNAMIC)
+represents a disordered state of affairs. ##BASIC STATE //4
+There are those arguing ##GENERIC SENTENCE (STATIC)
+that if Scalia were to rule this way ##COERCED STATE (SPECIFIC)
+it would very quickly ##OTHER
+become clear to me ##COERCED STATE (SPECIFIC)
+that the federal government would restrict access to such things as mass incarceration and public school curriculum. ##COERCED STATE (SPECIFIC)*
+But he already has. ##PERFECT COERCED STATE (SPECIFIC)
+There would be a lot of states and some really, really strong objections to his ruling. ##GENERIC SENTENCE (STATIC)*
+But any number of states would be very likely to side with the man, ##GENERIC SENTENCE (STATIC)
+rather than overturn his ruling. ##COERCED STATE (GENERIC) //4
+There are other conservatives ##GENERIC SENTENCE (STATIC)
+arguing that if there is a widespread demand for marijuana in the United States ##UNBOUNDED EVENT (GENERIC)
+this would give our government too much power ##COERCED STATE (GENERIC)
+and reach too far ahead of state drug policies. ##COERCED STATE (GENERIC)
+I don't mean to deny someone's right to do whatever they please, ##BASIC STATE
+but it would be very much within the bounds of their meaning and needs. ##GENERIC SENTENCE (STATIC)
+Thus this can't come up as a certainty. ##COERCED STATE (GENERIC)
+It is a quasi-question ##GENERIC SENTENCE (STATIC) 
+for everyone to consider, ##COERCED STATE (GENERIC) //2
+but the only reason ##OTHER
+I don't believe ##BASIC STATE
+anyone has a legal right to possession of unadulterated marijuana ##GENERIC SENTENCE (STATIC)*
+is that they are going to be making a decision ##COERCED STATE (GENERIC)
+that's impervious to their laws. ##GENERIC SENTENCE (STATIC)
+Some individuals in this court's thinking ##OTHER*
+have expressed intense opposition to the federal enforcement of marijuana laws. ##PERFECT COERCED STATE (SPECIFIC)
+Remarks from jurists such as Justices Samuel Alito and Sandra Day O'Connor highlight the damage ##BASIC STATE //4
+that the federal prosecutions and government-sponsored mass incarceration of people ##OTHER
+seeking marijuana possession points to. ##UNBOUNDED EVENT (GENERIC) //4
+The question is whether we have the power to arrest, search and ultimately imprison these individuals as marijuana traffickers. ##GENERIC SENTENCE (STATIC)
+They are not just repeating the same choice ##COERCED STATE (GENERIC)
+made by President Obama the other day. ##BOUNDED EVENT (SPECIFIC)
+The federal state marijuana laws have already targeted thousands of individuals and businesses. ##PERFECT COERCED STATE (SPECIFIC)
+It is a big issue for the courts and an area of law ##GENERIC SENTENCE (STATIC)
+that isn't likely to change anytime soon. ##GENERIC SENTENCE (STATIC)
+The financial rationale ##OTHER
+that this comes down to is not likely to change. ##GENERIC SENTENCE (STATIC)
+For those of you ##OTHER
+who track the transaction between the purchase of a computerized screwdriver and the purposes ##GENERIC SENTENCE (DYNAMIC)
+of making it, ##UNBOUNDED EVENT (GENERIC)
+you might be forgiven for thinking ##COERCED STATE (GENERIC)
+that it's just the virtual lender ##GENERIC SENTENCE (STATIC)
+trying to get you to buy the printer right now. ##UNBOUNDED EVENT (GENERIC) //4
+It's just not the case. ##GENERIC SENTENCE (STATIC)
+There is a market in that kind of stuff. ##GENERIC SENTENCE (STATIC)
+The financial and legal benefits of marijuana remain both strong arguments. ##GENERIC SENTENCE (STATIC) 
+And there is no question, ##GENERIC SENTENCE (STATIC)
+of course, ##OTHER
+that if consumers wanted to get someone to buy them, ##COERCED STATE (GENERIC)
+they would have done so ##COERCED STATE (GENERIC)
+and shouldn't have needed the previous wave of easy-to-access criminalization. ##GENERIC SENTENCE (STATIC) //4
+***0 5 0 0 0 0 0 0 YES ML NO UNCLEAR 2 4 3 4 ALGORITHM 

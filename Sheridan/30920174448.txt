@@ -1,0 +1,66 @@
+This is the conclusion of a new scholarly paper. ##BASIC STATE
+But how should this affect American literature? ##QUESTION
+Why are American literary voices so often pilloried for using their publications as substitutes for third party artists ##QUESTION
+(e.g. authors, classical and contemporary artists) ##OTHER
+in their argument or theme? ##OTHER
+One explanation can be found in the work of Victoria Soderlund and Alexandre dos Ribeins, ##COERCED STATE (GENERIC)
+authors of The Final Familiar and The Eighth Typographic Reversal of Hemingway and Vermeer. ##OTHER
+Soderlund and dos Ribeins argue ##UNBOUNDED EVENT (SPECIFIC)
+that part of the problem is the historically inaccurate depiction of literature in its more explicit form, ##GENERIC SENTENCE (STATIC)
+that which is supposed to be based on the people involved ##GENERIC SENTENCE (STATIC)
+and that too often seems to be based on either a joke or a suggestion ##GENERIC SENTENCE (STATIC)
+that everything is fancy. ##GENERIC SENTENCE (STATIC)
+The authors point out ##UNBOUNDED EVENT (SPECIFIC)
+that they have noticed another example: ##PERFECT COERCED STATE (SPECIFIC)
+how much the same literature influences Indian lit, ##GENERIC SENTENCE (DYNAMIC)
+literature with ongoing references to the struggles of women and children, ##GENERIC SENTENCE (STATIC)
+children born without fathers. ##GENERIC SENTENCE (STATIC)
+In the West, ##OTHER
+time for comparison between a savage or shining personality and an encyclopedic knowledge of a subject ##OTHER
+is greatly devalued, ##GENERIC SENTENCE (DYNAMIC)
+both in the sense ##OTHER
+that it is mistaken to assume ##GENERIC SENTENCE (STATIC)
+that everything in literature is gory, ##GENERIC SENTENCE (STATIC)
+and in the sense that it is merely another example of the myth of time. ##GENERIC SENTENCE (STATIC)
+They seem to say ##BASIC STATE
+that in their first world literature, ##OTHER
+tradition tries to line up both claims together ##GENERIC SENTENCE (DYNAMIC)
+and doesnt love to use them at all in a purely artistic way. ##GENERIC SENTENCE (STATIC)
+Their argument goes like this: ##BASIC STATE
+why do Indian and Pakistani novels and novels ##QUESTION
+that lie beyond chronological point of view ##GENERIC SENTENCE (DYNAMIC)
+always seem to be the most considered of the key contemporary authors? ##GENERIC SENTENCE (DYNAMIC)
+Why are American novels and novels popular with western audiences? ##QUESTION*
+These are facts ##GENERIC SENTENCE (STATIC)
+which only critics ##OTHER
+(and thus intellectual audiences) ##OTHER
+can examine and categorize in reliable and analytic ways, ##COERCED STATE (GENERIC)
+no matter ##OTHER
+how onerous and with corrupt personal and professional charges they seem, ##GENERIC SENTENCE (STATIC)
+simply because they are what they are. ##GENERIC SENTENCE (STATIC)
+This is not a trivial point, ##BASIC STATE
+but Soderlund and dos Ribeins are on it. ##BASIC STATE
+The case of classical literature may have struck a chord, ##COERCED STATE (GENERIC)
+but did not inevitably find relevance in American and Indian media, ##COERCED STATE (GENERIC)
+among others? ##QUESTION* //3
+Most of the authors focused their arguments on explicit bodies of written language ##UNBOUNDED EVENT (GENERIC)
+(eg, Leo Tolstoy) ##OTHER
+and scarcely stretched as far as the precise meanings of literary ideas, ##COERCED STATE (GENERIC)
+especially those wholly related to the work of economics, economics, economics and economics ideas from the book or other approach ##OTHER*
+which are the subject matter of the analysis. ##GENERIC SENTENCE (STATIC)
+The founders of non-fiction books sometimes claimed to investigate Americas behalf, ##COERCED STATE (GENERIC)*
+but these authors used contradictory arguments ##GENERIC SENTENCE (DYNAMIC)
+to bring to the reader a book ##UNBOUNDED EVENT (GENERIC)
+that lay out the biggest obstacles to increasing writers. ##UNBOUNDED EVENT (GENERIC)*
+Soderlund and dos Ribeins basically explained the arguments in this way, ##BOUNDED EVENT (SPECIFIC)
+a bit like one half of a Bible, ##OTHER
+but that they were actually far more interesting than the other. ##BASIC STATE* //3
+Although the author and reader alike might disagree on whether this was a good or bad idea, ##COERCED STATE (GENERIC)
+the arguments were very convincing, ##BASIC STATE
+as much as they were useful. ##BASIC STATE
+I have no great problem with Soderlunds arguments, ##BASIC STATE
+or indeed I have any doubt their validity. ##BASIC STATE
+Maybe this means American prose is a very old and very reliable form of literature in the 21st century. ##GENERIC SENTENCE (STATIC)
+But I doubt ##BASIC STATE //4
+this is a great problem. ##BASIC STATE
+***0 5 0 0 0 0 0 0 NO NA YES 0 2 1 3 5 ALGORITHM
