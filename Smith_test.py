@@ -504,7 +504,7 @@ def coh_counts(Coh_container, Doc_container, Coh_narrative_counts, Coh_no_narrat
                     else:
                         Coh_narrative_counts[element[4]] += 1
             else:
-                for element in G_Coh_container[annotator][number]:
+                for element in Coh_container[annotator][number]:
                     if element[4] not in Coh_no_narrative_counts:
                         Coh_no_narrative_counts[element[4]] = 1
                     else:
@@ -807,52 +807,44 @@ for k in G_Coh_argument_counts_clean:
 # should have more longer-range coherence relations, suggesting they are talking
 # about a central topic
 
-### Clean up and rename coherence relations - narrativity, human
+### function that gets lengths of relations for narrative and non-narrative docs
+def get_coh_narrative_lengths(Coh_container, Doc_container, no_narrative_lengths, narrative_lengths):
+    for annotator in Coh_container:
+        for number in Coh_container[annotator]:
+            for relation in Coh_container[annotator][number]:
+                try:
+                    tmp = [int(i) for i in relation[0:4]]
+                    min = np.min(tmp)
+                    max = np.max(tmp)
+                    if Doc_container[annotator][number][3] != '0': # if narrative
+                        if relation[4] in narrative_lengths:
+                            narrative_lengths[relation[4]].append(max-min)
+                        else:
+                            diff = max-min
+                            narrative_lengths[relation[4]] = [diff]
+                    else:
+                        if relation[4] in no_narrative_lengths:
+                            no_narrative_lengths[relation[4]].append(max-min)
+                        else:
+                            diff = max-min
+                            no_narrative_lengths[relation[4]] = [diff]
+                except: # because sometimes there's ? instead of a segment number
+                    pass
 
+
+### Get coherence relation lengths for human narrative docs
 H_narrative_lengths = {}
 H_no_narrative_lengths = {}
+get_coh_narrative_lengths(H_Coh_container, H_Doc_container, H_no_narrative_lengths, H_narrative_lengths)
 
-for annotator in H_Coh_container:
-    for number in H_Coh_container[annotator]:
-        for relation in H_Coh_container[annotator][number]:
-            try:
-                tmp = [int(i) for i in relation[0:4]]
-                min = np.min(tmp)
-                max = np.max(tmp)
-                if H_Doc_container[annotator][number][3] != '0': # if narrative
-                    if relation[4] in H_narrative_lengths:
-                        H_narrative_lengths[relation[4]].append(max-min)
-                    else:
-                        diff = max-min
-                        H_narrative_lengths[relation[4]] = [diff]
-                else:
-                    if relation[4] in H_no_narrative_lengths:
-                        H_no_narrative_lengths[relation[4]].append(max-min)
-                    else:
-                        diff = max-min
-                        H_no_narrative_lengths[relation[4]] = [diff]
-            except: # because sometimes there's ? instead of a segment number
-                pass
+### get coherence relation lengths for grover narrative docs
+G_narrative_lengths = {}
+G_no_narrative_lengths = {}
+get_coh_narrative_lengths(G_Coh_container, G_Doc_container, G_no_narrative_lengths, G_narrative_lengths)
 
-H_Coh_narrative_lengths_clean = {
-        'Cause/effect': [],
-        'Elaboration': [],
-        'Same': [],
-        'Attribution': [],
-        'Degenerate': [],
-        'Similarity': [],
-        'Contrast': [],
-        'Temporal sequence': [],
-        'Violated expectation': [],
-        'Example': [],
-        'Condition': [],
-        'Generalization': [],
-        'Repetition': []
-        }
 
-H_Coh_no_narrative_lengths_clean = copy.deepcopy(H_Coh_narrative_lengths_clean)
-
-def clean_up_coh_lengths(old_dict,clean_dict):
+### clean up coherence relation lengths 
+def clean_up_coh_lengths(old_dict, clean_dict):
     for relation in old_dict.keys():
         if relation in ['ce', 'cex', 'cew', 'cer']:
             for element in old_dict[relation]:
@@ -894,18 +886,51 @@ def clean_up_coh_lengths(old_dict,clean_dict):
             for element in old_dict[relation]:
                 clean_dict['Repetition'].append(element)
 
+### define clean dictionaries
+H_Coh_narrative_lengths_clean = {
+        'Cause/effect': [],
+        'Elaboration': [],
+        'Same': [],
+        'Attribution': [],
+        'Degenerate': [],
+        'Similarity': [],
+        'Contrast': [],
+        'Temporal sequence': [],
+        'Violated expectation': [],
+        'Example': [],
+        'Condition': [],
+        'Generalization': [],
+        'Repetition': []
+        }
+H_Coh_no_narrative_lengths_clean = copy.deepcopy(H_Coh_narrative_lengths_clean)
+G_Coh_narrative_lengths_clean = copy.deepcopy(H_Coh_narrative_lengths_clean)
+G_Coh_no_narrative_lengths_clean = copy.deepcopy(H_Coh_narrative_lengths_clean)
+
+### clean up coh_lengths for everything
+clean_up_coh_lengths(G_narrative_lengths,G_Coh_narrative_lengths_clean)
+clean_up_coh_lengths(G_no_narrative_lengths,G_Coh_no_narrative_lengths_clean)
 clean_up_coh_lengths(H_narrative_lengths,H_Coh_narrative_lengths_clean)
 clean_up_coh_lengths(H_no_narrative_lengths,H_Coh_no_narrative_lengths_clean)
 
-### Calculate average coherence relation lengths - narrativity, human
+### helper that calculates average coherence relation length, given dict of coh lengths
+def avg_coh_length(avg_lengths, lengths_clean):
+    for relation in lengths_clean:
+        avg_lengths[relation] = np.mean(lengths_clean[relation])
 
+
+### Calculate average coherence relation lengths - narrativity, human and grover
 H_Coh_narrative_avg_lengths = {}
-for relation in H_Coh_narrative_lengths_clean:
-    H_Coh_narrative_avg_lengths[relation] = np.mean(H_Coh_narrative_lengths_clean[relation])
+avg_coh_length(H_Coh_narrative_avg_lengths, H_Coh_narrative_lengths_clean)
 
 H_Coh_no_narrative_avg_lengths = {}
-for relation in H_Coh_no_narrative_lengths_clean:
-    H_Coh_no_narrative_avg_lengths[relation] = np.mean(H_Coh_no_narrative_lengths_clean[relation])
+avg_coh_length(H_Coh_no_narrative_avg_lengths, H_Coh_no_narrative_lengths_clean)
+
+G_Coh_narrative_avg_lengths = {}
+avg_coh_length(G_Coh_narrative_avg_lengths, G_Coh_narrative_lengths_clean)
+
+G_Coh_no_narrative_avg_lengths = {}
+avg_coh_length(G_Coh_no_narrative_avg_lengths, G_Coh_no_narrative_lengths_clean)
+
 
 ### Plot average coherence relation lengths divided by narrativity - Human
 
@@ -927,63 +952,6 @@ for relation in H_Coh_no_narrative_lengths_clean:
 # plt.tight_layout()
 # plt.show()
 
-### Clean up and rename coherence relations - narrativity, Grover
-
-G_narrative_lengths = {}
-G_no_narrative_lengths = {}
-
-for annotator in G_Coh_container:
-    for number in G_Coh_container[annotator]:
-        for relation in G_Coh_container[annotator][number]:
-            try:
-                tmp = [int(i) for i in relation[0:4]]
-                min = np.min(tmp)
-                max = np.max(tmp)
-                if G_Doc_container[annotator][number][3] != '0': # if narrative
-                    if relation[4] in G_narrative_lengths:
-                        G_narrative_lengths[relation[4]].append(max-min)
-                    else:
-                        diff = max-min
-                        G_narrative_lengths[relation[4]] = [diff]
-                else:
-                    if relation[4] in G_no_narrative_lengths:
-                        G_no_narrative_lengths[relation[4]].append(max-min)
-                    else:
-                        diff = max-min
-                        G_no_narrative_lengths[relation[4]] = [diff]
-            except: # because sometimes there's ? instead of a segment number
-                pass
-
-G_Coh_narrative_lengths_clean = {
-        'Cause/effect': [],
-        'Elaboration': [],
-        'Same': [],
-        'Attribution': [],
-        'Degenerate': [],
-        'Similarity': [],
-        'Contrast': [],
-        'Temporal sequence': [],
-        'Violated expectation': [],
-        'Example': [],
-        'Condition': [],
-        'Generalization': [],
-        'Repetition': []
-        }
-
-G_Coh_no_narrative_lengths_clean = copy.deepcopy(G_Coh_narrative_lengths_clean)
-
-clean_up_coh_lengths(G_narrative_lengths,G_Coh_narrative_lengths_clean)
-clean_up_coh_lengths(G_no_narrative_lengths,G_Coh_no_narrative_lengths_clean)
-
-### Calculate average coherence relation lengths - narrativity, Grover
-
-G_Coh_narrative_avg_lengths = {}
-for relation in G_Coh_narrative_lengths_clean:
-    G_Coh_narrative_avg_lengths[relation] = np.mean(G_Coh_narrative_lengths_clean[relation])
-
-G_Coh_no_narrative_avg_lengths = {}
-for relation in G_Coh_no_narrative_lengths_clean:
-    G_Coh_no_narrative_avg_lengths[relation] = np.mean(G_Coh_no_narrative_lengths_clean[relation])
 
 ### Plot average coherence relation lengths divided by narrativity - Grover
 
