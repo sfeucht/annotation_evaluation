@@ -23,10 +23,9 @@ file_path = os.path.abspath(__file__)
 path = os.path.dirname(file_path)+"/"
 
 ### Extract and print out document-annotator assignments
-
 regex = re.compile('[^a-zA-Z]')
 annotators = {"Sheridan":[],"Muskaan":[],"Kate":[]}
-with open('annotation_info.csv','r') as f:
+with open('info.csv','r') as f: ## THIS WAS annotation_info, but not in directory?
     reader = csv.reader(f)
     for idx,row in enumerate(reader):
         if idx != 0 and len(row) > 1 and "file name" not in row:
@@ -166,13 +165,13 @@ print("***")
 
 print("Human")
 for element in H_SE_container:
-    print(element)
-    print(len(H_SE_container[element]))
+    print("  " + element)
+    print("  " + str(len(H_SE_container[element])))
 
 print("Grover")
 for element in G_SE_container:
-    print(element)
-    print(len(G_SE_container[element]))
+    print("  " + element)
+    print("  " + str(len(G_SE_container[element])))
 
 print("***")
 print("Coherence")
@@ -180,49 +179,67 @@ print("***")
 
 print("Human")
 for element in H_Coh_container:
-    print(element)
-    print(len(H_Coh_container[element]))
+    print("  " + element)
+    print("  " + str(len(H_Coh_container[element])))
 
 print("Grover")
 for element in G_Coh_container:
-    print(element)
-    print(len(G_Coh_container[element]))
+    print("  " + element)
+    print("  " + str(len(G_Coh_container[element])))
 
-### Narrativity distribution for human documents
+################################################################################
 
-# get counts for SE types for all narrative docs
-# weight by amount that is narraive
+### Narrativity distribution for Human and Grover documents
+
+### function that gets counts for SE types for all narrative docs 
+# gets counts for SE types for all narrative docs
+# weigh by amount that is narrative
+def narrative_counts(Doc_container, SE_container, no_narrative_counts, narrative_counts, narrativity_counts):
+    for annotator in SE_container.keys():
+        for doc_id in SE_container[annotator].keys():
+            ratings = Doc_container[annotator][doc_id]
+            SE_list = SE_container[annotator][doc_id]
+
+            narrativity_counts[int(ratings[3].strip())] += 1
+
+            if ratings[3] == '0': # if no narrative
+                for SE in SE_list:
+                    if SE.strip() in no_narrative_counts.keys():
+                        no_narrative_counts[SE.strip()] += 1
+                    else:
+                        no_narrative_counts[SE.strip()] = 1
+            elif ratings[3] in ['1', '2', '3', '4', '5']: # if there is narrative
+                for SE in SE_list:
+                    if SE.strip() in narrative_counts.keys():
+                        narrative_counts[SE.strip()] += 1 * (int(ratings[3]) / 5)
+                    else:
+                        narrative_counts[SE.strip()] = 1 * (int(ratings[3]) / 5)
+    
+### use function to calculate narrativity distribution for human documents
 H_no_narrative_counts = {}
 H_narrative_counts = {}
 H_narrativity_counts = {i:0 for i in range(6)}
+narrative_counts(H_Doc_container, H_SE_container, H_no_narrative_counts, H_narrative_counts, H_narrativity_counts)
 
-for annotator in H_SE_container.keys():
+### same for grover documents
+G_no_narrative_counts = {}
+G_narrative_counts = {}
+G_narrativity_counts = {i:0 for i in range(6)}
+narrative_counts(G_Doc_container, G_SE_container, G_no_narrative_counts, G_narrative_counts, G_narrativity_counts)
 
-    for number in H_SE_container[annotator].keys():
-        ratings = H_Doc_container[annotator][number]
-        SE_list = H_SE_container[annotator][number]
 
-        H_narrativity_counts[int(ratings[3].strip())] += 1
-
-        if ratings[3] == '0': # if no narrative
-            for SE in SE_list:
-                if SE.strip() in H_no_narrative_counts.keys():
-                    H_no_narrative_counts[SE.strip()] += 1
-                else:
-                    H_no_narrative_counts[SE.strip()] = 1
-        elif ratings[3] in ['1', '2', '3', '4', '5']: # if there is narrative
-            for SE in SE_list:
-                if SE.strip() in H_narrative_counts.keys():
-                    H_narrative_counts[SE.strip()] += 1 * (int(ratings[3]) / 5)
-                else:
-                    H_narrative_counts[SE.strip()] = 1 * (int(ratings[3]) / 5)
-
+### print the narrativity distributions for human and grover
 print("***")
 print("Human Narrativity distribution")
 print("***")
 print(H_narrativity_counts)
 
-### plot the narrativity distribution
+print("***")
+print("Grover Narrativity distribution")
+print("***")
+print(G_narrativity_counts)
+
+### plot the narrativity distributions for human and grover
 
 # plt.bar(H_narrativity_counts.keys(), H_narrativity_counts.values(), color='b')
 # plt.xticks(list(H_narrativity_counts.keys()),list(H_narrativity_counts.keys()), rotation='vertical',fontsize=14)
@@ -233,26 +250,25 @@ print(H_narrativity_counts)
 # plt.tight_layout()
 # plt.show()
 
-### Clean up and rename Situation Entity annotations - Humans
+# plt.bar(G_narrativity_counts.keys(), G_narrativity_counts.values(), color='g')
+# plt.xticks(list(G_narrativity_counts.keys()),list(G_narrativity_counts.keys()), rotation='vertical',fontsize=14)
+# plt.axis(ymax=35)
+# plt.xlabel("Proportion narrative in a document \n(0: none; 5: all)",fontsize=18)
+# plt.ylabel("Frequency",fontsize=18)
+# plt.title('Grover-generated documents',fontsize=20)
+# plt.tight_layout()
+# plt.show()
+
+
+################################################################################
+
+### Clean up and rename Situation Entity annotations - Human and Grover
 
 # HYPOTHESIS: narrative documents should have higher avg bounded events and states
 # average up for bounded events and states for both dictionaries
 
-H_no_narrative_counts_clean = {
-    'BOUNDED EVENT': 0,
-    'UNBOUNDED EVENT': 0,
-    'BASIC STATE': 0,
-    'COERCED STATE': 0,
-    'PERFECT COERCED STATE': 0,
-    'GENERIC SENTENCE': 0,
-    'GENERALIZING SENTENCE': 0,
-    'QUESTION': 0,
-    'IMPERATIVE': 0,
-    'OTHER': 0,
-    'NONSENSE': 0
-}
-H_narrative_counts_clean = copy.deepcopy(H_no_narrative_counts_clean)
-
+### function that takes an old_dict and a clean_dict and loads old into clean
+### clean_dict should have keys defined already for each SE type
 def clean_up_SE_types(old_dict, clean_dict):
     for SE_type in old_dict.keys():
         if SE_type in clean_dict.keys():
@@ -277,9 +293,32 @@ def clean_up_SE_types(old_dict, clean_dict):
     for k in clean_dict.keys():
         clean_dict[k] /= sum(old_dict.values())
 
-# count up for non narrative texts
+### define clean dictionaries for human and grover, narrative and no narrative
+H_no_narrative_counts_clean = {
+    'BOUNDED EVENT': 0,
+    'UNBOUNDED EVENT': 0,
+    'BASIC STATE': 0,
+    'COERCED STATE': 0,
+    'PERFECT COERCED STATE': 0,
+    'GENERIC SENTENCE': 0,
+    'GENERALIZING SENTENCE': 0,
+    'QUESTION': 0,
+    'IMPERATIVE': 0,
+    'OTHER': 0,
+    'NONSENSE': 0
+}
+H_narrative_counts_clean = copy.deepcopy(H_no_narrative_counts_clean)
+G_no_narrative_counts_clean = copy.deepcopy(H_no_narrative_counts_clean)
+G_narrative_counts_clean = copy.deepcopy(H_no_narrative_counts_clean)
+
+### clean up human no narrative and narrative SE counts
 clean_up_SE_types(H_no_narrative_counts, H_no_narrative_counts_clean)
 clean_up_SE_types(H_narrative_counts, H_narrative_counts_clean)
+
+### clean up grover no narrative and narrative SE counts
+clean_up_SE_types(G_no_narrative_counts, G_no_narrative_counts_clean)
+clean_up_SE_types(G_narrative_counts, G_narrative_counts_clean)
+
 
 ### Plot Situation Entity distribution divided by narrativity - Human
 
@@ -301,75 +340,6 @@ clean_up_SE_types(H_narrative_counts, H_narrative_counts_clean)
 # plt.title('Docs With Narratives - Human',fontsize=20)
 # plt.tight_layout()
 # plt.show()
-
-### Narrativity distribution for Grover documents
-
-# get counts for SE types for all narrative docs
-# weight by amount that is narraive
-G_no_narrative_counts = {}
-G_narrative_counts = {}
-G_narrativity_counts = {i:0 for i in range(6)}
-
-for annotator in G_SE_container.keys():
-
-    for number in G_SE_container[annotator].keys():
-        ratings = G_Doc_container[annotator][number]
-        SE_list = G_SE_container[annotator][number]
-
-        G_narrativity_counts[int(ratings[3].strip())] += 1
-
-        if ratings[3] == '0': # if no narrative
-            for SE in SE_list:
-                if SE.strip() in G_no_narrative_counts.keys():
-                    G_no_narrative_counts[SE.strip()] += 1
-                else:
-                    G_no_narrative_counts[SE.strip()] = 1
-        elif ratings[3] in ['1', '2', '3', '4', '5']: # if there is narrative
-            for SE in SE_list:
-                if SE.strip() in G_narrative_counts.keys():
-                    G_narrative_counts[SE.strip()] += 1 * (int(ratings[3]) / 5)
-                else:
-                    G_narrative_counts[SE.strip()] = 1 * (int(ratings[3]) / 5)
-
-print("***")
-print("Grover Narrativity distribution")
-print("***")
-print(G_narrativity_counts)
-
-### plot the narrativity distribution
-
-# plt.bar(G_narrativity_counts.keys(), G_narrativity_counts.values(), color='g')
-# plt.xticks(list(G_narrativity_counts.keys()),list(G_narrativity_counts.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=35)
-# plt.xlabel("Proportion narrative in a document \n(0: none; 5: all)",fontsize=18)
-# plt.ylabel("Frequency",fontsize=18)
-# plt.title('Grover-generated documents',fontsize=20)
-# plt.tight_layout()
-# plt.show()
-
-### Clean up and rename Situation Entity annotations - Humans
-
-# HYPOTHESIS: narrative documents should have higher avg bounded events and states
-# average up for bounded events and states for both dictionaries
-
-G_no_narrative_counts_clean = {
-    'BOUNDED EVENT': 0,
-    'UNBOUNDED EVENT': 0,
-    'BASIC STATE': 0,
-    'COERCED STATE': 0,
-    'PERFECT COERCED STATE': 0,
-    'GENERIC SENTENCE': 0,
-    'GENERALIZING SENTENCE': 0,
-    'QUESTION': 0,
-    'IMPERATIVE': 0,
-    'OTHER': 0,
-    'NONSENSE': 0
-}
-G_narrative_counts_clean = copy.deepcopy(G_no_narrative_counts_clean)
-
-# count up for non narrative texts
-clean_up_SE_types(G_no_narrative_counts, G_no_narrative_counts_clean)
-clean_up_SE_types(G_narrative_counts, G_narrative_counts_clean)
 
 ### Plot Situation Entity distribution divided by narrativity - Grover
 
