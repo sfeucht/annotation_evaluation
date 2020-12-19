@@ -241,23 +241,23 @@ print(G_narrativity_counts)
 
 ### plot the narrativity distributions for human and grover
 
-# plt.bar(H_narrativity_counts.keys(), H_narrativity_counts.values(), color='b')
-# plt.xticks(list(H_narrativity_counts.keys()),list(H_narrativity_counts.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=35)
-# plt.xlabel("Proportion narrative in a document \n(0: none; 5: all)",fontsize=18)
-# plt.ylabel("Frequency",fontsize=18)
-# plt.title('Human-generated documents',fontsize=20)
-# plt.tight_layout()
-# plt.show()
+plt.bar(H_narrativity_counts.keys(), H_narrativity_counts.values(), color='b')
+plt.xticks(list(H_narrativity_counts.keys()),list(H_narrativity_counts.keys()), rotation='vertical',fontsize=14)
+plt.axis(ymax=35)
+plt.xlabel("Proportion narrative in a document \n(0: none; 5: all)",fontsize=18)
+plt.ylabel("Frequency",fontsize=18)
+plt.title('Human-generated documents',fontsize=20)
+plt.tight_layout()
+plt.show()
 
-# plt.bar(G_narrativity_counts.keys(), G_narrativity_counts.values(), color='g')
-# plt.xticks(list(G_narrativity_counts.keys()),list(G_narrativity_counts.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=35)
-# plt.xlabel("Proportion narrative in a document \n(0: none; 5: all)",fontsize=18)
-# plt.ylabel("Frequency",fontsize=18)
-# plt.title('Grover-generated documents',fontsize=20)
-# plt.tight_layout()
-# plt.show()
+plt.bar(G_narrativity_counts.keys(), G_narrativity_counts.values(), color='g')
+plt.xticks(list(G_narrativity_counts.keys()),list(G_narrativity_counts.keys()), rotation='vertical',fontsize=14)
+plt.axis(ymax=35)
+plt.xlabel("Proportion narrative in a document \n(0: none; 5: all)",fontsize=18)
+plt.ylabel("Frequency",fontsize=18)
+plt.title('Grover-generated documents',fontsize=20)
+plt.tight_layout()
+plt.show()
 
 
 ################################################################################
@@ -320,47 +320,29 @@ clean_up_SE_types(G_no_narrative_counts, G_no_narrative_counts_clean)
 clean_up_SE_types(G_narrative_counts, G_narrative_counts_clean)
 
 
+### function that takes two dicts with identical keys and plots them with given colors
+def two_bar_dict_plot(dict1, dict2, label1, label2, color1, color2, title, ylabel):
+    x = np.arange(len(dict1.keys()))  # the label locations
+    width = 0.35  # the width of the bars
+    fig, ax = plt.subplots()
+    ax.bar(x - width/2, dict1.values(), width, label=label1, color=color1)
+    ax.bar(x + width/2, dict2.values(), width, label=label2, color=color2)
+    ax.set_ylabel(ylabel)
+    ax.set_title(title)
+    ax.set_xticks(x)
+    ax.set_xticklabels(dict1.keys(), rotation=90)
+    ax.legend()
+    fig.tight_layout()
+    plt.show()
+
 ### Plot Situation Entity distribution divided by narrativity - Human
-
-# max_num = np.max([max(list(H_no_narrative_counts_clean.values())),max(list(H_narrative_counts_clean.values()))])
-# plt.bar(H_no_narrative_counts_clean.keys(), H_no_narrative_counts_clean.values(), color='b')
-# plt.xticks(list(H_no_narrative_counts_clean.keys()),list(H_no_narrative_counts_clean.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=0.3)
-# plt.xlabel("Situation Entity Type",fontsize=18)
-# plt.ylabel("Proportion of non-narrative SEs",fontsize=18)
-# plt.title('Docs Without Narratives - Human',fontsize=20)
-# plt.tight_layout()
-# plt.show()
-
-# plt.bar(H_narrative_counts_clean.keys(), H_narrative_counts_clean.values(), color='b')
-# plt.xticks(list(H_narrative_counts_clean.keys()),list(H_narrative_counts_clean.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=0.3)
-# plt.xlabel("Situation Entity Type",fontsize=18)
-# plt.ylabel("Proportion of narrative SEs",fontsize=18)
-# plt.title('Docs With Narratives - Human',fontsize=20)
-# plt.tight_layout()
-# plt.show()
+two_bar_dict_plot(H_narrative_counts_clean, H_no_narrative_counts_clean, 
+"Narrative", "No Narrative", "m", "gray", "SE Types for Human Documents", "Proportion of SE types")
 
 ### Plot Situation Entity distribution divided by narrativity - Grover
+two_bar_dict_plot(G_narrative_counts_clean, G_no_narrative_counts_clean, 
+"Narrative", "No Narrative", "m", "gray", "SE Types for Grover Documents", "Proportion of SE types")
 
-# max_num = np.max([max(list(G_no_narrative_counts_clean.values())),max(list(G_narrative_counts_clean.values()))])
-# plt.bar(G_no_narrative_counts_clean.keys(), G_no_narrative_counts_clean.values(), color='g')
-# plt.xticks(list(G_no_narrative_counts_clean.keys()),list(G_no_narrative_counts_clean.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=0.3)
-# plt.xlabel("Situation Entity Type",fontsize=18)
-# plt.ylabel("Proportion of non-narrative SEs",fontsize=18)
-# plt.title('Docs Without Narratives - Grover',fontsize=20)
-# plt.tight_layout()
-# plt.show()
-
-# plt.bar(G_narrative_counts_clean.keys(), G_narrative_counts_clean.values(), color='g')
-# plt.xticks(list(G_narrative_counts_clean.keys()),list(G_narrative_counts_clean.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=0.3)
-# plt.xlabel("Situation Entity Type",fontsize=18)
-# plt.ylabel("Proportion of narrative SEs",fontsize=18)
-# plt.title('Docs With Narratives - Grover',fontsize=20)
-# plt.tight_layout()
-# plt.show()
 
 ###########################################################################
 
@@ -443,44 +425,13 @@ print("***")
 print(G_argumentation)
 
 ### Plot Situation Entity distribution divided by argumentation - Human
-
-# plt.bar(H_no_argument_counts_clean.keys(), H_no_argument_counts_clean.values(), color='b')
-# plt.xticks(list(H_no_argument_counts_clean.keys()),list(H_no_argument_counts_clean.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=0.3)
-# plt.xlabel("Situation Entity Type", fontsize=18)
-# plt.ylabel("Proportion of SEs", fontsize=18)
-# plt.title('Docs without Arguments - Human', fontsize=20)
-# plt.tight_layout()
-# plt.show()
-
-# plt.bar(H_argument_counts_clean.keys(), H_argument_counts_clean.values(), color='b')
-# plt.xticks(list(H_argument_counts_clean.keys()),list(H_argument_counts_clean.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=0.3) #ymax=max_num+5
-# plt.xlabel("Situation Entity Type",fontsize=18)
-# plt.ylabel("Proportion of SEs",fontsize=18) 
-# plt.title('Docs with Arguments - Human',fontsize=20)
-# plt.tight_layout()
-# plt.show()
+two_bar_dict_plot(H_argument_counts_clean, H_no_argument_counts_clean, 
+"Argument", "No Argument", "r", "gray", "SE Types for Human Documents", "Proportion of SE types")
 
 ### Plot Situation Entity distribution divided by argumentation - Grover
+two_bar_dict_plot(G_argument_counts_clean, G_no_argument_counts_clean, 
+"Argument", "No Argument", "r", "gray", "SE Types for Grover Documents", "Proportion of SE types")
 
-# plt.bar(G_no_argument_counts_clean.keys(), G_no_argument_counts_clean.values(), color='g')
-# plt.xticks(list(G_no_argument_counts_clean.keys()),list(G_no_argument_counts_clean.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=0.3)
-# plt.xlabel("Situation Entity Type", fontsize=18)
-# plt.ylabel("Proportion of SEs", fontsize=18)
-# plt.title('Docs without Arguments - Grover', fontsize=20)
-# plt.tight_layout()
-# plt.show()
-
-# plt.bar(G_argument_counts_clean.keys(), G_argument_counts_clean.values(), color='g')
-# plt.xticks(list(G_argument_counts_clean.keys()),list(G_argument_counts_clean.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=0.3) #ymax=max_num+5
-# plt.xlabel("Situation Entity Type", fontsize=18)
-# plt.ylabel("Proportion of SEs", fontsize=18)
-# plt.title('Docs with Arguments - Grover', fontsize=20)
-# plt.tight_layout()
-# plt.show()
 
 ##############################################################################
 
@@ -602,100 +553,21 @@ clean_up_coh_rels(G_Coh_no_argument_counts,G_Coh_no_argument_counts_clean)
 clean_up_coh_rels(G_Coh_argument_counts,G_Coh_argument_counts_clean)
 
 ### Plot the distribution of coherence relations divided by narrativity - Human
-
-# print(H_Coh_no_narrative_counts_clean)
-
-# plt.bar(H_Coh_no_narrative_counts_clean.keys(), H_Coh_no_narrative_counts_clean.values(), color='b')
-# plt.xticks(list(H_Coh_no_narrative_counts_clean.keys()),list(H_Coh_no_narrative_counts_clean.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=200)
-# plt.xlabel("Coherence Relation", fontsize=18)
-# plt.ylabel("Frequency", fontsize=18)
-# plt.title('Docs without Narratives - Human', fontsize=20)
-# plt.tight_layout()
-# plt.show()
-
-# print(H_Coh_narrative_counts_clean)
-
-# plt.bar(H_Coh_narrative_counts_clean.keys(), H_Coh_narrative_counts_clean.values(), color='b')
-# plt.xticks(list(H_Coh_narrative_counts_clean.keys()),list(H_Coh_narrative_counts_clean.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=200)
-# plt.xlabel("Coherence Relation", fontsize=18)
-# plt.ylabel("Frequency", fontsize=18)
-# plt.title('Docs with Narratives - Human', fontsize=20)
-# plt.tight_layout()
-# plt.show()
+two_bar_dict_plot(H_Coh_narrative_counts_clean, H_Coh_no_narrative_counts_clean, 
+"Narrative", "No Narrative", "m", "gray", "Coherence Relation Counts for Human Documents", "Frequency of Relations")
 
 ### Plot the distribution of coherence relations divided by narrativity - Grover
-
-# plt.bar(G_Coh_no_narrative_counts_clean.keys(), G_Coh_no_narrative_counts_clean.values(), color='g')
-# plt.xticks(list(G_Coh_no_narrative_counts_clean.keys()),list(G_Coh_no_narrative_counts_clean.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=200)
-# plt.xlabel("Coherence Relation", fontsize=18)
-# plt.ylabel("Frequency", fontsize=18)
-# plt.title('Docs without Narratives - Grover', fontsize=20)
-# plt.tight_layout()
-# plt.show()
-
-# print(G_Coh_no_narrative_counts_clean)
-
-# plt.bar(G_Coh_narrative_counts_clean.keys(), G_Coh_narrative_counts_clean.values(), color='g')
-# plt.xticks(list(G_Coh_narrative_counts_clean.keys()),list(G_Coh_narrative_counts_clean.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=200)
-# plt.xlabel("Coherence Relation", fontsize=18)
-# plt.ylabel("Frequency", fontsize=18)
-# plt.title('Docs with Narratives - Grover', fontsize=20)
-# plt.tight_layout()
-# plt.show()
-
-# print(G_Coh_narrative_counts_clean)
+two_bar_dict_plot(G_Coh_narrative_counts_clean, G_Coh_no_narrative_counts_clean, 
+"Narrative", "No Narrative", "m", "gray", "Coherence Relation Counts for Grover Documents", "Frequency of Relations")
 
 ### Plot the distribution of coherence relations divided by argumentation - Human
-
-# print(H_Coh_no_argument_counts_clean)
-
-# plt.bar(H_Coh_no_argument_counts_clean.keys(), H_Coh_no_argument_counts_clean.values(), color='b')
-# plt.xticks(list(H_Coh_no_argument_counts_clean.keys()),list(H_Coh_no_argument_counts_clean.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=210)
-# plt.xlabel("Coherence Relation", fontsize=18)
-# plt.ylabel("Frequency", fontsize=18)
-# plt.title('Docs without Arguments - Human', fontsize=20)
-# plt.tight_layout()
-# plt.show()
-
-# print(H_Coh_argument_counts_clean)
-
-# plt.bar(H_Coh_argument_counts_clean.keys(), H_Coh_argument_counts_clean.values(), color='b')
-# plt.xticks(list(H_Coh_argument_counts_clean.keys()),list(H_Coh_argument_counts_clean.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=210)
-# plt.xlabel("Coherence Relation", fontsize=18)
-# plt.ylabel("Frequency", fontsize=18)
-# plt.title('Docs with Arguments - Human', fontsize=20)
-# plt.tight_layout()
-# plt.show()
+two_bar_dict_plot(H_Coh_argument_counts_clean, H_Coh_no_argument_counts_clean, 
+"Argument", "No Argument", "r", "gray", "Coherence Relation Counts for Human Documents", "Frequency of Relations")
 
 ### Plot the distribution of coherence relations divided by argumentation - Grover
+two_bar_dict_plot(G_Coh_argument_counts_clean, G_Coh_no_argument_counts_clean, 
+"Argument", "No Argument", "r", "gray", "Coherence Relation Counts for Grover Documents", "Frequency of Relations")
 
-# print(G_Coh_no_argument_counts_clean)
-
-# plt.bar(G_Coh_no_argument_counts_clean.keys(), G_Coh_no_argument_counts_clean.values(), color='g')
-# plt.xticks(list(G_Coh_no_argument_counts_clean.keys()),list(G_Coh_no_argument_counts_clean.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=220)
-# plt.xlabel("Coherence Relation", fontsize=18)
-# plt.ylabel("Frequency", fontsize=18)
-# plt.title('Docs without Arguments - Grover', fontsize=20)
-# plt.tight_layout()
-# plt.show()
-
-# print(G_Coh_argument_counts_clean)
-
-# plt.bar(G_Coh_argument_counts_clean.keys(), G_Coh_argument_counts_clean.values(), color='g')
-# plt.xticks(list(G_Coh_argument_counts_clean.keys()),list(G_Coh_argument_counts_clean.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=220)
-# plt.xlabel("Coherence Relation", fontsize=18)
-# plt.ylabel("Frequency", fontsize=18)
-# plt.title('Docs with Arguments - Grover', fontsize=20)
-# plt.tight_layout()
-# plt.show()
 
 ### Normalize coherence relation rates to show proportions
 for k in H_Coh_no_narrative_counts_clean:
@@ -715,89 +587,23 @@ for k in G_Coh_no_argument_counts_clean:
 for k in G_Coh_argument_counts_clean:
     G_Coh_argument_counts_clean[k] /= sum(G_Coh_argument_counts.values())
 
+
 ### Plot the proportion of coherence relations divided by narrativity - Human
-
-# print(H_Coh_no_narrative_counts_clean)
-
-# plt.bar(H_Coh_no_narrative_counts_clean.keys(), H_Coh_no_narrative_counts_clean.values(), color='b')
-# plt.xticks(list(H_Coh_no_narrative_counts_clean.keys()),list(H_Coh_no_narrative_counts_clean.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=0.15)
-# plt.xlabel("Coherence Relation", fontsize=18)
-# plt.ylabel("Proportion of relations", fontsize=18)
-# plt.title('Docs without Narratives - Human', fontsize=20)
-# plt.tight_layout()
-# plt.show()
-
-# print(H_Coh_narrative_counts_clean)
-
-# plt.bar(H_Coh_narrative_counts_clean.keys(), H_Coh_narrative_counts_clean.values(), color='b')
-# plt.xticks(list(H_Coh_narrative_counts_clean.keys()),list(H_Coh_narrative_counts_clean.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=0.15)
-# plt.xlabel("Coherence Relation", fontsize=18)
-# plt.ylabel("Proportion of relations", fontsize=18)
-# plt.title('Docs with Narratives - Human', fontsize=20)
-# plt.tight_layout()
-# plt.show()
+two_bar_dict_plot(H_Coh_narrative_counts_clean, H_Coh_no_narrative_counts_clean, 
+"Narrative", "No Narrative", "m", "gray", "Coherence Relation Counts for Human Documents", "Proportion of Relations")
 
 ### Plot the proportion of coherence relations divided by narrativity - Grover
-
-# plt.bar(G_Coh_no_narrative_counts_clean.keys(), G_Coh_no_narrative_counts_clean.values(), color='g')
-# plt.xticks(list(G_Coh_no_narrative_counts_clean.keys()),list(G_Coh_no_narrative_counts_clean.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=0.15)
-# plt.xlabel("Coherence Relation", fontsize=18)
-# plt.ylabel("Proportion of relations", fontsize=18)
-# plt.title('Docs without Narratives - Grover', fontsize=20)
-# plt.tight_layout()
-# plt.show()
-
-# plt.bar(G_Coh_narrative_counts_clean.keys(), G_Coh_narrative_counts_clean.values(), color='g')
-# plt.xticks(list(G_Coh_narrative_counts_clean.keys()),list(G_Coh_narrative_counts_clean.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=0.15)
-# plt.xlabel("Coherence Relation", fontsize=18)
-# plt.ylabel("Proportion of relations", fontsize=18)
-# plt.title('Docs with Narratives - Grover', fontsize=20)
-# plt.tight_layout()
-# plt.show()
+two_bar_dict_plot(G_Coh_narrative_counts_clean, G_Coh_no_narrative_counts_clean, 
+"Narrative", "No Narrative", "m", "gray", "Coherence Relation Counts for Grover Documents", "Proportion of Relations")
 
 ### Plot the proportion of coherence relations divided by argumentation - Human
-
-# plt.bar(H_Coh_no_argument_counts_clean.keys(), H_Coh_no_argument_counts_clean.values(), color='b')
-# plt.xticks(list(H_Coh_no_argument_counts_clean.keys()),list(H_Coh_no_argument_counts_clean.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=0.15)
-# plt.xlabel("Coherence Relation", fontsize=18)
-# plt.ylabel("Proportion of relations", fontsize=18)
-# plt.title('Docs without Arguments - Human', fontsize=20)
-# plt.tight_layout()
-# plt.show()
-
-# plt.bar(H_Coh_argument_counts_clean.keys(), H_Coh_argument_counts_clean.values(), color='b')
-# plt.xticks(list(H_Coh_argument_counts_clean.keys()),list(H_Coh_argument_counts_clean.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=0.15)
-# plt.xlabel("Coherence Relation", fontsize=18)
-# plt.ylabel("Proportion of relations", fontsize=18)
-# plt.title('Docs with Arguments - Human', fontsize=20)
-# plt.tight_layout()
-# plt.show()
+two_bar_dict_plot(H_Coh_argument_counts_clean, H_Coh_no_argument_counts_clean, 
+"Argument", "No Argument", "r", "gray", "Coherence Relation Counts for Human Documents", "Proportion of Relations")
 
 ### Plot the proportion of coherence relations divided by argumentation - Grover
+two_bar_dict_plot(G_Coh_argument_counts_clean, G_Coh_no_argument_counts_clean, 
+"Argument", "No Argument", "r", "gray", "Coherence Relation Counts for Grover Documents", "Proportion of Relations")
 
-# plt.bar(G_Coh_no_argument_counts_clean.keys(), G_Coh_no_argument_counts_clean.values(), color='g')
-# plt.xticks(list(G_Coh_no_argument_counts_clean.keys()),list(G_Coh_no_argument_counts_clean.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=0.15)
-# plt.xlabel("Coherence Relation", fontsize=18)
-# plt.ylabel("Proportion of relations", fontsize=18)
-# plt.title('Docs without Arguments - Grover', fontsize=20)
-# plt.tight_layout()
-# plt.show()
-
-# plt.bar(G_Coh_argument_counts_clean.keys(), G_Coh_argument_counts_clean.values(), color='g')
-# plt.xticks(list(G_Coh_argument_counts_clean.keys()),list(G_Coh_argument_counts_clean.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=0.15)
-# plt.xlabel("Coherence Relation", fontsize=18)
-# plt.ylabel("Proportion of relations", fontsize=18)
-# plt.title('Docs with Arguments - Grover', fontsize=20)
-# plt.tight_layout()
-# plt.show()
 
 ################################################################################
 
@@ -816,13 +622,13 @@ def get_coh_lengths(mode, Coh_container, Doc_container, no_lengths, lengths):
                     tmp = [int(i) for i in relation[0:4]]
                     min = np.min(tmp)
                     max = np.max(tmp)
-                    doc_level_index = 3 if mode=="narrative" else 12 if mode=="argument" else 999
+                    doc_level_index = 3 if mode=="narrative" else 12 if mode=="argument" else Exception("mode must be 'narrative' or 'argument'")
                     if Doc_container[annotator][number][doc_level_index] != '0':
                         if relation[4] in lengths:
                             lengths[relation[4]].append(max-min)
                         else:
                             diff = max-min
-                            narrative_lengths[relation[4]] = [diff]
+                            lengths[relation[4]] = [diff]
                     else:
                         if relation[4] in no_lengths:
                             no_lengths[relation[4]].append(max-min)
@@ -973,88 +779,21 @@ G_Coh_no_argument_avg_lengths = {}
 avg_coh_length(G_Coh_no_argument_avg_lengths, G_Coh_no_argument_lengths_clean)
 
 
-### Plot average coherence relation lengths divided by narrativity - Human
+### Plot average coherence relation lengths for human docs - narrative vs non-narrative
+two_bar_dict_plot(H_Coh_narrative_avg_lengths, H_Coh_no_narrative_avg_lengths, 
+"Narrative", "No Narrative", "m", "gray",'Coherence Relation Lengths for Human Documents','Average length (segments)')
 
-# plt.bar(H_Coh_narrative_avg_lengths.keys(), H_Coh_narrative_avg_lengths.values(), color='b')
-# plt.xticks(list(H_Coh_no_argument_counts_clean.keys()),list(H_Coh_no_argument_counts_clean.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=20)
-# plt.xlabel("Coherence Relation", fontsize=18)
-# plt.ylabel("Average length", fontsize=18)
-# plt.title('Docs with narrative - Human', fontsize=20)
-# plt.tight_layout()
-# plt.show()
-
-# plt.bar(H_Coh_no_narrative_avg_lengths.keys(), H_Coh_no_narrative_avg_lengths.values(), color='b')
-# plt.xticks(list(H_Coh_no_narrative_avg_lengths.keys()),list(H_Coh_no_narrative_avg_lengths.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=20)
-# plt.xlabel("Coherence Relation", fontsize=18)
-# plt.ylabel("Average length", fontsize=18)
-# plt.title('Docs without narrative - Human', fontsize=20)
-# plt.tight_layout()
-# plt.show()
-
-
-### Plot average coherence relation lengths divided by narrativity - Grover
-
-# plt.bar(G_Coh_narrative_avg_lengths.keys(), G_Coh_narrative_avg_lengths.values(), color='g')
-# plt.xticks(list(G_Coh_no_argument_counts_clean.keys()),list(G_Coh_no_argument_counts_clean.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=20)
-# plt.xlabel("Coherence Relation", fontsize=18)
-# plt.ylabel("Average length", fontsize=18)
-# plt.title('Docs with narrative - Grover', fontsize=20)
-# plt.tight_layout()
-# plt.show()
-
-# plt.bar(G_Coh_no_narrative_avg_lengths.keys(), G_Coh_no_narrative_avg_lengths.values(), color='g')
-# plt.xticks(list(G_Coh_no_narrative_avg_lengths.keys()),list(G_Coh_no_narrative_avg_lengths.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=20)
-# plt.xlabel("Coherence Relation", fontsize=18)
-# plt.ylabel("Average length", fontsize=18)
-# plt.title('Docs without narrative - Grover', fontsize=20)
-# plt.tight_layout()
-# plt.show()
-
+### Plot average coherence relation lengths for Grover docs - narrative vs non-narrative
+two_bar_dict_plot(G_Coh_narrative_avg_lengths, G_Coh_no_narrative_avg_lengths, 
+"Narrative", "No Narrative", "m", "gray",'Coherence Relation Lengths for Grover Documents','Average length (segments)')
 
 ### Plot average coherence relation lengths divided by argumentation - Human
-
-# plt.bar(H_Coh_argument_avg_lengths.keys(), H_Coh_argument_avg_lengths.values(), color='b')
-# plt.xticks(list(H_Coh_no_argument_counts_clean.keys()),list(H_Coh_no_argument_counts_clean.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=20)
-# plt.xlabel("Coherence Relation", fontsize=18)
-# plt.ylabel("Average length", fontsize=18)
-# plt.title('Docs with argument - Human', fontsize=20)
-# plt.tight_layout()
-# plt.show()
-
-# plt.bar(H_Coh_no_argument_avg_lengths.keys(), H_Coh_no_argument_avg_lengths.values(), color='b')
-# plt.xticks(list(H_Coh_no_argument_avg_lengths.keys()),list(H_Coh_no_argument_avg_lengths.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=20)
-# plt.xlabel("Coherence Relation", fontsize=18)
-# plt.ylabel("Average length", fontsize=18)
-# plt.title('Docs without argument - Human', fontsize=20)
-# plt.tight_layout()
-# plt.show()
-
+two_bar_dict_plot(H_Coh_argument_avg_lengths, H_Coh_no_argument_avg_lengths, 
+"Argument", "No Argument", "r", "gray", "Coherence Relation Lengths for Human Documents", "Average length (segments)")
 
 ### Plot average coherence relation lengths divided by argumentation - Grover
-
-# plt.bar(G_Coh_argument_avg_lengths.keys(), G_Coh_argument_avg_lengths.values(), color='g')
-# plt.xticks(list(G_Coh_no_argument_counts_clean.keys()),list(G_Coh_no_argument_counts_clean.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=20)
-# plt.xlabel("Coherence Relation", fontsize=18)
-# plt.ylabel("Average length", fontsize=18)
-# plt.title('Docs with argument - Grover', fontsize=20)
-# plt.tight_layout()
-# plt.show()
-
-# plt.bar(G_Coh_no_argument_avg_lengths.keys(), G_Coh_no_argument_avg_lengths.values(), color='g')
-# plt.xticks(list(G_Coh_no_argument_avg_lengths.keys()),list(G_Coh_no_argument_avg_lengths.keys()), rotation='vertical',fontsize=14)
-# plt.axis(ymax=20)
-# plt.xlabel("Coherence Relation", fontsize=18)
-# plt.ylabel("Average length", fontsize=18)
-# plt.title('Docs without argument - Grover', fontsize=20)
-# plt.tight_layout()
-# plt.show()
+two_bar_dict_plot(G_Coh_argument_avg_lengths, G_Coh_no_argument_avg_lengths, 
+"Argument", "No Argument", "r", "gray", "Coherence Relation Lengths for Grover Documents", "Average length (segments)")
 
 ##############################################################################
 
@@ -1272,7 +1011,7 @@ print("Distribution of Incoherent Relations - Grover")
 print(G_incoherent_rels)
 print(G_incoherent_counter / G_doc_counter)
 
-
+'''
 ### Frequency plot of incoherent relations - Grover - needed for rep, deg
 
 plt.bar(G_incoherent_rels.keys(), G_incoherent_rels.values(), color='g')
@@ -1299,3 +1038,4 @@ plt.ylabel("Proportion of relevant relation in texts", fontsize=18)
 plt.title('All docs - Grover', fontsize=20)
 plt.tight_layout()
 plt.show()
+'''
