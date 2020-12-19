@@ -1143,10 +1143,98 @@ print(G_rep_coerced_counter)
 
 ###############################################################################
 
-### Distribution of incoherent and coherent relations - Human
+### Distribution of incoherent and coherent relations - Human and Grover
 
+### function that counts up incoherent and coherent relations
+### returns 
+def count_up_incoherence(Coh_container, incoherent_rels, coherent_rels, incoherent_counter):
+    doc_counter = 0
+    for annotator in Coh_container:
+        for number in Coh_container[annotator]:
+            doc_counter += 1
+            indicator = 0
+            for relation in Coh_container[annotator][number]:
+
+                if relation[4] == 'cex':
+                    incoherent_rels['Cause/effect'] += 1
+                    indicator = 1
+                elif relation[4] in ['ce', 'cew', 'cer']:
+                    coherent_rels['Cause/effect'] += 1
+
+                elif relation[4] == 'elabx':
+                    incoherent_rels['Elaboration'] += 1
+                    indicator = 1
+                elif relation[4] in ['elab', 'ealb', 'elav', 'elabl']:
+                    coherent_rels['Elaboration'] += 1
+
+                elif relation[4] == 'samex':
+                    incoherent_rels['Same'] += 1
+                    indicator = 1
+                elif relation[4] == 'same':
+                    coherent_rels['Same'] += 1
+
+                elif relation[4] == 'attrx':
+                    incoherent_rels['Attribution'] += 1
+                    indicator = 1
+                elif relation[4] in ['attrm','attr']:
+                    coherent_rels['Attribution'] += 1
+
+                elif relation[4] in ['deg','degenerate','mal']:
+                    incoherent_rels['Degenerate'] += 1
+                    indicator = 1
+
+                elif relation[4] == 'simx':
+                    incoherent_rels['Similarity'] += 1
+                    indicator = 1
+                elif relation[4] == 'sim':
+                    coherent_rels['Similarity'] += 1
+
+                elif relation[4] == 'contrx':
+                    incoherent_rels['Contrast'] += 1
+                    indicator = 1
+                elif relation[4] == 'contr':
+                    coherent_rels['Contrast'] += 1
+
+                elif relation[4] == 'tempx':
+                    incoherent_rels['Temporal sequence'] += 1
+                    indicator = 1
+                elif relation[4] == 'temp':
+                    coherent_rels['Temporal sequence'] += 1
+
+                elif relation[4] == 'vex':
+                    incoherent_rels['Violated expectation'] += 1
+                    indicator = 1
+                elif relation[4] == 've':
+                    coherent_rels['Violated expectation'] += 1
+
+                elif relation[4] == 'exampx':
+                    incoherent_rels['Example'] += 1
+                    indicator = 1
+                elif relation[4] == 'examp':
+                    coherent_rels['Example'] += 1
+
+                elif relation[4] == 'condx':
+                    incoherent_rels['Condition'] += 1
+                    indicator = 1
+                elif relation[4] == 'cond':
+                    coherent_rels['Condition'] += 1
+
+                elif relation[4] == 'genx':
+                    incoherent_rels['Generalization'] += 1
+                    indicator = 1
+                elif relation[4] == 'gen':
+                    coherent_rels['Generalization'] += 1
+
+                elif relation[4] == 'rep':
+                    incoherent_rels['Repetition'] += 1
+                    indicator = 1
+            if indicator == 1:
+                incoherent_counter += 1
+            
+    return doc_counter
+
+### apply function to human-generated docs
 H_incoherent_counter = 0
-H_doc_counter = 0
 H_incoherent_rels = {'Cause/effect':0,
         'Elaboration':0,
         'Same': 0,
@@ -1161,203 +1249,29 @@ H_incoherent_rels = {'Cause/effect':0,
         'Generalization': 0,
         'Repetition': 0
         }
-
 H_coherent_rels = copy.deepcopy(H_incoherent_rels)
+H_doc_counter = count_up_incoherence(H_Coh_container, H_incoherent_rels, H_coherent_rels, H_incoherent_counter)
 
-for annotator in H_Coh_container:
-    for number in H_Coh_container[annotator]:
-        H_doc_counter += 1
-        indicator = 0
-        for relation in H_Coh_container[annotator][number]:
 
-            if relation[4] == 'cex':
-                H_incoherent_rels['Cause/effect'] += 1
-                indicator = 1
-            elif relation[4] in ['ce', 'cew', 'cer']:
-                H_coherent_rels['Cause/effect'] += 1
+### apply function to grover docs
+G_incoherent_counter = 0
+G_incoherent_rels = copy.deepcopy(H_incoherent_rels)
+G_coherent_rels = copy.deepcopy(H_incoherent_rels)
+G_doc_counter = count_up_incoherence(G_Coh_container, G_incoherent_rels, G_coherent_rels, G_incoherent_counter)
 
-            elif relation[4] == 'elabx':
-                H_incoherent_rels['Elaboration'] += 1
-                indicator = 1
-            elif relation[4] in ['elab', 'ealb', 'elav', 'elabl']:
-                H_coherent_rels['Elaboration'] += 1
 
-            elif relation[4] == 'samex':
-                H_incoherent_rels['Same'] += 1
-                indicator = 1
-            elif relation[4] == 'same':
-                H_coherent_rels['Same'] += 1
-
-            elif relation[4] == 'attrx':
-                H_incoherent_rels['Attribution'] += 1
-                indicator = 1
-            elif relation[4] in ['attrm','attr']:
-                H_coherent_rels['Attribution'] += 1
-
-            elif relation[4] in ['deg','degenerate','mal']:
-                H_incoherent_rels['Degenerate'] += 1
-                indicator = 1
-
-            elif relation[4] == 'simx':
-                H_incoherent_rels['Similarity'] += 1
-                indicator = 1
-            elif relation[4] == 'sim':
-                H_coherent_rels['Similarity'] += 1
-
-            elif relation[4] == 'contrx':
-                H_incoherent_rels['Contrast'] += 1
-                indicator = 1
-            elif relation[4] == 'contr':
-                H_coherent_rels['Contrast'] += 1
-
-            elif relation[4] == 'tempx':
-                H_incoherent_rels['Temporal sequence'] += 1
-                indicator = 1
-            elif relation[4] == 'temp':
-                H_coherent_rels['Temporal sequence'] += 1
-
-            elif relation[4] == 'vex':
-                H_incoherent_rels['Violated expectation'] += 1
-                indicator = 1
-            elif relation[4] == 've':
-                H_coherent_rels['Violated expectation'] += 1
-
-            elif relation[4] == 'exampx':
-                H_incoherent_rels['Example'] += 1
-                indicator = 1
-            elif relation[4] == 'examp':
-                H_coherent_rels['Example'] += 1
-
-            elif relation[4] == 'condx':
-                H_incoherent_rels['Condition'] += 1
-                indicator = 1
-            elif relation[4] == 'cond':
-                H_coherent_rels['Condition'] += 1
-
-            elif relation[4] == 'genx':
-                H_incoherent_rels['Generalization'] += 1
-                indicator = 1
-            elif relation[4] == 'gen':
-                H_coherent_rels['Generalization'] += 1
-
-            elif relation[4] == 'rep':
-                H_incoherent_rels['Repetition'] += 1
-                indicator = 1
-        if indicator == 1:
-            H_incoherent_counter += 1
-
+### print human incoherence results
 print("***")
 print("Distribution of Incoherent Relations - Human")
 print(H_incoherent_rels)
 print(H_incoherent_counter / H_doc_counter)
 
-### Distribution of incoherent and coherent relations - Grover
-
-G_incoherent_counter = 0
-G_doc_counter = 0
-G_incoherent_rels = {'Cause/effect':0,
-        'Elaboration':0,
-        'Same': 0,
-        'Attribution': 0,
-        'Degenerate': 0,
-        'Similarity': 0,
-        'Contrast': 0,
-        'Temporal sequence': 0,
-        'Violated expectation': 0,
-        'Example': 0,
-        'Condition': 0,
-        'Generalization': 0,
-        'Repetition': 0
-        }
-
-G_coherent_rels = copy.deepcopy(G_incoherent_rels)
-
-for annotator in G_Coh_container:
-    for number in G_Coh_container[annotator]:
-        G_doc_counter += 1
-        indicator = 0
-        for relation in G_Coh_container[annotator][number]:
-
-            if relation[4] == 'cex':
-                G_incoherent_rels['Cause/effect'] += 1
-                indicator = 1
-            elif relation[4] in ['ce', 'cew', 'cer']:
-                G_coherent_rels['Cause/effect'] += 1
-
-            elif relation[4] == 'elabx':
-                G_incoherent_rels['Elaboration'] += 1
-                indicator = 1
-            elif relation[4] in ['elab', 'ealb', 'elav', 'elabl']:
-                G_coherent_rels['Elaboration'] += 1
-
-            elif relation[4] == 'samex':
-                G_incoherent_rels['Same'] += 1
-                indicator = 1
-            elif relation[4] == 'same':
-                G_coherent_rels['Same'] += 1
-
-            elif relation[4] == 'attrx':
-                G_incoherent_rels['Attribution'] += 1
-                indicator = 1
-            elif relation[4] in ['attrm','attr']:
-                G_coherent_rels['Attribution'] += 1
-
-            elif relation[4] in ['deg','degenerate','mal']:
-                G_incoherent_rels['Degenerate'] += 1
-                indicator = 1
-
-            elif relation[4] == 'simx':
-                G_incoherent_rels['Similarity'] += 1
-                indicator = 1
-            elif relation[4] == 'sim':
-                G_coherent_rels['Similarity'] += 1
-
-            elif relation[4] == 'contrx':
-                G_incoherent_rels['Contrast'] += 1
-                indicator = 1
-            elif relation[4] == 'contr':
-                G_coherent_rels['Contrast'] += 1
-
-            elif relation[4] == 'tempx':
-                G_incoherent_rels['Temporal sequence'] += 1
-                indicator = 1
-            elif relation[4] == 'temp':
-                G_coherent_rels['Temporal sequence'] += 1
-
-            elif relation[4] == 'vex':
-                G_incoherent_rels['Violated expectation'] += 1
-                indicator = 1
-            elif relation[4] == 've':
-                G_coherent_rels['Violated expectation'] += 1
-
-            elif relation[4] == 'exampx':
-                G_incoherent_rels['Example'] += 1
-                indicator = 1
-            elif relation[4] == 'examp':
-                G_coherent_rels['Example'] += 1
-
-            elif relation[4] == 'condx':
-                G_incoherent_rels['Condition'] += 1
-                indicator = 1
-            elif relation[4] == 'cond':
-                G_coherent_rels['Condition'] += 1
-
-            elif relation[4] == 'genx':
-                G_incoherent_rels['Generalization'] += 1
-                indicator = 1
-            elif relation[4] == 'gen':
-                G_coherent_rels['Generalization'] += 1
-
-            elif relation[4] == 'rep':
-                G_incoherent_rels['Repetition'] += 1
-                indicator = 1
-        if indicator == 1:
-            G_incoherent_counter += 1
-
+### print grover incoherence results 
 print("***")
-print("Distribution of Incoherent Relations - Human")
+print("Distribution of Incoherent Relations - Grover")
 print(G_incoherent_rels)
 print(G_incoherent_counter / G_doc_counter)
+
 
 ### Frequency plot of incoherent relations - Grover - needed for rep, deg
 
