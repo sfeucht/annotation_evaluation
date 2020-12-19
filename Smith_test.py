@@ -1065,53 +1065,61 @@ avg_coh_length(G_Coh_no_argument_avg_lengths, G_Coh_no_argument_lengths_clean)
 # HYPOTHESIS: In docs without either narratives or arguments (likely reports),
 # more coerced states
 
-### Last generic and coerced report hypotheses - Human
+### function that looks at whether the last statement has a generic main referent, and whether reports have more coerced states
+def last_generic_coerced_report(SE_container, Doc_container, narr_total_counter, last_gen_counter, rep_coerced_counter):
+    for annotator in SE_container:
+        for number in SE_container[annotator]:
+            if Doc_container[annotator][number][3] != "0" and Doc_container[annotator][number][12] != "0":
+                narr_total_counter['narrative & argument'] += 1
+                if "GENERIC" in SE_container[annotator][number][len(SE_container[annotator][number])-1] or "GNERIC" in SE_container[annotator][number][len(SE_container[annotator][number])-1]:
+                    last_gen_counter['narrative & argument'] += 1
 
+                for SE in SE_container[annotator][number]:
+                    if "COERCED" in SE:
+                        rep_coerced_counter['narrative & argument'] += 1
+
+            elif Doc_container[annotator][number][3] != "0" and Doc_container[annotator][number][12] == "0":
+                narr_total_counter['narrative'] += 1
+                if "GENERIC" in SE_container[annotator][number][len(SE_container[annotator][number])-1] or "GNERIC" in SE_container[annotator][number][len(SE_container[annotator][number])-1]:
+                    last_gen_counter['narrative'] += 1
+
+                for SE in SE_container[annotator][number]:
+                    if "COERCED" in SE:
+                        rep_coerced_counter['narrative'] += 1
+
+            elif Doc_container[annotator][number][3] == "0" and Doc_container[annotator][number][12] != "0":
+                narr_total_counter['argument'] += 1
+                if "GENERIC" in SE_container[annotator][number][len(SE_container[annotator][number])-1] or "GNERIC" in SE_container[annotator][number][len(SE_container[annotator][number])-1]:
+                    last_gen_counter['argument'] += 1
+
+                for SE in SE_container[annotator][number]:
+                    if "COERCED" in SE:
+                        rep_coerced_counter['argument'] += 1
+
+            elif Doc_container[annotator][number][3] == "0" and Doc_container[annotator][number][12] == "0":
+                narr_total_counter['no narrative or argument'] += 1
+                if "GENERIC" in SE_container[annotator][number][len(SE_container[annotator][number])-1] or "GNERIC" in SE_container[annotator][number][len(SE_container[annotator][number])-1]:
+                    last_gen_counter['no narrative or argument'] += 1
+
+                for SE in SE_container[annotator][number]:
+                    if "COERCED" in SE:
+                        rep_coerced_counter['no narrative or argument'] += 1
+
+    for key in last_gen_counter:
+        last_gen_counter[key] = last_gen_counter[key] / narr_total_counter[key]
+
+### Last generic and coerced report hypotheses - Human
 H_last_gen_counter = {'narrative':0, 'argument': 0, 'narrative & argument': 0, 'no narrative or argument':0}
 H_narr_total_counter = {'narrative':0, 'argument': 0, 'narrative & argument': 0, 'no narrative or argument':0}
 H_rep_coerced_counter = {'narrative':0, 'argument': 0, 'narrative & argument': 0, 'no narrative or argument':0}
+last_generic_coerced_report(H_SE_container, H_Doc_container, H_narr_total_counter, H_last_gen_counter, H_rep_coerced_counter)
 
+### Last generic and coerced report hypotheses - Grover
+G_last_gen_counter = {'narrative':0, 'argument': 0, 'narrative & argument': 0, 'no narrative or argument':0}
+G_narr_total_counter = {'narrative':0, 'argument': 0, 'narrative & argument': 0, 'no narrative or argument':0}
+G_rep_coerced_counter = {'narrative':0, 'argument': 0, 'narrative & argument': 0, 'no narrative or argument':0}
+last_generic_coerced_report(G_SE_container, G_Doc_container, G_narr_total_counter, G_last_gen_counter, G_rep_coerced_counter)
 
-for annotator in H_SE_container:
-    for number in H_SE_container[annotator]:
-        if H_Doc_container[annotator][number][3] != "0" and H_Doc_container[annotator][number][12] != "0":
-            H_narr_total_counter['narrative & argument'] += 1
-            if "GENERIC" in H_SE_container[annotator][number][len(H_SE_container[annotator][number])-1] or "GNERIC" in H_SE_container[annotator][number][len(H_SE_container[annotator][number])-1]:
-                H_last_gen_counter['narrative & argument'] += 1
-
-            for SE in H_SE_container[annotator][number]:
-                if "COERCED" in SE:
-                    H_rep_coerced_counter['narrative & argument'] += 1
-
-        elif H_Doc_container[annotator][number][3] != "0" and H_Doc_container[annotator][number][12] == "0":
-            H_narr_total_counter['narrative'] += 1
-            if "GENERIC" in H_SE_container[annotator][number][len(H_SE_container[annotator][number])-1] or "GNERIC" in H_SE_container[annotator][number][len(H_SE_container[annotator][number])-1]:
-                H_last_gen_counter['narrative'] += 1
-
-            for SE in H_SE_container[annotator][number]:
-                if "COERCED" in SE:
-                    H_rep_coerced_counter['narrative'] += 1
-
-        elif H_Doc_container[annotator][number][3] == "0" and H_Doc_container[annotator][number][12] != "0":
-            H_narr_total_counter['argument'] += 1
-            if "GENERIC" in H_SE_container[annotator][number][len(H_SE_container[annotator][number])-1] or "GNERIC" in H_SE_container[annotator][number][len(H_SE_container[annotator][number])-1]:
-                H_last_gen_counter['argument'] += 1
-
-            for SE in H_SE_container[annotator][number]:
-                if "COERCED" in SE:
-                    H_rep_coerced_counter['argument'] += 1
-
-        elif H_Doc_container[annotator][number][3] == "0" and H_Doc_container[annotator][number][12] == "0":
-            H_narr_total_counter['no narrative or argument'] += 1
-            if "GENERIC" in H_SE_container[annotator][number][len(H_SE_container[annotator][number])-1] or "GNERIC" in H_SE_container[annotator][number][len(H_SE_container[annotator][number])-1]:
-                H_last_gen_counter['no narrative or argument'] += 1
-
-            for SE in H_SE_container[annotator][number]:
-                if "COERCED" in SE:
-                    H_rep_coerced_counter['no narrative or argument'] += 1
-
-for key in H_last_gen_counter:
-    H_last_gen_counter[key] = H_last_gen_counter[key] / H_narr_total_counter[key]
 
 print("***")
 print("Human")
@@ -1122,53 +1130,6 @@ print("Last generic")
 print(H_last_gen_counter)
 print("Coerced report")
 print(H_rep_coerced_counter)
-
-### Last generic and coerced report hypotheses - Grover
-
-G_last_gen_counter = {'narrative':0, 'argument': 0, 'narrative & argument': 0, 'no narrative or argument':0}
-G_narr_total_counter = {'narrative':0, 'argument': 0, 'narrative & argument': 0, 'no narrative or argument':0}
-G_rep_coerced_counter = {'narrative':0, 'argument': 0, 'narrative & argument': 0, 'no narrative or argument':0}
-
-for annotator in G_SE_container:
-    for number in G_SE_container[annotator]:
-        if G_Doc_container[annotator][number][3] != "0" and G_Doc_container[annotator][number][12] != "0":
-            G_narr_total_counter['narrative & argument'] += 1
-            if "GENERIC" in G_SE_container[annotator][number][len(G_SE_container[annotator][number])-1] or "GNERIC" in G_SE_container[annotator][number][len(G_SE_container[annotator][number])-1]:
-                G_last_gen_counter['narrative & argument'] += 1
-
-            for SE in G_SE_container[annotator][number]:
-                if "COERCED" in SE:
-                    G_rep_coerced_counter['narrative & argument'] += 1
-
-        elif G_Doc_container[annotator][number][3] != "0" and G_Doc_container[annotator][number][12] == "0":
-            G_narr_total_counter['narrative'] += 1
-            if "GENERIC" in G_SE_container[annotator][number][len(G_SE_container[annotator][number])-1] or "GNERIC" in G_SE_container[annotator][number][len(G_SE_container[annotator][number])-1]:
-                G_last_gen_counter['narrative'] += 1
-
-            for SE in G_SE_container[annotator][number]:
-                if "COERCED" in SE:
-                    G_rep_coerced_counter['narrative'] += 1
-
-        elif G_Doc_container[annotator][number][3] == "0" and G_Doc_container[annotator][number][12] != "0":
-            G_narr_total_counter['argument'] += 1
-            if "GENERIC" in G_SE_container[annotator][number][len(G_SE_container[annotator][number])-1] or "GNERIC" in G_SE_container[annotator][number][len(G_SE_container[annotator][number])-1]:
-                G_last_gen_counter['argument'] += 1
-
-            for SE in G_SE_container[annotator][number]:
-                if "COERCED" in SE:
-                    G_rep_coerced_counter['argument'] += 1
-
-        elif G_Doc_container[annotator][number][3] == "0" and G_Doc_container[annotator][number][12] == "0":
-            G_narr_total_counter['no narrative or argument'] += 1
-            if "GENERIC" in G_SE_container[annotator][number][len(G_SE_container[annotator][number])-1] or "GNERIC" in G_SE_container[annotator][number][len(G_SE_container[annotator][number])-1]:
-                G_last_gen_counter['no narrative or argument'] += 1
-
-            for SE in G_SE_container[annotator][number]:
-                if "COERCED" in SE:
-                    G_rep_coerced_counter['no narrative or argument'] += 1
-
-for key in G_last_gen_counter:
-    G_last_gen_counter[key] = G_last_gen_counter[key] / G_narr_total_counter[key]
 
 print("***")
 print("Grover")
