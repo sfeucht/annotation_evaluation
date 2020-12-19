@@ -191,7 +191,7 @@ for element in G_Coh_container:
 
 ### Narrativity distribution for Human and Grover documents
 
-### function that gets counts for SE types for all narrative docs 
+### function that gets counts for SE types for all narrative/non-narrative docs 
 # gets counts for SE types for all narrative docs
 # weigh by amount that is narrative
 def narrative_counts(Doc_container, SE_container, no_narrative_counts, narrative_counts, narrativity_counts):
@@ -366,39 +366,48 @@ clean_up_SE_types(G_narrative_counts, G_narrative_counts_clean)
 
 ### SE Analysis for Arguments ###
 
-### Human-generated documents
+### function that gets counts for SE types for all argument/non-argument docs 
+def argument_counts(Doc_container, SE_container, no_argument_counts, argument_counts, argumentation):
+    for annotator in SE_container.keys():
+        for number in SE_container[annotator].keys():
+
+            ratings = Doc_container[annotator][number]
+            SE_list = SE_container[annotator][number]
+
+            if ratings[12] == '0': # if no argument
+
+                argumentation["no argument"] += 1
+
+                for SE in SE_list:
+                    if SE.strip() in no_argument_counts.keys():
+                        no_argument_counts[SE.strip()] += 1
+                    else:
+                        no_argument_counts[SE.strip()] = 1
+            elif ratings[12] in ['1', '2', '3']: # if there is argument
+
+                argumentation["argument"] += 1
+
+                for SE in SE_list:
+                    if SE.strip() in argument_counts.keys():
+                        argument_counts[SE.strip()] += 1
+                    else:
+                        argument_counts[SE.strip()] = 1
+
+### get SE counts for arguments for human-generated documents
 H_no_argument_counts = {}
 H_argument_counts = {}
 H_argumentation = {"argument":0,"no argument":0}
+argument_counts(H_Doc_container, H_SE_container, H_no_argument_counts, H_argument_counts, H_argumentation)
 
-for annotator in H_SE_container.keys():
+### get SE counts for arguments for grover-generated documents
+G_no_argument_counts = {}
+G_argument_counts = {}
+G_argumentation = {"argument":0,"no argument":0}
+argument_counts(G_Doc_container, G_SE_container, G_no_argument_counts, G_argument_counts, G_argumentation)
 
-    for number in H_SE_container[annotator].keys():
 
-        ratings = H_Doc_container[annotator][number]
-        SE_list = H_SE_container[annotator][number]
 
-        if ratings[12] == '0': # if no argument
-
-            H_argumentation["no argument"] += 1
-
-            for SE in SE_list:
-                if SE.strip() in H_no_argument_counts.keys():
-                    H_no_argument_counts[SE.strip()] += 1
-                else:
-                    H_no_argument_counts[SE.strip()] = 1
-        elif ratings[12] in ['1', '2', '3']: # if there is argument
-
-            H_argumentation["argument"] += 1
-
-            for SE in SE_list:
-                if SE.strip() in H_argument_counts.keys():
-                    H_argument_counts[SE.strip()] += 1
-                else:
-                    H_argument_counts[SE.strip()] = 1
-
-### Clean up and rename Situation Entity annotations - Humans
-
+### Clean up and rename Situation Entity annotations - Human and Grover
 H_no_argument_counts_clean = {
     'BOUNDED EVENT': 0,
     'UNBOUNDED EVENT': 0,
@@ -413,15 +422,25 @@ H_no_argument_counts_clean = {
     'NONSENSE': 0
 }
 H_argument_counts_clean = copy.deepcopy(H_no_argument_counts_clean)
+G_no_argument_counts_clean = copy.deepcopy(H_no_argument_counts_clean)
+G_argument_counts_clean = copy.deepcopy(H_no_argument_counts_clean)
 
-# clean up for both dicts
+### clean up for both dicts for human and grover
 clean_up_SE_types(H_no_argument_counts, H_no_argument_counts_clean)
 clean_up_SE_types(H_argument_counts, H_argument_counts_clean)
+clean_up_SE_types(G_no_argument_counts, G_no_argument_counts_clean)
+clean_up_SE_types(G_argument_counts, G_argument_counts_clean)
 
+### print distributions for human and grover for arguments
 print("***")
 print("Human argumentation distribution")
 print("***")
 print(H_argumentation)
+
+print("***")
+print("Grover argumentation distribution")
+print("***")
+print(G_argumentation)
 
 ### Plot Situation Entity distribution divided by argumentation - Human
 
@@ -442,63 +461,6 @@ print(H_argumentation)
 # plt.title('Docs with Arguments - Human',fontsize=20)
 # plt.tight_layout()
 # plt.show()
-
-### Grover-generated documents
-G_no_argument_counts = {}
-G_argument_counts = {}
-G_argumentation = {"argument":0,"no argument":0}
-
-for annotator in G_SE_container.keys():
-
-    for number in G_SE_container[annotator].keys():
-
-        ratings = G_Doc_container[annotator][number]
-        SE_list = G_SE_container[annotator][number]
-
-        if ratings[12] == '0': # if no argument
-
-            G_argumentation["no argument"] += 1
-
-            for SE in SE_list:
-                if SE.strip() in G_no_argument_counts.keys():
-                    G_no_argument_counts[SE.strip()] += 1
-                else:
-                    G_no_argument_counts[SE.strip()] = 1
-        elif ratings[12] in ['1', '2', '3']: # if there is argument
-
-            G_argumentation["argument"] += 1
-
-            for SE in SE_list:
-                if SE.strip() in G_argument_counts.keys():
-                    G_argument_counts[SE.strip()] += 1
-                else:
-                    G_argument_counts[SE.strip()] = 1
-
-### Clean up and rename Situation Entity annotations - Grover
-
-G_no_argument_counts_clean = {
-    'BOUNDED EVENT': 0,
-    'UNBOUNDED EVENT': 0,
-    'BASIC STATE': 0,
-    'COERCED STATE': 0,
-    'PERFECT COERCED STATE': 0,
-    'GENERIC SENTENCE': 0,
-    'GENERALIZING SENTENCE': 0,
-    'QUESTION': 0,
-    'IMPERATIVE': 0,
-    'OTHER': 0,
-    'NONSENSE': 0
-}
-G_argument_counts_clean = copy.deepcopy(G_no_argument_counts_clean)
-
-# clean up for both dicts
-clean_up_SE_types(G_no_argument_counts, G_no_argument_counts_clean)
-clean_up_SE_types(G_argument_counts, G_argument_counts_clean)
-
-print("***")
-print("Grover argumentation distribution")
-print("***")
-print(G_argumentation)
 
 ### Plot Situation Entity distribution divided by argumentation - Grover
 
