@@ -194,7 +194,7 @@ for element in G_Coh_container:
 ### function that gets counts for SE types for all narrative/non-narrative docs 
 # gets counts for SE types for all narrative docs
 # weigh by amount that is narrative
-def narrative_counts(Doc_container, SE_container, no_narrative_counts, narrative_counts, narrativity_counts):
+def narrative_SE_counts(Doc_container, SE_container, no_narrative_counts, narrative_counts, narrativity_counts):
     for annotator in SE_container.keys():
         for doc_id in SE_container[annotator].keys():
             ratings = Doc_container[annotator][doc_id]
@@ -219,13 +219,13 @@ def narrative_counts(Doc_container, SE_container, no_narrative_counts, narrative
 H_no_narrative_counts = {}
 H_narrative_counts = {}
 H_narrativity_counts = {i:0 for i in range(6)}
-narrative_counts(H_Doc_container, H_SE_container, H_no_narrative_counts, H_narrative_counts, H_narrativity_counts)
+narrative_SE_counts(H_Doc_container, H_SE_container, H_no_narrative_counts, H_narrative_counts, H_narrativity_counts)
 
 ### same for grover documents
 G_no_narrative_counts = {}
 G_narrative_counts = {}
 G_narrativity_counts = {i:0 for i in range(6)}
-narrative_counts(G_Doc_container, G_SE_container, G_no_narrative_counts, G_narrative_counts, G_narrativity_counts)
+narrative_SE_counts(G_Doc_container, G_SE_container, G_no_narrative_counts, G_narrative_counts, G_narrativity_counts)
 
 
 ### print the narrativity distributions for human and grover
@@ -367,7 +367,7 @@ clean_up_SE_types(G_narrative_counts, G_narrative_counts_clean)
 ### SE Analysis for Arguments ###
 
 ### function that gets counts for SE types for all argument/non-argument docs 
-def argument_counts(Doc_container, SE_container, no_argument_counts, argument_counts, argumentation):
+def argument_SE_counts(Doc_container, SE_container, no_argument_counts, argument_counts, argumentation):
     for annotator in SE_container.keys():
         for number in SE_container[annotator].keys():
 
@@ -397,13 +397,13 @@ def argument_counts(Doc_container, SE_container, no_argument_counts, argument_co
 H_no_argument_counts = {}
 H_argument_counts = {}
 H_argumentation = {"argument":0,"no argument":0}
-argument_counts(H_Doc_container, H_SE_container, H_no_argument_counts, H_argument_counts, H_argumentation)
+argument_SE_counts(H_Doc_container, H_SE_container, H_no_argument_counts, H_argument_counts, H_argumentation)
 
 ### get SE counts for arguments for grover-generated documents
 G_no_argument_counts = {}
 G_argument_counts = {}
 G_argumentation = {"argument":0,"no argument":0}
-argument_counts(G_Doc_container, G_SE_container, G_no_argument_counts, G_argument_counts, G_argumentation)
+argument_SE_counts(G_Doc_container, G_SE_container, G_no_argument_counts, G_argument_counts, G_argumentation)
 
 
 
@@ -485,89 +485,60 @@ print(G_argumentation)
 ##############################################################################
 
 ### Coherence Relations ###
+### Extract coherence relations from annotated documents divided by narrativity and argumentation
 
-### Extract coherence relations from annotated documents divided by narrativtiy
-# and argumentation
+### function that for each document, loads coherence counts into given dictionaries
+def coh_counts(Coh_container, Doc_container, Coh_narrative_counts, Coh_no_narrative_counts, Coh_argument_counts, Coh_no_argument_counts):
+    for annotator in Coh_container:
+        for number in Coh_container[annotator]:
+            
+            if number == 51020131204: # special cased grover doc
+                del Coh_container[annotator][number][0]
 
+            ratings = Doc_container[annotator][number]
+
+            if ratings[3] != '0': # narrative
+                for element in Coh_container[annotator][number]:
+                    if element[4] not in Coh_narrative_counts:
+                        Coh_narrative_counts[element[4]] = 1
+                    else:
+                        Coh_narrative_counts[element[4]] += 1
+            else:
+                for element in G_Coh_container[annotator][number]:
+                    if element[4] not in Coh_no_narrative_counts:
+                        Coh_no_narrative_counts[element[4]] = 1
+                    else:
+                        Coh_no_narrative_counts[element[4]] += 1
+
+            if ratings[12] != '0': # argument
+                for element in Coh_container[annotator][number]:
+                    if element[4] not in Coh_argument_counts:
+                        Coh_argument_counts[element[4]] = 1
+                    else:
+                        Coh_argument_counts[element[4]] += 1
+            else:
+                for element in Coh_container[annotator][number]:
+                    if element[4] not in Coh_no_argument_counts:
+                        Coh_no_argument_counts[element[4]] = 1
+                    else:
+                        Coh_no_argument_counts[element[4]] += 1
+
+### Human coherence counts
 H_Coh_no_narrative_counts = {}
 H_Coh_narrative_counts = {}
 H_Coh_no_argument_counts = {}
 H_Coh_argument_counts = {}
+coh_counts(H_Coh_container, H_Doc_container, H_Coh_narrative_counts, H_Coh_no_narrative_counts, H_Coh_argument_counts, H_Coh_no_argument_counts)
 
-### Human counts
-for annotator in H_Coh_container:
-    for number in H_Coh_container[annotator]:
-        ratings = H_Doc_container[annotator][number]
-
-        if ratings[3] != '0': # narrative
-            for element in H_Coh_container[annotator][number]:
-                if element[4] not in H_Coh_narrative_counts:
-                    H_Coh_narrative_counts[element[4]] = 1
-                else:
-                    H_Coh_narrative_counts[element[4]] += 1
-        else:
-            for element in H_Coh_container[annotator][number]:
-                if element[4] not in H_Coh_no_narrative_counts:
-                    H_Coh_no_narrative_counts[element[4]] = 1
-                else:
-                    H_Coh_no_narrative_counts[element[4]] += 1
-
-        if ratings[12] != '0': # argument
-            for element in H_Coh_container[annotator][number]:
-                if element[4] not in H_Coh_argument_counts:
-                    H_Coh_argument_counts[element[4]] = 1
-                else:
-                    H_Coh_argument_counts[element[4]] += 1
-        else:
-            for element in H_Coh_container[annotator][number]:
-                if element[4] not in H_Coh_no_argument_counts:
-                    H_Coh_no_argument_counts[element[4]] = 1
-                else:
-                    H_Coh_no_argument_counts[element[4]] += 1
-
-### Grover counts
+### Grover coherence counts
 G_Coh_no_narrative_counts = {}
 G_Coh_narrative_counts = {}
 G_Coh_no_argument_counts = {}
 G_Coh_argument_counts = {}
+coh_counts(G_Coh_container, G_Doc_container, G_Coh_narrative_counts, G_Coh_no_narrative_counts, G_Coh_argument_counts, G_Coh_no_argument_counts)
 
-for annotator in G_Coh_container:
-    for number in G_Coh_container[annotator]:
 
-        if number == 51020131204:
-            del G_Coh_container[annotator][number][0]
-
-        ratings = G_Doc_container[annotator][number]
-
-        if ratings[3] != '0': # narrative
-            for id_,element in enumerate(G_Coh_container[annotator][number]):
-                if element[4] not in G_Coh_narrative_counts:
-                    G_Coh_narrative_counts[element[4]] = 1
-                else:
-                    G_Coh_narrative_counts[element[4]] += 1
-        else:
-            for element in G_Coh_container[annotator][number]:
-                if element[4] not in G_Coh_no_narrative_counts:
-                    G_Coh_no_narrative_counts[element[4]] = 1
-                else:
-                    G_Coh_no_narrative_counts[element[4]] += 1
-
-        if ratings[12] != '0': # argument
-            for element in G_Coh_container[annotator][number]:
-                if element[4] not in G_Coh_argument_counts:
-                    G_Coh_argument_counts[element[4]] = 1
-                else:
-                    G_Coh_argument_counts[element[4]] += 1
-        else:
-            for element in G_Coh_container[annotator][number]:
-                if element[4] not in G_Coh_no_argument_counts:
-                    G_Coh_no_argument_counts[element[4]] = 1
-                else:
-                    G_Coh_no_argument_counts[element[4]] += 1
-
-### Clean up and rename coherence relations separated by human origin, narrativity,
-# and argumentation
-
+### Clean up and rename coherence relations separated by human origin, narrativity, and argumentation
 def clean_up_coh_rels(old_dict,clean_dict):
     for relation in old_dict.keys():
         if relation in clean_dict.keys():
@@ -727,7 +698,6 @@ clean_up_coh_rels(G_Coh_argument_counts,G_Coh_argument_counts_clean)
 # plt.show()
 
 ### Normalize coherence relation rates to show proportions
-
 for k in H_Coh_no_narrative_counts_clean:
     H_Coh_no_narrative_counts_clean[k] /= sum(H_Coh_no_narrative_counts.values())
 for k in H_Coh_narrative_counts_clean:
@@ -828,6 +798,8 @@ for k in G_Coh_argument_counts_clean:
 # plt.title('Docs with Arguments - Grover', fontsize=20)
 # plt.tight_layout()
 # plt.show()
+
+################################################################################
 
 ### Average lengths of coherence relations, divided by narrativity & arguments
 
