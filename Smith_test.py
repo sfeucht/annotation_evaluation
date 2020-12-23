@@ -311,6 +311,7 @@ def two_bar_dict_plot(dict1, dict2, label1, label2, color1, color2, title, ylabe
     fig.tight_layout()
     plt.show()
 
+
 ### Plot Situation Entity distribution divided by narrativity - Human
 two_bar_dict_plot(H_narrative_counts_clean, H_no_narrative_counts_clean, 
 "Narrative", "No Narrative", "m", "gray", "SE Types for Human Documents", "Proportion of SE types")
