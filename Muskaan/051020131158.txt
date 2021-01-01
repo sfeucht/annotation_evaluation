@@ -61,7 +61,6 @@ If you were ever stopped by ICE officers ##COERCED STATE (GENERIC)
  your name was Solange Rannoff , ##COERCED STATE (GENERIC)
  imagine the outcry ##IMPERATIVE
  if ICE arrests you without any of these other identifiers , ##COERCED STATE (SPECIFIC)
- and reports ####COERCED STATE (SPECIFIC)
  that you were involved in sexual assault ? ##COERCED STATE (SPECIFIC)
 Imagine that . ##IMPERATIVE
 Would the Federal Bureau of Investigation have a small mission in all those people ? ##QUESTION

@@ -44,7 +44,7 @@ The brand itself, ##OTHER
 despite all the economic problems, ##OTHER
 the brand itself is hotter than ever. ##BASIC STATE
 But our interview with the icon wasnt all about business, pop culture and relationship advice. ##BASIC STATE
-He also shared his thoughts on California voters striking down bids to legalize marijuana. ##BOUNDED EVENT (SPECIFIC)_
+He also shared his thoughts on California voters striking down bids to legalize marijuana. ##BOUNDED EVENT (SPECIFIC)
 I dont think theres any question ##BASIC STATE
 that marijuana should be legalized ##COERCED STATE (GENERIC)
 because to not legalize it, ##COERCED STATE (GENERIC)

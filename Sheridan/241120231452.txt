@@ -47,7 +47,7 @@ I can't do that. ##COERCED STATE (SPECIFIC)
 I can't do this for this.' ##COERCED STATE (SPECIFIC)
 He's very well respected, ##BASIC STATE
 and he's been so widely known over the years for everything ##BASIC STATE
-he does." ##GENERALIING SENTENCE (DYNAMIC)
+he does." ##GENERALIZING SENTENCE (DYNAMIC)
 Roush said ##BOUNDED EVENT (SPECIFIC)
 the hardscrabble lifestyle of Nelson didn't seem to bother him the first time around. ##COERCED STATE (SPECIFIC)
 He described the Minnesota native as "very mellow" and simple, ##BOUNDED EVENT (SPECIFIC)
