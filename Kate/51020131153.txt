@@ -56,7 +56,7 @@ While little is being built ##GENERIC SENTENCE (STATIC)
 - or changed - ##UNBOUNDED EVENT (GENERIC) 
 these do belong to the elite . ##GENERIC SENTENCE (STATIC) 
 While large , well-known names like Amazon or Starbucks or IBM might face legal scrutiny , ##COERCED STATE (GENERIC) 
- small-time artists like myself always start or close to the likes of Amazon and Wells Fargo , ##GENERIC STATE (STATIC) 
+ small-time artists like myself always start or close to the likes of Amazon and Wells Fargo , ##GENERIC SENTENCE (STATIC) 
  which usually have our passports . ##COERCED STATE (GENERIC) 
 Globally , ##OTHER 
  entrepreneurial jobs are actually disappearing . ##GENERIC SENTENCE (STATIC) 

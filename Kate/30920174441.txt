@@ -48,7 +48,7 @@ a top source of cannabis research and publications , ##OTHER
  there are " a couple ##GENERIC SENTENCE (STATIC) 
  who are usually buying the weed in a lot of different ways ##GENERIC SENTENCE (DYNAMIC) 
  said to have sold more than 50 percent , or 15,000 weed tips in 2016 compared to all other sources ##BOUNDED EVENT (GENERIC) 
- used by their dad ##BAISC STATE 
+ used by their dad ##BASIC STATE 
  " Could be a Federal Device From Oct. 7 , ##OTHER 
  states and cities will soon be able to legalize recreational use of marijuana in a 50-mile-radius area . ##UNBOUNDED EVENT (GENERIC) 
 So , ##OTHER 
@@ -65,7 +65,7 @@ There is the fact ##GENERIC SENTENCE (STATIC)
 Several other legal uses have taken place in the past , ##BOUNDED EVENT (GENERIC) 
  and we 'd expect some legalisation in the not too distant future .##GENERIC SENTENCE
 You see , ##BASIC STATE 
- tobacco smoke is a product of human abuse , ##BASIC STATEA 
+ tobacco smoke is a product of human abuse , ##BASIC STATE 
  as is then the real medical issue .##BASIC STATE 
 There is also the possibility ##BASIC STATE 
  of other illegal uses , such as illicit drugs such as cocaine , ecstasy , meth and cannabis . ##OTHER 

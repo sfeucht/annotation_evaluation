@@ -47,7 +47,7 @@ but drugs such as cocaine and methamphetamine are considered less dangerous Sche
 " The record makes clear  ##GENERIC SENTENCE (STATIC) 
  that the CSA does n't make any rational sense  ##GENERIC SENTENCE (STATIC) 
  and the federal government knows it ,  ##GENERIC SENTENCE (STATIC) 
- " attorney Michael Hiller , ##OTEHR
+ " attorney Michael Hiller , ##OTHER
  who represents Washington and the other plaintiffs in the lawsuit ,  ##BASIC STATE 
  told the New York Post . ##BOUNDED EVENT (SPECIFIC) 
 Joining Washington as plaintiffs in the lawsuit ##OTHER 
@@ -59,7 +59,7 @@ Joining Washington as plaintiffs in the lawsuit ##OTHER
 a disabled military veteran ##BASIC STATE 
  who uses marijuana  ##BASIC STATE 
  to treat his post traumatic stress syndrome . ##OTHER 
-More on the NFL :  ##OTEHR 
+More on the NFL :  ##OTHER 
 Police clear Lucky Whitehead after false accusation  ##BOUNDED EVENT (SPECIFIC) 
  and arrest warrant 
 The latest brain study examined 111 former NFL players . ##GENERIC SENTENCE (STATIC) 

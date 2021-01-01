@@ -9,7 +9,7 @@ same old . ##OTHER
 Last week ,  ##OTHER 
 New York judge Ann Levine threw out a lawsuit ##BOUNDED EVENT (SPECIFIC) 
  brought by two religious people ##BASIC STATE 
- claiming ##BASICE STATE
+ claiming ##BASIC STATE
  that at least some members of the church group  ##OTHER 
  that founded the sect did not deserve church assistance in its investigation of whether the sect inappropriately obtained confessions ##GENERIC SENTENCE (STATIC) 
  by having sex with underage boys . ##UNBOUNDED EVENT (GENERIC) 
@@ -35,7 +35,7 @@ Williams ,  ##OTHER
 a mortgage salesman ,  ##OTHER  
 has not . ##PERFECT COERCED STATE (GENERIC) 
 So what about the thousands of church people ##QUESTION  
- who have adopted the belief  ##PERECT COERCED STATE (GENERIC) 
+ who have adopted the belief  ##PERFECT COERCED STATE (GENERIC) 
  that church leaders had coerced at least one underage child  ##PERFECT COERCED STATE (GENERIC) 
  into having sex with adults other than their own ? ##PERFECT COERCED STATE (GENERIC) 
 A recent Associated Press article concluded  ##BASIC STATE 

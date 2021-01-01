@@ -17,11 +17,11 @@ Few parties survive to the end , ##GENERIC SENTENCE (STATIC)
 Seasoned young people go to party spots now ##GENERIC SENTENCE (STATIC) 
  that make up less than 10 % of the population .##GENERIC SENTENCE (STATIC) 
 That is not how I see it .##BASIC STATE 
-Sooner or later that will change ##GENERIC SENTENCE (STATIC0 
+Sooner or later that will change ##GENERIC SENTENCE (STATIC) 
  as it has in both maths and a lot of scholarly literature and scholarly culture and times  ##PERFECT COERCED STATE
  we are already living in . ##GENERIC SENTENCE (STATIC) 
 At the very least , ##OTHER 
- there may be a need for a private and public place as soon as possible ##GENERIC SENTENCE (STATIC0 
+ there may be a need for a private and public place as soon as possible ##GENERIC SENTENCE (STATIC) 
  to share these experiences . ##UNBOUNDED EVENT (GENERIC) 
 Yet still others are forced to pick up just too little oxygen in the night sometimes so much ##GENERIC SENTENCE (STATIC)  
  that it tears at your already established ego ##GENERIC SENTENCE (STATIC) 
@@ -60,9 +60,9 @@ It was at that time ##BASIC STATE
  and took over our town . ##BOUNDED EVENT (STATIC) 
 Back then , ##OTHER 
  I think of you ##BASIC STATE 
- as kind of the agnostic at home , ##other  
-the one with a full faith in the cause of all life in its most nourishing and ignorable conditions ,  ##basic state 
-the person ##other 
+ as kind of the agnostic at home , ##OTHER  
+the one with a full faith in the cause of all life in its most nourishing and ignorable conditions ,  ##BASIC STATE 
+the person ##OTHER 
  who keeps a mental resume with an acre of rice ##BASIC STATE 
  and a trusted family with a waiting list of vital supplies ##BOUNDED EVENT (SPECIFIC)
  that allow them to ride on the boat and through the mud . ##GENERIC SENTENCE (STATIC) 
@@ -76,7 +76,7 @@ All this while you kept putting you into interviews , ##COERCED STATE (SPECIFIC)
 Maybe at this point its not going to be adequate encouragement ##GENERIC SENTENCE (STATIC)
  for our fledgling novelist / artists in a time of need .##OTHER
 But hey , ##OTHER 
-you know ##BASIC STATE A
+you know ##BASIC STATE
  who would have a message for us ? ##QUESTION 
 Enjoyed this article ? ##QUESTION 
 Join 40,000 + subscribers to the ZME Science newsletter . ##IMPERATIVE 
