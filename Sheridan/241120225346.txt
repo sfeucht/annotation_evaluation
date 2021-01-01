@@ -44,7 +44,7 @@ said Rep. Procopio. ##BOUNDED EVENT (SPECIFIC)
 we shouldn't have to fight for this ##COERCED STATE (SPECIFIC)
 because of where we stand," ##OTHER
 said Rep. Procopio. ##BOUNDED EVENT (SPECIFIC)
-Petersen, ##OTHER
+Petersen, ##OTHER (same as UNBOUNDED EVENT (SPECIFIC))
 also of the House Judiciary Committee, ##OTHER
 is hoping to help develop ##UNBOUNDED EVENT (SPECIFIC)
 what he said ##BOUNDED EVENT (SPECIFIC)

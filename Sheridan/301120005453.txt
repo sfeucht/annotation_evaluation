@@ -46,7 +46,7 @@ Jaber said. ##BOUNDED EVENT (SPECIFIC)
 Since it is not regulated its difficult to know ##GENERIC SENTENCE (HABITUAL)
 what you are actually putting on your body, ##UNBOUNDED EVENT (GENERIC)
 he said. ##BOUNDED EVENT (SPECIFIC)
-Dr. Angela Lamb, ##OTHER
+Dr. Angela Lamb, ##OTHER (same as BOUNDED EVENT (SPECIFIC))
 director of the Westside Mount Sinai Dermatology Faculty Practice in New York, ##OTHER
 echoed Jaber, ##BOUNDED EVENT (SPECIFIC)
 telling XXX, ##UNBOUNDED EVENT (SPECIFIC)

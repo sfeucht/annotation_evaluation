@@ -58,7 +58,7 @@ This ,  ##OTHER
  led to a decline in medical use by many people but not patients . ##GENERIC SENTENCE (STATIC)  
 As a medical patient in the state ,  ##OTHER 
 we're concerned with our own interest and sometimes fight ,  ##GENERIC SENTENCE (STATIC) 
- he said . ##BASIC STATE 
+ he said . ##BASIC SETATE 
 The industry has even entered the business of recreational marijuana ,  ##COERCED STATE (GENERIC) 
  reporting big returns for annual sales last year ,  ##UNBOUNDED EVENT (GENERIC)
  according to a newly released study . ##GENERIC SENTENCE (STATIC) 

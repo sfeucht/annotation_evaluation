@@ -7,7 +7,7 @@ Not everyone ##OTHER
  and they either deal with it ##GENERIC SENTENCE (DYNAMIC) 
  or quit. ##GENERIC SENTENCE (DYNAMIC) 
 It 's literally the same thing with weed . ##GENERIC SENTENCE (STATIC) 
-And a large portion of people ##OTHER 
+And a large portion of people ##OHTER 
  who smoke weed ##GENERIC SENTENCE (DYNAMIC) 
  and might have some mental effects ##GENERIC SENTENCE (DYNAMIC) 
  just continue smoking , ##UNBOUNDED EVENT 

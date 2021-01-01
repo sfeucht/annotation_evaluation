@@ -32,7 +32,7 @@ The five other women are now standing in the crowded corridors , ##BOUNDED EVENT
  their colleagues are held off ##BASIC STATE 
  tiptoeing their feet by brave police officers ##UNBOUNDED EVENT (SPECIFIC)  
  to park cars in front of them on the parking lot .##UNBOUNDED EVENT (SPECIFIC) 
-When Miss Portman arrived there , ##BOUNDED EVENT (SPECIFIC) 
+When Miss Portman arrived there , ##BOUNDED EVENT (SPECIFIC_ 
  she quickly realised ##BASIC STATE 
  that someone else was charging at her seat for weed . ##UNBOUNDED EVENT (SPECIFIC) 
 The police surrounded the station with dogs and horses in search of an intruder ##BOUNDED EVENT (SPECIFIC) 
@@ -76,7 +76,7 @@ The East London address involved an address ##BASIC STATE
  that had been open for years .##BASIC STATE 
 The name of the place is that of the FBI 's Manhattan office ##BASIC STATE 
  and the location is in Cambridge at the foot of Waterloo Street .##BASIC STATE 
-The man ##OTHER 
+The man ##OTEHR 
  who got away was arrested at the door of a public toilet ##BOUNDED EVENT (SPECIFIC) 
  while a policeman spoke to him on the phone .##UNBOUNDED EVENT (SPECIFIC) 
 Once a counter-terrorism officer arrived to listen to the woman , ##BOUNDED EVENT (SPECIFIC) 

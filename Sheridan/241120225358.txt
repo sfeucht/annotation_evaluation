@@ -10,7 +10,7 @@ of legalizing it, ##UNBOUNDED EVENT (GENERIC)
 but they stand with the medical marijuana activists ##GENERIC SENTENCE (HABITUAL)
 who advocate for medical marijuana. ##GENERIC SENTENCE (DYNAMIC)
 The first step for legalization is the elimination of the prohibition against recreational use, ##GENERIC SENTENCE (STATIC)
-Sarah Laster-Peterson, ##OTHER
+Sarah Laster-Peterson, ##OTHER (same as BOUNDED EVENT (SPECIFIC))
 vice president of the Fayetteville Health System and former president of the Fayetteville Chapter of the National Organization for the Reform of Marijuana Laws, ##OTHER
 told XXX. ##BOUNDED EVENT (SPECIFIC)
 If the president moves too fast, ##COERCED STATE (SPECIFIC)
@@ -33,7 +33,7 @@ that carries a positive impact is the use of marijuana in a host of ways. ##GENE
 Some consider it a medical product. ##GENERIC SENTENCE (STATIC)
 Peoples attitudes toward marijuana as an experimental drug, ##OTHER
 do not completely align themselves with the views of most people, ##GENERIC SENTENCE (HABITUAL)*
-Rami Elman, ##OTHER
+Rami Elman, ##OTHER (same as BOUNDED EVENT (SPECIFIC))
 director of the Center for Illicit Drug Addicts and Research at the Henry Ford Clinic in Detroit, ##OTHER
 told XXX. ##BOUNDED EVENT (SPECIFIC)
 I know ##BASIC STATE
@@ -54,7 +54,7 @@ who wrote the article appeared to indicate ##BOUNDED EVENT (SPECIFIC)
 that increased alcohol use among teens is leading to increases in sexual assault cases. ##UNBOUNDED EVENT (GENERIC)
 The article also discusses other topics, ##UNBOUNDED EVENT (SPECIFIC)
 such as mental health and addiction. ##OTHER
-We are, ##OTHER
+We are, ##OTHER (same as BASIC STATE)
 however, ##OTHER
 concerned ##BASIC STATE
 that with an increase in the number of sexual assaults ##OTHER
@@ -77,7 +77,7 @@ that marijuana will be disrupted, ##COERCED STATE (GENERIC)
 because in the short term, ##OTHER
 there is an increased risk of developing a cannabis-induced psychosis ##GENERIC SENTENCE (STATIC)
 by inducing these symptoms. ##UNBOUNDED EVENT (GENERIC)
-American College of Physicians president David Begala, ##OTHER
+American College of Physicians president David Begala, ##OTHER (same as BASIC STATE)
 who penned the article, ##BOUNDED EVENT (SPECIFIC)
 says ##BASIC STATE
 this should not be the first time ##BASIC STATE

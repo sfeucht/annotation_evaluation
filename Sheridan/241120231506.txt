@@ -34,7 +34,7 @@ Cannabis is illegal in the U.S. -- ##GENERIC SENTENCE (STATIC)
 it's legal in only 19 states, ##GENERIC SENTENCE (STATIC)
 plus the District of Columbia, ##OTHER
 which technically has it -- ##BASIC STATE
-but 571 companies, ##OTHER
+but 571 companies, ##OTHER (same as BASIC STATE)
 including five within the Denver metro area, ##BASIC STATE
 own the drug. ##BASIC STATE
 In the Colorado cities of Lafayette, Mont., Sedgwick, Anderson, Socorro, Visalia, Vail and Aurora, an indoor light bulb emits light. ##GENERIC SENTENCE (DYNAMIC)

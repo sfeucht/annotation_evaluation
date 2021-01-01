@@ -2,7 +2,7 @@ The Russians often use drug traffickers for legitimate purposes , ##GENERIC SENT
  but in the case of Italian pharmacy Molly Pena ,  ##OTHER 
  seeing an individual  ##UNBOUNDED EVENT (GENERIC) 
  using medicine from a nonprofit for medical marijuana use  ##UNBOUNDED EVENT (GENERIC) 
- came as a bit of a shock . ##UNBOUNDED EVENT (GENERIC) 
+ came as a bit of a shock . ##UNBOUNDED EVNET (GENERIC) 
 Her community supplies a demand of POT + 3 ,  ##GENERIC SENTENCE (DYNAMIC) 
 a pharmaceutical company and owner of a clinic in the Eastern European city of Naples whos also a doctor . ##OTHER 
 People say no to drugs , ##GENERIC SENTENCE (STATIC) 
@@ -31,7 +31,7 @@ Molly Pena  ##OTHER
  a month later ,  ##OTHER 
 doctors say  ##GENERIC SENTENCE (STATIC) 
  the drug ##OTHER 
- for nearly half a year increased her blood pressure in her right leg ;  ##BOUNDED EVENT (SPECIFIC) 
+ for nearly half a year increased her blood pressure in her right leg ;  ##BOUNDED EVENT (SPECIFIC0 
  she has been prescribed pain meds for headaches and other debilitating conditions . ##PERFECT COERCED STATE (SPECIFIC) 
 The other patients  ##OTHER 
  she treats are under similar treatment ,  ##GENERIC SENTENCE (STATIC) 

@@ -18,7 +18,7 @@ Andy! ##OTHER
 Kaye said at one point, ##BOUNDED EVENT (SPECIFIC)
 addressing CNN host Andy Cohen ##UNBOUNDED EVENT (SPECIFIC)
 and holding a lit marijuana cigarette out to the camera. ##UNBOUNDED EVENT (SPECIFIC)
-Cohen, ##OTHER
+Cohen, ##OTHER (same as UNBOUNDED EVENT (SPECIFIC))
 the Bravo star and executive producer of the Real Housewives franchise, ##OTHER
 was hosting with CNN stalwart Anderson Cooper. ##UNBOUNDED EVENT (SPECIFIC)
 Kathy Griffin was previously Coopers New Year's Eve partner, ##BASIC STATE
@@ -36,7 +36,7 @@ I just want to point out ##COERCED STATE (SPECIFIC)
 that this is all legal in Colorado, ##GENERIC SENTENCE (STATIC)
 Cooper said, ##BOUNDED EVENT (SPECIFIC)
 smiling. ##UNBOUNDED EVENT (SPECIFIC)
-Kaye, ##OTHER
+Kaye, ##OTHER (same as COERCED STATE (SPECIFIC))
 who announced ##BOUNDED EVENT (SPECIFIC)
 she was witnessing New Years Eve, ##UNBOUNDED EVENT (SPECIFIC)
 Denver-style! ##OTHER
@@ -46,7 +46,7 @@ if she had. ##COERCED STATE (SPECIFIC)
 But she did seem disoriented at one point. ##BASIC STATE
 Were at a dispensary ##BASIC STATE
 called the Medicine Man! ##BASIC STATE
-Kaye, ##OTHER
+Kaye, ##OTHER (same as BOUNDED EVENT (SPECIFIC))
 who sported dangling marijuana leaf earrings, ##BOUNDED EVENT (SPECIFIC)
 said. ##BOUNDED EVENT (SPECIFIC)
 Im trying to remember ##UNBOUNDED EVENT (SPECIFIC)

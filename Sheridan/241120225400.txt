@@ -13,7 +13,7 @@ OK, ##OTHER
 the attorneys ##OTHER
 going to be representing, ##COERCED STATE (GENERIC)
 Kleinberg said. ##BOUNDED EVENT (SPECIFIC)
-Culpo, ##OTHER
+Culpo, ##OTHER (same as BASIC STATE)
 who said ##BOUNDED EVENT (SPECIFIC)
 she is well-versed in ethics, ##BASIC STATE
 worries ##UNBOUNDED EVENT (SPECIFIC)

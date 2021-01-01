@@ -73,7 +73,7 @@ more widely known as the death brush. ##GENERIC SENTENCE (HABITUAL)
 James tells me ##BASIC STATE
 that his goal now is to have his memories no longer be taboo. ##BASIC STATE
 On the spot, ##OTHER
-his Texas-based lawyer, ##OTHER
+his Texas-based lawyer, ##OTHER (same as BASIC STATE)
 Irving Immonen, ##OTHER
 says: ##BASIC STATE
 Here's what happened: ##BASIC STATE
