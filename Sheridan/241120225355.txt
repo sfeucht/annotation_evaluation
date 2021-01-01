@@ -70,7 +70,7 @@ the foundation said. ##BOUNDED EVENT (SPECIFIC)
 In addition, ##OTHER
 frequent marijuana users can exhibit persistent levels of the drug long after use, ##COERCED STATE (GENERIC)
 while THC levels can decline more rapidly among occasional users. ##COERCED STATE (GENERIC)
-Nine states, ##OTHER (same as PERFECT COERCED STATE (SPECIFIC))
+Nine states, ##OTHER
 including some ##UNBOUNDED EVENT (SPECIFIC)
 that have legalized marijuana for medicinal use, ##PERFECT COERCED STATE (SPECIFIC)
 have zero-tolerance laws for driving and marijuana ##GENERIC SENTENCE (STATIC)

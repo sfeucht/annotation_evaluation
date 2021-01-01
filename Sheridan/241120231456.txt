@@ -20,7 +20,7 @@ Shawn, ##OTHER
 and threw a paint gun. ##BOUNDED EVENT (SPECIFIC)
 Keith could face up to 15 years in prison ##COERCED STATE (SPECIFIC)
 if convicted of second-degree marijuana possession. ##COERCED STATE (SPECIFIC)
-Marley, ##OTHER (same as BASIC STATE)
+Marley, ##OTHER
 who was born Eliza Irvine McNerney, ##BOUNDED EVENT (SPECIFIC) //3
 was a well-known artist and artist during his massive career as a singer and musician. ##BASIC STATE
 He became well-known as a tireless advocate for the rights of the poor. ##UNBOUNDED EVENT (SPECIFIC) //4

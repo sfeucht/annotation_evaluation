@@ -18,7 +18,7 @@ Ahead of the campaign , ##OTHER
  to provide people with access to a legal , safe , and affordable drug education program and support in addition to public  health services ##UNBOUNDED EVENT (GENERIC) 
  that can protect and help consumers . ##COERCED STATE (GENERIC) 
 According to the Mount Vernon announcement ,  ##BASIC STATE 
-the campaign is confronting drug dealers , educators , and prescribers . ##UNBOUNDED EVENT (GENERIC0 
+the campaign is confronting drug dealers , educators , and prescribers . ##UNBOUNDED EVENT (GENERIC) 
 One source indicated  ##BOUNDED EVENT (SPECIFIC) 
  that the adult version of the drug could be sold for between $50 and $75 . ##COERCED STATE (GENERIC) 
 Critics claim the campaign is simply a political tool  ##GENERIC SENTENCE (STATIC) 

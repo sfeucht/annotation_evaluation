@@ -19,7 +19,7 @@ General Motors spokesman Jimmy Lee told The Huffington Post. ##BOUNDED EVENT (SP
 When we make a brand new car, ##GENERIC SENTENCE (DYNAMIC)
 it has a "mint" and another symbol or shape depending on how to signal the vehicle. ##GENERIC SENTENCE (HABITUAL)
 So we used that in some vehicles for them. ##BOUNDED EVENT (GENERIC)
-Even GE, ##OTHER (same as BOUNDED EVENT (SPECIFIC))
+Even GE, ##OTHER
 who has a partnership with Porsche, ##BASIC STATE
 admitted it violated terms of the accelerator ##BOUNDED EVENT (SPECIFIC)
 and brake disengage control system ##OTHER

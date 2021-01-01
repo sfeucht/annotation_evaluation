@@ -2,7 +2,7 @@ The prosecutor in Willie Nelson's marijuana possession case said ##BOUNDED EVENT
 the country music legend could get off with just a fine ##COERCED STATE (SPECIFIC)
 if he agrees to sing one of his songs in court, ##COERCED STATE (SPECIFIC)
 TMZ reported Monday. ##BOUNDED EVENT (SPECIFIC)
-Nelson, ##OTHER (same as BOUNDED EVENT (SPECIFIC))
+Nelson, ##OTHER
 77, ##OTHER
 was busted at a border patrol checkpoint in Sierra Blanca, ##BOUNDED EVENT (SPECIFIC)
 Texas, ##OTHER

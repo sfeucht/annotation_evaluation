@@ -46,7 +46,7 @@ and we want our brother's recovery to be all the longer desired ##BASIC STATE
 and for that he is held in the custody of the county attorney. ##BASIC STATE*
 We ask for prayers and support ##UNBOUNDED EVENT (SPECIFIC)
 and wish him well." ##UNBOUNDED EVENT (SPECIFIC)
-Barnett, ##OTHER (same as BOUNDED EVENT (SPECIFIC))
+Barnett, ##OTHER
 who provided a statement Monday, ##BOUNDED EVENT (SPECIFIC)
 said ##BOUNDED EVENT (SPECIFIC)
 that he also spoke to families. ##BOUNDED EVENT (SPECIFIC)

@@ -17,7 +17,7 @@ she said. ##BOUNDED EVENT (SPECIFIC)
 man. ##OTHER
 I loved it. ##BASIC STATE
 I loved the power." ##BASIC STATE
-Faris, ##OTHER (same as BASIC STATE)
+Faris, ##OTHER
 who plays a makeup counter girl in the movie, ##UNBOUNDED EVENT (SPECIFIC)
 the object of Rogen's affection, ##OTHER
 has fond memories of mall life. ##BASIC STATE

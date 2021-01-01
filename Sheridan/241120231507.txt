@@ -26,7 +26,7 @@ known euphemistically as "coffee shops." ##GENERIC SENTENCE (HABITUAL)
 However, ##OTHER
 that didn't stop MTV from editing the incident out of the telecast ##COERCED STATE (GENERIC)
 that aired in America later Sunday evening. ##BOUNDED EVENT (SPECIFIC)
-Cyrus, ##OTHER (same as COERCED STATE (SPECIFIC))
+Cyrus, ##OTHER
 who long ago shed her image of innocence as the child star of "Hannah Montana," ##BOUNDED EVENT (SPECIFIC)
 has made no secret ##COERCED STATE (SPECIFIC)
 of her appreciation of Amsterdam's attractions, ##GENERALIZING SENTENCE (STATIVE) //3
@@ -42,10 +42,10 @@ winners included Bruno Mars, ##BASIC STATE
 who grabbed Best Song for ##BOUNDED EVENT (SPECIFIC)
 "Locked Out of Heaven," ##OTHER //3
 and Eminem both in the Best Hip Hop and Global Icon category. ##BASIC STATE
-The "intergalactic" - ##OTHER (same as COERCED STATE (SPECIFIC))
+The "intergalactic" - ##OTHER
 themed show is scheduled to be rebroadcast in the U.S. later Sunday. ##COERCED STATE (SPECIFIC)
 Another notable winner was Katy Perry for Best Female Artist. ##BASIC STATE
-Perry, ##OTHER (same as BOUNDED EVENT (SPECIFIC))
+Perry, ##OTHER
 apparently caught by surprise at her win, ##COERCED STATE (SPECIFIC) //4
 spit out a sip of champagne ##BOUNDED EVENT (SPECIFIC)
 and took the stage ##BOUNDED EVENT (SPECIFIC)
@@ -55,7 +55,7 @@ she hung suspended by wires ##BOUNDED EVENT (SPECIFIC) //4
 as green lasers ##OTHER
 reflected off her ##UNBOUNDED EVENT (SPECIFIC)
 mirrored outfit during a rendition of "Unconditional." ##OTHER
-Eminem, ##OTHER (same as BASIC STATE)
+Eminem, ##OTHER
 who has just released his first album in several years, ##PERFECT COERCED STATE (SPECIFIC)
 appeared to have lost none of his rapping skill ##BASIC STATE
 as he performed "Rap God," ##UNBOUNDED EVENT (SPECIFIC)

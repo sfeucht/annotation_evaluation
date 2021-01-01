@@ -17,7 +17,7 @@ In an interview with Us Weekly, ##OTHER
 her rep said ##BOUNDED EVENT (SPECIFIC)
 "The cake was a joke ##BASIC STATE
 and Miley's response was intended to be sarcastic." ##BASIC STATE
-Cyrus, ##OTHER (same as BOUNDED EVENT (SPECIFIC))
+Cyrus, ##OTHER
 who turned 19 Wednesday, ##BOUNDED EVENT (SPECIFIC)
 caught heat last year ##BOUNDED EVENT (SPECIFIC)
 when video emerged of her ##BOUNDED EVENT (SPECIFIC)
@@ -26,7 +26,7 @@ to inhale ##UNBOUNDED EVENT (SPECIFIC)
 what she claimed ##BOUNDED EVENT (SPECIFIC)
 was salvia, ##BASIC STATE
 the controversial but legal hallucinogenic herb. ##OTHER
-The singers pal and party host, ##OTHER (same as UNBOUNDED EVENT (SPECIFIC))
+The singers pal and party host, ##OTHER
 Kelly Osbourne, ##OTHER
 was standing next to the birthday gal ##UNBOUNDED EVENT (SPECIFIC)
 when she made her unexpected pot proclamation. ##BOUNDED EVENT (SPECIFIC)

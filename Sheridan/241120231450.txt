@@ -10,7 +10,7 @@ In a statement, ##OTHER
 TMZ News reported on Monday ##BOUNDED EVENT (SPECIFIC)
 that a sneak attack led to Bynes ##BOUNDED EVENT (SPECIFIC)
 leaving the city at approximately 3:30 a.m. ##BOUNDED EVENT (SPECIFIC)
-Bynes, ##OTHER (same as BOUNDED EVENT (SPECIFIC))
+Bynes, ##OTHER
 who was busted on charges of assault and resisting arrest, ##BOUNDED EVENT (SPECIFIC)
 was released ##BOUNDED EVENT (SPECIFIC) 
 after posting $5,000 bail in the parking lot of the Los Angeles Airport, ##UNBOUNDED EVENT (SPECIFIC) //4
