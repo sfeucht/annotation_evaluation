@@ -15,16 +15,16 @@ Cain , Romney close in South Carolina and Florida Presidential candidates  ##BAS
 Herman Cain and Mitt Romney are in a close fight for support in Republican primaries in South Carolina and Florida , ##BASIC STATE 
  according to two new NBC / Marist polls . ##BASIC STATE 
 Cain stands at 31 percent to Romneys 28 in South Carolina among likely GOP voters  ##BASIC STATE 
- ( the difference is not statistically significant ) . ##BASIC STATE
+ ( the difference is not statistically significant ) . ##BASIC SENTENCE
 In Florida ,  ##OTHER 
 Cain and Romney stand at 32 and 33 percent , ##BASIC STATE 
 respectively ##OTHER 
  ( including those ##OTHER 
  who lean toward a candidate ) . ##OTHER 
 Texas Gov. Rick Perry places a distant third in both states with about 10 percent support ; ##BASIC STATE 
- other candidates are in single digits . ##GENERIC SENTENCE (STATIC) 
+ other candidates are in single digits . ##GENERIC SENTENCE (SATIC) 
 Blame government or Wall Street for economy ? ##OTHER 
-The Occupy Wall Street movement has heightened scrutiny of the role banks and financial institutions played in the financial crisis ,  ##PERFECT COERCED STATE (GENERIC) 
+The Occupy Wall Street movement has heightened scrutiny of the role banks and financial institutions played in the financial crisis ,  ##PERFECT COERCED STAE (GENERIC) 
  but a new Gallup poll finds  ##BASIC STATE 
  that when forced to pick a bogeyman for the nations economic problems ,  ##COERCED STATE (GENERIC) 
  the public blames government over Wall Street by more than 2 to 1  ##UNBOUNDED EVENT (GENERIC) 
@@ -40,7 +40,7 @@ In separate questions ,  ##OTHER
  financial institutions on Wall Street deserve at least a fair amount of blame for the nations economic woes . ##GENERIC SENTENCE (STATIC) 
 Somewhat more ,  ##OTHER 
 87 percent ,  ##OTHER 
-say  ##OTHER 
+say  ##ITGER 
  the federal government deserved substantial blame . ##GENERIC SENTENCE (STATIC) 
 Republicans see Romney as most electable  ##GENERIC SENTENCE (STATIC) 
  More than four in 10 Republicans and GOP leaning independents say ##BASIC STATE 

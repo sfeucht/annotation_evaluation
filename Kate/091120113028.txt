@@ -80,7 +80,7 @@ And  ##OTHER
  because the channels of distribution are much shorter for American marijuana  ##GENERIC SENTENCE (STATIC) 
  -- much of it is sold directly by the growers --  ##GENERIC SENTENCE (STATIC) 
  the domestic producers are making far greater profit . ##GENERIC SENTENCE (STATIC) 
-On an investment of $3,000 or less ,  ##OTHER
+On an investment of $3,000 or less ,  ##OTHE R
 a grower can easily produce a marijuana crop worth $100,000 , ##GENERIC SENTENCE (STATIC)  
  says David Schickedanz ,  ##BASIC STATE 
 coordinator of the first federal effort  ##OTHER 
@@ -250,7 +250,7 @@ In the spring ,  ##OTHER
 the seedlings are transplanted outside . ##UNBOUNDED EVENT (GENERIC) 
 ( Urban growers often produce pot in a closet ,  ##GENERIC SENTENCE (STATIC)  
  using fancy lighting systems  ##UNBOUNDED EVENT (GENERIC)  
- that produce the wavelengths  ##GENERIC SENTENCE (STATIC) 
+ that produce the wavelengths  ##GENERIC SENTENCE (STATIC0 
  the plants prefer . ) ##GENERIC SENTENCE (STATIC) //2
 Deer , rabbits and other garden pests love the leafy marijuana plants ,  ##GENERIC SENTENCE (STATIC) 
  so most of the serious growers fence their plots with chicken wire or woven wire fencing . ##UNBOUNDED EVENT (GENERIC) 
@@ -261,7 +261,7 @@ To keep out burrowing creatures ,  ##UNBOUNDED EVENT (GENERIC) //2
 Schickedanz said  ##BASIC STATE 
  one of the California growers  ##OTHER 
  his group caught last year had installed two above-ground swimming pools ##NONSENSE 
- to hold water and liquid fertilizer for his marijuana garden . ##GENERIC SENTENCE (STATIC) 
+ to hold water and liquid fertilizer for his marijuana garden . ##GENERIC SENTENCE (STATIC0 
 " He 'd hooked up a couple of pumps . ##BOUNDED EVENT (GENERIC) 
 All  ##OTHER 
  he had to do was step out of his cabin  ##PERFECT COERCED STATE (SPECIFIC) 

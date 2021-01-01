@@ -7,6 +7,7 @@ Fifty-one percent of independent voters said ##BOUNDED EVENT (GENERIC)
  if he secured a majority of 50 percent of the votes , ##COERCED STATE (SPECIFIC)
  Fox reported . ##BOUNDED EVENT (SPECIFIC)
 That split could allow another outside-party favorite ##COERCED STATE (GENERIC)
+ to win the countys 22-year history ##COERCED STATE (GENERIC)
  of politics : ##OTHER
  Sen. Kay Hagan . ##OTHER
 We are running a toss-up in this , ##UNBOUNDED EVENT (SPECIFIC)

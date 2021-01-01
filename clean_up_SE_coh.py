@@ -30,7 +30,7 @@ def fix_SE_typo(old, f, annotator):
         return 'GENERALIZING SENTENCE (DYNAMIC)'
     elif old in ['BASIC SENTENCE', 'BAISC STATE', 'BASIC STATEA', 'BASIC SETATE', 'BASIC STATE A', 'BASICE STATE']:
         return 'BASIC STATE'
-    elif old in ['OHTER', 'ITGER', 'OTEHR', 'OTHE R', '']:
+    elif old in ['OHTER', 'ITGER', 'OTEHR', 'OTHE R']:
         return 'OTHER'
     elif old[:5] == 'OTHER':
         return old
@@ -54,11 +54,10 @@ for annotator in annotators:
             for line in lines:
                 if line.strip() != "" and "***" not in line:
                         try:
-                            if line.strip().split('##')[1] != "":
-                                s = line.strip().split('##')[1].split('//')[0]
-                                s = s.strip('\* ')
-                                new_line = line.replace(s, fix_SE_typo(s, f, annotator))
-                                annotated_doc.write(new_line)
+                            s = line.strip().split('##')[1].split('//')[0]
+                            s = s.strip('\* ')
+                            new_line = line.replace(s, fix_SE_typo(s, f, annotator))
+                            annotated_doc.write(new_line)
                         except:
                             annotated_doc.write(line)
                 else:
