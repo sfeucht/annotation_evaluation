@@ -48,4 +48,3 @@ just as it is to sell it. ##GENERIC SENTENCE (STATIC)
 Even if you have a medical need. ##GENERIC SENTENCE (STATIC)
 Thats the main thing ##GENERIC SENTENCE (STATIC)
 we would like to get out there to people. ##COERCED STATE (SPECIFIC)
-***0 5 5 0 0 0 0 0 YES ML YES UNCLEAR(2) 1 5 3 HUMAN

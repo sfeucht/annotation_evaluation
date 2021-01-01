@@ -52,13 +52,16 @@ for annotator in annotators:
         
         with open(path+("{}/".format(annotator))+f,'w', encoding="utf-8") as annotated_doc:
             for line in lines:
-                if line.strip() != "" and line.strip().split('##')[1] != "" and "***" not in line:
-                    try:
-                        s = line.strip().split('##')[1].split('//')[0]
-                        s = s.strip('\* ')
-                        new_line = line.replace(s, fix_SE_typo(s, f, annotator))
-                        annotated_doc.write(new_line)
-                    except:
+                if line.strip() != "" and "***" not in line:
+                    if line.strip().split('##')[1] != "":
+                        try:
+                            s = line.strip().split('##')[1].split('//')[0]
+                            s = s.strip('\* ')
+                            new_line = line.replace(s, fix_SE_typo(s, f, annotator))
+                            annotated_doc.write(new_line)
+                        except:
+                            annotated_doc.write(line)
+                    else:
                         annotated_doc.write(line)
                 else:
                     annotated_doc.write(line)
