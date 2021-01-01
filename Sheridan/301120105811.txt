@@ -1,0 +1,92 @@
+The crowds of happy people ##OTHER
+lighting joints under Seattles Space Needle early Thursday morning with nary a police officer in sight bespoke the new reality: ##UNBOUNDED EVENT (SPECIFIC)
+Marijuana is legal under Washington state law. ##GENERIC SENTENCE (STATIC)
+Hundreds ##OTHER
+gathered at Seattle Center for a New Years Eve-style countdown to 12 a.m., ##BOUNDED EVENT (SPECIFIC)
+when the legalization measure ##OTHER
+passed by voters last month took effect. ##BOUNDED EVENT (SPECIFIC)
+When the clock struck, ##BOUNDED EVENT (SPECIFIC)
+they cheered ##UNBOUNDED EVENT (SPECIFIC)
+and sparked up in unison. ##BOUNDED EVENT (SPECIFIC)
+A few dozen people gathered on a sidewalk outside the north Seattle headquarters of the annual Hempfest celebration ##BOUNDED EVENT (SPECIFIC)
+and did the same, ##BOUNDED EVENT (SPECIFIC)
+offering joints to reporters ##UNBOUNDED EVENT (SPECIFIC)
+and blowing smoke into television news cameras. ##UNBOUNDED EVENT (SPECIFIC)
+Washington and Colorado became the first states to vote to decriminalize and regulate the possession of an ounce or less of marijuana by adults over 21. ##BOUNDED EVENT (SPECIFIC)
+Both measures call for setting up state licensing schemes for pot growers, processors and retail stores. ##UNBOUNDED EVENT (SPECIFIC)
+Colorados law is set to take effect by Jan. 5. ##COERCED STATE (SPECIFIC)
+Technically, ##OTHER
+Washingtons new marijuana law still forbids smoking pot in public, ##UNBOUNDED EVENT (SPECIFIC)
+which remains punishable by a fine, ##GENERIC SENTENCE (STATIC)
+like drinking in public. ##UNBOUNDED EVENT (GENERIC)
+But pot fans wanted a party, ##GENERIC SENTENCE (STATIC)
+and Seattle police werent about to write them any tickets. ##COERCED STATE (GENERIC)
+In another sweeping change for Washington, ##OTHER
+Gov. Chris Gregoire on Wednesday signed into law a measure ##BOUNDED EVENT (SPECIFIC)
+that legalizes same-sex marriage. ##UNBOUNDED EVENT (SPECIFIC)
+The state joins several others ##UNBOUNDED EVENT (SPECIFIC)
+that allow gay and lesbian couples to wed. ##GENERIC SENTENCE (DYNAMIC)
+The mood was festive in Seattle ##GENERIC SENTENCE (STATIC)
+as dozens of gay and lesbian couples ##OTHER
+got in line ##BOUNDED EVENT (SPECIFIC)
+to pick up marriage licenses at the King County auditors office early Thursday. ##UNBOUNDED EVENT (SPECIFIC)
+King County and Thurston County announced ##BOUNDED EVENT (SPECIFIC)
+they would open their auditors offices ##COERCED STATE (SPECIFIC)
+shortly after midnight Wednesday ##OTHER
+to accommodate those ##UNBOUNDED EVENT (SPECIFIC)
+who wanted to be among the first to get their licenses. ##GENERIC SENTENCE (STATIC)
+Kelly Middleton and her partner Amanda Dollente got in line at 4 p.m. Wednesday. ##BOUNDED EVENT (SPECIFIC)
+Hours later, ##OTHER
+as the line grew, ##UNBOUNDED EVENT (SPECIFIC)
+volunteers distributed roses ##UNBOUNDED EVENT (SPECIFIC)
+and a group of men and women ##OTHER
+serenaded the waiting line to the tune of Going to the Chapel. ##UNBOUNDED EVENT (SPECIFIC)
+Because the state has a three-day waiting period, ##BASIC STATE
+the earliest ##OTHER
+that weddings can take place is Sunday. ##COERCED STATE (GENERIC)
+In dealing with marijuana, ##UNBOUNDED EVENT (GENERIC)
+the Seattle Police Department told its 1,300 officers on Wednesday, ##BOUNDED EVENT (SPECIFIC)
+just before legalization took hold, ##BOUNDED EVENT (GENERIC)
+that until further notice ##OTHER
+they shall not issue citations for public marijuana use. ##COERCED STATE (GENERIC)
+Officers will be advising people ##COERCED STATE (GENERIC)
+not to smoke in public, ##COERCED STATE (GENERIC)
+police spokesman Jonah Spangenthal-Lee wrote on the SPD Blotter. ##BOUNDED EVENT (SPECIFIC)
+The police department believes ##GENERIC SENTENCE (STATIC)
+that, ##OTHER
+under state law, ##OTHER
+you may responsibly get baked, ##COERCED STATE (GENERIC)
+order some pizzas ##BOUNDED EVENT (GENERIC)
+and enjoy a `Lord of the Rings marathon in the privacy of your own home, ##UNBOUNDED EVENT (GENERIC)
+if you want to. ##GENERIC SENTENCE (STATIC)
+He offered a catchy new directive ##BOUNDED EVENT (SPECIFIC)
+referring to the film The Big Lebowski, ##UNBOUNDED EVENT (SPECIFIC)
+popular with many marijuana fans: ##OTHER
+The Dude abides, ##GENERALIZING SENTENCE (DYNAMIC)
+and says `take it inside!' ##UNBOUNDED EVENT (SPECIFIC)
+Washingtons new law decriminalizes possession of up to an ounce for those over 21, ##UNBOUNDED EVENT (SPECIFIC)
+but for now selling marijuana remains illegal. ##GENERIC SENTENCE (STATIC)
+I-502 gives the state a year to come up with a system of state-licensed growers, processors and retail stores, ##UNBOUNDED EVENT (SPECIFIC)
+with the marijuana ##OTHER
+taxed 25 percent at each stage. ##BOUNDED EVENT (GENERIC)
+Analysts have estimated ##PERFECT COERCED STATE (GENERIC)
+that a legal pot market could bring Washington hundreds of millions of dollars a year in new tax revenue for schools, health care and basic government functions. ##COERCED STATE (GENERIC)
+But marijuana remains illegal under federal law. ##GENERIC SENTENCE (STATIC)
+That means ##GENERIC SENTENCE (STATIC)
+federal agents can still arrest people for it, ##COERCED STATE (GENERIC)
+and its banned from federal properties, ##GENERIC SENTENCE (STATIC)
+including military bases and national parks. ##GENERIC SENTENCE (STATIC)
+The Justice Department has not said ##COERCED STATE (SPECIFIC)
+whether it will sue to try to block the regulatory schemes in Washington and Colorado from taking effect. ##COERCED STATE (SPECIFIC)
+The legal question is whether the establishment of a regulated marijuana market would frustrate the purpose of the federal pot prohibition, ##GENERIC SENTENCE (STATIC)
+and many constitutional law scholars say ##GENERIC SENTENCE (STATIC)
+it very likely would. ##COERCED STATE (GENERIC)
+That leaves the political question ##UNBOUNDED EVENT (GENERIC) //3
+of whether the administration wants to try to block the regulatory system, ##BASIC STATE
+even though it would remain legal to possess up to an ounce of marijuana. ##GENERIC SENTENCE (STATIC)
+Alison Holcomb is the drug policy director of the American Civil Liberties Union of Washington ##BASIC STATE
+and served as the campaign manager for New Approach Washington, ##BOUNDED EVENT (SPECIFIC)
+which led the legalization drive. ##BOUNDED EVENT (SPECIFIC)
+She said ##BOUNDED EVENT (SPECIFIC)
+the voters clearly showed theyre done with marijuana prohibition. ##BOUNDED EVENT (GENERIC)
+***0 5 5 0 0 0 0 0 YES ML YES 0 0 0 0 HUMAN

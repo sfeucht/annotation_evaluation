@@ -1,0 +1,44 @@
+Gaga is, ##BASIC STATE
+well, ##OTHER
+definitely an ADDING ADDIC: ##OTHER
+she says ##UNBOUNDED EVENT (SPECIFIC)
+that she struggles with this in an interview with GQ. ##GENERALIZING SENTENCE (DYNAMIC)
+We certainly need to use words like extremely and extremely, ##GENERIC SENTENCE (STATIC)* //4
+but we believe ##GENERIC SENTENCE (STATIC) //4
+that a long dap ##OTHER
+(instant transmission) ##OTHER
+is appropriate. ##GENERIC SENTENCE (STATIC) 
+To add to that idiot, ##UNBOUNDED EVENT (SPECIFIC) 
+Gaga added, ##BOUNDED EVENT (SPECIFIC)
+Im addicted to marijuana, ##BASIC STATE
+I look at life in giddy cornflakes ##GENERALIZING SENTENCE (DYNAMIC)*
+and go, ##GENERALIZING SENTENCE (DYNAMIC)
+Wow, ##OTHER
+those two words still sound so crazy. ##BASIC STATE
+Is it possible that we are some living trophy wife for Lady Gaga? ##QUESTION
+She was talking about her habit in an interview with Vanity Fair, ##UNBOUNDED EVENT (SPECIFIC)
+but she does have a lot more ability to add fire to her pipes, ##BASIC STATE
+and we are going to assume ##COERCED STATE (SPECIFIC)
+that this is the result of an addiction to the dark. ##BASIC STATE
+I used to drink. ##GENERALIZING SENTENCE (DYNAMIC)
+Its been addictive. ##GENERIC SENTENCE (HABITUAL)*
+You have to have a high before youre even engaged. ##GENERIC SENTENCE (HABITUAL)
+But, ##OTHER
+I made a couple of 10-gallon bazillion shots of me ##BOUNDED EVENT (SPECIFIC)
+about 13 years ago. ##OTHER
+Its hard to fully use up before ##GENERIC SENTENCE (DYNAMIC) //4
+when youre playing arenas and stuff. ##GENERIC SENTENCE (DYNAMIC) //4
+Im doing it in one year, ##COERCED STATE (SPECIFIC)
+in two years, ##OTHER
+in four years. ##OTHER
+Im a year away from turning it. ##COERCED STATE (SPECIFIC)
+This is not a huge admission ##BASIC STATE
+(finally!) ##OTHER
+that this kind of addiction should be curbed, ##COERCED STATE (GENERIC)
+but we will never know ##COERCED STATE (GENERIC)
+exactly how Gaga sees alcohol or anything else, ##GENERALIZING SENTENCE (STATIVE)
+as she spars with her family, ##UNBOUNDED EVENT (SPECIFIC)
+especially Pete, ##OTHER
+and doesnt come across as the person ##BASIC STATE
+we want to get a real honest answer about this. ##GENERIC SENTENCE (STATIC) //2
+***0 2 2 0 0 0 0 0 NO NA YES 0 0 0 0 ALGORITHM

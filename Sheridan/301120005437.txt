@@ -1,0 +1,175 @@
+There are a lot of superlative claims about hemp oil: ##GENERIC SENTENCE (STATIC)
+most unsaturated oil, best essential fatty acids ##OTHER
+(EFA) ratio and combination, highest amino acid variety, only plant source of vitamin D. ##OTHER
+Can one oil be all that? ##QUESTION
+In short, ##OTHER
+yes. ##OTHER
+Before we go further, ##COERCED STATE (GENERIC)
+let me address that unspoken question, ##IMPERATIVE //3
+"Will hemp oil make me high?" ##QUESTION
+No, ##OTHER
+it won't. ##COERCED STATE (GENERIC)
+Hemp oil is pressed from the seed of the hemp plant, ##GENERIC SENTENCE (DYNAMIC)
+and this seed does not contain THC, ##GENERIC SENTENCE (STATIC)
+or tetrahydrocannabinol, ##OTHER
+which is the psychoactive component of marijuana. ##GENERIC SENTENCE (STATIC)
+However, ##OTHER
+because of this concern, ##OTHER
+many hemp oil suppliers provide transparent certifications ##GENERIC SENTENCE (DYNAMIC)
+to assure buyers of the lack of THC content in their products. ##UNBOUNDED EVENT (GENERIC)
+Test Pledge is one such resource, ##BASIC STATE
+wherein ##OTHER
+"producers and processors of hemp oil ##OTHER
+and hemp ##OTHER
+nut must commission THC tests on each and every lot of hemp nut and oil, ##COERCED STATE (GENERIC)
+performed by a properly accredited laboratory ##BOUNDED EVENT (GENERIC)
+according to the official Health Canada protocol." ##BASIC STATE
+In their assessment of hemp cosmetics on workplace drug testing, ##OTHER 
+Petra Pless, ##OTHER
+DEnv, ##OTHER
+and Gero Leson, ##OTHER
+D Env, ##OTHER
+state, ##UNBOUNDED EVENT (SPECIFIC)
+"In case of the highly unlikely full-body application of pure hemp oil with a 10 ppm THC content on partially compromised skin THC ##UNBOUNDED EVENT (GENERIC)
+uptake could conceivably be raised to 11 g/day. ##COERCED STATE (GENERIC)
+Even this higher rate is only a fraction of the 450 g / day of oral THC intake, ##GENERIC SENTENCE (STATIC)
+found not to result in a positive screening test for marijuana." ##BOUNDED EVENT (GENERIC)
+Don't judge hemp ##IMPERATIVE
+because it may have a kooky cousin. ##GENERIC SENTENCE (STATIC)
+That's hardly fair. ##GENERIC SENTENCE (STATIC)
+Who doesn't have an offbeat family member or two? ##QUESTION
+Why Hemp Hemp oil contains unsurpassed essential fatty acids ##GENERIC SENTENCE (STATIC)
+(EFAs). ##OTHER
+As we are increasingly learning, ##UNBOUNDED EVENT (GENERIC)
+there are good fats ##GENERIC SENTENCE (STATIC)
+and there are bad fats. ##GENERIC SENTENCE (STATIC)
+What makes a good fat good has much to do with these EFAs, ##GENERIC SENTENCE (HABITUAL)
+specifically omega-3 and omega-6, ##OTHER
+which are present in hemp oil in the perfect ratio of 1:3. ##GENERIC SENTENCE (STATIC)
+Plus, ##OTHER
+hemp oil contains the anti-inflammatory gamma linoleic acid ##GENERIC SENTENCE (STATIC)
+(GLA) ##OTHER
+as well as omega-9. ##OTHER
+Its fatty acid profile is better than fish oil's, ##GENERIC SENTENCE (STATIC)
+better than flaxseed oil's ##OTHER
+-- it is the best. ##GENERIC SENTENCE (STATIC)
+Among many benefits, ##OTHER
+these EFAs provide for more elastic skin and shiny, stronger hair. ##GENERIC SENTENCE (DYNAMIC)
+Hemp oil contains a power-packed punch of additional nutrients, ##GENERIC SENTENCE (STATIC)
+including calcium, potassium, magnesium, copper, vitamin A, vitamin B1 ##UNBOUNDED EVENT (GENERIC)
+(thiamin) , vitamin B3 ##OTHER
+(niacin), vitamin B5, vitamin B9 ##OTHER
+(folate), ##OTHER
+and vitamin D ##OTHER
+(of which it is the only plant source), ##GENERIC SENTENCE (STATIC)
+along with a useful dose of the antioxidant vitamin E ##OTHER
+(tocopherols) ##OTHER
+as well as all 10 amino acids for protein building. ##UNBOUNDED EVENT (GENERIC)
+Add to that list chlorophyll ##IMPERATIVE
+(that's why it's green), ##GENERIC SENTENCE (STATIC)
+phytosterols, phospholipids, magnesium, sulfur, potassium, phosphorus, and a bit of iron and zinc. ##OTHER
+Hemp oil is extremely non-comodogenic. ##GENERIC SENTENCE (STATIC)
+In other words, ##OTHER
+it doesn't clog pores. ##COERCED STATE (GENERIC)
+And ##OTHER
+because its lipids mirror the lipids ##GENERIC SENTENCE (STATIC)
+that our skin produces naturally, ##GENERIC SENTENCE (DYNAMIC)
+it works in sync with our body ##GENERIC SENTENCE (DYNAMIC)
+to soothe and cleanse. ##UNBOUNDED EVENT (GENERIC)
+Healthy skin produces linoleic acid. ##GENERIC SENTENCE (DYNAMIC)
+If, ##OTHER
+for whatever reason, ##OTHER
+the skin can't produce linoleic acid, ##COERCED STATE (GENERIC)
+it alternatively produces oleic acid, ##GENERIC SENTENCE (DYNAMIC)
+a thick and sticky pore blocker. ##OTHER
+Hemp oil contains the good linoleic acid. ##GENERIC SENTENCE (STATIC)
+Hemp oil is also a natural humectant, ##GENERIC SENTENCE (STATIC)
+which means ##BASIC STATE
+it draws moisture into the skin. ##GENERIC SENTENCE (DYNAMIC)
+Instead of sitting on top of the skin the way ##COERCED STATE (GENERIC)
+less-effective oils do, ##GENERIC SENTENCE (DYNAMIC)
+it's able to penetrate the skin, ##COERCED STATE (GENERIC)
+moisturizing between cells ##UNBOUNDED EVENT (GENERIC)
+and strengthening the cell matrix. ##UNBOUNDED EVENT (GENERIC)
+It can get to hair roots, ##COERCED STATE (GENERIC)
+as well, ##OTHER
+strengthening the scalp ##UNBOUNDED EVENT (GENERIC)
+and reducing dry flaking or dandruff. ##UNBOUNDED EVENT (GENERIC)
+It evens out skin tone ##GENERIC SENTENCE (DYNAMIC)
+and reduces blotchiness. ##GENERIC SENTENCE (DYNAMIC)
+How to Use It ##OTHER
+Hemp oil is inexpensive ##GENERIC SENTENCE (STATIC)
+-- especially when you think of all the products ##GENERIC SENTENCE (DYNAMIC) //2
+it replaces: ##GENERIC SENTENCE (DYNAMIC) //4
+acne treatments, makeup to cover problem areas, moisturizers, and makeup removers, for instance. ##OTHER
+Here are just a few ways ##BASIC STATE
+you can use this effective oil in your daily skin and hair care routines. ##COERCED STATE (GENERIC)
+Alleviate dry skin. ##UNBOUNDED EVENT (GENERIC)
+Rub the oil directly onto dry, cracked skin. ##IMPERATIVE
+For a deep conditioning treatment for hands and feet, ##OTHER
+massage in the oil then wear socks or gloves overnight ##IMPERATIVE
+to let it work its magic. ##UNBOUNDED EVENT (GENERIC)
+Strengthen nails ##UNBOUNDED EVENT (GENERIC)
+and heal cuticles. ##UNBOUNDED EVENT (GENERIC)
+Massage a small amount of hemp oil directly into nails and cuticles ##IMPERATIVE
+-- great for both fingernails and toenails. ##OTHER
+Remove makeup. ##UNBOUNDED EVENT (GENERIC)
+Oil follows the "like dissolves like" rule, ##GENERIC SENTENCE (DYNAMIC)
+which means ##BASIC STATE
+that hemp oil will dissolve the oils and waxes in makeup, ##COERCED STATE (GENERIC)
+especially in stubborn eye makeup. ##OTHER
+Gently rub a small amount of oil into the makeup ##IMPERATIVE
+and wipe with a cotton ball or a soft tissue. ##IMPERATIVE
+Mask overnight. ##BOUNDED EVENT (GENERIC) //3
+Massage hemp oil into cleansed facial skin before bedtime. ##IMPERATIVE
+Steam facial skin. ##IMPERATIVE
+Massage a tablespoon of oil into the skin on your dry, clean face, ##IMPERATIVE
+massaging for several minutes. ##BOUNDED EVENT (SPECIFIC)
+Then lay a hot ##IMPERATIVE
+(not scalding) ##OTHER
+damp washcloth over your face ##OTHER
+and let it sit ##IMPERATIVE
+until it cools. ##BOUNDED EVENT (GENERIC)
+Wipe with the washcloth. ##IMPERATIVE
+Repeat with another hot washcloth ##IMPERATIVE
+until all the oil is wiped off. ##BOUNDED EVENT (GENERIC)
+Washing your face afterwards is optional. ##GENERIC SENTENCE (STATIC)
+Condition hair. ##UNBOUNDED EVENT (GENERIC) //3
+Before shampooing, ##BOUNDED EVENT (GENERIC)
+massage a tablespoon or so of hemp oil into your scalp ##IMPERATIVE
+and let it sit for about 10 minutes. ##IMPERATIVE
+Afterwards, ##OTHER
+shampoo as normal. ##IMPERATIVE
+You might find ##COERCED STATE (GENERIC)
+you don't need conditioner. ##GENERIC SENTENCE (STATIC)
+Reduce acne. ##UNBOUNDED EVENT (GENERIC)
+This may sound crazy, ##BASIC STATE
+but this oil actually reduces acne. ##GENERIC SENTENCE (DYNAMIC)
+Massage hemp oil into problem areas ##IMPERATIVE
+and work it in gently for several minutes. ##IMPERATIVE
+The oil will actually draw out sebum plugs ##COERCED STATE (GENERIC)
+that cause whiteheads, blackheads, and even cysts. ##GENERIC SENTENCE (DYNAMIC)
+Do this daily during breakouts. ##IMPERATIVE
+Relieve eczema. ##UNBOUNDED EVENT (GENERIC)
+A 2005 study found ##BOUNDED EVENT (SPECIFIC)
+that 2 tablespoons of dietary hemp seed oil ##OTHER
+consumed daily may help relieve the effects of atopic dermatitis, ##COERCED STATE (GENERIC)
+or eczema. ##OTHER
+Support overall health. ##UNBOUNDED EVENT (GENERIC)
+Eat it. ##IMPERATIVE
+You can eat it straight ##COERCED STATE (GENERIC)
+and enjoy its nutty flavor ##UNBOUNDED EVENT (GENERIC)
+or you can put it in salad dressings, ##COERCED STATE (GENERIC)
+as a butter replacement on toast, rice, potatoes, vegetables... ##OTHER
+it's delicious! ##GENERIC SENTENCE (STATIC)
+Keep in mind ##IMPERATIVE
+that pure hemp seed oil cannot be used for high-heat cooking. ##COERCED STATE (GENERIC)
+It has a low smoke point ##GENERIC SENTENCE (STATIC)
+and will totally break down even at a moderate heat, ##COERCED STATE (GENERIC) 
+at which point all nutritional benefits are lost. ##GENERIC SENTENCE (DYNAMIC)
+Just remember, ##IMPERATIVE
+pure hemp seed oil goes rancid easily. ##GENERIC SENTENCE (DYNAMIC) //4
+It needs to be kept in the fridge. ##COERCED STATE (GENERIC)
+However, ##OTHER
+you can look for it as a shelf-stable ingredient in other personal care products. ##COERCED STATE (GENERIC)
+***0 5 3 0 0 0 0 0 YES ML YES 0 3 4 5 HUMAN

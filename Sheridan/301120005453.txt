@@ -1,0 +1,75 @@
+Cannabis is having a skincare moment. ##UNBOUNDED EVENT (GENERIC)
+Beauty and wellness products ##OTHER
+containing cannabidiol ##GENERIC SENTENCE (STATIC)
+(CBD), ##OTHER
+and possibly tetrahydrocannabinol ##OTHER
+(THC), ##OTHER
+are becoming increasingly popular. ##UNBOUNDED EVENT (GENERIC)
+CBD, ##OTHER
+along with THC, ##OTHER
+are the two most common cannabinoids ##GENERIC SENTENCE (STATIC)
+found in cannabis ##GENERIC SENTENCE (DYNAMIC)
+(a.k.a. marijuana), ##OTHER
+but they have different effects. ##GENERIC SENTENCE (HABITUAL)
+CBD is touted as having therapeutic and stress-relieving benefits, ##GENERIC SENTENCE (DYNAMIC)
+while THC is responsible for the high ##GENERIC SENTENCE (STATIC)
+associated with marijuana use. ##GENERIC SENTENCE (STATIC)
+Additionally, ##OTHER
+CBD is legal in many states, ##GENERIC SENTENCE (STATIC)
+while THC is not. ##GENERIC SENTENCE (STATIC)
+You can find cannabis products for a relaxing bath, for soothing sore muscles and for healing chapped lips. ##COERCED STATE (GENERIC)
+Theyve even a found fan in Olivia Wilde, ##PERFECT COERCED STATE (GENERIC)*
+who raved about a topical CBD lotion by Lord Jones in a 2017 New York Times profile. ##BOUNDED EVENT (SPECIFIC)
+And celebrity stylist Karla Welch has said ##PERFECT COERCED STATE (SPECIFIC)
+she tells her clients ##GENERALIZING SENTENCE (DYNAMIC)
+(like Wilde, Katy Perry and Sarah Paulson) ##OTHER
+to use it on their feet for red carpet events. ##IMPERATIVE
+Dr. Samer Jaber of Washington Square Dermatology told XXX ##BOUNDED EVENT (SPECIFIC)
+that while the enthusiasm for cannabinoids in skincare is definitely growing, ##UNBOUNDED EVENT (SPECIFIC)
+the science behind cannabis and cannabinoids for skin health is still sparse. ##GENERIC SENTENCE (STATIC)
+A lot of the research focuses on the cannabinoids usefulness in relieving itchiness ##UNBOUNDED EVENT (GENERIC)
+associated with dry skin and eczema. ##GENERIC SENTENCE (HABITUAL)
+Cannabinoids also have some anti-inflammatory effects, ##GENERIC SENTENCE (STATIC)
+as well as potential anti-tumor effects, ##OTHER
+Jaber said, ##BOUNDED EVENT (SPECIFIC)
+though he added ##BOUNDED EVENT (SPECIFIC)
+that much more research remains to be done. ##GENERIC SENTENCE (STATIC)
+Unfortunately, ##OTHER
+most of the studies on the cannabinoids have been done in the laboratory only ##PERFECT COERCED STATE (GENERIC)
+and there are very few studies on people, ##GENERIC SENTENCE (STATIC)
+Jaber said. ##BOUNDED EVENT (SPECIFIC)
+So additional well-controlled, clinical studies need to be done to see ##COERCED STATE (GENERIC)
+how effective these ingredients actually are in real life. ##GENERIC SENTENCE (HABITUAL)
+Another issue with cannabinoids in skincare products is that its difficult to know ##GENERIC SENTENCE (STATIC)
+exactly what youre getting, ##GENERIC SENTENCE (DYNAMIC)
+Jaber said. ##BOUNDED EVENT (SPECIFIC)
+Since it is not regulated its difficult to know ##GENERIC SENTENCE (HABITUAL)
+what you are actually putting on your body, ##UNBOUNDED EVENT (GENERIC)
+he said. ##BOUNDED EVENT (SPECIFIC)
+Dr. Angela Lamb, ##OTHER (same as BOUNDED EVENT (SPECIFIC))
+director of the Westside Mount Sinai Dermatology Faculty Practice in New York, ##OTHER
+echoed Jaber, ##BOUNDED EVENT (SPECIFIC)
+telling XXX, ##UNBOUNDED EVENT (SPECIFIC)
+We just do not have any strong research ##GENERIC SENTENCE (STATIC)
+to support beneficial effects on the skin. ##UNBOUNDED EVENT (GENERIC)
+My aim is to be research-focused in health care. ##BASIC STATE
+Anyone can make claims, ##COERCED STATE (GENERIC)
+but I want to see ##BASIC STATE
+what studies have shown, ##PERFECT COERCED STATE (GENERIC)
+and as it relates to cannabis, ##GENERIC SENTENCE (STATIC)
+there is just not a lot of support yet. ##GENERIC SENTENCE (STATIC)
+It may come in several years, ##COERCED STATE (GENERIC)
+but until then, ##OTHER
+I think ##BASIC STATE
+a lot of it is hype, ##GENERIC SENTENCE (STATIC)
+she added. ##BOUNDED EVENT (SPECIFIC)
+I do not think ##BASIC STATE
+it is harmful, ##GENERIC SENTENCE (STATIC)
+I am just not sure ##BASIC STATE
+it helps. ##GENERIC SENTENCE (DYNAMIC)
+As a result of the varying state laws ##OTHER
+regarding marijuana, ##GENERIC SENTENCE (STATIC)
+much of these products are mainly available in states ##GENERIC SENTENCE (HABITUAL)
+where marijuana is legal (like California and Colorado) ##GENERIC SENTENCE (STATIC)
+and they often arent available online. ##GENERIC SENTENCE (HABITUAL)
+***0 5 5 0 0 0 0 0 YES ML YES 0 0 0 0 HUMAN

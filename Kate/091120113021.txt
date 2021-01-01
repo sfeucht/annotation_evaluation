@@ -1,0 +1,53 @@
+Campaign manager Bill Bradley and the Obama campaign are touting their endorsement from Joe Walsh in the wake of his dust-up with the mayor of Boston ,  ##UNBOUNDED EVENT (SPECIFIC) 
+ which led to the expulsion of a city prosecutor and a lawsuit . ##BASIC STATE 
+A Massachusetts immigrant  ##OTHER  
+ who found  ##BOUNDED EVENT (SPECIFIC) 
+ that his marijuana paraphernalia was flaking  ##BASIC STATE 
+ when he was sentenced to 11 days in jail  ##BASIC STATE 
+ ( he is currently in the university  ##BASIC STATE 
+ and will spend 17 days on probation )  ##COERCED STATE (GENERIC) 
+ will ##OTHER
+ now face increased scrutiny and consequences from the voters  ##UNBOUNDED EVENT (SPECIFIC) 
+ who elected a progressive candidate . ##BOUNDED EVENT (SPECIFIC) 
+Walsh was reprimanded by the states ethics committee ,  ##BOUNDED EVENT (SPECIFIC) 
+ and his campaign demanded the full results of the Justice Departments ongoing investigation  ##BOUNDED EVENT (SPECIFIC) 
+ into the business owner and his downtown business . ##OTHER 
+( The Obama campaign is withholding all information  ##BASIC STATE 
+ regarding Walsh until Tuesday . ) ##BASIC STATE 
+It was Walshs current business partner , ##BASIC STATE 
+ Dominic Rossi ,  ##OTHER 
+ who turned to the bank on September 15 , 2010 ,  ##BOUNDED EVENT (SPECIFIC) 
+ to deposit more than $1,000 in e-deposit envelopes  ##BOUNDED EVENT (SPECIFIC) 
+ but that he tried to send back with several more emojis ##BOUNDED EVENT (SPECIFIC) 
+ to his wife  ##OTHER 
+ so they could get the $100 check . ##COERCED STATE (SPECIFIC) 
+The Obama campaign stuck with Walsh through Friday night ,  ##BASIC STATE 
+ but refused to meet with the mayor and district attorney ##BOUNDED EVENT (SPECIFIC) 
+ at least four days after the order to do so ,  ##OTHER 
+ according to Walshs supporters . ##BASIC STATE 
+The announcement from the campaign of Walshs offensive against Rossi , ##OTHER 
+ who is known for suing a local politician for failing to revoke the mayors access to his mayoral campaign fund ,  ##BASIC STATE 
+ might yet have an effect in the fallout for Walsh . ##PERFECT COERCED STATE (SPECIFIC) 
+Later this week ,  ##OTHER 
+ Walshs former aide , ##OTHER 
+Tim Allen ,  ##OTHER 
+is reportedly facing charges  ##UNBOUNDED EVENT (SPECIFIC) 
+ stemming from his personal fight with the Boston mayor  ##BASIC STATE 
+ over his mayoral campaign fund .  ##OTHER 
+Allen won a vacant seat from the citys bitter incumbent  ##BOUNDED EVENT (SPECIFIC) 
+ when he reclaimed it in late June . ##BOUNDED EVENT (SPECIFIC) 
+Walsh has had a rocky relationship with the mayors campaign .  ##PERFECT COERCED STATE (SPECIFIC) 
+He sued the campaign over the law  ##BOUNDED EVENT (SPECIFIC) 
+ expiring in July 2011 ,  ##BASIC STATE 
+ but won the court victory through a hard-fought settlement over a restricted fund ,  ##BOUNDED EVENT (SPECIFIC) 
+ which let Walsh and his backers raise  ##BASIC STATE  
+ and spend about $2.2 million in the race but that law expired on July 2 . ##BOUNDED EVENT (SPECIFIC) 
+To wit :  ##OTHER 
+ Walshs campaign has not yet released any polling numbers ##BOUNDED EVENT (SPECIFIC) 
+ and theres not the financial stability either of the candidates  ##GENERIC SENTENCE (STATIC) 
+ received until Thursdays London visit from Bradley , ##BOUNDED EVENT (SPECIFIC) 
+ the campaigns top fundraiser . ##OTHER 
+And  ##OTHER 
+ while Bradley endorsed Walsh two years ago ,  ##BOUNDED EVENT (SPECIFIC) 
+ Bradley accused Walsh in April of maliciously politicizing the Boston Ethics Committee .  ##BOUNDED EVENT (SPECIFIC) 
+*** 0 4 2 4 4 1 3 4 YES ML YES 0 0 NA NA ALGORITHM

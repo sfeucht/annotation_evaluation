@@ -1,0 +1,29 @@
+Last week, ##OTHER
+voters in 17 states ##OTHER
+including Colorado declared their backing of gay marriage. ##BOUNDED EVENT (GENERIC)
+Now it looks like marriage equality will be back in three more. ##GENERIC SENTENCE (STATIC)
+Breaking a historic coalition of church-state allies, ##UNBOUNDED EVENT (SPECIFIC)
+the two nations leading bishops issued their latest policy declaration on Sunday, ##BOUNDED EVENT (SPECIFIC)
+declaring their support ##UNBOUNDED EVENT (SPECIFIC)
+for religiously protected homosexual lifestyles, ##OTHER
+such as gay unions and sex partners, ##OTHER
+according to a Washington Post article. ##BASIC STATE
+State-by-state votes have restored gay marriage to federal policy, ##PERFECT COERCED STATE (GENERIC)
+Washington Archbishop of Washington Dan McGraw said. ##BOUNDED EVENT (SPECIFIC)
+And this government has created some civil rights issues ##PERFECT COERCED STATE (SPECIFIC)
+that will impact thousands of generations to come. ##COERCED STATE (GENERIC)
+As you can imagine, ##COERCED STATE (GENERIC)
+the Obama administration quickly jumped on the Christian conscience movement, ##BOUNDED EVENT (SPECIFIC)
+which advocates the legal protection of homosexuals. ##UNBOUNDED EVENT (SPECIFIC)
+Within hours, ##OTHER
+President Obamano relation to his father circulated a letter to Congress, ##BOUNDED EVENT (SPECIFIC)*
+urging them ##UNBOUNDED EVENT (SPECIFIC)
+to address the gay marriage issue. ##UNBOUNDED EVENT (SPECIFIC)
+Fast forward to the end of last week, ##OTHER
+and it seems the Roman Catholic Archdiocese of Washington is likely to announce ##BASIC STATE
+that it plans to recognize same-sex unions, ##COERCED STATE (SPECIFIC)
+including those ##UNBOUNDED EVENT (SPECIFIC)
+held in their churches. ##GENERIC SENTENCE (DYNAMIC)
+According to the American Civil Liberties Union, ##BASIC STATE
+judges in other states will likely block gay couples from getting married in those same-sex unions: ##COERCED STATE (GENERIC)
+***0 5 5 0 0 0 0 0 YES SSM YES UNCLEAR(2) 0 0 0 HUMAN

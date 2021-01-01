@@ -1,0 +1,32 @@
+The wife of a D.C. Police officer had a home invasion at the Capitol a week earlier . ##PERFECT COERCED STATE (SPECIFIC) 
+The police officer ,  ##OTHER 
+Robert Coombs ,  ##OTHER 
+responded to a robbery call at a gas station in Columbia ,  ##BOUNDED EVENT  (SPECIFIC) 
+ but was forced to sneak out   ##BOUNDED EVENT (SPECIFIC) 
+ when she refused to let him get back to the station . ##BOUNDED EVENT (SPECIFIC)  
+I turned around  ##BOUNDED EVENT (SPECIFIC) 
+ and saw the suspect come out of the store . ##BOUNDED EVENT (SPECIFIC) 
+I saw  ##BOUNDED EVENT (SPECIFIC) 
+ she entered the gas station ,  ##BOUNDED EVENT (SPECIFIC) 
+ led her through the side door  ##BOUNDED EVENT (SPECIFIC) //3
+ and did what was required  ##BOUNDED EVENT (SPECIFIC)   
+ to get out ,  ##UNBOUNDED EVENT (SPECIFIC) 
+ says NYPD Det . ##BASIC STATE 
+James C. Sabathia . ##OTHER 
+She then moved off into the dark ,  ##BOUNDED EVENT (SPECIFIC) 
+ and I saw her run out of the store . ##BOUNDED EVENT (SPECIFIC) 
+After being abandoned in the store ,  ##BOUNDED EVENT (SPECIFIC) 
+ she came back home  ##BOUNDED EVENT (SPECIFIC)
+ and has been convicted three times for alcohol possession .  ##PERFECT COERCED STATE (SPECIFIC) 
+Ms. Coombs was charged today with felony robbery and three counts of felony breaking and entering . ##BOUNDED EVENT (SPECIFIC) 
+She has been free on bail  ##PERFECT COERCED STATE (SPECIFIC) 
+ since she was arrested on April 5 on police identification charges . ##BOUNDED EVENT (SPECIFIC) 
+Ms. Combs received more than $500 in cash from the person  ##BOUNDED EVENT (SPECIFIC) 
+ who saw her . ##OTHER 
+I will fight to make sure ##COERCED STATE (SPECIFIC)  
+ I am not the accomplice  ##BASIC STATE 
+ that stole a $500 bottle of glass wine ,  ##OTHER 
+ she tells us . ##BASIC STATE 
+Were giving her the money ,  ##UNBOUNDED EVENT (SPECIFIC) 
+ Police Commissioner Joseph B. Caputo tells us . ##BASIC STATE 
+*** 0 4 5 5 4 3 3 3 NO NA YES 0 0 0 0 UNCLEAR 

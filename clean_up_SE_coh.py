@@ -14,11 +14,7 @@ annotators = {"Sheridan":[],"Muskaan":[],"Kate":[]}
 ### function that takes in an SE type and converts to non-typo version if necessary
 ### if the typo has not been accounted for yet, return the typo version and print a message.
 def fix_SE_typo(old, f, annotator):
-    if old in valid_simplified_SE_types:
-        return old
-    elif old.upper() in valid_simplified_SE_types:
-        return old.upper()
-    elif old in ['BOUNDED EVENT (SPECIFIC_', 'BOUNDED EVENT (SPECIFIC)_', 'BOUNDED EVENT (SPECIFIC0']:
+    if old in ['BOUNDED EVENT (SPECIFIC_', 'BOUNDED EVENT (SPECIFIC)_', 'BOUNDED EVENT (SPECIFIC0']:
         return 'BOUNDED EVENT (SPECIFIC)'
     elif old in ['NBOUNDED EVENT (SPECIFIC)']:
         return 'UNBOUNDED EVENT (SPECIFIC)'
@@ -37,26 +33,34 @@ def fix_SE_typo(old, f, annotator):
     elif old in ['OHTER', 'ITGER', 'OTEHR', 'OTHE R', ''] or old[:5] in ['OTHER']:
         return 'OTHER'
     else:
-        print(annotator, f, "typo: ", old)
-        return old
+        if old not in valid_full_SE_types:
+            if old.upper() not in valid_full_SE_types:
+                print(annotator, f, "typo: ", old)
+        return old.upper()
 
 
-### function that fixes SE typos in the whole corpus
-### if a typo has been seen before and is in this code, fixes, otherwise prints
-def fix_corpus_SE_typos():
-    for annotator in annotators:
-        folder = os.listdir("{}/".format(annotator))
-        SE_files = [f for f in folder if 'annotation' not in f]
-        for f in SE_files:
-            with open(path+("{}/".format(annotator))+f,'w', encoding="utf-8") as annotated_doc:
-                for line in annotated_doc:
-                    if line.strip() != "" and "***" not in line:
-                        try:
-                            s = line.strip().split('##')[1].split('//')[0]
-                            s = s.strip('\* ')
-                            line.replace(s, fix_SE_typo(s, f, annotator), end='')
-                        except:
-                            pass
+### this code fixes SE typos in the whole corpus
+### if a typo has been seen before and is in this code, fixes it, otherwise prints
+for annotator in annotators:
+    folder = os.listdir("{}/".format(annotator))
+    SE_files = [f for f in folder if 'annotation' not in f]
+    for f in SE_files:
+        with open(path+("{}/".format(annotator))+f,'r', encoding="utf-8") as annotated_doc:
+            lines = annotated_doc.readlines()
+        
+        with open(path+("{}/".format(annotator))+f,'w', encoding="utf-8") as annotated_doc:
+            for line in lines:
+                if line.strip() != "" and "***" not in line:
+                    try:
+                        s = line.strip().split('##')[1].split('//')[0]
+                        s = s.strip('\* ')
+                        new_line = line.replace(s, fix_SE_typo(s, f, annotator))
+                        annotated_doc.write(new_line)
+                    except:
+                        annotated_doc.write(line)
+                else:
+                    annotated_doc.write(line)
+
 
 
 ################################################################################

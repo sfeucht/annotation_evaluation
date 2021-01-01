@@ -1,0 +1,38 @@
+A D.C. policeman and his wife were arrested yesterday  ##BOUNDED EVENT (SPECIFIC) 
+ after an early-morning raid  ##OTHER 
+ in which police found more than a pound of marijuana in their Northwest Washington ,   ##BOUNDED EVENT (SPECIFIC) 
+ police reported . ##BOUNDED EVENT (SPECIFIC) 
+Police said  ##BOUNDED EVENT (SPECIFIC) 
+ Officer Donald L. Hood ,  ##OTHER
+28 ,  ##OTHER 
+and his wife , ##OTHER  
+Sharon Laverne Hood ,  ##OTHER 
+28 ,  ##OTHER 
+are charged with possession of marijuana ,  ##BASIC STATE 
+a violation of the Uniform Narcotics Act . ##GENERIC SENTENCE (STATIC) 
+The charge is a misdemeanor  ##BASIC STATE 
+ and carries a maximum one-year jail sentence . ##BASIC STATE  
+The Hoods had been charged originally with possession of a controlled substance with intent to distribute ,  ##PERFECT COERCED STATE (SPECIFIC) 
+a felony with a potential five-year penalty ,  ##BASIC STATE 
+ but that charge was reduced in U.S. District Court yesterday . ##BOUNDED EVENT (SPECIFIC) 
+The arrests came after a three-week investigation by the Metropolitan Police Department 's internal affairs division and the narcotics squad ,  ##BOUNDED EVENT (GENERIC) 
+ police said . ##BOUNDED EVENT (SPECIFIC) 
+Acting on information from an informant ,  ##UNBOUNDED EVENT (GENERIC) 
+ police said ,  ##BOUNDED EVENT (SPECIFIC) 
+ they obtained a search warrant from a U.S. magistrate .  ##BOUNDED EVENT (SPECIFIC) 
+The Hoods ' home at 5313 14th St. NW was searched at 1:45 a.m. yesterday ,  ##BOUNDED EVENT (SPECIFIC) 
+ police said . ##BOUNDED EVENT (SPECIFIC) 
+Police said  ##BOUNDED EVENT (SPECIFIC) 
+ they seized marijuana , a quantity of money and narcotics paraphernalia .  ##BOUNDED EVENT (SPECIFIC) 
+Hood , ##OTHER 
+ a seven-year veteran of the police force , ##BASIC STATE
+ turned in his resignation immediately after his arrest ,  ##BOUNDED EVENT (SPECIFIC) 
+ police said . ##BOUNDED EVENT (SPECIFIC) 
+He had been a uniformed officer  ##PERFECT COERCED STATE (SPECIFIC) 
+ attached to the first district substantion . ##BASIC STATE 
+Mr. and Mrs. Hood were released on their own recognizance  ##BOUNDED EVENT (SPECIFIC) 
+ and face a jury trial June 20 in D.C. Superior Court .  ##UNBOUNDED EVENT (SPECIFIC) 
+The case was sent to Superior Court  ##BOUNDED EVENT (SPECIFIC) 
+ from U.S. District Court  ##OTHER 
+ when the more serious charge against the officer and his wife were dropped in favor of the misdemeanor charge . ##BOUNDED EVENT (SPECIFIC) 
+*** 0 5 5 5 5 5 5 1 YES ML YES 0 NO 0 0 HUMAN 

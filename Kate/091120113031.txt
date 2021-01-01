@@ -1,0 +1,46 @@
+Forget alcohol and drugs . ##IMPERATIVE
+Theyre big business . ##GENERIC SENTENCE (STATIC) 
+Legal booze and heroin are big business . ##GENERIC SENTENCE (STATIC) 
+Medical marijuana entrepreneurs are under investigation for price gouging and , ##GENERIC SENTENCE (STATIC) 
+worse , ##OTHER 
+ corruption . ##OTHER 
+Theyre reporting a state investigation  ##UNBOUNDED EVENT (GENERIC) 
+ that is currently focused on the high prices of alcohol , marijuana , and prescription drugs  ##GENERIC SENTENCE (STATIC) 
+ sold in Washington D.C . ##GENERIC SENTENCE (DYNAMIC) 
+The agency ,  ##OTHER 
+ which is a part of the Medical Cannabis Industry Association ,  ##BASIC STATE 
+ is continuing to investigate General Mills marketing practices for a huge new alcohol marketing project . ##BASIC STATE 
+Following a successful pilot at Pennsylvanias Hartsfield-Jackson International Airport last month , ##GENERIC SENTENCE (DYNAMIC) 
+ the Mount Vernon ,  ##OTHER 
+Maryland-based organization is launching the largest state-wide statewide campaign for its marijuana development .  ##UNBOUNDED EVENT (SPECIFIC) 
+Ahead of the campaign , ##OTHER 
+ the group has raised $150,000  ##PERFECT COERCED STATE (SPECIFIC)
+ to provide people with access to a legal , safe , and affordable drug education program and support in addition to public  health services ##UNBOUNDED EVENT (GENERIC) 
+ that can protect and help consumers . ##COERCED STATE (GENERIC) 
+According to the Mount Vernon announcement ,  ##BASIC STATE 
+the campaign is confronting drug dealers , educators , and prescribers . ##UNBOUNDED EVENT (GENERIC0 
+One source indicated  ##BOUNDED EVENT (SPECIFIC) 
+ that the adult version of the drug could be sold for between $50 and $75 . ##COERCED STATE (GENERIC) 
+Critics claim the campaign is simply a political tool  ##GENERIC SENTENCE (STATIC) 
+ to further the interests of the pharmaceutical industry ,  ##GENERIC SENTENCE (STATIC) 
+ which is involved in cultivating ,  ##GENERIC SENTENCE (STATIC) 
+ distributing ,  ##UNBOUNDED EVENT (GENERIC) 
+ and marketing cannabis .  ##UNBOUNDED EVENT (GENERIC) 
+The Mount Vernon plan is also intended to foster legalization in D.C. and other rural and suburban jurisdictions , ##BASIC STATE 
+ which is expected  ##GENERIC SENTENCE (STATIC) 
+ to help the group further its road map  ##UNBOUNDED EVENT (GENERIC) 
+ to begin medicinal production . ##UNBOUNDED EVENT (GENERIC) 
+Specifically ,  ##OTHER 
+the Mount Vernon campaign calls  ##BASIC STATE 
+ for all first-time medical marijuana purchasers to doctor shop before using the state-licensed site and use of the service .  ##OTHER 
+The organization also proposes  ##BASIC STATE 
+ that the program should promote local education and law enforcement in rural areas . ##COERCED STATE (SPECIFIC) 
+The Mount Vernon plan will officially launch its efforts  ##COERCED STATE (SPECIFIC) 
+ at the Pennsylvania market Monday night . ##OTHER 
+For more information on the Mount Vernon network ,  ##OTHER
+a link is available here . ##BASIC STATE 
+The plan has picked up support from several local attorneys and the FBI . ##PERFECT COERCED STATE (GENERIC) 
+For more info on the Mount Vernon plan ,  ##OTHER 
+check out D.C.s largest city court ,  ##IMPERATIVE
+ and across the country in schools , fairs , and prison . ##OTHER
+*** 0 5 5 0 0 0 0 0 YES ML YES 0 NO NA NA HUMAN 
