@@ -74,7 +74,7 @@ def fix_coh_typo(old, f, annotator):
         return old
     elif old in ['cew', 'cer']:
         return 'ce'
-    elif old in ['ealb', 'elav', 'elabl', 'elb']:
+    elif old in ['ealb', 'elav', 'elabl', 'elb', 'felab']:
         return 'elab'
     elif old in ['degenerate', 'mal']:
         return 'deg'
