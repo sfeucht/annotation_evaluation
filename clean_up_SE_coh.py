@@ -40,7 +40,7 @@ def fix_SE_typo(old, f, annotator):
                 print(annotator, f, "typo: ", old)
         return old.upper()
 
-
+'''
 ### this code fixes SE typos in the whole corpus
 ### if a typo has been seen before and is in this code, fixes it, otherwise prints
 for annotator in annotators:
@@ -62,8 +62,48 @@ for annotator in annotators:
                             annotated_doc.write(line)
                 else:
                     annotated_doc.write(line)
+'''
 
+valid_full_coh_rels = ['ce', 'cex', 'elab', 'elabx', 'same', 'samex', 'attr', 
+'attrx', 'attrm', 'attrmx', 'deg', 'sim', 'simx', 'contr', 'contrx', 'temp',
+'tempx', 've', 'vex', 'examp', 'exampx', 'cond', 'condx', 'gen', 'genx', 'rep']
 
+### assumes that typos are for non-x versions. 
+def fix_coh_typo(old, f, annotator):
+    if old in valid_full_coh_rels: 
+        return old
+    elif old in ['cew', 'cer']:
+        return 'ce'
+    elif old in ['ealb', 'elav', 'elabl', 'elb']:
+        return 'elab'
+    elif old in ['degenerate', 'mal']:
+        return 'deg'
+    else:
+        if old not in valid_full_coh_rels:
+            if old.lower() not in valid_full_coh_rels:
+                print(annotator, f, "typo: ", old)
+        return old.lower()
+
+### this code fixes coherence typos in the whole corpus
+### if a typo has been seen before and is in this code, fixes it, otherwise prints
+for annotator in annotators:
+    folder = os.listdir("{}/".format(annotator))
+    coh_files = [f for f in folder if 'annotation' in f]
+    for f in coh_files:
+        with open(path+("{}/".format(annotator))+f,'r', encoding="utf-8") as annotations:
+            lines = annotations.readlines()
+        
+        with open(path+("{}/".format(annotator))+f,'w', encoding="utf-8") as annotations:
+            for line in lines:
+                if line.strip() != "":
+                        try:
+                            tag = line.strip().split('//')[0].split()[-1]
+                            new_line = line.replace(tag, fix_coh_typo(tag, f, annotator))
+                            annotations.write(new_line)
+                        except:
+                            annotations.write(line)
+                else:
+                    annotations.write(line)
 
 ################################################################################
 
@@ -73,27 +113,24 @@ valid_simplified_SE_types = ['BOUNDED EVENT', 'UNBOUNDED EVENT', 'BASIC STATE', 
 
 ### takes in a single SE type and converts to one of the valid SE types
 ### collapses BOUNDED EVENT (SPECIFIC) and BOUNDED EVENT (GENERIC) into a single category
-### TODO: assumes that typos have been corrected already 
+### ASSUMES that typos have been corrected already!
 def simplify_SE_type(old):
     old = old.upper()
     if old in valid_simplified_SE_types:
         return old
-    elif old in ['BOUNDED EVENT (SPECIFIC)', 'BOUNDED EVENT (GENERIC)', 'BOUNDED EVENT (SPECIFIC_', 'BOUNDED EVENT (SPECIFIC)_', 'BOUNDED EVENT (STATIC)', 'BOUNDED EVENT (SPECIFIC0']:
+    elif old in ['BOUNDED EVENT (SPECIFIC)', 'BOUNDED EVENT (GENERIC)']:
         return 'BOUNDED EVENT'
-    elif old in ['UNBOUNDED EVENT (SPECIFIC)', 'UNBOUNDED EVENT (GENERIC)', 'UNBOUNDED EVENT (GENERIC0', 'NBOUNDED EVENT (SPECIFIC)', 'UNBOUNDED EVNET (GENERIC)']:
+    elif old in ['UNBOUNDED EVENT (SPECIFIC)', 'UNBOUNDED EVENT (GENERIC)']:
         return 'UNBOUNDED EVENT'
-    elif old in ['COERCED STATE (SPECIFIC)', 'COERCED STATE (GENERIC)', 'COERCED STATE (STATIC)', 'COERCED STATE (SPECIFC)']:
+    elif old in ['COERCED STATE (SPECIFIC)', 'COERCED STATE (GENERIC)']:
         return 'COERCED STATE'
-    elif old in ['PERFECT COERCED STATE (SPECIFIC)', 'PERFECT COERCED STATE (GENERIC)', 'PERFECT COERCED STAE (GENERIC)', 'PERECT COERCED STATE (GENERIC)']:
+    elif old in ['PERFECT COERCED STATE (SPECIFIC)', 'PERFECT COERCED STATE (GENERIC)']:
         return 'PERFECT COERCED STATE'
-    elif old in ['GENERIC SENTENCE (STATIC)', 'GENERIC SENTENCE (SATIC)', 'GNERIC SENTENCE (STATIC)', 'GNERIC SENTENCE (STATIC0', 'GENERIC SENENCE (HABITUAL)',
-    'GENERIC SENTENCE (STATAIC)', 'GENERIC STATE (STATIC)', 'GENERIC SENTENCE (DYNAMIC)', 'GENERIC SENTENCE (HABITUAL)', 'GENERIC SENTENCE (STATIC0',]:
+    elif old in ['GENERIC SENTENCE (STATIC)', 'GENERIC SENTENCE (DYNAMIC)', 'GENERIC SENTENCE (HABITUAL)']:
         return 'GENERIC SENTENCE'
-    elif old in ['GENERALIZING SENTENCE (DYNAMIC)', 'GENERALIZING SENTENCE (STATIVE)', 'GENERALIZING SENTENCE (HABITUAL)', 'GENERALIING SENTENCE (DYNAMIC)']:
+    elif old in ['GENERALIZING SENTENCE (DYNAMIC)', 'GENERALIZING SENTENCE (STATIVE)']:
         return 'GENERALIZING SENTENCE'
-    elif old in ['BASIC SENTENCE', 'BAISC STATE', 'BASIC STATEA', 'BASIC SETATE', 'BASIC STATE A', 'BASICE STATE']:
-        return 'BASIC STATE'
-    elif old in ['OHTER', 'ITGER', 'OTEHR', 'OTHE R', ''] or old[:5] in ['OTHER']:
+    elif old[:5] in ['OTHER']:
         return 'OTHER'
 
 ### function that takes an old_dict and a clean_dict and loads old into clean
@@ -114,6 +151,7 @@ valid_coh_rels = ['Cause/effect', 'Elaboration', 'Same', 'Attribution', 'Degener
 'Condition', 'Generalization', 'Repetition']
 
 ### takes in a single coh relation and converts to one of the valid relations
+### TODO: assumes that typos are taken care of
 def clean_version_coh(old):
     if old in valid_coh_rels: #this shouldn't happen but adding for completeness
         return old
