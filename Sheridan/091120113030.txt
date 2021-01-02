@@ -35,7 +35,7 @@ the study concludes. ##UNBOUNDED EVENT (SPECIFIC) //3
 Counties ##OTHER
 located in [medical marijuana] states reduced monthly alcohol sales by 15 percent after the introduction of medical marijuana laws. ##BOUNDED EVENT (GENERIC)
 If these findings are correct, ##BASIC STATE
-it's likely that they understate the effect ##GENERALIZING SENTENCE (HABITUAL)
+it's likely that they understate the effect ##GENERALIZING SENTENCE (DYNAMIC)
 of full marijuana legalization on alcohol use. ##OTHER
 Under medical marijuana laws, ##OTHER
 only a small handful of people are legally able to access the drug patients wishing to use ##COERCED STATE (GENERIC)

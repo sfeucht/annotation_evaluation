@@ -18,7 +18,7 @@ and the entire world has been shocked by how quickly the government took on this
 and began to put a strain on relationships, ##BOUNDED EVENT (GENERIC)
 especially in the U.K. in particular. ##OTHER
 There is now a sizeable restriction for the taking of gay men in some areas, a ban on a certain amount of consensual gay sex in family affairs, a commission in Europe and a bill in the European Parliament of moving same-sex marriage by legislation. ##BASIC STATE* //4
-The UK has gained a reputation ##PERFECT COERCED STATE 
+The UK has gained a reputation ##PERFECT COERCED STATE (SPECIFIC)
 for being more open about their treatment of gay and lesbian people. ##GENERIC SENTENCE (STATIC)
 This helps in respect to the fact ##UNBOUNDED EVENT (GENERIC)
 that more people in the UK are on discrimination cover, ##GENERIC SENTENCE (STATIC)*

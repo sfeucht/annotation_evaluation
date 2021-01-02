@@ -93,7 +93,7 @@ Having a baby is not a crime, ##GENERIC SENTENCE (STATIC)
 even though, ##OTHER
 uh, ##OTHER
 I have been accused of it already ##PERFECT COERCED STATE (SPECIFIC)
-and I told you ##BOUNDED EVENT
+and I told you ##BOUNDED EVENT (SPECIFIC)
 how well I should have known it ##BASIC STATE* //2
 when I was pregnant. ##BASIC STATE
 Yeah, ##OTHER

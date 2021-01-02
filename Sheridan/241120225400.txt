@@ -4,7 +4,7 @@ Los Angeles Superior Court Judge Sharon Kleinberg held a public hearing on the a
 during which she reviewed Culpos current medical marijuana plan to benefit from a friendly regulatory system. ##BOUNDED EVENT (SPECIFIC)
 Kleinberg also told Culpo ##BOUNDED EVENT (SPECIFIC)
 that her marijuana-advocacy organization would file a public comments contest. ##COERCED STATE (SPECIFIC)
-The attorney-client privilege allows the counsel to discuss matters ##GENERIC SENENCE (HABITUAL)
+The attorney-client privilege allows the counsel to discuss matters ##GENERIC SENTENCE (HABITUAL)
 that are critical to its legal goals and interests. ##GENERIC SENTENCE (STATIC)
 It takes people years ##GENERIC SENTENCE (DYNAMIC)
 to be brought together ##UNBOUNDED EVENT (SPECIFIC)
