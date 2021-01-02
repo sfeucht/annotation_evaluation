@@ -40,7 +40,7 @@ def fix_SE_typo(old, f, annotator):
                 print(annotator, f, "typo: ", old)
         return old.upper()
 
-'''
+
 ### this code fixes SE typos in the whole corpus
 ### if a typo has been seen before and is in this code, fixes it, otherwise prints
 for annotator in annotators:
@@ -62,7 +62,7 @@ for annotator in annotators:
                             annotated_doc.write(line)
                 else:
                     annotated_doc.write(line)
-'''
+
 
 valid_full_coh_rels = ['ce', 'cex', 'elab', 'elabx', 'same', 'samex', 'attr', 
 'attrx', 'attrm', 'attrmx', 'deg', 'sim', 'simx', 'contr', 'contrx', 'temp',
@@ -155,15 +155,15 @@ valid_coh_rels = ['Cause/effect', 'Elaboration', 'Same', 'Attribution', 'Degener
 def clean_version_coh(old):
     if old in valid_coh_rels: #this shouldn't happen but adding for completeness
         return old
-    elif old in ['ce', 'cex', 'cew', 'cer']:
+    elif old in ['ce', 'cex']:
         return 'Cause/effect'
-    elif old in ['elab', 'elabx', 'ealb', 'elav', 'elabl', 'elb']:
+    elif old in ['elab', 'elabx']:
         return 'Elaboration'
     elif old in ['same', 'samex']:
         return 'Same'
     elif old in ['attr', 'attrx', 'attrm']:
         return 'Attribution'
-    elif old in ['deg', 'degenerate', 'mal']:
+    elif old in ['deg']:
         return 'Degenerate'
     elif old in ['sim', 'simx']:
         return 'Similarity'
