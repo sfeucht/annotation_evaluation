@@ -151,7 +151,7 @@ valid_coh_rels = ['Cause/effect', 'Elaboration', 'Same', 'Attribution', 'Degener
 'Condition', 'Generalization', 'Repetition']
 
 ### takes in a single coh relation and converts to one of the valid relations
-### TODO: assumes that typos are taken care of
+### assumes that typos are taken care of
 def clean_version_coh(old):
     if old in valid_coh_rels: #this shouldn't happen but adding for completeness
         return old

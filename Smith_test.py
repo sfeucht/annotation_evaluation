@@ -16,7 +16,7 @@ import time
 import matplotlib.pyplot as plt
 import numpy as np
 import copy
-from clean_up_SE_coh import clean_up_SE_types
+from clean_up_SE_coh import simplify_all_SE_types
 from clean_up_SE_coh import clean_up_coh_rels
 
 ### determine path to the annotations
@@ -91,42 +91,64 @@ for annotator in annotators:
         # get the document ID
         doc_id = int(file.replace('.txt',''))
 
-        if doc_id not in SE_accounted_for:
+        # record the SE types annotated for that document in appropriate container
+        with open(path+("{}/".format(annotator))+file,'r', encoding="utf-8") as annotated_doc:
 
-            doc_counter += 1
+            # initialize container for the SE types
+            SE_temp_container = []
+            for line in annotated_doc:
 
-            # record the SE types annotated for that document
-            with open(path+("{}/".format(annotator))+file,'r', encoding="utf-8") as annotated_doc:
+                if line.strip() != "":
 
-                # initialize container for the SE types
-                SE_temp_container = []
-                for line in annotated_doc:
+                    # save document-level ratings
+                    if "***" in line:
+                        if doc_id in h_docs:
+                            H_Doc_container[annotator][doc_id] = line.strip().replace('***','').split()
+                        elif doc_id in g_docs:
+                            G_Doc_container[annotator][doc_id] = line.strip().replace('***','').split()
+                    else:
+                        try:
+                            s = line.strip().split('##')[1].split('//')[0]
+                            SE_temp_container.append(s.strip('\* '))
+                        except:
+                            pass
 
-                    if line.strip() != "":
+            # record SE ratings
+            if doc_id in h_docs:
+                H_SE_container[annotator][doc_id] = SE_temp_container
+            elif doc_id in g_docs:
+                G_SE_container[annotator][doc_id] = SE_temp_container
+            else:
+                raise Exception("The document index could not be found.")
 
-                        # save document-level ratings
-                        if "***" in line:
-                            if doc_id in h_docs:
-                                H_Doc_container[annotator][doc_id] = line.strip().replace('***','').split()
-                            elif doc_id in g_docs:
-                                G_Doc_container[annotator][doc_id] = line.strip().replace('***','').split()
-                        else:
-                            try:
-                                s = line.strip().split('##')[1].split('//')[0]
-                                SE_temp_container.append(s.strip('\* '))
-                            except:
-                                pass
+        #if doc_id is not already accounted for, add to counter of unique docs
+        if not [t for t in SE_accounted_for if t[0]==doc_id]: 
+            doc_counter += 1 
+        
+        # if doc_id has been seen before, need to adjudicate between them 
+        # assumes that line numbers are the same 
+        else:
+            # TODO: adjudicate between the two versions 
+            '''
+            # there should only be one other doc, take the first element
+            that_doc_id, that_annotator, is_human = [t for t in SE_accounted_for if t[0]==doc_id][0]
 
-                # record SE ratings
-                if doc_id in h_docs:
-                    H_SE_container[annotator][doc_id] = SE_temp_container
-                elif doc_id in g_docs:
-                    G_SE_container[annotator][doc_id] = SE_temp_container
-                else:
-                    raise Exception("The document index could not be found.")
+            # retrieve containers for SE types for both versions of doc
+            if is_human:
+                this_container = H_SE_container[annotator][doc_id] 
+                that_container = H_SE_container[that_annotator][that_doc_id]
+            else:
+                this_container = G_SE_container[annotator][doc_id] 
+                that_container = G_SE_container[that_annotator][that_doc_id]
 
-                SE_accounted_for.append(doc_id)
+            assert(len(this_container) == len(that_container))
+            '''
 
+        #add document to SE_accounted_for, with annotator and whether it's human
+        SE_accounted_for.append((doc_id, annotator, doc_id in h_docs))
+
+            
+        
     # list coherence ratings
     Coh_files = [file for file in folder if 'annotation' in file]
 
@@ -288,12 +310,12 @@ G_no_narrative_counts_clean = copy.deepcopy(H_no_narrative_counts_clean)
 G_narrative_counts_clean = copy.deepcopy(H_no_narrative_counts_clean)
 
 ### clean up human no narrative and narrative SE counts
-clean_up_SE_types(H_no_narrative_counts, H_no_narrative_counts_clean)
-clean_up_SE_types(H_narrative_counts, H_narrative_counts_clean)
+simplify_all_SE_types(H_no_narrative_counts, H_no_narrative_counts_clean)
+simplify_all_SE_types(H_narrative_counts, H_narrative_counts_clean)
 
 ### clean up grover no narrative and narrative SE counts
-clean_up_SE_types(G_no_narrative_counts, G_no_narrative_counts_clean)
-clean_up_SE_types(G_narrative_counts, G_narrative_counts_clean)
+simplify_all_SE_types(G_no_narrative_counts, G_no_narrative_counts_clean)
+simplify_all_SE_types(G_narrative_counts, G_narrative_counts_clean)
 
 
 ### function that takes two dicts with identical keys and plots them with given colors
