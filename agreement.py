@@ -1,4 +1,6 @@
+from sklearn.metrics import cohen_kappa_score
 from extract_annotations import fill_in_human_grover, fill_in_containers
+
 
 # First, extract all of the SE types and coh relations and put into containers.
 
@@ -26,7 +28,26 @@ Coh_accounted_for, doc_counter)
 
 
 # TODO: Agreement for SE types
+kappa_scores = []
+for doc_id in h_docs + g_docs:
+    tuples = [t for t in SE_accounted_for if t[0]==doc_id]
+    if len(tuples) > 1: 
+        print(doc_id)
+        assert(len(tuples)==2)
+        _, a_annotator, is_human = tuples[0]
+        _, b_annotator, _ = tuples[1]
 
+        if is_human:
+            a_container = H_SE_container[a_annotator][doc_id] 
+            b_container = H_SE_container[b_annotator][doc_id]
+        else:
+            a_container = G_SE_container[a_annotator][doc_id] 
+            b_container = G_SE_container[b_annotator][doc_id]
+
+        assert(len(a_container) == len(b_container))
+
+        print(cohen_kappa_score(a_container, b_container))
+        kappa_scores += (doc_id, cohen_kappa_score(a_container, b_container))
 
 
 
