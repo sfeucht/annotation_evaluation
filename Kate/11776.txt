@@ -31,7 +31,8 @@ I think ##BASIC STATE
  if Hillary Clinton got caught smoking weed ##UNBOUNDED EVENT (SPECIFIC) 
  she should go to jail for as long as a black 25 year old with a criminal record. ##UNBOUNDED EVENT (SPECIFIC) 
 Either ##OTHER 
- the laws apply to the king as much ##BASIC STATE 
+ the laws ##OTHER
+apply to the king as much ##BASIC STATE 
  as they do the lowest person , ##BASIC STATE //2 
  or we revert to the 1600's. ##COERCED STATE (GENERIC) 
 Do ##OTHER 

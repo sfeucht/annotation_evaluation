@@ -17,9 +17,9 @@ A 2013 study ##OTHER
 Keep in mind the decades of anti-homosexual legislation ##IMPERATIVE
  the country has been pursuing ##GENERALIZING SENTENCE (DYNAMIC)
  and the entire world has been shocked by how quickly the government took on this topic ##GENERIC SENTENCE (HABITUAL)
- and began to put a strain on relationships , especially in the U.K. in particular . ##GENERIC SENTENCE (DYNAMIC)
-There is now a sizeable restriction for the taking of gay men in some areas , a ban on a certain amount of consensual gay sex in family affairs , a commission in Europe and a bill ##BASIC STATE
- in the European Parliament of moving same-sex marriage by legislation . ##OTHER //2
+ and began to put a strain on relationships , ##GENERIC SENTENCE (DYNAMIC)
+especially in the U.K. in particular . ##OTHER
+There is now a sizeable restriction for the taking of gay men in some areas , a ban on a certain amount of consensual gay sex in family affairs , a commission in Europe and a bill in the European Parliament of moving same-sex marriage by legislation . ##BASIC STATE //2
 The UK has gained a reputation ##COERCED STATE (SPECIFIC)
  for being more open about their treatment of gay and lesbian people . ##GENERALIZING SENTENCE (STATIVE)
 This helps in respect to the fact ##GENERALIZING SENTENCE (DYNAMIC)
@@ -37,24 +37,28 @@ Read our previous columns about this work : ##IMPERATIVE
 This policy is designed ##BASIC STATE
  to circumvent the customary protocol of using the states laws as a guide 
  and to straighten out the enforcement plans . ##GENERALIZING SENTENCE (DYNAMIC)
-The smaller the discretion of the state , the faster the violation will come out . ##COERCED STATE (GENERIC)
+The smaller the discretion of the state , ##OTHER
+the faster the violation will come out . ##COERCED STATE (GENERIC)
 It is a lawful state law . ##BASIC STATE
 And it is often seen as a barrier to enforcement . ##GENERALIZING SENTENCE (STATIVE)
 The mantra of these state statutes is stay on . ##GENERIC SENTENCE (STATIC) //3
 This is common sense and all too common sense . ##GENERIC SENTENCE (STATIC)
 At least 10 times in the U.K. for example , one minister had a ban on kissing against parliament ##BOUNDED EVENT*
  in order to help support financial support for gay couples . ##GENERALIZING SENTENCE (DYNAMIC)
-The most likely security balance : would there be armed guards for the invasion of the frontier ##COERCED STATE (GENERIC) //3
+The most likely security balance : ##OTHER
+would there be armed guards for the invasion of the frontier ##COERCED STATE (GENERIC) //3
 or would it be in England or Wales ##COERCED STATE (SPECIFIC)
  where Christians are a minority ? ##BASIC STATE
 If there were those armed guards ##COERCED STATE (GENERIC) 
  there could be no indigenous killing or rapes . ##COERCED STATE (GENERIC)
-And , in cases of them ##OTHER
+And , ##OTHER
+in cases of them ##OTHER
  being used by cults , ##GENERIC SENTENCE (DYNAMIC)
  that is not good enough . ##GENERIC SENTENCE (STATIC)
 Alarming breakdown : ##OTHER
  if you do get attacked in your neighbourhood ##COERCED STATE (GENERIC)
- and you are asked to be a natural test for someone on the same terms as me by the law , its likely ##COERCED STATE (GENERIC)
+ and you are asked to be a natural test for someone on the same terms as me by the law , ##COERCED STATE (GENERIC)
+its likely ##GENERIC SENTENCE (STATIC)
  that you will have been attacked and its likely ##COERCED STATE (GENERIC)
  that you will be insulted ##COERCED STATE (GENERIC)
  and then isolated . ##COERCED STATE (GENERIC)
@@ -64,14 +68,16 @@ Your intuition is critical : ##BASIC STATE
  If the person says something , ##COERCED STATE (GENERIC)
  he needs to be reminded ##GENERIC SENTENCE (STATIC)
  that the person is already engaged in criminal activity ##GENERIC SENTENCE (STATIC)
- like a prison , not a doctor . ##OTHER
-This is a reason ##BASIC STATE
- to keep reminding yourself . ##GENERIC SENTENCE (DYNAMIC)
+ like a prison , ##OTHER
+not a doctor . ##OTHER
+This is a reason to keep reminding yourself . ##BASIC STATE
 Noise : ##OTHER
  If you are listening , ##COERCED STATE (SPECIFIC)*
  its important to keep asking yourself ##GENERIC SENTENCE (HABITUAL)
  how many people we listen to when we look into what is going on . ##GENERIC SENTENCE (DYNAMIC)
-And , more importantly , get a clear indication ##IMPERATIVE
+And , ##OTHER
+more importantly , ##OTHER
+get a clear indication ##IMPERATIVE
  that this information ##OTHER
  you say may not be accurate . ##BASIC STATE
 But ##OTHER

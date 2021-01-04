@@ -20,8 +20,7 @@ more clearly) ##OTHER
 For example, ##OTHER
 if I gave you the political positions of ##COERCED STATE (SPECIFIC)
 "I am in favor of legalizing marijuana" ##BASIC STATE
-and ##OTHER
-"I am in favor of increasing foreign aid", ##BASIC STATE
+and "I am in favor of increasing foreign aid", ##BASIC STATE
 there isn't generally an issue. ##GENERIC SENTENCE (HABITUAL)
 Any principle ##OTHER
 that would support legalizing marijuana ##GENERIC SENTENCE (STATIC) 

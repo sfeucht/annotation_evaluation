@@ -25,5 +25,4 @@ Vermont lawmakers , ##OTHER
  studying the plan . ##UNBOUNDED EVENT (GENERIC)
 Shumlin could veto the bill ##COERCED STATE (SPECIFIC)
  and the governor could recommend a later veto . ##COERCED STATE (SPECIFIC)
-
 ***0 5 5 4 5 5 5 2 YES ML NO 0 0 UC

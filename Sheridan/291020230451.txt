@@ -1,6 +1,8 @@
-Vermont Gov. Peter Shumlin vowed Monday to veto a marijuana ban proposal ##BOUNDED EVENT (SPECIFIC)
+Vermont Gov. Peter Shumlin vowed Monday ##BOUNDED EVENT (SPECIFIC)
+to veto a marijuana ban proposal ##COERCED STATE (
 that the state had been debating for months, ##COERCED STATE (SPECIFIC) //4
-saying it violated state law. ##UNBOUNDED EVENT (SPECIFIC)
+saying ##UNBOUNDED EVENT (SPECIFIC)
+it violated state law. ##UNBOUNDED EVENT (SPECIFIC)
 Shumlin, ##OTHER
 who also opposed the bill in January, ##BOUNDED EVENT (SPECIFIC)
 said in a statement ##BOUNDED EVENT (SPECIFIC)
@@ -8,7 +10,8 @@ that the bill would violate state law ##COERCED STATE (SPECIFIC)
 by legalizing ##UNBOUNDED EVENT (SPECIFIC)
 what he considered a dangerous transaction. ##BASIC STATE
 The bill, ##OTHER
-which Shumlin says ##BASIC STATE
+which ##OTHER
+Shumlin says ##BASIC STATE
 was wrongly codified as a bad law for Vermont, ##BOUNDED EVENT (SPECIFIC)
 makes it illegal to possess, distribute or buy the recreational marijuana and other drugs ##UNBOUNDED EVENT (SPECIFIC)
 commonly used in the state. ##GENERIC SENTENCE (DYNAMIC)
@@ -17,7 +20,8 @@ who are still deciding ##UNBOUNDED EVENT (SPECIFIC)
 whether to legalize marijuana ##UNBOUNDED EVENT (GENERIC) //2
 and see ##UNBOUNDED EVENT (SPECIFIC)
 if Shumlin would veto the ban, ##COERCED STATE (SPECIFIC)
-said they have spent much of the past week ##BOUNDED EVENT (SPECIFIC)
+said ##BOUNDED EVENT (SPECIFIC)
+they have spent much of the past week ##PERFECT COERCED STATE (SPECIFIC)
 studying the plan. ##UNBOUNDED EVENT (SPECIFIC)
 Shumlin could veto the bill ##COERCED STATE (SPECIFIC)
 and the governor could recommend a later veto. ##COERCED STATE (SPECIFIC)
