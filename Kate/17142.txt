@@ -7,8 +7,7 @@ it is one of the reasons ##BASIC STATE
  that people want it legal , ##GENERIC SENTENCE (STATIC) 
  but you ca n't say ##GENERIC SENTENCE (STATIC) //2 
  people ##OTHER
- who want it legal ##GENERIC SENTENCE (STATIC)
-are short minded .##GENERIC SENTENCE (STATIC) 
+ who want it legal are short minded .##GENERIC SENTENCE (STATIC) 
 There are other reasons to legalization , ##GENERIC SENTENCE (STATIC) 
  such as how it is fairly safe .##GENERIC SENTENCE (STATIC)
 Better than alcohol , ##OTHER 
@@ -26,7 +25,8 @@ Also , ##OTHER
  one of the reasons ##BASIC STATE 
  why tobacco was assumed safe ##BOUNDED EVENT (GENERIC) 
  is ##OTHER 
- because we did n't have all the technology to analyze it ##GENERIC SENTENCE (STATIC) 
+ because we did n't have all the technology ##GENERIC SENTENCE (STATIC) 
+ to analyze it ##OTHER
  that we do today .##OTHER 
 When we got this tech , ##UNBOUNDED EVENT (GENERIC) 
  we realized ##BOUNDED EVENT (GENERIC) 
@@ -41,7 +41,6 @@ TL ; DR ##OTHER
  it legalized , ##OTHER
  saying ##OTHER 
  that people ##OTHER 
- who want it legal ##GENERIC SENTENCE (STATIC) 
-are short minded is in-factual ##BASIC STATE  
+ who want it legal are short minded is in-factual ##BASIC STATE  
  and just does n't make sense . ##BASIC STATE 
 ***0 5 0 0 0 0 0 0 YES ML YES 5 3 5 5 5 HUMAN

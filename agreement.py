@@ -44,15 +44,10 @@ for doc_id in h_docs + g_docs:
             a_container = G_SE_container[a_annotator][doc_id] 
             b_container = G_SE_container[b_annotator][doc_id]
 
-        if len(a_container) != len(b_container):
-            print(doc_id, len(a_container), len(b_container))
-
-        '''
         assert(len(a_container) == len(b_container))
 
         print(cohen_kappa_score(a_container, b_container))
-        kappa_scores += (doc_id, cohen_kappa_score(a_container, b_container), a_annotator, b_annotator)
-        '''
+        kappa_scores += (doc_id, cohen_kappa_score(a_container, b_container))
 
 
 
