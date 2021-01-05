@@ -121,6 +121,6 @@ Coh_accounted_for, doc_counter):
                             else:
                                 raise Exception("The document index could not be found.")
 
-                    Coh_accounted_for.append(doc_id)
+                    Coh_accounted_for.append((doc_id, annotator, doc_id in h_docs))
 
     return doc_counter
