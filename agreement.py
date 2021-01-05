@@ -31,7 +31,6 @@ kappa_scores = []
 for doc_id in h_docs + g_docs:
     tuples = [t for t in SE_accounted_for if t[0]==doc_id]
     if len(tuples) > 1: 
-        print(doc_id)
         assert(len(tuples)==2)
         _, a_annotator, is_human = tuples[0]
         _, b_annotator, _ = tuples[1]
@@ -43,10 +42,15 @@ for doc_id in h_docs + g_docs:
             a_container = G_SE_container[a_annotator][doc_id] 
             b_container = G_SE_container[b_annotator][doc_id]
 
+        # if len(a_container) != len(b_container):
+        #     print(doc_id, len(a_container), a_annotator, ' ', len(b_container), b_annotator)
+
         assert(len(a_container) == len(b_container))
 
         kappa_scores += (doc_id, cohen_kappa_score(a_container, b_container), a_annotator, b_annotator)
 '''
+
+
 
 # Agreement for Coherence relations
 
