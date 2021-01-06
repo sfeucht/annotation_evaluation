@@ -40,15 +40,14 @@ Wounded People Can Be Dejected ##GENERIC SENTENCE
  the man behind the smash-hit reality TV show " Iggy " on the American Music Awards . ##OTHER 
 The rapper ##OTHER
  who appeared on the show on Nov. 21 without him took a particularly harsh stance on his father 's ' $$$' payment , ##OTHER
- claiming ##UNBOUNDED EVENT (GENERIC) 
- he had paid far too much into a private account with his son . ##BASIC STATE
+ claiming he had paid far too much into a private account with his son . ##UNBOUNDED EVENT (GENERIC) 
 But , ##OTHER 
  according to C.A. Pollack , ##OTHER 
 a top source of cannabis research and publications , ##OTHER 
  there are " a couple ##GENERIC SENTENCE (STATIC) 
  who are usually buying the weed in a lot of different ways ##GENERIC SENTENCE (DYNAMIC) 
  said to have sold more than 50 percent , or 15,000 weed tips in 2016 compared to all other sources ##BOUNDED EVENT (GENERIC) 
- used by their dad ##BASIC STATE 
+ used by their dad ##BAISC STATE 
  " Could be a Federal Device From Oct. 7 , ##OTHER 
  states and cities will soon be able to legalize recreational use of marijuana in a 50-mile-radius area . ##UNBOUNDED EVENT (GENERIC) 
 So , ##OTHER 
@@ -65,38 +64,32 @@ There is the fact ##GENERIC SENTENCE (STATIC)
 Several other legal uses have taken place in the past , ##BOUNDED EVENT (GENERIC) 
  and we 'd expect some legalisation in the not too distant future .##GENERIC SENTENCE
 You see , ##BASIC STATE 
- tobacco smoke is a product of human abuse , ##BASIC STATE 
+ tobacco smoke is a product of human abuse , ##BASIC STATEA 
  as is then the real medical issue .##BASIC STATE 
 There is also the possibility ##BASIC STATE 
  of other illegal uses , such as illicit drugs such as cocaine , ecstasy , meth and cannabis . ##OTHER 
 Get to know some of these other legal uses : ##COERCED STATE (GENERIC) 
-1 .##OTHER 
-Prostitution ##OTHER 
+1 . Prostitution ##OTHER 
 Prostitution is the most common illicit drug in US government records , ##GENERIC SENTENCE (STATIC) 
  according to the Federal Bureau of Investigation .##BASIC STATE  
-And , ##OTHER
- according to the US Customs and Border Protection , ##BASIC STATE 
+And , according to the US Customs and Border Protection , ##BASIC STATE 
  75 % of " other illegal narcotics " originated in " coffee shops , brothels , other grounds " such as bars , restaurants and yes , even elementary schools . ##GENERIC SENTENCE (STATIC)
-2 .##OTHER 
-All-natural food##OTHER
+2 . All-natural food ##OTHER
  One of the most popular illegal drugs in US law enforcement is the napalm .##GENERIC SENTENCE (STATIC) 
 A serious health problem is to blame for that figure .##GENERIC SENTENCE (STATIC) 
 Perhaps it 's because it 's harder to pinpoint ##BASIC STATE 
  exactly what cause the pain , ##OTHER 
  difficulties and toxicity might be .##OTHER 
-3 .##OTHER 
-Substance abuse ##OTHER 
+3 .Substance abuse ##OTHER 
 The most common use of drugs is to transport some or all of their cannabinoids , ##GENERIC SENTENCE (STATIC) 
  making them combustible .##UNBOUNDED EVENT  
 While Unexceedable , ##GENERIC SENTENCE (STATIC) 
 sometimes prolonged use could lead to a long-term serious health problem . ##GENERIC SENTENCE (STATIC) 
 This includes a long-term immune system failure . ##BASIC STATE 
-4 .##OTHER
-Entertainance ##OTHER
+4 .Entertainance ##OTHER
 Cocaine use has become a thriving drug culture , ##PERFECT COERCED STATE  
  so it 's only appropriate that visitors to Latin America will be able to benefit from this practice .##GENERIC SENTENCE 
-5 .##OTHER 
-Garden Vending Machine ##OTHER 
+5 .Garden Vending Machine ##OTHER 
 When you come to Latin America , ##UNBOUNDED EVENT (GENERIC) 
  expect a special gift as well . ##UNBOUNDED EVENT (GENERIC) 
 But research has already found ##GENERIC SENTENCE

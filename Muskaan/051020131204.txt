@@ -37,7 +37,8 @@ Read our previous columns about this work : ##IMPERATIVE
 This policy is designed ##BASIC STATE
  to circumvent the customary protocol of using the states laws as a guide 
  and to straighten out the enforcement plans . ##GENERALIZING SENTENCE (DYNAMIC)
-The smaller the discretion of the state , the faster the violation will come out . ##COERCED STATE (GENERIC)
+The smaller the discretion of the state , 
+the faster the violation will come out . ##COERCED STATE (GENERIC)
 It is a lawful state law . ##BASIC STATE
 And it is often seen as a barrier to enforcement . ##GENERALIZING SENTENCE (STATIVE)
 The mantra of these state statutes is stay on . ##GENERIC SENTENCE (STATIC) //3
@@ -65,8 +66,7 @@ Your intuition is critical : ##BASIC STATE
  he needs to be reminded ##GENERIC SENTENCE (STATIC)
  that the person is already engaged in criminal activity ##GENERIC SENTENCE (STATIC)
  like a prison , not a doctor . ##OTHER
-This is a reason ##BASIC STATE
- to keep reminding yourself . ##GENERIC SENTENCE (DYNAMIC)
+This is a reason to keep reminding yourself . ##BASIC STATE
 Noise : ##OTHER
  If you are listening , ##COERCED STATE (SPECIFIC)*
  its important to keep asking yourself ##GENERIC SENTENCE (HABITUAL)

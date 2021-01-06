@@ -8,14 +8,12 @@ There was the election of Trump , ##GENERIC SENTENCE (STATIC)
 The victorious Trump was the elected embodiment of this strange dichotomy , ##BASIC STATE 
 here in America , ##OTHER 
  we have some large , small , liberal states ##PERFECT COERCED STATE
- using anti-bureaucratic muscle and their unrealistic , ##UNBOUNDED EVENT (GENERIC)
-empty dreams of national power and greater government .##OTHER 
+ using anti-bureaucratic muscle and their unrealistic , empty dreams of national power and greater government . ##UNBOUNDED EVENT (GENERIC) 
 On paper we have all the answers , ##PERFECT COERCED STATE 
 but then not in what is a complex and complicated system of governance , the bureaucracy , the political structures , democracy , and the partisanship 
  that governs politics , legislatures , and oversight . ##GENERIC SENTENCE (STATIC) 
-Politicians , ##OTHER 
-they should have been established many years ago with different virtues , different values , different ideologies , ##COERCED STATER (GENERIC) 
- varying set of parameters and assumptions and language ##OTHER 
+Politicians , they should have been established many years ago with different virtues , different values , different ideologies , ##COERCED STATER (GENERIC) 
+ varying set of parameters and assumptions and language ##other 
  and they started out with one goal : ##GENERIC SENTENCE (STATIC) 
  to screw , demagogue , ruin , ##UNBOUNDED EVENT (GENERIC) 
  and overthrow the working class . ##UNBOUNDED EVENT (GENERIC) 
@@ -45,9 +43,7 @@ On the surface , ##OTHER
 yes but if you cut back the government power ##UNBOUNDED EVENT (GENERIC) //3
  you will end up diminishing the aggregate power of one unelected small group of people ##GENERIC SENTENCE (STATIC)
  who purport to be democrats . ##GENERIC SENTENCE (STATIC)
-The reach of this system , ##OTHER
-this world of government , ##OTHER
-is deeply fragmented and often ludicrous , ##GENERIC SENTENCE (STATIC)
+The reach of this system , this world of government is deeply fragmented and often ludicrous , ##GENERIC SENTENCE (STATIC)
 a little like a small non-civilized family ##OTHER
  looking at the dynamic of various political factions , ##UNBOUNDED EVENT (GENERIC)
  drawing the outline of a less organized family . ##UNBOUNDED EVENT (GENERIC)
@@ -67,12 +63,9 @@ You will find too many such councils to really have a role in making a well-roun
  but there are two possibilities ##GENERIC SENTENCE (STATIC)
  that may emerge , ##OTHER
 one being pragmatic states like Utah and Vermont ##COERCED STATE (GENERIC)
- that start out producing the goods ##GENERIC SENTENCE (STATIC)
- that everyone needs , ##OTHER
+ that start out producing the goods  that everyone needs , ##GENERIC SENTENCE (STATIC)
  that also have direct influence over the results of local races . ##PERFECT COERCED STATE 
-Each one , ##OTHER
-however , ##OTHER
-should be mindful of the differences among its population groups , ##GENERIC SENTENCE (STATIC) 
+Each one , however , should be mindful of the differences among its population groups , ##GENERIC SENTENCE (STATIC) 
  and that also allows state-level branches of politics . ##GENERIC SENTENCE (STATIC) 
 I could go on and on ##BASIC STATE 
 but my preference is to conserve as much power as possible , ##BASIC STATE 

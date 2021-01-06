@@ -27,7 +27,7 @@ Most adults do n't get impaired , ##GENERIC SENTENCE (STATIC)
  recommending self-help and peer advice , ##UNBOUNDED EVENT (GENERIC) 
  there 's not much you can do about it .##GENERIC SENTENCE (STATIC) 
 Studies suggest ##BASIC STATE 
- that cannabis could actually help someone with cognitive impairment , ##GENERIC SENTENCE (STATIC) 
+ that cannabis could actually help someone with cognitive impairment , ##GENERIC SENTENCE (STATAIC) 
  which is a limitation of alcohol ##BASIC STATE 
  when it comes to the mental and physical health effects of cannabis . ##OTHER 
 Can you do the same ? ##QUESTION 
@@ -40,11 +40,9 @@ This is when the potential ##BASIC STATE
  for harm is most likely to occur . ##GENERIC SENTENCE (STATIC) 
 What has the research shown you to mean for you ? ##NONSENSE
 1 . ##OTHER 
-Indulgence 'is one of the most common reasons ##GENERIC SENTENCE (STATIC) 
- to take weed' . ##UNBOUNDED EVENT (GENERIC)
+Indulgence 'is one of the most common reasons to take weed' ##GENERIC SENTENCE (STATIC) 
 2 . ##OTHER 
-Addiction research has had a large , ##PERFECT COERCED STATE (GENERIC) 
-positive effect on your cognitive wellbeing .##OTHER 
+Addiction research has had a large , positive effect on your cognitive wellbeing .##PERFECT COERCED STATE (GENERIC)  
 3 .##OTHER 
 Self-care is significant . ##GENERIC SENTENCE (STATIC) 
 4 .##OTHER 
@@ -102,5 +100,4 @@ Self-care 'has therapeutic benefits ' ##GENERIC SENTENCE (STATIC)
 Self-care prevents diseases .##GENERIC SENTENCE (STATIC) 
 24 .##OTHER
 Self-care has positive impact on all aspects of life . ##GENERIC SENTENCE (STATIC) 
-MORE about cannabis ##OTHER 
 *** 0 2 0 0 0 0 0 YES ML NO 0 0 0 0 UC

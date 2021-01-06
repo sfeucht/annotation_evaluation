@@ -20,8 +20,7 @@ You can see ##BASIC STATE
  who founded India in 1970 , ##BOUNDED EVENT (SPECIFIC) 
 Andrew Weisz . ##OTHER
 Weisz founded The communist Stalinist Youth . ##BOUNDED EVENT (SPECIFIC) 
-Stalinism is not a politically correct term , ##BASIC STATE 
- but a very radical concept .##BASIC STATE 
+Stalinism is not a politically correct term , but a very radical concept .##BASIC STATE 
 We are not opposed to a well-managed , safe , healthy , and adequate society ,  ##GENERIC SENTENCE (STATIC) 
  but our actions [ ##OTHER 
  we are ] on the wrong side of history .##GENERIC SENTENCE (STATIC) 
@@ -69,8 +68,7 @@ You can see ##BASIC STATE
  who founded India in 1970 , ##BOUNDED EVENT (SPECIFIC) 
 Andrew Weisz . ##OTHER 
 Weisz founded The communist Stalinist Youth . ##BOUNDED EVENT (SPECIFIC) 
-Stalinism is not a politically correct term , ##BASIC STATE 
-but a very radical concept . ##BASIC STATE 
+Stalinism is not a politically correct term , but a very radical concept . ##BASIC STATE 
 That ideology is just one part of the equation . ##BASIC STATE 
 With the exception of most of the interviewees ##OTHER  
  I have seen , ##COERCED STATE (GENERIC) 

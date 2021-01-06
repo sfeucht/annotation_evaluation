@@ -9,8 +9,7 @@ I would have been a big proponent of writing broad laws ##BASIC STATE
  and then allowing prosecutors to use their discretion in their application ##GENERIC SENTENCE (STATIC) 
  to make sure ##COERCED STATE (GENERIC) 
  the intent of the law was done. ##BASIC STATE
-Then ##OTHER 
- we started locking up like half of all african american men , ##UNBOUNDED EVENT (GENERIC) 
+Then we started locking up like half of all african american men , ##UNBOUNDED EVENT (GENERIC) 
  and more people than any other country in the world . ##OTHER
 We started to absolutely crush people 's lives ##COERCED STATE (GENERIC) 
  because they did n't want to sell a wedding cake to a gay couple .##BASIC STATE //3 
@@ -23,8 +22,7 @@ We got teenagers ##BASIC STATE //1
  their bf a topless pic ##OTHER 
  and their teacher took their phone ##UNBOUNDED EVENT (SPECIFIC) 
  and searched it without their consent. ##UNBOUNDED EVENT (SPECIFIC) 
-So ##OTHER
- you know , ##BASIC STATE 
+So you know , ##BASIC STATE 
  I am completely done with the idea ##BASIC STATE 
  that special people should n't be treated the same way . ##COERCED STATE (GENERIC) 
 I think ##BASIC STATE 
@@ -34,7 +32,6 @@ Either ##OTHER
  the laws apply to the king as much ##BASIC STATE 
  as they do the lowest person , ##BASIC STATE //2 
  or we revert to the 1600's. ##COERCED STATE (GENERIC) 
-Do ##OTHER 
- you know ##BASIC STATE
+Do you know ##BASIC STATE
  we have more people in jail by a percentage of our population than Russia , Iran , or China ? ##GENERIC SENTENCE (STATIC) 
 ***0 5 0 0 0 0 0 0 YES UC UNCLEAR 3 2 2 2 HUMAN

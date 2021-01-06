@@ -23,10 +23,8 @@ We can also generate a lot of money for us ##GENERIC SENTENCE (STATIC)
  if it is sold in stores and taxed. ##GENERIC SENTENCE (DYNAMIC) //3
 Also , ##OTHER 
  one of the reasons ##BASIC STATE 
- why tobacco was assumed safe ##BOUNDED EVENT (GENERIC) 
- is ##OTHER 
- because we did n't have all the technology ##GENERIC SENTENCE (STATIC) 
- to analyze it ##OTHER
+ why tobacco was assumed safe is ##BOUNDED EVENT (GENERIC) 
+ because we didn't have all the technology to analyze it ##GENERIC SENTENCE (STATIC) 
  that we do today .##OTHER 
 When we got this tech , ##UNBOUNDED EVENT (GENERIC) 
  we realized ##BOUNDED EVENT (GENERIC) 

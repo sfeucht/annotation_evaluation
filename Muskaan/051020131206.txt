@@ -17,12 +17,11 @@ Politicians , they should have been established many years ago with different vi
  and they started out with one goal : ##GENERIC SENTENCE (STATIC)
  to screw , demagogue , ruin , ##GENERIC SENTENCE (DYNAMIC)
  and overthrow the working class . ##UNBOUNDED EVENT
-The one goal of the non-trivialized Communist Party , the baddy ##OTHER
- who conspired with communists ##UNBOUNDED EVENT
+The one goal of the non-trivialized Communist Party , ##OTHER
+ the baddy  who conspired with communists ##UNBOUNDED EVENT
  to orchestrate the downfall of the United States and then the Communist League , ##UNBOUNDED EVENT
  is the overthrow of the corrupt and corrupt elites , governments , power centers , civil liberties and basic security . ##BASIC STATE
-So the first political experiment in modern American society is the systematic overthrow of the system of local government ##BASIC STATE
-and the marginalization of powerful control over the product and liberties on all levels , ##OTHER
+So the first political experiment in modern American society is the systematic overthrow of the system of local government and the marginalization of powerful control over the product and liberties on all levels , ##BASIC STATE
  including the public goods , ##BASIC STATE
  including the services . ##BASIC STATE
 Here is how you make it happen : ##GENERIC SENTENCE (STATIC)
@@ -44,7 +43,8 @@ On the surface , yes but ##OTHER
  if you cut back the government power ##UNBOUNDED EVENT
  you will end up diminishing the aggregate power of one unelected small group of people ##COERCED STATE (GENERIC)
  who purport to be democrats . ##GENERIC SENTENCE (DYNAMIC)
-The reach of this system , this world of government , is deeply fragmented and often ludicrous , a little like a small non-civilized family ##GENERIC SENTENCE (HABITUAL)
+The reach of this system , this world of government , is deeply fragmented and often ludicrous , 
+a little like a small non-civilized family ##GENERIC SENTENCE (HABITUAL)
  looking at the dynamic of various political factions , ##GENERIC SENTENCE (DYNAMIC)
  drawing the outline of a less organized family . ##GENERIC SENTENCE (DYNAMIC)
 We need thoughtful monitoring ##BASIC STATE
@@ -63,12 +63,12 @@ You will find too many such councils to really have a role in making a well-roun
  but there are two possibilities ##BASIC STATE
  that may emerge , one ##COERCED STATE (SPECIFIC)
  being pragmatic states like Utah and Vermont ##GENERIC SENTENCE (STATIC)
- that start out producing the goods ##GENERIC SENTENCE (DYNAMIC)
- that everyone needs , ##BASIC STATE //2
+ that start out producing the goods  that everyone needs , ##GENERIC SENTENCE (DYNAMIC)
  that also have direct influence over the results of local races . ##GENERIC SENTENCE (STATIC)
 Each one , however , should be mindful of the differences among its population groups , 
  and that also allows state-level branches of politics . ##COERCED STATE (SPECIFIC)
-I could go on and on but my preference is to conserve as much power as possible , ##BASIC STATE
+I could go on and on 
+but my preference is to conserve as much power as possible , ##BASIC STATE
  limit the right of anyone on any level of government ##GENERIC SENTENCE (DYNAMIC)
  to control every aspect of our society ##GENERALIZING SENTENCE (DYNAMIC)
  to subsidize the legislators of our elected representatives , ##GENERIC SENTENCE (DYNAMIC)
@@ -77,5 +77,4 @@ I could go on and on but my preference is to conserve as much power as possible 
  that the state never has too much influence on everything but the economic interests of the state , ##GENERIC SENTENCE (HABITUAL)
  to not default to the status quo , ##GENERIC SENTENCE (HABITUAL)
  or to independence . ##OTHER
-
 ***0 5 5 1 4 3 4 3 YES UC YES 2 2 4 5 HUMAN

@@ -1,4 +1,5 @@
-Vermont Gov. Peter Shumlin vowed Monday to veto a marijuana ban proposal ##BOUNDED EVENT (SPECIFIC)
+Vermont Gov. Peter Shumlin vowed Monday ##BOUNDED EVENT (SPECIFIC)
+to veto a marijuana ban proposal ##BOUNDED EVENT (SPECIFIC)
 that the state had been debating for months, ##COERCED STATE (SPECIFIC) //4
 saying it violated state law. ##UNBOUNDED EVENT (SPECIFIC)
 Shumlin, ##OTHER

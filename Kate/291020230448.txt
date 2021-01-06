@@ -16,15 +16,13 @@ Toss in adult residents ##UNBOUNDED EVENT (GENERIC)
  and that share rises to more than 15 percent of the population . ##UNBOUNDED EVENT (GENERIC) 
 The study is unique in that , ##BASIC STATE 
  according to the authors , ##BASIC STATE 
-its the first ##BASIC STATE 
- to look at both demand and supply . ##UNBOUNDED EVENT (GENERIC) //3 
+its the first to look at both demand and supply  ##BASIC STATE
 Measuring supply is convenient ##GENERIC SENTENCE (STATIC)
  because sales data is recorded , ##GENERIC SENTENCE (STATIC) 
  but it leaves out the significant role of black market , home-grown and imported marijuana . ##GENERIC SENTENCE (STATIC) 
 Measuring demand gives a better sense of how much of the drug is in use . ##GENERIC SENTENCE (DYNAMIC) 
 While the amount of underground and illegal production ##OTHER
- is expected ##GENERIC SENTENCE (STATIC) 
- to decline significantly , ##UNBOUNDED EVENT (GENERIC) 
+ is expected to decline significantly , ##GENERIC SENTENCE (STATIC) 
  some level is believed to exist to date , ##GENERIC SENTENCE (STATIC) 
  the authors write. ##BASIC STATE 
 Therefore , ##OTHER 
@@ -37,8 +35,7 @@ But that just gives an estimate of how often people are using , ##GENERIC SENTEN
  not how much . ##OTHER 
 To measure demand , ##UNBOUNDED EVENT (GENERIC) 
  they relied on surveys . ##UNBOUNDED EVENT (GENERIC) 
-And because there are myriad ways ##GENERIC SENTENCE (STATIC) 
- to consume pot , ##UNBOUNDED EVENT (GENERIC) 
+And because there are myriad ways to consume pot ##GENERIC SENTENCE (STATIC) 
  each with varying potency , ##GENERIC SENTENCE (STATIC) 
  they measured by dried flower weight . ##BOUNDED EVENT (SPECIFIC) 
 Heres a tour ##BASIC STATE

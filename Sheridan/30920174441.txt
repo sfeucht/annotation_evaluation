@@ -46,11 +46,9 @@ according to C.A. Pollack, ##OTHER
 a top source of cannabis research and publications, ##OTHER
 there are "a couple ##GENERIC SENTENCE (STATIC)
 who are usually buying the weed in a lot of different ways ##COERCED STATE (SPECIFIC)
-said to have sold more than 50 percent, ##PERFECT COERCED STATE (SPECIFIC) //4
-or 15,000 weed tips in 2016 compared to all other sources ##OTHER //2
+said to have sold more than 50 percent, or 15,000 weed tips in 2016 compared to all other sources ##PERFECT COERCED STATE (SPECIFIC) //4
 used by their dad" ##GENERALIZING SENTENCE (DYNAMIC)
-Could be a Federal Device ##GENERIC SENTENCE (STATIC) //2
-From Oct. 7, ##OTHER
+Could be a Federal Device From Oct. 7 ##GENERIC SENTENCE (STATIC) //2
 states and cities will soon be able to legalize recreational use of marijuana in a 50-mile-radius area. ##GENERIC SENTENCE (STATIC)
 So, ##OTHER
 how will we feel about that ##QUESTION
@@ -75,8 +73,7 @@ Get to know some of these other legal uses: ##IMPERATIVE
 1. Prostitution ##OTHER
 Prostitution is the most common illicit drug in US government records, ##GENERIC SENTENCE (STATIC)*
 according to the Federal Bureau of Investigation. ##OTHER
-And, ##OTHER
-according to the US Customs and Border Protection, ##OTHER
+And, according to the US Customs and Border Protection, ##OTHER
 75% of "other illegal narcotics" originated in "coffee shops, brothels, other grounds" such as bars, restaurants and yes, even elementary schools. ##BOUNDED EVENT (GENERIC)
 2. All-natural food ##OTHER
 One of the most popular illegal drugs in US law enforcement is the napalm. ##GENERIC SENTENCE (STATIC)*
