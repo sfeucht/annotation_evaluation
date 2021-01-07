@@ -40,69 +40,70 @@
 41 41 40 40 elab
 42 42 41 41 elab
 
-43 43 44 50 elab
+43 43 44 49 elab
 44 44 45 45 elab
-40 42 43 50 contrx
-44 44 46 50 attrm
+40 42 43 49 contrx
+44 44 46 49 attrm
 47 47 46 46 elab
 48 48 46 46 elab
-49 49 48 48 sim
-50 50 49 49 elab
+48 48 48 48 sim
+49 49 48 48 elab
 
-52 52 53 53 elab
-54 57 53 53 elab
-54 54 55 57 elab
-55 55 56 57 sim
-57 57 56 56 elab
-58 58 55 57 elab
-59 60 57 57 elabx
-59 59 60 60 elab
+50 50 51 51 elab
+52 55 51 51 elab
+52 52 53 55 elab
+53 53 54 55 sim
+55 55 54 54 elab
+56 56 53 55 elab
+57 58 55 55 elabx
+57 57 58 58 elab
 
-61 64 59 60 elabx
-61 61 62 63 elab
-62 62 63 63 elab
-61 63 64 64 ce
+59 62 57 58 elabx
+59 59 60 61 elab
+60 60 61 61 elab
+59 61 62 62 ce
 
-65 65 66 66 ce
+63 63 64 64 ce
 
-67 69 66 66 elabx
-67 67 68 69 elab
-68 68 69 69 simx
+65 67 64 64 elabx
+65 65 66 67 elab
+66 66 67 67 simx
 
-70 72 65 66 elab
-71 71 70 70 elab
-72 72 71 71 examp
-73 73 71 71 elab
-74 79 73 73 elab
-75 79 74 74 elab
-76 76 75 75 attr
-77 79 75 76 elab
-77 77 78 79 elab
-78 78 79 79 attr
+68 70 63 64 elab
+69 69 68 68 elab
+70 70 69 69 examp
+71 71 69 69 elab
+72 76 71 71 elab
+73 76 72 72 elab
+74 74 73 73 attr
+75 76 73 74 elab
+75 75 75 76 elab
+75 75 76 76 attr
 
-80 84 73 73 elabx
-81 81 80 80 elabx
-82 82 81 81 elabx
-83 84 82 82 cex
-84 84 83 83 elab
+77 81 71 71 elabx
+78 78 77 77 elabx
+79 79 78 78 elabx
+80 81 79 79 cex
+81 81 80 80 elab
 
-85 90 73 73 elabx
-86 86 87 87 cex
-88 90 86 87 elab
-88 88 89 89 vex
-90 90 89 89 elab
+82 87 71 71 elabx
+83 83 84 84 cex
+85 87 83 84 elab
+85 85 86 86 vex
+87 87 86 86 elab
 
-91 93 73 73 elabx
-92 93 91 91 elab
-92 92 93 93 cex
+88 90 71 71 elabx
+89 90 88 88 elab
+89 89 90 90 cex
 
-94 103 73 73 elabx
-95 95 96 96 elab
-97 100 95 96 contrx
-98 100 94 94 elab
-98 98 97 97 elab
-99 99 100 10 elab
-99 100 98 98 elab
-101 103 100 100 contr
-101 102 103 103 cond
+91 100 71 71 elabx
+92 92 93 93 elab
+94 97 92 93 contrx
+95 97 91 91 elab
+95 95 94 94 elab
+96 96 97 10 elab
+96 97 95 95 elab
+98 100 97 97 contr
+98 99 100 100 cond
+
 

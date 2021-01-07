@@ -12,7 +12,7 @@ split_or_joined = str(args[3])
 def increment_helper(line):
     line_list = line.split()
     for i in range(len(line_list)):
-        if i < 4:
+        if i < 4 and line_list[i] != '?':
             if int(line_list[i]) > segment_modified:
                 line_list[i] = str(int(line_list[i]) + 1)
             elif int(line_list[i]) == segment_modified:
@@ -27,7 +27,7 @@ def increment_helper(line):
 def decrement_helper(line):
     line_list = line.split()
     for i in range(len(line_list)):
-        if i < 4:
+        if i < 4 and line_list[i] != '?':
             if int(line_list[i]) > segment_modified:
                 line_list[i] = str(int(line_list[i]) - 1)
 
