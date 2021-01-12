@@ -25,7 +25,7 @@ doc_counter = fill_in_containers(h_docs, g_docs, G_SE_container, G_Coh_container
 G_Doc_container, H_SE_container, H_Coh_container, H_Doc_container, SE_accounted_for,
 Coh_accounted_for, doc_counter)
 
-'''
+
 # Agreement for SE types
 kappa_scores = []
 for doc_id in h_docs + g_docs:
@@ -42,16 +42,16 @@ for doc_id in h_docs + g_docs:
             a_container = G_SE_container[a_annotator][doc_id] 
             b_container = G_SE_container[b_annotator][doc_id]
 
-        # if len(a_container) != len(b_container):
-        #     print(doc_id, len(a_container), a_annotator, ' ', len(b_container), b_annotator)
+        if len(a_container) != len(b_container):
+            print(doc_id, len(a_container), len(b_container), a_annotator, b_annotator)
 
-        assert(len(a_container) == len(b_container))
+        # assert(len(a_container) == len(b_container))
+        # kappa_scores += (doc_id, cohen_kappa_score(a_container, b_container), a_annotator, b_annotator)
 
-        kappa_scores += (doc_id, cohen_kappa_score(a_container, b_container), a_annotator, b_annotator)
+
+
+
 '''
-
-
-
 # Agreement for Coherence relations
 
 # helper that switches around the line numbers. only does this if the relation is symmetrical 
@@ -99,3 +99,4 @@ for doc_id in h_docs + g_docs:
             coherence_agreement(a_container, b_container)
         else:
             coherence_agreement(b_container, a_container)
+'''
