@@ -1,7 +1,7 @@
 national This was not the 1960s , ##BASIC STATE
  but more recent pop culture trends have made it more palatable The Los Angeles Times has put the influence of punk rock in modern pop music on a pop history chronicle , ##COERCED STATE (GENERIC)
- helping bring us the end of hippieism , the peak of hippie media ##UNBOUNDED EVENT //3
- until it shut down the whole music scene and its agency . ##UNBOUNDED EVENT
+ helping bring us the end of hippieism , the peak of hippie media ##UNBOUNDED EVENT (GENERIC) //3
+ until it shut down the whole music scene and its agency . ##UNBOUNDED EVENT (GENERIC)
 This is the best of the legacy ##GENERIC SENTENCE (STATIC)
  left by an uninspired vision ##GENERIC SENTENCE (STATIC)
  of what would be the legacy of hippie pop culture . ##COERCED STATE (SPECIFIC)
@@ -10,14 +10,14 @@ According to the American Civil Liberties Union , more than 50 percent of Americ
  around them should not be incarcerated or charged with crimes , ##COERCED STATE (GENERIC)
  with the highest rate in the US partly due to the federal prison system . ##GENERIC SENTENCE (STATIC)
 Thus , sabotage , ##OTHER
- said the ACLU , ##UNBOUNDED EVENT
+ said the ACLU , ##UNBOUNDED EVENT (SPECIFIC)
  is more than just a criminal offense . ##GENERIC SENTENCE (STATIC)
 These two main problems of the hippie movement are political and civic and they cannot be resolved without the public , ##GENERIC SENTENCE (STATIC)
  and therefore , the drug drugs . ##NONSENSE
 This brings us to the story of Felony Narcotics ##BASIC STATE
  ( Picture ##OTHER
  recorded by Billie Holiday ) ##NONSENSE
- it is clear that the internet helped to create this civilian revolution . ##UNBOUNDED EVENT
+ it is clear that the internet helped to create this civilian revolution . ##UNBOUNDED EVENT (GENERIC)
 The United States had a monopoly on the criminal justice system during the countrys expansion , ##BASIC STATE
  and it must be acknowledged ##COERCED STATE (GENERIC)
  that with the closure of the criminal justice system , ##OTHER
@@ -25,17 +25,17 @@ The United States had a monopoly on the criminal justice system during the count
  and go against the broader political agenda . ##GENERIC SENTENCE (STATIC)
 Just to keep in mind ##GENERIC SENTENCE (STATIC)
  that it will be a while ##COERCED STATE (GENERIC)
- before all those behind the Pablo Escobar case get to plead guilty , ##UNBOUNDED EVENT
+ before all those behind the Pablo Escobar case get to plead guilty , ##UNBOUNDED EVENT (SPECIFIC)
  but this current thought process ##OTHER
  regarding the not winning of the war against drugs ##GENERIC SENTENCE (STATIC)
  is having a detrimental effect . ##BASIC STATE
-We recently saw about 25 activists , mostly in the US , ##BOUNDED EVENT
- go to jail ##BOUNDED EVENT
- after an anti-war group successfully argued an appeal of their conviction , ##BOUNDED EVENT
- resulting in punitive sanctions against the organizers . ##BOUNDED EVENT
+We recently saw about 25 activists , mostly in the US , ##BOUNDED EVENT (GENERIC)
+ go to jail ##BOUNDED EVENT (SPECIFIC)
+ after an anti-war group successfully argued an appeal of their conviction , ##BOUNDED EVENT (SPECIFIC)
+ resulting in punitive sanctions against the organizers . ##BOUNDED EVENT (SPECIFIC)
 The protestors ##OTHER
- were jailed ##BOUNDED EVENT
- before their appeal was heard , ##BOUNDED EVENT
+ were jailed ##BOUNDED EVENT (SPECIFIC)
+ before their appeal was heard , ##BOUNDED EVENT (SPECIFIC)
  yet all proceeds from this appeal were going toward social service and public aid programs . ##GENERALIZING SENTENCE (DYNAMIC)
 There are also many times ##GENERIC SENTENCE (STATIC)
  where the incarceration of innocent people over drugs is a way ##BASIC STATE

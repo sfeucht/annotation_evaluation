@@ -44,7 +44,7 @@ But they do n't give much away : ##GENERIC SENTENCE (DYNAMIC)
 And the government 's reach is limited : ##BASIC STATE
  there are no guidelines for these labs or that block list of drugs ##BASIC STATE
  on which you can buy medications in a federal marketplace , ##GENERIC SENTENCE (DYNAMIC)
- which meant ##UNBOUNDED EVENT
+ which meant ##UNBOUNDED EVENT (GENERIC)
  that they have no one ##BASIC STATE
  to base their own conclusions on in public hearings . ##GENERIC SENTENCE (DYNAMIC)
 Today , ##OTHER

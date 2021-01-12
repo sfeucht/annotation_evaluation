@@ -48,7 +48,7 @@ The founders of non-fiction books sometimes claimed to investigate Americas beha
  but these authors used contradictory arguments ##GENERIC SENTENCE (DYNAMIC)
  to bring to the reader a book ##GENERIC SENTENCE (DYNAMIC)
  that lay out the biggest obstacles to increasing writers . ##BASIC STATE*
-Soderlund and dos Ribeins basically explained the arguments in this way , a bit like one half of a Bible , ##UNBOUNDED EVENT
+Soderlund and dos Ribeins basically explained the arguments in this way , a bit like one half of a Bible , ##UNBOUNDED EVENT (SPECIFIC)
  but that they were actually far more interesting than the other . ##GENERIC SENTENCE (STATIC)*
 Although the author and reader alike might disagree on whether this was a good or bad idea , ##COERCED STATE (GENERIC)
  the arguments were very convincing , ##BASIC STATE

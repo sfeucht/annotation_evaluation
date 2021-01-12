@@ -1,18 +1,18 @@
 If the laws ##OTHER
  that negatively disaffect them ##GENERALIZING SENTENCE (DYNAMIC)
- were instated in a time of segregation ##BOUNDED EVENT
+ were instated in a time of segregation ##BOUNDED EVENT (GENERIC)
  where mass populations of white acted against every single right ##GENERIC SENTENCE (DYNAMIC)
  they had , with no reparation other than " ##GENERIC SENTENCE (DYNAMIC)
  We 're sorry . ##BASIC STATE
 There racism is over ! " ##GENERIC SENTENCE (STATIC)
 Yes this broke up communities ##GENERIC SENTENCE (DYNAMIC)
- and has had long lasting affects on social cohesion . ##COERCED STATE
+ and has had long lasting affects on social cohesion . ##COERCED STATE (GENERIC)
 Black communities were broken up ##GENERALIZING SENTENCE (DYNAMIC)
  and crime rate soared ##UNBOUNDED EVENT (SPECIFIC)
  after they were negatively targeted for drug crimes. ##GENERALIZING SENTENCE (DYNAMIC)
  “You want to know ##GENERIC SENTENCE (STATIC)
- what this was really all about ? ” ##COERCED STATE
- he asked with the bluntness of a man ##BOUNDED EVENT
+ what this was really all about ? ” ##COERCED STATE (SPECIFIC)
+ he asked with the bluntness of a man ##BOUNDED EVENT (SPECIFIC)
  who , after public disgrace and a stretch in federal prison , ##OTHER
  had little left to protect. “ The Nixon campaign in 1968 , ##BASIC STATE
  and the Nixon White House ##OTHER
@@ -20,7 +20,7 @@ Black communities were broken up ##GENERALIZING SENTENCE (DYNAMIC)
  had two enemies : ##BASIC STATE
  the antiwar left and black people . ##OTHER
 You understand ##BASIC STATE
- what I ’ m saying ? ##UNBOUNDED EVENT
+ what I ’ m saying ? ##UNBOUNDED EVENT (SPECIFIC)
 We knew ##BASIC STATE
  we couldn ’ t make it illegal to be either against the war or black , ##BASIC STATE
  but by getting the public to associate the hippies with marijuana and blacks with heroin , ##GENERALIZING SENTENCE (DYNAMIC)

@@ -2,8 +2,8 @@ This is not a reality ##GENERIC SENTENCE (STATIC)
  nor is it a fiction , ##GENERIC SENTENCE (STATIC)
  it is in the eternal struggle of Americans . ##GENERIC SENTENCE (STATIC)
 There was the election of Trump , ##BASIC STATE //3
- there was the rise of Trumpism , ##UNBOUNDED EVENT
- there was the marginalization of conservatives in the senate , ##UNBOUNDED EVENT
+ there was the rise of Trumpism , ##UNBOUNDED EVENT (SPECIFIC)
+ there was the marginalization of conservatives in the senate , ##UNBOUNDED EVENT (SPECIFIC)
  and there was a conservative minority in Congress . ##BASIC STATE
 The victorious Trump was the elected embodiment of this strange dichotomy , ##BASIC STATE
  here in America , ##OTHER
@@ -16,10 +16,10 @@ Politicians , they should have been established many years ago with different vi
  varying set of parameters and assumptions and language ##OTHER
  and they started out with one goal : ##GENERIC SENTENCE (STATIC)
  to screw , demagogue , ruin , ##GENERIC SENTENCE (DYNAMIC)
- and overthrow the working class . ##UNBOUNDED EVENT
+ and overthrow the working class . ##COERCED STATE (SPECIFIC)
 The one goal of the non-trivialized Communist Party , ##OTHER
- the baddy  who conspired with communists ##UNBOUNDED EVENT
- to orchestrate the downfall of the United States and then the Communist League , ##UNBOUNDED EVENT
+ the baddy  who conspired with communists ##UNBOUNDED EVENT (SPECIFIC)
+ to orchestrate the downfall of the United States and then the Communist League , ##COERCED STATE (SPECIFIC)
  is the overthrow of the corrupt and corrupt elites , governments , power centers , civil liberties and basic security . ##BASIC STATE
 So the first political experiment in modern American society is the systematic overthrow of the system of local government and the marginalization of powerful control over the product and liberties on all levels , ##BASIC STATE
  including the public goods , ##BASIC STATE
@@ -33,14 +33,14 @@ Take love thy neighbor as an example : ##IMPERATIVE
  new universal health care system must be passed , ##GENERIC SENTENCE (STATIC)
  constitutional amendments ##OTHER
  requiring all individuals to have insurance ##GENERIC SENTENCE (STATIC)
- are written and adopted to discourage the practice ##UNBOUNDED EVENT
+ are written and adopted to discourage the practice ##UNBOUNDED EVENT (SPECIFIC)
  of syphoning down benefits . ##GENERIC SENTENCE (DYNAMIC)
 These want to give in to the public demands of people desperate to see ##GENERIC SENTENCE (STATIC)
  if they can get a shot at a new life , ##GENERIC SENTENCE (STATIC)
  because they cant afford the basic basic necessities ##GENERIC SENTENCE (DYNAMIC)
  that it was not for them . ##GENERIC SENTENCE (STATIC)
 On the surface , yes but ##OTHER
- if you cut back the government power ##UNBOUNDED EVENT
+ if you cut back the government power ##COERCED STATE (GENERIC) 
  you will end up diminishing the aggregate power of one unelected small group of people ##COERCED STATE (GENERIC)
  who purport to be democrats . ##GENERIC SENTENCE (DYNAMIC)
 The reach of this system , this world of government , is deeply fragmented and often ludicrous , 

@@ -7,7 +7,7 @@ on how states can cover up to how many deaths they prevent from being caused by 
 And really thats the problem . ##GENERIC SENTENCE (STATIC)
 A 2013 study ##OTHER
  prepared for the U.K. agency ##BASIC STATE
- that commissioned the paper Legacy of Lifelong Freedom ##UNBOUNDED EVENT
+ that commissioned the paper Legacy of Lifelong Freedom ##UNBOUNDED EVENT (SPECIFIC)
  says ##BASIC STATE
  that the code of discernment and justification behind the violation of marriage laws ##OTHER
  is so simple ##BASIC STATE
@@ -43,7 +43,7 @@ It is a lawful state law . ##BASIC STATE
 And it is often seen as a barrier to enforcement . ##GENERALIZING SENTENCE (STATIVE)
 The mantra of these state statutes is stay on . ##GENERIC SENTENCE (STATIC) //3
 This is common sense and all too common sense . ##GENERIC SENTENCE (STATIC)
-At least 10 times in the U.K. for example , one minister had a ban on kissing against parliament ##BOUNDED EVENT*
+At least 10 times in the U.K. for example , one minister had a ban on kissing against parliament ##BOUNDED EVENT (SPECIFIC)*
  in order to help support financial support for gay couples . ##GENERALIZING SENTENCE (DYNAMIC)
 The most likely security balance : would there be armed guards for the invasion of the frontier ##COERCED STATE (GENERIC) //3
 or would it be in England or Wales ##COERCED STATE (SPECIFIC)

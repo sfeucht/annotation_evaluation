@@ -3,38 +3,38 @@ But it 's a case of the government planning to put taxes on someone 's innocence
 The money ##OTHER
  that the government is spending on making even a small dent in the crime of growing and dispensing cannabis ##GENERALIZING SENTENCE (DYNAMIC)
  legally ##OTHER
- is going to be spent on arresting people ##COERCED STATE
+ is going to be spent on arresting people ##COERCED STATE (SPECIFIC)
  who , like the other developmentally disabled , cannot afford to buy drugs ##GENERIC SENTENCE (STATIC)
  and keep their criminal records open . ##GENERIC SENTENCE (HABITUAL)
 Goaltender Jesse Frizzell , ##OTHER
- who was jailed for seven years ##BOUNDED EVENT
- after clearing the prison yard ##UNBOUNDED EVENT
+ who was jailed for seven years ##BOUNDED EVENT (SPECIFIC)
+ after clearing the prison yard ##UNBOUNDED EVENT (SPECIFIC)
  he was a part of , ##BASIC STATE
- and was therefore guaranteed a reduced sentence for his business because of an offer ##UNBOUNDED EVENT
+ and was therefore guaranteed a reduced sentence for his business because of an offer ##UNBOUNDED EVENT (SPECIFIC)
  made to make him a tip jar , ##NONSENSE
- says ##UNBOUNDED EVENT
+ says ##UNBOUNDED EVENT (SPECIFIC)
  that it was his community services workers ##BASIC STATE
  who stood between him and incarceration for making the money . ##NONSENSE
 I was charging somewhere between 11 and 12 a day ##GENERALIZING SENTENCE (DYNAMIC)
  and turning my green card in , ##GENERALIZING SENTENCE (DYNAMIC)
- he says . ##UNBOUNDED EVENT
+ he says . ##UNBOUNDED EVENT (SPECIFIC)
 I was the only person ##BASIC STATE
  who didnt know ##BASIC STATE
  I was using cannabis , ##GENERALIZING SENTENCE (DYNAMIC)
  and they were so glad ##GENERIC SENTENCE (STATIC)
- I was going to jail . ##UNBOUNDED EVENT
+ I was going to jail . ##UNBOUNDED EVENT (SPECIFIC)
 Theyre only sad Im not in here , ##GENERIC SENTENCE (STATIC)
- because Im going to miss one day . ##COERCED STATE
+ because Im going to miss one day . ##COERCED STATE (SPECIFIC)
 To make other people feel safer , ##GENERIC SENTENCE (STATIC)
  to make them feel much less afraid , ##GENERIC SENTENCE (STATIC)
  because I didnt know ##BASIC STATE
- who did what , ##UNBOUNDED EVENT
+ who did what , ##UNBOUNDED EVENT (GENERIC)
  you know , ##OTHER
  you aint a hypocrite . ##BASIC STATE
 Im good with that , its just a fact ##GENERIC SENTENCE (STATIC)
- that the truth has to come out . ##COERCED STATE
+ that the truth has to come out . ##COERCED STATE (SPECIFIC)
 Its not good for this country and its not good for the world . ##GENERIC SENTENCE (STATIC)
-He says ##UNBOUNDED EVENT
+He says ##UNBOUNDED EVENT (SPECIFIC)
  that more work needs to be done on cannabis ##GENERIC SENTENCE (DYNAMIC)
  to benefit all people . ##GENERIC SENTENCE (DYNAMIC)
 A deputy assistant and member of the local cabinet think of creating or increasing government sanctions for people ##GENERALIZING SENTENCE (DYNAMIC)
@@ -44,22 +44,22 @@ A deputy assistant and member of the local cabinet think of creating or increasi
 This practice has now caught on ##GENERALIZING SENTENCE (STATIVE)
  and people are coming out saying , ##GENERIC SENTENCE (DYNAMIC)
  dont do it this way , ##IMPERATIVE
- he says . ##UNBOUNDED EVENT
-This will come from elsewhere . ##COERCED STATE
+ he says . ##UNBOUNDED EVENT (SPECIFIC)
+This will come from elsewhere . ##COERCED STATE (GENERIC)
 We have to help people out , ##GENERIC SENTENCE (DYNAMIC)
  thats the last thing ##GENERIC SENTENCE (STATIC)
  we need at this time . ##GENERIC SENTENCE (STATIC)
 So we have to start by cracking down now on this . ##GENERIC SENTENCE (DYNAMIC)
 Theres nothing more we could do . ##GENERIC SENTENCE (STATIC)
-Weve done little or nothing at the minute . ##COERCED STATE
+Weve done little or nothing at the minute . ##COERCED STATE (GENERIC)
 Exeter Becardo , a member of the Parliamentary Childrens Advisory Group on Public Safety , ##OTHER
- says ##UNBOUNDED EVENT
- that it will be up to the government ##COERCED STATE
+ says ##UNBOUNDED EVENT (SPECIFIC)
+ that it will be up to the government ##COERCED STATE (SPECIFIC)
  to make a bid for a sentence above the maximum . ##GENERIC SENTENCE (DYNAMIC)
-Theres been a big suggestion ##COERCED STATE
+Theres been a big suggestion ##COERCED STATE (GENERIC)
  that they consider ##GENERIC SENTENCE (DYNAMIC)
  who had a criminal record ##GENERIC SENTENCE (STATIC)
- so it would be disproportionate to the sentence ##COERCED STATE
+ so it would be disproportionate to the sentence ##COERCED STATE (SPECIFIC)
  they put in . ##GENERIC SENTENCE (DYNAMIC)
 It has to be in the public interest ##GENERIC SENTENCE (HABITUAL)
  for people to not use cannabis . ##GENERIC SENTENCE (DYNAMIC)

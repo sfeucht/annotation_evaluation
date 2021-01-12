@@ -1,22 +1,22 @@
 You know ... ##OTHER
 There was a time ##GENERIC SENTENCE (STATIC)
- when I probably would have agreed with you . ##COERCED STATE
+ when I probably would have agreed with you . ##COERCED STATE (SPECIFIC)
 In the 1960's , 1970's ##OTHER
- when we were really just entering the age of the large administrative state ##COERCED STATE
+ when we were really just entering the age of the large administrative state ##COERCED STATE (GENERIC)
  and were trying to figure out ##GENERIC SENTENCE (DYNAMIC)
  how to write huge laws of general application . ##GENERIC SENTENCE (DYNAMIC)
-I would have been a big proponent of writing broad laws ##COERCED STATE
+I would have been a big proponent of writing broad laws ##COERCED STATE (SPECIFIC)
  and then allowing prosecutors to use their discretion in their application ##GENERIC SENTENCE (DYNAMIC)
  to make sure ##GENERIC SENTENCE (DYNAMIC)
  the intent of the law was done.##GENERALIZING SENTENCE (DYNAMIC)
- Then we started locking up like half of all african american men , ##UNBOUNDED EVENT
+ Then we started locking up like half of all african american men , ##UNBOUNDED EVENT (GENERIC)
  and more people than any other country in the world . ##OTHER
-We started to absolutely crush people 's lives ##COERCED STATE
+We started to absolutely crush people 's lives ##COERCED STATE (GENERIC)
  because they did n't want to sell a wedding cake to a gay couple . ##GENERIC SENTENCE (DYNAMIC)
-We expanded the scope of laws ##UNBOUNDED EVENT
+We expanded the scope of laws ##UNBOUNDED EVENT (GENERIC)
  a thousand fold , ##OTHER
- and we got affluenza kid . ##UNBOUNDED EVENT
-We got teenagers ##UNBOUNDED EVENT
+ and we got affluenza kid . ##UNBOUNDED EVENT (GENERIC)
+We got teenagers ##UNBOUNDED EVENT (GENERIC)
  being charged with manufacturing child pornography cause ##GENERIC SENTENCE (DYNAMIC)
  they sent ##GENERALIZING SENTENCE (DYNAMIC)
  they bf a topless pic ##OTHER
@@ -24,10 +24,10 @@ We got teenagers ##UNBOUNDED EVENT
  and searched it without their consent. ##GENERIC SENTENCE (DYNAMIC)
  So you know , ##OTHER
  I am completely done with the idea ##BASIC STATE
- that special people should n't be treated the same way . ##COERCED STATE
+ that special people should n't be treated the same way . ##COERCED STATE (SPECIFIC)
 I think ##BASIC STATE
- if Hillary clinton got caught smoking weed ##COERCED STATE
- she should go to jail for as long as a black 25 year old with a criminal record.Either ##COERCED STATE
+ if Hillary clinton got caught smoking weed ##COERCED STATE (SPECIFIC)
+ she should go to jail for as long as a black 25 year old with a criminal record.Either ##COERCED STATE (GENERIC)
  the laws ##OTHER
  apply to the king as much ##GENERALIZING SENTENCE (DYNAMIC)
  as they do the lowest person , ##GENERALIZING SENTENCE (DYNAMIC)
