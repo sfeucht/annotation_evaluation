@@ -27,7 +27,7 @@ Most adults do n't get impaired , ##GENERIC SENTENCE (STATIC)
  recommending self-help and peer advice , ##UNBOUNDED EVENT (GENERIC) 
  there 's not much you can do about it .##GENERIC SENTENCE (STATIC) 
 Studies suggest ##BASIC STATE 
- that cannabis could actually help someone with cognitive impairment , ##GENERIC SENTENCE (STATAIC) 
+ that cannabis could actually help someone with cognitive impairment , ##GENERIC SENTENCE (STATIC) 
  which is a limitation of alcohol ##BASIC STATE 
  when it comes to the mental and physical health effects of cannabis . ##OTHER 
 Can you do the same ? ##QUESTION 
