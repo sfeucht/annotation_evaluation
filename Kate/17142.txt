@@ -18,7 +18,7 @@ we are wasting tax dollars and labour for the imprisonment of people ##UNBOUNDED
 Do you think ##QUESTION 
  it is right to ruin a person 's life ##QUESTION
  because of smoking a plant ##UNBOUNDED EVENT (GENERIC) 
- that makes them happy ? ##COERCED STATE  
+ that makes them happy ? ##UNBOUNDED EVENT (GENERIC) 
 We can also generate a lot of money for us ##GENERIC SENTENCE (STATIC) 
  if it is sold in stores and taxed. ##GENERIC SENTENCE (DYNAMIC) //3
 Also , ##OTHER 
@@ -35,7 +35,7 @@ Now with pot , ##OTHER
  that it is not so bad . ##GENERIC SENTENCE (STATIC) 
 TL ; DR ##OTHER
  being a cure is not the only reason ##GENERIC SENTENCE (STATIC) //2 
- people want ##GENERIC SENTENCE 
+ people want ##GENERIC SENTENCE (STATIC) 
  it legalized , ##OTHER
  saying ##OTHER 
  that people ##OTHER 

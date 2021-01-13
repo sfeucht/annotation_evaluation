@@ -8,7 +8,7 @@ Denver may be considered the beginning of the end for the weed , ##BASIC STATE
  according to weed experts , ##OTHER 
  it 's finally being recognised as a public health issue . ##COERCED STATE (SPECIFIC) 
 The city has officially approved their use of weed : ##BOUNDED EVENT (SPECIFIC) 
- people could be allowed to consume it on the city 's public health trails for a year ##GENERIC SENTENCE (GENERIC) 
+ people could be allowed to consume it on the city 's public health trails for a year ##COERCED STATE (GENERIC) 
  while it is in place .##OTHER 
 They 're waaaaay ahead of a greater-than-expected push ##BASIC STATE 
  to be able to take it off city property , ##OTHER 
@@ -26,15 +26,15 @@ Thankfully , ##OTHER
 no more smokers , ##OTHER 
 nor anyone ##OTHER 
  watching your back , ##UNBOUNDED EVENT (GENERIC)  
- than any other drug should be regulated and taxed .##UNBOUNDED EVENT 
+ than any other drug should be regulated and taxed .##COERCED STATE (GENERIC) 
 BART police already have a " marijuana alley " ##BASIC STATE 
  where potential customers could find sprayers and pagers ready to use and find it ##UNBOUNDED EVENT (SPECIFIC) 
- where they 're supposed to .##GENERIC SENTENCE 
+ where they 're supposed to .##GENERIC SENTENCE (STATIC)
 If using a public street corner ,##UNBOUNDED EVENT (GENERIC)  
  however , ##OTHER 
 you 're getting a second view of the pot ##COERCED STATE (GENERIC) //2
  and getting in the habit of its treat .##COERCED STATE (GENERIC) //2
-Wounded People Can Be Dejected ##GENERIC SENTENCE 
+Wounded People Can Be Dejected ##COERCED STATE (GENERIC) 
  Iggy Azalea and T.I. have been in the news a lot recently for their ( arguably ) unhappy relationship with their father , ##BASIC STATE 
  T.I. , ##OTHER 
  the man behind the smash-hit reality TV show " Iggy " on the American Music Awards . ##OTHER 
@@ -62,7 +62,7 @@ There is the fact ##GENERIC SENTENCE (STATIC)
  marijuana use was up 300 % , ##GENERIC SENTENCE (STATIC) 
  so it 's not like a product is suddenly endangered . ##BASIC STATE 
 Several other legal uses have taken place in the past , ##BOUNDED EVENT (GENERIC) 
- and we 'd expect some legalisation in the not too distant future .##GENERIC SENTENCE
+ and we 'd expect some legalisation in the not too distant future .##COERCED STATE (GENERIC) 
 You see , ##BASIC STATE 
  tobacco smoke is a product of human abuse , ##BASIC STATE 
  as is then the real medical issue .##BASIC STATE 
@@ -82,17 +82,17 @@ Perhaps it 's because it 's harder to pinpoint ##BASIC STATE
  difficulties and toxicity might be .##OTHER 
 3 .Substance abuse ##OTHER 
 The most common use of drugs is to transport some or all of their cannabinoids , ##GENERIC SENTENCE (STATIC) 
- making them combustible .##UNBOUNDED EVENT  
+ making them combustible .##UNBOUNDED EVENT (GENERIC)    
 While Unexceedable , ##GENERIC SENTENCE (STATIC) 
 sometimes prolonged use could lead to a long-term serious health problem . ##GENERIC SENTENCE (STATIC) 
 This includes a long-term immune system failure . ##BASIC STATE 
 4 .Entertainance ##OTHER
-Cocaine use has become a thriving drug culture , ##PERFECT COERCED STATE  
- so it 's only appropriate that visitors to Latin America will be able to benefit from this practice .##GENERIC SENTENCE 
+Cocaine use has become a thriving drug culture , ##PERFECT COERCED STATE (GENERIC) 
+ so it 's only appropriate that visitors to Latin America will be able to benefit from this practice .##GENERIC SENTENCE (STATIC)
 5 .Garden Vending Machine ##OTHER 
 When you come to Latin America , ##UNBOUNDED EVENT (GENERIC) 
  expect a special gift as well . ##UNBOUNDED EVENT (GENERIC) 
-But research has already found ##GENERIC SENTENCE
+But research has already found ##PERFECT COERCED STATE (GENERIC)
  that this kind of farm vending machine is a totally different form of irresponsible behaviour ##BASIC STATE 
  and again , ##OTHER
 use of it is not strictly illegal . ##BASIC STATE 

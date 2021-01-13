@@ -1,7 +1,7 @@
 at 5:42 PM VERMONT Governor vetoes bill to legalize marijuana ##BOUNDED EVENT (SPECIFIC) 
 Gov. Phil Scott  ##OTHER 
  ( R ) on Wednesday vetoed a bill  ##BOUNDED EVENT (SPECIFIC) 
- that would have made Vermont ##PERFECT COERCED STATE 
+ that would have made Vermont ##PERFECT COERCED STATE (SPECIFIC) 
  the ninth state to legalize recreational marijuana ##UNBOUNDED EVENT (GENERIC) //2
  but indicated ##BASIC STATE 
  that he was willing to work with the legislature on a compromise . ##BASIC STATE 
@@ -49,7 +49,7 @@ The truck then crossed over a runway twice during the pursuit  ##BOUNDED EVENT (
  and burst through a fence onto nearby U.S. 75 . ##BOUNDED EVENT (SPECIFIC) 
 Airport spokeswoman Alexis Higgins said  ##BASIC STATE 
  the truck came near a parked Gulfstream jet ##BOUNDED EVENT (SPECIFIC) 
- that had one person aboard  ##PERFECT COERCED STATE 
+ that had one person aboard  ##PERFECT COERCED STATE (SPECIFIC)  
  but was n't preparing to take off . ##BASIC STATE 
 Associated Press KANSAS Court says  ##BASIC STATE 
  man did n't violate federal gun law ##BOUNDED EVENT (SPECIFIC) 

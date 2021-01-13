@@ -1,12 +1,12 @@
 > Not all drugs are addictive . ##GENERIC SENTENCE (STATIC) 
-Marijuana , LSD , and psilocybin for instance have no addictive effects> ##PERFECT COERCED STATE 
+Marijuana , LSD , and psilocybin for instance have no addictive effects> ##PERFECT COERCED STATE (GENERIC) 
 I did n't say ##BASIC STATE 
  that all were addictive ##GENERIC SENTENCE (STATIC) 
  but there are negative effects , ##GENERIC SENTENCE (STATIC) 
  being in an altered state makes you fundamentally less productive and for children ##GENERIC SENTENCE (STATIC) 
  who are still developing ##GENERIC SENTENCE (STATIC) 
  these can have negative effects .##GENERIC SENTENCE (STATIC)
-Hallucinogens have some potential for therapy in small amounts ##PERFECT COERCED STATE 
+Hallucinogens have some potential for therapy in small amounts ##PERFECT COERCED STATE (GENERIC) 
  but people can also have very bad experiences from them  ##COERCED STATE (GENERIC) 
  and get PTSD ##GENERIC SENTENCE (DYNAMIC) 
  when using them on their own. ##UNBOUNDED EVENT (GENERIC) 

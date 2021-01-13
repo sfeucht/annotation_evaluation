@@ -61,7 +61,7 @@ She took a tranquiliser around her left thigh in the morning ##BOUNDED EVENT (SP
 One of her medics later explained to a reporter ##BOUNDED EVENT (SPECIFIC) 
  that he had never seen a man ##BASIC STATE 
  so reckless in his own skin .##BASIC STATE 
-The incident did not inspire any policy changes on the bed , ##COERCED STATE 
+The incident did not inspire any policy changes on the bed , ##COERCED STATE (SPECIFIC) 
  or the police .##OTHER 
 Instead , ##OTHER 
  officers kicked off each piece of luggage .##BOUNDED EVENT (SPECIFIC) 

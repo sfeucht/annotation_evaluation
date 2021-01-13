@@ -29,7 +29,7 @@ We can understand any rational response ##GENERIC SENTENCE (STATIC)
  that anger the people . ##OTHER 
 We knew ##GENERIC SENTENCE (STATIC) 
  we couldn't make it illegal to be either against the war or black , ##GENERIC SENTENCE (STATIC) 
- but by getting the public to associate the hippies with marijuana and blacks with heroin , ##UNBOUNDED EVENT (STATIC) //2
+ but by getting the public to associate the hippies with marijuana and blacks with heroin , ##UNBOUNDED EVENT (SPECIFIC) //2
  and then criminalizing them , ##UNBOUNDED EVENT (GENERIC) 
  said Vishnej , ##BOUNDED EVENT (SPECIFIC) 
 coordinator of the campaign Weisz ##BASIC STATE 
@@ -48,7 +48,7 @@ It does not seem so surprising  ##GENERIC SENTENCE (STATIC)
  to us ##OTHER 
  that when you build a media outlet , ##UNBOUNDED EVENT (GENERIC) 
  thats in .##OTHER
-Before we had these adversarial networks , ##PERFECT COERCED STATE 
+Before we had these adversarial networks , ##PERFECT COERCED STATE (GENERIC) 
  there were the media news lanes ##GENERIC SENTENCE (STATIC) 
  and that kind of funding was constant .##GENERIC SENTENCE (STATIC) 
 We created a network of television and radio stations and the internet , ##BOUNDED EVENT (SPECIFIC) 
@@ -98,6 +98,6 @@ Its hard ##BASIC STATE
 to leave the party scary enough , ##UNBOUNDED EVENT (GENERIC)
  but still maintaining that weve ##UNBOUNDED EVENT (GENERIC) 
  got a way ##OTHER 
- to help everyone . ##UNBOUNDED EVENT 
+ to help everyone . ##UNBOUNDED EVENT (GENERIC) 
 Vishnej is an intern at the Gashwad forum ##BASIC STATE 
 *** 0 4 0 3 4 2 3 4 YES UC YES 0 0 NA NA ALGORITHM

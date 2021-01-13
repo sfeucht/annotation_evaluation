@@ -3,7 +3,7 @@ the year the US passed a law ##UNBOUNDED EVENT (SPECIFIC)
  that allows states to let doctors prescribe marijuana for certain conditions , ##BASIC STATE 
  including cancer , drowsiness and erectile dysfunction . ##OTHER 
 After four weeks , ##OTHER 
- you had a problem . ##PERFECT COERCED STATE 
+ you had a problem . ##PERFECT COERCED STATE (SPECIFIC)
 The result : ##OTHER 
  a $10 million fine . ##OTHER 
 In 2014 , ##OTHER 
@@ -17,13 +17,13 @@ the third sector of the economy - ##OTHER
  was the biggest winner of the legalization period . ##GENERIC SENTENCE (STATIC) 
 It sparked a new wave of artisanal craft startups all over the world , ##COERCED STATE (GENERIC) 
  as it means ##OTHER 
- that practically no one else had anything ##PERFECT COERCED STATE 
+ that practically no one else had anything ##PERFECT COERCED STATE (GENERIC) 
  to do with it .##OTHER 
 Now , ##OTHER 
 a new batch of companies is ready to go along with some of the deals : ##GENERIC SENTENCE (STATIC) 
  small businesses ##OTHER 
  born out of desperation ##UNBOUNDED EVENT (GENERIC) 
- have the right ##PERFECT COERCED STATE 
+ have the right ##PERFECT COERCED STATE (GENERIC) 
  to try to cash in on the drug , ##UNBOUNDED EVENT (GENERIC)
  just like anywhere else : ##OTHER 
  as small businesses compete to maintain the integrity of the land , ##UNBOUNDED EVENT (GENERIC)
@@ -40,17 +40,17 @@ There 's a small circle of entrepreneurs , ##GENERIC SENTENCE (STATIC)
 That 's good . ##BASIC STATE 
 It 's a noble business objective , ##BASIC STATE 
  perhaps one ##OTHER 
- that should never be overlooked ##COERCED STATE
+ that should never be overlooked ##COERCED STATE (GENERIC) 
  when it comes to valuing workers and their livelihoods . ##OTHER 
 The mega-regulatory certainty , ##OTHER 
 thanks to the rapid expansion of state medical marijuana regulations , ##GENERIC SENTENCE (STATIC) //2
-has once again made that route  -  ##PERFECT COERCED STATE 
+has once again made that route  -  ##PERFECT COERCED STATE (GENERIC)  
  which had previously served as a roadblock for smaller artisanal crafts - possible . ##COERCED STATE (GENERIC) 
 But why was my reputation so high ? ##QUESTION 
 Was n't it an opportunity ##QUESTION 
  to become one of the giants of the craft business ? ##GENERIC SENTENCE (STATIC) 
 For one thing , ##OTHER 
- small businesses do n't have the same insider networks as the corporate class , ##PERFECT COERCED STATE 
+ small businesses do n't have the same insider networks as the corporate class , ##PERFECT COERCED STATE (GENERIC) 
  which tends to favor big names like Apple , Microsoft , Google and Facebook . ##GENERIC SENTENCE (HABITUAL) 
 While little is being built ##GENERIC SENTENCE (STATIC) 
 - or changed - ##UNBOUNDED EVENT (GENERIC) 
@@ -76,13 +76,13 @@ They just say , ##UNBOUNDED EVENT (GENERIC)
  we could create . " ##COERCED STATE (GENERIC) 
 The best way ##OTHER 
  to find out is to check your payroll records ,  ##GENERIC SENTENCE (STATIC) 
- and don't have to . ##PERFECT COERCED STATE 
-They just don't have a sales team . ##PERFECT COERCED STATE 
+ and don't have to . ##PERFECT COERCED STATE (GENERIC) 
+They just don't have a sales team . ##PERFECT COERCED STATE (GENERIC)
 And while this might sound preposterous , ##COERCED STATE (GENERIC) 
  the only way ##OTHER 
  we can get a piece of this noise ##UNBOUNDED EVENT (GENERIC) 
  is to be overconfident in our predictions ##GENERIC SENTENCE (STATIC)
- of what the new law might do and the mass acceptance ##COERCED STATE (STATIC) 
+ of what the new law might do and the mass acceptance ##COERCED STATE (SPECIFIC) 
  that will come from small businesses . ##GENERIC SENTENCE (STATIC) 
 *** 0 1 0 0 NA NA NA NA YES ML YES 0 0 NA NA ALGORITHM 
 

@@ -10,7 +10,7 @@ It 's literally the same thing with weed . ##GENERIC SENTENCE (STATIC)
 And a large portion of people ##OTHER 
  who smoke weed ##GENERIC SENTENCE (DYNAMIC) 
  and might have some mental effects ##GENERIC SENTENCE (DYNAMIC) 
- just continue smoking , ##UNBOUNDED EVENT 
+ just continue smoking , ##IMPERATIVE
  so they never find out ##GENERIC SENTENCE (DYNAMIC) 
  what those effects are . ##GENERIC SENTENCE (STATIC) 
 People say ##GENERIC SENTENCE (DYNAMIC) 

@@ -49,7 +49,7 @@ It has the potential ##PERFECT COERCED STATE (GENERIC)
  to create a brain , ##GENERIC SENTENCE (DYNAMIC) //2
  which was destroyed by psychotic lovers ##BOUNDED EVENT (GENERIC) 
  who drank and smoked it for months on end .##BOUNDED EVENT (GENERIC) 
-Before many people have their worst experience of cannabis in their parents ##PERFECT COERCED STATE 
+Before many people have their worst experience of cannabis in their parents ##PERFECT COERCED STATE (GENERIC) 
  they should have their best chance ##COERCED STATE (GENERIC)
  of buying it ##UNBOUNDED EVENT (GENERIC) 
  and making more of it ##UNBOUNDED EVENT (GENERIC) 
@@ -58,17 +58,17 @@ As much as there are people ##GENERIC SENTENCE (STATIC)
  who go on drugs ##UNBOUNDED EVENT (GENERIC) 
  they become addictive ##GENERIC SENTENCE (STATIC) 
  and make you feel great , ##COERCED STATE (GENERIC) 
- they start to have negative feelings . ##PERFECT COERCED STATE 
+ they start to have negative feelings . ##PERFECT COERCED STATE (GENERIC) 
 Being in school or driving around in the morning ,  ##GENERIC SENTENCE (DYNAMIC) 
  or while going to school , ##UNBOUNDED EVENT (GENERIC) 
- does not have an addictive effect ##PERFECT COERCED STATE
+ does not have an addictive effect ##PERFECT COERCED STATE (GENERIC)
  that will ruin your child 's life or their studies . ##UNBOUNDED EVENT (GENERIC)
 I felt glad ##BASIC STATE
  I never took an overdose because of the pain ##BOUNDED EVENT (SPECIFIC) 
  and brought more happiness to myself and my family . ##BOUNDED EVENT (SPECIFIC) 
 As I have written before , ##COERCED STATE (SPECIFIC) 
  it is important that anyone ##GENERIC SENTENCE (STATIC) 
- who has someone ##PERFECT COERCED STATE 
+ who has someone ##PERFECT COERCED STATE (GENERIC)
  who has ever done drugs of choice ##COERCED STATE (GENERIC) 
  take steps ##GENERIC SENTENCE (DYNAMIC) 
  to reduce his or her risks of opioid dependence ##GENERIC SENTENCE (DYNAMIC)  
@@ -103,7 +103,7 @@ My first prescription of cannabis was for symptoms of inflammation and reactions
  and was an educational exercise .##BASIC STATE 
 As the pain grew , ##BOUNDED EVENT (GENERIC) 
  I realized ##BASIC STATE 
- how many other people around me had similar experiences . ##PERFECT COERCED STATE 
+ how many other people around me had similar experiences . ##PERFECT COERCED STATE (GENERIC)
 Having witnessed it firsthand ##COERCED STATE (SPECIFIC) 
  I realised ##BASIC STATE 
  that it is hard not to get sick , ##GENERIC SENTENCE (STATIC) 

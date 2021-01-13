@@ -76,7 +76,7 @@ But there is significant opposition to this law , ##GENERIC SENTENCE (STATIC)
  that people on medical / non-medical grounds and whoever 's in the position ##GENERIC SENTENCE (STATIC) 
  to sign up to it ##UNBOUNDED EVENT (GENERIC) 
  must be careful to avoid being too much in the wrong ,  ##COERCED STATE (GENERIC) 
- nor having ulterior motives . ##PERFECT COERCED STATE 
+ nor having ulterior motives . ##PERFECT COERCED STATE (GENERIC)
 But the evidence on popularity and policy ##OTHER 
  has proved very poorly ##COERCED STATE (GENERIC) 
  and is simply not compelling . ##GENERIC SENTENCE (STATIC) 
@@ -97,7 +97,7 @@ And those were only the movies ##GENERIC SENTENCE (STATIC)
  in which the argument over coffee careered off into the sticky pot . ##UNBOUNDED EVENT (GENERIC) 
 There may be more good news than worse . ##GENERIC SENTENCE (STATIC) 
 But we have a long way ##COERCED STATE (GENERIC) 
- to go ##UNBOUNDED EVENT 
+ to go ##UNBOUNDED EVENT (GENERIC)
  before we can say anymore . ##COERCED STATE (GENERIC) 
 Share this : Tweet ##OTHER 
 *** 0 4 0 0 NA NA NA NA YES ML YES 0 0 NA NA ALGORITHM

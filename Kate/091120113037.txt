@@ -1,7 +1,7 @@
 The wife of a D.C. Police officer had a home invasion at the Capitol a week earlier . ##PERFECT COERCED STATE (SPECIFIC) 
 The police officer ,  ##OTHER 
 Robert Coombs ,  ##OTHER 
-responded to a robbery call at a gas station in Columbia ,  ##BOUNDED EVENT  (SPECIFIC) 
+responded to a robbery call at a gas station in Columbia ,  ##BOUNDED EVENT (SPECIFIC) 
  but was forced to sneak out   ##BOUNDED EVENT (SPECIFIC) 
  when she refused to let him get back to the station . ##BOUNDED EVENT (SPECIFIC)  
 I turned around  ##BOUNDED EVENT (SPECIFIC) 

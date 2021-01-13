@@ -67,7 +67,7 @@ Only one did n't have CTE . ##BASIC STATE
 Robert Griffin III set to work out for Chargers ##BASIC STATE 
 After spending the first 17 years of his Post career writing and editing ,  ##UNBOUNDED EVENT (GENERIC) 
 Matt and the printed paper ##OTHER 
- had an amicable divorce in 2014 . ##PERFECT COERCED STATE 
+ had an amicable divorce in 2014 . ##PERFECT COERCED STATE (SPECIFIC) 
 He 's now blogging and editing for the Early Lead and The Post 's other Web-based products . ##UNBOUNDED EVENT (GENERIC) 
 ***0 5 5 4 5 5 5 4 YES ML YES 0 0 0 0 HUMAN
 

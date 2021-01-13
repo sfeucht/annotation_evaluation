@@ -18,7 +18,7 @@ Seasoned young people go to party spots now ##GENERIC SENTENCE (STATIC)
  that make up less than 10 % of the population .##GENERIC SENTENCE (STATIC) 
 That is not how I see it .##BASIC STATE 
 Sooner or later that will change ##GENERIC SENTENCE (STATIC) 
- as it has in both maths and a lot of scholarly literature and scholarly culture and times  ##PERFECT COERCED STATE
+ as it has in both maths and a lot of scholarly literature and scholarly culture and times  ##PERFECT COERCED STATE (GENERIC) 
  we are already living in . ##GENERIC SENTENCE (STATIC) 
 At the very least , ##OTHER 
  there may be a need for a private and public place as soon as possible ##GENERIC SENTENCE (STATIC) 
@@ -56,8 +56,8 @@ I think ##BASIC STATE
 He met a woman from Tibet . ##BOUNDED EVENT (SPECIFIC) 
 I know both of those kids for a fact . ##BASIC STATE
 It was at that time ##BASIC STATE 
- that a wave of Indian immigrants to the US first sailed on the Potomac ##BOUNDED EVENT (STATIC) 
- and took over our town . ##BOUNDED EVENT (STATIC) 
+ that a wave of Indian immigrants to the US first sailed on the Potomac ##BOUNDED EVENT (GENERIC) 
+ and took over our town . ##BOUNDED EVENT (GENERIC)
 Back then , ##OTHER 
  I think of you ##BASIC STATE 
  as kind of the agnostic at home , ##OTHER  

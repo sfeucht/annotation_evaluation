@@ -52,7 +52,7 @@ Another 201,000 reported using it in the past year , ##UNBOUNDED EVENT (SPECIFIC
  roughly 3.8 percent of the population. ##OTHER
 And  while the report focuses on adult use , ##BASIC STATE 
  the report did mention an estimated 184,000 residents under 21 years old ##BASIC STATE
- who have used the drug within the past year . ##PERFECT COERCED STATE 
+ who have used the drug within the past year . ##PERFECT COERCED STATE (GENERIC)
 Frequency of pot use is concentrated at the extremes ##GENERIC SENTENCE (STATIC) 
 Adult residents either smoke pot ( relatively ) ##UNBOUNDED EVENT (GENERIC) 
  few times a month or ##OTHER

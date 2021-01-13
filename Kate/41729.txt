@@ -38,7 +38,7 @@ However , ##OTHER
  classifying it as similar to cocaine or meth ##COERCED STATE (SPECIFIC) 
  has restricted the conversation on it ##COERCED STATE (GENERIC) 
  and causes people to become misinformed about the effects of the drug ##GENERIC SENTENCE (STATIC) 
- and stigmatises those ##COERCED STATE 
+ and stigmatises those ##GENERIC SENTENCE (STATIC) 
  who use / sell it .##OTHER
 Despite the law , ##OTHER 
  people will still consume marijauna . ##GENERIC SENTENCE (STATIC)
