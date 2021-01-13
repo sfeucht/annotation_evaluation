@@ -44,7 +44,7 @@ MedSurg Industries , ##OTHER
 saw about 20 percent of its sales a year ago . ##BOUNDED EVENT (SPECIFIC) 
 That made it one of the fastest growing companies nationwide , ##GENERIC SENTENCE (STATIC) 
  he said . ##BASIC STATE 
-MedSurg has 30 employees and products ,  ##PERFECT COERCED STATE
+MedSurg has 30 employees and products ,  ##PERFECT COERCED STATE (SPECIFIC) 
  from flushes to edibles . ##OTHER 
 Dr. Thomas Brunick ,  ##OTHER 
 a past president of Colorados Healthcare Association and an expert on so-called regulatory issues ,  ##OTHER 
@@ -92,7 +92,7 @@ They understand ##GENERIC SENTENCE (STATIC)
 Related Coverage 20 Years Ago : ##OTHER 
 A Look Back at the Growing History of Colorados Marijuana industry ##OTHER 
  Other Denver-area companies are thriving . ##GENERIC SENTENCE (STATIC) 
-We have this amazing opportunity , ##PERFECT COERCED STATE 
+We have this amazing opportunity , ##PERFECT COERCED STATE (SPECIFIC) 
  said Niango Bell , ##BASIC STATE 
  a subsidiary of Denver-based MidTower Inc . ##OTHER 
 But many feel a duty to shoulder more responsibility for marijuana production and distribution . ##GENERIC SENTENCE (STATIC) 

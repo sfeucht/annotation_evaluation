@@ -31,7 +31,7 @@ Studies suggest ##GENERIC SENTENCE (STATIC)
  which is a limitation of alcohol ##GENERIC SENTENCE (STATIC)
  when it comes to the mental and physical health effects of cannabis . ##GENERALIZING SENTENCE (STATIVE)
 Can you do the same ? ##OTHER
-It 's more likely ##GENERALIZING SENTENCE (STATIC)
+It 's more likely ##GENERALIZING SENTENCE (STATIVE)
  you need meds and alcohol , ##BASIC STATE
  but maybe you want to wait . ##BASIC STATE
 For this reason , ##OTHER

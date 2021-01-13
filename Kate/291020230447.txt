@@ -30,7 +30,7 @@ Unlike in other cities ##GENERIC SENTENCE (STATIC)
  where cops only recruit civilians , ##GENERIC SENTENCE (STATIC)  
  we were not interested in coaching and training them , ##GENERIC SENTENCE (STATIC) 
  so we simply recruited civilians  ##BOUNDED EVENT (GENERIC) 
- that did not have the experience ,  ##PERFECT COERCED STATE 
+ that did not have the experience ,  ##PERFECT COERCED STATE (GENERIC) 
  Bajarin said . ##BASIC STATE 
 Ultimately , ##OTHER 
 this is a collective effort among law enforcement agencies  ##BASIC STATE 

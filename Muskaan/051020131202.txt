@@ -65,7 +65,7 @@ You can see ##GENERIC SENTENCE (STATIC)
  how Indian politics have changed since then : ##COERCED STATE (SPECIFIC)
  A revolutionary idea was espoused by a young person-turned-politician , ##UNBOUNDED EVENT (SPECIFIC)
  and then by an outsider ##BOUNDED EVENT (SPECIFIC)
- who founded India in 1970 ##BOUNDED EVENT , (SPECIFIC)
+ who founded India in 1970 ##BOUNDED EVENT (SPECIFIC)
 Andrew Weisz . 
 Weisz founded The communist Stalinist Youth .##BOUNDED EVENT (SPECIFIC)
 Stalinism is not a politically correct term , but a very radical concept . ##BASIC STATE
