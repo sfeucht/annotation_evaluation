@@ -35,9 +35,9 @@ Read our previous columns about this work : ##IMPERATIVE
  like in the U.S. , ##OTHER
  whereby it is necessary to get through an administrative agency for doing the crossing . ##GENERIC SENTENCE (DYNAMIC) //3
 This policy is designed ##BASIC STATE
- to circumvent the customary protocol of using the states laws as a guide 
+ to circumvent the customary protocol of using the states laws as a guide ##OTHER
  and to straighten out the enforcement plans . ##GENERALIZING SENTENCE (DYNAMIC)
-The smaller the discretion of the state , 
+The smaller the discretion of the state , ##OTHER
 the faster the violation will come out . ##COERCED STATE (GENERIC)
 It is a lawful state law . ##BASIC STATE
 And it is often seen as a barrier to enforcement . ##GENERALIZING SENTENCE (STATIVE)

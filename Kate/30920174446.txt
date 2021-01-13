@@ -3,7 +3,7 @@ When you visit your GP , ##UNBOUNDED EVENT (GENERIC)
  without feeling ##BASIC STATE 
  like you 're being overdone ? ##NONSENSE
 It may sound rude , ##BASIC STATE 
- but it 's the same thing as with alcohol .##GENERIC SENTENCE (STATIC) 
+ but it 's the same thing as with alcohol. ##GENERIC SENTENCE (STATIC) 
 The Western world is currently experiencing a huge increase in cannabis consumption among the young , ##GENERIC SENTENCE (STATIC) 
  to the point ##OTHER 
  where it 's now a huge taboo subject .##GENERIC SENTENCE (STATIC) 
@@ -76,7 +76,7 @@ Self-care and social support are not uncommon . ##GENERIC SENTENCE (STATIC)
 Self-care increases the life span of everyone . ##GENERIC SENTENCE (STATIC) 
 17 .##OTHER 
 Self-care decreases the probability of relapse .  ##GENERIC SENTENCE (STATIC) 
-18 . #OTHER 
+18 . ##OTHER 
 'Cannabis has a role  ##GENERIC SENTENCE (STATIC) 
  to play in our everyday lives ' ,##COERCED STATE (GENERIC)  
  says Alcohol Health Canada . ##BASIC STATE 

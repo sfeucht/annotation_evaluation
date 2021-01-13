@@ -65,9 +65,9 @@ You will find too many such councils to really have a role in making a well-roun
  being pragmatic states like Utah and Vermont ##GENERIC SENTENCE (STATIC)
  that start out producing the goods  that everyone needs , ##GENERIC SENTENCE (DYNAMIC)
  that also have direct influence over the results of local races . ##GENERIC SENTENCE (STATIC)
-Each one , however , should be mindful of the differences among its population groups , 
+Each one , however , should be mindful of the differences among its population groups , ##OTHER
  and that also allows state-level branches of politics . ##COERCED STATE (SPECIFIC)
-I could go on and on 
+I could go on and on ##OTHER
 but my preference is to conserve as much power as possible , ##BASIC STATE
  limit the right of anyone on any level of government ##GENERIC SENTENCE (DYNAMIC)
  to control every aspect of our society ##GENERALIZING SENTENCE (DYNAMIC)

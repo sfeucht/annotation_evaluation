@@ -4,7 +4,7 @@ Panel says ##GENERALIZING SENTENCE (DYNAMIC)
  to prosecute citizens for issues of political , policy , or cultural grievance ##GENERIC SENTENCE (DYNAMIC)
  Self-proclaimed hippies in India have come together ##COERCED STATE (SPECIFIC)
  and got arrested for planning the 1962 holocaust in the forests of Bodhinagar , ##BOUNDED EVENT (SPECIFIC)
-the capital city of the Bodh Gaya district .
+the capital city of the Bodh Gaya district . ##OTHER
 At a press conference at the state intelligence headquarters , ##OTHER
  IOSD for Democracy visited multiple cities ##BOUNDED EVENT (SPECIFIC)
  that were staging demonstrations against the war and black militant groups as well as Aligarh , Tamils , Guruns , and farm labourers ##UNBOUNDED EVENT (SPECIFIC)
@@ -18,7 +18,7 @@ You can see ##GENERIC SENTENCE (DYNAMIC)
  A revolutionary idea was espoused by a young person-turned-politician , ##UNBOUNDED EVENT (SPECIFIC)
  and then by an outsider ##BOUNDED EVENT (SPECIFIC)
  who founded India in 1970 ##BOUNDED EVENT (SPECIFIC)
-, Andrew Weisz .
+, Andrew Weisz . ##OTHER
 Weisz founded The communist Stalinist Youth . ##BOUNDED EVENT (SPECIFIC)
 Stalinism is not a politically correct term , but a very radical concept . ##BASIC STATE
 We are not opposed to a well-managed , safe , healthy , and adequate society , ##BASIC STATE
@@ -32,7 +32,7 @@ We knew ##BASIC STATE
  but by getting the public to associate the hippies with marijuana and blacks with heroin , ##UNBOUNDED EVENT (SPECIFIC)
  and then criminalizing them , ##UNBOUNDED EVENT (SPECIFIC)
  said Vishnej ##BOUNDED EVENT (SPECIFIC)
-, coordinator of the campaign Weisz 
+, coordinator of the campaign Weisz ##OTHER
  built for the campaign in November . ##BOUNDED EVENT (SPECIFIC)
 Weisz said ##BOUNDED EVENT (SPECIFIC)
  while the campaign did not just last six months , ##UNBOUNDED EVENT (SPECIFIC)
@@ -66,7 +66,7 @@ You can see ##GENERIC SENTENCE (STATIC)
  A revolutionary idea was espoused by a young person-turned-politician , ##UNBOUNDED EVENT (SPECIFIC)
  and then by an outsider ##BOUNDED EVENT (SPECIFIC)
  who founded India in 1970 ##BOUNDED EVENT (SPECIFIC)
-Andrew Weisz . 
+Andrew Weisz . ##OTHER
 Weisz founded The communist Stalinist Youth .##BOUNDED EVENT (SPECIFIC)
 Stalinism is not a politically correct term , but a very radical concept . ##BASIC STATE
 That ideology is just one part of the equation . ##BASIC STATE
