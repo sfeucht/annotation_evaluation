@@ -60,33 +60,50 @@ print("Sheridan and Muskaan: ", kappa_scores[(kappa_scores['a_annotator'] == 'Sh
 print("Muskaan and Kate: ", kappa_scores[(kappa_scores['a_annotator'] == 'Muskaan') & (kappa_scores['b_annotator'] == 'Kate')]['cohen_kappa'].mean())
 print("Sheridan and Kate: ", kappa_scores[(kappa_scores['a_annotator'] == 'Sheridan') & (kappa_scores['b_annotator'] == 'Kate')]['cohen_kappa'].mean())
 
-'''
+
 # Agreement for Coherence relations
 
 # helper that switches around the line numbers. only does this if the relation is symmetrical 
 def flip(relation):
     assert(len(relation) == 5)
     if relation[4] in ['same', 'samex', 'deg', 'sim', 'simx', 'contr', 'contrx', 'rep']:
+        relation_copy = relation[:]
         second_two = relation[2:4]
-        del relation[2:4]
-        return second_two + relation
+        del relation_copy[2:4]
+        return second_two + relation_copy
     else:
         return relation
 
 # TODO: helper that takes in a relation and returns list of all the segments in that relation
 # i.e. ['0', '4', '5', '5', 'elab'] would become [['0', '1', '2', '3', '4'], ['5'], 'elab']
 def unroll(relation):
-    return relation
+    assert(len(relation) == 5)
+    if '?' == relation[0] and '?' == relation[1]:
+        beginning_segments = ['?']
+        end_segments = list(range(int(relation[2]), int(relation[3])+1))
+    elif '?' == relation[2] and '?' == relation[3]:
+        beginning_segments = list(range(int(relation[0]), int(relation[1])+1))
+        end_segments = ['?']
+    else: # else, the first four should be numbers
+        assert('?' not in relation)
+        beginning_segments = list(range(int(relation[0]), int(relation[1])+1))
+        end_segments = list(range(int(relation[2]), int(relation[3])+1))
+    
+    return [beginning_segments, end_segments, relation[4]]
+    
+
 
 # TODO: function that takes in two coherence relation containers, returns ______
 def coherence_agreement(larger, smaller):
     matching = 0
     for relation in larger:
+        print(relation)
         if relation in smaller or flip(relation) in smaller:
             larger.remove(relation)
             matching += 1
         else:
             unrolled = unroll(relation)
+            print(unrolled)
             # TODO: comparing slightly different boundaries but same annotation
 
 
@@ -108,4 +125,3 @@ for doc_id in h_docs + g_docs:
             coherence_agreement(a_container, b_container)
         else:
             coherence_agreement(b_container, a_container)
-'''
