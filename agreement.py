@@ -1,3 +1,5 @@
+import numpy as np
+import pandas as pd
 from sklearn.metrics import cohen_kappa_score
 from extract_annotations import fill_in_human_grover, fill_in_containers
 
@@ -27,7 +29,7 @@ Coh_accounted_for, doc_counter)
 
 
 # Agreement for SE types
-kappa_scores = []
+kappa_list = []
 for doc_id in h_docs + g_docs:
     tuples = [t for t in SE_accounted_for if t[0]==doc_id]
     if len(tuples) > 1: 
@@ -42,13 +44,18 @@ for doc_id in h_docs + g_docs:
             a_container = G_SE_container[a_annotator][doc_id] 
             b_container = G_SE_container[b_annotator][doc_id]
 
-        if len(a_container) != len(b_container):
-            print(doc_id, len(a_container), len(b_container), a_annotator, b_annotator)
+        # if len(a_container) != len(b_container):
+        #     print(doc_id, len(a_container), len(b_container), a_annotator, b_annotator)
 
-        # assert(len(a_container) == len(b_container))
-        # kappa_scores += (doc_id, cohen_kappa_score(a_container, b_container), a_annotator, b_annotator)
+        assert(len(a_container) == len(b_container))
+        score = cohen_kappa_score(a_container, b_container)
+
+        kappa_list += [[doc_id, score, a_annotator, b_annotator]]
 
 
+kappa_scores = pd.DataFrame(kappa_list, columns=['doc_id', 'cohen_kappa', 'a_annotator', 'b_annotator'])
+print(kappa_scores.sort_values('cohen_kappa'))
+print("mean kappa score: ", kappa_scores['cohen_kappa'].mean())
 
 
 '''
