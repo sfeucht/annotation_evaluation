@@ -55,8 +55,10 @@ for doc_id in h_docs + g_docs:
 
 kappa_scores = pd.DataFrame(kappa_list, columns=['doc_id', 'cohen_kappa', 'a_annotator', 'b_annotator'])
 print(kappa_scores.sort_values('cohen_kappa'))
-print("mean kappa score: ", kappa_scores['cohen_kappa'].mean())
-
+print("overall mean kappa score: ", kappa_scores['cohen_kappa'].mean())
+print("Sheridan and Muskaan: ", kappa_scores[(kappa_scores['a_annotator'] == 'Sheridan') & (kappa_scores['b_annotator'] == 'Muskaan')]['cohen_kappa'].mean())
+print("Muskaan and Kate: ", kappa_scores[(kappa_scores['a_annotator'] == 'Muskaan') & (kappa_scores['b_annotator'] == 'Kate')]['cohen_kappa'].mean())
+print("Sheridan and Kate: ", kappa_scores[(kappa_scores['a_annotator'] == 'Sheridan') & (kappa_scores['b_annotator'] == 'Kate')]['cohen_kappa'].mean())
 
 '''
 # Agreement for Coherence relations
