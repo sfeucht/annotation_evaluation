@@ -78,10 +78,10 @@ def flip(relation):
 # i.e. ['0', '4', '5', '5', 'elab'] would become [['0', '1', '2', '3', '4'], ['5'], 'elab']
 def unroll(relation):
     assert(len(relation) == 5)
-    if '?' == relation[0] and '?' == relation[1]:
+    if '?' == relation[0] or '?' == relation[1]:
         beginning_segments = ['?']
         end_segments = list(range(int(relation[2]), int(relation[3])+1))
-    elif '?' == relation[2] and '?' == relation[3]:
+    elif '?' == relation[2] or '?' == relation[3]:
         beginning_segments = list(range(int(relation[0]), int(relation[1])+1))
         end_segments = ['?']
     else: # else, the first four should be numbers
@@ -96,15 +96,29 @@ def unroll(relation):
 # TODO: function that takes in two coherence relation containers, returns ______
 def coherence_agreement(larger, smaller):
     matching = 0
-    for relation in larger:
-        print(relation)
-        if relation in smaller or flip(relation) in smaller:
-            larger.remove(relation)
+    for this_relation in larger:
+        if this_relation in smaller or flip(this_relation) in smaller:
+            larger.remove(this_relation)
             matching += 1
         else:
-            unrolled = unroll(relation)
-            print(unrolled)
-            # TODO: comparing slightly different boundaries but same annotation
+            # compare to see if unrolled versions are essentially the same
+            # slightly different boundaries but the same annotation
+            this_unrolled = unroll(this_relation)
+            beg_overlaps, end_ovelaps = False
+
+            for that_relation in smaller:
+                that_unrolled = unroll(that_relation)
+                for n in this_unrolled[0]:
+                    if n in that_unrolled[0]: 
+                        beg_overlaps = True
+                        #if there's an overlap in beginning, check end. 
+                        for m in this_unrolled[1]:
+                            if m in that_unrolled[1]:
+                                end_overlaps = True
+                                break
+
+
+
 
 
 for doc_id in h_docs + g_docs:
