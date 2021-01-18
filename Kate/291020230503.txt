@@ -1,4 +1,4 @@
-Legendary boxing great Mike Tyson has broken ground on an $87 million marijuana ranch ##PERFECT COERCED STATE 
+Legendary boxing great Mike Tyson has broken ground on an $87 million marijuana ranch ##PERFECT COERCED STATE (SPECIFIC)
  he is building in California . ##UNBOUNDED EVENT (SPECIFIC) 
 Marc Wyshak , ##OTHER 
 an Arizona-based real estate broker ,  ##OTHER
@@ -12,7 +12,7 @@ The 28,500-square-foot property at the corner of California and Glendale bouleva
 The ranch , ##OTHER 
  which will include 16 miles of roads and 700 acres of amenities ,  ##BASIC STATE 
  is one of the first sites  ##BASIC STATE 
- Tyson has planned for cannabis ,  ##PERFECT COERCED STATE
+ Tyson has planned for cannabis ,  ##PERFECT COERCED STATE (SPECIFIC)
 an area under cultivation in a little-known state . ##OTHER
 Tyson was the seventh richest person in California ,  ##BASIC STATE
  according to Forbes ,  ##BASIC STATE 
