@@ -49,12 +49,16 @@ for doc_id in h_docs + g_docs:
         assert(len(a_container) == len(b_container))
         score = cohen_kappa_score(a_container, b_container)
 
-        kappa_list += [[doc_id, score, a_annotator, b_annotator]]
+        kappa_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator]]
 
 
-kappa_scores = pd.DataFrame(kappa_list, columns=['doc_id', 'cohen_kappa', 'a_annotator', 'b_annotator'])
+kappa_scores = pd.DataFrame(kappa_list, columns=['doc_id', 'type', 'cohen_kappa', 'a_annotator', 'b_annotator'])
 print(kappa_scores.sort_values('cohen_kappa'))
 print("overall mean kappa score: ", kappa_scores['cohen_kappa'].mean())
+print("human mean kappa score: ", kappa_scores[(kappa_scores['type'] == 'human')]['cohen_kappa'].mean())
+print("grover mean kappa score: ", kappa_scores[(kappa_scores['type'] == 'grover')]['cohen_kappa'].mean())
+
 print("Sheridan and Muskaan: ", kappa_scores[(kappa_scores['a_annotator'] == 'Sheridan') & (kappa_scores['b_annotator'] == 'Muskaan')]['cohen_kappa'].mean())
 print("Muskaan and Kate: ", kappa_scores[(kappa_scores['a_annotator'] == 'Muskaan') & (kappa_scores['b_annotator'] == 'Kate')]['cohen_kappa'].mean())
 print("Sheridan and Kate: ", kappa_scores[(kappa_scores['a_annotator'] == 'Sheridan') & (kappa_scores['b_annotator'] == 'Kate')]['cohen_kappa'].mean())
+
