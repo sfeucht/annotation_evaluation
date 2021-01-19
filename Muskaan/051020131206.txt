@@ -5,18 +5,20 @@ There was the election of Trump , ##BOUNDED EVENT (SPECIFIC)
  there was the rise of Trumpism , ##UNBOUNDED EVENT (SPECIFIC)
  there was the marginalization of conservatives in the senate , ##BOUNDED EVENT (SPECIFIC)
  and there was a conservative minority in Congress . ##BOUNDED EVENT (SPECIFIC)
-The victorious Trump was the elected embodiment of this strange dichotomy , here in America , ##BASIC STATE
+The victorious Trump was the elected embodiment of this strange dichotomy , ##BASIC STATE
+here in America , ##OTHER
  we have some large , small , liberal states ##GENERIC SENTENCE (STATIC)
  using anti-bureaucratic muscle and their unrealistic , empty dreams of national power and greater government . ##GENERALIZING SENTENCE (DYNAMIC)
-On paper we have all the answers , but then not in what is a complex and complicated system of governance , the bureaucracy , the political structures , democracy , and the partisanship ##BASIC STATE
+On paper we have all the answers , ##BASIC STATE
+but then not in what is a complex and complicated system of governance , the bureaucracy , the political structures , democracy , and the partisanship ##OTHER
  that governs politics , legislatures , and oversight . ##GENERALIZING SENTENCE (DYNAMIC)
 Politicians , they should have been established many years ago with different virtues , different values , different ideologies , ##COERCED STATE (GENERIC)
  varying set of parameters and assumptions and language ##OTHER
  and they started out with one goal : ##BOUNDED EVENT (GENERIC)
  to screw , demagogue , ruin , ##COERCED STATE (GENERIC)
  and overthrow the working class . ##COERCED STATE (SPECIFIC)
-The one goal of the non-trivialized Communist Party , the baddy ##OTHER
- who conspired with communists ##UNBOUNDED EVENT (SPECIFIC)
+The one goal of the non-trivialized Communist Party , ##OTHER
+the baddy who conspired with communists ##UNBOUNDED EVENT (SPECIFIC)
  to orchestrate the downfall of the United States and then the Communist League , ##COERCED STATE (SPECIFIC)
  is the overthrow of the corrupt and corrupt elites , governments , power centers , civil liberties and basic security . ##BASIC STATE
 So the first political experiment in modern American society is the systematic overthrow of the system of local government and the marginalization of powerful control over the product and liberties on all levels , ##BASIC STATE
@@ -37,11 +39,12 @@ These want to give in to the public demands of people desperate to see ##GENERIC
  if they can get a shot at a new life , ##COERCED STATE (GENERIC)
  because they cant afford the basic basic necessities ##GENERIC SENTENCE (HABITUAL)
  that it was not for them . ##NONSENSE
-On the surface , yes but ##OTHER
- if you cut back the government power ##COERCED STATE (SPECIFIC)
+On the surface , ##OTHER
+yes but if you cut back the government power ##COERCED STATE (SPECIFIC)
  you will end up diminishing the aggregate power of one unelected small group of people ##COERCED STATE (SPECIFIC)
  who purport to be democrats . ##GENERALIZING SENTENCE (DYNAMIC)
-The reach of this system , this world of government , is deeply fragmented and often ludicrous , a little like a small non-civilized family ##BASIC STATE
+The reach of this system , this world of government , is deeply fragmented and often ludicrous , ##BASIC STATE
+a little like a small non-civilized family ##OTHER
  looking at the dynamic of various political factions , ##GENERALIZING SENTENCE (DYNAMIC)
  drawing the outline of a less organized family . ##GENERALIZING SENTENCE (DYNAMIC)
 We need thoughtful monitoring ##GENERIC SENTENCE (STATIC)
@@ -58,8 +61,8 @@ There are state and state-specific elections and a constitution ##GENERIC SENTEN
  that reflects their individual communities and international alliances . ##GENERIC SENTENCE (STATIC)
 You will find too many such councils to really have a role in making a well-rounded state , ##COERCED STATE (SPECIFIC)
  but there are two possibilities ##BASIC STATE
- that may emerge , one ##COERCED STATE (SPECIFIC)
- being pragmatic states like Utah and Vermont ##BASIC STATE
+ that may emerge , ##COERCED STATE (SPECIFIC)
+one being pragmatic states like Utah and Vermont ##BASIC STATE
  that start out producing the goods ##GENERALIZING SENTENCE (DYNAMIC)
  that everyone needs , ##BASIC STATE
  that also have direct influence over the results of local races . ##GENERALIZING SENTENCE (DYNAMIC)
@@ -74,3 +77,4 @@ I could go on and on but my preference is to conserve as much power as possible 
  that the state never has too much influence on everything but the economic interests of the state , ##GENERIC SENTENCE (STATIC)
  to not default to the status quo , ##GENERIC SENTENCE (DYNAMIC)
  or to independence . ##OTHER
+***0 5 5 1 4 3 4 3 YES UC YES 2 2 4 5 HUMAN

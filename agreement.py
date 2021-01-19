@@ -44,14 +44,14 @@ for doc_id in h_docs + g_docs:
             a_container = G_SE_container[a_annotator][doc_id] 
             b_container = G_SE_container[b_annotator][doc_id]
 
-        # if len(a_container) != len(b_container):
-        #     print(doc_id, len(a_container), len(b_container), a_annotator, b_annotator)
-
+        if len(a_container) != len(b_container):
+            print(doc_id, len(a_container), len(b_container), a_annotator, b_annotator)
+'''
         assert(len(a_container) == len(b_container))
         score = cohen_kappa_score(a_container, b_container)
 
         kappa_list += [[doc_id, score, a_annotator, b_annotator]]
-
+'''
 
 kappa_scores = pd.DataFrame(kappa_list, columns=['doc_id', 'cohen_kappa', 'a_annotator', 'b_annotator'])
 print(kappa_scores.sort_values('cohen_kappa'))

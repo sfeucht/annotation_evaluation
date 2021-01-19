@@ -7,8 +7,7 @@ And really thats the problem . ##BASIC STATE
 A 2013 study ##OTHER
  prepared for the U.K. agency ##BASIC STATE
  that commissioned the paper Legacy of Lifelong Freedom ##UNBOUNDED EVENT (SPECIFIC)
- says ##BASIC STATE
- that the code of discernment and justification behind the violation of marriage laws ##OTHER
+ says that the code of discernment and justification behind the violation of marriage laws ##BASIC STATE
  is so simple ##BASIC STATE
  that its reasonable to choose the position ##GENERIC SENTENCE (STATIC)
  between the arguments ##OTHER
@@ -16,7 +15,8 @@ A 2013 study ##OTHER
 Keep in mind the decades of anti-homosexual legislation ##IMPERATIVE
  the country has been pursuing ##PERFECT COERCED STATE (SPECIFIC)
  and the entire world has been shocked by how quickly the government took on this topic ##PERFECT COERCED STATE (SPECIFIC)
- and began to put a strain on relationships , especially in the U.K. in particular . ##UNBOUNDED EVENT (GENERIC)
+ and began to put a strain on relationships , ##UNBOUNDED EVENT (GENERIC)
+especially in the U.K. in particular . ##OTHER
 There is now a sizeable restriction for the taking of gay men in some areas , a ban on a certain amount of consensual gay sex in family affairs , a commission in Europe and a bill ##GENERIC SENTENCE (STATIC)
  in the European Parliament of moving same-sex marriage by legislation . ##OTHER
 The UK has gained a reputation ##PERFECT COERCED STATE (SPECIFIC)
@@ -36,23 +36,28 @@ Read our previous columns about this work : ##IMPERATIVE
 This policy is designed ##BASIC STATE
  to circumvent the customary protocol of using the states laws as a guide ##GENERALIZING SENTENCE (DYNAMIC)
  and to straighten out the enforcement plans . ##GENERALIZING SENTENCE (DYNAMIC)
-The smaller the discretion of the state , the faster the violation will come out . ##COERCED STATE (GENERIC)
+The smaller the discretion of the state , ##OTHER
+the faster the violation will come out . ##COERCED STATE (GENERIC)
 It is a lawful state law . ##BASIC STATE
 And it is often seen as a barrier to enforcement . ##GENERALIZING SENTENCE (STATIVE)
 The mantra of these state statutes is stay on . ##GENERIC SENTENCE (STATIC)
 This is common sense and all too common sense . ##BASIC STATE
-At least 10 times in the U.K. for example , one minister had a ban on kissing against parliament ##BOUNDED EVENT (SPECIFIC)
+At least 10 times in the U.K. for example , ##OTHER
+one minister had a ban on kissing against parliament ##BOUNDED EVENT (SPECIFIC)
  in order to help support financial support for gay couples . ##BOUNDED EVENT (GENERIC)
-The most likely security balance : would there be armed guards for the invasion of the frontier or would it be in England or Wales ##COERCED STATE (GENERIC)*
+The most likely security balance : ##OTHER
+would there be armed guards for the invasion of the frontier or would it be in England or Wales ##COERCED STATE (GENERIC)*
  where Christians are a minority ? ##GENERIC SENTENCE (STATIC)
 If there were those armed guards ##COERCED STATE (SPECIFIC)
  there could be no indigenous killing or rapes . ##COERCED STATE (GENERIC)
-And , in cases of them ##OTHER
+And , ##OTHER
+in cases of them ##OTHER
  being used by cults , ##GENERIC SENTENCE (DYNAMIC) 
  that is not good enough . ##BASIC STATE
 Alarming breakdown : ##OTHER
  if you do get attacked in your neighbourhood ##COERCED STATE (SPECIFIC)
- and you are asked to be a natural test for someone on the same terms as me by the law , its likely ##COERCED STATE (SPECIFIC)
+ and you are asked to be a natural test for someone on the same terms as me by the law , ##COERCED STATE (SPECIFIC)
+its likely ##OTHER
  that you will have been attacked and its likely ##COERCED STATE (SPECIFIC)
  that you will be insulted ##COERCED STATE (SPECIFIC)
  and then isolated . ##COERCED STATE (SPECIFIC)
@@ -62,9 +67,9 @@ Your intuition is critical : ##BASIC STATE
  If the person says something , ##COERCED STATE (GENERIC)
  he needs to be reminded ##COERCED STATE (GENERIC)
  that the person is already engaged in criminal activity ##GENERIC SENTENCE (STATIC)
- like a prison , not a doctor . ##NONSENSE
-This is a reason ##BASIC STATE
- to keep reminding yourself . ##GENERALIZING SENTENCE (STATIC)
+ like a prison , ##OTHER
+not a doctor . ##NONSENSE
+This is a reason to keep reminding yourself . ##BASIC STATE
 Noise : ##OTHER
  If you are listening , ##COERCED STATE (SPECIFIC)
  its important to keep asking yourself ##GENERALIZING SENTENCE (DYNAMIC)
@@ -72,7 +77,7 @@ Noise : ##OTHER
 And , more importantly , get a clear indication ##IMPERATIVE
  that this information ##OTHER
  you say may not be accurate . ##COERCED STATE (SPECIFIC)
-But ##OTHER
- if someone wants to listen to you , ##COERCED STATE (GENERIC)
+But if someone wants to listen to you , ##COERCED STATE (GENERIC)
  its better to act on it in a manner ##COERCED STATE (SPECIFIC)
  that is informed and convincing . ##BASIC STATE
+***0 4 3 0 0 0 0 0 YES SSM NO UNCLEAR 2 2 1 ALGORITHM

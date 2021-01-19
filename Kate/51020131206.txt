@@ -58,17 +58,17 @@ We need a federation of states ##GENERIC SENTENCE (STATIC)
 There are state governments ##GENERIC SENTENCE (STATIC)
  that are both conglomerates and supra-royal and quite the cool polytechnic kind of group . ##GENERIC SENTENCE (STATIC)
 There are state and state-specific elections and a constitution  ##GENERIC SENTENCE (STATIC)
- that reflects their individual communities and international alliances . #COERCED STATE (GENERIC)
+ that reflects their individual communities and international alliances . ##COERCED STATE (GENERIC)
 You will find too many such councils to really have a role in making a well-rounded state , ##UNBOUNDED EVENT (GENERIC)
  but there are two possibilities ##GENERIC SENTENCE (STATIC)
  that may emerge , ##OTHER
 one being pragmatic states like Utah and Vermont ##COERCED STATE (GENERIC)
- that start out producing the goods  that everyone needs , ##GENERIC SENTENCE (STATIC)
+ that start out producing the goods ##OTHER
+ that everyone needs , ##GENERIC SENTENCE (STATIC)
  that also have direct influence over the results of local races . ##PERFECT COERCED STATE (GENERIC)
 Each one , however , should be mindful of the differences among its population groups , ##GENERIC SENTENCE (STATIC) 
  and that also allows state-level branches of politics . ##GENERIC SENTENCE (STATIC) 
-I could go on and on ##BASIC STATE 
-but my preference is to conserve as much power as possible , ##BASIC STATE 
+I could go on and on but my preference is to conserve as much power as possible , ##BASIC STATE 
  limit the right of anyone on any level of government ##UNBOUNDED EVENT (GENERIC) 
  to control every aspect of our society ##UNBOUNDED EVENT (GENERIC) 
  to subsidize the legislators of our elected representatives , ##UNBOUNDED EVENT (GENERIC) 
