@@ -1,10 +1,9 @@
-This comes from an academic paper ##BASIC STATE
-on how states can cover up to how many deaths they prevent from being caused by violations of state and federal laws ##GENERIC SENTENCE (DYNAMIC)
+This comes from an academic paper on how states can cover up to how many deaths they prevent from being caused by violations of state and federal laws ##GENERIC SENTENCE (STATIC)
  A prestigious research paper claims ##BASIC STATE
- there 's a simple rule of thumb ##GENERIC SENTENCE (STATIC)
- when it comes to definition of human existence for a given life : ##GENERIC SENTENCE (STATIC)
+ there 's a simple rule of thumb ##BASIC STATE
+ when it comes to definition of human existence for a given life : ##GENERIC SENTENCE (HABITUAL)
  that the human being is within the bounds of marriage . ##GENERIC SENTENCE (STATIC)
-And really thats the problem . ##GENERIC SENTENCE (STATIC)
+And really thats the problem . ##BASIC STATE
 A 2013 study ##OTHER
  prepared for the U.K. agency ##BASIC STATE
  that commissioned the paper Legacy of Lifelong Freedom ##UNBOUNDED EVENT (SPECIFIC)
@@ -15,67 +14,65 @@ A 2013 study ##OTHER
  between the arguments ##OTHER
  made by many people and the positions of advocates on the other side . ##GENERIC SENTENCE (HABITUAL)
 Keep in mind the decades of anti-homosexual legislation ##IMPERATIVE
- the country has been pursuing ##GENERALIZING SENTENCE (DYNAMIC)
- and the entire world has been shocked by how quickly the government took on this topic ##GENERIC SENTENCE (HABITUAL)
- and began to put a strain on relationships , especially in the U.K. in particular . ##GENERIC SENTENCE (DYNAMIC)
-There is now a sizeable restriction for the taking of gay men in some areas , a ban on a certain amount of consensual gay sex in family affairs , a commission in Europe and a bill ##BASIC STATE
- in the European Parliament of moving same-sex marriage by legislation . ##OTHER //2
-The UK has gained a reputation ##COERCED STATE (SPECIFIC)
+ the country has been pursuing ##PERFECT COERCED STATE (SPECIFIC)
+ and the entire world has been shocked by how quickly the government took on this topic ##PERFECT COERCED STATE (SPECIFIC)
+ and began to put a strain on relationships , especially in the U.K. in particular . ##UNBOUNDED EVENT (GENERIC)
+There is now a sizeable restriction for the taking of gay men in some areas , a ban on a certain amount of consensual gay sex in family affairs , a commission in Europe and a bill ##GENERIC SENTENCE (STATIC)
+ in the European Parliament of moving same-sex marriage by legislation . ##OTHER
+The UK has gained a reputation ##PERFECT COERCED STATE (SPECIFIC)
  for being more open about their treatment of gay and lesbian people . ##GENERALIZING SENTENCE (STATIVE)
 This helps in respect to the fact ##GENERALIZING SENTENCE (DYNAMIC)
- that more people in the UK are on discrimination cover , ##GENERIC SENTENCE (HABITUAL)*
+ that more people in the UK are on discrimination cover , ##GENERIC SENTENCE (STATIC)*
  not homosexuals themselves . ##OTHER
 In order to cover up such misconduct ##GENERIC SENTENCE (DYNAMIC)
  by authorities ##OTHER
  the legal justification will have to be delivered as yet another reason ##COERCED STATE (GENERIC)
  that they will be doing so . ##COERCED STATE (GENERIC)
 Read our previous columns about this work : ##IMPERATIVE
- How to follow the definition : ##GENERIC SENTENCE (DYNAMIC)
- How to circumvent the delayed point , ##GENERIC SENTENCE (DYNAMIC)
- like in the U.S. , ##OTHER
- whereby it is necessary to get through an administrative agency for doing the crossing . ##GENERIC SENTENCE (DYNAMIC) //3
+ How to follow the definition : ##OTHER
+ How to circumvent the delayed point , ##OTHER
+ like in the U.S. , ##GENERIC SENTENCE (STATIC)
+ whereby it is necessary to get through an administrative agency for doing the crossing . ##GENERIC SENTENCE (HABITUAL)
 This policy is designed ##BASIC STATE
- to circumvent the customary protocol of using the states laws as a guide ##OTHER
+ to circumvent the customary protocol of using the states laws as a guide ##GENERALIZING SENTENCE (DYNAMIC)
  and to straighten out the enforcement plans . ##GENERALIZING SENTENCE (DYNAMIC)
-The smaller the discretion of the state , ##OTHER
-the faster the violation will come out . ##COERCED STATE (GENERIC)
+The smaller the discretion of the state , the faster the violation will come out . ##COERCED STATE (GENERIC)
 It is a lawful state law . ##BASIC STATE
 And it is often seen as a barrier to enforcement . ##GENERALIZING SENTENCE (STATIVE)
-The mantra of these state statutes is stay on . ##GENERIC SENTENCE (STATIC) //3
-This is common sense and all too common sense . ##GENERIC SENTENCE (STATIC)
-At least 10 times in the U.K. for example , one minister had a ban on kissing against parliament ##BOUNDED EVENT (SPECIFIC)*
- in order to help support financial support for gay couples . ##GENERALIZING SENTENCE (DYNAMIC)
-The most likely security balance : would there be armed guards for the invasion of the frontier ##COERCED STATE (GENERIC) //3
-or would it be in England or Wales ##COERCED STATE (SPECIFIC)
- where Christians are a minority ? ##BASIC STATE
-If there were those armed guards ##COERCED STATE (GENERIC) 
+The mantra of these state statutes is stay on . ##GENERIC SENTENCE (STATIC)
+This is common sense and all too common sense . ##BASIC STATE
+At least 10 times in the U.K. for example , one minister had a ban on kissing against parliament ##BOUNDED EVENT (SPECIFIC)
+ in order to help support financial support for gay couples . ##BOUNDED EVENT (GENERIC)
+The most likely security balance : would there be armed guards for the invasion of the frontier or would it be in England or Wales ##COERCED STATE (GENERIC)*
+ where Christians are a minority ? ##GENERIC SENTENCE (STATIC)
+If there were those armed guards ##COERCED STATE (SPECIFIC)
  there could be no indigenous killing or rapes . ##COERCED STATE (GENERIC)
 And , in cases of them ##OTHER
- being used by cults , ##GENERIC SENTENCE (DYNAMIC)
- that is not good enough . ##GENERIC SENTENCE (STATIC)
+ being used by cults , ##GENERIC SENTENCE (DYNAMIC) 
+ that is not good enough . ##BASIC STATE
 Alarming breakdown : ##OTHER
- if you do get attacked in your neighbourhood ##COERCED STATE (GENERIC)
- and you are asked to be a natural test for someone on the same terms as me by the law , its likely ##COERCED STATE (GENERIC)
- that you will have been attacked and its likely ##COERCED STATE (GENERIC)
- that you will be insulted ##COERCED STATE (GENERIC)
- and then isolated . ##COERCED STATE (GENERIC)
-It is as if you are the only one ##GENERIC SENTENCE (STATIC)
- who has to endure such a crisis . ##GENERIC SENTENCE (HABITUAL)
+ if you do get attacked in your neighbourhood ##COERCED STATE (SPECIFIC)
+ and you are asked to be a natural test for someone on the same terms as me by the law , its likely ##COERCED STATE (SPECIFIC)
+ that you will have been attacked and its likely ##COERCED STATE (SPECIFIC)
+ that you will be insulted ##COERCED STATE (SPECIFIC)
+ and then isolated . ##COERCED STATE (SPECIFIC)
+It is as if you are the only one ##BASIC STATE
+ who has to endure such a crisis . ##BASIC STATE
 Your intuition is critical : ##BASIC STATE
  If the person says something , ##COERCED STATE (GENERIC)
- he needs to be reminded ##GENERIC SENTENCE (STATIC)
+ he needs to be reminded ##COERCED STATE (GENERIC)
  that the person is already engaged in criminal activity ##GENERIC SENTENCE (STATIC)
- like a prison , not a doctor . ##OTHER
-This is a reason to keep reminding yourself . ##BASIC STATE
+ like a prison , not a doctor . ##NONSENSE
+This is a reason ##BASIC STATE
+ to keep reminding yourself . ##GENERALIZING SENTENCE (STATIC)
 Noise : ##OTHER
- If you are listening , ##COERCED STATE (SPECIFIC)*
- its important to keep asking yourself ##GENERIC SENTENCE (HABITUAL)
- how many people we listen to when we look into what is going on . ##GENERIC SENTENCE (DYNAMIC)
+ If you are listening , ##COERCED STATE (SPECIFIC)
+ its important to keep asking yourself ##GENERALIZING SENTENCE (DYNAMIC)
+ how many people we listen to when we look into what is going on . ##COERCED STATE (GENERIC)
 And , more importantly , get a clear indication ##IMPERATIVE
  that this information ##OTHER
- you say may not be accurate . ##BASIC STATE
+ you say may not be accurate . ##COERCED STATE (SPECIFIC)
 But ##OTHER
  if someone wants to listen to you , ##COERCED STATE (GENERIC)
- its better to act on it in a manner ##GENERIC SENTENCE (STATIC)
+ its better to act on it in a manner ##COERCED STATE (SPECIFIC)
  that is informed and convincing . ##BASIC STATE
-***0 4 3 0 0 0 0 0 YES SSM NO UNCLEAR 2 2 1 ALGORITHM

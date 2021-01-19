@@ -92,7 +92,7 @@ def unroll(relation):
     return [beginning_segments, end_segments, relation[4]]
     
 
-
+'''
 # TODO: function that takes in two coherence relation containers, returns ______
 def coherence_agreement(larger, smaller):
     matching = 0
@@ -157,8 +157,6 @@ def coherence_agreement(larger, smaller):
     return matching
 
         
-
-
 for doc_id in h_docs + g_docs:
     tuples = [t for t in Coh_accounted_for if t[0]==doc_id]
     if len(tuples) > 1: 
@@ -179,3 +177,4 @@ for doc_id in h_docs + g_docs:
         else:
             matching = coherence_agreement(b_container, a_container)
             print(doc_id, matching, len(a_container), len(b_container))
+'''
