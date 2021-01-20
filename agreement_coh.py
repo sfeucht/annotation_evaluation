@@ -62,68 +62,68 @@ def unroll(relation):
 
 # TODO: function that takes in two coherence relation containers, returns ______
 def coherence_agreement(larger, smaller):
-    matching = 0
+    print(len(larger), len(smaller))
+    #matching = 0
     for this_relation in larger:
-        # if matching is incremented at any point, turn to True, so we know to remove
-        accounted_for = False
 
-        # see if there's an exact match, if so remove it from smaller, but check other cases still
+        # see if there's an exact match, if so remove it from smaller
         if this_relation in smaller:
-            #smaller.remove(this_relation)
-            accounted_for = True
-            matching += 1
+            smaller.remove(this_relation)
+            larger.remove(this_relation)
+            #matching += 1
         
-        # see if there's an exact flipped match, if so remove from smaller, but check other cases still
-        if flip(this_relation) in smaller:
-            #smaller.remove(flip(this_relation))
-            accounted_for = True
-            matching += 1
+        # see if there's an exact flipped match, if so remove from smaller
+        elif flip(this_relation) in smaller:
+            smaller.remove(flip(this_relation))
+            larger.remove(this_relation)
+            #matching += 1
     
-        # then, compare to see if unrolled versions are essentially the same
-        # slightly different boundaries but the same annotation
-        this_unrolled = unroll(this_relation)
+        else: 
+            # then, compare to see if unrolled versions are essentially the same
+            # slightly different boundaries but the same annotation
+            this_unrolled = unroll(this_relation)
 
-        # go though all the relations in smaller and count any overlapping ones
-        for that_relation in smaller:
-            that_unrolled = unroll(that_relation)
-
-            # if they are the same relation
-            if this_relation[2] == that_unrolled[2]:
-                for n in this_unrolled[0]:
-                    if n in that_unrolled[0]: 
-                        #if there's an overlap in beginning, check end. 
-                        for m in this_unrolled[1]:
-                            if m in that_unrolled[1]:
-                                #smaller.remove(that_relation)
-                                accounted_for = True
-                                matching += 1
-
-        # if this is a symmetrical relation, do the same overlap checking for everything in smaller, but flipped
-        if this_relation != flip(this_relation):
-            this_flipped_unrolled = unroll(flip(this_relation))
+            # go though all the relations in smaller and count any overlapping ones
             for that_relation in smaller:
                 that_unrolled = unroll(that_relation)
-                
+
                 # if they are the same relation
-                if this_flipped_unrolled[2] == that_unrolled[2]:
-                    for n in this_flipped_unrolled[0]:
+                if this_relation[2] == that_unrolled[2]:
+                    for n in this_unrolled[0]:
                         if n in that_unrolled[0]: 
                             #if there's an overlap in beginning, check end. 
-                            for m in this_flipped_unrolled[1]:
+                            for m in this_unrolled[1]:
                                 if m in that_unrolled[1]:
-                                    #smaller.remove(that_relation)
-                                    accounted_for = True
-                                    matching += 1
+                                    smaller.remove(that_relation)
+                                    larger.remove(this_relation)
+                                    #matching += 1
 
-        # if matching was incremented at any point, then remove this_relation from larger
-        if accounted_for:
-            pass
-            #larger.remove(this_relation)
+            # if this is a symmetrical relation, do the same overlap checking for everything in smaller, but flipped
+            if this_relation != flip(this_relation):
+                this_flipped_unrolled = unroll(flip(this_relation))
+                for that_relation in smaller:
+                    that_unrolled = unroll(that_relation)
+                    
+                    # if they are the same relation
+                    if this_flipped_unrolled[2] == that_unrolled[2]:
+                        for n in this_flipped_unrolled[0]:
+                            if n in that_unrolled[0]: 
+                                #if there's an overlap in beginning, check end. 
+                                for m in this_flipped_unrolled[1]:
+                                    if m in that_unrolled[1]:
+                                        smaller.remove(that_relation)
+                                        larger.remove(this_relation)
+                                        #matching += 1
+
     
-    # TODO: after going through all the relations in larger, count leftovers in both. 
-    return matching
+    print(len(larger), len(smaller))
+    # TODO: looking at leftovers, create two same-length vectors that can be used to calculate kappa
 
 
+coherence_agreement(H_Coh_container['Kate'][291020230448], H_Coh_container['Sheridan'][291020230448])
+
+
+'''
 for doc_id in h_docs + g_docs:
     tuples = [t for t in Coh_accounted_for if t[0]==doc_id]
     if len(tuples) > 1: 
@@ -144,3 +144,4 @@ for doc_id in h_docs + g_docs:
         else:
             matching = coherence_agreement(b_container, a_container)
             print(doc_id, matching, len(a_container), len(b_container))
+'''
