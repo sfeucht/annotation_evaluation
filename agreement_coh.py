@@ -41,7 +41,7 @@ def flip(relation):
     else:
         return relation
 
-# TODO: helper that takes in a relation and returns list of all the segments in that relation
+# helper that takes in a relation and returns list of all the segments in that relation
 # i.e. ['0', '4', '5', '5', 'elab'] would become [['0', '1', '2', '3', '4'], ['5'], 'elab']
 def unroll(relation):
     assert(len(relation) == 5)
@@ -57,26 +57,45 @@ def unroll(relation):
         end_segments = list(range(int(relation[2]), int(relation[3])+1))
     
     return [beginning_segments, end_segments, relation[4]]
+
+# helper that takes two unrolled relations and returns 
+#   True if both beginning and end boundaries overlap
+#   False otherwise 
+def boundaries_overlap(this_unrolled, that_unrolled):
+    assert(len(this_unrolled) == len(that_unrolled) == 3)
+    # check if beginning overlaps 
+    beginning_overlaps = False
+    for n in this_unrolled[0]:
+        if n in that_unrolled[0]: 
+            beginning_overlaps = True
+
+    # check if end overlaps, only bother checking if beginning overlaps
+    end_overlaps = False
+    if beginning_overlaps:
+        for m in this_unrolled[1]:
+            if m in that_unrolled[1]:
+                end_overlaps = True
     
+    return (beginning_overlaps and end_overlaps)
 
 
-# TODO: function that takes in two coherence relation containers, returns ______
+# function that takes in two coherence relation containers, returns agreement kappa score
 def coherence_agreement(larger, smaller):
     print(len(larger), len(smaller))
-    #matching = 0
+    larger_original_len = len(larger)
+    smaller_original_len = len(smaller)
+
     for this_relation in larger:
 
-        # see if there's an exact match, if so remove it from smaller
+        # see if there's an exact match, if so remove it from both
         if this_relation in smaller:
             smaller.remove(this_relation)
             larger.remove(this_relation)
-            #matching += 1
-        
-        # see if there's an exact flipped match, if so remove from smaller
+
+        # see if there's an exact flipped match, if so remove from both
         elif flip(this_relation) in smaller:
             smaller.remove(flip(this_relation))
             larger.remove(this_relation)
-            #matching += 1
     
         else: 
             # then, compare to see if unrolled versions are essentially the same
@@ -87,43 +106,40 @@ def coherence_agreement(larger, smaller):
             for that_relation in smaller:
                 that_unrolled = unroll(that_relation)
 
-                # if they are the same relation
-                if this_relation[2] == that_unrolled[2]:
-                    for n in this_unrolled[0]:
-                        if n in that_unrolled[0]: 
-                            #if there's an overlap in beginning, check end. 
-                            for m in this_unrolled[1]:
-                                if m in that_unrolled[1]:
-                                    smaller.remove(that_relation)
-                                    larger.remove(this_relation)
-                                    #matching += 1
-
-            # if this is a symmetrical relation, do the same overlap checking for everything in smaller, but flipped
-            if this_relation != flip(this_relation):
-                this_flipped_unrolled = unroll(flip(this_relation))
-                for that_relation in smaller:
-                    that_unrolled = unroll(that_relation)
-                    
-                    # if they are the same relation
-                    if this_flipped_unrolled[2] == that_unrolled[2]:
-                        for n in this_flipped_unrolled[0]:
-                            if n in that_unrolled[0]: 
-                                #if there's an overlap in beginning, check end. 
-                                for m in this_flipped_unrolled[1]:
-                                    if m in that_unrolled[1]:
-                                        smaller.remove(that_relation)
-                                        larger.remove(this_relation)
-                                        #matching += 1
+                # if they are the same relation label, then compare boundaries
+                if this_unrolled[2] == that_unrolled[2]:
+                    # then remove first occurrence if the boundaries do overlap 
+                    if boundaries_overlap(this_unrolled, that_unrolled):
+                        smaller.remove(that_relation)
+                        larger.remove(this_relation)
+                    else: 
+                        # if this is a symmetrical relation, check again but with
+                        # a flipped version of this_relation comparing to that_relation.
+                        # flip() only changes this_relation if it's symmetrical.
+                        if this_relation != flip(this_relation): 
+                            if boundaries_overlap(unroll(flip(this_relation)), that_unrolled):
+                                smaller.remove(that_relation)
+                                larger.remove(this_relation)
 
     
     print(len(larger), len(smaller))
-    # TODO: looking at leftovers, create two same-length vectors that can be used to calculate kappa
+
+    # looking at leftovers, create two same-length vectors that can be used to calculate kappa
+    # first get how many relations were removed from both docs, which is the number that matched
+    assert(larger_original_len - len(larger) == smaller_original_len - len(smaller))
+    number_matching = larger_original_len - len(larger)
+
+    # get the two vector representations: the leftovers in larger and smaller,
+    # plus the number of relations that actually matched between the two
+    new_vector_length = number_matching + len(larger) + len(smaller)
+    larger_vector = [2]*number_matching + [1]*len(larger) + [0]*len(smaller)
+    smaller_vector = [2]*number_matching + [0]*len(larger) + [1]*len(smaller)
+
+    assert(len(larger_vector) == len(smaller_vector) == new_vector_length)
+    return cohen_kappa_score(larger_vector, smaller_vector)
 
 
-coherence_agreement(H_Coh_container['Kate'][291020230448], H_Coh_container['Sheridan'][291020230448])
 
-
-'''
 for doc_id in h_docs + g_docs:
     tuples = [t for t in Coh_accounted_for if t[0]==doc_id]
     if len(tuples) > 1: 
@@ -139,9 +155,8 @@ for doc_id in h_docs + g_docs:
             b_container = G_Coh_container[b_annotator][doc_id]
 
         if len(a_container) >= len(b_container):
-            matching = coherence_agreement(a_container, b_container)
-            print(doc_id, matching, len(a_container), len(b_container))
+            score = coherence_agreement(a_container, b_container)
+            print(doc_id, score, len(a_container), len(b_container))
         else:
-            matching = coherence_agreement(b_container, a_container)
-            print(doc_id, matching, len(a_container), len(b_container))
-'''
+            score = coherence_agreement(b_container, a_container)
+            print(doc_id, score, len(a_container), len(b_container))
