@@ -29,6 +29,7 @@ Coh_accounted_for, doc_counter)
 
 # Agreement for SE types
 kappa_list = []
+disagreement_dict = {}
 for doc_id in h_docs + g_docs:
     tuples = [t for t in SE_accounted_for if t[0]==doc_id]
     if len(tuples) > 1: 
@@ -46,10 +47,21 @@ for doc_id in h_docs + g_docs:
         # if len(a_container) != len(b_container):
         #     print(doc_id, len(a_container), len(b_container), a_annotator, b_annotator)
 
+        # get and save kappa score for these two docs
         assert(len(a_container) == len(b_container))
         score = cohen_kappa_score(a_container, b_container)
-
         kappa_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator]]
+
+        # store counts of different types of disagreements in dictionary
+        for a, b in zip(a_container, b_container):
+            if a != b:
+                if (a + ' ' + b) in disagreement_dict.keys():
+                    disagreement_dict[a + ' ' + b] += 1
+                elif (b + ' ' + a) in disagreement_dict.keys():
+                    disagreement_dict[b + ' ' + a] += 1
+                else:
+                    disagreement_dict[a + ' ' + b] = 1
+
 
 
 kappa_scores = pd.DataFrame(kappa_list, columns=['doc_id', 'type', 'cohen_kappa', 'a_annotator', 'b_annotator'])
@@ -62,3 +74,6 @@ print("Sheridan and Muskaan: ", kappa_scores[(kappa_scores['a_annotator'] == 'Sh
 print("Muskaan and Kate: ", kappa_scores[(kappa_scores['a_annotator'] == 'Muskaan') & (kappa_scores['b_annotator'] == 'Kate')]['cohen_kappa'].mean())
 print("Sheridan and Kate: ", kappa_scores[(kappa_scores['a_annotator'] == 'Sheridan') & (kappa_scores['b_annotator'] == 'Kate')]['cohen_kappa'].mean())
 
+disagreement_df = pd.DataFrame.from_dict({'combination' : disagreement_dict.keys(), 'count' : disagreement_dict.values()})
+pd.set_option('display.max_colwidth', None)
+print(disagreement_df.sort_values('count', ascending=False).head(30))
