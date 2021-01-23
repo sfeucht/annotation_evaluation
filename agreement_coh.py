@@ -42,7 +42,7 @@ def flip(relation):
         return relation
 
 # helper that takes in a relation and returns list of all the segments in that relation
-# i.e. ['0', '4', '5', '5', 'elab'] would become [['0', '1', '2', '3', '4'], ['5'], 'elab']
+# i.e. ['0', '4', '5', '5', 'elab'] would become [[0, 1, 2, 3, 4], [5], 'elab']
 def unroll(relation):
     assert(len(relation) == 5)
     if '?' == relation[0] or '?' == relation[1]:
@@ -53,6 +53,8 @@ def unroll(relation):
         end_segments = ['?']
     else: # else, the first four should be numbers
         assert('?' not in relation)
+        assert(int(relation[0]) <= int(relation[1]))
+        assert(int(relation[2]) <= int(relation[3]))
         beginning_segments = list(range(int(relation[0]), int(relation[1])+1))
         end_segments = list(range(int(relation[2]), int(relation[3])+1))
     
@@ -69,7 +71,7 @@ def boundaries_overlap(this_unrolled, that_unrolled):
         if n in that_unrolled[0]: 
             beginning_overlaps = True
 
-    # check if end overlaps, only bother checking if beginning overlaps
+    # check if end overlaps, only bother checking if beginning overlaps too 
     end_overlaps = False
     if beginning_overlaps:
         for m in this_unrolled[1]:
@@ -102,7 +104,7 @@ def coherence_agreement(larger, smaller):
             # slightly different boundaries but the same annotation
             this_unrolled = unroll(this_relation)
 
-            # go though all the relations in smaller and count any overlapping ones
+            # go though all the relations in smaller and find an overlapping one
             for that_relation in smaller:
                 that_unrolled = unroll(that_relation)
 
@@ -112,6 +114,7 @@ def coherence_agreement(larger, smaller):
                     if boundaries_overlap(this_unrolled, that_unrolled):
                         smaller.remove(that_relation)
                         larger.remove(this_relation)
+                        break
                     else: 
                         # if this is a symmetrical relation, check again but with
                         # a flipped version of this_relation comparing to that_relation.
@@ -120,6 +123,7 @@ def coherence_agreement(larger, smaller):
                             if boundaries_overlap(unroll(flip(this_relation)), that_unrolled):
                                 smaller.remove(that_relation)
                                 larger.remove(this_relation)
+                                break
 
     
     print(len(larger), len(smaller))
