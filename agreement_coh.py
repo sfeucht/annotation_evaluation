@@ -41,6 +41,18 @@ def flip(relation):
     else:
         return relation
 
+# helper that either removes or adds an x to a relation's name. 
+# e.g. ['56', '57', '59', '59', 'sim'] would become ['56', '57', '59', '59', 'simx']
+# e.g. ['5', '5', '9', '9', 'contrx'] would become ['5', '5', '9', '9', 'contr']
+# it will add an x to 'deg' or 'rep', even though that's not technically in the annotation schema,
+# because it doesn't hurt to have that extra thing to check for anyway. 
+def change_x(relation):
+    assert(len(relation) == 5)
+    if relation[4][-1] == 'x':
+        return relation[:4] + [relation[4].strip('x')]
+    else:
+        return relation[:4] + [relation[4] + 'x']
+
 # helper that takes in a relation and returns list of all the segments in that relation
 # i.e. ['0', '4', '5', '5', 'elab'] would become [[0, 1, 2, 3, 4], [5], 'elab']
 def unroll(relation):
@@ -89,15 +101,26 @@ def coherence_agreement(larger, smaller):
 
     for this_relation in larger:
 
-        # see if there's an exact match, if so remove it from both
+        # see if there's an exact match, if so remove it from both docs
         if this_relation in smaller:
             smaller.remove(this_relation)
+            larger.remove(this_relation)
+
+        # see if there's an exact match but with an extra/removed x as well
+        elif change_x(this_relation) in smaller:
+            smaller.remove(change_x(this_relation))
             larger.remove(this_relation)
 
         # see if there's an exact flipped match, if so remove from both
         elif flip(this_relation) in smaller:
             smaller.remove(flip(this_relation))
             larger.remove(this_relation)
+
+        # see if there's an exact flipped match but with an extra/removed x 
+        elif flip(change_x(this_relation)) in smaller:
+            smaller.remove(flip(change_x(this_relation)))
+            larger.remove(this_relation)
+
     
         else: 
             # then, compare to see if unrolled versions are essentially the same
@@ -109,7 +132,7 @@ def coherence_agreement(larger, smaller):
                 that_unrolled = unroll(that_relation)
 
                 # if they are the same relation label, then compare boundaries
-                if this_unrolled[2] == that_unrolled[2]:
+                if this_unrolled[2] == that_unrolled[2]: #TODO add toggling for same samex
                     # then remove first occurrence if the boundaries do overlap 
                     if boundaries_overlap(this_unrolled, that_unrolled):
                         smaller.remove(that_relation)
