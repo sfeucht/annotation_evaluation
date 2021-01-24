@@ -126,13 +126,14 @@ def coherence_agreement(larger, smaller):
             # then, compare to see if unrolled versions are essentially the same
             # slightly different boundaries but the same annotation
             this_unrolled = unroll(this_relation)
+            this_x_unrolled = unroll(change_x(this_relation))
 
             # go though all the relations in smaller and find an overlapping one
             for that_relation in smaller:
                 that_unrolled = unroll(that_relation)
 
                 # if they are the same relation label, then compare boundaries
-                if this_unrolled[2] == that_unrolled[2]: #TODO add toggling for same samex
+                if this_unrolled[2] == that_unrolled[2] or this_x_unrolled[2] == that_unrolled[2]:
                     # then remove first occurrence if the boundaries do overlap 
                     if boundaries_overlap(this_unrolled, that_unrolled):
                         smaller.remove(that_relation)
@@ -151,7 +152,7 @@ def coherence_agreement(larger, smaller):
     
     print(len(larger), len(smaller))
 
-    # looking at leftovers, create two same-length vectors that can be used to calculate kappa
+    # looking at leftovers, create two same-length vectors that can be used to calculate kappa.
     # first get how many relations were removed from both docs, which is the number that matched
     assert(larger_original_len - len(larger) == smaller_original_len - len(smaller))
     number_matching = larger_original_len - len(larger)
@@ -166,7 +167,7 @@ def coherence_agreement(larger, smaller):
     return cohen_kappa_score(larger_vector, smaller_vector)
 
 
-
+kappa_list = []
 for doc_id in h_docs + g_docs:
     tuples = [t for t in Coh_accounted_for if t[0]==doc_id]
     if len(tuples) > 1: 
@@ -183,7 +184,18 @@ for doc_id in h_docs + g_docs:
 
         if len(a_container) >= len(b_container):
             score = coherence_agreement(a_container, b_container)
-            print(doc_id, score, len(a_container), len(b_container))
         else:
             score = coherence_agreement(b_container, a_container)
-            print(doc_id, score, len(a_container), len(b_container))
+        
+        kappa_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator, len(a_container), len(b_container)]]
+
+
+kappa_scores = pd.DataFrame(kappa_list, columns=['doc_id', 'type', 'cohen_kappa', 'a_annotator', 'b_annotator', 'a_no_annotations', 'b_no_annotations'])
+print(kappa_scores.sort_values('cohen_kappa'))
+print("overall mean kappa score: ", kappa_scores['cohen_kappa'].mean())
+print("human mean kappa score: ", kappa_scores[(kappa_scores['type'] == 'human')]['cohen_kappa'].mean())
+print("grover mean kappa score: ", kappa_scores[(kappa_scores['type'] == 'grover')]['cohen_kappa'].mean())
+
+print("Sheridan and Muskaan: ", kappa_scores[(kappa_scores['a_annotator'] == 'Sheridan') & (kappa_scores['b_annotator'] == 'Muskaan')]['cohen_kappa'].mean())
+print("Muskaan and Kate: ", kappa_scores[(kappa_scores['a_annotator'] == 'Muskaan') & (kappa_scores['b_annotator'] == 'Kate')]['cohen_kappa'].mean())
+print("Sheridan and Kate: ", kappa_scores[(kappa_scores['a_annotator'] == 'Sheridan') & (kappa_scores['b_annotator'] == 'Kate')]['cohen_kappa'].mean())
