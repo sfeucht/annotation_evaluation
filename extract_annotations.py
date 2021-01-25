@@ -124,3 +124,72 @@ Coh_accounted_for, doc_counter):
                     Coh_accounted_for.append((doc_id, annotator, doc_id in h_docs))
 
     return doc_counter
+
+
+
+# function that fills in more robust SE containers, keeping the lines with the annotations
+def fill_in_SE_robust(h_docs, g_docs, G_SE_container, H_SE_container, SE_accounted_for, doc_counter):
+    for annotator in annotators:
+
+        folder = os.listdir("{}/".format(annotator))
+
+        SE_files = [file for file in folder if 'annotation' not in file]
+
+        # gather all the SE types in each file
+        for file in SE_files:
+
+            # get the document ID
+            doc_id = int(file.replace('.txt',''))
+
+            # record the SE types annotated for that document in appropriate container
+            with open(path+("{}/".format(annotator))+file,'r', encoding="utf-8") as annotated_doc:
+
+                # initialize container for the SE types
+                SE_temp_container = []
+                for line in annotated_doc:
+
+                    if line.strip() != "":
+                        if "***" not in line:
+                            try:
+                                text = line.strip().split('##')[0]
+                                s = line.strip().split('##')[1].split('//')[0]
+                                SE_temp_container += [(s.strip('\* '), text)]
+                            except:
+                                pass
+
+                # record SE ratings
+                if doc_id in h_docs:
+                    H_SE_container[annotator][doc_id] = SE_temp_container
+                elif doc_id in g_docs:
+                    G_SE_container[annotator][doc_id] = SE_temp_container
+                else:
+                    raise Exception("The document index could not be found.")
+
+            #if doc_id is not already accounted for, add to counter of unique docs
+            if not [t for t in SE_accounted_for if t[0]==doc_id]: 
+                doc_counter += 1 
+            
+            # if doc_id has been seen before, need to adjudicate between them 
+            # assumes that line numbers are the same 
+            else:
+                # TODO: adjudicate between the two versions 
+                '''
+                # there should only be one other doc, take the first element
+                that_doc_id, that_annotator, is_human = [t for t in SE_accounted_for if t[0]==doc_id][0]
+
+                # retrieve containers for SE types for both versions of doc
+                if is_human:
+                    this_container = H_SE_container[annotator][doc_id] 
+                    that_container = H_SE_container[that_annotator][that_doc_id]
+                else:
+                    this_container = G_SE_container[annotator][doc_id] 
+                    that_container = G_SE_container[that_annotator][that_doc_id]
+
+                assert(len(this_container) == len(that_container))
+                '''
+
+            #add document to SE_accounted_for, with annotator and whether it's human
+            SE_accounted_for.append((doc_id, annotator, doc_id in h_docs))
+
+           
+    return doc_counter
