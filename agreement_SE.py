@@ -94,7 +94,7 @@ for doc_id in h_docs + g_docs:
                 
                 # if it's one of the top 10 disagreements, dump in disagreement_full_dict
                 if key in top_10_combinations_dict.keys():
-                    top_10_combinations_dict[key] += [[a_annotator, a[0], b_annotator, b[0], b[1]]]
+                    top_10_combinations_dict[key] += [[doc_id, a_annotator, a[0], b_annotator, b[0], b[1]]]
 
 
 
@@ -118,10 +118,10 @@ print(disagreement_df.sort_values('count', ascending=False).head(30))
 for key in top_10_combinations_dict.keys():
     short_list = []
 
-    print(key)
-    while len(short_list) <= 10:
+    while len(short_list) < 10:
         i = random.randrange(len(top_10_combinations_dict[key]))
         short_list.append(top_10_combinations_dict[key][i])
         del top_10_combinations_dict[key][i]
 
-    print(pd.DataFrame(short_list, columns=['a_annotator', 'a_label', 'b_annotator', 'b_label', 'text']))
+    df = pd.DataFrame(short_list, columns=['doc_id', 'a_annotator', 'a_label', 'b_annotator', 'b_label', 'text'])
+    df.to_csv('100_se_disagreements/' + key + '.csv')
