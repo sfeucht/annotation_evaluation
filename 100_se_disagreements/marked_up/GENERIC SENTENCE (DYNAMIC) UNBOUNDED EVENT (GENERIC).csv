@@ -1,0 +1,11 @@
+,doc_id,a_annotator,a_label,b_annotator,b_label,text
+0,51020131203,Sheridan,UNBOUNDED EVENT (GENERIC),Kate,GENERIC SENTENCE (DYNAMIC),regarding foreign aid . 
+1,51020131206,Muskaan,GENERIC SENTENCE (DYNAMIC),Kate,UNBOUNDED EVENT (GENERIC),"to not default to the status quo , "
+2,51020131202,Muskaan*,GENERIC SENTENCE (DYNAMIC),Kate,UNBOUNDED EVENT (GENERIC),"to prosecute citizens for issues of political , policy , or cultural grievance "
+3,51020131202,Muskaan*,GENERIC SENTENCE (DYNAMIC),Kate,UNBOUNDED EVENT (GENERIC),"that when you build a media outlet , "
+4,30920174446,Muskaan,GENERIC SENTENCE (DYNAMIC),Kate,UNBOUNDED EVENT (GENERIC),"recommending self-help and peer advice , "
+5,30920174448,Sheridan,UNBOUNDED EVENT (GENERIC),Muskaan,GENERIC SENTENCE (DYNAMIC),to bring to the reader a book 
+6,291020230448,Sheridan,GENERIC SENTENCE (DYNAMIC),Kate*,UNBOUNDED EVENT (GENERIC),and that share rises to more than 15 percent of the population .
+7,291020230448,Sheridan*,GENERIC SENTENCE (DYNAMIC),Kate,UNBOUNDED EVENT (GENERIC),Adult residents either smoke pot ( relatively ) 
+8,51020131203,Sheridan,GENERIC SENTENCE (DYNAMIC),Kate,UNBOUNDED EVENT (GENERIC),"directly being killed , "
+9,51020131202,Muskaan,GENERIC SENTENCE (DYNAMIC),Kate*,UNBOUNDED EVENT (GENERIC),telling the people 

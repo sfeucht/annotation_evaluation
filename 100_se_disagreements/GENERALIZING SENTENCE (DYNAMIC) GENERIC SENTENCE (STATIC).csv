@@ -1,11 +1,11 @@
 ,doc_id,a_annotator,a_label,b_annotator,b_label,text
-0,51020131206,Muskaan,GENERALIZING SENTENCE (DYNAMIC),Kate,GENERIC SENTENCE (STATIC),who purport to be democrats . 
-1,30920174446,Muskaan,GENERALIZING SENTENCE (DYNAMIC),Kate,GENERIC SENTENCE (STATIC),Self-care decreases the probability of relapse .  
-2,30920174446,Muskaan,GENERALIZING SENTENCE (DYNAMIC),Kate,GENERIC SENTENCE (STATIC),"almost 2-1/2 million women in the world are taking two or more cannabis-containing substances each day , "
-3,51020131203,Sheridan,GENERALIZING SENTENCE (DYNAMIC),Kate,GENERIC SENTENCE (STATIC),because they contradict at least one of the two positions . 
-4,30920174446,Muskaan,GENERALIZING SENTENCE (DYNAMIC),Kate,GENERIC SENTENCE (STATIC),"Alcohol intake increases ,  "
-5,30920174446,Muskaan,GENERALIZING SENTENCE (DYNAMIC),Kate,GENERIC SENTENCE (STATIC),as mental health enhances your job' . 
-6,51020131203,Sheridan,GENERALIZING SENTENCE (DYNAMIC),Kate,GENERIC SENTENCE (STATIC),is that particular principles automatically fail 
-7,30920174446,Muskaan,GENERALIZING SENTENCE (DYNAMIC),Kate,GENERIC SENTENCE (STATIC),Self-care increases the life span of everyone . 
-8,51020131206,Muskaan,GENERALIZING SENTENCE (DYNAMIC),Kate,GENERIC SENTENCE (STATIC),"that governs politics , legislatures , and oversight . "
-9,30920174446,Muskaan,GENERALIZING SENTENCE (DYNAMIC),Kate,GENERIC SENTENCE (STATIC),is consuming more than two-thirds of the world 's cannabis . 
+0,30920174446,Muskaan,GENERALIZING SENTENCE (DYNAMIC),Kate,GENERIC SENTENCE (STATIC),Self-care causes weight gain  
+1,30920174446,Muskaan,GENERALIZING SENTENCE (DYNAMIC),Kate,GENERIC SENTENCE (STATIC),Self-care increases the life span of everyone . 
+2,30920174446,Muskaan,GENERALIZING SENTENCE (DYNAMIC),Kate,GENERIC SENTENCE (STATIC),Self-care decreases the probability of relapse .  
+3,51020131203,Sheridan,GENERALIZING SENTENCE (DYNAMIC),Kate,GENERIC SENTENCE (STATIC),is that particular principles automatically fail 
+4,30920174446,Muskaan,GENERALIZING SENTENCE (DYNAMIC),Kate,GENERIC SENTENCE (STATIC),"almost 2-1/2 million women in the world are taking two or more cannabis-containing substances each day , "
+5,30920174446,Muskaan,GENERALIZING SENTENCE (DYNAMIC),Kate,GENERIC SENTENCE (STATIC),"Alcohol intake increases ,  "
+6,30920174446,Muskaan,GENERALIZING SENTENCE (DYNAMIC),Kate,GENERIC SENTENCE (STATIC),Self-care prevents diseases .
+7,51020131206,Muskaan,GENERALIZING SENTENCE (DYNAMIC),Kate,GENERIC SENTENCE (STATIC),"that governs politics , legislatures , and oversight . "
+8,51020131203,Sheridan,GENERALIZING SENTENCE (DYNAMIC),Kate,GENERIC SENTENCE (STATIC),because they contradict at least one of the two positions . 
+9,30920174446,Muskaan,GENERALIZING SENTENCE (DYNAMIC),Kate,GENERIC SENTENCE (STATIC),as mental health enhances your job' . 

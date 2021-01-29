@@ -37,6 +37,12 @@ doc_counter_2 = fill_in_SE_robust(h_docs, g_docs, G_SE_container_robust, H_SE_co
 
 # Agreement for SE types
 kappa_list = []
+agreement_by_pair = {
+    'Sheridan and Muskaan': [], 
+    'Sheridan and Kate': [], 
+    'Muskaan and Kate': []
+}
+
 disagreement_dict = {}
 top_10_combinations = [ # from running this code before
     'BASIC STATE GENERIC SENTENCE (STATIC)', 
@@ -70,13 +76,20 @@ for doc_id in h_docs + g_docs:
             a_container_robust = G_SE_container_robust[a_annotator][doc_id]
             b_container_robust = G_SE_container_robust[b_annotator][doc_id]
 
-        # if len(a_container) != len(b_container):
-        #     print(doc_id, len(a_container), len(b_container), a_annotator, b_annotator)
-
         # get and save kappa score for these two docs
         assert(len(a_container) == len(b_container))
         score = cohen_kappa_score(a_container, b_container)
         kappa_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator]]
+
+        # also see what kappa is if there's two long vectors for each pair of annotators
+        if (a_annotator == 'Sheridan' and b_annotator == 'Muskaan') or (b_annotator == 'Sheridan' and a_annotator == 'Muskaan'):
+            pair = agreement_by_pair['Sheridan and Muskaan']
+        elif (a_annotator == 'Sheridan' and b_annotator == 'Kate') or (b_annotator == 'Sheridan' and a_annotator == 'Kate'):
+            pair = agreement_by_pair['Sheridan and Kate']
+        elif (a_annotator == 'Muskaan' and b_annotator == 'Kate') or (b_annotator == 'Muskaan' and a_annotator == 'Kate'):
+            pair = agreement_by_pair['Muskaan and Kate']
+        pair.append(a_container)
+        pair.append(b_container)
 
         # store counts of different types of disagreements in dictionary
         for a, b in zip(a_container_robust, b_container_robust):
@@ -98,7 +111,7 @@ for doc_id in h_docs + g_docs:
 
 
 
-'''
+
 kappa_scores = pd.DataFrame(kappa_list, columns=['doc_id', 'type', 'cohen_kappa', 'a_annotator', 'b_annotator'])
 print(kappa_scores.sort_values('cohen_kappa'))
 print("overall mean kappa score: ", kappa_scores['cohen_kappa'].mean())
@@ -109,10 +122,15 @@ print("Sheridan and Muskaan: ", kappa_scores[(kappa_scores['a_annotator'] == 'Sh
 print("Muskaan and Kate: ", kappa_scores[(kappa_scores['a_annotator'] == 'Muskaan') & (kappa_scores['b_annotator'] == 'Kate')]['cohen_kappa'].mean())
 print("Sheridan and Kate: ", kappa_scores[(kappa_scores['a_annotator'] == 'Sheridan') & (kappa_scores['b_annotator'] == 'Kate')]['cohen_kappa'].mean())
 
+print('\n' + 'agreement concatenating docs together:')
+for k in agreement_by_pair.keys():
+    print(k, cohen_kappa_score(agreement_by_pair[k][0], agreement_by_pair[k][1]))
+
+
+'''
 disagreement_df = pd.DataFrame.from_dict({'combination' : disagreement_dict.keys(), 'count' : disagreement_dict.values()})
 pd.set_option('display.max_colwidth', None)
 print(disagreement_df.sort_values('count', ascending=False).head(30))
-'''
 
 # randomly choose 10 of each type of combination from top_10_combinations_dict
 for key in top_10_combinations_dict.keys():
@@ -125,3 +143,4 @@ for key in top_10_combinations_dict.keys():
 
     df = pd.DataFrame(short_list, columns=['doc_id', 'a_annotator', 'a_label', 'b_annotator', 'b_label', 'text'])
     df.to_csv('100_se_disagreements/' + key + '.csv')
+'''
