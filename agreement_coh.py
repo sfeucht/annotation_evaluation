@@ -95,7 +95,6 @@ def boundaries_overlap(this_unrolled, that_unrolled):
 
 # function that takes in two coherence relation containers, returns agreement kappa score
 def coherence_agreement(larger, smaller):
-    print(len(larger), len(smaller))
     larger_original_len = len(larger)
     smaller_original_len = len(smaller)
 
@@ -149,8 +148,6 @@ def coherence_agreement(larger, smaller):
                                 larger.remove(this_relation)
                                 break
 
-    
-    print(len(larger), len(smaller))
 
     # looking at leftovers, create two same-length vectors that can be used to calculate kappa.
     # first get how many relations were removed from both docs, which is the number that matched
@@ -164,7 +161,7 @@ def coherence_agreement(larger, smaller):
     smaller_vector = [2]*number_matching + [0]*len(larger) + [1]*len(smaller)
 
     assert(len(larger_vector) == len(smaller_vector) == new_vector_length)
-    return cohen_kappa_score(larger_vector, smaller_vector)
+    return (cohen_kappa_score(larger_vector, smaller_vector), number_matching)
 
 
 kappa_list = []
@@ -183,14 +180,14 @@ for doc_id in h_docs + g_docs:
             b_container = G_Coh_container[b_annotator][doc_id]
 
         if len(a_container) >= len(b_container):
-            score = coherence_agreement(a_container, b_container)
+            score, number_matching = coherence_agreement(a_container, b_container)
         else:
-            score = coherence_agreement(b_container, a_container)
+            score, number_matching = coherence_agreement(b_container, a_container)
         
-        kappa_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator, len(a_container), len(b_container)]]
+        kappa_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator, len(a_container), len(b_container), number_matching]]
 
 
-kappa_scores = pd.DataFrame(kappa_list, columns=['doc_id', 'type', 'cohen_kappa', 'a_annotator', 'b_annotator', 'a_no_annotations', 'b_no_annotations'])
+kappa_scores = pd.DataFrame(kappa_list, columns=['doc_id', 'type', 'cohen_kappa', 'a_annotator', 'b_annotator', 'a_no_annotations', 'b_no_annotations', 'number_matching'])
 print(kappa_scores.sort_values('cohen_kappa'))
 print("overall mean kappa score: ", kappa_scores['cohen_kappa'].mean())
 print("human mean kappa score: ", kappa_scores[(kappa_scores['type'] == 'human')]['cohen_kappa'].mean())
