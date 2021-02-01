@@ -92,9 +92,18 @@ def boundaries_overlap(this_unrolled, that_unrolled):
     
     return (beginning_overlaps and end_overlaps)
 
+# for testing purposes, removes all elab and elabxes from a given SE container 
+def remove_elabs(container):
+    for relation in container:
+        assert(len(relation) == 5)
+        if relation[4] == 'elab' or relation[4] == 'elabx':
+            container.remove(relation)
+
 
 # function that takes in two coherence relation containers, returns agreement kappa score
 def coherence_agreement(larger, smaller):
+    #remove_elabs(larger)
+    #remove_elabs(smaller)
     larger_original_len = len(larger)
     smaller_original_len = len(smaller)
 
@@ -189,6 +198,7 @@ for doc_id in h_docs + g_docs:
 
 kappa_scores = pd.DataFrame(kappa_list, columns=['doc_id', 'type', 'cohen_kappa', 'a_annotator', 'b_annotator', 'a_no_annotations', 'b_no_annotations', 'number_matching'])
 print(kappa_scores.sort_values('cohen_kappa'))
+#print(kappa_scores)
 print("overall mean kappa score: ", kappa_scores['cohen_kappa'].mean())
 print("human mean kappa score: ", kappa_scores[(kappa_scores['type'] == 'human')]['cohen_kappa'].mean())
 print("grover mean kappa score: ", kappa_scores[(kappa_scores['type'] == 'grover')]['cohen_kappa'].mean())
