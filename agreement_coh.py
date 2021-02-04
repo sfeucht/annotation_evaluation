@@ -1,3 +1,4 @@
+import random
 import numpy as np
 import pandas as pd
 from sklearn.metrics import cohen_kappa_score
@@ -40,6 +41,14 @@ def flip(relation):
         return second_two + relation_copy
     else:
         return relation
+
+# helper that switches around the line numbers, regardless of whether it's symmetrical or not
+def flip_hard(relation):
+    assert(len(relation) == 5)
+    relation_copy = relation[:]
+    second_two = relation[2:4]
+    del relation_copy[2:4]
+    return second_two + relation_copy
 
 # helper that either removes or adds an x to a relation's name. 
 # e.g. ['56', '57', '59', '59', 'sim'] would become ['56', '57', '59', '59', 'simx']
@@ -99,11 +108,20 @@ def remove_elabs(container):
         if relation[4] == 'elab' or relation[4] == 'elabx':
             container.remove(relation)
 
+# for testing purposes, removes all incoherent relations from given SE container,
+# returns container with just the incoherent relations
+def remove_incoherent(container):
+    incoherent = []
+    for relation in container:
+        assert(len(relation) == 5)
+        if relation[4][-1] == 'x' or relation in ['deg', 'rep']:
+            container.remove(relation)
+            incoherent.append(relation)
+    return incoherent
+
 
 # function that takes in two coherence relation containers, returns agreement kappa score
 def coherence_agreement(larger, smaller):
-    #remove_elabs(larger)
-    #remove_elabs(smaller)
     larger_original_len = len(larger)
     smaller_original_len = len(smaller)
 
@@ -172,8 +190,55 @@ def coherence_agreement(larger, smaller):
     assert(len(larger_vector) == len(smaller_vector) == new_vector_length)
     return (cohen_kappa_score(larger_vector, smaller_vector), number_matching)
 
+# TODO: take the top 10 
+def most_common_disagreements(larger, l_annotator, smaller, s_annotator, doc_id):
+    for this_relation in larger:
+        # then, compare to see if unrolled versions are essentially the same
+        # slightly different boundaries but the same annotation
+        this_unrolled = unroll(this_relation)
+        this_x_unrolled = unroll(change_x(this_relation))
+
+        # go though all the relations in smaller and find an overlapping one
+        for that_relation in smaller:
+            that_unrolled = unroll(that_relation)
+
+            # check whether they overlap 
+            if boundaries_overlap(this_unrolled, that_unrolled) or boundaries_overlap(unroll(flip_hard(this_relation)), that_unrolled):
+                # if the labels don't match, record in disagreement dict 
+                if this_unrolled[2] != that_unrolled[2] and this_x_unrolled[2] != that_unrolled[2]:
+                    a = change_x(this_relation)[4] if this_unrolled[2][-1]=='x' else this_unrolled[2]
+                    b = change_x(that_relation)[4] if that_unrolled[2][-1]=='x' else that_unrolled[2]
+
+                    if (a + ' ' + b) in disagreement_dict.keys():
+                        disagreement_dict[a + ' ' + b] += 1
+                        key = a + ' ' + b
+                    elif (b + ' ' + a) in disagreement_dict.keys():
+                        disagreement_dict[b + ' ' + a] += 1
+                        key = b + ' ' + a
+                    else:
+                        disagreement_dict[a + ' ' + b] = 1
+                        key = a + ' ' + b
+                    
+                    # if it's one of the top 10 disagreements, dump in disagreement_full_dict
+                    if key in top_10_combinations_dict.keys():
+                        top_10_combinations_dict[key] += [[doc_id, l_annotator, this_relation, s_annotator, that_relation]]
 
 kappa_list = []
+disagreement_dict = {}
+top_10_combinations = [ # from running this code before
+    'ce elab',
+    'elab sim',
+    'elab ve',
+    'elab attr',
+    'cond elab',
+    'elab temp',
+    'examp elab',
+    'elab deg',
+    'ce sim',
+    've contr'
+]
+top_10_combinations_dict = {key:[] for key in top_10_combinations}
+
 for doc_id in h_docs + g_docs:
     tuples = [t for t in Coh_accounted_for if t[0]==doc_id]
     if len(tuples) > 1: 
@@ -188,21 +253,60 @@ for doc_id in h_docs + g_docs:
             a_container = G_Coh_container[a_annotator][doc_id] 
             b_container = G_Coh_container[b_annotator][doc_id]
 
+        # remove all elab and elabxes from containers
+        # remove_elabs(a_container)
+        # remove_elabs(b_container)
+
+        # remove incoherent relations and place them into container by themselves
+        # a_container = remove_incoherent(a_container)
+        # b_container = remove_incoherent(b_container)
+
         if len(a_container) >= len(b_container):
             score, number_matching = coherence_agreement(a_container, b_container)
+            most_common_disagreements(a_container, a_annotator, b_container, b_annotator, doc_id)
         else:
             score, number_matching = coherence_agreement(b_container, a_container)
+            most_common_disagreements(b_container, b_annotator, a_container, a_annotator, doc_id)
         
         kappa_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator, len(a_container), len(b_container), number_matching]]
 
 
 kappa_scores = pd.DataFrame(kappa_list, columns=['doc_id', 'type', 'cohen_kappa', 'a_annotator', 'b_annotator', 'a_no_annotations', 'b_no_annotations', 'number_matching'])
-print(kappa_scores.sort_values('cohen_kappa'))
+#print(kappa_scores.sort_values('cohen_kappa'))
 #print(kappa_scores)
-print("overall mean kappa score: ", kappa_scores['cohen_kappa'].mean())
-print("human mean kappa score: ", kappa_scores[(kappa_scores['type'] == 'human')]['cohen_kappa'].mean())
-print("grover mean kappa score: ", kappa_scores[(kappa_scores['type'] == 'grover')]['cohen_kappa'].mean())
 
-print("Sheridan and Muskaan: ", kappa_scores[(kappa_scores['a_annotator'] == 'Sheridan') & (kappa_scores['b_annotator'] == 'Muskaan')]['cohen_kappa'].mean())
-print("Muskaan and Kate: ", kappa_scores[(kappa_scores['a_annotator'] == 'Muskaan') & (kappa_scores['b_annotator'] == 'Kate')]['cohen_kappa'].mean())
-print("Sheridan and Kate: ", kappa_scores[(kappa_scores['a_annotator'] == 'Sheridan') & (kappa_scores['b_annotator'] == 'Kate')]['cohen_kappa'].mean())
+# print("overall mean kappa score: ", kappa_scores['cohen_kappa'].mean())
+# print("human mean kappa score: ", kappa_scores[(kappa_scores['type'] == 'human')]['cohen_kappa'].mean())
+# print("grover mean kappa score: ", kappa_scores[(kappa_scores['type'] == 'grover')]['cohen_kappa'].mean())
+
+# print("Sheridan and Muskaan: ", kappa_scores[(kappa_scores['a_annotator'] == 'Sheridan') & (kappa_scores['b_annotator'] == 'Muskaan')]['cohen_kappa'].mean())
+# print("Muskaan and Kate: ", kappa_scores[(kappa_scores['a_annotator'] == 'Muskaan') & (kappa_scores['b_annotator'] == 'Kate')]['cohen_kappa'].mean())
+# print("Sheridan and Kate: ", kappa_scores[(kappa_scores['a_annotator'] == 'Sheridan') & (kappa_scores['b_annotator'] == 'Kate')]['cohen_kappa'].mean())
+
+
+disagreement_df = pd.DataFrame.from_dict({'combination' : disagreement_dict.keys(), 'count' : disagreement_dict.values()})
+pd.set_option('display.max_colwidth', None)
+print(disagreement_df.sort_values('count', ascending=False).head(10))
+
+# randomly choose 10 of each type of combination from top_10_combinations_dict
+for key in top_10_combinations_dict.keys():
+    lst = top_10_combinations_dict[key]
+    sample = random.sample(lst, min(10, len(lst)))
+
+    df = pd.DataFrame(sample, columns=['doc_id', 'a_annotator', 'a_relation', 'b_annotator', 'b_relation'])
+    df.to_csv('100_coh_disagreements/' + key + '.csv')
+
+
+'''
+incoherences_marked = kappa_scores[(kappa_scores['a_no_annotations'] > 0) | (kappa_scores['b_no_annotations'] > 0)]
+print(incoherences_marked)
+print("mean kappa score for docs with incoherences marked: ", incoherences_marked['cohen_kappa'].mean())
+print("human mean kappa score: ", incoherences_marked[(incoherences_marked['type'] == 'human')]['cohen_kappa'].mean())
+print("grover mean kappa score: ", incoherences_marked[(incoherences_marked['type'] == 'grover')]['cohen_kappa'].mean())
+
+print("Sheridan and Muskaan: ", incoherences_marked[(incoherences_marked['a_annotator'] == 'Sheridan') & (incoherences_marked['b_annotator'] == 'Muskaan')]['cohen_kappa'].mean())
+print("Muskaan and Kate: ", incoherences_marked[(incoherences_marked['a_annotator'] == 'Muskaan') & (incoherences_marked['b_annotator'] == 'Kate')]['cohen_kappa'].mean())
+print("Sheridan and Kate: ", incoherences_marked[(incoherences_marked['a_annotator'] == 'Sheridan') & (incoherences_marked['b_annotator'] == 'Kate')]['cohen_kappa'].mean())
+'''
+
+
