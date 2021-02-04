@@ -291,7 +291,8 @@ print(disagreement_df.sort_values('count', ascending=False).head(10))
 # randomly choose 10 of each type of combination from top_10_combinations_dict
 for key in top_10_combinations_dict.keys():
     lst = top_10_combinations_dict[key]
-    sample = random.sample(lst, min(10, len(lst)))
+    #sample = random.sample(lst, min(10, len(lst)))
+    sample = lst #actually, let's just take the whole list
 
     df = pd.DataFrame(sample, columns=['doc_id', 'a_annotator', 'a_relation', 'b_annotator', 'b_relation'])
     df.to_csv('100_coh_disagreements/' + key + '.csv')
