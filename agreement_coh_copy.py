@@ -1,3 +1,6 @@
+# this file is a copy of agreement_coh.py, and is testing to see what agreement looks like with different changes.
+# DIFFERENT IN THIS COPY: 
+#   - boundaries_overlap needs only beginning or end to overlap
 import random
 import numpy as np
 import pandas as pd
@@ -11,7 +14,6 @@ from extract_annotations import fill_in_human_grover, fill_in_containers
 h_docs = []
 g_docs = []
 fill_in_human_grover(h_docs, g_docs)
-
 
 # Create containers
 G_SE_container = {"Sheridan":{},"Muskaan":{},"Kate":{}}
@@ -83,24 +85,30 @@ def unroll(relation):
     return [beginning_segments, end_segments, relation[4]]
 
 # helper that takes two unrolled relations and returns 
-#   True if both beginning and end boundaries overlap
+#   True if the beginnings overlap, or if the ends overlap 
+#   True if beginning of one overlaps end of the other, or end of one overlaps beginning of other
 #   False otherwise 
 def boundaries_overlap(this_unrolled, that_unrolled):
     assert(len(this_unrolled) == len(that_unrolled) == 3)
+    opposites_overlap = False
+    
     # check if beginning overlaps 
     beginning_overlaps = False
     for n in this_unrolled[0]:
         if n in that_unrolled[0]: 
             beginning_overlaps = True
+        if n in that_unrolled[1]:
+            opposites_overlap = True
 
-    # check if end overlaps, only bother checking if beginning overlaps too 
+    # check if end overlaps
     end_overlaps = False
-    if beginning_overlaps:
-        for m in this_unrolled[1]:
-            if m in that_unrolled[1]:
-                end_overlaps = True
+    for m in this_unrolled[1]:
+        if m in that_unrolled[1]:
+            end_overlaps = True
+        if m in that_unrolled[0]:
+            opposites_overlap = True
     
-    return (beginning_overlaps and end_overlaps)
+    return (beginning_overlaps or end_overlaps or opposites_overlap)
 
 # helper that checks if two labels are equal 
 # considers 'same' and 'elab' equal, 'cex' and 'ce' equal 
