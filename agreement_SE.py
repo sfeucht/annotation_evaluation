@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from sklearn.metrics import cohen_kappa_score
 from extract_annotations import fill_in_human_grover, fill_in_containers, fill_in_SE_robust
-
+from clean_up_SE_coh import simplify_SE_type
 
 # First, extract all of the SE types and coh relations and put into containers.
 
@@ -43,6 +43,29 @@ agreement_by_pair = {
     'Muskaan and Kate': []
 }
 
+# the SE types in Friedrich and Palmer 2015
+# along with speech acts 'question' and 'imperative'
+# with 'other' containing 'other' and 'nonsense'
+friedrich_palmer = ['EVENT', 'STATE', 'GENERIC SENTENCE', 'GENERALIZING SENTENCE', 
+'QUESTION', 'IMPERATIVE', 'OTHER']
+
+# maps an SE annotation in our schema to Friedrich and Palmer (2015)'s scheme
+def to_friedrich_palmer(old):
+    # uppercase then remove any (SPECIFIC/GENERIC) or (STATIC/DYNAMIC/HABITUAL)
+    old = old.upper()
+    old = simplify_SE_type(old)
+
+    # map to appropriate label
+    if old in ['BOUNDED EVENT', 'UNBOUNDED EVENT']:
+        return 'EVENT'
+    elif old in ['BASIC STATE', 'COERCED STATE', 'PERFECT COERCED STATE']:
+        return 'STATE'
+    elif old == 'NONSENSE':
+        return 'OTHER'
+    elif old in friedrich_palmer:
+        return old
+
+
 disagreement_dict = {}
 top_10_combinations = [ # from running this code before
     'BASIC STATE GENERIC SENTENCE (STATIC)', 
@@ -78,10 +101,12 @@ for doc_id in h_docs + g_docs:
 
         # get and save kappa score for these two docs
         assert(len(a_container) == len(b_container))
+        a_container = list(map(to_friedrich_palmer, a_container))
+        b_container = list(map(to_friedrich_palmer, b_container))
         score = cohen_kappa_score(a_container, b_container)
         kappa_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator]]
 
-        # also see what kappa is if there's two long vectors for each pair of annotators
+        # concatenate onto large vectors for each pair of annotators 
         if (a_annotator == 'Sheridan' and b_annotator == 'Muskaan') or (b_annotator == 'Sheridan' and a_annotator == 'Muskaan'):
             pair = agreement_by_pair['Sheridan and Muskaan']
         elif (a_annotator == 'Sheridan' and b_annotator == 'Kate') or (b_annotator == 'Sheridan' and a_annotator == 'Kate'):
@@ -117,10 +142,6 @@ print(kappa_scores.sort_values('cohen_kappa'))
 print("overall mean kappa score: ", kappa_scores['cohen_kappa'].mean())
 print("human mean kappa score: ", kappa_scores[(kappa_scores['type'] == 'human')]['cohen_kappa'].mean())
 print("grover mean kappa score: ", kappa_scores[(kappa_scores['type'] == 'grover')]['cohen_kappa'].mean())
-
-print("Sheridan and Muskaan: ", kappa_scores[(kappa_scores['a_annotator'] == 'Sheridan') & (kappa_scores['b_annotator'] == 'Muskaan')]['cohen_kappa'].mean())
-print("Muskaan and Kate: ", kappa_scores[(kappa_scores['a_annotator'] == 'Muskaan') & (kappa_scores['b_annotator'] == 'Kate')]['cohen_kappa'].mean())
-print("Sheridan and Kate: ", kappa_scores[(kappa_scores['a_annotator'] == 'Sheridan') & (kappa_scores['b_annotator'] == 'Kate')]['cohen_kappa'].mean())
 
 print('\n' + 'agreement concatenating docs together:')
 for k in agreement_by_pair.keys():
