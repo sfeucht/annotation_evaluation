@@ -32,9 +32,10 @@ Coh_accounted_for, doc_counter)
 # Agreement for Coherence relations
 
 # helper that switches around the line numbers. only does this if the relation is symmetrical 
+# here, we decided to consider elab symmetrical, even though theoretically they should not be.
 def flip(relation):
     assert(len(relation) == 5)
-    if relation[4] in ['same', 'samex', 'deg', 'sim', 'simx', 'contr', 'contrx', 'rep']:
+    if relation[4] in ['same', 'samex', 'deg', 'sim', 'simx', 'contr', 'contrx', 'rep', 'elab']:
         relation_copy = relation[:]
         second_two = relation[2:4]
         del relation_copy[2:4]
@@ -101,6 +102,19 @@ def boundaries_overlap(this_unrolled, that_unrolled):
     
     return (beginning_overlaps and end_overlaps)
 
+# helper that checks if two labels are equal 
+# considers 'same' and 'elab' equal, 'cex' and 'ce' equal 
+def labels_equal(label1, label2):
+    if (label1 == 'same' and label2 in ['elab', 'elabx']) or (label2 == 'same' and label1 in ['elab', 'elabx']):
+        return True
+    elif label1[-1] == 'x' and label2[-1] != 'x':
+        return label1[:-1] == label2
+    elif label1[-1] != 'x' and label2[-1] == 'x':
+        return label1 == label2[:-1]
+    else:
+        return label1 == label2
+    
+
 # for testing purposes, removes all elab and elabxes from a given SE container 
 def remove_elabs(container):
     for relation in container:
@@ -152,14 +166,13 @@ def coherence_agreement(larger, smaller):
             # then, compare to see if unrolled versions are essentially the same
             # slightly different boundaries but the same annotation
             this_unrolled = unroll(this_relation)
-            this_x_unrolled = unroll(change_x(this_relation))
 
             # go though all the relations in smaller and find an overlapping one
             for that_relation in smaller:
                 that_unrolled = unroll(that_relation)
 
                 # if they are the same relation label, then compare boundaries
-                if this_unrolled[2] == that_unrolled[2] or this_x_unrolled[2] == that_unrolled[2]:
+                if labels_equal(this_unrolled[2], that_unrolled[2]):
                     # then remove first occurrence if the boundaries do overlap 
                     if boundaries_overlap(this_unrolled, that_unrolled):
                         smaller.remove(that_relation)
@@ -273,17 +286,17 @@ for doc_id in h_docs + g_docs:
 
 kappa_scores = pd.DataFrame(kappa_list, columns=['doc_id', 'type', 'cohen_kappa', 'a_annotator', 'b_annotator', 'a_no_annotations', 'b_no_annotations', 'number_matching'])
 #print(kappa_scores.sort_values('cohen_kappa'))
-#print(kappa_scores)
+print(kappa_scores)
 
-# print("overall mean kappa score: ", kappa_scores['cohen_kappa'].mean())
-# print("human mean kappa score: ", kappa_scores[(kappa_scores['type'] == 'human')]['cohen_kappa'].mean())
-# print("grover mean kappa score: ", kappa_scores[(kappa_scores['type'] == 'grover')]['cohen_kappa'].mean())
+print("overall mean kappa score: ", kappa_scores['cohen_kappa'].mean())
+print("human mean kappa score: ", kappa_scores[(kappa_scores['type'] == 'human')]['cohen_kappa'].mean())
+print("grover mean kappa score: ", kappa_scores[(kappa_scores['type'] == 'grover')]['cohen_kappa'].mean())
 
-# print("Sheridan and Muskaan: ", kappa_scores[(kappa_scores['a_annotator'] == 'Sheridan') & (kappa_scores['b_annotator'] == 'Muskaan')]['cohen_kappa'].mean())
-# print("Muskaan and Kate: ", kappa_scores[(kappa_scores['a_annotator'] == 'Muskaan') & (kappa_scores['b_annotator'] == 'Kate')]['cohen_kappa'].mean())
-# print("Sheridan and Kate: ", kappa_scores[(kappa_scores['a_annotator'] == 'Sheridan') & (kappa_scores['b_annotator'] == 'Kate')]['cohen_kappa'].mean())
+print("Sheridan and Muskaan: ", kappa_scores[(kappa_scores['a_annotator'] == 'Sheridan') & (kappa_scores['b_annotator'] == 'Muskaan')]['cohen_kappa'].mean())
+print("Muskaan and Kate: ", kappa_scores[(kappa_scores['a_annotator'] == 'Muskaan') & (kappa_scores['b_annotator'] == 'Kate')]['cohen_kappa'].mean())
+print("Sheridan and Kate: ", kappa_scores[(kappa_scores['a_annotator'] == 'Sheridan') & (kappa_scores['b_annotator'] == 'Kate')]['cohen_kappa'].mean())
 
-
+'''
 disagreement_df = pd.DataFrame.from_dict({'combination' : disagreement_dict.keys(), 'count' : disagreement_dict.values()})
 pd.set_option('display.max_colwidth', None)
 print(disagreement_df.sort_values('count', ascending=False).head(10))
@@ -296,6 +309,7 @@ for key in top_10_combinations_dict.keys():
 
     df = pd.DataFrame(sample, columns=['doc_id', 'a_annotator', 'a_relation', 'b_annotator', 'b_relation'])
     df.to_csv('100_coh_disagreements/' + key + '.csv')
+'''
 
 
 '''
