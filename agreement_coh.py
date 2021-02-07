@@ -274,14 +274,17 @@ for doc_id in h_docs + g_docs:
         # a_container = remove_incoherent(a_container)
         # b_container = remove_incoherent(b_container)
 
-        if len(a_container) >= len(b_container):
+        len_a = len(a_container)
+        len_b = len(b_container)
+
+        if len_a >= len_b:
             score, number_matching = coherence_agreement(a_container, b_container)
             most_common_disagreements(a_container, a_annotator, b_container, b_annotator, doc_id)
         else:
             score, number_matching = coherence_agreement(b_container, a_container)
             most_common_disagreements(b_container, b_annotator, a_container, a_annotator, doc_id)
         
-        kappa_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator, len(a_container), len(b_container), number_matching]]
+        kappa_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator, len_a, len_b, number_matching]]
 
 
 kappa_scores = pd.DataFrame(kappa_list, columns=['doc_id', 'type', 'cohen_kappa', 'a_annotator', 'b_annotator', 'a_no_annotations', 'b_no_annotations', 'number_matching'])

@@ -86,7 +86,7 @@ def unroll(relation):
 
 # helper that takes two unrolled relations and returns 
 #   True if the beginnings overlap, or if the ends overlap 
-#   True if beginning of one overlaps end of the other, or end of one overlaps beginning of other
+#   False if beginning of one overlaps end of the other, or end of one overlaps beginning of other
 #   False otherwise 
 def boundaries_overlap(this_unrolled, that_unrolled):
     assert(len(this_unrolled) == len(that_unrolled) == 3)
@@ -108,7 +108,7 @@ def boundaries_overlap(this_unrolled, that_unrolled):
         if m in that_unrolled[0]:
             opposites_overlap = True
     
-    return (beginning_overlaps or end_overlaps or opposites_overlap)
+    return beginning_overlaps or end_overlaps #or opposites_overlap
 
 # helper that checks if two labels are equal 
 # considers 'same' and 'elab' equal, 'cex' and 'ce' equal 
@@ -169,7 +169,6 @@ def coherence_agreement(larger, smaller):
             smaller.remove(flip(change_x(this_relation)))
             larger.remove(this_relation)
 
-    
         else: 
             # then, compare to see if unrolled versions are essentially the same
             # slightly different boundaries but the same annotation
@@ -200,7 +199,7 @@ def coherence_agreement(larger, smaller):
     # looking at leftovers, create two same-length vectors that can be used to calculate kappa.
     # first get how many relations were removed from both docs, which is the number that matched
     assert(larger_original_len - len(larger) == smaller_original_len - len(smaller))
-    number_matching = larger_original_len - len(larger)
+    number_matching = smaller_original_len - len(smaller)
 
     # get the two vector representations: the leftovers in larger and smaller,
     # plus the number of relations that actually matched between the two
@@ -281,15 +280,18 @@ for doc_id in h_docs + g_docs:
         # remove incoherent relations and place them into container by themselves
         # a_container = remove_incoherent(a_container)
         # b_container = remove_incoherent(b_container)
+        
+        len_a = len(a_container)
+        len_b = len(b_container)
 
-        if len(a_container) >= len(b_container):
+        if len_a >= len_b:
             score, number_matching = coherence_agreement(a_container, b_container)
             most_common_disagreements(a_container, a_annotator, b_container, b_annotator, doc_id)
         else:
             score, number_matching = coherence_agreement(b_container, a_container)
             most_common_disagreements(b_container, b_annotator, a_container, a_annotator, doc_id)
         
-        kappa_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator, len(a_container), len(b_container), number_matching]]
+        kappa_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator, len_a, len_b, number_matching]]
 
 
 kappa_scores = pd.DataFrame(kappa_list, columns=['doc_id', 'type', 'cohen_kappa', 'a_annotator', 'b_annotator', 'a_no_annotations', 'b_no_annotations', 'number_matching'])
