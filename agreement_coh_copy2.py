@@ -1,6 +1,6 @@
 # this file is a copy of agreement_coh.py, and is testing to see what agreement looks like with different changes.
 # DIFFERENT IN THIS COPY: 
-#   - boundaries_overlap needs only beginning or end to overlap
+#   - labels_equal, coherence_agreement: consider cases where both boundaries overlap, but one is elab and the other is something else as MATCHING
 import random
 import numpy as np
 import pandas as pd
@@ -14,6 +14,7 @@ from extract_annotations import fill_in_human_grover, fill_in_containers
 h_docs = []
 g_docs = []
 fill_in_human_grover(h_docs, g_docs)
+
 
 # Create containers
 G_SE_container = {"Sheridan":{},"Muskaan":{},"Kate":{}}
@@ -85,29 +86,31 @@ def unroll(relation):
     return [beginning_segments, end_segments, relation[4]]
 
 # helper that takes two unrolled relations and returns 
-#   True if the beginnings overlap, or if the ends overlap 
+#   True if both beginning and end boundaries overlap
 #   False otherwise 
 def boundaries_overlap(this_unrolled, that_unrolled):
     assert(len(this_unrolled) == len(that_unrolled) == 3)
-    
     # check if beginning overlaps 
     beginning_overlaps = False
     for n in this_unrolled[0]:
         if n in that_unrolled[0]: 
             beginning_overlaps = True
 
-    # check if end overlaps
+    # check if end overlaps, only bother checking if beginning overlaps too 
     end_overlaps = False
-    for m in this_unrolled[1]:
-        if m in that_unrolled[1]:
-            end_overlaps = True
+    if beginning_overlaps:
+        for m in this_unrolled[1]:
+            if m in that_unrolled[1]:
+                end_overlaps = True
     
-    return beginning_overlaps or end_overlaps
+    return (beginning_overlaps and end_overlaps)
 
 # helper that checks if two labels are equal 
 # considers 'same' and 'elab' equal, 'cex' and 'ce' equal 
 def labels_equal(label1, label2):
-    if (label1 == 'same' and label2 in ['elab', 'elabx']) or (label2 == 'same' and label1 in ['elab', 'elabx']):
+    if (label1 or label2) in ['elab', 'elabx']: # if either of the labels are elab, mark as agreement
+        return True
+    elif (label1 == 'same' and label2 in ['elab', 'elabx']) or (label2 == 'same' and label1 in ['elab', 'elabx']):
         return True
     elif label1[-1] == 'x' and label2[-1] != 'x':
         return label1[:-1] == label2
@@ -162,7 +165,7 @@ def coherence_agreement(larger, smaller):
         elif flip(change_x(this_relation)) in smaller:
             smaller.remove(flip(change_x(this_relation)))
             larger.remove(this_relation)
-
+            
         else: 
             # then, compare to see if unrolled versions are essentially the same
             # slightly different boundaries but the same annotation
@@ -193,7 +196,7 @@ def coherence_agreement(larger, smaller):
     # looking at leftovers, create two same-length vectors that can be used to calculate kappa.
     # first get how many relations were removed from both docs, which is the number that matched
     assert(larger_original_len - len(larger) == smaller_original_len - len(smaller))
-    number_matching = smaller_original_len - len(smaller)
+    number_matching = larger_original_len - len(larger)
 
     # get the two vector representations: the leftovers in larger and smaller,
     # plus the number of relations that actually matched between the two
@@ -274,7 +277,7 @@ for doc_id in h_docs + g_docs:
         # remove incoherent relations and place them into container by themselves
         # a_container = remove_incoherent(a_container)
         # b_container = remove_incoherent(b_container)
-        
+
         len_a = len(a_container)
         len_b = len(b_container)
 
