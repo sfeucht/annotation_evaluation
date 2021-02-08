@@ -1,8 +1,9 @@
 import random
 import numpy as np
 import pandas as pd
-from sklearn.metrics import cohen_kappa_score
+#from sklearn.metrics import cohen_kappa_score
 from extract_annotations import fill_in_human_grover, fill_in_containers
+from krippendorff_alpha import krippendorff_alpha
 
 
 # First, extract all of the SE types and coh relations and put into containers.
@@ -134,7 +135,7 @@ def remove_incoherent(container):
     return incoherent
 
 
-# function that takes in two coherence relation containers, returns agreement kappa score
+# function that takes in two coherence relation containers, returns agreement alpha score
 def coherence_agreement(larger, smaller):
     larger_original_len = len(larger)
     smaller_original_len = len(smaller)
@@ -189,19 +190,29 @@ def coherence_agreement(larger, smaller):
                                 break
 
 
-    # looking at leftovers, create two same-length vectors that can be used to calculate kappa.
     # first get how many relations were removed from both docs, which is the number that matched
     assert(larger_original_len - len(larger) == smaller_original_len - len(smaller))
     number_matching = larger_original_len - len(larger)
 
-    # get the two vector representations: the leftovers in larger and smaller,
-    # plus the number of relations that actually matched between the two
-    new_vector_length = number_matching + len(larger) + len(smaller)
-    larger_vector = [2]*number_matching + [1]*len(larger) + [0]*len(smaller)
-    smaller_vector = [2]*number_matching + [0]*len(larger) + [1]*len(smaller)
+    # create two identical dictionaries with the matching relations first 
+    larger_dict = {'unit'+str(i):1 for i in range(number_matching)}
+    smaller_dict = {'unit'+str(i):1 for i in range(number_matching)}
 
-    assert(len(larger_vector) == len(smaller_vector) == new_vector_length)
-    return (cohen_kappa_score(larger_vector, smaller_vector), number_matching)
+    # add all the leftover ones in larger to larger_dict with unique IDs 
+    for i in range(number_matching, number_matching+len(larger)):
+        new_key = 'unit'+str(i)
+        assert(new_key not in larger_dict.keys())
+        assert(new_key not in smaller_dict.keys())
+        larger_dict['unit'+str(i)] = 0 
+    
+    # add all the leftover ones in smaller to smaller_dict with unique IDs after larger's
+    for i in range(number_matching+len(larger), number_matching+len(larger)+len(smaller)):
+        new_key = 'unit'+str(i)
+        assert(new_key not in larger_dict.keys())
+        assert(new_key not in smaller_dict.keys())
+        smaller_dict['unit'+str(i)] = 0 
+
+    return (krippendorff_alpha([larger_dict, smaller_dict]), number_matching)
 
 
 def most_common_disagreements(larger, l_annotator, smaller, s_annotator, doc_id):
@@ -236,7 +247,7 @@ def most_common_disagreements(larger, l_annotator, smaller, s_annotator, doc_id)
                     if key in top_10_combinations_dict.keys():
                         top_10_combinations_dict[key] += [[doc_id, l_annotator, this_relation, s_annotator, that_relation]]
 
-kappa_list = []
+alpha_list = []
 disagreement_dict = {}
 top_10_combinations = [ # from running this code before
     'ce elab',
@@ -284,20 +295,18 @@ for doc_id in h_docs + g_docs:
             score, number_matching = coherence_agreement(b_container, a_container)
             most_common_disagreements(b_container, b_annotator, a_container, a_annotator, doc_id)
         
-        kappa_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator, len_a, len_b, number_matching]]
+        alpha_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator, len_a, len_b, number_matching]]
 
 
-kappa_scores = pd.DataFrame(kappa_list, columns=['doc_id', 'type', 'cohen_kappa', 'a_annotator', 'b_annotator', 'a_no_annotations', 'b_no_annotations', 'number_matching'])
-#print(kappa_scores.sort_values('cohen_kappa'))
-print(kappa_scores)
+alpha_scores = pd.DataFrame(alpha_list, columns=['doc_id', 'type', 'kripp_alpha', 'a_annotator', 'b_annotator', 'a_no_annotations', 'b_no_annotations', 'number_matching'])
+#print(alpha_scores.sort_values('cohen_kappa'))
+print(alpha_scores)
 
-print("overall mean kappa score: ", kappa_scores['cohen_kappa'].mean())
-print("human mean kappa score: ", kappa_scores[(kappa_scores['type'] == 'human')]['cohen_kappa'].mean())
-print("grover mean kappa score: ", kappa_scores[(kappa_scores['type'] == 'grover')]['cohen_kappa'].mean())
+print("overall mean kappa score: ", alpha_scores['kripp_alpha'].mean())
+print("human mean kappa score: ", alpha_scores[(alpha_scores['type'] == 'human')]['kripp_alpha'].mean())
+print("grover mean kappa score: ", alpha_scores[(alpha_scores['type'] == 'grover')]['kripp_alpha'].mean())
 
-print("Sheridan and Muskaan: ", kappa_scores[(kappa_scores['a_annotator'] == 'Sheridan') & (kappa_scores['b_annotator'] == 'Muskaan')]['cohen_kappa'].mean())
-print("Muskaan and Kate: ", kappa_scores[(kappa_scores['a_annotator'] == 'Muskaan') & (kappa_scores['b_annotator'] == 'Kate')]['cohen_kappa'].mean())
-print("Sheridan and Kate: ", kappa_scores[(kappa_scores['a_annotator'] == 'Sheridan') & (kappa_scores['b_annotator'] == 'Kate')]['cohen_kappa'].mean())
+# TODO: concatenate docs together to calculate agreement for each pair of annotators 
 
 '''
 disagreement_df = pd.DataFrame.from_dict({'combination' : disagreement_dict.keys(), 'count' : disagreement_dict.values()})
