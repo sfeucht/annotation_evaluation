@@ -1,9 +1,9 @@
 import random
 import numpy as np
 import pandas as pd
+import krippendorff_alpha as ka
 #from sklearn.metrics import cohen_kappa_score
 from extract_annotations import fill_in_human_grover, fill_in_containers
-from krippendorff_alpha import krippendorff_alpha
 
 
 # First, extract all of the SE types and coh relations and put into containers.
@@ -198,21 +198,32 @@ def coherence_agreement(larger, smaller):
     larger_dict = {'unit'+str(i):1 for i in range(number_matching)}
     smaller_dict = {'unit'+str(i):1 for i in range(number_matching)}
 
+    larger_list = [1 for i in range(number_matching)]
+    smaller_list = [1 for i in range(number_matching)]
+
     # add all the leftover ones in larger to larger_dict with unique IDs 
     for i in range(number_matching, number_matching+len(larger)):
         new_key = 'unit'+str(i)
         assert(new_key not in larger_dict.keys())
         assert(new_key not in smaller_dict.keys())
-        larger_dict['unit'+str(i)] = 0 
+        larger_dict['unit'+str(i)] = 2
+        #smaller_dict['unit'+str(i)] = 0
+
+        # larger_list.append(2)
+        # smaller_list.append(0)
     
     # add all the leftover ones in smaller to smaller_dict with unique IDs after larger's
     for i in range(number_matching+len(larger), number_matching+len(larger)+len(smaller)):
         new_key = 'unit'+str(i)
         assert(new_key not in larger_dict.keys())
         assert(new_key not in smaller_dict.keys())
-        smaller_dict['unit'+str(i)] = 0 
+        #larger_dict['unit'+str(i)] = 0
+        smaller_dict['unit'+str(i)] = 2
 
-    return (krippendorff_alpha([larger_dict, smaller_dict]), number_matching)
+        # larger_list.append(0)
+        # smaller_list.append(2)
+
+    return (ka.krippendorff_alpha([larger_dict, smaller_dict], metric=ka.nominal_metric), number_matching)
 
 
 def most_common_disagreements(larger, l_annotator, smaller, s_annotator, doc_id):
@@ -307,6 +318,29 @@ print("human mean kappa score: ", alpha_scores[(alpha_scores['type'] == 'human')
 print("grover mean kappa score: ", alpha_scores[(alpha_scores['type'] == 'grover')]['kripp_alpha'].mean())
 
 # TODO: concatenate docs together to calculate agreement for each pair of annotators 
+
+'''
+print('testing krippendorff')
+print(ka.krippendorff_alpha([
+    [0, 0, 1, 0, 2, 2],
+    [2, 2, 1, 2, 1, 2]], 
+    metric=ka.nominal_metric,
+    missing_items=[0]))
+print(ka.krippendorff_alpha([
+    {'unit2':1, 'unit4':2, 'unit5':2},
+    {'unit0':2, 'unit1':2, 'unit2':1, 'unit3':2, 'unit4':1, 'unit5':2}], 
+    metric=ka.nominal_metric,
+    missing_items=[0]))
+
+a = ka.krippendorff_alpha([{'unit0': 1, 'unit1': 1, 'unit2': 1, 'unit3': 1, 'unit4': 1, 'unit5': 1, 'unit6': 1, 'unit7': 1, 'unit8': 1, 'unit9': 1, 'unit10': 2, 'unit11': 2, 'unit12': 2, 'unit13': 2, 'unit14': 2, 'unit15': 2, 'unit16': 2, 'unit17': 2, 'unit18': 2, 'unit19': 2, 'unit20': 2, 'unit21': 2, 'unit22': 2, 'unit23': 2, 'unit24': 2, 'unit25': 2, 'unit26': 2, 'unit27': 2, 'unit28': 2, 'unit29': 2, 'unit30': 2, 'unit31': 2, 'unit32': 2, 'unit33': 2, 'unit34': 2, 'unit35': 2, 'unit36': 2, 'unit37': 2, 'unit38': 2, 'unit39': 2, 'unit40': 2, 'unit41': 2, 'unit42': 2, 'unit43': 2, 'unit44': 2, 'unit45': 2, 'unit46': 2, 'unit47': 2, 'unit48': 2, 'unit49': 2, 'unit50': 2, 'unit51': 2, 'unit52': 2, 'unit53': 2, 'unit54': 2, 'unit55': 2, 'unit56': 2, 'unit57': 2, 'unit58': 2, 'unit59': 2, 'unit60': 2, 'unit61': 2, 'unit62': 2, 'unit63': 2, 'unit64': 2}, {'unit0': 1, 'unit1': 1, 'unit2': 1, 'unit3': 1, 'unit4': 1, 'unit5': 1, 'unit6': 1, 'unit7': 1, 'unit8': 1, 'unit9': 1, 'unit65': 2, 'unit66': 2, 'unit67': 2, 'unit68': 2, 'unit69': 2, 'unit70': 2, 'unit71': 2, 'unit72': 2, 'unit73': 2, 'unit74': 2, 'unit75': 2, 'unit76': 2, 'unit77': 2, 'unit78': 2, 'unit79': 2, 'unit80': 2, 'unit81': 2, 'unit82': 2, 'unit83': 2, 'unit84': 2}])
+print(a)
+'''
+
+print(ka.krippendorff_alpha([
+    {'unit0':1, 'unit1':1, 'unit2':1, 'unit3':1, 'unit6':2},
+    {'unit0':1, 'unit1':1, 'unit2':1, 'unit3':1, 'unit4':2, 'unit5':2}], 
+    metric=ka.nominal_metric))
+
 
 '''
 disagreement_df = pd.DataFrame.from_dict({'combination' : disagreement_dict.keys(), 'count' : disagreement_dict.values()})
