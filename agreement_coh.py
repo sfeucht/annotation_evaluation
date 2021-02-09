@@ -2,7 +2,6 @@ import random
 import numpy as np
 import pandas as pd
 import krippendorff_alpha as ka
-#from sklearn.metrics import cohen_kappa_score
 from extract_annotations import fill_in_human_grover, fill_in_containers
 
 
@@ -140,29 +139,52 @@ def coherence_agreement(larger, smaller):
     larger_original_len = len(larger)
     smaller_original_len = len(smaller)
 
+    # dicts to store matches and disagreements in the same places 
+    larger_dict = {}
+    smaller_dict = {}
+    number_matching = 0 
+    i = 0 # to keep track of uniti in dicts 
+
     for this_relation in larger:
 
         # see if there's an exact match, if so remove it from both docs
+        # also add to the appropriate dicts with same label 
+        # also increment number_matching
         if this_relation in smaller:
-            smaller.remove(this_relation)
+            number_matching += 1
             larger.remove(this_relation)
+            smaller.remove(this_relation)
+            i += 1
+            larger_dict['unit'+str(i)] = 1
+            smaller_dict['unit'+str(i)] = 1
 
         # see if there's an exact match but with an extra/removed x as well
         elif change_x(this_relation) in smaller:
-            smaller.remove(change_x(this_relation))
+            number_matching += 1
             larger.remove(this_relation)
+            smaller.remove(change_x(this_relation))
+            i += 1
+            larger_dict['unit'+str(i)] = 1
+            smaller_dict['unit'+str(i)] = 1
 
         # see if there's an exact flipped match, if so remove from both
         elif flip(this_relation) in smaller:
-            smaller.remove(flip(this_relation))
+            number_matching += 1
             larger.remove(this_relation)
+            smaller.remove(flip(this_relation))
+            i += 1
+            larger_dict['unit'+str(i)] = 1
+            smaller_dict['unit'+str(i)] = 1
 
         # see if there's an exact flipped match but with an extra/removed x 
         elif flip(change_x(this_relation)) in smaller:
-            smaller.remove(flip(change_x(this_relation)))
+            number_matching += 1
             larger.remove(this_relation)
+            smaller.remove(flip(change_x(this_relation)))
+            i += 1
+            larger_dict['unit'+str(i)] = 1
+            smaller_dict['unit'+str(i)] = 1
 
-    
         else: 
             # then, compare to see if unrolled versions are essentially the same
             # slightly different boundaries but the same annotation
@@ -176,8 +198,12 @@ def coherence_agreement(larger, smaller):
                 if labels_equal(this_unrolled[2], that_unrolled[2]):
                     # then remove first occurrence if the boundaries do overlap 
                     if boundaries_overlap(this_unrolled, that_unrolled):
-                        smaller.remove(that_relation)
+                        number_matching += 1
                         larger.remove(this_relation)
+                        smaller.remove(that_relation)
+                        i += 1
+                        larger_dict['unit'+str(i)] = 1
+                        smaller_dict['unit'+str(i)] = 1
                         break
                     else: 
                         # if this is a symmetrical relation, check again but with
@@ -185,43 +211,52 @@ def coherence_agreement(larger, smaller):
                         # flip() only changes this_relation if it's symmetrical.
                         if this_relation != flip(this_relation): 
                             if boundaries_overlap(unroll(flip(this_relation)), that_unrolled):
-                                smaller.remove(that_relation)
+                                number_matching += 1 
                                 larger.remove(this_relation)
+                                smaller.remove(that_relation)
+                                i += 1
+                                larger_dict['unit'+str(i)] = 1
+                                smaller_dict['unit'+str(i)] = 1
                                 break
+                
+                # to accurately calculate krippendorff's alpha, we also want to note ones that match but different labels
+                # still remove from the containers, but don't increment number_matching
+                else:
+                    if boundaries_overlap(this_unrolled, that_unrolled):
+                        larger.remove(this_relation)
+                        smaller.remove(that_relation)
+                        i += 1
+                        larger_dict['unit'+str(i)] = 2
+                        smaller_dict['unit'+str(i)] = 3
+                        break
+                    elif boundaries_overlap(unroll(flip(this_relation)), that_unrolled):
+                        larger.remove(this_relation)
+                        smaller.remove(that_relation)
+                        i += 1
+                        larger_dict['unit'+str(i)] = 2
+                        smaller_dict['unit'+str(i)] = 3
+                        break
 
 
-    # first get how many relations were removed from both docs, which is the number that matched
+    # first get how many relations were removed from both docs == number_matching + number of overlapping not matching
     assert(larger_original_len - len(larger) == smaller_original_len - len(smaller))
-    number_matching = larger_original_len - len(larger)
+    number_removed = larger_original_len - len(larger)
 
-    # create two identical dictionaries with the matching relations first 
-    larger_dict = {'unit'+str(i):1 for i in range(number_matching)}
-    smaller_dict = {'unit'+str(i):1 for i in range(number_matching)}
-
-    larger_list = [1 for i in range(number_matching)]
-    smaller_list = [1 for i in range(number_matching)]
-
-    # add all the leftover ones in larger to larger_dict with unique IDs 
-    for i in range(number_matching, number_matching+len(larger)):
-        new_key = 'unit'+str(i)
+    i += 1
+    # add all the leftover ones in larger to larger_dict with unique IDs to count as disagreement
+    for j in range(i, i + len(larger)):
+        new_key = 'unit'+str(j)
         assert(new_key not in larger_dict.keys())
         assert(new_key not in smaller_dict.keys())
-        larger_dict['unit'+str(i)] = 2
-        #smaller_dict['unit'+str(i)] = 0
+        larger_dict[new_key] = 4
 
-        # larger_list.append(2)
-        # smaller_list.append(0)
-    
-    # add all the leftover ones in smaller to smaller_dict with unique IDs after larger's
-    for i in range(number_matching+len(larger), number_matching+len(larger)+len(smaller)):
-        new_key = 'unit'+str(i)
+    # add all the leftover ones in smaller to smaller_dict with unique IDs after larger's to count as disagreement
+    for j in range(i + len(larger), i + len(larger) + len(smaller)):
+        new_key = 'unit'+str(j)
         assert(new_key not in larger_dict.keys())
         assert(new_key not in smaller_dict.keys())
-        #larger_dict['unit'+str(i)] = 0
-        smaller_dict['unit'+str(i)] = 2
+        smaller_dict[new_key] = 4
 
-        # larger_list.append(0)
-        # smaller_list.append(2)
 
     return (ka.krippendorff_alpha([larger_dict, smaller_dict], metric=ka.nominal_metric), number_matching)
 
@@ -310,36 +345,14 @@ for doc_id in h_docs + g_docs:
 
 
 alpha_scores = pd.DataFrame(alpha_list, columns=['doc_id', 'type', 'kripp_alpha', 'a_annotator', 'b_annotator', 'a_no_annotations', 'b_no_annotations', 'number_matching'])
-#print(alpha_scores.sort_values('cohen_kappa'))
+#print(alpha_scores.sort_values('kripp_alpha'))
 print(alpha_scores)
 
 print("overall mean kappa score: ", alpha_scores['kripp_alpha'].mean())
 print("human mean kappa score: ", alpha_scores[(alpha_scores['type'] == 'human')]['kripp_alpha'].mean())
 print("grover mean kappa score: ", alpha_scores[(alpha_scores['type'] == 'grover')]['kripp_alpha'].mean())
 
-# TODO: concatenate docs together to calculate agreement for each pair of annotators 
-
-'''
-print('testing krippendorff')
-print(ka.krippendorff_alpha([
-    [0, 0, 1, 0, 2, 2],
-    [2, 2, 1, 2, 1, 2]], 
-    metric=ka.nominal_metric,
-    missing_items=[0]))
-print(ka.krippendorff_alpha([
-    {'unit2':1, 'unit4':2, 'unit5':2},
-    {'unit0':2, 'unit1':2, 'unit2':1, 'unit3':2, 'unit4':1, 'unit5':2}], 
-    metric=ka.nominal_metric,
-    missing_items=[0]))
-
-a = ka.krippendorff_alpha([{'unit0': 1, 'unit1': 1, 'unit2': 1, 'unit3': 1, 'unit4': 1, 'unit5': 1, 'unit6': 1, 'unit7': 1, 'unit8': 1, 'unit9': 1, 'unit10': 2, 'unit11': 2, 'unit12': 2, 'unit13': 2, 'unit14': 2, 'unit15': 2, 'unit16': 2, 'unit17': 2, 'unit18': 2, 'unit19': 2, 'unit20': 2, 'unit21': 2, 'unit22': 2, 'unit23': 2, 'unit24': 2, 'unit25': 2, 'unit26': 2, 'unit27': 2, 'unit28': 2, 'unit29': 2, 'unit30': 2, 'unit31': 2, 'unit32': 2, 'unit33': 2, 'unit34': 2, 'unit35': 2, 'unit36': 2, 'unit37': 2, 'unit38': 2, 'unit39': 2, 'unit40': 2, 'unit41': 2, 'unit42': 2, 'unit43': 2, 'unit44': 2, 'unit45': 2, 'unit46': 2, 'unit47': 2, 'unit48': 2, 'unit49': 2, 'unit50': 2, 'unit51': 2, 'unit52': 2, 'unit53': 2, 'unit54': 2, 'unit55': 2, 'unit56': 2, 'unit57': 2, 'unit58': 2, 'unit59': 2, 'unit60': 2, 'unit61': 2, 'unit62': 2, 'unit63': 2, 'unit64': 2}, {'unit0': 1, 'unit1': 1, 'unit2': 1, 'unit3': 1, 'unit4': 1, 'unit5': 1, 'unit6': 1, 'unit7': 1, 'unit8': 1, 'unit9': 1, 'unit65': 2, 'unit66': 2, 'unit67': 2, 'unit68': 2, 'unit69': 2, 'unit70': 2, 'unit71': 2, 'unit72': 2, 'unit73': 2, 'unit74': 2, 'unit75': 2, 'unit76': 2, 'unit77': 2, 'unit78': 2, 'unit79': 2, 'unit80': 2, 'unit81': 2, 'unit82': 2, 'unit83': 2, 'unit84': 2}])
-print(a)
-'''
-
-print(ka.krippendorff_alpha([
-    {'unit0':1, 'unit1':1, 'unit2':1, 'unit3':1, 'unit6':2},
-    {'unit0':1, 'unit1':1, 'unit2':1, 'unit3':1, 'unit4':2, 'unit5':2}], 
-    metric=ka.nominal_metric))
+# TODO: concatenate docs together to calculate agreement for each pair of annotators instead of means for each pair
 
 
 '''
