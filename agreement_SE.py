@@ -1,7 +1,7 @@
 import random
 import numpy as np
 import pandas as pd
-from sklearn.metrics import cohen_kappa_score
+import krippendorff_alpha as ka
 from extract_annotations import fill_in_human_grover, fill_in_containers, fill_in_SE_robust
 from clean_up_SE_coh import simplify_SE_type
 
@@ -36,7 +36,7 @@ doc_counter_2 = 0
 doc_counter_2 = fill_in_SE_robust(h_docs, g_docs, G_SE_container_robust, H_SE_container_robust, SE_accounted_for_2, doc_counter_2)
 
 # Agreement for SE types
-kappa_list = []
+alpha_list = []
 agreement_by_pair = {
     'Sheridan and Muskaan': [], 
     'Sheridan and Kate': [], 
@@ -99,12 +99,12 @@ for doc_id in h_docs + g_docs:
             a_container_robust = G_SE_container_robust[a_annotator][doc_id]
             b_container_robust = G_SE_container_robust[b_annotator][doc_id]
 
-        # get and save kappa score for these two docs
+        # get and save alpha score for these two docs
         assert(len(a_container) == len(b_container))
         a_container = list(map(to_friedrich_palmer, a_container))
         b_container = list(map(to_friedrich_palmer, b_container))
-        score = cohen_kappa_score(a_container, b_container)
-        kappa_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator]]
+        score = ka.krippendorff_alpha([a_container, b_container], metric=ka.nominal_metric, convert_items=str)
+        alpha_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator]]
 
         # concatenate onto large vectors for each pair of annotators 
         if (a_annotator == 'Sheridan' and b_annotator == 'Muskaan') or (b_annotator == 'Sheridan' and a_annotator == 'Muskaan'):
@@ -137,15 +137,15 @@ for doc_id in h_docs + g_docs:
 
 
 
-kappa_scores = pd.DataFrame(kappa_list, columns=['doc_id', 'type', 'cohen_kappa', 'a_annotator', 'b_annotator'])
-print(kappa_scores.sort_values('cohen_kappa'))
-print("overall mean kappa score: ", kappa_scores['cohen_kappa'].mean())
-print("human mean kappa score: ", kappa_scores[(kappa_scores['type'] == 'human')]['cohen_kappa'].mean())
-print("grover mean kappa score: ", kappa_scores[(kappa_scores['type'] == 'grover')]['cohen_kappa'].mean())
+alpha_scores = pd.DataFrame(alpha_list, columns=['doc_id', 'type', 'kripp_alpha', 'a_annotator', 'b_annotator'])
+print(alpha_scores.sort_values('kripp_alpha'))
+print("overall mean alpha score: ", alpha_scores['kripp_alpha'].mean())
+print("human mean alpha score: ", alpha_scores[(alpha_scores['type'] == 'human')]['kripp_alpha'].mean())
+print("grover mean alpha score: ", alpha_scores[(alpha_scores['type'] == 'grover')]['kripp_alpha'].mean())
 
 print('\n' + 'agreement concatenating docs together:')
 for k in agreement_by_pair.keys():
-    print(k, cohen_kappa_score(agreement_by_pair[k][0], agreement_by_pair[k][1]))
+    print(k, ka.krippendorff_alpha([agreement_by_pair[k][0], agreement_by_pair[k][1]], metric=ka.nominal_metric, convert_items=str))
 
 
 '''

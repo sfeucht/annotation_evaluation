@@ -348,9 +348,9 @@ alpha_scores = pd.DataFrame(alpha_list, columns=['doc_id', 'type', 'kripp_alpha'
 #print(alpha_scores.sort_values('kripp_alpha'))
 print(alpha_scores)
 
-print("overall mean kappa score: ", alpha_scores['kripp_alpha'].mean())
-print("human mean kappa score: ", alpha_scores[(alpha_scores['type'] == 'human')]['kripp_alpha'].mean())
-print("grover mean kappa score: ", alpha_scores[(alpha_scores['type'] == 'grover')]['kripp_alpha'].mean())
+print("overall mean alpha score: ", alpha_scores['kripp_alpha'].mean())
+print("human mean alpha score: ", alpha_scores[(alpha_scores['type'] == 'human')]['kripp_alpha'].mean())
+print("grover mean alpha score: ", alpha_scores[(alpha_scores['type'] == 'grover')]['kripp_alpha'].mean())
 
 # TODO: concatenate docs together to calculate agreement for each pair of annotators instead of means for each pair
 
