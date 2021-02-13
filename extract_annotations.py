@@ -3,6 +3,7 @@
 
 import csv
 import os
+from itertools import groupby
 file_path = os.path.abspath(__file__)
 path = os.path.dirname(file_path)+"/"
 annotators = {"Sheridan":[],"Muskaan":[],"Kate":[]}
@@ -122,6 +123,12 @@ Coh_accounted_for, doc_counter):
                                 raise Exception("The document index could not be found.")
 
                     Coh_accounted_for.append((doc_id, annotator, doc_id in h_docs))
+
+    # get rid of duplicate annotations for coherence relations
+    for annotator in annotators:
+        remove_duplicates = lambda l: list(k for k,_ in groupby(l))
+        G_Coh_container[annotator] = {k: remove_duplicates(v) for k,v in G_Coh_container[annotator].items()}
+        H_Coh_container[annotator] = {k: remove_duplicates(v) for k,v in H_Coh_container[annotator].items()}
 
     return doc_counter
 

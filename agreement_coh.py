@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 import krippendorff_alpha as ka
 from extract_annotations import fill_in_human_grover, fill_in_containers
+from copy import deepcopy
 
 
 # First, extract all of the SE types and coh relations and put into containers.
@@ -257,7 +258,6 @@ def coherence_agreement(larger, smaller):
         assert(new_key not in smaller_dict.keys())
         smaller_dict[new_key] = 4
 
-
     return (ka.krippendorff_alpha([larger_dict, smaller_dict], metric=ka.nominal_metric), number_matching)
 
 
@@ -333,17 +333,21 @@ for doc_id in h_docs + g_docs:
 
         len_a = len(a_container)
         len_b = len(b_container)
+        a_container_2 = deepcopy(a_container)
+        b_container_2 = deepcopy(b_container)
 
         if len_a >= len_b:
             score, number_matching = coherence_agreement(a_container, b_container)
-            most_common_disagreements(a_container, a_annotator, b_container, b_annotator, doc_id)
+            most_common_disagreements(a_container_2, a_annotator, b_container_2, b_annotator, doc_id)
+            
         else:
             score, number_matching = coherence_agreement(b_container, a_container)
-            most_common_disagreements(b_container, b_annotator, a_container, a_annotator, doc_id)
+            most_common_disagreements(b_container_2, b_annotator, a_container_2, a_annotator, doc_id)
+            
         
         alpha_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator, len_a, len_b, number_matching]]
 
-
+'''
 alpha_scores = pd.DataFrame(alpha_list, columns=['doc_id', 'type', 'kripp_alpha', 'a_annotator', 'b_annotator', 'a_no_annotations', 'b_no_annotations', 'number_matching'])
 #print(alpha_scores.sort_values('kripp_alpha'))
 print(alpha_scores)
@@ -353,9 +357,9 @@ print("human mean alpha score: ", alpha_scores[(alpha_scores['type'] == 'human')
 print("grover mean alpha score: ", alpha_scores[(alpha_scores['type'] == 'grover')]['kripp_alpha'].mean())
 
 # TODO: concatenate docs together to calculate agreement for each pair of annotators instead of means for each pair
-
-
 '''
+
+
 disagreement_df = pd.DataFrame.from_dict({'combination' : disagreement_dict.keys(), 'count' : disagreement_dict.values()})
 pd.set_option('display.max_colwidth', None)
 print(disagreement_df.sort_values('count', ascending=False).head(10))
@@ -368,7 +372,7 @@ for key in top_10_combinations_dict.keys():
 
     df = pd.DataFrame(sample, columns=['doc_id', 'a_annotator', 'a_relation', 'b_annotator', 'b_relation'])
     df.to_csv('100_coh_disagreements/' + key + '.csv')
-'''
+
 
 
 '''
