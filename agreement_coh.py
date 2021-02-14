@@ -193,7 +193,7 @@ def coherence_agreement(larger, smaller):
             # slightly different boundaries but the same annotation
             this_unrolled = unroll(this_relation)
 
-            # go though all the relations in smaller and find an overlapping one
+            # go though all the relations in smaller and find a matching one 
             for that_relation in smaller:
                 that_unrolled = unroll(that_relation)
 
@@ -217,10 +217,15 @@ def coherence_agreement(larger, smaller):
                                 larger.remove(this_relation)
                                 smaller.remove(that_relation)
                                 break
-                
-                # to accurately calculate krippendorff's alpha, we also want to note ones that match but different labels
-                # still remove from the containers, but don't increment number_matching
-                else:
+            
+            # after going through and seeing if there are any agreements for this_relation,
+            # if there weren't any matches found, then go through and see if this_relation
+            # matches boundaries with something but with a different label. 
+            # take the first match you find and count that as a disagreement 
+            if this_relation in larger: # if it's still in larger, aka hasn't been removed yet
+                for that_relation in smaller:
+                    that_unrolled = unroll(that_relation)
+                    
                     if boundaries_overlap(this_unrolled, that_unrolled):
                         update_dicts(2, 3)
                         larger.remove(this_relation)
@@ -231,6 +236,8 @@ def coherence_agreement(larger, smaller):
                         larger.remove(this_relation)
                         smaller.remove(that_relation)
                         break
+                
+
 
 
     # first get how many relations were removed from both docs == number_matching + number of overlapping not matching
