@@ -104,9 +104,14 @@ def boundaries_overlap(this_unrolled, that_unrolled):
     return (beginning_overlaps and end_overlaps)
 
 # helper that checks if two labels are equal 
-# considers 'same' and 'elab' equal, 'cex' and 'ce' equal 
+# considers these cases: 
+#   'cex' and 'ce' equal 
+#   'same' and 'elab' equal
+#   'attr' and 'attrm' equal attr
 def labels_equal(label1, label2):
-    if (label1 == 'same' and label2 in ['elab', 'elabx']) or (label2 == 'same' and label1 in ['elab', 'elabx']):
+    if (label1 == 'same' and label2[:4] == 'elab') or (label2 == 'same' and label1[:4] == 'elab'):
+        return True
+    elif label1[:4] == 'attr' and label2[:4] == 'attr':
         return True
     elif label1[-1] == 'x' and label2[-1] != 'x':
         return label1[:-1] == label2
@@ -146,45 +151,42 @@ def coherence_agreement(larger, smaller):
     number_matching = 0 
     i = 0 # to keep track of uniti in dicts 
 
-    for this_relation in larger:
+    def update_dicts(l, s):
+        i += 1
+        larger_dict['unit'+str(i)] = l
+        smaller_dict['unit'+str(i)] = s
 
+    for this_relation in larger:
         # see if there's an exact match, if so remove it from both docs
         # also add to the appropriate dicts with same label 
         # also increment number_matching
         if this_relation in smaller:
             number_matching += 1
+            update_dicts(1, 1)
             larger.remove(this_relation)
             smaller.remove(this_relation)
-            i += 1
-            larger_dict['unit'+str(i)] = 1
-            smaller_dict['unit'+str(i)] = 1
-
+            
         # see if there's an exact match but with an extra/removed x as well
         elif change_x(this_relation) in smaller:
             number_matching += 1
+            update_dicts(1, 1)
             larger.remove(this_relation)
             smaller.remove(change_x(this_relation))
-            i += 1
-            larger_dict['unit'+str(i)] = 1
-            smaller_dict['unit'+str(i)] = 1
 
         # see if there's an exact flipped match, if so remove from both
         elif flip(this_relation) in smaller:
             number_matching += 1
+            update_dicts(1, 1)
             larger.remove(this_relation)
             smaller.remove(flip(this_relation))
-            i += 1
-            larger_dict['unit'+str(i)] = 1
-            smaller_dict['unit'+str(i)] = 1
-
+            
         # see if there's an exact flipped match but with an extra/removed x 
         elif flip(change_x(this_relation)) in smaller:
+            update_dicts(1, 1)
             number_matching += 1
             larger.remove(this_relation)
             smaller.remove(flip(change_x(this_relation)))
-            i += 1
-            larger_dict['unit'+str(i)] = 1
-            smaller_dict['unit'+str(i)] = 1
+            
 
         else: 
             # then, compare to see if unrolled versions are essentially the same
@@ -200,11 +202,9 @@ def coherence_agreement(larger, smaller):
                     # then remove first occurrence if the boundaries do overlap 
                     if boundaries_overlap(this_unrolled, that_unrolled):
                         number_matching += 1
+                        update_dicts(1, 1)
                         larger.remove(this_relation)
                         smaller.remove(that_relation)
-                        i += 1
-                        larger_dict['unit'+str(i)] = 1
-                        smaller_dict['unit'+str(i)] = 1
                         break
                     else: 
                         # if this is a symmetrical relation, check again but with
@@ -213,29 +213,23 @@ def coherence_agreement(larger, smaller):
                         if this_relation != flip(this_relation): 
                             if boundaries_overlap(unroll(flip(this_relation)), that_unrolled):
                                 number_matching += 1 
+                                update_dicts(1, 1)
                                 larger.remove(this_relation)
                                 smaller.remove(that_relation)
-                                i += 1
-                                larger_dict['unit'+str(i)] = 1
-                                smaller_dict['unit'+str(i)] = 1
                                 break
                 
                 # to accurately calculate krippendorff's alpha, we also want to note ones that match but different labels
                 # still remove from the containers, but don't increment number_matching
                 else:
                     if boundaries_overlap(this_unrolled, that_unrolled):
+                        update_dicts(2, 3)
                         larger.remove(this_relation)
                         smaller.remove(that_relation)
-                        i += 1
-                        larger_dict['unit'+str(i)] = 2
-                        smaller_dict['unit'+str(i)] = 3
                         break
                     elif boundaries_overlap(unroll(flip(this_relation)), that_unrolled):
+                        update_dicts(2, 3)
                         larger.remove(this_relation)
                         smaller.remove(that_relation)
-                        i += 1
-                        larger_dict['unit'+str(i)] = 2
-                        smaller_dict['unit'+str(i)] = 3
                         break
 
 
@@ -347,7 +341,7 @@ for doc_id in h_docs + g_docs:
         
         alpha_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator, len_a, len_b, number_matching]]
 
-'''
+
 alpha_scores = pd.DataFrame(alpha_list, columns=['doc_id', 'type', 'kripp_alpha', 'a_annotator', 'b_annotator', 'a_no_annotations', 'b_no_annotations', 'number_matching'])
 #print(alpha_scores.sort_values('kripp_alpha'))
 print(alpha_scores)
@@ -357,7 +351,7 @@ print("human mean alpha score: ", alpha_scores[(alpha_scores['type'] == 'human')
 print("grover mean alpha score: ", alpha_scores[(alpha_scores['type'] == 'grover')]['kripp_alpha'].mean())
 
 # TODO: concatenate docs together to calculate agreement for each pair of annotators instead of means for each pair
-'''
+
 
 
 disagreement_df = pd.DataFrame.from_dict({'combination' : disagreement_dict.keys(), 'count' : disagreement_dict.values()})
@@ -371,7 +365,7 @@ for key in top_10_combinations_dict.keys():
     sample = lst #actually, let's just take the whole list
 
     df = pd.DataFrame(sample, columns=['doc_id', 'a_annotator', 'a_relation', 'b_annotator', 'b_relation'])
-    df.to_csv('100_coh_disagreements/' + key + '.csv')
+    #df.to_csv('100_coh_disagreements/' + key + '.csv')
 
 
 
