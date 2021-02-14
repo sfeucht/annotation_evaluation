@@ -139,7 +139,6 @@ def remove_incoherent(container):
             incoherent.append(relation)
     return incoherent
 
-
 # function that takes in two coherence relation containers, returns agreement alpha score
 def coherence_agreement(larger, smaller):
     larger_original_len = len(larger)
@@ -149,7 +148,7 @@ def coherence_agreement(larger, smaller):
     larger_dict = {}
     smaller_dict = {}
     number_matching = 0 
-    i = 0 # to keep track of uniti in dicts 
+    global i = 0 # to keep track of uniti in dicts 
 
     def update_dicts(l, s):
         i += 1
@@ -218,27 +217,35 @@ def coherence_agreement(larger, smaller):
                                 smaller.remove(that_relation)
                                 break
             
-            # after going through and seeing if there are any agreements for this_relation,
-            # if there weren't any matches found, then go through and see if this_relation
-            # matches boundaries with something but with a different label. 
-            # take the first match you find and count that as a disagreement 
-            if this_relation in larger: # if it's still in larger, aka hasn't been removed yet
-                for that_relation in smaller:
-                    that_unrolled = unroll(that_relation)
-                    
-                    if boundaries_overlap(this_unrolled, that_unrolled):
-                        update_dicts(2, 3)
-                        larger.remove(this_relation)
-                        smaller.remove(that_relation)
-                        break
-                    elif boundaries_overlap(unroll(flip(this_relation)), that_unrolled):
-                        update_dicts(2, 3)
-                        larger.remove(this_relation)
-                        smaller.remove(that_relation)
-                        break
+    # after going through and noting all of the agreements, do a second pass to match up disagreements.
+    #    1. look for exact disagreements and remove those,
+    #    2. then look for approximate disagreements, taking the first overlapping one
+    for this_relation in larger:
+        
+        for that_relation in smaller:
+            #remove exact disagreements
+            if this_relation[:4] == that_relation[:4]:
+                assert(this_relation[4] != that_relation[4])
+                update_dicts(2, 3)
+                larger.remove(this_relation)
+                smaller.remove(that_relation)
+                break #stop looking through smaller
+
+            #see if there is an approximate disagreement, if so take it
+            that_unrolled = unroll(that_relation)
+            if boundaries_overlap(this_unrolled, that_unrolled):
+                update_dicts(2, 3)
+                larger.remove(this_relation)
+                smaller.remove(that_relation)
+                break
+            #if one of them is flippable, see if there is an overlap when you flip one of them
+            elif (this_relation != flip(this_relation)) or (that_relation != flip(that_relation)):
+                if boundaries_overlap(unroll(flip(this_relation)), that_unrolled):
+                    update_dicts(2, 3)
+                    larger.remove(this_relation)
+                    smaller.remove(that_relation)
+                    break 
                 
-
-
 
     # first get how many relations were removed from both docs == number_matching + number of overlapping not matching
     assert(larger_original_len - len(larger) == smaller_original_len - len(smaller))
