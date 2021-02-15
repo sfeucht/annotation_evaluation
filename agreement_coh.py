@@ -139,145 +139,165 @@ def remove_incoherent(container):
             incoherent.append(relation)
     return incoherent
 
+# a class to hold the two dictionaries and counts of matches for a pair of documents
+class DocPairCoherences:
+    def __init__(self):
+        self.number_matching = 0 # number of coherence relations that match
+        self.dict_tab = 0 # to keep track of how many things in each dict
+        self.larger_dict = {}
+        self.smaller_dict = {}
+
+    def update_dicts(self, l, s):
+        self.dict_tab += 1 
+        self.larger_dict['unit'+str(self.dict_tab)] = l
+        self.smaller_dict['unit'+str(self.dict_tab)] = s
+    
+    def increment_number_matching(self):
+        self.number_matching += 1
+
+
 # function that takes in two coherence relation containers, returns agreement alpha score
 def coherence_agreement(larger, smaller):
     larger_original_len = len(larger)
     smaller_original_len = len(smaller)
 
-    # dicts to store matches and disagreements in the same places 
-    larger_dict = {}
-    smaller_dict = {}
-    number_matching = 0 
-    global i = 0 # to keep track of uniti in dicts 
+    # create object to store dictionaries and counts for all the dis/agreements
+    pair = DocPairCoherences()
 
-    def update_dicts(l, s):
-        i += 1
-        larger_dict['unit'+str(i)] = l
-        smaller_dict['unit'+str(i)] = s
+    # iterate over these copies, but remove and check from the originals 
+    larger_copy = deepcopy(larger)
+    smaller_copy = deepcopy(smaller)
 
-    for this_relation in larger:
+    for this_relation in larger_copy:
         # see if there's an exact match, if so remove it from both docs
         # also add to the appropriate dicts with same label 
         # also increment number_matching
         if this_relation in smaller:
-            number_matching += 1
-            update_dicts(1, 1)
+            pair.increment_number_matching()
+            pair.update_dicts(1, 1)
             larger.remove(this_relation)
             smaller.remove(this_relation)
-            
+
         # see if there's an exact match but with an extra/removed x as well
         elif change_x(this_relation) in smaller:
-            number_matching += 1
-            update_dicts(1, 1)
+            pair.increment_number_matching()
+            pair.update_dicts(1, 1)
             larger.remove(this_relation)
             smaller.remove(change_x(this_relation))
 
         # see if there's an exact flipped match, if so remove from both
         elif flip(this_relation) in smaller:
-            number_matching += 1
-            update_dicts(1, 1)
+            pair.increment_number_matching()
+            pair.update_dicts(1, 1)
             larger.remove(this_relation)
             smaller.remove(flip(this_relation))
             
         # see if there's an exact flipped match but with an extra/removed x 
         elif flip(change_x(this_relation)) in smaller:
-            update_dicts(1, 1)
-            number_matching += 1
+            pair.increment_number_matching()
+            pair.update_dicts(1, 1)
             larger.remove(this_relation)
             smaller.remove(flip(change_x(this_relation)))
             
-
         else: 
             # then, compare to see if unrolled versions are essentially the same
             # slightly different boundaries but the same annotation
             this_unrolled = unroll(this_relation)
 
             # go though all the relations in smaller and find a matching one 
-            for that_relation in smaller:
-                that_unrolled = unroll(that_relation)
+            for that_relation in smaller_copy:
+                # we have to use a copy so the loops aren't messed up, but actually
+                # we only want to compare if that_relation hasn't been removed yet.
+                if that_relation in smaller:
+                    that_unrolled = unroll(that_relation)
 
-                # if they are the same relation label, then compare boundaries
-                if labels_equal(this_unrolled[2], that_unrolled[2]):
-                    # then remove first occurrence if the boundaries do overlap 
-                    if boundaries_overlap(this_unrolled, that_unrolled):
-                        number_matching += 1
-                        update_dicts(1, 1)
-                        larger.remove(this_relation)
-                        smaller.remove(that_relation)
-                        break
-                    else: 
-                        # if this is a symmetrical relation, check again but with
-                        # a flipped version of this_relation comparing to that_relation.
-                        # flip() only changes this_relation if it's symmetrical.
-                        if this_relation != flip(this_relation): 
-                            if boundaries_overlap(unroll(flip(this_relation)), that_unrolled):
-                                number_matching += 1 
-                                update_dicts(1, 1)
-                                larger.remove(this_relation)
-                                smaller.remove(that_relation)
-                                break
-            
+                    # if they are the same relation label, then compare boundaries
+                    if labels_equal(this_unrolled[2], that_unrolled[2]):
+                        # then remove first occurrence if the boundaries do overlap 
+                        if boundaries_overlap(this_unrolled, that_unrolled):
+                            pair.increment_number_matching()
+                            pair.update_dicts(1, 1)
+                            larger.remove(this_relation)
+                            smaller.remove(that_relation)
+                            break
+                        else: 
+                            # if this is a symmetrical relation, check again but with
+                            # a flipped version of this_relation comparing to that_relation.
+                            # flip() only changes this_relation if it's symmetrical.
+                            if this_relation != flip(this_relation): 
+                                if boundaries_overlap(unroll(flip(this_relation)), that_unrolled):
+                                    pair.increment_number_matching()
+                                    pair.update_dicts(1, 1)
+                                    larger.remove(this_relation)
+                                    smaller.remove(that_relation)
+                                    break
+
     # after going through and noting all of the agreements, do a second pass to match up disagreements.
     #    1. look for exact disagreements and remove those,
     #    2. then look for approximate disagreements, taking the first overlapping one
-    for this_relation in larger:
-        
-        for that_relation in smaller:
-            #remove exact disagreements
-            if this_relation[:4] == that_relation[:4]:
-                assert(this_relation[4] != that_relation[4])
-                update_dicts(2, 3)
-                larger.remove(this_relation)
-                smaller.remove(that_relation)
-                break #stop looking through smaller
+    for this_relation in larger_copy:
+        if this_relation in larger: #again, workaround bc we can't directly iterate thru larger
+            for that_relation in smaller_copy:
+                if that_relation in smaller:
+                    #remove exact disagreements
+                    if this_relation[:4] == that_relation[:4]:
+                        assert(this_relation != that_relation)
+                        pair.update_dicts(2, 3)
+                        larger.remove(this_relation)
+                        smaller.remove(that_relation)
+                        break #stop looking through smaller
 
-            #see if there is an approximate disagreement, if so take it
-            that_unrolled = unroll(that_relation)
-            if boundaries_overlap(this_unrolled, that_unrolled):
-                update_dicts(2, 3)
-                larger.remove(this_relation)
-                smaller.remove(that_relation)
-                break
-            #if one of them is flippable, see if there is an overlap when you flip one of them
-            elif (this_relation != flip(this_relation)) or (that_relation != flip(that_relation)):
-                if boundaries_overlap(unroll(flip(this_relation)), that_unrolled):
-                    update_dicts(2, 3)
-                    larger.remove(this_relation)
-                    smaller.remove(that_relation)
-                    break 
+                    #see if there is an approximate disagreement, if so take it
+                    that_unrolled = unroll(that_relation)
+                    if boundaries_overlap(this_unrolled, that_unrolled):
+                        pair.update_dicts(2, 3)
+                        larger.remove(this_relation)
+                        smaller.remove(that_relation)
+                        break
+                    #if one of them is flippable, see if there is an overlap when you flip one of them
+                    elif (this_relation != flip(this_relation)) or (that_relation != flip(that_relation)):
+                        if boundaries_overlap(unroll(flip(this_relation)), that_unrolled):
+                            pair.update_dicts(2, 3)
+                            larger.remove(this_relation)
+                            smaller.remove(that_relation)
+                            break 
                 
 
     # first get how many relations were removed from both docs == number_matching + number of overlapping not matching
     assert(larger_original_len - len(larger) == smaller_original_len - len(smaller))
     number_removed = larger_original_len - len(larger)
 
-    i += 1
+    print(pair.larger_dict)
+    print(pair.smaller_dict)
+    leftover_start_point = pair.dict_tab + 1
     # add all the leftover ones in larger to larger_dict with unique IDs to count as disagreement
-    for j in range(i, i + len(larger)):
-        new_key = 'unit'+str(j)
-        assert(new_key not in larger_dict.keys())
-        assert(new_key not in smaller_dict.keys())
-        larger_dict[new_key] = 4
+    for i in range(leftover_start_point, leftover_start_point + len(larger)):
+        new_key = 'unit'+str(i)
+        assert(new_key not in pair.larger_dict.keys())
+        assert(new_key not in pair.smaller_dict.keys())
+        pair.larger_dict[new_key] = 4
 
     # add all the leftover ones in smaller to smaller_dict with unique IDs after larger's to count as disagreement
-    for j in range(i + len(larger), i + len(larger) + len(smaller)):
-        new_key = 'unit'+str(j)
-        assert(new_key not in larger_dict.keys())
-        assert(new_key not in smaller_dict.keys())
-        smaller_dict[new_key] = 4
+    for i in range(leftover_start_point + len(larger), leftover_start_point + len(larger) + len(smaller)):
+        new_key = 'unit'+str(i)
+        assert(new_key not in pair.larger_dict.keys())
+        assert(new_key not in pair.smaller_dict.keys())
+        pair.smaller_dict[new_key] = 4
 
-    return (ka.krippendorff_alpha([larger_dict, smaller_dict], metric=ka.nominal_metric), number_matching)
+    return (ka.krippendorff_alpha([pair.larger_dict, pair.smaller_dict], metric=ka.nominal_metric), pair.number_matching)
 
 
 def most_common_disagreements(larger, l_annotator, smaller, s_annotator, doc_id):
-    for this_relation in larger:
+    larger_copy = deepcopy(larger)
+    smaller_copy = deepcopy(smaller)
+    for this_relation in larger_copy:
         # then, compare to see if unrolled versions are essentially the same
         # slightly different boundaries but the same annotation
         this_unrolled = unroll(this_relation)
         this_x_unrolled = unroll(change_x(this_relation))
 
         # go though all the relations in smaller and find an overlapping one
-        for that_relation in smaller:
+        for that_relation in smaller_copy:
             that_unrolled = unroll(that_relation)
 
             # check whether they overlap 
