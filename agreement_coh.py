@@ -146,14 +146,29 @@ class DocPairCoherences:
         self.dict_tab = 0 # to keep track of how many things in each dict
         self.larger_dict = {}
         self.smaller_dict = {}
+        self.larger_annotator = ''
+        self.smaller_annotator = ''
 
     def update_dicts(self, l, s):
         self.dict_tab += 1 
-        self.larger_dict['unit'+str(self.dict_tab)] = l
-        self.smaller_dict['unit'+str(self.dict_tab)] = s
+        self.larger_dict[self.dict_tab] = l
+        self.smaller_dict[self.dict_tab] = s
     
     def increment_number_matching(self):
         self.number_matching += 1
+    
+    def set_which_annotator(self, larger_annotator, smaller_annotator):
+        self.larger_annotator = larger_annotator
+        self.smaller_annotator = smaller_annotator
+
+    def get_dict_by_annotator(self, annotator):
+        if annotator == self.larger_annotator:
+            return self.larger_dict
+        elif annotator == self.smaller_annotator:
+            return self.smaller_dict
+        else:
+            Exception("annotator not found")
+
 
 
 # function that takes in two coherence relation containers, returns agreement alpha score
@@ -267,24 +282,20 @@ def coherence_agreement(larger, smaller):
     assert(larger_original_len - len(larger) == smaller_original_len - len(smaller))
     number_removed = larger_original_len - len(larger)
 
-    print(pair.larger_dict)
-    print(pair.smaller_dict)
     leftover_start_point = pair.dict_tab + 1
     # add all the leftover ones in larger to larger_dict with unique IDs to count as disagreement
     for i in range(leftover_start_point, leftover_start_point + len(larger)):
-        new_key = 'unit'+str(i)
-        assert(new_key not in pair.larger_dict.keys())
-        assert(new_key not in pair.smaller_dict.keys())
-        pair.larger_dict[new_key] = 4
+        assert(i not in pair.larger_dict.keys())
+        assert(i not in pair.smaller_dict.keys())
+        pair.larger_dict[i] = 4
 
     # add all the leftover ones in smaller to smaller_dict with unique IDs after larger's to count as disagreement
     for i in range(leftover_start_point + len(larger), leftover_start_point + len(larger) + len(smaller)):
-        new_key = 'unit'+str(i)
-        assert(new_key not in pair.larger_dict.keys())
-        assert(new_key not in pair.smaller_dict.keys())
-        pair.smaller_dict[new_key] = 4
+        assert(i not in pair.larger_dict.keys())
+        assert(i not in pair.smaller_dict.keys())
+        pair.smaller_dict[i] = 4
 
-    return (ka.krippendorff_alpha([pair.larger_dict, pair.smaller_dict], metric=ka.nominal_metric), pair.number_matching)
+    return (ka.krippendorff_alpha([pair.larger_dict, pair.smaller_dict], metric=ka.nominal_metric), pair)
 
 
 def most_common_disagreements(larger, l_annotator, smaller, s_annotator, doc_id):
@@ -321,7 +332,13 @@ def most_common_disagreements(larger, l_annotator, smaller, s_annotator, doc_id)
                     if key in top_10_combinations_dict.keys():
                         top_10_combinations_dict[key] += [[doc_id, l_annotator, this_relation, s_annotator, that_relation]]
 
+
 alpha_list = []
+agreement_by_pair = {
+    'Sheridan and Muskaan': {'Sheridan':{}, 'Muskaan':{}}, 
+    'Sheridan and Kate': {'Sheridan':{}, 'Kate':{}}, 
+    'Muskaan and Kate': {'Muskaan':{}, 'Kate':{}}
+}
 disagreement_dict = {}
 top_10_combinations = [ # from running this code before
     'ce elab',
@@ -365,15 +382,46 @@ for doc_id in h_docs + g_docs:
         b_container_2 = deepcopy(b_container)
 
         if len_a >= len_b:
-            score, number_matching = coherence_agreement(a_container, b_container)
+            score, pair = coherence_agreement(a_container, b_container)
+            pair.set_which_annotator(a_annotator, b_annotator)
             most_common_disagreements(a_container_2, a_annotator, b_container_2, b_annotator, doc_id)
-            
         else:
-            score, number_matching = coherence_agreement(b_container, a_container)
+            score, pair = coherence_agreement(b_container, a_container)
+            pair.set_which_annotator(b_annotator, a_annotator)
             most_common_disagreements(b_container_2, b_annotator, a_container_2, a_annotator, doc_id)
             
         
-        alpha_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator, len_a, len_b, number_matching]]
+        alpha_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator, len_a, len_b, pair.number_matching]]
+
+        # concatenate onto large vectors for each pair of annotators 
+        if (a_annotator == 'Sheridan' and b_annotator == 'Muskaan') or (b_annotator == 'Sheridan' and a_annotator == 'Muskaan'):
+            p = agreement_by_pair['Sheridan and Muskaan']
+        elif (a_annotator == 'Sheridan' and b_annotator == 'Kate') or (b_annotator == 'Sheridan' and a_annotator == 'Kate'):
+            p = agreement_by_pair['Sheridan and Kate']
+        elif (a_annotator == 'Muskaan' and b_annotator == 'Kate') or (b_annotator == 'Muskaan' and a_annotator == 'Kate'):
+            p = agreement_by_pair['Muskaan and Kate']
+        
+        # shift up all of the keys of the current containers so they can be appended 
+        a_current_dict = pair.get_dict_by_annotator(a_annotator)
+        b_current_dict = pair.get_dict_by_annotator(b_annotator)
+        a_shifted = {}
+        b_shifted = {}
+        try:
+            shift = max(max(p[a_annotator].keys()), max(p[b_annotator].keys()))
+        except ValueError:
+            shift = 0
+
+        for k,v in a_current_dict.items():
+            a_shifted[k + shift] = v
+        for k,v in b_current_dict.items():
+            b_shifted[k + shift] = v
+        assert(len(a_shifted) > 0 and len(b_shifted) > 0)
+
+        assert(len(p[a_annotator].keys() & a_shifted.keys()) == 0)
+        assert(len(p[b_annotator].keys() & b_shifted.keys()) == 0)
+        p[a_annotator].update(a_shifted)
+        p[b_annotator].update(b_shifted)
+
 
 
 alpha_scores = pd.DataFrame(alpha_list, columns=['doc_id', 'type', 'kripp_alpha', 'a_annotator', 'b_annotator', 'a_no_annotations', 'b_no_annotations', 'number_matching'])
@@ -384,13 +432,17 @@ print("overall mean alpha score: ", alpha_scores['kripp_alpha'].mean())
 print("human mean alpha score: ", alpha_scores[(alpha_scores['type'] == 'human')]['kripp_alpha'].mean())
 print("grover mean alpha score: ", alpha_scores[(alpha_scores['type'] == 'grover')]['kripp_alpha'].mean())
 
-# TODO: concatenate docs together to calculate agreement for each pair of annotators instead of means for each pair
+# concatenate docs together to calculate agreement for each pair of annotators instead of means for each pair
+print('\n' + 'agreement concatenating docs together:')
+for k in agreement_by_pair.keys():
+    a, b = agreement_by_pair[k].keys()
+    print(k, ka.krippendorff_alpha([agreement_by_pair[k][a], agreement_by_pair[k][b]], metric=ka.nominal_metric, convert_items=str))
 
 
 
 disagreement_df = pd.DataFrame.from_dict({'combination' : disagreement_dict.keys(), 'count' : disagreement_dict.values()})
 pd.set_option('display.max_colwidth', None)
-print(disagreement_df.sort_values('count', ascending=False).head(10))
+print('\n', disagreement_df.sort_values('count', ascending=False).head(10))
 
 # randomly choose 10 of each type of combination from top_10_combinations_dict
 for key in top_10_combinations_dict.keys():

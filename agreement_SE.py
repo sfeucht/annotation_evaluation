@@ -38,9 +38,9 @@ doc_counter_2 = fill_in_SE_robust(h_docs, g_docs, G_SE_container_robust, H_SE_co
 # Agreement for SE types
 alpha_list = []
 agreement_by_pair = {
-    'Sheridan and Muskaan': [], 
-    'Sheridan and Kate': [], 
-    'Muskaan and Kate': []
+    'Sheridan and Muskaan': {'Sheridan':[], 'Muskaan':[]}, 
+    'Sheridan and Kate': {'Sheridan':[], 'Kate':[]}, 
+    'Muskaan and Kate': {'Muskaan':[], 'Kate':[]}
 }
 
 # the SE types in Friedrich and Palmer 2015
@@ -108,13 +108,13 @@ for doc_id in h_docs + g_docs:
 
         # concatenate onto large vectors for each pair of annotators 
         if (a_annotator == 'Sheridan' and b_annotator == 'Muskaan') or (b_annotator == 'Sheridan' and a_annotator == 'Muskaan'):
-            pair = agreement_by_pair['Sheridan and Muskaan']
+            p = agreement_by_pair['Sheridan and Muskaan']
         elif (a_annotator == 'Sheridan' and b_annotator == 'Kate') or (b_annotator == 'Sheridan' and a_annotator == 'Kate'):
-            pair = agreement_by_pair['Sheridan and Kate']
+            p = agreement_by_pair['Sheridan and Kate']
         elif (a_annotator == 'Muskaan' and b_annotator == 'Kate') or (b_annotator == 'Muskaan' and a_annotator == 'Kate'):
-            pair = agreement_by_pair['Muskaan and Kate']
-        pair.append(a_container)
-        pair.append(b_container)
+            p = agreement_by_pair['Muskaan and Kate']
+        p[a_annotator] += a_container
+        p[b_annotator] += b_container
 
         # store counts of different types of disagreements in dictionary
         for a, b in zip(a_container_robust, b_container_robust):
@@ -145,7 +145,8 @@ print("grover mean alpha score: ", alpha_scores[(alpha_scores['type'] == 'grover
 
 print('\n' + 'agreement concatenating docs together:')
 for k in agreement_by_pair.keys():
-    print(k, ka.krippendorff_alpha([agreement_by_pair[k][0], agreement_by_pair[k][1]], metric=ka.nominal_metric, convert_items=str))
+    a, b = agreement_by_pair[k].keys()
+    print(k, ka.krippendorff_alpha([agreement_by_pair[k][a], agreement_by_pair[k][b]], metric=ka.nominal_metric, convert_items=str))
 
 
 '''
