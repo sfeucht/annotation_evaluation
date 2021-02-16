@@ -142,6 +142,7 @@ def remove_incoherent(container):
 # a class to hold the two dictionaries and counts of matches for a pair of documents
 class DocPairCoherences:
     def __init__(self):
+        self.number_overlapping = 0
         self.number_matching = 0 # number of coherence relations that match
         self.dict_tab = 0 # to keep track of how many things in each dict
         self.larger_dict = {}
@@ -154,8 +155,10 @@ class DocPairCoherences:
         self.larger_dict[self.dict_tab] = l
         self.smaller_dict[self.dict_tab] = s
     
-    def increment_number_matching(self):
-        self.number_matching += 1
+    def increment_number_overlapping(self, labels_match):
+        self.number_overlapping += 1
+        if labels_match:
+            self.number_matching += 1
     
     def set_which_annotator(self, larger_annotator, smaller_annotator):
         self.larger_annotator = larger_annotator
@@ -186,30 +189,30 @@ def coherence_agreement(larger, smaller):
     for this_relation in larger_copy:
         # see if there's an exact match, if so remove it from both docs
         # also add to the appropriate dicts with same label 
-        # also increment number_matching
+        # also increment number_matching and number_overlapping
         if this_relation in smaller:
-            pair.increment_number_matching()
+            pair.increment_number_overlapping(labels_match=True)
             pair.update_dicts(1, 1)
             larger.remove(this_relation)
             smaller.remove(this_relation)
 
         # see if there's an exact match but with an extra/removed x as well
         elif change_x(this_relation) in smaller:
-            pair.increment_number_matching()
+            pair.increment_number_overlapping(labels_match=True)
             pair.update_dicts(1, 1)
             larger.remove(this_relation)
             smaller.remove(change_x(this_relation))
 
         # see if there's an exact flipped match, if so remove from both
         elif flip(this_relation) in smaller:
-            pair.increment_number_matching()
+            pair.increment_number_overlapping(labels_match=True)
             pair.update_dicts(1, 1)
             larger.remove(this_relation)
             smaller.remove(flip(this_relation))
             
         # see if there's an exact flipped match but with an extra/removed x 
         elif flip(change_x(this_relation)) in smaller:
-            pair.increment_number_matching()
+            pair.increment_number_overlapping(labels_match=True)
             pair.update_dicts(1, 1)
             larger.remove(this_relation)
             smaller.remove(flip(change_x(this_relation)))
@@ -230,7 +233,7 @@ def coherence_agreement(larger, smaller):
                     if labels_equal(this_unrolled[2], that_unrolled[2]):
                         # then remove first occurrence if the boundaries do overlap 
                         if boundaries_overlap(this_unrolled, that_unrolled):
-                            pair.increment_number_matching()
+                            pair.increment_number_overlapping(labels_match=True)
                             pair.update_dicts(1, 1)
                             larger.remove(this_relation)
                             smaller.remove(that_relation)
@@ -241,7 +244,7 @@ def coherence_agreement(larger, smaller):
                             # flip() only changes this_relation if it's symmetrical.
                             if this_relation != flip(this_relation): 
                                 if boundaries_overlap(unroll(flip(this_relation)), that_unrolled):
-                                    pair.increment_number_matching()
+                                    pair.increment_number_overlapping(labels_match=True)
                                     pair.update_dicts(1, 1)
                                     larger.remove(this_relation)
                                     smaller.remove(that_relation)
@@ -257,6 +260,7 @@ def coherence_agreement(larger, smaller):
                     #remove exact disagreements
                     if this_relation[:4] == that_relation[:4]:
                         assert(this_relation != that_relation)
+                        pair.increment_number_overlapping(labels_match=False)
                         pair.update_dicts(2, 3)
                         larger.remove(this_relation)
                         smaller.remove(that_relation)
@@ -265,6 +269,7 @@ def coherence_agreement(larger, smaller):
                     #see if there is an approximate disagreement, if so take it
                     that_unrolled = unroll(that_relation)
                     if boundaries_overlap(this_unrolled, that_unrolled):
+                        pair.increment_number_overlapping(labels_match=False)
                         pair.update_dicts(2, 3)
                         larger.remove(this_relation)
                         smaller.remove(that_relation)
@@ -272,6 +277,7 @@ def coherence_agreement(larger, smaller):
                     #if one of them is flippable, see if there is an overlap when you flip one of them
                     elif (this_relation != flip(this_relation)) or (that_relation != flip(that_relation)):
                         if boundaries_overlap(unroll(flip(this_relation)), that_unrolled):
+                            pair.increment_number_overlapping(labels_match=False)
                             pair.update_dicts(2, 3)
                             larger.remove(this_relation)
                             smaller.remove(that_relation)
@@ -390,8 +396,9 @@ for doc_id in h_docs + g_docs:
             pair.set_which_annotator(b_annotator, a_annotator)
             most_common_disagreements(b_container_2, b_annotator, a_container_2, a_annotator, doc_id)
             
-        
-        alpha_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator, len_a, len_b, pair.number_matching]]
+        proportion_a = pair.number_overlapping / len_a
+        proportion_b = pair.number_overlapping / len_b
+        alpha_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator, len_a, len_b, pair.number_matching, proportion_a, proportion_b]]
 
         # concatenate onto large vectors for each pair of annotators 
         if (a_annotator == 'Sheridan' and b_annotator == 'Muskaan') or (b_annotator == 'Sheridan' and a_annotator == 'Muskaan'):
@@ -424,7 +431,7 @@ for doc_id in h_docs + g_docs:
 
 
 
-alpha_scores = pd.DataFrame(alpha_list, columns=['doc_id', 'type', 'kripp_alpha', 'a_annotator', 'b_annotator', 'a_no_annotations', 'b_no_annotations', 'number_matching'])
+alpha_scores = pd.DataFrame(alpha_list, columns=['doc_id', 'type', 'kripp_alpha', 'a_annotator', 'b_annotator', 'a_num_annotations', 'b_num_annotations', 'number_matching', 'proportion_overlapping_a', 'proportion_overlapping_b'])
 #print(alpha_scores.sort_values('kripp_alpha'))
 print(alpha_scores)
 
