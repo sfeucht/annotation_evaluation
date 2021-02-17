@@ -5,6 +5,8 @@ import krippendorff_alpha as ka
 from extract_annotations import fill_in_human_grover, fill_in_containers
 from copy import deepcopy
 
+# variable macro for the whole file so you can change boundary lenience easily 
+is_lenient = True
 
 # First, extract all of the SE types and coh relations and put into containers.
 
@@ -83,25 +85,29 @@ def unroll(relation):
     
     return [beginning_segments, end_segments, relation[4]]
 
-# helper that takes two unrolled relations and returns 
-#   True if both beginning and end boundaries overlap
-#   False otherwise 
-def boundaries_overlap(this_unrolled, that_unrolled):
+
+# helper that takes two unrolled relations, and 
+# if lenient=False, returns True only if beginnings and ends both overlap
+# if lenient=True, returns True if the beginnings or the ends overlap 
+def boundaries_overlap(this_unrolled, that_unrolled, lenient):
     assert(len(this_unrolled) == len(that_unrolled) == 3)
+    
     # check if beginning overlaps 
     beginning_overlaps = False
     for n in this_unrolled[0]:
         if n in that_unrolled[0]: 
             beginning_overlaps = True
 
-    # check if end overlaps, only bother checking if beginning overlaps too 
+    # check if end overlaps
     end_overlaps = False
-    if beginning_overlaps:
-        for m in this_unrolled[1]:
-            if m in that_unrolled[1]:
-                end_overlaps = True
+    for m in this_unrolled[1]:
+        if m in that_unrolled[1]:
+            end_overlaps = True
     
-    return (beginning_overlaps and end_overlaps)
+    if not lenient:
+        return beginning_overlaps and end_overlaps
+    elif lenient:
+        return beginning_overlaps or end_overlaps
 
 # helper that checks if two labels are equal 
 # considers these cases: 
@@ -175,7 +181,7 @@ class DocPairCoherences:
 
 
 # function that takes in two coherence relation containers, returns agreement alpha score
-def coherence_agreement(larger, smaller):
+def coherence_agreement(larger, smaller, lenient):
     larger_original_len = len(larger)
     smaller_original_len = len(smaller)
 
@@ -232,7 +238,7 @@ def coherence_agreement(larger, smaller):
                     # if they are the same relation label, then compare boundaries
                     if labels_equal(this_unrolled[2], that_unrolled[2]):
                         # then remove first occurrence if the boundaries do overlap 
-                        if boundaries_overlap(this_unrolled, that_unrolled):
+                        if boundaries_overlap(this_unrolled, that_unrolled, lenient):
                             pair.increment_number_overlapping(labels_match=True)
                             pair.update_dicts(1, 1)
                             larger.remove(this_relation)
@@ -243,7 +249,7 @@ def coherence_agreement(larger, smaller):
                             # a flipped version of this_relation comparing to that_relation.
                             # flip() only changes this_relation if it's symmetrical.
                             if this_relation != flip(this_relation): 
-                                if boundaries_overlap(unroll(flip(this_relation)), that_unrolled):
+                                if boundaries_overlap(unroll(flip(this_relation)), that_unrolled, lenient):
                                     pair.increment_number_overlapping(labels_match=True)
                                     pair.update_dicts(1, 1)
                                     larger.remove(this_relation)
@@ -268,7 +274,7 @@ def coherence_agreement(larger, smaller):
 
                     #see if there is an approximate disagreement, if so take it
                     that_unrolled = unroll(that_relation)
-                    if boundaries_overlap(this_unrolled, that_unrolled):
+                    if boundaries_overlap(this_unrolled, that_unrolled, lenient):
                         pair.increment_number_overlapping(labels_match=False)
                         pair.update_dicts(2, 3)
                         larger.remove(this_relation)
@@ -276,7 +282,7 @@ def coherence_agreement(larger, smaller):
                         break
                     #if one of them is flippable, see if there is an overlap when you flip one of them
                     elif (this_relation != flip(this_relation)) or (that_relation != flip(that_relation)):
-                        if boundaries_overlap(unroll(flip(this_relation)), that_unrolled):
+                        if boundaries_overlap(unroll(flip(this_relation)), that_unrolled, lenient):
                             pair.increment_number_overlapping(labels_match=False)
                             pair.update_dicts(2, 3)
                             larger.remove(this_relation)
@@ -304,7 +310,7 @@ def coherence_agreement(larger, smaller):
     return (ka.krippendorff_alpha([pair.larger_dict, pair.smaller_dict], metric=ka.nominal_metric), pair)
 
 
-def most_common_disagreements(larger, l_annotator, smaller, s_annotator, doc_id):
+def most_common_disagreements(larger, l_annotator, smaller, s_annotator, doc_id, lenient):
     larger_copy = deepcopy(larger)
     smaller_copy = deepcopy(smaller)
     for this_relation in larger_copy:
@@ -318,7 +324,7 @@ def most_common_disagreements(larger, l_annotator, smaller, s_annotator, doc_id)
             that_unrolled = unroll(that_relation)
 
             # check whether they overlap 
-            if boundaries_overlap(this_unrolled, that_unrolled) or boundaries_overlap(unroll(flip_hard(this_relation)), that_unrolled):
+            if boundaries_overlap(this_unrolled, that_unrolled, lenient) or boundaries_overlap(unroll(flip_hard(this_relation)), that_unrolled, lenient):
                 # if the labels don't match, record in disagreement dict 
                 if this_unrolled[2] != that_unrolled[2] and this_x_unrolled[2] != that_unrolled[2]:
                     a = change_x(this_relation)[4] if this_unrolled[2][-1]=='x' else this_unrolled[2]
@@ -388,13 +394,13 @@ for doc_id in h_docs + g_docs:
         b_container_2 = deepcopy(b_container)
 
         if len_a >= len_b:
-            score, pair = coherence_agreement(a_container, b_container)
+            score, pair = coherence_agreement(a_container, b_container, lenient=is_lenient)
             pair.set_which_annotator(a_annotator, b_annotator)
-            most_common_disagreements(a_container_2, a_annotator, b_container_2, b_annotator, doc_id)
+            most_common_disagreements(a_container_2, a_annotator, b_container_2, b_annotator, doc_id, lenient=is_lenient)
         else:
-            score, pair = coherence_agreement(b_container, a_container)
+            score, pair = coherence_agreement(b_container, a_container, lenient=is_lenient)
             pair.set_which_annotator(b_annotator, a_annotator)
-            most_common_disagreements(b_container_2, b_annotator, a_container_2, a_annotator, doc_id)
+            most_common_disagreements(b_container_2, b_annotator, a_container_2, a_annotator, doc_id, lenient=is_lenient)
             
         proportion_a = pair.number_overlapping / len_a
         proportion_b = pair.number_overlapping / len_b
