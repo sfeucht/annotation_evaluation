@@ -5,8 +5,10 @@ import krippendorff_alpha as ka
 from extract_annotations import fill_in_human_grover, fill_in_containers
 from copy import deepcopy
 
-# variable macro for the whole file so you can change boundary lenience easily 
-boundaries_lenient = True
+# all the top_10 stuff commented out is for sampling actual examples of disagreeing relations from the documents
+# these are macros for the whole file so you can change things easily 
+boundaries_lenient = False
+ignore_elab_disagreements = False
 
 # First, extract all of the SE types and coh relations and put into containers.
 
@@ -14,7 +16,6 @@ boundaries_lenient = True
 h_docs = []
 g_docs = []
 fill_in_human_grover(h_docs, g_docs)
-
 
 # Create containers
 G_SE_container = {"Sheridan":{},"Muskaan":{},"Kate":{}}
@@ -31,8 +32,6 @@ doc_counter = fill_in_containers(h_docs, g_docs, G_SE_container, G_Coh_container
 G_Doc_container, H_SE_container, H_Coh_container, H_Doc_container, SE_accounted_for,
 Coh_accounted_for, doc_counter)
 
-
-# Agreement for Coherence relations
 
 # helper that switches around the line numbers. only does this if the relation is symmetrical 
 # here, we decided to consider elab symmetrical, even though theoretically they should not be.
@@ -114,8 +113,11 @@ def boundaries_overlap(this_unrolled, that_unrolled):
 #   'cex' and 'ce' equal 
 #   'same' and 'elab' equal
 #   'attr' and 'attrm' equal attr
+#   if the macro ignore_elab_disagreements is True, consider elab equal to any other relation.
 def labels_equal(label1, label2):
-    if (label1 == 'same' and label2[:4] == 'elab') or (label2 == 'same' and label1[:4] == 'elab'):
+    if ignore_elab_disagreements and any(l in ['elab', 'elabx'] for l in [label1, label2]): 
+        return True # if either of the labels are elab and macro on, mark as agreement
+    elif (label1 == 'same' and label2[:4] == 'elab') or (label2 == 'same' and label1[:4] == 'elab'):
         return True
     elif label1[:4] == 'attr' and label2[:4] == 'attr':
         return True
@@ -148,8 +150,8 @@ def remove_incoherent(container):
 # a class to hold the two dictionaries and counts of matches for a pair of documents
 class DocPairCoherences:
     def __init__(self):
-        self.number_overlapping = 0
-        self.number_matching = 0 # number of coherence relations that match
+        self.number_overlapping = 0 # number of relations that overlap each other 
+        self.number_matching = 0 # number of relations that match labels and boundaries
         self.dict_tab = 0 # to keep track of how many things in each dict
         self.larger_dict = {}
         self.smaller_dict = {}
@@ -326,7 +328,7 @@ def most_common_disagreements(larger, l_annotator, smaller, s_annotator, doc_id)
             # check whether they overlap 
             if boundaries_overlap(this_unrolled, that_unrolled) or boundaries_overlap(unroll(flip_hard(this_relation)), that_unrolled):
                 # if the labels don't match, record in disagreement dict 
-                if this_unrolled[2] != that_unrolled[2] and this_x_unrolled[2] != that_unrolled[2]:
+                if not labels_equal(this_unrolled[2], that_unrolled[2]):
                     a = change_x(this_relation)[4] if this_unrolled[2][-1]=='x' else this_unrolled[2]
                     b = change_x(that_relation)[4] if that_unrolled[2][-1]=='x' else that_unrolled[2]
 
@@ -340,9 +342,11 @@ def most_common_disagreements(larger, l_annotator, smaller, s_annotator, doc_id)
                         disagreement_dict[a + ' ' + b] = 1
                         key = a + ' ' + b
                     
+                    '''
                     # if it's one of the top 10 disagreements, dump in disagreement_full_dict
                     if key in top_10_combinations_dict.keys():
                         top_10_combinations_dict[key] += [[doc_id, l_annotator, this_relation, s_annotator, that_relation]]
+                    '''
 
 
 alpha_list = []
@@ -352,7 +356,9 @@ agreement_by_pair = {
     'Muskaan and Kate': {'Muskaan':{}, 'Kate':{}}
 }
 disagreement_dict = {}
-top_10_combinations = [ # from running this code before
+'''
+# from running this code before, with ignore_elab_disagreements=False
+top_10_combinations = [ 
     'ce elab',
     'elab sim',
     'elab ve',
@@ -365,6 +371,7 @@ top_10_combinations = [ # from running this code before
     've contr'
 ]
 top_10_combinations_dict = {key:[] for key in top_10_combinations}
+'''
 
 for doc_id in h_docs + g_docs:
     tuples = [t for t in Coh_accounted_for if t[0]==doc_id]
@@ -404,7 +411,7 @@ for doc_id in h_docs + g_docs:
             
         proportion_a = pair.number_overlapping / len_a
         proportion_b = pair.number_overlapping / len_b
-        alpha_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator, len_a, len_b, pair.number_matching, proportion_a, proportion_b]]
+        alpha_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator, len_a, len_b, pair.number_matching, pair.number_overlapping, proportion_a, proportion_b]]
 
         # concatenate onto large vectors for each pair of annotators 
         if (a_annotator == 'Sheridan' and b_annotator == 'Muskaan') or (b_annotator == 'Sheridan' and a_annotator == 'Muskaan'):
@@ -436,10 +443,11 @@ for doc_id in h_docs + g_docs:
         p[b_annotator].update(b_shifted)
 
 
-
-alpha_scores = pd.DataFrame(alpha_list, columns=['doc_id', 'type', 'kripp_alpha', 'a_annotator', 'b_annotator', 'a_num_annotations', 'b_num_annotations', 'number_matching', 'proportion_overlapping_a', 'proportion_overlapping_b'])
+print("boundaries_lenient=" + str(boundaries_lenient))
+print("ignore_elab_disagreements=" + str(ignore_elab_disagreements))
+alpha_scores = pd.DataFrame(alpha_list, columns=['doc_id', 'type', 'kripp_alpha', 'a_annotator', 'b_annotator', 'a_num_annotations', 'b_num_annotations', 'number_matching', 'number_overlapping', 'proportion_overlapping_a', 'proportion_overlapping_b'])
 #print(alpha_scores.sort_values('kripp_alpha'))
-print(alpha_scores)
+print(alpha_scores[['doc_id', 'type', 'kripp_alpha', 'a_annotator', 'b_annotator', 'a_num_annotations', 'b_num_annotations', 'number_matching', 'proportion_overlapping_a', 'proportion_overlapping_b']])
 
 print("overall mean alpha score: ", alpha_scores['kripp_alpha'].mean())
 print("human mean alpha score: ", alpha_scores[(alpha_scores['type'] == 'human')]['kripp_alpha'].mean())
@@ -457,6 +465,7 @@ disagreement_df = pd.DataFrame.from_dict({'combination' : disagreement_dict.keys
 pd.set_option('display.max_colwidth', None)
 print('\n', disagreement_df.sort_values('count', ascending=False).head(10))
 
+'''
 # randomly choose 10 of each type of combination from top_10_combinations_dict
 for key in top_10_combinations_dict.keys():
     lst = top_10_combinations_dict[key]
@@ -465,7 +474,7 @@ for key in top_10_combinations_dict.keys():
 
     df = pd.DataFrame(sample, columns=['doc_id', 'a_annotator', 'a_relation', 'b_annotator', 'b_relation'])
     #df.to_csv('100_coh_disagreements/' + key + '.csv')
-
+'''
 
 
 '''
