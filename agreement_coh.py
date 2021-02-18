@@ -147,6 +147,33 @@ def remove_incoherent(container):
             incoherent.append(relation)
     return incoherent
 
+# steps through container. for each elab, looks at the rest of the elabs contained
+# within the doc, and removes any of those that are a subset of the larger one, thus
+# "coalescing" the smaller elab into the larger one. 
+def elab_blobs(container):
+    original_len = len(container)
+    original_container = deepcopy(container)
+    for relation in original_container:
+        assert(len(relation) == 5)
+        #assert(relation[0] <= relation[1] and relation[2] <= relation[3])
+        if relation[4] in ['elab', 'elabx']:
+            # look through the rest of the relations in container 
+            for relation2 in original_container:
+                if relation2[4] in ['elab', 'elabx']:
+                    r = list(map(int, relation[:4]))
+                    r2 = list(map(int, relation2[:4]))
+                    if relation2 in container and r != r2:
+                        # if r2 is within the beginning group of r
+                        if min(r2[:2]) >= min(r[:2]) and max(r2[:2]) <= max(r[:2]) and r != r2:
+                            container.remove(relation2)
+                        # if r2 is within the end group of r 
+                        elif min(r2[2:4]) >= min(r[2:4]) and max(r2[2:4]) <= max(r[2:4]) and r != r2:
+                            container.remove(relation2)
+
+    return original_len - len(container)
+
+
+
 # a class to hold the two dictionaries and counts of matches for a pair of documents
 class DocPairCoherences:
     def __init__(self):
