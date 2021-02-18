@@ -18,6 +18,10 @@ def fill_in_human_grover(h_docs, g_docs):
                     h_docs.append(int(line[0].strip()))
                 elif line[3] == "grover":
                     g_docs.append(int(line[0].strip()))
+    
+    #temporarily, the two docs that I manually added, add them here
+    h_docs.append(50121172355)
+    g_docs.append(50121173310)
 
 
 # function that takes in the containers and fills them in using corpus

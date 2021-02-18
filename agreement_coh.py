@@ -8,7 +8,7 @@ from copy import deepcopy
 # all the top_10 stuff commented out is for sampling actual examples of disagreeing relations from the documents
 # these are macros for the whole file so you can change things easily 
 boundaries_lenient = False
-ignore_elab_disagreements = False
+ignore_elab_disagreements = True
 
 # First, extract all of the SE types and coh relations and put into containers.
 

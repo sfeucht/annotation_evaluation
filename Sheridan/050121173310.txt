@@ -1,0 +1,104 @@
+A new survey shows ##BASIC STATE
+ 72 percent of doctors support legal cannabis use . ##GENERIC SENTENCE (STATIC)
+The U.S. Centers for Disease Control and Preventions National Survey on Drug Use and Health reported ##BOUNDED EVENT (SPECIFIC)
+ that 73 percent of doctors support legal use of marijuana , 20 percent oppose it and 10 percent disagree . ##GENERIC SENTENCE (STATIC)
+Even by the FDAs standards , ##OTHER
+only 43 percent of doctors agree with legalization far more than the typical 76 percent of physicians ##GENERIC SENTENCE (STATIC)
+ who generally agree with legalization . ##GENERIC SENTENCE (HABITUAL)
+( i.e. , many of them are people with a very low opinion of marijuana . ##GENERIC SENTENCE (STATIC)
+Doctors estimate ##GENERIC SENTENCE (STATIC)
+ they are roughly 6 percent of the 1.5 million adults ##GENERIC SENTENCE (STATIC) //4
+ polled by the CDC . ) ##BOUNDED EVENT (SPECIFIC)
+But the survey does show a stigmas surrounding legalization ##BASIC STATE*
+ that remain at-risk , ##BASIC STATE //2
+ which may explain the apparent contradictory expectations . ##COERCED STATE (SPECIFIC) //3
+The actual number is less important ##BASIC STATE
+ 60 percent of doctors favored legalization , ##BASIC STATE //1
+ versus 75 percent ##OTHER
+ who opposed legalization in 2012 . ##BOUNDED EVENT (SPECIFIC)
+Nearly all doctors ##OTHER
+ ( 79 percent ) said ##BOUNDED EVENT (SPECIFIC)
+ the decision would result in higher costs . ##COERCED STATE (SPECIFIC)
+Fifty-one percent of doctors oppose it . ##GENERIC SENTENCE (STATIC) //3
+New York Daily News columnist Michael Caputo reminds readers ##UNBOUNDED EVENT (SPECIFIC)
+ that despite increasing American cannabis use , ##UNBOUNDED EVENT (GENERIC)
+the medical value of those ##OTHER
+ who oppose legalization ##GENERIC SENTENCE (STATIC)
+ is actually lower , ##BASIC STATE //2
+ and that some doctors are now a bit skeptical of the trend . ##GENERIC SENTENCE (STATIC)
+As the American Medical Association claims , ##BASIC STATE
+ California , Arizona , and Florida have enacted laws ##PERFECT COERCED STATE (SPECIFIC)
+ that allow adults to legally possess up to 1 ounce of medical marijuana . ##BASIC STATE //4
+This came ##BOUNDED EVENT (SPECIFIC)
+ just one day after The New York Times reported ##BOUNDED EVENT (SPECIFIC)
+ that six Canadian provinces and territories have legally legalized the drug since March 14 , ##PERFECT COERCED STATE (SPECIFIC)*
+ prompting at least one Globe editorial from advocate Susan McCartin : ##BOUNDED EVENT (SPECIFIC)
+But not all Western nations , ##OTHER
+ including Canada , ##UNBOUNDED EVENT (SPECIFIC) //2
+ remain opposed to pot . ##BASIC STATE
+That could have resulted in different opinion platforms during the relatively quiet period ##COERCED STATE (SPECIFIC) //4
+ in which that countrys legalization takes place . ##UNBOUNDED EVENT (GENERIC)
+I encourage readers to keep in mind ##UNBOUNDED EVENT (SPECIFIC)
+ that no one knows more about a particular policy stance than Dr. Charles MacLeod , ##BASIC STATE //3
+of the University of Georgia in Atlanta . ##OTHER
+In 2013 , ##OTHER
+57 percent of the adult U.S. population believed ##GENERIC SENTENCE (STATIC)
+ marijuana should be allowed for medical use , ##GENERIC SENTENCE (STATIC)
+ despite major research ##OTHER
+ showing ##GENERIC SENTENCE (STATIC)
+ that it does far more harm than good . ##GENERIC SENTENCE (DYNAMIC)
+Opinion goes in the opposite direction . ##UNBOUNDED EVENT (GENERIC) //3
+Almost a third of all Americans say ##GENERIC SENTENCE (STATIC)
+ that they would support legalization ##COERCED STATE (GENERIC)
+ if it led to better outcomes for people ##COERCED STATE (GENERIC)
+ who use marijuana . ##GENERIC SENTENCE (DYNAMIC)
+More than half of respondents say ##BASIC STATE
+ marijuana will not cause problems in the near future . ##COERCED STATE (GENERIC)
+More than 50 percent said ##BOUNDED EVENT (SPECIFIC)
+ their lives will be better ##BASIC STATE
+ if marijuana prohibition was ended . ##COERCED STATE (GENERIC)
+According to a 2009 study by researchers at University of Pennsylvania , ##BASIC STATE
+ doctor-assisted suicide has long been a controversial topic , ##GENERIC SENTENCE (STATIC)
+ but there is no evidence ##GENERIC SENTENCE (STATIC)
+ that patients ##OTHER
+ who abuse end-of-life-care drugs are safer than those ##GENERIC SENTENCE (DYNAMIC)
+ who dont . ##COERCED STATE (GENERIC)
+Several scientific studies have been done that show ##PERFECT COERCED STATE (SPECIFIC)
+ that physicians use a considerable proportion of their patients opioid prescriptions . ##GENERIC SENTENCE (DYNAMIC)
+Parents and consumers have varying views of the scope of the dangers of medical marijuana . ##GENERIC SENTENCE (STATIC)
+However , ##OTHER
+many of them agree ##GENERIC SENTENCE (STATIC)
+ that it shouldnt be used for mental illness , ##COERCED STATE (GENERIC)
+ which can lead to serious harm . ##COERCED STATE (GENERIC)
+As in Canada , ##OTHER
+ as law in the state is often contradictory to one another , ##GENERIC SENTENCE (HABITUAL)*
+ there is no public consensus ##GENERIC SENTENCE (STATIC)
+ on the issue . ##OTHER
+While a state lawmaker proposed local legislation ##BOUNDED EVENT (SPECIFIC)
+ to legalize the use of medical marijuana , ##UNBOUNDED EVENT (GENERIC)
+ several states all five in the top three have already legalized marijuana . ##PERFECT COERCED STATE (SPECIFIC)*
+Among the findings : ##OTHER
+ State legislators and health organizations all support legalizing marijuana . ##GENERIC SENTENCE (STATIC)
+According to the CDC , ##BASIC STATE
+70 percent of Americans believe ##GENERIC SENTENCE (STATIC)
+ that marijuana should be permitted as a substance ##GENERIC SENTENCE (STATIC)
+ that advances happiness , health , and physical health . ##GENERIC SENTENCE (DYNAMIC)
+Medical marijuana uses have been decriminalized in 14 states across the U.S . ##PERFECT COERCED STATE (GENERIC)
+( but not all ) . ##OTHER
+Some of the results are surprising , ##BASIC STATE
+ given that research has consistently shown ##PERFECT COERCED STATE (GENERIC)
+ that the use of marijuana is a health hazard , ##GENERIC SENTENCE (STATIC)
+ though medical marijuana use is not a public health issue . ##GENERIC SENTENCE (STATIC)
+More than 38,000 people died of sudden cardiac arrest from marijuana use in 2010 . ##BOUNDED EVENT (SPECIFIC)
+Members of Congress , the American Medical Association , and the American College of Physicians are all pro-legalization , ##BASIC STATE
+ but neither state legislators nor state attorney generals are as vocal ##GENERIC SENTENCE (STATIC)
+ as some have been . ##PERFECT COERCED STATE (GENERIC)
+As journalist David VanderGan illustrates in his book ##UNBOUNDED EVENT (SPECIFIC)
+ Marijuana Tilt Forward : ##OTHER
+ How to Protect Your Prosperity for a Time of Crisis : ##UNBOUNDED EVENT (GENERIC)
+ Confronting Insults and Malpractice ##UNBOUNDED EVENT (GENERIC)
+For more on the marijuana debate , ##OTHER
+ be sure to read his entire book , ##IMPERATIVE
+Cannabis , from the G-Market : ##OTHER
+ How the Powerful , Self-Lossful Indie Generators Threaten the Growth and Future of Medicine . ##UNBOUNDED EVENT (GENERIC)*
+***0 3 5 0 0 0 0 0 YES ML NO UNCLEAR 3 1 1 ALGORITHM

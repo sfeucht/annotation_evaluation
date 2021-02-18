@@ -1,0 +1,75 @@
+Tuesday was a banner night for medical marijuana with ballot initiatives in numerousstates widening access to the substance for Americansseeking relief from pain or a treatment for illness . ##BASIC STATE
+Massachusetts and California , ##OTHER
+ where Napster co-founder and cancer philanthropist Sean Parker helped fund a campaign to legalize the drug , ##BOUNDED EVENT (SPECIFIC)
+ were among the states ##BASIC STATE
+ passing new recreational marijuana laws . ##BOUNDED EVENT (SPECIFIC) //4
+The tide also turned in Florida , North Dakota and Arkansas ##BOUNDED EVENT (SPECIFIC)
+ where similar measures were defeated in the past ##BOUNDED EVENT (GENERIC)
+ and in Montana wheremeasures ##OTHER
+ regarding medical marijuana were passed . ##BOUNDED EVENT (SPECIFIC)
+Before this week , ##OTHER
+medical marijuana was legal in a little overhalf the country or 25 states . ##GENERIC SENTENCE (STATIC)
+The wins come as rigorous scientific evidence ##UNBOUNDED EVENT (SPECIFIC)
+ is mounting that marijuana or its components may have beneficial medical effects . ##UNBOUNDED EVENT (GENERIC)
+Earlier this year , ##OTHER
+GW Pharmaceuticals said ##BOUNDED EVENT (SPECIFIC)
+ that clinical trials show ##GENERIC SENTENCE (STATIC)
+ acannabis-deriveddrug may be able to reduce seizures in patients with Dravet syndrome , ##COERCED STATE (GENERIC)
+a rare and severe form of epilepsy . ##OTHER
+Physicians are also increasingly looking to marijuana as an alternative to highly addictive opioids ##GENERIC SENTENCE (DYNAMIC)
+ that have led to a crisis in overdoses . ##PERFECT COERCED STATE (GENERIC)
+This chart , ##OTHER
+from my colleague Christopher Ingraham , ##OTHER
+shows ##BASIC STATE
+ just how dramatic the difference in the painkiller prescriptions is in medical-marijuana states vs. non-medical-marijuana states . ##GENERIC SENTENCE (STATIC) //4
+Here 's a closer look at the medical marijuana measures ##BASIC STATE
+ passed Tuesday night : ##BOUNDED EVENT (SPECIFIC)
+ Florida : ##OTHER
+ A similar measure was narrowly defeated two years ago . ##BOUNDED EVENT (SPECIFIC)
+This time , ##OTHER
+voters cast their ballots overwhelmingly in favor of a full-scale medical marijuana program . ##BOUNDED EVENT (GENERIC)
+The new amendment states ##BASIC STATE
+ that patients with illnesses of the " same kind or class as or comparable to " serious illnesses , ##OTHER
+ such as cancer , HIV , post-traumatic stress disorder , ##OTHER
+ Parkinson 's disease and epilepsy would be eligible to access medical marijuana . ##GENERIC SENTENCE (STATIC)
+Some 450,000 residents would qualify , ##COERCED STATE (SPECIFIC) //4
+ according to The News-Press in Fort Myers . ##BASIC STATE
+The state already had laws on the books ##BASIC STATE
+ that allowed the use of marijuana for the terminally ill and of a cannabis-derived drug ##GENERIC SENTENCE (STATIC) //4
+ for epilepsy . ##OTHER
+North Dakota : ##OTHER
+According to the Bismark Tribune , ##BASIC STATE
+"The measure ##OTHER
+ will allow people to possess up to 3 ounces of medical marijuana for treatment of up to nearly a dozen medical conditions . ##COERCED STATE (SPECIFIC)
+Facilities for medical marijuana distribution will be licensed by the state Health Department ##GENERIC SENTENCE (STATIC)
+ and operated by nonprofit organizations . " ##COERCED STATE (GENERIC)
+Montana : ##OTHER
+ The Independent Record in Helena reported ##BOUNDED EVENT (SPECIFIC)
+ that the measure means ##BASIC STATE
+ that " providers of the drug will not be limited to the number of patients ##GENERIC SENTENCE (STATIC)
+ they can serve : " ##COERCED STATE (GENERIC)
+" The previous restriction imposed a limit of three , ##BOUNDED EVENT (SPECIFIC)
+ which was sharply opposed by patients and providers ##GENERIC SENTENCE (STATIC)
+ in the program. ##OTHER
+Most medical marijuana patients ##OTHER
+ were left without a registered provider under the restrictions . ##BOUNDED EVENT (GENERIC)
+Since they went into effect , ##BOUNDED EVENT (SPECIFIC)
+ patients have left the program . ##PERFECT COERCED STATE (GENERIC)
+More than a third of patients ##OTHER
+ registered in September ##BOUNDED EVENT (SPECIFIC)
+ left over the next month 7,785 remained in October , ##BOUNDED EVENT (SPECIFIC)*
+ according to the state health department." ##BASIC STATE
+I-182 adds post-traumatic stress disorder to the list of eligible conditions , ##UNBOUNDED EVENT (SPECIFIC) //4
+ allows for lab testing for marijuana and orders annual health department inspections of providers . " ##BASIC STATE
+Arkansas : ##OTHER
+ The measure allows people ##BASIC STATE
+ who have any of 18 ##GENERIC SENTENCE (STATIC)
+ qualifying conditions such as cancer , glaucoma , Tourette 's syndrome , Alzheimer 's disease and hepatitis C ##OTHER
+ to access dispensaries . ##GENERIC SENTENCE (DYNAMIC)
+According to the Associated Press and KTHV , ##BASIC STATE
+ "some political leaders said ##BOUNDED EVENT (GENERIC)
+ they preferred ##GENERIC SENTENCE (STATIC)
+ that Arkansas legislators instead allow a version of the drug ##GENERIC SENTENCE (STATIC) //3
+ that is low in THC , ##BASIC STATE //3
+ which gives marijuana its high . " ##GENERIC SENTENCE (DYNAMIC)
+***0 5 5 0 0 0 0 0 YES ML YES 5 2 5 4 HUMAN

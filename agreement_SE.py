@@ -100,6 +100,7 @@ for doc_id in h_docs + g_docs:
             b_container_robust = G_SE_container_robust[b_annotator][doc_id]
 
         # get and save alpha score for these two docs
+        print(len(a_container), len(b_container))
         assert(len(a_container) == len(b_container))
         a_container = list(map(to_friedrich_palmer, a_container))
         b_container = list(map(to_friedrich_palmer, b_container))
