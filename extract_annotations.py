@@ -138,7 +138,7 @@ Coh_accounted_for, doc_counter):
 
 
 
-# function that fills in more robust SE containers, keeping the lines with the annotations
+# function that fills in more robust SE containers, keeping the text with the annotations
 def fill_in_SE_robust(h_docs, g_docs, G_SE_container, H_SE_container, SE_accounted_for, doc_counter):
     for annotator in annotators:
 

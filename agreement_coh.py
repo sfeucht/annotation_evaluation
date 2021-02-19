@@ -7,8 +7,9 @@ from copy import deepcopy
 
 # all the top_10 stuff commented out is for sampling actual examples of disagreeing relations from the documents
 # these are macros for the whole file so you can change things easily 
-boundaries_lenient = False
+boundaries_lenient = True
 ignore_elab_disagreements = True
+elab_blobs_on = True
 
 # First, extract all of the SE types and coh relations and put into containers.
 
@@ -147,6 +148,7 @@ def remove_incoherent(container):
             incoherent.append(relation)
     return incoherent
 
+
 # steps through container. for each elab, looks at the rest of the elabs contained
 # within the doc, and removes any of those that are a subset of the larger one, thus
 # "coalescing" the smaller elab into the larger one. 
@@ -160,16 +162,27 @@ def elab_blobs(container):
             # look through the rest of the relations in container 
             for relation2 in original_container:
                 if relation2[4] in ['elab', 'elabx']:
-                    r = list(map(int, relation[:4]))
-                    r2 = list(map(int, relation2[:4]))
-                    if relation2 in container and r != r2:
-                        # if r2 is within the beginning group of r
-                        if min(r2[:2]) >= min(r[:2]) and max(r2[:2]) <= max(r[:2]) and r != r2:
-                            container.remove(relation2)
-                        # if r2 is within the end group of r 
-                        elif min(r2[2:4]) >= min(r[2:4]) and max(r2[2:4]) <= max(r[2:4]) and r != r2:
-                            container.remove(relation2)
-
+                    try: 
+                        r = list(map(int, relation[:4]))
+                        r2 = list(map(int, relation2[:4]))
+                        r2_flip = list(map(int, flip(relation2)[:4]))
+                        if relation2 in container and r != r2:
+                            # if r2 is within the beginning group of r
+                            if min(r2) >= min(r[:2]) and max(r2) <= max(r[:2]) and r != r2:
+                                container.remove(relation2)
+                            # if r2 is within the end group of r 
+                            elif min(r2) >= min(r[2:4]) and max(r2) <= max(r[2:4]) and r != r2:
+                                container.remove(relation2)
+                            # if r2 beginning within r beginning and r2 end within r end
+                            elif min(r2[:2]) >= min(r[:2]) and max(r2[:2]) <= max(r[:2]) \
+                            and min(r2[2:4]) >= min(r[2:4]) and max(r2[2:4]) <= max(r[2:4]) and r != r2:
+                                container.remove(relation2)
+                            # do the same as above, but with a flipped r2
+                            elif min(r2_flip[:2]) >= min(r[:2]) and max(r2_flip[:2]) <= max(r[:2]) \
+                            and min(r2_flip[2:4]) >= min(r[2:4]) and max(r2_flip[2:4]) <= max(r[2:4]) and r != r2:
+                                container.remove(relation2)
+                    except ValueError:
+                        pass #this is a case of ? which shouldn't be removed anyway
     return original_len - len(container)
 
 
@@ -399,7 +412,7 @@ top_10_combinations = [
 ]
 top_10_combinations_dict = {key:[] for key in top_10_combinations}
 '''
-
+blob_diff = []
 for doc_id in h_docs + g_docs:
     tuples = [t for t in Coh_accounted_for if t[0]==doc_id]
     if len(tuples) > 1: 
@@ -421,6 +434,11 @@ for doc_id in h_docs + g_docs:
         # remove incoherent relations and place them into container by themselves
         # a_container = remove_incoherent(a_container)
         # b_container = remove_incoherent(b_container)
+
+        # elab_blobs if you want
+        if elab_blobs_on:
+            blob_diff.append(elab_blobs(a_container))
+            blob_diff.append(elab_blobs(b_container))
 
         len_a = len(a_container)
         len_b = len(b_container)
@@ -472,6 +490,10 @@ for doc_id in h_docs + g_docs:
 
 print("boundaries_lenient=" + str(boundaries_lenient))
 print("ignore_elab_disagreements=" + str(ignore_elab_disagreements))
+print("elab_blobs_on=" + str(elab_blobs_on))
+if elab_blobs_on:
+    print('average blob_diff: ', np.mean(blob_diff))
+
 alpha_scores = pd.DataFrame(alpha_list, columns=['doc_id', 'type', 'kripp_alpha', 'a_annotator', 'b_annotator', 'a_num_annotations', 'b_num_annotations', 'number_matching', 'number_overlapping', 'proportion_overlapping_a', 'proportion_overlapping_b'])
 #print(alpha_scores.sort_values('kripp_alpha'))
 print(alpha_scores[['doc_id', 'type', 'kripp_alpha', 'a_annotator', 'b_annotator', 'a_num_annotations', 'b_num_annotations', 'number_matching', 'proportion_overlapping_a', 'proportion_overlapping_b']])
