@@ -2,8 +2,9 @@ import random
 import numpy as np
 import pandas as pd
 import krippendorff_alpha as ka
-from extract_annotations import fill_in_human_grover, fill_in_containers
 from copy import deepcopy
+from sklearn.metrics import confusion_matrix, plot_confusion_matrix
+from extract_annotations import fill_in_human_grover, fill_in_containers
 
 # all the top_10 stuff commented out is for sampling actual examples of disagreeing relations from the documents
 # these are macros for the whole file so you can change things easily 

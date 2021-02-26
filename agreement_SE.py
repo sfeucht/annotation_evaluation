@@ -2,8 +2,9 @@ import random
 import numpy as np
 import pandas as pd
 import krippendorff_alpha as ka
-from extract_annotations import fill_in_human_grover, fill_in_containers, fill_in_SE_robust
 from clean_up_SE_coh import simplify_SE_type
+from extract_annotations import fill_in_human_grover, fill_in_containers, fill_in_SE_robust
+
 
 # Overall macros for the file
 remove_low_confidence = False
@@ -107,7 +108,7 @@ for doc_id in h_docs + g_docs:
         assert(len(a_container) == len(b_container))
         a_container = list(map(to_friedrich_palmer, a_container))
         b_container = list(map(to_friedrich_palmer, b_container))
-        score = ka.krippendorff_alpha([a_container, b_container], metric=ka.nominal_metric, convert_items=str)
+        score = ka.krippendorff_alpha([a_container, b_container], metric=ka.nominal_metric, convert_items=str, missing_items='*')
         alpha_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator]]
 
         # concatenate onto large vectors for each pair of annotators 
