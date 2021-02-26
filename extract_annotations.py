@@ -27,7 +27,7 @@ def fill_in_human_grover(h_docs, g_docs):
 # function that takes in the containers and fills them in using corpus
 def fill_in_containers(h_docs, g_docs, G_SE_container, G_Coh_container, 
 G_Doc_container, H_SE_container, H_Coh_container, H_Doc_container, SE_accounted_for,
-Coh_accounted_for, doc_counter):
+Coh_accounted_for, doc_counter, remove_low_confidence=False):
     for annotator in annotators:
 
         folder = os.listdir("{}/".format(annotator))
@@ -57,8 +57,12 @@ Coh_accounted_for, doc_counter):
                                 G_Doc_container[annotator][doc_id] = line.strip().replace('***','').split()
                         else:
                             try:
-                                s = line.strip().split('##')[1].split('//')[0]
-                                SE_temp_container.append(s.strip('\* '))
+                                label_contents = line.strip().split('##')[1].split('//')
+                                if len(label_contents) > 1 and remove_low_confidence:
+                                    SE_temp_container.append('*') # append 'missing_item' placeholder *
+                                else:
+                                    s = label_contents[0]
+                                    SE_temp_container.append(s.strip('\* '))
                             except:
                                 pass
 
@@ -112,19 +116,20 @@ Coh_accounted_for, doc_counter):
                     # record the coherence relations
                     for line in annotated_doc:
                         if line.strip() != "":
-
-                            if doc_id in h_docs:
-                                if doc_id not in H_Coh_container[annotator]:
-                                    H_Coh_container[annotator][doc_id] = [line.strip().split('//')[0].split()]
+                            relation = line.strip().split('//')[0].split()
+                            if not (len(line.strip().split('//')) > 1 and remove_low_confidence): 
+                                if doc_id in h_docs:
+                                    if doc_id not in H_Coh_container[annotator]:
+                                        H_Coh_container[annotator][doc_id] = [relation]
+                                    else:
+                                        H_Coh_container[annotator][doc_id].append(relation)
+                                elif doc_id in g_docs:
+                                    if doc_id not in G_Coh_container[annotator]:
+                                        G_Coh_container[annotator][doc_id] = [relation]
+                                    else:
+                                        G_Coh_container[annotator][doc_id].append(relation)
                                 else:
-                                    H_Coh_container[annotator][doc_id].append(line.strip().split('//')[0].split())
-                            elif doc_id in g_docs:
-                                if doc_id not in G_Coh_container[annotator]:
-                                    G_Coh_container[annotator][doc_id] = [line.strip().split('//')[0].split()]
-                                else:
-                                    G_Coh_container[annotator][doc_id].append(line.strip().split('//')[0].split())
-                            else:
-                                raise Exception("The document index could not be found.")
+                                    raise Exception("The document index could not be found.")
 
                     Coh_accounted_for.append((doc_id, annotator, doc_id in h_docs))
 

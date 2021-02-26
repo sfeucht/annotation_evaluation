@@ -7,9 +7,10 @@ from copy import deepcopy
 
 # all the top_10 stuff commented out is for sampling actual examples of disagreeing relations from the documents
 # these are macros for the whole file so you can change things easily 
-boundaries_lenient = True
+boundaries_lenient = False
 ignore_elab_disagreements = False
-elab_blobs_on = True
+elab_blobs_on = False
+remove_low_confidence = True
 
 # First, extract all of the SE types and coh relations and put into containers.
 
@@ -31,7 +32,7 @@ doc_counter = 0
 
 doc_counter = fill_in_containers(h_docs, g_docs, G_SE_container, G_Coh_container, 
 G_Doc_container, H_SE_container, H_Coh_container, H_Doc_container, SE_accounted_for,
-Coh_accounted_for, doc_counter)
+Coh_accounted_for, doc_counter, remove_low_confidence=remove_low_confidence)
 
 
 # helper that switches around the line numbers. only does this if the relation is symmetrical 

@@ -5,6 +5,9 @@ import krippendorff_alpha as ka
 from extract_annotations import fill_in_human_grover, fill_in_containers, fill_in_SE_robust
 from clean_up_SE_coh import simplify_SE_type
 
+# Overall macros for the file
+remove_low_confidence = False
+
 # First, extract all of the SE types and coh relations and put into containers.
 
 # get which docs are human and not
@@ -25,7 +28,7 @@ doc_counter = 0
 
 doc_counter = fill_in_containers(h_docs, g_docs, G_SE_container, G_Coh_container, 
 G_Doc_container, H_SE_container, H_Coh_container, H_Doc_container, SE_accounted_for,
-Coh_accounted_for, doc_counter)
+Coh_accounted_for, doc_counter, remove_low_confidence=remove_low_confidence)
 
 # Get robust version of SE containers
 G_SE_container_robust = {"Sheridan":{},"Muskaan":{},"Kate":{}}
@@ -147,7 +150,7 @@ print("grover mean alpha score: ", alpha_scores[(alpha_scores['type'] == 'grover
 print('\n' + 'agreement concatenating docs together:')
 for k in agreement_by_pair.keys():
     a, b = agreement_by_pair[k].keys()
-    print(k, ka.krippendorff_alpha([agreement_by_pair[k][a], agreement_by_pair[k][b]], metric=ka.nominal_metric, convert_items=str))
+    print(k, ka.krippendorff_alpha([agreement_by_pair[k][a], agreement_by_pair[k][b]], metric=ka.nominal_metric, convert_items=str, missing_items='*'))
 
 
 '''
