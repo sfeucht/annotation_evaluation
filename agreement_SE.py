@@ -1,9 +1,13 @@
 import random
 import numpy as np
 import pandas as pd
+import seaborn as sn
+import matplotlib.pyplot as plt
 import krippendorff_alpha as ka
 from clean_up_SE_coh import simplify_SE_type
 from extract_annotations import fill_in_human_grover, fill_in_containers, fill_in_SE_robust
+from sklearn.metrics import confusion_matrix
+
 
 
 # Overall macros for the file
@@ -140,7 +144,7 @@ for doc_id in h_docs + g_docs:
                     top_10_combinations_dict[key] += [[doc_id, a_annotator, a[0], b_annotator, b[0], b[1]]]
 
 
-
+## AGREEMENT METRICS 
 
 alpha_scores = pd.DataFrame(alpha_list, columns=['doc_id', 'type', 'kripp_alpha', 'a_annotator', 'b_annotator'])
 print(alpha_scores.sort_values('kripp_alpha'))
@@ -153,7 +157,17 @@ for k in agreement_by_pair.keys():
     a, b = agreement_by_pair[k].keys()
     print(k, ka.krippendorff_alpha([agreement_by_pair[k][a], agreement_by_pair[k][b]], metric=ka.nominal_metric, convert_items=str, missing_items='*'))
 
+## CONFUSION MATRICES
 
+# sheridan and muskaan
+m01 = confusion_matrix(agreement_by_pair['Sheridan and Muskaan']['Sheridan'], agreement_by_pair['Sheridan and Muskaan']['Muskaan'], labels=friedrich_palmer)
+df_m01 = pd.DataFrame(m01, index = friedrich_palmer, columns = friedrich_palmer)
+plt.figure(figsize = (10,7))
+sn.heatmap(df_m01, annot=True)
+plt.show()
+
+
+## DISAGREEMENT
 '''
 disagreement_df = pd.DataFrame.from_dict({'combination' : disagreement_dict.keys(), 'count' : disagreement_dict.values()})
 pd.set_option('display.max_colwidth', None)
