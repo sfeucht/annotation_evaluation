@@ -7,11 +7,12 @@ import krippendorff_alpha as ka
 from clean_up_SE_coh import simplify_SE_type
 from extract_annotations import fill_in_human_grover, fill_in_containers, fill_in_SE_robust
 from sklearn.metrics import confusion_matrix
-
+from clean_up_SE_coh import valid_full_SE_types
 
 
 # Overall macros for the file
 remove_low_confidence = False
+friedrich_palmer_mappings = True
 
 # First, extract all of the SE types and coh relations and put into containers.
 
@@ -107,11 +108,13 @@ for doc_id in h_docs + g_docs:
             a_container_robust = G_SE_container_robust[a_annotator][doc_id]
             b_container_robust = G_SE_container_robust[b_annotator][doc_id]
 
-        # get and save alpha score for these two docs
-        print(len(a_container), len(b_container))
+        
+        # map annotations to simpler friedrich palmer ones if necessary 
+        # print(len(a_container), len(b_container))
         assert(len(a_container) == len(b_container))
-        a_container = list(map(to_friedrich_palmer, a_container))
-        b_container = list(map(to_friedrich_palmer, b_container))
+        if friedrich_palmer_mappings:
+            a_container = list(map(to_friedrich_palmer, a_container))
+            b_container = list(map(to_friedrich_palmer, b_container))
         score = ka.krippendorff_alpha([a_container, b_container], metric=ka.nominal_metric, convert_items=str, missing_items='*')
         alpha_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator]]
 
@@ -152,18 +155,44 @@ print("overall mean alpha score: ", alpha_scores['kripp_alpha'].mean())
 print("human mean alpha score: ", alpha_scores[(alpha_scores['type'] == 'human')]['kripp_alpha'].mean())
 print("grover mean alpha score: ", alpha_scores[(alpha_scores['type'] == 'grover')]['kripp_alpha'].mean())
 
-print('\n' + 'agreement concatenating docs together:')
-for k in agreement_by_pair.keys():
-    a, b = agreement_by_pair[k].keys()
-    print(k, ka.krippendorff_alpha([agreement_by_pair[k][a], agreement_by_pair[k][b]], metric=ka.nominal_metric, convert_items=str, missing_items='*'))
+# print('\n' + 'agreement concatenating docs together:')
+# for k in agreement_by_pair.keys():
+#     a, b = agreement_by_pair[k].keys()
+#     print(k, ka.krippendorff_alpha([agreement_by_pair[k][a], agreement_by_pair[k][b]], metric=ka.nominal_metric, convert_items=str, missing_items='*'))
 
 ## CONFUSION MATRICES
-
+matrix_labels = friedrich_palmer if friedrich_palmer_mappings else valid_full_SE_types
 # sheridan and muskaan
-m01 = confusion_matrix(agreement_by_pair['Sheridan and Muskaan']['Sheridan'], agreement_by_pair['Sheridan and Muskaan']['Muskaan'], labels=friedrich_palmer)
-df_m01 = pd.DataFrame(m01, index = friedrich_palmer, columns = friedrich_palmer)
+m01 = confusion_matrix(agreement_by_pair['Sheridan and Muskaan']['Sheridan'], agreement_by_pair['Sheridan and Muskaan']['Muskaan'], labels=matrix_labels)
+df_m01 = pd.DataFrame(m01, index = matrix_labels, columns = matrix_labels)
 plt.figure(figsize = (10,7))
 sn.heatmap(df_m01, annot=True)
+plt.title('Sheridan and Muskaan - SE Agreement')
+plt.xlabel('Sheridan')
+plt.ylabel('Muskaan')
+plt.subplots_adjust(left=0.29, right=0.95, top=0.958, bottom=0.396)
+plt.show()
+
+# sheridan and kate
+m02 = confusion_matrix(agreement_by_pair['Sheridan and Kate']['Sheridan'], agreement_by_pair['Sheridan and Kate']['Kate'], labels=matrix_labels)
+df_m02 = pd.DataFrame(m02, index = matrix_labels, columns = matrix_labels)
+plt.figure(figsize = (10,7))
+sn.heatmap(df_m02, annot=True)
+plt.title('Sheridan and Kate - SE Agreement')
+plt.xlabel('Sheridan')
+plt.ylabel('Kate')
+plt.subplots_adjust(left=0.29, right=0.95, top=0.958, bottom=0.396)
+plt.show()
+
+# muskaan and kate
+m12 = confusion_matrix(agreement_by_pair['Muskaan and Kate']['Muskaan'], agreement_by_pair['Muskaan and Kate']['Kate'], labels=matrix_labels)
+df_m12 = pd.DataFrame(m12, index = matrix_labels, columns = matrix_labels)
+plt.figure(figsize = (10,7))
+sn.heatmap(df_m12, annot=True)
+plt.title('Muskaan and Kate - SE Agreement')
+plt.xlabel('Muskaan')
+plt.ylabel('Kate')
+plt.subplots_adjust(left=0.29, right=0.95, top=0.958, bottom=0.396)
 plt.show()
 
 

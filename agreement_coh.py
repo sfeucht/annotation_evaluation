@@ -1,10 +1,13 @@
 import random
 import numpy as np
 import pandas as pd
+import matplotlib as plt
+import seaborn as sn
 import krippendorff_alpha as ka
 from copy import deepcopy
 from sklearn.metrics import confusion_matrix, plot_confusion_matrix
 from extract_annotations import fill_in_human_grover, fill_in_containers
+from clean_up_SE_coh import valid_full_coh_rels
 
 # all the top_10 stuff commented out is for sampling actual examples of disagreeing relations from the documents
 # these are macros for the whole file so you can change things easily 
@@ -511,7 +514,59 @@ for k in agreement_by_pair.keys():
     print(k, ka.krippendorff_alpha([agreement_by_pair[k][a], agreement_by_pair[k][b]], metric=ka.nominal_metric, convert_items=str))
 
 
+## CONFUSION MATRICES
+# TODO: have to filter so it's just directly conflicting labels, based on the values I'd noted there
+matching_01 = {'Sheridan':{}, 'Muskaan':{}}
+matching_02 = {'Sheridan':{}, 'Kate':{}}
+matching_12 = {'Muskaan':{}, 'Kate':{}}
+def load_matching_dict(pair, dic):
+    a_annotator, b_annotator = pair.keys()
+    for k,v in pair[a_annotator].items():
+        if k in pair[b_annotator].keys():
+            dic[a_annotator][k] = v
+            dic[b_annotator][k] = pair[b_annotator][k]
 
+load_matching_dict(agreement_by_pair['Sheridan and Muskaan'], matching_01)
+load_matching_dict(agreement_by_pair['Sheridan and Kate'], matching_02)
+load_matching_dict(agreement_by_pair['Muskaan and Kate'], matching_12)
+
+
+# sheridan and muskaan
+m01 = confusion_matrix(matching_01['Sheridan'], matching_01['Muskaan'], labels=valid_full_coh_rels)
+df_m01 = pd.DataFrame(m01, index = valid_full_coh_rels, columns = valid_full_coh_rels)
+plt.figure(figsize = (10,7))
+sn.heatmap(df_m01, annot=True)
+plt.title('Sheridan and Muskaan - Coh Agreement')
+plt.xlabel('Sheridan')
+plt.ylabel('Muskaan')
+plt.subplots_adjust(left=0.29, right=0.95, top=0.958, bottom=0.396)
+plt.show()
+
+# sheridan and Kate
+m02 = confusion_matrix(matching_02['Sheridan'], matching_02['Kate'], labels=valid_full_coh_rels)
+df_m02 = pd.DataFrame(m02, index = valid_full_coh_rels, columns = valid_full_coh_rels)
+plt.figure(figsize = (10,7))
+sn.heatmap(df_m02, annot=True)
+plt.title('Sheridan and Kate - Coh Agreement')
+plt.xlabel('Sheridan')
+plt.ylabel('Kate')
+plt.subplots_adjust(left=0.29, right=0.95, top=0.958, bottom=0.396)
+plt.show()
+
+# Muskaan and Kate
+m12 = confusion_matrix(matching_12['Muskaan'], matching_12['Kate'], labels=valid_full_coh_rels)
+df_m12 = pd.DataFrame(m12, index = valid_full_coh_rels, columns = valid_full_coh_rels)
+plt.figure(figsize = (10,7))
+sn.heatmap(df_m12, annot=True)
+plt.title('Muskaan and Kate - Coh Agreement')
+plt.xlabel('Muskaan')
+plt.ylabel('Kate')
+plt.subplots_adjust(left=0.29, right=0.95, top=0.958, bottom=0.396)
+plt.show()
+
+
+
+## DISAGREEMENT
 disagreement_df = pd.DataFrame.from_dict({'combination' : disagreement_dict.keys(), 'count' : disagreement_dict.values()})
 pd.set_option('display.max_colwidth', None)
 print('\n', disagreement_df.sort_values('count', ascending=False).head(10))
