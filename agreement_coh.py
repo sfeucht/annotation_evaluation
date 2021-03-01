@@ -200,13 +200,17 @@ class DocPairCoherences:
         self.dict_tab = 0 # to keep track of how many things in each dict
         self.larger_dict = {}
         self.smaller_dict = {}
+        self.larger_dict_labels = {} #for confusion matrices
+        self.smaller_dict_labels = {} #for confusion matrices
         self.larger_annotator = ''
         self.smaller_annotator = ''
 
-    def update_dicts(self, l, s):
+    def update_dicts(self, l, s, l_label, s_label):
         self.dict_tab += 1 
         self.larger_dict[self.dict_tab] = l
         self.smaller_dict[self.dict_tab] = s
+        self.larger_dict_labels[self.dict_tab] = l_label
+        self.smaller_dict_labels[self.dict_tab] = s_label
     
     def increment_number_overlapping(self, labels_match):
         self.number_overlapping += 1
@@ -222,6 +226,14 @@ class DocPairCoherences:
             return self.larger_dict
         elif annotator == self.smaller_annotator:
             return self.smaller_dict
+        else:
+            Exception("annotator not found")
+    
+    def get_label_dict_by_annotator(self, annotator):
+        if annotator == self.larger_annotator:
+            return self.larger_dict_labels
+        elif annotator == self.smaller_annotator:
+            return self.smaller_dict_labels
         else:
             Exception("annotator not found")
 
@@ -245,28 +257,28 @@ def coherence_agreement(larger, smaller):
         # also increment number_matching and number_overlapping
         if this_relation in smaller:
             pair.increment_number_overlapping(labels_match=True)
-            pair.update_dicts(1, 1)
+            pair.update_dicts(1, 1, this_relation[4], this_relation[4])
             larger.remove(this_relation)
             smaller.remove(this_relation)
 
         # see if there's an exact match but with an extra/removed x as well
         elif change_x(this_relation) in smaller:
             pair.increment_number_overlapping(labels_match=True)
-            pair.update_dicts(1, 1)
+            pair.update_dicts(1, 1, this_relation[4], change_x(this_relation)[4])
             larger.remove(this_relation)
             smaller.remove(change_x(this_relation))
 
         # see if there's an exact flipped match, if so remove from both
         elif flip(this_relation) in smaller:
             pair.increment_number_overlapping(labels_match=True)
-            pair.update_dicts(1, 1)
+            pair.update_dicts(1, 1, this_relation[4], flip(this_relation)[4])
             larger.remove(this_relation)
             smaller.remove(flip(this_relation))
             
         # see if there's an exact flipped match but with an extra/removed x 
         elif flip(change_x(this_relation)) in smaller:
             pair.increment_number_overlapping(labels_match=True)
-            pair.update_dicts(1, 1)
+            pair.update_dicts(1, 1, this_relation[4], flip(change_x(this_relation))[4])
             larger.remove(this_relation)
             smaller.remove(flip(change_x(this_relation)))
             
@@ -287,7 +299,7 @@ def coherence_agreement(larger, smaller):
                         # then remove first occurrence if the boundaries do overlap 
                         if boundaries_overlap(this_unrolled, that_unrolled):
                             pair.increment_number_overlapping(labels_match=True)
-                            pair.update_dicts(1, 1)
+                            pair.update_dicts(1, 1, this_relation[4], that_relation[4])
                             larger.remove(this_relation)
                             smaller.remove(that_relation)
                             break
@@ -298,7 +310,7 @@ def coherence_agreement(larger, smaller):
                             if this_relation != flip(this_relation): 
                                 if boundaries_overlap(unroll(flip(this_relation)), that_unrolled):
                                     pair.increment_number_overlapping(labels_match=True)
-                                    pair.update_dicts(1, 1)
+                                    pair.update_dicts(1, 1, this_relation[4], that_relation[4])
                                     larger.remove(this_relation)
                                     smaller.remove(that_relation)
                                     break
@@ -314,7 +326,7 @@ def coherence_agreement(larger, smaller):
                     if this_relation[:4] == that_relation[:4]:
                         assert(this_relation != that_relation)
                         pair.increment_number_overlapping(labels_match=False)
-                        pair.update_dicts(2, 3)
+                        pair.update_dicts(2, 3, this_relation[4], that_relation[4])
                         larger.remove(this_relation)
                         smaller.remove(that_relation)
                         break #stop looking through smaller
@@ -323,7 +335,7 @@ def coherence_agreement(larger, smaller):
                     that_unrolled = unroll(that_relation)
                     if boundaries_overlap(this_unrolled, that_unrolled):
                         pair.increment_number_overlapping(labels_match=False)
-                        pair.update_dicts(2, 3)
+                        pair.update_dicts(2, 3, this_relation[4], that_relation[4])
                         larger.remove(this_relation)
                         smaller.remove(that_relation)
                         break
@@ -331,7 +343,7 @@ def coherence_agreement(larger, smaller):
                     elif (this_relation != flip(this_relation)) or (that_relation != flip(that_relation)):
                         if boundaries_overlap(unroll(flip(this_relation)), that_unrolled):
                             pair.increment_number_overlapping(labels_match=False)
-                            pair.update_dicts(2, 3)
+                            pair.update_dicts(2, 3, this_relation[4], that_relation[4])
                             larger.remove(this_relation)
                             smaller.remove(that_relation)
                             break 
@@ -395,12 +407,18 @@ def most_common_disagreements(larger, l_annotator, smaller, s_annotator, doc_id)
 
 
 alpha_list = []
+disagreement_dict = {}
 agreement_by_pair = {
     'Sheridan and Muskaan': {'Sheridan':{}, 'Muskaan':{}}, 
     'Sheridan and Kate': {'Sheridan':{}, 'Kate':{}}, 
     'Muskaan and Kate': {'Muskaan':{}, 'Kate':{}}
 }
-disagreement_dict = {}
+confusion_matrix_pairs = {
+    'Sheridan and Muskaan': {'Sheridan':{}, 'Muskaan':{}}, 
+    'Sheridan and Kate': {'Sheridan':{}, 'Kate':{}}, 
+    'Muskaan and Kate': {'Muskaan':{}, 'Kate':{}}
+}
+
 '''
 # from running this code before, with ignore_elab_disagreements=False
 top_10_combinations = [ 
@@ -466,10 +484,13 @@ for doc_id in h_docs + g_docs:
         # concatenate onto large vectors for each pair of annotators 
         if (a_annotator == 'Sheridan' and b_annotator == 'Muskaan') or (b_annotator == 'Sheridan' and a_annotator == 'Muskaan'):
             p = agreement_by_pair['Sheridan and Muskaan']
+            confusion_p = confusion_matrix_pairs['Sheridan and Muskaan']
         elif (a_annotator == 'Sheridan' and b_annotator == 'Kate') or (b_annotator == 'Sheridan' and a_annotator == 'Kate'):
             p = agreement_by_pair['Sheridan and Kate']
+            confusion_p = confusion_matrix_pairs['Sheridan and Kate']
         elif (a_annotator == 'Muskaan' and b_annotator == 'Kate') or (b_annotator == 'Muskaan' and a_annotator == 'Kate'):
             p = agreement_by_pair['Muskaan and Kate']
+            confusion_p = confusion_matrix_pairs['Muskaan and Kate']
         
         # shift up all of the keys of the current containers so they can be appended 
         a_current_dict = pair.get_dict_by_annotator(a_annotator)
@@ -491,6 +512,24 @@ for doc_id in h_docs + g_docs:
         assert(len(p[b_annotator].keys() & b_shifted.keys()) == 0)
         p[a_annotator].update(a_shifted)
         p[b_annotator].update(b_shifted)
+
+        # for the confusion matrices, use larger_dict_labels and smaller_dict_labels
+        assert(len(pair.larger_dict_labels) == len(pair.smaller_dict_labels))
+        assert(len(confusion_p[a_annotator].keys()) == len(confusion_p[b_annotator].keys()))
+        a_current_dict_labels = pair.get_dict_by_annotator(a_annotator)
+        b_current_dict_labels = pair.get_dict_by_annotator(b_annotator)
+        a_shifted_labels = {}
+        b_shifted_labels = {}
+        shift = len(confusion_p[a_annotator].keys())
+        
+        for k,v in a_current_dict_labels.items():
+            a_shifted_labels[k + shift] = v
+        for k,v in b_current_dict_labels.items():
+            b_shifted_labels[k + shift] = v
+        assert(len(confusion_p[a_annotator].keys() & a_shifted_labels.keys()) == 0)
+        assert(len(confusion_p[b_annotator].keys() & b_shifted_labels.keys()) == 0)
+        confusion_p[a_annotator].update(a_shifted_labels)
+        confusion_p[b_annotator].update(b_shifted_labels)
 
 
 print("boundaries_lenient=" + str(boundaries_lenient))
@@ -515,24 +554,10 @@ for k in agreement_by_pair.keys():
 
 
 ## CONFUSION MATRICES
-# TODO: have to filter so it's just directly conflicting labels, based on the values I'd noted there
-matching_01 = {'Sheridan':{}, 'Muskaan':{}}
-matching_02 = {'Sheridan':{}, 'Kate':{}}
-matching_12 = {'Muskaan':{}, 'Kate':{}}
-def load_matching_dict(pair, dic):
-    a_annotator, b_annotator = pair.keys()
-    for k,v in pair[a_annotator].items():
-        if k in pair[b_annotator].keys():
-            dic[a_annotator][k] = v
-            dic[b_annotator][k] = pair[b_annotator][k]
-
-load_matching_dict(agreement_by_pair['Sheridan and Muskaan'], matching_01)
-load_matching_dict(agreement_by_pair['Sheridan and Kate'], matching_02)
-load_matching_dict(agreement_by_pair['Muskaan and Kate'], matching_12)
-
+# these confusion matrices take the labels at face value; ie does not consider elabx == elab
 
 # sheridan and muskaan
-m01 = confusion_matrix(matching_01['Sheridan'], matching_01['Muskaan'], labels=valid_full_coh_rels)
+m01 = confusion_matrix(confusion_matrix_pairs['Sheridan and Muskaan']['Sheridan'], confusion_matrix_pairs['Sheridan and Muskaan']['Muskaan'], labels=valid_full_coh_rels)
 df_m01 = pd.DataFrame(m01, index = valid_full_coh_rels, columns = valid_full_coh_rels)
 plt.figure(figsize = (10,7))
 sn.heatmap(df_m01, annot=True)
@@ -543,7 +568,7 @@ plt.subplots_adjust(left=0.29, right=0.95, top=0.958, bottom=0.396)
 plt.show()
 
 # sheridan and Kate
-m02 = confusion_matrix(matching_02['Sheridan'], matching_02['Kate'], labels=valid_full_coh_rels)
+m02 = confusion_matrix(confusion_matrix_pairs['Sheridan and Kate']['Sheridan'], confusion_matrix_pairs['Sheridan and Kate']['Kate'], labels=valid_full_coh_rels)
 df_m02 = pd.DataFrame(m02, index = valid_full_coh_rels, columns = valid_full_coh_rels)
 plt.figure(figsize = (10,7))
 sn.heatmap(df_m02, annot=True)
@@ -554,7 +579,7 @@ plt.subplots_adjust(left=0.29, right=0.95, top=0.958, bottom=0.396)
 plt.show()
 
 # Muskaan and Kate
-m12 = confusion_matrix(matching_12['Muskaan'], matching_12['Kate'], labels=valid_full_coh_rels)
+m12 = confusion_matrix(confusion_matrix_pairs['Muskaan and Kate']['Muskaan'], confusion_matrix_pairs['Muskaan and Kate']['Kate'], labels=valid_full_coh_rels)
 df_m12 = pd.DataFrame(m12, index = valid_full_coh_rels, columns = valid_full_coh_rels)
 plt.figure(figsize = (10,7))
 sn.heatmap(df_m12, annot=True)
