@@ -1,13 +1,13 @@
 import random
 import numpy as np
 import pandas as pd
-import matplotlib as plt
+import matplotlib.pyplot as plt
 import seaborn as sn
 import krippendorff_alpha as ka
 from copy import deepcopy
 from sklearn.metrics import confusion_matrix, plot_confusion_matrix
 from extract_annotations import fill_in_human_grover, fill_in_containers
-from clean_up_SE_coh import valid_full_coh_rels
+from clean_up_SE_coh import valid_full_coh_rels, valid_simple_coh_rels
 
 # all the top_10 stuff commented out is for sampling actual examples of disagreeing relations from the documents
 # these are macros for the whole file so you can change things easily 
@@ -15,6 +15,7 @@ boundaries_lenient = False
 ignore_elab_disagreements = False
 elab_blobs_on = False
 remove_low_confidence = True
+confusion_matrix_simple = True
 
 # First, extract all of the SE types and coh relations and put into containers.
 
@@ -200,8 +201,8 @@ class DocPairCoherences:
         self.dict_tab = 0 # to keep track of how many things in each dict
         self.larger_dict = {}
         self.smaller_dict = {}
-        self.larger_dict_labels = {} #for confusion matrices
-        self.smaller_dict_labels = {} #for confusion matrices
+        self.larger_labels = [] #for confusion matrices
+        self.smaller_labels = [] #for confusion matrices
         self.larger_annotator = ''
         self.smaller_annotator = ''
 
@@ -209,8 +210,8 @@ class DocPairCoherences:
         self.dict_tab += 1 
         self.larger_dict[self.dict_tab] = l
         self.smaller_dict[self.dict_tab] = s
-        self.larger_dict_labels[self.dict_tab] = l_label
-        self.smaller_dict_labels[self.dict_tab] = s_label
+        self.larger_labels.append(l_label)
+        self.smaller_labels.append(s_label)
     
     def increment_number_overlapping(self, labels_match):
         self.number_overlapping += 1
@@ -229,11 +230,11 @@ class DocPairCoherences:
         else:
             Exception("annotator not found")
     
-    def get_label_dict_by_annotator(self, annotator):
+    def get_labels_by_annotator(self, annotator):
         if annotator == self.larger_annotator:
-            return self.larger_dict_labels
+            return self.larger_labels
         elif annotator == self.smaller_annotator:
-            return self.smaller_dict_labels
+            return self.smaller_labels
         else:
             Exception("annotator not found")
 
@@ -414,9 +415,9 @@ agreement_by_pair = {
     'Muskaan and Kate': {'Muskaan':{}, 'Kate':{}}
 }
 confusion_matrix_pairs = {
-    'Sheridan and Muskaan': {'Sheridan':{}, 'Muskaan':{}}, 
-    'Sheridan and Kate': {'Sheridan':{}, 'Kate':{}}, 
-    'Muskaan and Kate': {'Muskaan':{}, 'Kate':{}}
+    'Sheridan and Muskaan': {'Sheridan':[], 'Muskaan':[]}, 
+    'Sheridan and Kate': {'Sheridan':[], 'Kate':[]}, 
+    'Muskaan and Kate': {'Muskaan':[], 'Kate':[]}
 }
 
 '''
@@ -513,23 +514,12 @@ for doc_id in h_docs + g_docs:
         p[a_annotator].update(a_shifted)
         p[b_annotator].update(b_shifted)
 
-        # for the confusion matrices, use larger_dict_labels and smaller_dict_labels
-        assert(len(pair.larger_dict_labels) == len(pair.smaller_dict_labels))
-        assert(len(confusion_p[a_annotator].keys()) == len(confusion_p[b_annotator].keys()))
-        a_current_dict_labels = pair.get_dict_by_annotator(a_annotator)
-        b_current_dict_labels = pair.get_dict_by_annotator(b_annotator)
-        a_shifted_labels = {}
-        b_shifted_labels = {}
-        shift = len(confusion_p[a_annotator].keys())
-        
-        for k,v in a_current_dict_labels.items():
-            a_shifted_labels[k + shift] = v
-        for k,v in b_current_dict_labels.items():
-            b_shifted_labels[k + shift] = v
-        assert(len(confusion_p[a_annotator].keys() & a_shifted_labels.keys()) == 0)
-        assert(len(confusion_p[b_annotator].keys() & b_shifted_labels.keys()) == 0)
-        confusion_p[a_annotator].update(a_shifted_labels)
-        confusion_p[b_annotator].update(b_shifted_labels)
+        # for the confusion matrices, use larger_labels and smaller_labels
+        assert(len(pair.larger_labels) == len(pair.smaller_labels))
+        assert(len(confusion_p[a_annotator]) == len(confusion_p[b_annotator]))
+        confusion_p[a_annotator] += pair.get_labels_by_annotator(a_annotator)
+        confusion_p[b_annotator] += pair.get_labels_by_annotator(b_annotator)
+
 
 
 print("boundaries_lenient=" + str(boundaries_lenient))
@@ -555,38 +545,46 @@ for k in agreement_by_pair.keys():
 
 ## CONFUSION MATRICES
 # these confusion matrices take the labels at face value; ie does not consider elabx == elab
+# if confusion_matrix_simple, turn all the 'x' relations into their normal relation version
+if confusion_matrix_simple:
+    for d in confusion_matrix_pairs.values():
+        for k in d.keys():
+            d[k] = list(map(lambda r: r[:-1] if r[-1]=='x' else r, d[k]))
+    matrix_coh_rels = valid_simple_coh_rels
+else: 
+    matrix_coh_rels = valid_full_coh_rels
 
 # sheridan and muskaan
-m01 = confusion_matrix(confusion_matrix_pairs['Sheridan and Muskaan']['Sheridan'], confusion_matrix_pairs['Sheridan and Muskaan']['Muskaan'], labels=valid_full_coh_rels)
-df_m01 = pd.DataFrame(m01, index = valid_full_coh_rels, columns = valid_full_coh_rels)
+m01 = confusion_matrix(confusion_matrix_pairs['Sheridan and Muskaan']['Sheridan'], confusion_matrix_pairs['Sheridan and Muskaan']['Muskaan'], labels=matrix_coh_rels)
+df_m01 = pd.DataFrame(m01, index = matrix_coh_rels, columns = matrix_coh_rels)
 plt.figure(figsize = (10,7))
 sn.heatmap(df_m01, annot=True)
 plt.title('Sheridan and Muskaan - Coh Agreement')
 plt.xlabel('Sheridan')
 plt.ylabel('Muskaan')
-plt.subplots_adjust(left=0.29, right=0.95, top=0.958, bottom=0.396)
+plt.subplots_adjust(left=0.12, right=1, top=0.958, bottom=0.13)
 plt.show()
 
 # sheridan and Kate
-m02 = confusion_matrix(confusion_matrix_pairs['Sheridan and Kate']['Sheridan'], confusion_matrix_pairs['Sheridan and Kate']['Kate'], labels=valid_full_coh_rels)
-df_m02 = pd.DataFrame(m02, index = valid_full_coh_rels, columns = valid_full_coh_rels)
+m02 = confusion_matrix(confusion_matrix_pairs['Sheridan and Kate']['Sheridan'], confusion_matrix_pairs['Sheridan and Kate']['Kate'], labels=matrix_coh_rels)
+df_m02 = pd.DataFrame(m02, index = matrix_coh_rels, columns = matrix_coh_rels)
 plt.figure(figsize = (10,7))
 sn.heatmap(df_m02, annot=True)
 plt.title('Sheridan and Kate - Coh Agreement')
 plt.xlabel('Sheridan')
 plt.ylabel('Kate')
-plt.subplots_adjust(left=0.29, right=0.95, top=0.958, bottom=0.396)
+plt.subplots_adjust(left=0.12, right=1, top=0.958, bottom=0.13)
 plt.show()
 
 # Muskaan and Kate
-m12 = confusion_matrix(confusion_matrix_pairs['Muskaan and Kate']['Muskaan'], confusion_matrix_pairs['Muskaan and Kate']['Kate'], labels=valid_full_coh_rels)
-df_m12 = pd.DataFrame(m12, index = valid_full_coh_rels, columns = valid_full_coh_rels)
+m12 = confusion_matrix(confusion_matrix_pairs['Muskaan and Kate']['Muskaan'], confusion_matrix_pairs['Muskaan and Kate']['Kate'], labels=matrix_coh_rels)
+df_m12 = pd.DataFrame(m12, index = matrix_coh_rels, columns = matrix_coh_rels)
 plt.figure(figsize = (10,7))
 sn.heatmap(df_m12, annot=True)
 plt.title('Muskaan and Kate - Coh Agreement')
 plt.xlabel('Muskaan')
 plt.ylabel('Kate')
-plt.subplots_adjust(left=0.29, right=0.95, top=0.958, bottom=0.396)
+plt.subplots_adjust(left=0.12, right=1, top=0.958, bottom=0.13)
 plt.show()
 
 

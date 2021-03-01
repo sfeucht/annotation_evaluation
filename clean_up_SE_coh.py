@@ -67,6 +67,8 @@ for annotator in annotators:
 valid_full_coh_rels = ['ce', 'cex', 'elab', 'elabx', 'same', 'samex', 'attr', 
 'attrx', 'attrm', 'attrmx', 'deg', 'sim', 'simx', 'contr', 'contrx', 'temp',
 'tempx', 've', 'vex', 'examp', 'exampx', 'cond', 'condx', 'gen', 'genx', 'rep']
+valid_simple_coh_rels = ['ce', 'elab', 'same', 'attr', 'attrm', 'deg', 'sim', 
+'contr',  'temp', 've', 'examp', 'cond', 'gen', 'rep']
 
 ### assumes that typos are for non-x versions. 
 def fix_coh_typo(old, f, annotator):
