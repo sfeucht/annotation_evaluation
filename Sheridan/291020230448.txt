@@ -64,4 +64,4 @@ At the same time, about 1 in 5 users are near or at daily consumption. ##GENERIC
 Frequent users consume the vast majority of marijuana ##GENERIC SENTENCE (DYNAMIC)
 While those roughly daily users account for just a fifth of the user population, ##UNBOUNDED EVENT (GENERIC)
 they consume fully two thirds of the product. ##GENERIC SENTENCE (DYNAMIC)
-***0 5 5 0 0 0 0 0 YES ML YES 0 0 0 0 0 HUMAN
+***0 5 5 0 0 0 0 0 YES ML YES 0 0 0 0 HUMAN

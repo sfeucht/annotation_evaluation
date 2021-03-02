@@ -34,4 +34,4 @@ Did we know ##QUESTION
  we were lying about the drugs ? ##GENERALIZING SENTENCE (DYNAMIC)
 Of course we did . ” ##BASIC STATE
 
-***0 5 0 3 5 4 5 2 YES ML YES 4 2 5 3 4 HUMAN
+***0 5 0 3 5 4 5 2 YES ML YES 4 2 5 3 HUMAN

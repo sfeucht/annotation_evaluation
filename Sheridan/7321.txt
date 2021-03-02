@@ -30,4 +30,4 @@ That's what they do with cigarettes, ##GENERIC SENTENCE (DYNAMIC) //4
 which is shit ##GENERIC SENTENCE (STATIC)
 because cigarettes are so bad for peoples health. ##GENERIC SENTENCE (STATIC)
 edit: spelling ##OTHER
-***0 5 0 0 0 0 0 0 YES ML YES 2 2 4 4 5 HUMAN
+***0 5 0 0 0 0 0 0 YES ML YES 2 2 4 4 HUMAN

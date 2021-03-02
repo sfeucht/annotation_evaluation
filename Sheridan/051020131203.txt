@@ -37,4 +37,4 @@ or else you risk acting in contradiction to your own beliefs. ##UNBOUNDED EVENT 
 They may not be contradictory, ##GENERIC SENTENCE (STATIC) 
 but they these ideas are in conflict ##GENERIC SENTENCE (STATIC)*
 with which principles will allow both. ##COERCED STATE (GENERIC)*
-***0 5 0 0 0 0 0 0 YES ML YES 0 3 3 5 5 HUMAN
+***0 5 0 0 0 0 0 0 YES ML YES 0 3 5 5 HUMAN

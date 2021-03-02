@@ -39,4 +39,4 @@ And now they proudly report the fewest users of these " new drugs " ##GENERIC SE
  tracking " new drug " users . ##GENERIC SENTENCE (DYNAMIC)  
 Krokodil , Spice and Bath Salts are n't a big problem in Portugal ,  ##GENERIC SENTENCE (STATIC) 
  because Portuguese people can more safely use heroin , cannabis and cocaine . ##COERCED STATE (GENERIC)
-*** 0 5 0 0 NA NA NA NA YES ML 0 0 NA NA HUMAN
+*** 0 5 0 0 NA NA NA NA YES ML YES 0 0 NA NA HUMAN

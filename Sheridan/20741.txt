@@ -40,4 +40,4 @@ Christians should be the biggest pot heads. ##GENERIC SENTENCE (STATIC)
 God made grass after all. ##BOUNDED EVENT (SPECIFIC)
 Or is that the infamous tree of the knowledge of good & evil ##QUESTION
 that pisses god off so much? ##GENERALIZING SENTENCE (DYNAMIC)
-***0 5 0 0 0 0 0 0 YES ML YES 5 3 2 3 2 HUMAN
+***0 5 0 0 0 0 0 0 YES ML YES 5 3 2 3 HUMAN

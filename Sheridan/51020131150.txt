@@ -41,4 +41,4 @@ but Im not 100 percent on the justification ##BASIC STATE
 that we do bad things already, ##GENERIC SENTENCE (DYNAMIC)
 so why not do more, ##QUESTION
 not as bad things? ##GENERIC SENTENCE (STATIC)
-***0 5 0 0 0 0 0 0 YES ML YES 2 2 4 3 4 HUMAN
+***0 5 0 0 0 0 0 0 YES ML YES 2 2 4 3 HUMAN

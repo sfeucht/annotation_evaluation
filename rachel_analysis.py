@@ -72,6 +72,9 @@ def narrative_SE_counts(Doc_container, SE_container, no_narrative_counts, narrat
 
             narrativity_counts[int(ratings[3].strip())] += 1
 
+            # if len(ratings) != 16:
+            #     print(doc_id, annotator, len(ratings))
+
             ## TODO: for each of these things, put in different dictionaries 
             if ratings[3] == '0': # TODO: change ratings[3] to what you're looking at
                 for SE in SE_list:

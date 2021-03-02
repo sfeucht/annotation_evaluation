@@ -34,4 +34,4 @@ I think ##BASIC STATE
  or we revert to the 1600's. ##GENERIC SENTENCE (DYNAMIC)
 Do you know ##BASIC STATE
  we have more people in jail by a percentage of our population than Russia , Iran , or China ? ##QUESTION
-***0 4 0 2 4 2 2 5 YES SSM YES 2 2 0 0 1 HUMAN
+***0 4 0 2 4 2 2 5 YES SSM YES 2 2 0 0 HUMAN
