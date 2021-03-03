@@ -1,0 +1,34 @@
+A state official has reluctantly added post-traumatic stress disorder to the list of conditions ##PERFECT COERCED STATE (SPECIFIC)
+ that qualify for medical marijuana in Michigan . ##GENERIC SENTENCE (STATIC)
+Steve Arwood , ##OTHER
+ who heads the agency ##GENERALIZING SENTENCE (DYNAMIC)
+ that oversees the program , ##GENERALIZING SENTENCE (DYNAMIC)
+ said ##BOUNDED EVENT (SPECIFIC)
+ hes following the recommendation of an advisory panel , ##UNBOUNDED EVENT (SPECIFIC)
+especially the affirmative vote of Michigans chief medical executive , ##OTHER
+Dr. Matthew Davis . ##OTHER
+I do remain very concerned with the scope of this approval and the process in general . ##BASIC STATE
+First , ##OTHER
+ the condition of PTSD is a mental health issue . ##GENERIC SENTENCE (STATIC)
+Granting this approval steps Michigan away from the use of marijuana for disease of the body or chronic pain symptoms of a physical nature , ##UNBOUNDED EVENT (SPECIFIC)
+ Arwood said in an order ##BOUNDED EVENT (SPECIFIC)
+ dated last Friday . ##BASIC STATE
+PTSD is considered a mental health condition ##GENERIC SENTENCE (STATIC)
+ linked to a terrifying event . ##GENERIC SENTENCE (STATIC)
+Since Michigan voters approved it in 2008 , ##BOUNDED EVENT (SPECIFIC)
+ marijuana typically has been used ##GENERIC SENTENCE (HABITUAL)
+ to relieve the side effects of cancer , glaucoma , HIV , hepatitis C and a few other conditions . ##GENERIC SENTENCE (HABITUAL)
+PTSD is the first condition to be added to the original list , ##BASIC STATE
+ although seven other states allow doctors to recommend marijuana ##BASIC STATE
+ to treat the disorder . ##GENERIC SENTENCE (DYNAMIC)
+Michigan users of medical marijuana need a doctors diagnosis and a card from the state . ##GENERIC SENTENCE (STATIC)
+More than 100,000 people have cards , ##BASIC STATE
+ including 86 ##OTHER
+ who are under age 18 , ##BASIC STATE
+ according to the Department of Licensing and Regulatory Affairs . ##BASIC STATE
+I remain concerned ##BASIC STATE
+ that there may be insufficient evidence on the effect of marijuana on minors , ##GENERIC SENTENCE (STATIC)
+ said Arwood , ##BOUNDED EVENT (SPECIFIC)
+department director . ##OTHER
+
+***0 5 5 1 5 5 5 1 YES ML YES 2 3 5 5 HUMAN

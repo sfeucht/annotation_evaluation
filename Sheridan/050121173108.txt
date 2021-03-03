@@ -1,0 +1,70 @@
+The slow-motion legalization of marijuana in Florida is making locals and local authorities nervous . ##UNBOUNDED EVENT (GENERIC)
+Federal officials say ##GENERIC SENTENCE (STATIC)
+ businesses have not been complying with two federal regulations . ##COERCED STATE (GENERIC)
+Michael Webb of Tuskegee , Alabama , farms corn and a couple dozen other crops ##GENERALIZING SENTENCE (DYNAMIC)
+ and collects more than 50,000 meals . ##GENERALIZING SENTENCE (DYNAMIC)
+The federal government will go take them , ##COERCED STATE (SPECIFIC)
+ Webb said . ##BOUNDED EVENT (SPECIFIC)
+They have no local or state tax to work with them . ##BASIC STATE
+But Webbs farm needs federal approval ##BASIC STATE
+ to grow , harvest and sell marijuana . ##GENERALIZING SENTENCE (DYNAMIC) //3
+A federal judge recently let the Florida law lapse ##BOUNDED EVENT (SPECIFIC)
+ and placed restrictions on whether Dr. Judy Miles could transmit her pot clients . ##BOUNDED EVENT (SPECIFIC)
+You dont carry your business here . ##COERCED STATE (GENERIC)*
+You dont even go to that different area ##COERCED STATE (GENERIC)
+ where theres people ##GENERIC SENTENCE (STATIC)
+ just popping up popping up , ##UNBOUNDED EVENT (GENERIC)*
+ popping up on the street , ##UNBOUNDED EVENT (GENERIC)
+ popping up on the farm , ##UNBOUNDED EVENT (GENERIC)
+ Webb said . ##BOUNDED EVENT (SPECIFIC)
+A bill ##OTHER
+ that would allow the state to legalize marijuana ##COERCED STATE (SPECIFIC)
+ sold at grocery stores ##GENERIC SENTENCE (DYNAMIC)
+ has ##OTHER
+ advanced to the governors desk for a vote . ##PERFECT COERCED STATE (SPECIFIC)
+We will accept a federal rule ##COERCED STATE (SPECIFIC) //4
+ they didnt , ##COERCED STATE (SPECIFIC) //4
+ Webb said . ##BOUNDED EVENT (SPECIFIC)
+It doesnt matter ##BASIC STATE
+ what they do as long ##OTHER
+ as I can keep my operation going , ##COERCED STATE (SPECIFIC)
+ cause ##OTHER
+ the price is crazy . ##BASIC STATE //4
+In August 2014 , ##OTHER
+Washington State Attorney General Bob Ferguson signed a bill ##BOUNDED EVENT (SPECIFIC)
+ providing legal marijuana sales and tax to 6.5 million Washington consumers . ##UNBOUNDED EVENT (SPECIFIC)
+The law allows Washington residents to purchase medical pot ##BASIC STATE
+ and find out their daily dose ##GENERIC SENTENCE (DYNAMIC)
+ if they want . ##GENERIC SENTENCE (STATIC)
+While that law is being fiercely fought over by Seattle and Portland , Ore. , ##UNBOUNDED EVENT (SPECIFIC)
+ they are also appealing laws ##UNBOUNDED EVENT (SPECIFIC) //3
+ put into effect in Colorado and Washington state . ##BOUNDED EVENT (SPECIFIC)
+They allow people to grow their business and a profit from it ##BASIC STATE //3
+ and take care of their family and their horses and their children , ##UNBOUNDED EVENT (GENERIC) //4
+ Webb said . ##BOUNDED EVENT (SPECIFIC)
+We could have a free market as much ##GENERIC SENTENCE (STATIC)
+ as we are . ##GENERIC SENTENCE (STATIC)*
+Florida officials say ##GENERIC SENTENCE (STATIC)
+ they are aware of their individual state laws . ##GENERIC SENTENCE (STATIC)
+But Webb worries about the spread of diseases ##GENERALIZING SENTENCE (DYNAMIC) //4
+ that could continue to spread to his crop . ##COERCED STATE (GENERIC)
+I was caught growing those weeds in my back yard , ##BOUNDED EVENT (SPECIFIC)
+ Webb said . ##BOUNDED EVENT (SPECIFIC)
+There was no going back ##GENERIC SENTENCE (STATIC)
+ and I havent taken care of that ever . ##COERCED STATE (SPECIFIC)
+Right now , ##OTHER
+Florida officials say ##GENERIC SENTENCE (STATIC)
+ they dont have a uniform strategy to give people pot ##GENERIC SENTENCE (STATIC)
+ without paying a higher tax . ##COERCED STATE (GENERIC) //4
+The U.S. government comes here legally ##GENERALIZING SENTENCE (DYNAMIC)
+ and does a whole bunch of things , ##GENERALIZING SENTENCE (DYNAMIC)
+ weve got agreements in place ##BASIC STATE
+ to set us up ##UNBOUNDED EVENT (SPECIFIC)
+ and make sure ##UNBOUNDED EVENT (SPECIFIC)
+ we do what we can do , ##GENERALIZING SENTENCE (DYNAMIC) 
+ a spokeswoman for Florida Health Commissioner Dr. Martin Mota said . ##BOUNDED EVENT (SPECIFIC)
+So some of these are assets ##BASIC STATE //3
+ we are able to manage with , ##COERCED STATE (SPECIFIC)* //2
+ but we dont have a uniform approach ##BASIC STATE
+ and strategy to it . ##OTHER
+***0 5 5 1 4 1 3 5 YES ML YES 4 2 2 1 ALGORITHM
