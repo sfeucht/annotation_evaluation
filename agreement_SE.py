@@ -12,7 +12,7 @@ from clean_up_SE_coh import valid_full_SE_types
 
 # Overall macros for the file
 remove_low_confidence = False
-friedrich_palmer_mappings = True
+friedrich_palmer_mappings = False
 
 # First, extract all of the SE types and coh relations and put into containers.
 
@@ -155,10 +155,10 @@ print("overall mean alpha score: ", alpha_scores['kripp_alpha'].mean())
 print("human mean alpha score: ", alpha_scores[(alpha_scores['type'] == 'human')]['kripp_alpha'].mean())
 print("grover mean alpha score: ", alpha_scores[(alpha_scores['type'] == 'grover')]['kripp_alpha'].mean())
 
-# print('\n' + 'agreement concatenating docs together:')
-# for k in agreement_by_pair.keys():
-#     a, b = agreement_by_pair[k].keys()
-#     print(k, ka.krippendorff_alpha([agreement_by_pair[k][a], agreement_by_pair[k][b]], metric=ka.nominal_metric, convert_items=str, missing_items='*'))
+print('\n' + 'agreement concatenating docs together:')
+for k in agreement_by_pair.keys():
+    a, b = agreement_by_pair[k].keys()
+    print(k, ka.krippendorff_alpha([agreement_by_pair[k][a], agreement_by_pair[k][b]], metric=ka.nominal_metric, convert_items=str, missing_items='*'))
 
 ## CONFUSION MATRICES
 matrix_labels = friedrich_palmer if friedrich_palmer_mappings else valid_full_SE_types

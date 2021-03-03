@@ -14,7 +14,7 @@ Granting this approval steps Michigan away from the use of marijuana for disease
  Arwood said in an order ##BOUNDED EVENT (SPECIFIC)
  dated last Friday . ##BOUNDED EVENT (SPECIFIC) //3
 PTSD is considered a mental health condition ##BASIC STATE
- linked to a terrifying event . ##GENERALIZING SENTENCE (HABITUAL) //4
+ linked to a terrifying event . ##GENERALIZING SENTENCE (STATIVE) //4
 Since Michigan voters approved it in 2008 , ##BOUNDED EVENT (GENERIC)
  marijuana typically has been used ##PERFECT COERCED STATE (GENERIC)
  to relieve the side effects of cancer , glaucoma , HIV , hepatitis C and a few other conditions . ##GENERIC SENTENCE (DYNAMIC)

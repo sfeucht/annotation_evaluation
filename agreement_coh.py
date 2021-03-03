@@ -11,11 +11,11 @@ from clean_up_SE_coh import valid_full_coh_rels, valid_simple_coh_rels
 
 # all the top_10 stuff commented out is for sampling actual examples of disagreeing relations from the documents
 # these are macros for the whole file so you can change things easily 
-boundaries_lenient = False
-ignore_elab_disagreements = False
-elab_blobs_on = False
+boundaries_lenient = True
+ignore_elab_disagreements = True
+elab_blobs_on = True
 remove_low_confidence = True
-confusion_matrix_simple = True
+confusion_matrix_simple = False
 
 # First, extract all of the SE types and coh relations and put into containers.
 
@@ -525,6 +525,7 @@ for doc_id in h_docs + g_docs:
 print("boundaries_lenient=" + str(boundaries_lenient))
 print("ignore_elab_disagreements=" + str(ignore_elab_disagreements))
 print("elab_blobs_on=" + str(elab_blobs_on))
+print("remove_low_confidence=" + str(remove_low_confidence))
 if elab_blobs_on:
     print('average blob_diff: ', np.mean(blob_diff))
 

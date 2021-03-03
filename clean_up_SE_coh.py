@@ -43,7 +43,6 @@ def fix_SE_typo(old, f, annotator):
 
 ### this code fixes SE typos in the whole corpus
 ### if a typo has been seen before and is in this code, fixes it, otherwise prints
-'''
 for annotator in annotators:
     folder = os.listdir("{}/".format(annotator))
     SE_files = [f for f in folder if 'annotation' not in f]
@@ -63,7 +62,7 @@ for annotator in annotators:
                             annotated_doc.write(line)
                 else:
                     annotated_doc.write(line)
-'''
+
 
 
 valid_full_coh_rels = ['ce', 'cex', 'elab', 'elabx', 'same', 'samex', 'attr', 
@@ -90,7 +89,7 @@ def fix_coh_typo(old, f, annotator):
 
 ### this code fixes coherence typos in the whole corpus
 ### if a typo has been seen before and is in this code, fixes it, otherwise prints
-'''
+
 for annotator in annotators:
     folder = os.listdir("{}/".format(annotator))
     coh_files = [f for f in folder if 'annotation' in f]
@@ -109,7 +108,7 @@ for annotator in annotators:
                             annotations.write(line)
                 else:
                     annotations.write(line)
-'''
+
 
 ################################################################################
 
