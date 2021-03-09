@@ -15,7 +15,7 @@ They Are Pro-War ##GENERIC SENTENCE (STATIC)
 The Obama administration has started more wars ##PERFECT COERCED STATE (SPECIFIC)
  and spent more money on war than the bush administration . ##BOUNDED EVENT (SPECIFIC)
 So I think ##BASIC STATE
- when you said ##BOUNDED EVENT
+ when you said ##BOUNDED EVENT (SPECIFIC)
  " this is obvious " , ##BASIC STATE
  what you meant to say ##UNBOUNDED EVENT (SPECIFIC)
  was this is obviously wrong . ##BASIC STATE

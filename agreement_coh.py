@@ -241,12 +241,9 @@ class DocPairCoherences:
 
 
 # function that takes in two coherence relation containers, returns agreement alpha score
-def coherence_agreement(larger, smaller):
+def coherence_agreement(larger, smaller, pair):
     larger_original_len = len(larger)
     smaller_original_len = len(smaller)
-
-    # create object to store dictionaries and counts for all the dis/agreements
-    pair = DocPairCoherences()
 
     # iterate over these copies, but remove and check from the originals 
     larger_copy = deepcopy(larger)
@@ -367,7 +364,7 @@ def coherence_agreement(larger, smaller):
         assert(i not in pair.smaller_dict.keys())
         pair.smaller_dict[i] = 4
 
-    return (ka.krippendorff_alpha([pair.larger_dict, pair.smaller_dict], metric=ka.nominal_metric), pair)
+    return ka.krippendorff_alpha([pair.larger_dict, pair.smaller_dict], metric=ka.nominal_metric)
 
 
 def most_common_disagreements(larger, l_annotator, smaller, s_annotator, doc_id):
@@ -407,6 +404,93 @@ def most_common_disagreements(larger, l_annotator, smaller, s_annotator, doc_id)
                     '''
 
 
+def unpack_and_calculate(tuples0, tuples1, alpha_list):
+    doc_id, a_annotator, is_human = tuples0
+    doc_idb, b_annotator, is_humanb = tuples1
+    assert(doc_id == doc_idb and is_human == is_humanb)
+
+    if is_human:
+        a_container = H_Coh_container[a_annotator][doc_id] 
+        b_container = H_Coh_container[b_annotator][doc_id]
+    else:
+        a_container = G_Coh_container[a_annotator][doc_id] 
+        b_container = G_Coh_container[b_annotator][doc_id]
+
+    # remove all elab and elabxes from containers
+    # remove_elabs(a_container)
+    # remove_elabs(b_container)
+
+    # remove incoherent relations and place them into container by themselves
+    # a_container = remove_incoherent(a_container)
+    # b_container = remove_incoherent(b_container)
+
+    # elab_blobs if you want
+    if elab_blobs_on:
+        blob_diff.append(elab_blobs(a_container))
+        blob_diff.append(elab_blobs(b_container))
+
+    len_a = len(a_container)
+    len_b = len(b_container)
+    a_container_2 = deepcopy(a_container)
+    b_container_2 = deepcopy(b_container)
+    a_container_3 = deepcopy(a_container)
+    b_container_3 = deepcopy(b_container)
+
+    # create object to store dictionaries and counts for all the dis/agreements
+    pair = DocPairCoherences()
+
+    if len_a >= len_b:
+        pair.set_which_annotator(a_annotator, b_annotator)
+        score = coherence_agreement(a_container_2, b_container_2, pair)
+        most_common_disagreements(a_container_3, a_annotator, b_container_3, b_annotator, doc_id)
+    else:
+        pair.set_which_annotator(b_annotator, a_annotator)
+        score = coherence_agreement(b_container_2, a_container_2, pair)
+        most_common_disagreements(b_container_3, b_annotator, a_container_3, a_annotator, doc_id)
+        
+    proportion_a = pair.number_overlapping / len_a
+    proportion_b = pair.number_overlapping / len_b
+    alpha_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator, len_a, len_b, pair.number_matching, pair.number_overlapping, proportion_a, proportion_b]]
+
+    # concatenate onto large vectors for each pair of annotators 
+    if (a_annotator == 'Sheridan' and b_annotator == 'Muskaan') or (b_annotator == 'Sheridan' and a_annotator == 'Muskaan'):
+        p = agreement_by_pair['Sheridan and Muskaan']
+        confusion_p = confusion_matrix_pairs['Sheridan and Muskaan']
+    elif (a_annotator == 'Sheridan' and b_annotator == 'Kate') or (b_annotator == 'Sheridan' and a_annotator == 'Kate'):
+        p = agreement_by_pair['Sheridan and Kate']
+        confusion_p = confusion_matrix_pairs['Sheridan and Kate']
+    elif (a_annotator == 'Muskaan' and b_annotator == 'Kate') or (b_annotator == 'Muskaan' and a_annotator == 'Kate'):
+        p = agreement_by_pair['Muskaan and Kate']
+        confusion_p = confusion_matrix_pairs['Muskaan and Kate']
+    
+    # shift up all of the keys of the current containers so they can be appended 
+    a_current_dict = pair.get_dict_by_annotator(a_annotator)
+    b_current_dict = pair.get_dict_by_annotator(b_annotator)
+    a_shifted = {}
+    b_shifted = {}
+    try:
+        shift = max(max(p[a_annotator].keys()), max(p[b_annotator].keys()))
+    except ValueError:
+        shift = 0
+
+    for k,v in a_current_dict.items():
+        a_shifted[k + shift] = v
+    for k,v in b_current_dict.items():
+        b_shifted[k + shift] = v
+    assert(len(a_shifted) > 0 and len(b_shifted) > 0)
+
+    assert(len(p[a_annotator].keys() & a_shifted.keys()) == 0)
+    assert(len(p[b_annotator].keys() & b_shifted.keys()) == 0)
+    p[a_annotator].update(a_shifted)
+    p[b_annotator].update(b_shifted)
+
+    # for the confusion matrices, use larger_labels and smaller_labels
+    assert(len(pair.larger_labels) == len(pair.smaller_labels))
+    assert(len(confusion_p[a_annotator]) == len(confusion_p[b_annotator]))
+    confusion_p[a_annotator] += pair.get_labels_by_annotator(a_annotator)
+    confusion_p[b_annotator] += pair.get_labels_by_annotator(b_annotator)
+
+
 alpha_list = []
 disagreement_dict = {}
 agreement_by_pair = {
@@ -439,87 +523,12 @@ top_10_combinations_dict = {key:[] for key in top_10_combinations}
 blob_diff = []
 for doc_id in h_docs + g_docs:
     tuples = [t for t in Coh_accounted_for if t[0]==doc_id]
-    if len(tuples) > 1: 
-        assert(len(tuples)==2)
-        _, a_annotator, is_human = tuples[0]
-        _, b_annotator, _ = tuples[1]
-
-        if is_human:
-            a_container = H_Coh_container[a_annotator][doc_id] 
-            b_container = H_Coh_container[b_annotator][doc_id]
-        else:
-            a_container = G_Coh_container[a_annotator][doc_id] 
-            b_container = G_Coh_container[b_annotator][doc_id]
-
-        # remove all elab and elabxes from containers
-        # remove_elabs(a_container)
-        # remove_elabs(b_container)
-
-        # remove incoherent relations and place them into container by themselves
-        # a_container = remove_incoherent(a_container)
-        # b_container = remove_incoherent(b_container)
-
-        # elab_blobs if you want
-        if elab_blobs_on:
-            blob_diff.append(elab_blobs(a_container))
-            blob_diff.append(elab_blobs(b_container))
-
-        len_a = len(a_container)
-        len_b = len(b_container)
-        a_container_2 = deepcopy(a_container)
-        b_container_2 = deepcopy(b_container)
-
-        if len_a >= len_b:
-            score, pair = coherence_agreement(a_container, b_container)
-            pair.set_which_annotator(a_annotator, b_annotator)
-            most_common_disagreements(a_container_2, a_annotator, b_container_2, b_annotator, doc_id)
-        else:
-            score, pair = coherence_agreement(b_container, a_container)
-            pair.set_which_annotator(b_annotator, a_annotator)
-            most_common_disagreements(b_container_2, b_annotator, a_container_2, a_annotator, doc_id)
-            
-        proportion_a = pair.number_overlapping / len_a
-        proportion_b = pair.number_overlapping / len_b
-        alpha_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator, len_a, len_b, pair.number_matching, pair.number_overlapping, proportion_a, proportion_b]]
-
-        # concatenate onto large vectors for each pair of annotators 
-        if (a_annotator == 'Sheridan' and b_annotator == 'Muskaan') or (b_annotator == 'Sheridan' and a_annotator == 'Muskaan'):
-            p = agreement_by_pair['Sheridan and Muskaan']
-            confusion_p = confusion_matrix_pairs['Sheridan and Muskaan']
-        elif (a_annotator == 'Sheridan' and b_annotator == 'Kate') or (b_annotator == 'Sheridan' and a_annotator == 'Kate'):
-            p = agreement_by_pair['Sheridan and Kate']
-            confusion_p = confusion_matrix_pairs['Sheridan and Kate']
-        elif (a_annotator == 'Muskaan' and b_annotator == 'Kate') or (b_annotator == 'Muskaan' and a_annotator == 'Kate'):
-            p = agreement_by_pair['Muskaan and Kate']
-            confusion_p = confusion_matrix_pairs['Muskaan and Kate']
-        
-        # shift up all of the keys of the current containers so they can be appended 
-        a_current_dict = pair.get_dict_by_annotator(a_annotator)
-        b_current_dict = pair.get_dict_by_annotator(b_annotator)
-        a_shifted = {}
-        b_shifted = {}
-        try:
-            shift = max(max(p[a_annotator].keys()), max(p[b_annotator].keys()))
-        except ValueError:
-            shift = 0
-
-        for k,v in a_current_dict.items():
-            a_shifted[k + shift] = v
-        for k,v in b_current_dict.items():
-            b_shifted[k + shift] = v
-        assert(len(a_shifted) > 0 and len(b_shifted) > 0)
-
-        assert(len(p[a_annotator].keys() & a_shifted.keys()) == 0)
-        assert(len(p[b_annotator].keys() & b_shifted.keys()) == 0)
-        p[a_annotator].update(a_shifted)
-        p[b_annotator].update(b_shifted)
-
-        # for the confusion matrices, use larger_labels and smaller_labels
-        assert(len(pair.larger_labels) == len(pair.smaller_labels))
-        assert(len(confusion_p[a_annotator]) == len(confusion_p[b_annotator]))
-        confusion_p[a_annotator] += pair.get_labels_by_annotator(a_annotator)
-        confusion_p[b_annotator] += pair.get_labels_by_annotator(b_annotator)
-
+    if len(tuples) == 2: 
+       unpack_and_calculate(tuples[0], tuples[1], alpha_list)
+    elif len(tuples) == 3:
+        unpack_and_calculate(tuples[0], tuples[1], alpha_list)
+        unpack_and_calculate(tuples[0], tuples[2], alpha_list)
+        unpack_and_calculate(tuples[1], tuples[2], alpha_list)
 
 
 print("boundaries_lenient=" + str(boundaries_lenient))
@@ -564,7 +573,7 @@ plt.title('Sheridan and Muskaan - Coh Agreement')
 plt.xlabel('Sheridan')
 plt.ylabel('Muskaan')
 plt.subplots_adjust(left=0.12, right=1, top=0.958, bottom=0.13)
-plt.show()
+# plt.show()
 
 # sheridan and Kate
 m02 = confusion_matrix(confusion_matrix_pairs['Sheridan and Kate']['Sheridan'], confusion_matrix_pairs['Sheridan and Kate']['Kate'], labels=matrix_coh_rels)
@@ -575,7 +584,7 @@ plt.title('Sheridan and Kate - Coh Agreement')
 plt.xlabel('Sheridan')
 plt.ylabel('Kate')
 plt.subplots_adjust(left=0.12, right=1, top=0.958, bottom=0.13)
-plt.show()
+# plt.show()
 
 # Muskaan and Kate
 m12 = confusion_matrix(confusion_matrix_pairs['Muskaan and Kate']['Muskaan'], confusion_matrix_pairs['Muskaan and Kate']['Kate'], labels=matrix_coh_rels)
@@ -586,7 +595,7 @@ plt.title('Muskaan and Kate - Coh Agreement')
 plt.xlabel('Muskaan')
 plt.ylabel('Kate')
 plt.subplots_adjust(left=0.12, right=1, top=0.958, bottom=0.13)
-plt.show()
+# plt.show()
 
 
 

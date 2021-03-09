@@ -1,0 +1,70 @@
+The slow-motion legalization of marijuana in Florida is making locals and local authorities nervous . ##BASIC STATE //3 
+Federal officials say ##GENERIC SENTENCE (STATIC) 
+ businesses have not been complying with two federal regulations . ##COERCED STATE (GENERIC) 
+Michael Webb of Tuskegee , Alabama , farms corn and a couple dozen other crops ##GENERALIZING SENTENCE (DYNAMIC) 
+ and collects more than 50,000 meals . ##GENERALIZING SENTENCE (DYNAMIC) 
+The federal government will go take them ,  ##COERCED STATE (GENERIC) 
+ Webb said . ##BASIC STATE 
+They have no local or state tax to work with them . ##GENERIC SENTENCE (STATIC) 
+But Webbs farm needs federal approval ##BASIC STATE 
+ to grow , harvest and sell marijuana . ##UNBOUNDED EVENT (SPECIFIC) 
+A federal judge recently let the Florida law lapse ##BOUNDED EVENT (SPECIFIC) 
+ and placed restrictions on whether Dr. Judy Miles could transmit her pot clients . ##BOUNDED EVENT (SPECIFIC) 
+You dont carry your business here . ##IMPERATIVE 
+You dont even go to that different area  ##IMPERATIVE 
+ where theres people  ##GENERIC SENTENCE (STATIC) 
+ just popping up popping up , ##UNBOUNDED EVENT (GENERIC) 
+ popping up on the street , ##UNBOUNDED EVENT (GENERIC) 
+ popping up on the farm , ##UNBOUNDED EVENT (GENERIC) 
+ Webb said . ##BASIC STATE 
+A bill ##OTHER 
+ that would allow the state to legalize marijuana  ##COERCED STATE (SPECIFIC) 
+ sold at grocery stores ##GENERIC SENTENCE (DYNAMIC)
+ has ##OTHER 
+ advanced to the governors desk for a vote . ##BOUNDED EVENT (SPECIFIC) 
+We will accept a federal rule  ##COERCED STATE (GENERIC) 
+ they didnt ,  ##GENERIC SENTENCE (STATIC) 
+ Webb said . ##BASIC STATE 
+It doesnt matter  ##BASIC STATE 
+ what they do as long ##OTHER 
+ as I can keep my operation going , ##COERCED STATE (SPECIFIC) 
+ cause  ##OTHER 
+ the price is crazy . ##BASIC STATE 
+In August 2014 , ##OTHER 
+Washington State Attorney General Bob Ferguson signed a bill  ##BOUNDED EVENT (SPECIFIC) 
+ providing legal marijuana sales and tax to 6.5 million Washington consumers . ##UNBOUNDED EVENT (SPECIFIC) 
+The law allows Washington residents to purchase medical pot ##BASIC STATE 
+ and find out their daily dose ##UNBOUNDED EVENT (GENERIC)
+ if they want . ##OTHER 
+While that law is being fiercely fought over by Seattle and Portland , Ore. , ##UNBOUNDED EVENT (SPECIFIC)
+ they are also appealing laws ##UNBOUNDED EVENT (GENERIC) 
+ put into effect in Colorado and Washington state . ##BASIC STATE 
+They allow people to grow their business and a profit from it ##GENERIC SENTENCE (STATIC) 
+ and take care of their family and their horses and their children ,  ##UNBOUNDED EVENT (GENERIC) 
+ Webb said . ##BASIC STATE 
+We could have a free market as much ##COERCED STATE (GENERIC) 
+ as we are . ##GENERIC SENTENCE (STATIC) 
+Florida officials say ##GENERIC SENTENCE (STATIC)
+ they are aware of their individual state laws . ##GENERIC SENTENCE (STATIC) 
+But Webb worries about the spread of diseases  ##UNBOUNDED EVENT (SPECIFIC) 
+ that could continue to spread to his crop . ##COERCED STATE (SPECIFIC) 
+I was caught growing those weeds in my back yard ,  ##BOUNDED EVENT (SPECIFIC)
+ Webb said . ##BASIC STATE 
+There was no going back ##GENERIC SENTENCE (STATIC) 
+ and I havent taken care of that ever . ##COERCED STATE (SPECIFIC) 
+Right now ,  ##OTHER 
+Florida officials say  ##GENERIC SENTENCE (STATIC) 
+ they dont have a uniform strategy to give people pot  ##GENERIC SENTENCE (STATIC) 
+ without paying a higher tax . ##UNBOUNDED EVENT (GENERIC) 
+The U.S. government comes here legally  ##GENERALIZING SENTENCE (DYNAMIC)
+ and does a whole bunch of things , ##UNBOUNDED EVENT (GENERIC) 
+ weve got agreements in place ##PERFECT COERCED STATE (GENERIC) 
+ to set us up ##UNBOUNDED EVENT (GENERIC) 
+ and make sure ##UNBOUNDED EVENT (GENERIC)
+ we do what we can do ,  ##GENERALIZING SENTENCE (DYNAMIC) 
+ a spokeswoman for Florida Health Commissioner Dr. Martin Mota said . ##BASIC STATE 
+So some of these are assets  ##GENERIC SENTENCE (STATIC) 
+ we are able to manage with , ##GENERALIZING SENTENCE (DYNAMIC) 
+ but we dont have a uniform approach  ##GENERIC SENTENCE (STATIC) 
+ and strategy to it . ##OTHER 
+*** 0 5 5 2 4 1 4 4 YES ML YES 4 2 1 1 ALGORITHM 

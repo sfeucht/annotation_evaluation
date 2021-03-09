@@ -12,7 +12,7 @@ from clean_up_SE_coh import valid_full_SE_types
 
 # Overall macros for the file
 remove_low_confidence = False
-friedrich_palmer_mappings = False
+friedrich_palmer_mappings = True
 
 # First, extract all of the SE types and coh relations and put into containers.
 
@@ -44,13 +44,6 @@ doc_counter_2 = 0
 
 doc_counter_2 = fill_in_SE_robust(h_docs, g_docs, G_SE_container_robust, H_SE_container_robust, SE_accounted_for_2, doc_counter_2)
 
-# Agreement for SE types
-alpha_list = []
-agreement_by_pair = {
-    'Sheridan and Muskaan': {'Sheridan':[], 'Muskaan':[]}, 
-    'Sheridan and Kate': {'Sheridan':[], 'Kate':[]}, 
-    'Muskaan and Kate': {'Muskaan':[], 'Kate':[]}
-}
 
 # the SE types in Friedrich and Palmer 2015
 # along with speech acts 'question' and 'imperative'
@@ -75,6 +68,68 @@ def to_friedrich_palmer(old):
         return old
 
 
+# function that given two bundles of info about two annotator's annotations of a single doc,
+# calculates the agreement between those two docs and stores in appropriate dfs. 
+def unpack_and_calculate(tuple0, tuple1, alpha_list):
+    doc_id, a_annotator, is_human = tuple0
+    doc_idb, b_annotator, is_humanb = tuple1
+    assert(doc_id == doc_idb and is_human == is_humanb)
+
+    if is_human:
+        a_container = H_SE_container[a_annotator][doc_id] 
+        b_container = H_SE_container[b_annotator][doc_id]
+        a_container_robust = H_SE_container_robust[a_annotator][doc_id]
+        b_container_robust = H_SE_container_robust[b_annotator][doc_id]
+    else:
+        a_container = G_SE_container[a_annotator][doc_id] 
+        b_container = G_SE_container[b_annotator][doc_id]
+        a_container_robust = G_SE_container_robust[a_annotator][doc_id]
+        b_container_robust = G_SE_container_robust[b_annotator][doc_id]
+    
+    # map annotations to simpler friedrich palmer ones if necessary 
+    # print(len(a_container), len(b_container))
+    assert(len(a_container) == len(b_container))
+    if friedrich_palmer_mappings:
+        a_container = list(map(to_friedrich_palmer, a_container))
+        b_container = list(map(to_friedrich_palmer, b_container))
+    score = ka.krippendorff_alpha([a_container, b_container], metric=ka.nominal_metric, convert_items=str, missing_items='*')
+    alpha_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator]]
+
+    # concatenate onto large vectors for each pair of annotators 
+    if (a_annotator == 'Sheridan' and b_annotator == 'Muskaan') or (b_annotator == 'Sheridan' and a_annotator == 'Muskaan'):
+        p = agreement_by_pair['Sheridan and Muskaan']
+    elif (a_annotator == 'Sheridan' and b_annotator == 'Kate') or (b_annotator == 'Sheridan' and a_annotator == 'Kate'):
+        p = agreement_by_pair['Sheridan and Kate']
+    elif (a_annotator == 'Muskaan' and b_annotator == 'Kate') or (b_annotator == 'Muskaan' and a_annotator == 'Kate'):
+        p = agreement_by_pair['Muskaan and Kate']
+    p[a_annotator] += a_container
+    p[b_annotator] += b_container
+
+    # store counts of different types of disagreements in dictionary
+    for a, b in zip(a_container_robust, b_container_robust):
+        if a[0] != b[0]:
+            # store counts in disagreement_dict 
+            if (a[0] + ' ' + b[0]) in disagreement_dict.keys():
+                disagreement_dict[a[0] + ' ' + b[0]] += 1
+                key = a[0] + ' ' + b[0]
+            elif (b[0] + ' ' + a[0]) in disagreement_dict.keys():
+                disagreement_dict[b[0] + ' ' + a[0]] += 1
+                key = b[0] + ' ' + a[0]
+            else:
+                disagreement_dict[a[0] + ' ' + b[0]] = 1
+                key = a[0] + ' ' + b[0]
+            
+            # if it's one of the top 10 disagreements, dump in disagreement_full_dict
+            if key in top_10_combinations_dict.keys():
+                top_10_combinations_dict[key] += [[doc_id, a_annotator, a[0], b_annotator, b[0], b[1]]]
+
+# Agreement for SE types
+alpha_list = []
+agreement_by_pair = {
+    'Sheridan and Muskaan': {'Sheridan':[], 'Muskaan':[]}, 
+    'Sheridan and Kate': {'Sheridan':[], 'Kate':[]}, 
+    'Muskaan and Kate': {'Muskaan':[], 'Kate':[]}
+}
 disagreement_dict = {}
 top_10_combinations = [ # from running this code before
     'BASIC STATE GENERIC SENTENCE (STATIC)', 
@@ -90,67 +145,23 @@ top_10_combinations = [ # from running this code before
 ] 
 top_10_combinations_dict = {key:[] for key in top_10_combinations}
 
+# go through the shared docs and calculate agreement for each pair of annotators
+# that worked on each of the docs
 for doc_id in h_docs + g_docs:
     tuples = [t for t in SE_accounted_for if t[0]==doc_id]
-    if len(tuples) > 1: 
-        assert(len(tuples)==2)
-        _, a_annotator, is_human = tuples[0]
-        _, b_annotator, _ = tuples[1]
-
-        if is_human:
-            a_container = H_SE_container[a_annotator][doc_id] 
-            b_container = H_SE_container[b_annotator][doc_id]
-            a_container_robust = H_SE_container_robust[a_annotator][doc_id]
-            b_container_robust = H_SE_container_robust[b_annotator][doc_id]
-        else:
-            a_container = G_SE_container[a_annotator][doc_id] 
-            b_container = G_SE_container[b_annotator][doc_id]
-            a_container_robust = G_SE_container_robust[a_annotator][doc_id]
-            b_container_robust = G_SE_container_robust[b_annotator][doc_id]
-
-        
-        # map annotations to simpler friedrich palmer ones if necessary 
-        # print(len(a_container), len(b_container))
-        assert(len(a_container) == len(b_container))
-        if friedrich_palmer_mappings:
-            a_container = list(map(to_friedrich_palmer, a_container))
-            b_container = list(map(to_friedrich_palmer, b_container))
-        score = ka.krippendorff_alpha([a_container, b_container], metric=ka.nominal_metric, convert_items=str, missing_items='*')
-        alpha_list += [[doc_id, 'human' if is_human else 'grover', score, a_annotator, b_annotator]]
-
-        # concatenate onto large vectors for each pair of annotators 
-        if (a_annotator == 'Sheridan' and b_annotator == 'Muskaan') or (b_annotator == 'Sheridan' and a_annotator == 'Muskaan'):
-            p = agreement_by_pair['Sheridan and Muskaan']
-        elif (a_annotator == 'Sheridan' and b_annotator == 'Kate') or (b_annotator == 'Sheridan' and a_annotator == 'Kate'):
-            p = agreement_by_pair['Sheridan and Kate']
-        elif (a_annotator == 'Muskaan' and b_annotator == 'Kate') or (b_annotator == 'Muskaan' and a_annotator == 'Kate'):
-            p = agreement_by_pair['Muskaan and Kate']
-        p[a_annotator] += a_container
-        p[b_annotator] += b_container
-
-        # store counts of different types of disagreements in dictionary
-        for a, b in zip(a_container_robust, b_container_robust):
-            if a[0] != b[0]:
-                # store counts in disagreement_dict 
-                if (a[0] + ' ' + b[0]) in disagreement_dict.keys():
-                    disagreement_dict[a[0] + ' ' + b[0]] += 1
-                    key = a[0] + ' ' + b[0]
-                elif (b[0] + ' ' + a[0]) in disagreement_dict.keys():
-                    disagreement_dict[b[0] + ' ' + a[0]] += 1
-                    key = b[0] + ' ' + a[0]
-                else:
-                    disagreement_dict[a[0] + ' ' + b[0]] = 1
-                    key = a[0] + ' ' + b[0]
-                
-                # if it's one of the top 10 disagreements, dump in disagreement_full_dict
-                if key in top_10_combinations_dict.keys():
-                    top_10_combinations_dict[key] += [[doc_id, a_annotator, a[0], b_annotator, b[0], b[1]]]
+    if len(tuples) == 2: #0, 1
+        unpack_and_calculate(tuples[0], tuples[1], alpha_list)
+    elif len(tuples) == 3: #0, 1, 2
+        unpack_and_calculate(tuples[0], tuples[1], alpha_list)
+        unpack_and_calculate(tuples[0], tuples[2], alpha_list)
+        unpack_and_calculate(tuples[1], tuples[2], alpha_list)
 
 
 ## AGREEMENT METRICS 
-
+print("remove_low_confidence=" + str(remove_low_confidence))
+print("friedrich_palmer_mappings=" + str(friedrich_palmer_mappings))
 alpha_scores = pd.DataFrame(alpha_list, columns=['doc_id', 'type', 'kripp_alpha', 'a_annotator', 'b_annotator'])
-print(alpha_scores.sort_values('kripp_alpha'))
+print(alpha_scores.sort_values('doc_id'))
 print("overall mean alpha score: ", alpha_scores['kripp_alpha'].mean())
 print("human mean alpha score: ", alpha_scores[(alpha_scores['type'] == 'human')]['kripp_alpha'].mean())
 print("grover mean alpha score: ", alpha_scores[(alpha_scores['type'] == 'grover')]['kripp_alpha'].mean())
