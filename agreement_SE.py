@@ -12,7 +12,7 @@ from clean_up_SE_coh import valid_full_SE_types
 
 # Overall macros for the file
 remove_low_confidence = False
-friedrich_palmer_mappings = True
+friedrich_palmer_mappings = False
 
 # First, extract all of the SE types and coh relations and put into containers.
 

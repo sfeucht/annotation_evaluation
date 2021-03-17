@@ -17,7 +17,7 @@ PTSD is considered a mental health condition  ##GENERIC SENTENCE (STATIC)
  linked to a terrifying event . ##GENERIC SENTENCE (STATIC) 
 Since Michigan voters approved it in 2008 ,  ##BOUNDED EVENT (GENERIC) 
  marijuana typically has been used  ##COERCED STATE (GENERIC) 
- to relieve the side effects of cancer , glaucoma , HIV , hepatitis C and a few other conditions . ##UNBOUNDED EVENT (STATIC) 
+ to relieve the side effects of cancer , glaucoma , HIV , hepatitis C and a few other conditions . ##UNBOUNDED EVENT (GENERIC) 
 PTSD is the first condition to be added to the original list ,  ##BASIC STATE 
  although seven other states allow doctors to recommend marijuana ##BASIC STATE 
  to treat the disorder . ##GENERIC SENTENCE (DYNAMIC) 

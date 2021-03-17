@@ -15,7 +15,7 @@ boundaries_lenient = True
 ignore_elab_disagreements = True
 elab_blobs_on = True
 remove_low_confidence = True
-confusion_matrix_simple = False
+confusion_matrix_simple = True
 
 # First, extract all of the SE types and coh relations and put into containers.
 
