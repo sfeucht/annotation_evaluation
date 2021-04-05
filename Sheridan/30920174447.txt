@@ -54,4 +54,4 @@ The next time ##OTHER
 you're travelling, ##UNBOUNDED EVENT (GENERIC)
 don't smoke weed like a toad. ##IMPERATIVE
 Read more about lobbying and organizing against the ban in the report below: ##IMPERATIVE
-***0 4 2 0 YES ML NO UNCLEAR 2 3 3 2 ALGORITHM
+***0 4 2 0 0 0 0 0 YES ML NO UNCLEAR 2 3 3 2 ALGORITHM
