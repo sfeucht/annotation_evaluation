@@ -176,6 +176,13 @@ del types_and_counts1['PERFECT COERCED STATE (SPECIFIC)']
 del types_and_counts0['PERFECT COERCED STATE (GENERIC)']
 del types_and_counts1['PERFECT COERCED STATE (GENERIC)']
 
+del types_and_counts0['examp']
+del types_and_counts1['examp']
+del types_and_counts0['gen']
+del types_and_counts1['gen']
+del types_and_counts0['QUESTION']
+del types_and_counts1['QUESTION']
+
 
 items0 = sorted(list(types_and_counts0.items()), key=lambda t: t[0])
 keys0 = [t[0] for t in items0]
@@ -191,13 +198,10 @@ keys0[keys0.index('BASIC STATE')] = 'Basic State'
 keys0[keys0.index('BOUNDED EVENT')] = 'Bounded Event'
 keys0[keys0.index('COERCED STATE')] = 'Coerced State'
 keys0[keys0.index('GENERIC SENTENCE')] = 'Generic Sentence'
-keys0[keys0.index('QUESTION')] = 'Question'
 keys0[keys0.index('attr')] = 'Attribution'
 keys0[keys0.index('ce')] = 'Cause-effect'
 keys0[keys0.index('cond')] = 'Condition'
 keys0[keys0.index('contr')] = 'Contrast'
-keys0[keys0.index('examp')] = 'Example'
-keys0[keys0.index('gen')] = 'Generalization'
 keys0[keys0.index('sim')] = 'Similarity'
 keys0[keys0.index('temp')] = 'Temporal Sequence'
 keys0[keys0.index('ve')] = 'Violated Expectation'
