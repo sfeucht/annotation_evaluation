@@ -4,10 +4,15 @@ from time import time
 from sklearn import metrics
 import matplotlib.pyplot as plt
 from sklearn.datasets import make_blobs
-import seaborn as sn
+import seaborn as sns
+import pandas as pd
+from collections import Counter
 
 ids = [241120231445, 241120231451, 80521230830, 51020131203, 51020131150, 241120225341, 241120225355, 51020131146, 6104, 80521231127, 80521231255, 51020131157, 2945, 80521231042, 241120225347, 80521231054, 51020131154, 80521231647, 80521231350, 80521231423, 50121173515, 50121172353, 50121173059, 50121172347, 170321174903, 170321174917, 170321174901, 170321174915, 50121173259, 50121173517, 50121173311, 50421175407, 50121173112, 80521230925, 50421174917, 80521231636, 170321175405, 241120225337, 7321, 170321175401, 80521230841, 291220224405, 50121173301, 291020230444, 50121172341, 170321174905, 80521231551, 170321174907, 50121172357, 50121173511, 50121173303, 50121173101, 20741, 91120113038, 170321175359, 170321175403, 80521231211, 50121173509, 50121173521, 291020230502, 291220224351, 91120113020, 170321175357, 91120113022, 80521231602, 291220224353, 291220224347, 50121173523, 291020230448, 170321174909, 170321175346, 50121172349, 50121173527, 291020230458, 291020230504, 80521230914, 170321175353, 241120225339, 170321175351, 91120113030, 291220224355, 50121173120, 50121173109, 50121173519, 170321175344, 91120113042, 80521231138, 291220224327, 80521231306, 80521230958, 241120231505, 80521231339, 17142, 241120231507, 291220224331, 91120113040, 241120225359, 291220224335, 241120231503, 80521231507, 241120231501, 291220224337, 501211723551, 2411202314491, 2912202243290, 805212314450, 241120225343, 241120225357, 291220224339, 241120231447, 241120231453, 241120231457, 51020131205, 241120225351, 241120225345, 241120225353, 80521231518, 29666, 241120231455, 170321175407, 291220224403, 291220224359, 50121173105, 50121173307, 50121172351, 50121172345, 50121173305, 50121173107, 291220224401, 80521231222, 11776, 50121173116, 50421174913, 50121173103, 170321174859, 50121173315, 50121173507, 50121173513, 80521231009, 170321174911, 50121172343, 50121173114, 291220224407, 291220224349, 24432, 50121173118, 291220224345, 91120113034, 50421174857, 50121173319, 291020230500, 50121172359, 170321174919, 50121173309, 291220224343, 291220224357, 91120113032, 91120113026, 291220224341, 50121173257, 291220224333, 241120231459, 241120225349, 6518, 51020131152, 51020131144, 501211723550, 2411202314490, 2912202243291, 805212314451, 51020131142, 91120113028, 291020230442, 291020230450, 50121172355, 291020230452, 91120113036, 22886, 41729, 51020131148]
 id_to_index = dict(zip(ids, range(len(ids))))
+
+narratives = [0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0]
+arguments = [1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0]
 
 all_matrix = {
     'BOUNDED EVENT (SPECIFIC)' : [2, 11, 0, 0, 0, 11, 19, 0, 2, 3, 0, 5, 0, 2, 9, 0, 1, 0, 0, 3, 2, 15, 3, 1, 10, 38, 8, 6, 18, 3, 10, 7, 19, 0, 6, 7, 36, 8, 0, 1, 1, 1, 10, 9, 13, 6, 3, 3, 11, 17, 12, 9, 2, 2, 2, 2, 1, 0, 7, 8, 1, 9, 3, 1, 4, 0, 1, 5, 6, 0, 20, 7, 21, 20, 15, 2, 2, 9, 2, 4, 1, 9, 17, 3, 5, 24, 10, 7, 0, 0, 30, 3, 0, 18, 0, 16, 9, 3, 6, 0, 12, 1, 12, 33, 8, 0, 7, 28, 3, 9, 11, 7, 0, 9, 5, 13, 0, 0, 7, 7, 0, 3, 9, 24, 6, 8, 1, 22, 8, 0, 0, 27, 9, 8, 13, 45, 42, 2, 2, 24, 45, 14, 0, 0, 0, 39, 5, 21, 1, 11, 10, 12, 8, 3, 0, 1, 9, 5, 1, 0, 3, 5, 1, 0, 2, 0, 10, 33, 8, 0, 0, 13, 4, 23, 9, 3, 17, 0, 0, 0],
@@ -67,49 +72,165 @@ clusterer.fit(X_full)
 
 labels_probs = list(zip(clusterer.labels_, clusterer.probabilities_))
 id_labels_probs = dict(zip(ids, labels_probs))
-print('labels: ', labels_probs)
+# print('labels: ', labels_probs)
 print('number of docs in clusters: ', len([t for t in labels_probs if t[0]!=-1]))
 
 print('clusters: ', set(clusterer.labels_))
 cluster_0 = {k:v for k,v in id_labels_probs.items() if v[0]==0} 
 cluster_1 = {k:v for k,v in id_labels_probs.items() if v[0]==1} 
 
-cluster_0_nonzero = []
+#cluster_0 ::= {doc_id : [(bounded event, 3), (basic state, 1)])
+
+narrarg = list(zip(narratives, arguments))
+
+cluster0_narrarg = []
+for doc_id in cluster_0.keys():
+    index = id_to_index[doc_id]
+    cluster0_narrarg.append(narrarg[index])
+print(Counter(cluster0_narrarg).most_common(6))
+
+cluster1_narrarg = []
+for doc_id in cluster_1.keys():
+    index = id_to_index[doc_id]
+    cluster1_narrarg.append(narrarg[index])
+print(Counter(cluster1_narrarg).most_common(6)) #((1,0),3) means there are three docs with just narrative
+
+
+cluster_0_ann = []
 for doc_id in cluster_0.keys():
     vector = []
     index = id_to_index[doc_id]
     for k,v in all_matrix.items():
-        if v[index] > 0:
+        if v[index] >= 0:
             vector.append((k, v[index]))
-    cluster_0_nonzero.append(vector)
+    cluster_0_ann.append(vector)
 
-cluster_1_nonzero = []
+cluster_1_ann = []
 for doc_id in cluster_1.keys():
     vector = []
     index = id_to_index[doc_id]
     for k,v in all_matrix.items():
-        if v[index] > 0:
+        if v[index] >= 0:
             vector.append((k, v[index]))
-    cluster_1_nonzero.append(vector)
+    cluster_1_ann.append(vector)
 
-print(cluster_0_nonzero)
-print(cluster_1_nonzero)
+# print(cluster_0_ann) # [[(basic state, 3), (coerced state, 5)], [(basic state, 2), (coerced state, 0)]]
+# print(cluster_1_ann)
 
-## TODO see if the narrative/argument ratings match with the clusters? 
 
-## TODO is this like... a good plot? 
-print(clusterer.condensed_tree_.to_pandas().head())
-clusterer.condensed_tree_.plot(select_clusters=True)
+## Sum up counts of each type for each cluster 
+## I know this is not the most space/time efficient way but yeah
+types_and_counts0 = {}
+for l in cluster_0_ann:
+    for t in l:
+        if t[0] in types_and_counts0.keys():
+            types_and_counts0[t[0]] += t[1]
+        else:
+            types_and_counts0[t[0]] = t[1]
+
+types_and_counts1 = {}
+for l in cluster_1_ann:
+    for t in l:
+        if t[0] in types_and_counts1.keys():
+            types_and_counts1[t[0]] += t[1]
+        else:
+            types_and_counts1[t[0]] = t[1]
+
+# print(types_and_counts0) # {annotation: count}
+
+## select which columns to show, merge some
+types_and_counts0['BOUNDED EVENT'] = types_and_counts0['BOUNDED EVENT (SPECIFIC)'] + types_and_counts0['BOUNDED EVENT (GENERIC)']
+types_and_counts1['BOUNDED EVENT'] = types_and_counts1['BOUNDED EVENT (SPECIFIC)'] + types_and_counts1['BOUNDED EVENT (GENERIC)']
+del types_and_counts0['BOUNDED EVENT (SPECIFIC)']
+del types_and_counts0['BOUNDED EVENT (GENERIC)']
+del types_and_counts1["BOUNDED EVENT (SPECIFIC)"]
+del types_and_counts1["BOUNDED EVENT (GENERIC)"]    
+
+types_and_counts0['COERCED STATE'] = types_and_counts0['COERCED STATE (SPECIFIC)'] + types_and_counts0['COERCED STATE (GENERIC)']
+types_and_counts1['COERCED STATE'] = types_and_counts1['COERCED STATE (SPECIFIC)'] + types_and_counts1['COERCED STATE (GENERIC)']
+del types_and_counts0['COERCED STATE (SPECIFIC)']
+del types_and_counts0['COERCED STATE (GENERIC)']
+del types_and_counts1["COERCED STATE (SPECIFIC)"]
+del types_and_counts1["COERCED STATE (GENERIC)"]    
+
+types_and_counts0['GENERIC SENTENCE'] = types_and_counts0['GENERIC SENTENCE (STATIC)'] + types_and_counts0['GENERIC SENTENCE (DYNAMIC)'] + types_and_counts0['GENERIC SENTENCE (HABITUAL)']
+types_and_counts1['GENERIC SENTENCE'] = types_and_counts1['GENERIC SENTENCE (STATIC)'] + types_and_counts1['GENERIC SENTENCE (DYNAMIC)'] + types_and_counts1['GENERIC SENTENCE (HABITUAL)']
+del types_and_counts0['GENERIC SENTENCE (STATIC)']
+del types_and_counts0['GENERIC SENTENCE (DYNAMIC)']
+del types_and_counts0['GENERIC SENTENCE (HABITUAL)']
+del types_and_counts1['GENERIC SENTENCE (STATIC)']
+del types_and_counts1['GENERIC SENTENCE (DYNAMIC)']
+del types_and_counts1['GENERIC SENTENCE (HABITUAL)']   
+
+del types_and_counts0['UNBOUNDED EVENT (SPECIFIC)']
+del types_and_counts1['UNBOUNDED EVENT (SPECIFIC)']
+del types_and_counts0['elab']
+del types_and_counts1['elab']
+del types_and_counts0['GENERALIZING SENTENCE (DYNAMIC)']
+del types_and_counts1['GENERALIZING SENTENCE (DYNAMIC)']
+
+del types_and_counts0['PERFECT COERCED STATE (SPECIFIC)']
+del types_and_counts1['PERFECT COERCED STATE (SPECIFIC)']
+del types_and_counts0['PERFECT COERCED STATE (GENERIC)']
+del types_and_counts1['PERFECT COERCED STATE (GENERIC)']
+
+
+items0 = sorted(list(types_and_counts0.items()), key=lambda t: t[0])
+keys0 = [t[0] for t in items0]
+values0 = [t[1] for t in items0]
+
+items1 = sorted(list(types_and_counts1.items()), key=lambda t: t[0])
+keys1 = [t[0] for t in items1]
+values1 = [t[1] for t in items1]
+
+assert(keys0 == keys1)
+
+keys0[keys0.index('BASIC STATE')] = 'Basic State'
+keys0[keys0.index('BOUNDED EVENT')] = 'Bounded Event'
+keys0[keys0.index('COERCED STATE')] = 'Coerced State'
+keys0[keys0.index('GENERIC SENTENCE')] = 'Generic Sentence'
+keys0[keys0.index('QUESTION')] = 'Question'
+keys0[keys0.index('attr')] = 'Attribution'
+keys0[keys0.index('ce')] = 'Cause-effect'
+keys0[keys0.index('cond')] = 'Condition'
+keys0[keys0.index('contr')] = 'Contrast'
+keys0[keys0.index('examp')] = 'Example'
+keys0[keys0.index('gen')] = 'Generalization'
+keys0[keys0.index('sim')] = 'Similarity'
+keys0[keys0.index('temp')] = 'Temporal Sequence'
+keys0[keys0.index('ve')] = 'Violated Expectation'
+
+## Plotting both cluster distributions
+
+x = np.arange(len(keys0))  # the label locations
+width = 0.35  # the width of the bars
+fig, ax = plt.subplots()
+rects1 = ax.bar(x - width/2, values0, width, label='Cluster 1  ("Narratives")', color='#B0251A', alpha=0.85)
+rects2 = ax.bar(x + width/2, values1, width, label='Cluster 2 ("Arguments")', color='#4a372b', alpha=0.85) #F6C851
+
+# Add some text for labels, title and custom x-axis tick labels, etc.
+ax.set_ylabel('Number of Annotations in Cluster', fontsize=15, fontweight='black', color = '#333F4B')
+ax.set_xlabel('Annotation Type', fontsize=15, fontweight='black', color = '#333F4B')
+# ax.set_title('Comparison of Cluster Annotations')
+
+fig.tight_layout()
+plt.subplots_adjust(left=0.1, right=0.95, top=0.958, bottom=0.25)
+
+# plt.vlines(x=my_range, ymin=0, ymax=df['percentage'], color='#FF005C', alpha=0.2, linewidth=5)
+# plt.plot(my_range, df['percentage'], "o", markersize=5, color='#FF005C', alpha=0.6)
+# ax.tick_params(axis='both', which='major', labelsize=12)
+
+# change the style of the axis spines
+ax.spines['top'].set_visible(False)
+ax.spines['right'].set_visible(False)
+
+ax.spines['left'].set_bounds((0, 100))
+ax.spines['bottom'].set_bounds((-1, len(keys0)))
+
+ax.spines['left'].set_position(('outward', 8))
+ax.spines['bottom'].set_position(('outward', 5))
+
+plt.xticks(x, keys0, rotation=45, ha='right')
+ax.legend(fontsize=12)
+
 plt.show()
-
-# color_palette = sn.color_palette('deep', 8)
-# cluster_colors = [color_palette[x] if x >= 0
-#                   else (0.5, 0.5, 0.5)
-#                   for x in clusterer.labels_]
-# cluster_member_colors = [sn.desaturate(x, p) for x, p in
-#                          zip(cluster_colors, clusterer.probabilities_)]
-# plt.scatter(*X_full.T, s=50, linewidth=0, c=cluster_member_colors, alpha=0.25)
-
-## POSSIBLE TODO
-# - try merging BOUNDED EVENT (SPECIFIC/GENERIC)
-# - try making the clusterer more lenient, include more docs
