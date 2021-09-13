@@ -176,7 +176,7 @@ def p_of_nar_correlation_calculator(Doc_container, SE_container): # uses both of
     return
 
 #Uncomment for grover results
-print(p_of_nar_correlation_calculator(G_Doc_container, G_SE_container))
+#print(p_of_nar_correlation_calculator(G_Doc_container, G_SE_container))
 #based on 180 grover documents
 
 #Uncomment for GPT-3 results
