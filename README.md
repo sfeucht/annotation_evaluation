@@ -1,10 +1,12 @@
 # annotation_evaluation
 
-Guide to the files and folders in this corpus:
+Visit this link to access the complete corpus of annotated documents: https://drive.google.com/drive/u/1/folders/13gOFgg6cp8tQSXezj-cwML6iNn3SzU99
 
-Folders 0, 1, and 2 are annotator folders. Each folder contains the documents annotated by each annotator,
+In this corpus, folders 0, 1, and 2 are annotator folders. Each folder contains the documents annotated by each annotator,
 named here as annotator 0, 1, or 2. Files ending in .txt contain annotations for situation entities and document
 level ratings, while files ending in .txt-annotation contain annotations for coherence relations.
+
+Guide to the files and folders on GitHub:
 
 Files beginning with 1. provide important background for the project.
 
