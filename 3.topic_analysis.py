@@ -1,5 +1,5 @@
-# produces correlations for frequency of topic words vs narrative presence (line #), topic vs argument presence (#)
-# topic vs narrative quality measures (#), and topic vs argument quality measures (#)
+# produces correlations for frequency of topic words vs narrative presence (line 192), topic vs argument presence (289)
+# topic vs narrative quality measures (386), and topic vs argument quality measures (494)
 
 import csv
 import re
@@ -184,19 +184,7 @@ def generate_domain_dict(info_file): # produces a dict that records doc IDs and 
             domain_dict[int(id)] = domain
             domains.remove(domain)
             break
-
-    del domain_dict[50121172355] # FOR BABAK: this is old code that dealt with duplicates... can delete now that we have annotator tags?
-    domain_dict[501211723551] = 'washingtonpost.com'
-    domain_dict[501211723550] = 'washingtonpost.com'
-
-    del domain_dict[241120231449]
-    domain_dict[2411202314491] = 'foxnews.com'
-    domain_dict[2411202314490] = 'foxnews.com'
-
-    del domain_dict[291220224329]
-    domain_dict[2912202243291] = 'reddit.com/r/news'
-    domain_dict[2912202243290] = 'reddit.com/r/news'
-
+            
     return domain_dict
 
 domain_dictionary = generate_domain_dict(info)
