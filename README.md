@@ -2,9 +2,7 @@
 
 Visit this link to access the complete corpus of annotated documents: https://drive.google.com/drive/u/1/folders/13gOFgg6cp8tQSXezj-cwML6iNn3SzU99
 
-In this corpus, folders 0, 1, and 2 are annotator folders. Each folder contains the documents annotated by each annotator,
-named here as annotator 0, 1, or 2. Files ending in .txt contain annotations for situation entities and document
-level ratings, while files ending in .txt-annotation contain annotations for coherence relations.
+In this corpus, folders 0, 1, and 2 contain the documents annotated by each annotator, named here as annotator 0, 1, or 2. Files ending in .txt contain annotations for situation entities and document level ratings, while files ending in .txt-annotation contain annotations for coherence relations. More information about the annotation process can be found in the documents titled Annotation Manual and Additional Annotation Instructions.
 
 Guide to the files and folders on GitHub:
 
@@ -12,7 +10,7 @@ Files beginning with 1. provide important background for the project.
 
 I) annotation_key provides an example document-level annotation and breaks down what each number means.
 II) annotator_profiles provides demographic information about the annotators that worked on this project.
-III) info.csv lists every annotated document's ID, the date it was annotated, what type of document it is (human,
+III) document_metadata.csv lists every annotated document's ID, the date it was annotated, what type of document it is (human,
 grover, or davinci), what website it comes from, and who it was annotated by.
 
 Files beginning with 2. contain code for the analyses performed on the data collected from the annotated documents.
