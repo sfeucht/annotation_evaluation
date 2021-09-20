@@ -1,0 +1,18 @@
+Files beginning with 3. contain old analysis code that was not used in the final evaluation.
+
+I) topic_analysis.py contains code that calculates correlations between the frequency of words belonging to various
+topic clusters and narrative/ argument presence as well as narrative/ argument quality measures.
+II) 150 topics model - Sheet1.csv provides the list of names for the news topics when they are broken into 150
+categories, whereas 250 topics model - Sheet1.csv provides the list of names for the 250 news topic model.
+III) news_Ali_150_wc_not_normalized.csv contains the count of words related to each topic cluster found in each document
+when 150 news topics are used. news_Ali_250_wc_not_normalized.csv holds the same information for the 250 news topic
+model.
+IV) news_wc_not_normalized.csv contains the same information for the original 50 news topic model.
+reddit_wc_not_normalized.csv contains the same information, but for reddit topics.
+V) Aggregator contains older code for comparing the count of situation entity and coherence relation tags across
+grover and human documents. Measures like maximum lengths of relations are also calculated and presented on plots.
+VI) incoherent_SE_analysis.py provides code that compares the proportion that each SE type takes up of SE types
+that are associated with coherent vs incoherent coherence relations (among Grover documents)
+VII) Smith_test.py and Smith_test_dec30.py contain old developer code for relating situation entities and coherence
+relations to discourse modes and document quality.
+
