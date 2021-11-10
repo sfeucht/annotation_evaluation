@@ -1,6 +1,7 @@
 Accompanying resources for  
 **Babak Hemmatian, Sheridan Feucht, Rachel Avram, Alexander Wey, Muskaan Garg, Kate Spitalnic
-Carsten Eickhoff, Ellie Pavlick, Bjorn Sandstede, Steven Sloman. 2021. A Novel Corpus of Discourse Structure in Humans and Computers. In the 2nd Workshop on Computational Approaches to Discourse at EMNLP 2021.**
+Carsten Eickhoff, Ellie Pavlick, Bjorn Sandstede, Steven Sloman. 2021. A Novel Corpus of Discourse Structure in Humans and Computers. In the 2nd Workshop on Computational Approaches to Discourse at EMNLP 2021.**  
+
 See extended_abstract.pdf for the conference submission (arxiv link forthcoming)
 
 **Corpus access**
