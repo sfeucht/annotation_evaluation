@@ -1,13 +1,15 @@
-Accompanying resources for
+Accompanying resources for  
 **Babak Hemmatian, Sheridan Feucht, Rachel Avram, Alexander Wey, Muskaan Garg, Kate Spitalnic
 Carsten Eickhoff, Ellie Pavlick, Bjorn Sandstede, Steven Sloman. 2021. A Novel Corpus of Discourse Structure in Humans and Computers. In the 2nd Workshop on Computational Approaches to Discourse at EMNLP 2021.**
 See extended_abstract.pdf for the conference submission (arxiv link forthcoming)
+
+**Corpus access**
 
 Visit this link to access the complete corpus of annotated documents: https://drive.google.com/drive/u/1/folders/13gOFgg6cp8tQSXezj-cwML6iNn3SzU99
 
 In this corpus, folders 0, 1, and 2 contain the documents annotated by each annotator, named here as annotator 0, 1, or 2. Files ending in .txt contain annotations for situation entities and document level ratings, while files ending in .txt-annotation contain annotations for coherence relations. More information about the annotation process can be found in the documents titled Annotation Manual and Additional Annotation Instructions.
 
-Guide to the files and folders on GitHub:
+**Guide to the files and folders on GitHub:**
 
 Files beginning with 1. provide important background for the project.
 
