@@ -2,7 +2,9 @@ Accompanying resources for
 **Babak Hemmatian, Sheridan Feucht, Rachel Avram, Alexander Wey, Muskaan Garg, Kate Spitalnic
 Carsten Eickhoff, Ellie Pavlick, Bjorn Sandstede, Steven Sloman. 2021. A Novel Corpus of Discourse Structure in Humans and Computers. In the 2nd Workshop on Computational Approaches to Discourse at EMNLP 2021.**  
 
-See extended_abstract.pdf for the conference submission (arxiv link forthcoming)
+See extended_abstract.pdf for the conference submission (arxiv link forthcoming)  
+
+More details about procedures and evaluation can be found in Chapter 4 of this dissertation: https://www.researchgate.net/publication/356109604_Taking_the_High_Road_A_Big_Data_Investigation_of_Natural_Discourse_in_the_Emerging_US_Consensus_about_Marijuana_Legalization
 
 **Corpus access**
 
