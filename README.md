@@ -14,14 +14,14 @@ In this corpus, folders 0, 1, and 2 contain the documents annotated by each anno
 
 **Guide to the files and folders on GitHub:**
 
-Files beginning with 1. provide important background for the project.
+**Files beginning with 1.** provide important background for the project.
 
 I) annotation_key provides an example document-level annotation and breaks down what each number means.
 II) annotator_profiles provides demographic information about the annotators that worked on this project.
 III) document_metadata.csv lists every annotated document's ID, the date it was annotated, what type of document it is (human,
 grover, or davinci), what website it comes from, and who it was annotated by.
 
-Files beginning with 2. contain code for the analyses performed on the data collected from the annotated documents.
+**Files beginning with 2.** contain code for the analyses performed on the data collected from the annotated documents.
 
 I) avg_COH_count.py produces a graph of the average per-document count for each coherence relation type, comparing
 grover and human numbers.
@@ -41,10 +41,10 @@ IX) number_of_COH_analysis.py calculates the correlation between the number of c
 argument presence as well as narrative/ argument quality measures.
 X) clean_up_SE_coh.py, extract_annotations.py, and get-pip.py provide support code for these analyses.
 
-Files beginning with 3. contain old analysis code that was not used in the final evaluation. See readme file within
+**Files beginning with 3.** contain old analysis code that was not used in the final evaluation. See readme file within
 relevant folder.
 
-Folders and files beginning with 4. are related to corpus development.
+**Folders and files beginning with 4.** are related to corpus development.
 
 I) 100_coh_disagreements and 100_se_disagreements list 100 examples of the most common coherence relation and situation
 entity pairs that the annotators disagreed on.
