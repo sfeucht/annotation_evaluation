@@ -4,11 +4,11 @@ Carsten Eickhoff, Ellie Pavlick, Bjorn Sandstede, Steven Sloman. 2021. A Novel C
 
 See extended_abstract.pdf for the conference submission (arxiv link forthcoming)  
 
-More details about procedures and evaluation can be found in Chapter 4 of this dissertation: https://www.researchgate.net/publication/356109604_Taking_the_High_Road_A_Big_Data_Investigation_of_Natural_Discourse_in_the_Emerging_US_Consensus_about_Marijuana_Legalization
+More details about procedures and evaluation can be found in Chapter 4 of [this](https://www.researchgate.net/publication/356109604_Taking_the_High_Road_A_Big_Data_Investigation_of_Natural_Discourse_in_the_Emerging_US_Consensus_about_Marijuana_Legalization) dissertation.
 
 **Corpus access**
 
-Visit this link to access the complete corpus of annotated documents: https://drive.google.com/drive/u/1/folders/13gOFgg6cp8tQSXezj-cwML6iNn3SzU99
+Visit [this](https://drive.google.com/drive/folders/1mKF0tSc06ZEw4tMHbhO4OEqfeWKghErE) link to access the complete corpus of annotated documents.
 
 In this corpus, folders 0, 1, and 2 contain the documents annotated by each annotator, named here as annotator 0, 1, or 2. Files ending in .txt contain annotations for situation entities and document level ratings, while files ending in .txt-annotation contain annotations for coherence relations. More information about the annotation process can be found in the documents titled Annotation Manual and Additional Annotation Instructions.
 
